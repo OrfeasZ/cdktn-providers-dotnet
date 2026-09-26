@@ -33,6 +33,30 @@ namespace cloudflare.DataCloudflareZeroTrustList
         {
         }
 
+        [JsiiMethod(name: "resetDirection")]
+        public virtual void ResetDirection()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetFilter")]
+        public virtual void ResetFilter()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetOrderBy")]
+        public virtual void ResetOrderBy()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSearch")]
+        public virtual void ResetSearch()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetType")]
         public virtual void ResetType()
         {
@@ -40,10 +64,66 @@ namespace cloudflare.DataCloudflareZeroTrustList
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "directionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DirectionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "filterInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? FilterInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "orderByInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? OrderByInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "searchInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SearchInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "typeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? TypeInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Direction
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "filter", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Filter
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "orderBy", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OrderBy
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "search", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Search
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]

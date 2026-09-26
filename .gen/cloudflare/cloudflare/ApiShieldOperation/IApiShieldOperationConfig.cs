@@ -11,7 +11,7 @@ namespace cloudflare.ApiShieldOperation
         /// <remarks>
         /// This will further be Cloudflare-normalized upon insertion. See: https://developers.cloudflare.com/rules/normalization/how-it-works/.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/api_shield_operation#endpoint ApiShieldOperation#endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/api_shield_operation#endpoint ApiShieldOperation#endpoint}
         /// </remarks>
         [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}")]
         string Endpoint
@@ -21,7 +21,7 @@ namespace cloudflare.ApiShieldOperation
 
         /// <summary>RFC3986-compliant host.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/api_shield_operation#host ApiShieldOperation#host}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/api_shield_operation#host ApiShieldOperation#host}
         /// </remarks>
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
         string Host
@@ -31,7 +31,7 @@ namespace cloudflare.ApiShieldOperation
 
         /// <summary>The HTTP method used to access the endpoint. Available values: "GET", "POST", "HEAD", "OPTIONS", "PUT", "DELETE", "CONNECT", "PATCH", "TRACE".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/api_shield_operation#method ApiShieldOperation#method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/api_shield_operation#method ApiShieldOperation#method}
         /// </remarks>
         [JsiiProperty(name: "method", typeJson: "{\"primitive\":\"string\"}")]
         string Method
@@ -41,12 +41,45 @@ namespace cloudflare.ApiShieldOperation
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/api_shield_operation#zone_id ApiShieldOperation#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/api_shield_operation#zone_id ApiShieldOperation#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
         {
             get;
+        }
+
+        /// <summary>Add feature(s) to the results.</summary>
+        /// <remarks>
+        /// The feature name that is given here corresponds to the resulting feature object. Have a look at the top-level object description for more details on the specific meaning.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/api_shield_operation#feature ApiShieldOperation#feature}
+        /// </remarks>
+        [JsiiProperty(name: "feature", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string[]? Feature
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>When true, includes OpenAPI schemas (both uploaded and learned) for the operation in the response.</summary>
+        /// <remarks>
+        /// Due to the conversion overhead, this parameter is only supported on single-operation retrieval.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/api_shield_operation#with_schemas ApiShieldOperation#with_schemas}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "withSchemas", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        object? WithSchemas
+        {
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IApiShieldOperationConfig), fullyQualifiedName: "cloudflare.apiShieldOperation.ApiShieldOperationConfig")]
@@ -60,7 +93,7 @@ namespace cloudflare.ApiShieldOperation
             /// <remarks>
             /// This will further be Cloudflare-normalized upon insertion. See: https://developers.cloudflare.com/rules/normalization/how-it-works/.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/api_shield_operation#endpoint ApiShieldOperation#endpoint}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/api_shield_operation#endpoint ApiShieldOperation#endpoint}
             /// </remarks>
             [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string Endpoint
@@ -70,7 +103,7 @@ namespace cloudflare.ApiShieldOperation
 
             /// <summary>RFC3986-compliant host.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/api_shield_operation#host ApiShieldOperation#host}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/api_shield_operation#host ApiShieldOperation#host}
             /// </remarks>
             [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
             public string Host
@@ -80,7 +113,7 @@ namespace cloudflare.ApiShieldOperation
 
             /// <summary>The HTTP method used to access the endpoint. Available values: "GET", "POST", "HEAD", "OPTIONS", "PUT", "DELETE", "CONNECT", "PATCH", "TRACE".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/api_shield_operation#method ApiShieldOperation#method}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/api_shield_operation#method ApiShieldOperation#method}
             /// </remarks>
             [JsiiProperty(name: "method", typeJson: "{\"primitive\":\"string\"}")]
             public string Method
@@ -90,12 +123,39 @@ namespace cloudflare.ApiShieldOperation
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/api_shield_operation#zone_id ApiShieldOperation#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/api_shield_operation#zone_id ApiShieldOperation#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId
             {
                 get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Add feature(s) to the results.</summary>
+            /// <remarks>
+            /// The feature name that is given here corresponds to the resulting feature object. Have a look at the top-level object description for more details on the specific meaning.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/api_shield_operation#feature ApiShieldOperation#feature}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "feature", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+            public string[]? Feature
+            {
+                get => GetInstanceProperty<string[]?>();
+            }
+
+            /// <summary>When true, includes OpenAPI schemas (both uploaded and learned) for the operation in the response.</summary>
+            /// <remarks>
+            /// Due to the conversion overhead, this parameter is only supported on single-operation retrieval.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/api_shield_operation#with_schemas ApiShieldOperation#with_schemas}
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "withSchemas", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+            public object? WithSchemas
+            {
+                get => GetInstanceProperty<object?>();
             }
 
             /// <remarks>

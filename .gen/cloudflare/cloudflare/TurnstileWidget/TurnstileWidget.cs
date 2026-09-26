@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.TurnstileWidget
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/turnstile_widget cloudflare_turnstile_widget}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/turnstile_widget cloudflare_turnstile_widget}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.TurnstileWidget.TurnstileWidget), fullyQualifiedName: "cloudflare.turnstileWidget.TurnstileWidget", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.turnstileWidget.TurnstileWidgetConfig\"}}]")]
     public class TurnstileWidget : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/turnstile_widget cloudflare_turnstile_widget} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/turnstile_widget cloudflare_turnstile_widget} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public TurnstileWidget(Constructs.Construct scope, string id, cloudflare.TurnstileWidget.ITurnstileWidgetConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace cloudflare.TurnstileWidget
         /// <param name="importToId">The construct id used in the generated config for the TurnstileWidget to import.</param>
         /// <param name="importFromId">The id of the existing TurnstileWidget that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the TurnstileWidget to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the TurnstileWidget to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/turnstile_widget#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing TurnstileWidget that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the TurnstileWidget to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the TurnstileWidget to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/turnstile_widget#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing TurnstileWidget that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the TurnstileWidget to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.TurnstileWidget.TurnstileWidget), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -58,14 +58,44 @@ namespace cloudflare.TurnstileWidget
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDirection")]
+        public virtual void ResetDirection()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetEphemeralId")]
         public virtual void ResetEphemeralId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetFilter")]
+        public virtual void ResetFilter()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetOfflabel")]
         public virtual void ResetOfflabel()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetOrder")]
+        public virtual void ResetOrder()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetPage")]
+        public virtual void ResetPage()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetPerPage")]
+        public virtual void ResetPerPage()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -162,6 +192,13 @@ namespace cloudflare.TurnstileWidget
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "directionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DirectionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "domainsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? DomainsInput
         {
@@ -176,6 +213,13 @@ namespace cloudflare.TurnstileWidget
         public virtual object? EphemeralIdInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "filterInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? FilterInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -200,6 +244,27 @@ namespace cloudflare.TurnstileWidget
         public virtual object? OfflabelInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "orderInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? OrderInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "pageInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? PageInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "perPageInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? PerPageInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -253,6 +318,13 @@ namespace cloudflare.TurnstileWidget
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Direction
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "domains", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] Domains
         {
@@ -288,6 +360,13 @@ namespace cloudflare.TurnstileWidget
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "filter", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Filter
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
@@ -332,6 +411,27 @@ namespace cloudflare.TurnstileWidget
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Order
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "page", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Page
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "perPage", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double PerPage
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]

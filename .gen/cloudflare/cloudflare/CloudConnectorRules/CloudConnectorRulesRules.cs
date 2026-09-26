@@ -9,7 +9,7 @@ namespace cloudflare.CloudConnectorRules
     {
         /// <summary>Cloud Provider type Available values: "aws_s3", "cloudflare_r2", "gcp_storage", "azure_storage", "oci_storage".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/cloud_connector_rules#cloud_connector_rules_provider CloudConnectorRules#cloud_connector_rules_provider}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/cloud_connector_rules#cloud_connector_rules_provider CloudConnectorRules#cloud_connector_rules_provider}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudConnectorRulesProvider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace cloudflare.CloudConnectorRules
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/cloud_connector_rules#description CloudConnectorRules#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/cloud_connector_rules#description CloudConnectorRules#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -30,7 +30,7 @@ namespace cloudflare.CloudConnectorRules
 
         private object? _enabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/cloud_connector_rules#enabled CloudConnectorRules#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/cloud_connector_rules#enabled CloudConnectorRules#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -62,7 +62,7 @@ namespace cloudflare.CloudConnectorRules
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/cloud_connector_rules#expression CloudConnectorRules#expression}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/cloud_connector_rules#expression CloudConnectorRules#expression}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "expression", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Expression
@@ -73,7 +73,7 @@ namespace cloudflare.CloudConnectorRules
 
         /// <summary>Parameters of Cloud Connector Rule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/cloud_connector_rules#parameters CloudConnectorRules#parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/cloud_connector_rules#parameters CloudConnectorRules#parameters}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "parameters", typeJson: "{\"fqn\":\"cloudflare.cloudConnectorRules.CloudConnectorRulesRulesParameters\"}", isOptional: true)]

@@ -33,6 +33,12 @@ namespace cloudflare.WorkersScript
         {
         }
 
+        [JsiiMethod(name: "resetBasePath")]
+        public virtual void ResetBasePath()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetHeaders")]
         public virtual void ResetHeaders()
         {
@@ -67,6 +73,13 @@ namespace cloudflare.WorkersScript
         public virtual void ResetServeDirectly()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "basePathInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? BasePathInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -112,6 +125,13 @@ namespace cloudflare.WorkersScript
         public virtual object? ServeDirectlyInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiProperty(name: "basePath", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BasePath
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "headers", typeJson: "{\"primitive\":\"string\"}")]

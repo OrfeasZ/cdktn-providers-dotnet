@@ -71,6 +71,12 @@ namespace cloudflare.DataCloudflareWorkers
             get => GetInstanceProperty<cloudflare.DataCloudflareWorkers.DataCloudflareWorkersResultObservabilityOutputReference>()!;
         }
 
+        [JsiiProperty(name: "previewsBaseConfig", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkers.DataCloudflareWorkersResultPreviewsBaseConfigOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareWorkers.DataCloudflareWorkersResultPreviewsBaseConfigOutputReference PreviewsBaseConfig
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareWorkers.DataCloudflareWorkersResultPreviewsBaseConfigOutputReference>()!;
+        }
+
         [JsiiProperty(name: "references", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkers.DataCloudflareWorkersResultReferencesOutputReference\"}")]
         public virtual cloudflare.DataCloudflareWorkers.DataCloudflareWorkersResultReferencesOutputReference References
         {

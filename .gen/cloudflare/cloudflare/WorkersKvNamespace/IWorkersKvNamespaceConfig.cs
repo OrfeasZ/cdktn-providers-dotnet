@@ -9,7 +9,7 @@ namespace cloudflare.WorkersKvNamespace
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_kv_namespace#account_id WorkersKvNamespace#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_kv_namespace#account_id WorkersKvNamespace#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.WorkersKvNamespace
 
         /// <summary>A human-readable string name for a Namespace.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_kv_namespace#title WorkersKvNamespace#title}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_kv_namespace#title WorkersKvNamespace#title}
         /// </remarks>
         [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}")]
         string Title
@@ -32,7 +32,7 @@ namespace cloudflare.WorkersKvNamespace
         /// Can only be set at namespace creation time.
         /// Available values: "eu", "fedramp", "us".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_kv_namespace#jurisdiction WorkersKvNamespace#jurisdiction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_kv_namespace#jurisdiction WorkersKvNamespace#jurisdiction}
         /// </remarks>
         [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -53,7 +53,7 @@ namespace cloudflare.WorkersKvNamespace
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_kv_namespace#account_id WorkersKvNamespace#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_kv_namespace#account_id WorkersKvNamespace#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -63,7 +63,7 @@ namespace cloudflare.WorkersKvNamespace
 
             /// <summary>A human-readable string name for a Namespace.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_kv_namespace#title WorkersKvNamespace#title}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_kv_namespace#title WorkersKvNamespace#title}
             /// </remarks>
             [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}")]
             public string Title
@@ -76,7 +76,7 @@ namespace cloudflare.WorkersKvNamespace
             /// Can only be set at namespace creation time.
             /// Available values: "eu", "fedramp", "us".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_kv_namespace#jurisdiction WorkersKvNamespace#jurisdiction}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_kv_namespace#jurisdiction WorkersKvNamespace#jurisdiction}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

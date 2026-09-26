@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.ZeroTrustDeviceCustomProfile
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/zero_trust_device_custom_profile cloudflare_zero_trust_device_custom_profile}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/zero_trust_device_custom_profile cloudflare_zero_trust_device_custom_profile}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.ZeroTrustDeviceCustomProfile.ZeroTrustDeviceCustomProfile), fullyQualifiedName: "cloudflare.zeroTrustDeviceCustomProfile.ZeroTrustDeviceCustomProfile", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.zeroTrustDeviceCustomProfile.ZeroTrustDeviceCustomProfileConfig\"}}]")]
     public class ZeroTrustDeviceCustomProfile : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/zero_trust_device_custom_profile cloudflare_zero_trust_device_custom_profile} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/zero_trust_device_custom_profile cloudflare_zero_trust_device_custom_profile} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ZeroTrustDeviceCustomProfile(Constructs.Construct scope, string id, cloudflare.ZeroTrustDeviceCustomProfile.IZeroTrustDeviceCustomProfileConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,16 @@ namespace cloudflare.ZeroTrustDeviceCustomProfile
         /// <param name="importToId">The construct id used in the generated config for the ZeroTrustDeviceCustomProfile to import.</param>
         /// <param name="importFromId">The id of the existing ZeroTrustDeviceCustomProfile that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ZeroTrustDeviceCustomProfile to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ZeroTrustDeviceCustomProfile to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/zero_trust_device_custom_profile#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ZeroTrustDeviceCustomProfile that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ZeroTrustDeviceCustomProfile to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ZeroTrustDeviceCustomProfile to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/zero_trust_device_custom_profile#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ZeroTrustDeviceCustomProfile that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ZeroTrustDeviceCustomProfile to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.ZeroTrustDeviceCustomProfile.ZeroTrustDeviceCustomProfile), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putBrowserExtensionConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustDeviceCustomProfile.ZeroTrustDeviceCustomProfileBrowserExtensionConfig\"}}]")]
+        public virtual void PutBrowserExtensionConfig(cloudflare.ZeroTrustDeviceCustomProfile.IZeroTrustDeviceCustomProfileBrowserExtensionConfig @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustDeviceCustomProfile.IZeroTrustDeviceCustomProfileBrowserExtensionConfig)}, new object[]{@value});
         }
 
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ZeroTrustDeviceCustomProfile.IZeroTrustDeviceCustomProfileDnsSearchSuffixes" />)[]</param>
@@ -160,6 +166,12 @@ namespace cloudflare.ZeroTrustDeviceCustomProfile
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetBrowserExtensionConfig")]
+        public virtual void ResetBrowserExtensionConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetCaptivePortal")]
         public virtual void ResetCaptivePortal()
         {
@@ -226,8 +238,20 @@ namespace cloudflare.ZeroTrustDeviceCustomProfile
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetMatch")]
+        public virtual void ResetMatch()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetPrecedence")]
         public virtual void ResetPrecedence()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetProfileType")]
+        public virtual void ResetProfileType()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -268,6 +292,12 @@ namespace cloudflare.ZeroTrustDeviceCustomProfile
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetUninstallProtection")]
+        public virtual void ResetUninstallProtection()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetVirtualNetworks")]
         public virtual void ResetVirtualNetworks()
         {
@@ -292,6 +322,12 @@ namespace cloudflare.ZeroTrustDeviceCustomProfile
             get;
         }
         = GetStaticProperty<string>(typeof(cloudflare.ZeroTrustDeviceCustomProfile.ZeroTrustDeviceCustomProfile))!;
+
+        [JsiiProperty(name: "browserExtensionConfig", typeJson: "{\"fqn\":\"cloudflare.zeroTrustDeviceCustomProfile.ZeroTrustDeviceCustomProfileBrowserExtensionConfigOutputReference\"}")]
+        public virtual cloudflare.ZeroTrustDeviceCustomProfile.ZeroTrustDeviceCustomProfileBrowserExtensionConfigOutputReference BrowserExtensionConfig
+        {
+            get => GetInstanceProperty<cloudflare.ZeroTrustDeviceCustomProfile.ZeroTrustDeviceCustomProfileBrowserExtensionConfigOutputReference>()!;
+        }
 
         [JsiiProperty(name: "default", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable Default
@@ -407,6 +443,16 @@ namespace cloudflare.ZeroTrustDeviceCustomProfile
         public virtual double? AutoConnectInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustDeviceCustomProfile.IZeroTrustDeviceCustomProfileBrowserExtensionConfig" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "browserExtensionConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustDeviceCustomProfile.ZeroTrustDeviceCustomProfileBrowserExtensionConfig\"}]}}", isOptional: true)]
+        public virtual object? BrowserExtensionConfigInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -528,6 +574,13 @@ namespace cloudflare.ZeroTrustDeviceCustomProfile
             get => GetInstanceProperty<double?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "profileTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ProfileTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -580,6 +633,16 @@ namespace cloudflare.ZeroTrustDeviceCustomProfile
         public virtual string? TunnelProtocolInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "uninstallProtectionInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? UninstallProtectionInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
@@ -835,6 +898,13 @@ namespace cloudflare.ZeroTrustDeviceCustomProfile
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "profileType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ProfileType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -937,6 +1007,36 @@ namespace cloudflare.ZeroTrustDeviceCustomProfile
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "uninstallProtection", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object UninstallProtection
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
     }
 }

@@ -5,7 +5,7 @@ namespace cloudflare.EmailSecurityDomain
     /// <remarks>
     /// <h1><c>cloudflare_email_security_domain</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/email_security_domain"><c>cloudflare_email_security_domain</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/email_security_domain"><c>cloudflare_email_security_domain</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

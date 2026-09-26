@@ -39,10 +39,22 @@ namespace cloudflare.DataCloudflareMagicWanIpsecTunnel
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "exportFilterId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ExportFilterId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "extraPrefixes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] ExtraPrefixes
         {
             get => GetInstanceProperty<string[]>()!;
+        }
+
+        [JsiiProperty(name: "importFilterId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ImportFilterId
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "md5Key", typeJson: "{\"primitive\":\"string\"}")]

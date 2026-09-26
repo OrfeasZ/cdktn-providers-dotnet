@@ -11,7 +11,7 @@ namespace cloudflare.UserGroupMembers
     {
         /// <summary>Account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/user_group_members#account_id UserGroupMembers#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/user_group_members#account_id UserGroupMembers#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -22,7 +22,7 @@ namespace cloudflare.UserGroupMembers
 
         private object _members;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/user_group_members#members UserGroupMembers#members}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/user_group_members#members UserGroupMembers#members}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.UserGroupMembers.IUserGroupMembersMembers" />)[]</para>
         /// </remarks>
@@ -55,10 +55,58 @@ namespace cloudflare.UserGroupMembers
 
         /// <summary>User Group identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/user_group_members#user_group_id UserGroupMembers#user_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/user_group_members#user_group_id UserGroupMembers#user_group_id}
         /// </remarks>
         [JsiiProperty(name: "userGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string UserGroupId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>The sort order of returned user group members by email. Available values: "asc", "desc".</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/user_group_members#direction UserGroupMembers#direction}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Direction
+        {
+            get;
+            set;
+        }
+
+        /// <summary>A string used for filtering members by partial email match.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/user_group_members#fuzzy_email UserGroupMembers#fuzzy_email}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "fuzzyEmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? FuzzyEmail
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Page number of paginated results.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/user_group_members#page UserGroupMembers#page}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "page", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public double? Page
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Maximum number of results per page.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/user_group_members#per_page UserGroupMembers#per_page}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "perPage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public double? PerPage
         {
             get;
             set;

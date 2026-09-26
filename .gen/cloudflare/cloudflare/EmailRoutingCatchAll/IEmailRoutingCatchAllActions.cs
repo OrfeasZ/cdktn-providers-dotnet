@@ -9,7 +9,7 @@ namespace cloudflare.EmailRoutingCatchAll
     {
         /// <summary>Type of action for catch-all rule. Available values: "drop", "forward", "worker".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/email_routing_catch_all#type EmailRoutingCatchAll#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/email_routing_catch_all#type EmailRoutingCatchAll#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -17,7 +17,10 @@ namespace cloudflare.EmailRoutingCatchAll
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/email_routing_catch_all#value EmailRoutingCatchAll#value}.</summary>
+        /// <summary>List of values for the action. Currently limited to a single value.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/email_routing_catch_all#value EmailRoutingCatchAll#value}
+        /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Value
@@ -37,7 +40,7 @@ namespace cloudflare.EmailRoutingCatchAll
 
             /// <summary>Type of action for catch-all rule. Available values: "drop", "forward", "worker".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/email_routing_catch_all#type EmailRoutingCatchAll#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/email_routing_catch_all#type EmailRoutingCatchAll#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -45,7 +48,10 @@ namespace cloudflare.EmailRoutingCatchAll
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/email_routing_catch_all#value EmailRoutingCatchAll#value}.</summary>
+            /// <summary>List of values for the action. Currently limited to a single value.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/email_routing_catch_all#value EmailRoutingCatchAll#value}
+            /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "value", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Value

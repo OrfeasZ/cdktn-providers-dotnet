@@ -225,6 +225,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessIdentityProvider
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "useLoginHint", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable UseLoginHint
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessIdentityProvider.DataCloudflareZeroTrustAccessIdentityProviderConfigA\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareZeroTrustAccessIdentityProvider.IDataCloudflareZeroTrustAccessIdentityProviderConfigA? InternalValue

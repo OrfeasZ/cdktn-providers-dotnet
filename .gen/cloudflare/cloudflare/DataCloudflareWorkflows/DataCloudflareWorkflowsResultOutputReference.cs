@@ -77,6 +77,12 @@ namespace cloudflare.DataCloudflareWorkflows
             get => GetInstanceProperty<cloudflare.DataCloudflareWorkflows.DataCloudflareWorkflowsResultSchedulesList>()!;
         }
 
+        [JsiiProperty(name: "scriptDeleted", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable ScriptDeleted
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "scriptName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ScriptName
         {

@@ -65,6 +65,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessInfrastructureTargets
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "tags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap Tags
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessInfrastructureTargets.DataCloudflareZeroTrustAccessInfrastructureTargetsResult\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareZeroTrustAccessInfrastructureTargets.IDataCloudflareZeroTrustAccessInfrastructureTargetsResult? InternalValue

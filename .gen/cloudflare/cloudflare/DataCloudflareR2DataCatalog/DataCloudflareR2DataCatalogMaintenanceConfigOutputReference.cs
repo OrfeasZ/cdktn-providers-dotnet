@@ -39,6 +39,12 @@ namespace cloudflare.DataCloudflareR2DataCatalog
             get => GetInstanceProperty<cloudflare.DataCloudflareR2DataCatalog.DataCloudflareR2DataCatalogMaintenanceConfigCompactionOutputReference>()!;
         }
 
+        [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Interval
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "snapshotExpiration", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareR2DataCatalog.DataCloudflareR2DataCatalogMaintenanceConfigSnapshotExpirationOutputReference\"}")]
         public virtual cloudflare.DataCloudflareR2DataCatalog.DataCloudflareR2DataCatalogMaintenanceConfigSnapshotExpirationOutputReference SnapshotExpiration
         {

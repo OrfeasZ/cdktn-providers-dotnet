@@ -257,6 +257,12 @@ namespace cloudflare.DataCloudflareWorkerVersions
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "stream", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Stream
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "text", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Text
         {

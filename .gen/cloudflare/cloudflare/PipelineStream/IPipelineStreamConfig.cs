@@ -9,7 +9,7 @@ namespace cloudflare.PipelineStream
     {
         /// <summary>Specifies the public ID of the account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/pipeline_stream#account_id PipelineStream#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/pipeline_stream#account_id PipelineStream#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.PipelineStream
 
         /// <summary>Specifies the name of the Stream.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/pipeline_stream#name PipelineStream#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/pipeline_stream#name PipelineStream#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -29,7 +29,7 @@ namespace cloudflare.PipelineStream
 
         /// <summary>Defines the data format of the events.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/pipeline_stream#format PipelineStream#format}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/pipeline_stream#format PipelineStream#format}
         /// </remarks>
         [JsiiProperty(name: "format", typeJson: "{\"fqn\":\"cloudflare.pipelineStream.PipelineStreamFormat\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -41,7 +41,7 @@ namespace cloudflare.PipelineStream
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/pipeline_stream#http PipelineStream#http}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/pipeline_stream#http PipelineStream#http}.</summary>
         [JsiiProperty(name: "http", typeJson: "{\"fqn\":\"cloudflare.pipelineStream.PipelineStreamHttp\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.PipelineStream.IPipelineStreamHttp? Http
@@ -54,7 +54,7 @@ namespace cloudflare.PipelineStream
 
         /// <summary>Defines the schema of the events in the data stream.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/pipeline_stream#schema PipelineStream#schema}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/pipeline_stream#schema PipelineStream#schema}
         /// </remarks>
         [JsiiProperty(name: "schema", typeJson: "{\"fqn\":\"cloudflare.pipelineStream.PipelineStreamSchema\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,7 +66,7 @@ namespace cloudflare.PipelineStream
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/pipeline_stream#worker_binding PipelineStream#worker_binding}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/pipeline_stream#worker_binding PipelineStream#worker_binding}.</summary>
         [JsiiProperty(name: "workerBinding", typeJson: "{\"fqn\":\"cloudflare.pipelineStream.PipelineStreamWorkerBinding\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.PipelineStream.IPipelineStreamWorkerBinding? WorkerBinding
@@ -86,7 +86,7 @@ namespace cloudflare.PipelineStream
 
             /// <summary>Specifies the public ID of the account.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/pipeline_stream#account_id PipelineStream#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/pipeline_stream#account_id PipelineStream#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -96,7 +96,7 @@ namespace cloudflare.PipelineStream
 
             /// <summary>Specifies the name of the Stream.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/pipeline_stream#name PipelineStream#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/pipeline_stream#name PipelineStream#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -106,7 +106,7 @@ namespace cloudflare.PipelineStream
 
             /// <summary>Defines the data format of the events.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/pipeline_stream#format PipelineStream#format}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/pipeline_stream#format PipelineStream#format}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "format", typeJson: "{\"fqn\":\"cloudflare.pipelineStream.PipelineStreamFormat\"}", isOptional: true)]
@@ -115,7 +115,7 @@ namespace cloudflare.PipelineStream
                 get => GetInstanceProperty<cloudflare.PipelineStream.IPipelineStreamFormat?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/pipeline_stream#http PipelineStream#http}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/pipeline_stream#http PipelineStream#http}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "http", typeJson: "{\"fqn\":\"cloudflare.pipelineStream.PipelineStreamHttp\"}", isOptional: true)]
             public cloudflare.PipelineStream.IPipelineStreamHttp? Http
@@ -125,7 +125,7 @@ namespace cloudflare.PipelineStream
 
             /// <summary>Defines the schema of the events in the data stream.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/pipeline_stream#schema PipelineStream#schema}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/pipeline_stream#schema PipelineStream#schema}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "schema", typeJson: "{\"fqn\":\"cloudflare.pipelineStream.PipelineStreamSchema\"}", isOptional: true)]
@@ -134,7 +134,7 @@ namespace cloudflare.PipelineStream
                 get => GetInstanceProperty<cloudflare.PipelineStream.IPipelineStreamSchema?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/pipeline_stream#worker_binding PipelineStream#worker_binding}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/pipeline_stream#worker_binding PipelineStream#worker_binding}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "workerBinding", typeJson: "{\"fqn\":\"cloudflare.pipelineStream.PipelineStreamWorkerBinding\"}", isOptional: true)]
             public cloudflare.PipelineStream.IPipelineStreamWorkerBinding? WorkerBinding

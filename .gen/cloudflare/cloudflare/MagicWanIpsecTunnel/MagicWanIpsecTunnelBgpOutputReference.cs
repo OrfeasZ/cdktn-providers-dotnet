@@ -33,8 +33,20 @@ namespace cloudflare.MagicWanIpsecTunnel
         {
         }
 
+        [JsiiMethod(name: "resetExportFilterId")]
+        public virtual void ResetExportFilterId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetExtraPrefixes")]
         public virtual void ResetExtraPrefixes()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetImportFilterId")]
+        public virtual void ResetImportFilterId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -53,10 +65,24 @@ namespace cloudflare.MagicWanIpsecTunnel
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "exportFilterIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ExportFilterIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "extraPrefixesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? ExtraPrefixesInput
         {
             get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "importFilterIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ImportFilterIdInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -73,10 +99,24 @@ namespace cloudflare.MagicWanIpsecTunnel
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "exportFilterId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ExportFilterId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "extraPrefixes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] ExtraPrefixes
         {
             get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "importFilterId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ImportFilterId
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

@@ -9,7 +9,7 @@ namespace cloudflare.NelSetting
     {
         /// <summary>The NEL configuration value.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/nel_setting#value NelSetting#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/nel_setting#value NelSetting#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"fqn\":\"cloudflare.nelSetting.NelSettingValue\"}")]
         cloudflare.NelSetting.INelSettingValue Value
@@ -19,7 +19,7 @@ namespace cloudflare.NelSetting
 
         /// <summary>Identifier of the zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/nel_setting#zone_id NelSetting#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/nel_setting#zone_id NelSetting#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
@@ -36,7 +36,7 @@ namespace cloudflare.NelSetting
 
             /// <summary>The NEL configuration value.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/nel_setting#value NelSetting#value}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/nel_setting#value NelSetting#value}
             /// </remarks>
             [JsiiProperty(name: "value", typeJson: "{\"fqn\":\"cloudflare.nelSetting.NelSettingValue\"}")]
             public cloudflare.NelSetting.INelSettingValue Value
@@ -46,7 +46,7 @@ namespace cloudflare.NelSetting
 
             /// <summary>Identifier of the zone.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/nel_setting#zone_id NelSetting#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/nel_setting#zone_id NelSetting#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId

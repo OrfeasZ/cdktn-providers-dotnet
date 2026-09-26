@@ -263,6 +263,12 @@ namespace cloudflare.WorkerVersion
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetStream")]
+        public virtual void ResetStream()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetText")]
         public virtual void ResetText()
         {
@@ -571,6 +577,13 @@ namespace cloudflare.WorkerVersion
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "streamInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? StreamInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "textInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? TextInput
         {
@@ -852,6 +865,13 @@ namespace cloudflare.WorkerVersion
 
         [JsiiProperty(name: "storeId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string StoreId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "stream", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Stream
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

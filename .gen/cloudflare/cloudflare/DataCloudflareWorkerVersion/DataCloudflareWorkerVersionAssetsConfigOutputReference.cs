@@ -33,6 +33,12 @@ namespace cloudflare.DataCloudflareWorkerVersion
         {
         }
 
+        [JsiiProperty(name: "basePath", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BasePath
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "htmlHandling", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string HtmlHandling
         {

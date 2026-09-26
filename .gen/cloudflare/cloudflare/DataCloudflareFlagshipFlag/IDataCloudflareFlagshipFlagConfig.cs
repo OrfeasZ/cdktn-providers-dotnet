@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareFlagshipFlag
     {
         /// <summary>Cloudflare account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/flagship_flag#account_id DataCloudflareFlagshipFlag#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flag#account_id DataCloudflareFlagshipFlag#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflareFlagshipFlag
 
         /// <summary>App identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/flagship_flag#app_id DataCloudflareFlagshipFlag#app_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flag#app_id DataCloudflareFlagshipFlag#app_id}
         /// </remarks>
         [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
         string AppId
@@ -27,14 +27,29 @@ namespace cloudflare.DataCloudflareFlagshipFlag
             get;
         }
 
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flag#filter DataCloudflareFlagshipFlag#filter}.</summary>
+        [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareFlagshipFlag.DataCloudflareFlagshipFlagFilter\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        cloudflare.DataCloudflareFlagshipFlag.IDataCloudflareFlagshipFlagFilter? Filter
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>Flag key (slug).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/flagship_flag#flag_key DataCloudflareFlagshipFlag#flag_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flag#flag_key DataCloudflareFlagshipFlag#flag_key}
         /// </remarks>
-        [JsiiProperty(name: "flagKey", typeJson: "{\"primitive\":\"string\"}")]
-        string FlagKey
+        [JsiiProperty(name: "flagKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? FlagKey
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IDataCloudflareFlagshipFlagConfig), fullyQualifiedName: "cloudflare.dataCloudflareFlagshipFlag.DataCloudflareFlagshipFlagConfig")]
@@ -46,7 +61,7 @@ namespace cloudflare.DataCloudflareFlagshipFlag
 
             /// <summary>Cloudflare account ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/flagship_flag#account_id DataCloudflareFlagshipFlag#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flag#account_id DataCloudflareFlagshipFlag#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -56,7 +71,7 @@ namespace cloudflare.DataCloudflareFlagshipFlag
 
             /// <summary>App identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/flagship_flag#app_id DataCloudflareFlagshipFlag#app_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flag#app_id DataCloudflareFlagshipFlag#app_id}
             /// </remarks>
             [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
             public string AppId
@@ -64,14 +79,23 @@ namespace cloudflare.DataCloudflareFlagshipFlag
                 get => GetInstanceProperty<string>()!;
             }
 
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flag#filter DataCloudflareFlagshipFlag#filter}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareFlagshipFlag.DataCloudflareFlagshipFlagFilter\"}", isOptional: true)]
+            public cloudflare.DataCloudflareFlagshipFlag.IDataCloudflareFlagshipFlagFilter? Filter
+            {
+                get => GetInstanceProperty<cloudflare.DataCloudflareFlagshipFlag.IDataCloudflareFlagshipFlagFilter?>();
+            }
+
             /// <summary>Flag key (slug).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/flagship_flag#flag_key DataCloudflareFlagshipFlag#flag_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flag#flag_key DataCloudflareFlagshipFlag#flag_key}
             /// </remarks>
-            [JsiiProperty(name: "flagKey", typeJson: "{\"primitive\":\"string\"}")]
-            public string FlagKey
+            [JsiiOptional]
+            [JsiiProperty(name: "flagKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? FlagKey
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

@@ -59,6 +59,12 @@ namespace cloudflare.DataCloudflareZeroTrustDeviceCustomProfiles
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "browserExtensionConfig", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustDeviceCustomProfiles.DataCloudflareZeroTrustDeviceCustomProfilesResultBrowserExtensionConfigOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareZeroTrustDeviceCustomProfiles.DataCloudflareZeroTrustDeviceCustomProfilesResultBrowserExtensionConfigOutputReference BrowserExtensionConfig
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustDeviceCustomProfiles.DataCloudflareZeroTrustDeviceCustomProfilesResultBrowserExtensionConfigOutputReference>()!;
+        }
+
         [JsiiProperty(name: "captivePortal", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double CaptivePortal
         {
@@ -167,6 +173,12 @@ namespace cloudflare.DataCloudflareZeroTrustDeviceCustomProfiles
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "profileType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ProfileType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "registerInterfaceIpWithDns", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable RegisterInterfaceIpWithDns
         {
@@ -207,6 +219,12 @@ namespace cloudflare.DataCloudflareZeroTrustDeviceCustomProfiles
         public virtual string TunnelProtocol
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "uninstallProtection", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable UninstallProtection
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiProperty(name: "virtualNetworks", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustDeviceCustomProfiles.DataCloudflareZeroTrustDeviceCustomProfilesResultVirtualNetworksOutputReference\"}")]

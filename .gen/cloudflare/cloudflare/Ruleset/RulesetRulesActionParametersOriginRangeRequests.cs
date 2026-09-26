@@ -11,7 +11,7 @@ namespace cloudflare.Ruleset
     {
         /// <summary>Whether to use range requests. `default` is the behaviour the zone gets without this rule. Available values: "on", "off", "default".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ruleset#mode Ruleset#mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ruleset#mode Ruleset#mode}
         /// </remarks>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         public string Mode

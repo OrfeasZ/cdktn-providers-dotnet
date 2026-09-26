@@ -53,6 +53,12 @@ namespace cloudflare.DataCloudflareHyperdriveConfigs
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "integration", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareHyperdriveConfigs.DataCloudflareHyperdriveConfigsResultIntegrationOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareHyperdriveConfigs.DataCloudflareHyperdriveConfigsResultIntegrationOutputReference Integration
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareHyperdriveConfigs.DataCloudflareHyperdriveConfigsResultIntegrationOutputReference>()!;
+        }
+
         [JsiiProperty(name: "modifiedOn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ModifiedOn
         {

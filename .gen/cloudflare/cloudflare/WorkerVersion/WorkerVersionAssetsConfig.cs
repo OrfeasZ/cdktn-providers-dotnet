@@ -7,9 +7,23 @@ namespace cloudflare.WorkerVersion
     [JsiiByValue(fqn: "cloudflare.workerVersion.WorkerVersionAssetsConfig")]
     public class WorkerVersionAssetsConfig : cloudflare.WorkerVersion.IWorkerVersionAssetsConfig
     {
+        /// <summary>The public URL path prefix under which assets are served.</summary>
+        /// <remarks>
+        /// A null request value resets it to <c>/</c>; responses represent the root as <c>/</c>. All versions in a gradual deployment must use the same canonical value. To change it, first deploy the version containing the change at 100%.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/worker_version#base_path WorkerVersion#base_path}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "basePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? BasePath
+        {
+            get;
+            set;
+        }
+
         /// <summary>Determines the redirects and rewrites of requests for HTML content. Available values: "auto-trailing-slash", "force-trailing-slash", "drop-trailing-slash", "none".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/worker_version#html_handling WorkerVersion#html_handling}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/worker_version#html_handling WorkerVersion#html_handling}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "htmlHandling", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -23,7 +37,7 @@ namespace cloudflare.WorkerVersion
         /// <remarks>
         /// Available values: "none", "404-page", "single-page-application".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/worker_version#not_found_handling WorkerVersion#not_found_handling}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/worker_version#not_found_handling WorkerVersion#not_found_handling}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "notFoundHandling", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -37,7 +51,7 @@ namespace cloudflare.WorkerVersion
         /// <remarks>
         /// Otherwise, attempt to serve an asset matching the request, falling back to the Worker script. When a list of strings, contains path rules to control routing to either the Worker or assets. Glob (*) and negative (!) rules are supported. Rules must start with either '/' or '!/'. At least one non-negative rule must be provided, and negative rules have higher precedence than non-negative rules.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/worker_version#run_worker_first WorkerVersion#run_worker_first}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/worker_version#run_worker_first WorkerVersion#run_worker_first}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "runWorkerFirst", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]

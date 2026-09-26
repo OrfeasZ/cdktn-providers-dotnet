@@ -255,6 +255,12 @@ namespace cloudflare.DataCloudflareNotificationPolicies
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "tokenId", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] TokenId
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "trafficExclusions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] TrafficExclusions
         {

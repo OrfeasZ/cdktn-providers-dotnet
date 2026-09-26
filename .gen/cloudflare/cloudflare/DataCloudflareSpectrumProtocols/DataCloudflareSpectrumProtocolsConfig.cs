@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareSpectrumProtocols
     {
         /// <summary>Zone identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/spectrum_protocols#zone_id DataCloudflareSpectrumProtocols#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/spectrum_protocols#zone_id DataCloudflareSpectrumProtocols#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId
@@ -22,7 +22,7 @@ namespace cloudflare.DataCloudflareSpectrumProtocols
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/spectrum_protocols#max_items DataCloudflareSpectrumProtocols#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/spectrum_protocols#max_items DataCloudflareSpectrumProtocols#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

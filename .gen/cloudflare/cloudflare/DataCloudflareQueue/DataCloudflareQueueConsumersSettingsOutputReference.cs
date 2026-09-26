@@ -39,6 +39,12 @@ namespace cloudflare.DataCloudflareQueue
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "email", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareQueue.DataCloudflareQueueConsumersSettingsEmailList\"}")]
+        public virtual cloudflare.DataCloudflareQueue.DataCloudflareQueueConsumersSettingsEmailList Email
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareQueue.DataCloudflareQueueConsumersSettingsEmailList>()!;
+        }
+
         [JsiiProperty(name: "maxConcurrency", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double MaxConcurrency
         {
@@ -57,6 +63,12 @@ namespace cloudflare.DataCloudflareQueue
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "pagerduty", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareQueue.DataCloudflareQueueConsumersSettingsPagerdutyList\"}")]
+        public virtual cloudflare.DataCloudflareQueue.DataCloudflareQueueConsumersSettingsPagerdutyList Pagerduty
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareQueue.DataCloudflareQueueConsumersSettingsPagerdutyList>()!;
+        }
+
         [JsiiProperty(name: "retryDelay", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double RetryDelay
         {
@@ -67,6 +79,12 @@ namespace cloudflare.DataCloudflareQueue
         public virtual double VisibilityTimeoutMs
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "webhooks", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareQueue.DataCloudflareQueueConsumersSettingsWebhooksList\"}")]
+        public virtual cloudflare.DataCloudflareQueue.DataCloudflareQueueConsumersSettingsWebhooksList Webhooks
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareQueue.DataCloudflareQueueConsumersSettingsWebhooksList>()!;
         }
 
         [JsiiOptional]

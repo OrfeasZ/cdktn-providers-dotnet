@@ -129,6 +129,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessInfrastructureTarget
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTag")]
+        public virtual void ResetTag()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTargetIds")]
         public virtual void ResetTargetIds()
         {
@@ -254,6 +260,13 @@ namespace cloudflare.DataCloudflareZeroTrustAccessInfrastructureTarget
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "tagInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? TagInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "targetIdsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? TargetIdsInput
         {
@@ -376,6 +389,13 @@ namespace cloudflare.DataCloudflareZeroTrustAccessInfrastructureTarget
         public virtual string Order
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "tag", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Tag
+        {
+            get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);
         }
 

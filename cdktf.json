@@ -6,7 +6,7 @@
   "terraformProviders": [
     "vancluever/acme@3.2.0",
     "hashicorp/aws@6.66.0",
-    "cloudflare/cloudflare@5.25.0",
+    "cloudflare/cloudflare@5.26.0",
     "digitalocean/digitalocean@2.102.0",
     "hashicorp/random@3.9.1",
     "hetznercloud/hcloud@1.69.0",

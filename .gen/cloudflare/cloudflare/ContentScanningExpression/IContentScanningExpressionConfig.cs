@@ -7,7 +7,7 @@ namespace cloudflare.ContentScanningExpression
     [JsiiInterface(nativeType: typeof(IContentScanningExpressionConfig), fullyQualifiedName: "cloudflare.contentScanningExpression.ContentScanningExpressionConfig")]
     public interface IContentScanningExpressionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/content_scanning_expression#body ContentScanningExpression#body}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/content_scanning_expression#body ContentScanningExpression#body}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ContentScanningExpression.IContentScanningExpressionBody" />)[]</para>
         /// </remarks>
@@ -19,7 +19,7 @@ namespace cloudflare.ContentScanningExpression
 
         /// <summary>Defines an identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/content_scanning_expression#zone_id ContentScanningExpression#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/content_scanning_expression#zone_id ContentScanningExpression#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
@@ -29,7 +29,7 @@ namespace cloudflare.ContentScanningExpression
 
         /// <summary>Defines the custom content extraction expression used to reach content objects in the request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/content_scanning_expression#payload ContentScanningExpression#payload}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/content_scanning_expression#payload ContentScanningExpression#payload}
         /// </remarks>
         [JsiiProperty(name: "payload", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -48,7 +48,7 @@ namespace cloudflare.ContentScanningExpression
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/content_scanning_expression#body ContentScanningExpression#body}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/content_scanning_expression#body ContentScanningExpression#body}.</summary>
             /// <remarks>
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.ContentScanningExpression.IContentScanningExpressionBody" />)[]</para>
             /// </remarks>
@@ -60,7 +60,7 @@ namespace cloudflare.ContentScanningExpression
 
             /// <summary>Defines an identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/content_scanning_expression#zone_id ContentScanningExpression#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/content_scanning_expression#zone_id ContentScanningExpression#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId
@@ -70,7 +70,7 @@ namespace cloudflare.ContentScanningExpression
 
             /// <summary>Defines the custom content extraction expression used to reach content objects in the request.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/content_scanning_expression#payload ContentScanningExpression#payload}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/content_scanning_expression#payload ContentScanningExpression#payload}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "payload", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

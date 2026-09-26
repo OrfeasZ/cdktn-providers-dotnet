@@ -59,6 +59,12 @@ namespace cloudflare.DataCloudflareLogpushJobs
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "filterAttackTraffic", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable FilterAttackTraffic
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "frequency", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Frequency
         {

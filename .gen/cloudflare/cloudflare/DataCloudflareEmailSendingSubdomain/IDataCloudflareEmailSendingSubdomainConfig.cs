@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareEmailSendingSubdomain
     {
         /// <summary>Sending subdomain identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/email_sending_subdomain#subdomain_id DataCloudflareEmailSendingSubdomain#subdomain_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/email_sending_subdomain#subdomain_id DataCloudflareEmailSendingSubdomain#subdomain_id}
         /// </remarks>
         [JsiiProperty(name: "subdomainId", typeJson: "{\"primitive\":\"string\"}")]
         string SubdomainId
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflareEmailSendingSubdomain
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/email_sending_subdomain#zone_id DataCloudflareEmailSendingSubdomain#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/email_sending_subdomain#zone_id DataCloudflareEmailSendingSubdomain#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
@@ -36,7 +36,7 @@ namespace cloudflare.DataCloudflareEmailSendingSubdomain
 
             /// <summary>Sending subdomain identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/email_sending_subdomain#subdomain_id DataCloudflareEmailSendingSubdomain#subdomain_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/email_sending_subdomain#subdomain_id DataCloudflareEmailSendingSubdomain#subdomain_id}
             /// </remarks>
             [JsiiProperty(name: "subdomainId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubdomainId
@@ -46,7 +46,7 @@ namespace cloudflare.DataCloudflareEmailSendingSubdomain
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/email_sending_subdomain#zone_id DataCloudflareEmailSendingSubdomain#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/email_sending_subdomain#zone_id DataCloudflareEmailSendingSubdomain#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId

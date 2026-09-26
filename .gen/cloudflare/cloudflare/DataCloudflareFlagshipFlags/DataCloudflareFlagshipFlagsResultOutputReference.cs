@@ -53,6 +53,12 @@ namespace cloudflare.DataCloudflareFlagshipFlags
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Key
         {

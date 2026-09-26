@@ -9,7 +9,7 @@ namespace cloudflare.WorkersScript
     {
         /// <summary>Whether observability is enabled for the Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_script#enabled WorkersScript#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_script#enabled WorkersScript#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -20,7 +20,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>The sampling rate for incoming requests. From 0 to 1 (1 = 100%, 0.1 = 10%). Default is 1.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_script#head_sampling_rate WorkersScript#head_sampling_rate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_script#head_sampling_rate WorkersScript#head_sampling_rate}
         /// </remarks>
         [JsiiProperty(name: "headSamplingRate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -32,9 +32,23 @@ namespace cloudflare.WorkersScript
             }
         }
 
+        /// <summary>Real-time Issues settings for the Worker.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_script#issues WorkersScript#issues}
+        /// </remarks>
+        [JsiiProperty(name: "issues", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptObservabilityIssues\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        cloudflare.WorkersScript.IWorkersScriptObservabilityIssues? Issues
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>Log settings for the Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_script#logs WorkersScript#logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_script#logs WorkersScript#logs}
         /// </remarks>
         [JsiiProperty(name: "logs", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptObservabilityLogs\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -48,7 +62,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>Trace settings for the Worker.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_script#traces WorkersScript#traces}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_script#traces WorkersScript#traces}
         /// </remarks>
         [JsiiProperty(name: "traces", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptObservabilityTraces\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -69,7 +83,7 @@ namespace cloudflare.WorkersScript
 
             /// <summary>Whether observability is enabled for the Worker.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_script#enabled WorkersScript#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_script#enabled WorkersScript#enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -80,7 +94,7 @@ namespace cloudflare.WorkersScript
 
             /// <summary>The sampling rate for incoming requests. From 0 to 1 (1 = 100%, 0.1 = 10%). Default is 1.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_script#head_sampling_rate WorkersScript#head_sampling_rate}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_script#head_sampling_rate WorkersScript#head_sampling_rate}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "headSamplingRate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -89,9 +103,20 @@ namespace cloudflare.WorkersScript
                 get => GetInstanceProperty<double?>();
             }
 
+            /// <summary>Real-time Issues settings for the Worker.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_script#issues WorkersScript#issues}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "issues", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptObservabilityIssues\"}", isOptional: true)]
+            public cloudflare.WorkersScript.IWorkersScriptObservabilityIssues? Issues
+            {
+                get => GetInstanceProperty<cloudflare.WorkersScript.IWorkersScriptObservabilityIssues?>();
+            }
+
             /// <summary>Log settings for the Worker.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_script#logs WorkersScript#logs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_script#logs WorkersScript#logs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "logs", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptObservabilityLogs\"}", isOptional: true)]
@@ -102,7 +127,7 @@ namespace cloudflare.WorkersScript
 
             /// <summary>Trace settings for the Worker.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_script#traces WorkersScript#traces}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_script#traces WorkersScript#traces}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "traces", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptObservabilityTraces\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace cloudflare.D1Database
     {
         /// <summary>Account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/d1_database#account_id D1Database#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/d1_database#account_id D1Database#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.D1Database
 
         /// <summary>D1 database name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/d1_database#name D1Database#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/d1_database#name D1Database#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -27,12 +27,26 @@ namespace cloudflare.D1Database
             get;
         }
 
+        /// <summary>Comma-separated list of fields to include in the response. When omitted, all fields are returned.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/d1_database#fields D1Database#fields}
+        /// </remarks>
+        [JsiiProperty(name: "fields", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string[]? Fields
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>Specify the location to restrict the D1 database to run and store data.</summary>
         /// <remarks>
         /// If this option is present, the location hint is ignored.
         /// Available values: "eu", "fedramp", "us".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/d1_database#jurisdiction D1Database#jurisdiction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/d1_database#jurisdiction D1Database#jurisdiction}
         /// </remarks>
         [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -49,7 +63,7 @@ namespace cloudflare.D1Database
         /// If this option is omitted, the D1 will be created as close as possible to the current user.
         /// Available values: "wnam", "enam", "weur", "eeur", "apac", "oc".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/d1_database#primary_location_hint D1Database#primary_location_hint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/d1_database#primary_location_hint D1Database#primary_location_hint}
         /// </remarks>
         [JsiiProperty(name: "primaryLocationHint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -63,7 +77,7 @@ namespace cloudflare.D1Database
 
         /// <summary>Configuration for D1 read replication.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/d1_database#read_replication D1Database#read_replication}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/d1_database#read_replication D1Database#read_replication}
         /// </remarks>
         [JsiiProperty(name: "readReplication", typeJson: "{\"fqn\":\"cloudflare.d1Database.D1DatabaseReadReplication\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -84,7 +98,7 @@ namespace cloudflare.D1Database
 
             /// <summary>Account identifier tag.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/d1_database#account_id D1Database#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/d1_database#account_id D1Database#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -94,7 +108,7 @@ namespace cloudflare.D1Database
 
             /// <summary>D1 database name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/d1_database#name D1Database#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/d1_database#name D1Database#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -102,12 +116,23 @@ namespace cloudflare.D1Database
                 get => GetInstanceProperty<string>()!;
             }
 
+            /// <summary>Comma-separated list of fields to include in the response. When omitted, all fields are returned.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/d1_database#fields D1Database#fields}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "fields", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+            public string[]? Fields
+            {
+                get => GetInstanceProperty<string[]?>();
+            }
+
             /// <summary>Specify the location to restrict the D1 database to run and store data.</summary>
             /// <remarks>
             /// If this option is present, the location hint is ignored.
             /// Available values: "eu", "fedramp", "us".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/d1_database#jurisdiction D1Database#jurisdiction}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/d1_database#jurisdiction D1Database#jurisdiction}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -121,7 +146,7 @@ namespace cloudflare.D1Database
             /// If this option is omitted, the D1 will be created as close as possible to the current user.
             /// Available values: "wnam", "enam", "weur", "eeur", "apac", "oc".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/d1_database#primary_location_hint D1Database#primary_location_hint}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/d1_database#primary_location_hint D1Database#primary_location_hint}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "primaryLocationHint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -132,7 +157,7 @@ namespace cloudflare.D1Database
 
             /// <summary>Configuration for D1 read replication.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/d1_database#read_replication D1Database#read_replication}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/d1_database#read_replication D1Database#read_replication}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "readReplication", typeJson: "{\"fqn\":\"cloudflare.d1Database.D1DatabaseReadReplication\"}", isOptional: true)]

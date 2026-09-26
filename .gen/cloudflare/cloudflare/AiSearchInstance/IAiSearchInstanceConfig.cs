@@ -7,7 +7,7 @@ namespace cloudflare.AiSearchInstance
     [JsiiInterface(nativeType: typeof(IAiSearchInstanceConfig), fullyQualifiedName: "cloudflare.aiSearchInstance.AiSearchInstanceConfig")]
     public interface IAiSearchInstanceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#account_id AiSearchInstance#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#account_id AiSearchInstance#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
         {
@@ -16,7 +16,7 @@ namespace cloudflare.AiSearchInstance
 
         /// <summary>AI Search instance ID. Lowercase alphanumeric, hyphens, and underscores.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#id AiSearchInstance#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#id AiSearchInstance#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27,7 +27,7 @@ namespace cloudflare.AiSearchInstance
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#ai_gateway_id AiSearchInstance#ai_gateway_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#ai_gateway_id AiSearchInstance#ai_gateway_id}.</summary>
         [JsiiProperty(name: "aiGatewayId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AiGatewayId
@@ -42,7 +42,7 @@ namespace cloudflare.AiSearchInstance
         /// <remarks>
         /// An empty string uses the configured or default model.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#aisearch_model AiSearchInstance#aisearch_model}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#aisearch_model AiSearchInstance#aisearch_model}
         /// </remarks>
         [JsiiProperty(name: "aisearchModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +54,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#cache AiSearchInstance#cache}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#cache AiSearchInstance#cache}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -70,7 +70,7 @@ namespace cloudflare.AiSearchInstance
 
         /// <summary>Available values: "super_strict_match", "close_enough", "flexible_friend", "anything_goes".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#cache_threshold AiSearchInstance#cache_threshold}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#cache_threshold AiSearchInstance#cache_threshold}
         /// </remarks>
         [JsiiProperty(name: "cacheThreshold", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -87,7 +87,7 @@ namespace cloudflare.AiSearchInstance
         /// Allowed values: 600 (10min), 1800 (30min), 3600 (1h), 7200 (2h), 21600 (6h), 43200 (12h), 86400 (24h), 172800 (48h), 259200 (72h), 518400 (6d).
         /// Available values: 600, 1800, 3600, 7200, 21600, 43200, 86400, 172800, 259200, 518400.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#cache_ttl AiSearchInstance#cache_ttl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#cache_ttl AiSearchInstance#cache_ttl}
         /// </remarks>
         [JsiiProperty(name: "cacheTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -99,7 +99,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#chunk AiSearchInstance#chunk}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#chunk AiSearchInstance#chunk}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -113,7 +113,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#chunk_overlap AiSearchInstance#chunk_overlap}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#chunk_overlap AiSearchInstance#chunk_overlap}.</summary>
         [JsiiProperty(name: "chunkOverlap", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ChunkOverlap
@@ -124,7 +124,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#chunk_size AiSearchInstance#chunk_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#chunk_size AiSearchInstance#chunk_size}.</summary>
         [JsiiProperty(name: "chunkSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ChunkSize
@@ -135,7 +135,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#custom_metadata AiSearchInstance#custom_metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#custom_metadata AiSearchInstance#custom_metadata}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AiSearchInstance.IAiSearchInstanceCustomMetadata" />)[]</para>
         /// </remarks>
@@ -149,7 +149,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#embedding_model AiSearchInstance#embedding_model}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#embedding_model AiSearchInstance#embedding_model}.</summary>
         [JsiiProperty(name: "embeddingModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EmbeddingModel
@@ -162,7 +162,7 @@ namespace cloudflare.AiSearchInstance
 
         /// <summary>Available values: "max", "rrf".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#fusion_method AiSearchInstance#fusion_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#fusion_method AiSearchInstance#fusion_method}
         /// </remarks>
         [JsiiProperty(name: "fusionMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -176,7 +176,7 @@ namespace cloudflare.AiSearchInstance
 
         /// <summary>Deprecated — use index_method instead.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#hybrid_search_enabled AiSearchInstance#hybrid_search_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#hybrid_search_enabled AiSearchInstance#hybrid_search_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "hybridSearchEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -189,7 +189,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#indexing_options AiSearchInstance#indexing_options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#indexing_options AiSearchInstance#indexing_options}.</summary>
         [JsiiProperty(name: "indexingOptions", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceIndexingOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.AiSearchInstance.IAiSearchInstanceIndexingOptions? IndexingOptions
@@ -202,7 +202,7 @@ namespace cloudflare.AiSearchInstance
 
         /// <summary>Controls which storage backends are used during indexing. Defaults to vector-only.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#index_method AiSearchInstance#index_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#index_method AiSearchInstance#index_method}
         /// </remarks>
         [JsiiProperty(name: "indexMethod", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceIndexMethod\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -214,7 +214,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#max_num_results AiSearchInstance#max_num_results}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#max_num_results AiSearchInstance#max_num_results}.</summary>
         [JsiiProperty(name: "maxNumResults", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MaxNumResults
@@ -225,7 +225,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#metadata AiSearchInstance#metadata}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#metadata AiSearchInstance#metadata}.</summary>
         [JsiiProperty(name: "metadata", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceMetadata\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.AiSearchInstance.IAiSearchInstanceMetadata? Metadata
@@ -236,7 +236,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#paused AiSearchInstance#paused}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#paused AiSearchInstance#paused}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -250,7 +250,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#public_endpoint_params AiSearchInstance#public_endpoint_params}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#public_endpoint_params AiSearchInstance#public_endpoint_params}.</summary>
         [JsiiProperty(name: "publicEndpointParams", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstancePublicEndpointParams\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.AiSearchInstance.IAiSearchInstancePublicEndpointParams? PublicEndpointParams
@@ -261,7 +261,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#reranking AiSearchInstance#reranking}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#reranking AiSearchInstance#reranking}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -275,7 +275,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#reranking_model AiSearchInstance#reranking_model}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#reranking_model AiSearchInstance#reranking_model}.</summary>
         [JsiiProperty(name: "rerankingModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RerankingModel
@@ -286,7 +286,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#retrieval_options AiSearchInstance#retrieval_options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#retrieval_options AiSearchInstance#retrieval_options}.</summary>
         [JsiiProperty(name: "retrievalOptions", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceRetrievalOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.AiSearchInstance.IAiSearchInstanceRetrievalOptions? RetrievalOptions
@@ -301,7 +301,7 @@ namespace cloudflare.AiSearchInstance
         /// <remarks>
         /// An empty string uses the configured or default model.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#rewrite_model AiSearchInstance#rewrite_model}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#rewrite_model AiSearchInstance#rewrite_model}
         /// </remarks>
         [JsiiProperty(name: "rewriteModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -313,7 +313,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#rewrite_query AiSearchInstance#rewrite_query}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#rewrite_query AiSearchInstance#rewrite_query}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -327,7 +327,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#score_threshold AiSearchInstance#score_threshold}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#score_threshold AiSearchInstance#score_threshold}.</summary>
         [JsiiProperty(name: "scoreThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ScoreThreshold
@@ -338,7 +338,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#source AiSearchInstance#source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#source AiSearchInstance#source}.</summary>
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Source
@@ -349,7 +349,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#source_params AiSearchInstance#source_params}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#source_params AiSearchInstance#source_params}.</summary>
         [JsiiProperty(name: "sourceParams", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceSourceParams\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.AiSearchInstance.IAiSearchInstanceSourceParams? SourceParams
@@ -360,7 +360,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#summarization AiSearchInstance#summarization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#summarization AiSearchInstance#summarization}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -374,7 +374,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#summarization_model AiSearchInstance#summarization_model}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#summarization_model AiSearchInstance#summarization_model}.</summary>
         [JsiiProperty(name: "summarizationModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SummarizationModel
@@ -390,7 +390,7 @@ namespace cloudflare.AiSearchInstance
         /// Allowed values: 900 (15min), 1800 (30min), 3600 (1h), 7200 (2h), 14400 (4h), 21600 (6h), 43200 (12h), 86400 (24h).
         /// Available values: 900, 1800, 3600, 7200, 14400, 21600, 43200, 86400.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#sync_interval AiSearchInstance#sync_interval}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#sync_interval AiSearchInstance#sync_interval}
         /// </remarks>
         [JsiiProperty(name: "syncInterval", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -402,7 +402,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#system_prompt_aisearch AiSearchInstance#system_prompt_aisearch}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#system_prompt_aisearch AiSearchInstance#system_prompt_aisearch}.</summary>
         [JsiiProperty(name: "systemPromptAisearch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SystemPromptAisearch
@@ -413,7 +413,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#system_prompt_index_summarization AiSearchInstance#system_prompt_index_summarization}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#system_prompt_index_summarization AiSearchInstance#system_prompt_index_summarization}.</summary>
         [JsiiProperty(name: "systemPromptIndexSummarization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SystemPromptIndexSummarization
@@ -424,7 +424,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#system_prompt_rewrite_query AiSearchInstance#system_prompt_rewrite_query}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#system_prompt_rewrite_query AiSearchInstance#system_prompt_rewrite_query}.</summary>
         [JsiiProperty(name: "systemPromptRewriteQuery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SystemPromptRewriteQuery
@@ -435,7 +435,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#token_id AiSearchInstance#token_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#token_id AiSearchInstance#token_id}.</summary>
         [JsiiProperty(name: "tokenId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TokenId
@@ -448,7 +448,7 @@ namespace cloudflare.AiSearchInstance
 
         /// <summary>Available values: "r2", "web-crawler".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#type AiSearchInstance#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#type AiSearchInstance#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -467,7 +467,7 @@ namespace cloudflare.AiSearchInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#account_id AiSearchInstance#account_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#account_id AiSearchInstance#account_id}.</summary>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
             {
@@ -476,7 +476,7 @@ namespace cloudflare.AiSearchInstance
 
             /// <summary>AI Search instance ID. Lowercase alphanumeric, hyphens, and underscores.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#id AiSearchInstance#id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#id AiSearchInstance#id}
             ///
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -487,7 +487,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#ai_gateway_id AiSearchInstance#ai_gateway_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#ai_gateway_id AiSearchInstance#ai_gateway_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "aiGatewayId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AiGatewayId
@@ -499,7 +499,7 @@ namespace cloudflare.AiSearchInstance
             /// <remarks>
             /// An empty string uses the configured or default model.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#aisearch_model AiSearchInstance#aisearch_model}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#aisearch_model AiSearchInstance#aisearch_model}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "aisearchModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -508,7 +508,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#cache AiSearchInstance#cache}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#cache AiSearchInstance#cache}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -521,7 +521,7 @@ namespace cloudflare.AiSearchInstance
 
             /// <summary>Available values: "super_strict_match", "close_enough", "flexible_friend", "anything_goes".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#cache_threshold AiSearchInstance#cache_threshold}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#cache_threshold AiSearchInstance#cache_threshold}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cacheThreshold", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -535,7 +535,7 @@ namespace cloudflare.AiSearchInstance
             /// Allowed values: 600 (10min), 1800 (30min), 3600 (1h), 7200 (2h), 21600 (6h), 43200 (12h), 86400 (24h), 172800 (48h), 259200 (72h), 518400 (6d).
             /// Available values: 600, 1800, 3600, 7200, 21600, 43200, 86400, 172800, 259200, 518400.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#cache_ttl AiSearchInstance#cache_ttl}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#cache_ttl AiSearchInstance#cache_ttl}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cacheTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -544,7 +544,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#chunk AiSearchInstance#chunk}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#chunk AiSearchInstance#chunk}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -555,7 +555,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#chunk_overlap AiSearchInstance#chunk_overlap}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#chunk_overlap AiSearchInstance#chunk_overlap}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "chunkOverlap", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ChunkOverlap
@@ -563,7 +563,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#chunk_size AiSearchInstance#chunk_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#chunk_size AiSearchInstance#chunk_size}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "chunkSize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ChunkSize
@@ -571,7 +571,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#custom_metadata AiSearchInstance#custom_metadata}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#custom_metadata AiSearchInstance#custom_metadata}.</summary>
             /// <remarks>
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AiSearchInstance.IAiSearchInstanceCustomMetadata" />)[]</para>
             /// </remarks>
@@ -582,7 +582,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#embedding_model AiSearchInstance#embedding_model}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#embedding_model AiSearchInstance#embedding_model}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "embeddingModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EmbeddingModel
@@ -592,7 +592,7 @@ namespace cloudflare.AiSearchInstance
 
             /// <summary>Available values: "max", "rrf".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#fusion_method AiSearchInstance#fusion_method}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#fusion_method AiSearchInstance#fusion_method}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fusionMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -603,7 +603,7 @@ namespace cloudflare.AiSearchInstance
 
             /// <summary>Deprecated — use index_method instead.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#hybrid_search_enabled AiSearchInstance#hybrid_search_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#hybrid_search_enabled AiSearchInstance#hybrid_search_enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -613,7 +613,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#indexing_options AiSearchInstance#indexing_options}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#indexing_options AiSearchInstance#indexing_options}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "indexingOptions", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceIndexingOptions\"}", isOptional: true)]
             public cloudflare.AiSearchInstance.IAiSearchInstanceIndexingOptions? IndexingOptions
@@ -623,7 +623,7 @@ namespace cloudflare.AiSearchInstance
 
             /// <summary>Controls which storage backends are used during indexing. Defaults to vector-only.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#index_method AiSearchInstance#index_method}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#index_method AiSearchInstance#index_method}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "indexMethod", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceIndexMethod\"}", isOptional: true)]
@@ -632,7 +632,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<cloudflare.AiSearchInstance.IAiSearchInstanceIndexMethod?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#max_num_results AiSearchInstance#max_num_results}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#max_num_results AiSearchInstance#max_num_results}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "maxNumResults", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MaxNumResults
@@ -640,7 +640,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#metadata AiSearchInstance#metadata}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#metadata AiSearchInstance#metadata}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceMetadata\"}", isOptional: true)]
             public cloudflare.AiSearchInstance.IAiSearchInstanceMetadata? Metadata
@@ -648,7 +648,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<cloudflare.AiSearchInstance.IAiSearchInstanceMetadata?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#paused AiSearchInstance#paused}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#paused AiSearchInstance#paused}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -659,7 +659,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#public_endpoint_params AiSearchInstance#public_endpoint_params}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#public_endpoint_params AiSearchInstance#public_endpoint_params}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "publicEndpointParams", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstancePublicEndpointParams\"}", isOptional: true)]
             public cloudflare.AiSearchInstance.IAiSearchInstancePublicEndpointParams? PublicEndpointParams
@@ -667,7 +667,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<cloudflare.AiSearchInstance.IAiSearchInstancePublicEndpointParams?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#reranking AiSearchInstance#reranking}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#reranking AiSearchInstance#reranking}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -678,7 +678,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#reranking_model AiSearchInstance#reranking_model}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#reranking_model AiSearchInstance#reranking_model}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "rerankingModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RerankingModel
@@ -686,7 +686,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#retrieval_options AiSearchInstance#retrieval_options}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#retrieval_options AiSearchInstance#retrieval_options}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "retrievalOptions", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceRetrievalOptions\"}", isOptional: true)]
             public cloudflare.AiSearchInstance.IAiSearchInstanceRetrievalOptions? RetrievalOptions
@@ -698,7 +698,7 @@ namespace cloudflare.AiSearchInstance
             /// <remarks>
             /// An empty string uses the configured or default model.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#rewrite_model AiSearchInstance#rewrite_model}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#rewrite_model AiSearchInstance#rewrite_model}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rewriteModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -707,7 +707,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#rewrite_query AiSearchInstance#rewrite_query}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#rewrite_query AiSearchInstance#rewrite_query}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -718,7 +718,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#score_threshold AiSearchInstance#score_threshold}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#score_threshold AiSearchInstance#score_threshold}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "scoreThreshold", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ScoreThreshold
@@ -726,7 +726,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#source AiSearchInstance#source}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#source AiSearchInstance#source}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Source
@@ -734,7 +734,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#source_params AiSearchInstance#source_params}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#source_params AiSearchInstance#source_params}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceParams", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceSourceParams\"}", isOptional: true)]
             public cloudflare.AiSearchInstance.IAiSearchInstanceSourceParams? SourceParams
@@ -742,7 +742,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<cloudflare.AiSearchInstance.IAiSearchInstanceSourceParams?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#summarization AiSearchInstance#summarization}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#summarization AiSearchInstance#summarization}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -753,7 +753,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#summarization_model AiSearchInstance#summarization_model}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#summarization_model AiSearchInstance#summarization_model}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "summarizationModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SummarizationModel
@@ -766,7 +766,7 @@ namespace cloudflare.AiSearchInstance
             /// Allowed values: 900 (15min), 1800 (30min), 3600 (1h), 7200 (2h), 14400 (4h), 21600 (6h), 43200 (12h), 86400 (24h).
             /// Available values: 900, 1800, 3600, 7200, 14400, 21600, 43200, 86400.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#sync_interval AiSearchInstance#sync_interval}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#sync_interval AiSearchInstance#sync_interval}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "syncInterval", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -775,7 +775,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#system_prompt_aisearch AiSearchInstance#system_prompt_aisearch}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#system_prompt_aisearch AiSearchInstance#system_prompt_aisearch}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "systemPromptAisearch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SystemPromptAisearch
@@ -783,7 +783,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#system_prompt_index_summarization AiSearchInstance#system_prompt_index_summarization}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#system_prompt_index_summarization AiSearchInstance#system_prompt_index_summarization}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "systemPromptIndexSummarization", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SystemPromptIndexSummarization
@@ -791,7 +791,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#system_prompt_rewrite_query AiSearchInstance#system_prompt_rewrite_query}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#system_prompt_rewrite_query AiSearchInstance#system_prompt_rewrite_query}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "systemPromptRewriteQuery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SystemPromptRewriteQuery
@@ -799,7 +799,7 @@ namespace cloudflare.AiSearchInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#token_id AiSearchInstance#token_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#token_id AiSearchInstance#token_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tokenId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TokenId
@@ -809,7 +809,7 @@ namespace cloudflare.AiSearchInstance
 
             /// <summary>Available values: "r2", "web-crawler".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/ai_search_instance#type AiSearchInstance#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/ai_search_instance#type AiSearchInstance#type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace cloudflare.WorkersKv
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_kv#account_id WorkersKv#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_kv#account_id WorkersKv#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -21,7 +21,7 @@ namespace cloudflare.WorkersKv
         /// <remarks>
         /// The name may be at most 512 bytes. All printable, non-whitespace characters are valid. Use percent-encoding to define key names as part of a URL.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_kv#key_name WorkersKv#key_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_kv#key_name WorkersKv#key_name}
         /// </remarks>
         [JsiiProperty(name: "keyName", typeJson: "{\"primitive\":\"string\"}")]
         string KeyName
@@ -31,7 +31,7 @@ namespace cloudflare.WorkersKv
 
         /// <summary>Namespace identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_kv#namespace_id WorkersKv#namespace_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_kv#namespace_id WorkersKv#namespace_id}
         /// </remarks>
         [JsiiProperty(name: "namespaceId", typeJson: "{\"primitive\":\"string\"}")]
         string NamespaceId
@@ -41,7 +41,7 @@ namespace cloudflare.WorkersKv
 
         /// <summary>A byte sequence to be stored, up to 25 MiB in length.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_kv#value WorkersKv#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_kv#value WorkersKv#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
@@ -49,9 +49,37 @@ namespace cloudflare.WorkersKv
             get;
         }
 
+        /// <summary>Expires the key at a certain time, measured in number of seconds since the UNIX epoch.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_kv#expiration WorkersKv#expiration}
+        /// </remarks>
+        [JsiiProperty(name: "expiration", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        double? Expiration
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Expires the key after a number of seconds. Must be at least 60.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_kv#expiration_ttl WorkersKv#expiration_ttl}
+        /// </remarks>
+        [JsiiProperty(name: "expirationTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        double? ExpirationTtl
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>Associates arbitrary JSON data with a key/value pair.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_kv#metadata WorkersKv#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_kv#metadata WorkersKv#metadata}
         /// </remarks>
         [JsiiProperty(name: "metadata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,7 +100,7 @@ namespace cloudflare.WorkersKv
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_kv#account_id WorkersKv#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_kv#account_id WorkersKv#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -84,7 +112,7 @@ namespace cloudflare.WorkersKv
             /// <remarks>
             /// The name may be at most 512 bytes. All printable, non-whitespace characters are valid. Use percent-encoding to define key names as part of a URL.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_kv#key_name WorkersKv#key_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_kv#key_name WorkersKv#key_name}
             /// </remarks>
             [JsiiProperty(name: "keyName", typeJson: "{\"primitive\":\"string\"}")]
             public string KeyName
@@ -94,7 +122,7 @@ namespace cloudflare.WorkersKv
 
             /// <summary>Namespace identifier tag.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_kv#namespace_id WorkersKv#namespace_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_kv#namespace_id WorkersKv#namespace_id}
             /// </remarks>
             [JsiiProperty(name: "namespaceId", typeJson: "{\"primitive\":\"string\"}")]
             public string NamespaceId
@@ -104,7 +132,7 @@ namespace cloudflare.WorkersKv
 
             /// <summary>A byte sequence to be stored, up to 25 MiB in length.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_kv#value WorkersKv#value}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_kv#value WorkersKv#value}
             /// </remarks>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
@@ -112,9 +140,31 @@ namespace cloudflare.WorkersKv
                 get => GetInstanceProperty<string>()!;
             }
 
+            /// <summary>Expires the key at a certain time, measured in number of seconds since the UNIX epoch.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_kv#expiration WorkersKv#expiration}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "expiration", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+            public double? Expiration
+            {
+                get => GetInstanceProperty<double?>();
+            }
+
+            /// <summary>Expires the key after a number of seconds. Must be at least 60.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_kv#expiration_ttl WorkersKv#expiration_ttl}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "expirationTtl", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+            public double? ExpirationTtl
+            {
+                get => GetInstanceProperty<double?>();
+            }
+
             /// <summary>Associates arbitrary JSON data with a key/value pair.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_kv#metadata WorkersKv#metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_kv#metadata WorkersKv#metadata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

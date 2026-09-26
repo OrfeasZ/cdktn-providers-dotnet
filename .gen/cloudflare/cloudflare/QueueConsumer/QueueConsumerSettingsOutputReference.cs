@@ -33,8 +33,86 @@ namespace cloudflare.QueueConsumer
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.QueueConsumer.IQueueConsumerSettingsEmail" />)[]</param>
+        [JsiiMethod(name: "putEmail", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.queueConsumer.QueueConsumerSettingsEmail\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutEmail(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case cloudflare.QueueConsumer.IQueueConsumerSettingsEmail[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.QueueConsumer.IQueueConsumerSettingsEmail).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.QueueConsumer.IQueueConsumerSettingsEmail).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.QueueConsumer.IQueueConsumerSettingsPagerduty" />)[]</param>
+        [JsiiMethod(name: "putPagerduty", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.queueConsumer.QueueConsumerSettingsPagerduty\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutPagerduty(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case cloudflare.QueueConsumer.IQueueConsumerSettingsPagerduty[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.QueueConsumer.IQueueConsumerSettingsPagerduty).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.QueueConsumer.IQueueConsumerSettingsPagerduty).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.QueueConsumer.IQueueConsumerSettingsWebhooks" />)[]</param>
+        [JsiiMethod(name: "putWebhooks", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.queueConsumer.QueueConsumerSettingsWebhooks\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutWebhooks(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case cloudflare.QueueConsumer.IQueueConsumerSettingsWebhooks[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.QueueConsumer.IQueueConsumerSettingsWebhooks).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(cloudflare.QueueConsumer.IQueueConsumerSettingsWebhooks).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetBatchSize")]
         public virtual void ResetBatchSize()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetEmail")]
+        public virtual void ResetEmail()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -57,6 +135,12 @@ namespace cloudflare.QueueConsumer
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetPagerduty")]
+        public virtual void ResetPagerduty()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetRetryDelay")]
         public virtual void ResetRetryDelay()
         {
@@ -69,11 +153,45 @@ namespace cloudflare.QueueConsumer
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetWebhooks")]
+        public virtual void ResetWebhooks()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "email", typeJson: "{\"fqn\":\"cloudflare.queueConsumer.QueueConsumerSettingsEmailList\"}")]
+        public virtual cloudflare.QueueConsumer.QueueConsumerSettingsEmailList Email
+        {
+            get => GetInstanceProperty<cloudflare.QueueConsumer.QueueConsumerSettingsEmailList>()!;
+        }
+
+        [JsiiProperty(name: "pagerduty", typeJson: "{\"fqn\":\"cloudflare.queueConsumer.QueueConsumerSettingsPagerdutyList\"}")]
+        public virtual cloudflare.QueueConsumer.QueueConsumerSettingsPagerdutyList Pagerduty
+        {
+            get => GetInstanceProperty<cloudflare.QueueConsumer.QueueConsumerSettingsPagerdutyList>()!;
+        }
+
+        [JsiiProperty(name: "webhooks", typeJson: "{\"fqn\":\"cloudflare.queueConsumer.QueueConsumerSettingsWebhooksList\"}")]
+        public virtual cloudflare.QueueConsumer.QueueConsumerSettingsWebhooksList Webhooks
+        {
+            get => GetInstanceProperty<cloudflare.QueueConsumer.QueueConsumerSettingsWebhooksList>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "batchSizeInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? BatchSizeInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.QueueConsumer.IQueueConsumerSettingsEmail" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "emailInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.queueConsumer.QueueConsumerSettingsEmail\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? EmailInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -97,6 +215,16 @@ namespace cloudflare.QueueConsumer
             get => GetInstanceProperty<double?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.QueueConsumer.IQueueConsumerSettingsPagerduty" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "pagerdutyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.queueConsumer.QueueConsumerSettingsPagerduty\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? PagerdutyInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "retryDelayInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? RetryDelayInput
@@ -109,6 +237,16 @@ namespace cloudflare.QueueConsumer
         public virtual double? VisibilityTimeoutMsInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.QueueConsumer.IQueueConsumerSettingsWebhooks" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "webhooksInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.queueConsumer.QueueConsumerSettingsWebhooks\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? WebhooksInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiProperty(name: "batchSize", typeJson: "{\"primitive\":\"number\"}")]

@@ -47,6 +47,18 @@ namespace cloudflare.DataCloudflareWorkerVersions
             get => GetInstanceProperty<cloudflare.DataCloudflareWorkerVersions.DataCloudflareWorkerVersionsResultAssetsOutputReference>()!;
         }
 
+        [JsiiProperty(name: "authorEmail", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AuthorEmail
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "authorId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AuthorId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "bindings", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkerVersions.DataCloudflareWorkerVersionsResultBindingsList\"}")]
         public virtual cloudflare.DataCloudflareWorkerVersions.DataCloudflareWorkerVersionsResultBindingsList Bindings
         {

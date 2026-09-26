@@ -9,7 +9,7 @@ namespace cloudflare.PipelineSink
     {
         private object? _fields;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/pipeline_sink#fields PipelineSink#fields}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/pipeline_sink#fields PipelineSink#fields}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.PipelineSink.IPipelineSinkSchemaFields" />)[]</para>
         /// </remarks>
@@ -43,7 +43,7 @@ namespace cloudflare.PipelineSink
 
         private object? _inferred;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/pipeline_sink#inferred PipelineSink#inferred}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/pipeline_sink#inferred PipelineSink#inferred}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

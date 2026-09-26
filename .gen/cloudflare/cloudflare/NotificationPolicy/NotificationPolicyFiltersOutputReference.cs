@@ -255,6 +255,12 @@ namespace cloudflare.NotificationPolicy
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTokenId")]
+        public virtual void ResetTokenId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTrafficExclusions")]
         public virtual void ResetTrafficExclusions()
         {
@@ -546,6 +552,13 @@ namespace cloudflare.NotificationPolicy
         [JsiiOptional]
         [JsiiProperty(name: "targetZoneNameInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? TargetZoneNameInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tokenIdInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? TokenIdInput
         {
             get => GetInstanceProperty<string[]?>();
         }
@@ -846,6 +859,13 @@ namespace cloudflare.NotificationPolicy
 
         [JsiiProperty(name: "targetZoneName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] TargetZoneName
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "tokenId", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] TokenId
         {
             get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);

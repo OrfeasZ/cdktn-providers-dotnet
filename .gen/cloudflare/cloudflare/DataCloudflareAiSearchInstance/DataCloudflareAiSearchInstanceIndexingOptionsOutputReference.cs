@@ -39,6 +39,12 @@ namespace cloudflare.DataCloudflareAiSearchInstance
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "useOcr", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable UseOcr
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAiSearchInstance.DataCloudflareAiSearchInstanceIndexingOptions\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareAiSearchInstance.IDataCloudflareAiSearchInstanceIndexingOptions? InternalValue

@@ -39,6 +39,12 @@ namespace cloudflare.DataCloudflareQueueConsumer
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "email", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareQueueConsumer.DataCloudflareQueueConsumerSettingsEmailList\"}")]
+        public virtual cloudflare.DataCloudflareQueueConsumer.DataCloudflareQueueConsumerSettingsEmailList Email
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareQueueConsumer.DataCloudflareQueueConsumerSettingsEmailList>()!;
+        }
+
         [JsiiProperty(name: "maxConcurrency", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double MaxConcurrency
         {
@@ -57,6 +63,12 @@ namespace cloudflare.DataCloudflareQueueConsumer
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "pagerduty", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareQueueConsumer.DataCloudflareQueueConsumerSettingsPagerdutyList\"}")]
+        public virtual cloudflare.DataCloudflareQueueConsumer.DataCloudflareQueueConsumerSettingsPagerdutyList Pagerduty
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareQueueConsumer.DataCloudflareQueueConsumerSettingsPagerdutyList>()!;
+        }
+
         [JsiiProperty(name: "retryDelay", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double RetryDelay
         {
@@ -67,6 +79,12 @@ namespace cloudflare.DataCloudflareQueueConsumer
         public virtual double VisibilityTimeoutMs
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "webhooks", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareQueueConsumer.DataCloudflareQueueConsumerSettingsWebhooksList\"}")]
+        public virtual cloudflare.DataCloudflareQueueConsumer.DataCloudflareQueueConsumerSettingsWebhooksList Webhooks
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareQueueConsumer.DataCloudflareQueueConsumerSettingsWebhooksList>()!;
         }
 
         [JsiiOptional]

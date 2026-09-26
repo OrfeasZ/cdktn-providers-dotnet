@@ -9,7 +9,7 @@ namespace cloudflare.WorkersScript
     {
         /// <summary>Content type of the file, such as `application/wasm`, `text/plain`, or `application/octet-stream`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_script#content_type WorkersScript#content_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_script#content_type WorkersScript#content_type}
         /// </remarks>
         [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}")]
         string ContentType
@@ -19,7 +19,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>Base64-encoded file content.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_script#content_base64 WorkersScript#content_base64}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_script#content_base64 WorkersScript#content_base64}
         /// </remarks>
         [JsiiProperty(name: "contentBase64", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +33,7 @@ namespace cloudflare.WorkersScript
 
         /// <summary>Path to the file content.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_script#content_file WorkersScript#content_file}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_script#content_file WorkersScript#content_file}
         /// </remarks>
         [JsiiProperty(name: "contentFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +54,7 @@ namespace cloudflare.WorkersScript
 
             /// <summary>Content type of the file, such as `application/wasm`, `text/plain`, or `application/octet-stream`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_script#content_type WorkersScript#content_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_script#content_type WorkersScript#content_type}
             /// </remarks>
             [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}")]
             public string ContentType
@@ -64,7 +64,7 @@ namespace cloudflare.WorkersScript
 
             /// <summary>Base64-encoded file content.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_script#content_base64 WorkersScript#content_base64}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_script#content_base64 WorkersScript#content_base64}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "contentBase64", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace cloudflare.WorkersScript
 
             /// <summary>Path to the file content.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/workers_script#content_file WorkersScript#content_file}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_script#content_file WorkersScript#content_file}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "contentFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

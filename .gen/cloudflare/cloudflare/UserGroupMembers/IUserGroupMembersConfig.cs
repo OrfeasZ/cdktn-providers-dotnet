@@ -9,7 +9,7 @@ namespace cloudflare.UserGroupMembers
     {
         /// <summary>Account identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/user_group_members#account_id UserGroupMembers#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/user_group_members#account_id UserGroupMembers#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -17,7 +17,7 @@ namespace cloudflare.UserGroupMembers
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/user_group_members#members UserGroupMembers#members}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/user_group_members#members UserGroupMembers#members}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.UserGroupMembers.IUserGroupMembersMembers" />)[]</para>
         /// </remarks>
@@ -29,12 +29,68 @@ namespace cloudflare.UserGroupMembers
 
         /// <summary>User Group identifier tag.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/user_group_members#user_group_id UserGroupMembers#user_group_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/user_group_members#user_group_id UserGroupMembers#user_group_id}
         /// </remarks>
         [JsiiProperty(name: "userGroupId", typeJson: "{\"primitive\":\"string\"}")]
         string UserGroupId
         {
             get;
+        }
+
+        /// <summary>The sort order of returned user group members by email. Available values: "asc", "desc".</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/user_group_members#direction UserGroupMembers#direction}
+        /// </remarks>
+        [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Direction
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>A string used for filtering members by partial email match.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/user_group_members#fuzzy_email UserGroupMembers#fuzzy_email}
+        /// </remarks>
+        [JsiiProperty(name: "fuzzyEmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? FuzzyEmail
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Page number of paginated results.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/user_group_members#page UserGroupMembers#page}
+        /// </remarks>
+        [JsiiProperty(name: "page", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        double? Page
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Maximum number of results per page.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/user_group_members#per_page UserGroupMembers#per_page}
+        /// </remarks>
+        [JsiiProperty(name: "perPage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        double? PerPage
+        {
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IUserGroupMembersConfig), fullyQualifiedName: "cloudflare.userGroupMembers.UserGroupMembersConfig")]
@@ -46,7 +102,7 @@ namespace cloudflare.UserGroupMembers
 
             /// <summary>Account identifier tag.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/user_group_members#account_id UserGroupMembers#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/user_group_members#account_id UserGroupMembers#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -54,7 +110,7 @@ namespace cloudflare.UserGroupMembers
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/user_group_members#members UserGroupMembers#members}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/user_group_members#members UserGroupMembers#members}.</summary>
             /// <remarks>
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.UserGroupMembers.IUserGroupMembersMembers" />)[]</para>
             /// </remarks>
@@ -66,12 +122,56 @@ namespace cloudflare.UserGroupMembers
 
             /// <summary>User Group identifier tag.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/user_group_members#user_group_id UserGroupMembers#user_group_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/user_group_members#user_group_id UserGroupMembers#user_group_id}
             /// </remarks>
             [JsiiProperty(name: "userGroupId", typeJson: "{\"primitive\":\"string\"}")]
             public string UserGroupId
             {
                 get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>The sort order of returned user group members by email. Available values: "asc", "desc".</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/user_group_members#direction UserGroupMembers#direction}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Direction
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>A string used for filtering members by partial email match.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/user_group_members#fuzzy_email UserGroupMembers#fuzzy_email}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "fuzzyEmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? FuzzyEmail
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Page number of paginated results.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/user_group_members#page UserGroupMembers#page}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "page", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+            public double? Page
+            {
+                get => GetInstanceProperty<double?>();
+            }
+
+            /// <summary>Maximum number of results per page.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/user_group_members#per_page UserGroupMembers#per_page}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "perPage", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+            public double? PerPage
+            {
+                get => GetInstanceProperty<double?>();
             }
 
             /// <remarks>

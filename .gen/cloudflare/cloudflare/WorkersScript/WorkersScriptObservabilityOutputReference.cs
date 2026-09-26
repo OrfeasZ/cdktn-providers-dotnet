@@ -33,6 +33,12 @@ namespace cloudflare.WorkersScript
         {
         }
 
+        [JsiiMethod(name: "putIssues", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptObservabilityIssues\"}}]")]
+        public virtual void PutIssues(cloudflare.WorkersScript.IWorkersScriptObservabilityIssues @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.WorkersScript.IWorkersScriptObservabilityIssues)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putLogs", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptObservabilityLogs\"}}]")]
         public virtual void PutLogs(cloudflare.WorkersScript.IWorkersScriptObservabilityLogs @value)
         {
@@ -51,6 +57,12 @@ namespace cloudflare.WorkersScript
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetIssues")]
+        public virtual void ResetIssues()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetLogs")]
         public virtual void ResetLogs()
         {
@@ -61,6 +73,12 @@ namespace cloudflare.WorkersScript
         public virtual void ResetTraces()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "issues", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptObservabilityIssuesOutputReference\"}")]
+        public virtual cloudflare.WorkersScript.WorkersScriptObservabilityIssuesOutputReference Issues
+        {
+            get => GetInstanceProperty<cloudflare.WorkersScript.WorkersScriptObservabilityIssuesOutputReference>()!;
         }
 
         [JsiiProperty(name: "logs", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptObservabilityLogsOutputReference\"}")]
@@ -90,6 +108,16 @@ namespace cloudflare.WorkersScript
         public virtual double? HeadSamplingRateInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkersScript.IWorkersScriptObservabilityIssues" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "issuesInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workersScript.WorkersScriptObservabilityIssues\"}]}}", isOptional: true)]
+        public virtual object? IssuesInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>

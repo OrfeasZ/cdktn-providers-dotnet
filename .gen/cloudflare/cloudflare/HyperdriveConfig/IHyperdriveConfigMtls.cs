@@ -9,7 +9,7 @@ namespace cloudflare.HyperdriveConfig
     {
         /// <summary>Define CA certificate ID obtained after uploading CA cert.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/hyperdrive_config#ca_certificate_id HyperdriveConfig#ca_certificate_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/hyperdrive_config#ca_certificate_id HyperdriveConfig#ca_certificate_id}
         /// </remarks>
         [JsiiProperty(name: "caCertificateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace cloudflare.HyperdriveConfig
 
         /// <summary>Define mTLS certificate ID obtained after uploading client cert.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/hyperdrive_config#mtls_certificate_id HyperdriveConfig#mtls_certificate_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/hyperdrive_config#mtls_certificate_id HyperdriveConfig#mtls_certificate_id}
         /// </remarks>
         [JsiiProperty(name: "mtlsCertificateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,9 +35,11 @@ namespace cloudflare.HyperdriveConfig
             }
         }
 
-        /// <summary>Set SSL mode to 'require', 'verify-ca', or 'verify-full' to verify the CA.</summary>
+        /// <summary>PostgreSQL accepts `require`, `verify-ca`, and `verify-full`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/hyperdrive_config#sslmode HyperdriveConfig#sslmode}
+        /// MySQL accepts <c>REQUIRED</c>, <c>VERIFY_CA</c>, and <c>VERIFY_IDENTITY</c>. The verify modes require a CA certificate; the require modes cannot be used with a CA certificate.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/hyperdrive_config#sslmode HyperdriveConfig#sslmode}
         /// </remarks>
         [JsiiProperty(name: "sslmode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +60,7 @@ namespace cloudflare.HyperdriveConfig
 
             /// <summary>Define CA certificate ID obtained after uploading CA cert.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/hyperdrive_config#ca_certificate_id HyperdriveConfig#ca_certificate_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/hyperdrive_config#ca_certificate_id HyperdriveConfig#ca_certificate_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "caCertificateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -69,7 +71,7 @@ namespace cloudflare.HyperdriveConfig
 
             /// <summary>Define mTLS certificate ID obtained after uploading client cert.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/hyperdrive_config#mtls_certificate_id HyperdriveConfig#mtls_certificate_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/hyperdrive_config#mtls_certificate_id HyperdriveConfig#mtls_certificate_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mtlsCertificateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -78,9 +80,11 @@ namespace cloudflare.HyperdriveConfig
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Set SSL mode to 'require', 'verify-ca', or 'verify-full' to verify the CA.</summary>
+            /// <summary>PostgreSQL accepts `require`, `verify-ca`, and `verify-full`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/resources/hyperdrive_config#sslmode HyperdriveConfig#sslmode}
+            /// MySQL accepts <c>REQUIRED</c>, <c>VERIFY_CA</c>, and <c>VERIFY_IDENTITY</c>. The verify modes require a CA certificate; the require modes cannot be used with a CA certificate.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/hyperdrive_config#sslmode HyperdriveConfig#sslmode}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sslmode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

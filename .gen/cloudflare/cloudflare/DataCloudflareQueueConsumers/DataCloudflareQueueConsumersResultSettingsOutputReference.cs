@@ -39,6 +39,12 @@ namespace cloudflare.DataCloudflareQueueConsumers
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "email", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareQueueConsumers.DataCloudflareQueueConsumersResultSettingsEmailList\"}")]
+        public virtual cloudflare.DataCloudflareQueueConsumers.DataCloudflareQueueConsumersResultSettingsEmailList Email
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareQueueConsumers.DataCloudflareQueueConsumersResultSettingsEmailList>()!;
+        }
+
         [JsiiProperty(name: "maxConcurrency", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double MaxConcurrency
         {
@@ -57,6 +63,12 @@ namespace cloudflare.DataCloudflareQueueConsumers
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "pagerduty", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareQueueConsumers.DataCloudflareQueueConsumersResultSettingsPagerdutyList\"}")]
+        public virtual cloudflare.DataCloudflareQueueConsumers.DataCloudflareQueueConsumersResultSettingsPagerdutyList Pagerduty
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareQueueConsumers.DataCloudflareQueueConsumersResultSettingsPagerdutyList>()!;
+        }
+
         [JsiiProperty(name: "retryDelay", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double RetryDelay
         {
@@ -67,6 +79,12 @@ namespace cloudflare.DataCloudflareQueueConsumers
         public virtual double VisibilityTimeoutMs
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "webhooks", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareQueueConsumers.DataCloudflareQueueConsumersResultSettingsWebhooksList\"}")]
+        public virtual cloudflare.DataCloudflareQueueConsumers.DataCloudflareQueueConsumersResultSettingsWebhooksList Webhooks
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareQueueConsumers.DataCloudflareQueueConsumersResultSettingsWebhooksList>()!;
         }
 
         [JsiiOptional]

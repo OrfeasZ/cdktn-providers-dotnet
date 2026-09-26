@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.DataCloudflareFlagshipFlag
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/flagship_flag cloudflare_flagship_flag}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flag cloudflare_flagship_flag}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.DataCloudflareFlagshipFlag.DataCloudflareFlagshipFlag), fullyQualifiedName: "cloudflare.dataCloudflareFlagshipFlag.DataCloudflareFlagshipFlag", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.dataCloudflareFlagshipFlag.DataCloudflareFlagshipFlagConfig\"}}]")]
     public class DataCloudflareFlagshipFlag : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/flagship_flag cloudflare_flagship_flag} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flag cloudflare_flagship_flag} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataCloudflareFlagshipFlag(Constructs.Construct scope, string id, cloudflare.DataCloudflareFlagshipFlag.IDataCloudflareFlagshipFlagConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,28 @@ namespace cloudflare.DataCloudflareFlagshipFlag
         /// <param name="importToId">The construct id used in the generated config for the DataCloudflareFlagshipFlag to import.</param>
         /// <param name="importFromId">The id of the existing DataCloudflareFlagshipFlag that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataCloudflareFlagshipFlag to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataCloudflareFlagshipFlag to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.25.0/docs/data-sources/flagship_flag#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataCloudflareFlagshipFlag that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataCloudflareFlagshipFlag to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataCloudflareFlagshipFlag to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flag#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataCloudflareFlagshipFlag that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataCloudflareFlagshipFlag to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.DataCloudflareFlagshipFlag.DataCloudflareFlagshipFlag), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.dataCloudflareFlagshipFlag.DataCloudflareFlagshipFlagFilter\"}}]")]
+        public virtual void PutFilter(cloudflare.DataCloudflareFlagshipFlag.IDataCloudflareFlagshipFlagFilter @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.DataCloudflareFlagshipFlag.IDataCloudflareFlagshipFlagFilter)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetFilter")]
+        public virtual void ResetFilter()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetFlagKey")]
+        public virtual void ResetFlagKey()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "synthesizeAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
@@ -81,6 +99,18 @@ namespace cloudflare.DataCloudflareFlagshipFlag
         public virtual Io.Cdktn.IResolvable Enabled
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareFlagshipFlag.DataCloudflareFlagshipFlagFilterOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareFlagshipFlag.DataCloudflareFlagshipFlagFilterOutputReference Filter
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareFlagshipFlag.DataCloudflareFlagshipFlagFilterOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
@@ -131,6 +161,16 @@ namespace cloudflare.DataCloudflareFlagshipFlag
         public virtual string? AppIdInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareFlagshipFlag.IDataCloudflareFlagshipFlagFilter" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareFlagshipFlag.DataCloudflareFlagshipFlagFilter\"}]}}", isOptional: true)]
+        public virtual object? FilterInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
