@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace azapi.UpdateResource
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/update_resource azapi_update_resource}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/update_resource azapi_update_resource}.</summary>
     [JsiiClass(nativeType: typeof(azapi.UpdateResource.UpdateResource), fullyQualifiedName: "azapi.updateResource.UpdateResource", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azapi.updateResource.UpdateResourceConfig\"}}]")]
     public class UpdateResource : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/update_resource azapi_update_resource} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/update_resource azapi_update_resource} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public UpdateResource(Constructs.Construct scope, string id, azapi.UpdateResource.IUpdateResourceConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,16 @@ namespace azapi.UpdateResource
         /// <param name="importToId">The construct id used in the generated config for the UpdateResource to import.</param>
         /// <param name="importFromId">The id of the existing UpdateResource that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the UpdateResource to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the UpdateResource to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.12.0/docs/resources/update_resource#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing UpdateResource that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the UpdateResource to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the UpdateResource to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/resources/update_resource#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing UpdateResource that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the UpdateResource to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azapi.UpdateResource.UpdateResource), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putReadOverride", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azapi.updateResource.UpdateResourceReadOverride\"}}]")]
+        public virtual void PutReadOverride(azapi.UpdateResource.IUpdateResourceReadOverride @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(azapi.UpdateResource.IUpdateResourceReadOverride)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putRetry", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azapi.updateResource.UpdateResourceRetry\"}}]")]
@@ -108,6 +114,12 @@ namespace azapi.UpdateResource
 
         [JsiiMethod(name: "resetReadHeaders")]
         public virtual void ResetReadHeaders()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetReadOverride")]
+        public virtual void ResetReadOverride()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -203,6 +215,12 @@ namespace azapi.UpdateResource
             get => GetInstanceProperty<Io.Cdktn.AnyMap>()!;
         }
 
+        [JsiiProperty(name: "readOverride", typeJson: "{\"fqn\":\"azapi.updateResource.UpdateResourceReadOverrideOutputReference\"}")]
+        public virtual azapi.UpdateResource.UpdateResourceReadOverrideOutputReference ReadOverride
+        {
+            get => GetInstanceProperty<azapi.UpdateResource.UpdateResourceReadOverrideOutputReference>()!;
+        }
+
         [JsiiProperty(name: "retry", typeJson: "{\"fqn\":\"azapi.updateResource.UpdateResourceRetryOutputReference\"}")]
         public virtual azapi.UpdateResource.UpdateResourceRetryOutputReference Retry
         {
@@ -282,6 +300,16 @@ namespace azapi.UpdateResource
         public virtual System.Collections.Generic.IDictionary<string, string>? ReadHeadersInput
         {
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="azapi.UpdateResource.IUpdateResourceReadOverride" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "readOverrideInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"azapi.updateResource.UpdateResourceReadOverride\"}]}}", isOptional: true)]
+        public virtual object? ReadOverrideInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>

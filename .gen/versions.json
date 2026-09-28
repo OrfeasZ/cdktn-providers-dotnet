@@ -13,7 +13,7 @@
   "registry.terraform.io/dmacvicar/libvirt": "0.9.9",
   "registry.terraform.io/oracle/oci": "9.3.0",
   "registry.terraform.io/hashicorp/azurerm": "5.7.0",
-  "registry.terraform.io/azure/azapi": "2.12.0",
+  "registry.terraform.io/azure/azapi": "2.13.0",
   "registry.terraform.io/hashicorp/azuread": "3.10.0",
   "registry.terraform.io/microsoft/azuredevops": "1.16.0",
   "registry.terraform.io/hashicorp/azurestack": "1.0.0",
