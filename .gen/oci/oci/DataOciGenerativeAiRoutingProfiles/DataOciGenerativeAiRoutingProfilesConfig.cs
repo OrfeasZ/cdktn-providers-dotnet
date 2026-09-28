@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiRoutingProfiles
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiRoutingProfiles.DataOciGenerativeAiRoutingProfilesConfig")]
     public class DataOciGenerativeAiRoutingProfilesConfig : oci.DataOciGenerativeAiRoutingProfiles.IDataOciGenerativeAiRoutingProfilesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/generative_ai_routing_profiles#compartment_id DataOciGenerativeAiRoutingProfiles#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_routing_profiles#compartment_id DataOciGenerativeAiRoutingProfiles#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGenerativeAiRoutingProfiles
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/generative_ai_routing_profiles#display_name DataOciGenerativeAiRoutingProfiles#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_routing_profiles#display_name DataOciGenerativeAiRoutingProfiles#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciGenerativeAiRoutingProfiles
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/generative_ai_routing_profiles#filter DataOciGenerativeAiRoutingProfiles#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_routing_profiles#filter DataOciGenerativeAiRoutingProfiles#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGenerativeAiRoutingProfiles.IDataOciGenerativeAiRoutingProfilesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciGenerativeAiRoutingProfiles
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/generative_ai_routing_profiles#id DataOciGenerativeAiRoutingProfiles#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_routing_profiles#id DataOciGenerativeAiRoutingProfiles#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,7 +74,7 @@ namespace oci.DataOciGenerativeAiRoutingProfiles
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/generative_ai_routing_profiles#state DataOciGenerativeAiRoutingProfiles#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_routing_profiles#state DataOciGenerativeAiRoutingProfiles#state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State

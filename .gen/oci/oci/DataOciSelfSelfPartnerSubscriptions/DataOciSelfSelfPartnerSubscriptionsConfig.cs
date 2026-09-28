@@ -9,7 +9,7 @@ namespace oci.DataOciSelfSelfPartnerSubscriptions
     [JsiiByValue(fqn: "oci.dataOciSelfSelfPartnerSubscriptions.DataOciSelfSelfPartnerSubscriptionsConfig")]
     public class DataOciSelfSelfPartnerSubscriptionsConfig : oci.DataOciSelfSelfPartnerSubscriptions.IDataOciSelfSelfPartnerSubscriptionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/self_self_partner_subscriptions#listing_id DataOciSelfSelfPartnerSubscriptions#listing_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/self_self_partner_subscriptions#listing_id DataOciSelfSelfPartnerSubscriptions#listing_id}.</summary>
         [JsiiProperty(name: "listingId", typeJson: "{\"primitive\":\"string\"}")]
         public string ListingId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciSelfSelfPartnerSubscriptions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/self_self_partner_subscriptions#display_name DataOciSelfSelfPartnerSubscriptions#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/self_self_partner_subscriptions#display_name DataOciSelfSelfPartnerSubscriptions#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciSelfSelfPartnerSubscriptions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/self_self_partner_subscriptions#filter DataOciSelfSelfPartnerSubscriptions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/self_self_partner_subscriptions#filter DataOciSelfSelfPartnerSubscriptions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciSelfSelfPartnerSubscriptions.IDataOciSelfSelfPartnerSubscriptionsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciSelfSelfPartnerSubscriptions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/self_self_partner_subscriptions#id DataOciSelfSelfPartnerSubscriptions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/self_self_partner_subscriptions#id DataOciSelfSelfPartnerSubscriptions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

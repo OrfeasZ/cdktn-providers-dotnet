@@ -7,7 +7,7 @@ namespace oci.DataOciGenerativeAiRoutingProfile
     [JsiiInterface(nativeType: typeof(IDataOciGenerativeAiRoutingProfileConfig), fullyQualifiedName: "oci.dataOciGenerativeAiRoutingProfile.DataOciGenerativeAiRoutingProfileConfig")]
     public interface IDataOciGenerativeAiRoutingProfileConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/generative_ai_routing_profile#routing_profile_id DataOciGenerativeAiRoutingProfile#routing_profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_routing_profile#routing_profile_id DataOciGenerativeAiRoutingProfile#routing_profile_id}.</summary>
         [JsiiProperty(name: "routingProfileId", typeJson: "{\"primitive\":\"string\"}")]
         string RoutingProfileId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciGenerativeAiRoutingProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/generative_ai_routing_profile#routing_profile_id DataOciGenerativeAiRoutingProfile#routing_profile_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_routing_profile#routing_profile_id DataOciGenerativeAiRoutingProfile#routing_profile_id}.</summary>
             [JsiiProperty(name: "routingProfileId", typeJson: "{\"primitive\":\"string\"}")]
             public string RoutingProfileId
             {

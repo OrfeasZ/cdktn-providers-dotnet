@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiRoutingProfiles
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiRoutingProfiles.DataOciGenerativeAiRoutingProfilesFilter")]
     public class DataOciGenerativeAiRoutingProfilesFilter : oci.DataOciGenerativeAiRoutingProfiles.IDataOciGenerativeAiRoutingProfilesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/generative_ai_routing_profiles#name DataOciGenerativeAiRoutingProfiles#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_routing_profiles#name DataOciGenerativeAiRoutingProfiles#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGenerativeAiRoutingProfiles
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/generative_ai_routing_profiles#values DataOciGenerativeAiRoutingProfiles#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_routing_profiles#values DataOciGenerativeAiRoutingProfiles#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciGenerativeAiRoutingProfiles
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/generative_ai_routing_profiles#regex DataOciGenerativeAiRoutingProfiles#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_routing_profiles#regex DataOciGenerativeAiRoutingProfiles#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

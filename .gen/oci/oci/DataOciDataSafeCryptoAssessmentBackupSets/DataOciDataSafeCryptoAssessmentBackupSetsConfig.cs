@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentBackupSets
     [JsiiByValue(fqn: "oci.dataOciDataSafeCryptoAssessmentBackupSets.DataOciDataSafeCryptoAssessmentBackupSetsConfig")]
     public class DataOciDataSafeCryptoAssessmentBackupSetsConfig : oci.DataOciDataSafeCryptoAssessmentBackupSets.IDataOciDataSafeCryptoAssessmentBackupSetsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/data_safe_crypto_assessment_backup_sets#compartment_id DataOciDataSafeCryptoAssessmentBackupSets#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_backup_sets#compartment_id DataOciDataSafeCryptoAssessmentBackupSets#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentBackupSets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/data_safe_crypto_assessment_backup_sets#access_level DataOciDataSafeCryptoAssessmentBackupSets#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_backup_sets#access_level DataOciDataSafeCryptoAssessmentBackupSets#access_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccessLevel
@@ -26,7 +26,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentBackupSets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/data_safe_crypto_assessment_backup_sets#assessment_id DataOciDataSafeCryptoAssessmentBackupSets#assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_backup_sets#assessment_id DataOciDataSafeCryptoAssessmentBackupSets#assessment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "assessmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AssessmentId
@@ -35,7 +35,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentBackupSets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/data_safe_crypto_assessment_backup_sets#assessment_type DataOciDataSafeCryptoAssessmentBackupSets#assessment_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_backup_sets#assessment_type DataOciDataSafeCryptoAssessmentBackupSets#assessment_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "assessmentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AssessmentType
@@ -44,7 +44,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentBackupSets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/data_safe_crypto_assessment_backup_sets#backup_set_key DataOciDataSafeCryptoAssessmentBackupSets#backup_set_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_backup_sets#backup_set_key DataOciDataSafeCryptoAssessmentBackupSets#backup_set_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "backupSetKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BackupSetKey
@@ -55,7 +55,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentBackupSets
 
         private object? _compartmentIdInSubtree;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/data_safe_crypto_assessment_backup_sets#compartment_id_in_subtree DataOciDataSafeCryptoAssessmentBackupSets#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_backup_sets#compartment_id_in_subtree DataOciDataSafeCryptoAssessmentBackupSets#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -91,7 +91,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentBackupSets
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/data_safe_crypto_assessment_backup_sets#filter DataOciDataSafeCryptoAssessmentBackupSets#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_backup_sets#filter DataOciDataSafeCryptoAssessmentBackupSets#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeCryptoAssessmentBackupSets.IDataOciDataSafeCryptoAssessmentBackupSetsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -122,7 +122,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentBackupSets
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/data_safe_crypto_assessment_backup_sets#id DataOciDataSafeCryptoAssessmentBackupSets#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_backup_sets#id DataOciDataSafeCryptoAssessmentBackupSets#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -137,7 +137,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentBackupSets
 
         private object? _isEncrypted;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/data_safe_crypto_assessment_backup_sets#is_encrypted DataOciDataSafeCryptoAssessmentBackupSets#is_encrypted}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_backup_sets#is_encrypted DataOciDataSafeCryptoAssessmentBackupSets#is_encrypted}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -169,7 +169,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentBackupSets
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/data_safe_crypto_assessment_backup_sets#target_id DataOciDataSafeCryptoAssessmentBackupSets#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_backup_sets#target_id DataOciDataSafeCryptoAssessmentBackupSets#target_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetId
@@ -178,7 +178,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentBackupSets
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.3.0/docs/data-sources/data_safe_crypto_assessment_backup_sets#target_ids DataOciDataSafeCryptoAssessmentBackupSets#target_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_backup_sets#target_ids DataOciDataSafeCryptoAssessmentBackupSets#target_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? TargetIds
