@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindings
     [JsiiByValue(fqn: "oci.dataOciDataSafeCryptoAssessmentFindings.DataOciDataSafeCryptoAssessmentFindingsConfig")]
     public class DataOciDataSafeCryptoAssessmentFindingsConfig : oci.DataOciDataSafeCryptoAssessmentFindings.IDataOciDataSafeCryptoAssessmentFindingsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_findings#crypto_assessment_id DataOciDataSafeCryptoAssessmentFindings#crypto_assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_findings#crypto_assessment_id DataOciDataSafeCryptoAssessmentFindings#crypto_assessment_id}.</summary>
         [JsiiProperty(name: "cryptoAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CryptoAssessmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindings
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_findings#category DataOciDataSafeCryptoAssessmentFindings#category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_findings#category DataOciDataSafeCryptoAssessmentFindings#category}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Category
@@ -30,7 +30,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindings
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_findings#filter DataOciDataSafeCryptoAssessmentFindings#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_findings#filter DataOciDataSafeCryptoAssessmentFindings#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeCryptoAssessmentFindings.IDataOciDataSafeCryptoAssessmentFindingsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindings
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_findings#finding_key DataOciDataSafeCryptoAssessmentFindings#finding_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_findings#finding_key DataOciDataSafeCryptoAssessmentFindings#finding_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "findingKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? FindingKey
@@ -70,7 +70,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindings
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_findings#id DataOciDataSafeCryptoAssessmentFindings#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_findings#id DataOciDataSafeCryptoAssessmentFindings#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindings
 
         private object? _isQuantumReadinessCheck;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_findings#is_quantum_readiness_check DataOciDataSafeCryptoAssessmentFindings#is_quantum_readiness_check}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_findings#is_quantum_readiness_check DataOciDataSafeCryptoAssessmentFindings#is_quantum_readiness_check}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -117,7 +117,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindings
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_findings#status DataOciDataSafeCryptoAssessmentFindings#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_findings#status DataOciDataSafeCryptoAssessmentFindings#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Status
@@ -126,7 +126,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindings
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_findings#title DataOciDataSafeCryptoAssessmentFindings#title}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_findings#title DataOciDataSafeCryptoAssessmentFindings#title}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Title

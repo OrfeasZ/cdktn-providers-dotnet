@@ -9,7 +9,7 @@ namespace oci.DatabaseAutonomousVmCluster
     [JsiiByValue(fqn: "oci.databaseAutonomousVmCluster.DatabaseAutonomousVmClusterMaintenanceWindowDetailsMonths")]
     public class DatabaseAutonomousVmClusterMaintenanceWindowDetailsMonths : oci.DatabaseAutonomousVmCluster.IDatabaseAutonomousVmClusterMaintenanceWindowDetailsMonths
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/resources/database_autonomous_vm_cluster#name DatabaseAutonomousVmCluster#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/database_autonomous_vm_cluster#name DatabaseAutonomousVmCluster#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {

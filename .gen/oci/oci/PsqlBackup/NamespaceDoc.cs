@@ -5,7 +5,7 @@ namespace oci.PsqlBackup
     /// <remarks>
     /// <h1><c>oci_psql_backup</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/resources/psql_backup"><c>oci_psql_backup</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/psql_backup"><c>oci_psql_backup</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -83,6 +83,12 @@ namespace oci.DataOciDataSafeTargetDatabases
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "features", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Features
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "freeformTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap FreeformTags
         {
@@ -99,6 +105,12 @@ namespace oci.DataOciDataSafeTargetDatabases
         public virtual string LifecycleDetails
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "managePrivilegesTrigger", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double ManagePrivilegesTrigger
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "peerTargetDatabaseDetails", typeJson: "{\"fqn\":\"oci.dataOciDataSafeTargetDatabases.DataOciDataSafeTargetDatabasesTargetDatabasesPeerTargetDatabaseDetailsList\"}")]

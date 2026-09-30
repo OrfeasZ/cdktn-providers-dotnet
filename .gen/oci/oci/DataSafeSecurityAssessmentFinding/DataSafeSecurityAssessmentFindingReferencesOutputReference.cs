@@ -53,6 +53,12 @@ namespace oci.DataSafeSecurityAssessmentFinding
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "orp", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Orp
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "stig", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Stig
         {

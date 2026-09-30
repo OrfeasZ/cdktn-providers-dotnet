@@ -13,7 +13,7 @@ namespace oci.DevopsDeployPipeline
 
         /// <summary>items block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/resources/devops_deploy_pipeline#items DevopsDeployPipeline#items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/devops_deploy_pipeline#items DevopsDeployPipeline#items}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DevopsDeployPipeline.IDevopsDeployPipelineDeployPipelineParametersItems" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "items", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.devopsDeployPipeline.DevopsDeployPipelineDeployPipelineParametersItems\"},\"kind\":\"array\"}}]}}")]

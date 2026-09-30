@@ -53,6 +53,18 @@ namespace oci.DataOciDataSafeTargetDatabaseGroups
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        [JsiiProperty(name: "freeformTagsIn", typeJson: "{\"fqn\":\"cdktn.StringListMap\"}")]
+        public virtual Io.Cdktn.StringListMap FreeformTagsIn
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringListMap>()!;
+        }
+
+        [JsiiProperty(name: "systemTags", typeJson: "{\"fqn\":\"cdktn.StringListMap\"}")]
+        public virtual Io.Cdktn.StringListMap SystemTags
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringListMap>()!;
+        }
+
         [JsiiProperty(name: "targetDatabaseIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] TargetDatabaseIds
         {

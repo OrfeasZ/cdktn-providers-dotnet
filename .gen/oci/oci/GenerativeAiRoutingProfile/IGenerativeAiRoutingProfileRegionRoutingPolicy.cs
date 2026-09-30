@@ -7,7 +7,7 @@ namespace oci.GenerativeAiRoutingProfile
     [JsiiInterface(nativeType: typeof(IGenerativeAiRoutingProfileRegionRoutingPolicy), fullyQualifiedName: "oci.generativeAiRoutingProfile.GenerativeAiRoutingProfileRegionRoutingPolicy")]
     public interface IGenerativeAiRoutingProfileRegionRoutingPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/resources/generative_ai_routing_profile#allowed_regions GenerativeAiRoutingProfile#allowed_regions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/generative_ai_routing_profile#allowed_regions GenerativeAiRoutingProfile#allowed_regions}.</summary>
         [JsiiProperty(name: "allowedRegions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AllowedRegions
@@ -25,7 +25,7 @@ namespace oci.GenerativeAiRoutingProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/resources/generative_ai_routing_profile#allowed_regions GenerativeAiRoutingProfile#allowed_regions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/generative_ai_routing_profile#allowed_regions GenerativeAiRoutingProfile#allowed_regions}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "allowedRegions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AllowedRegions

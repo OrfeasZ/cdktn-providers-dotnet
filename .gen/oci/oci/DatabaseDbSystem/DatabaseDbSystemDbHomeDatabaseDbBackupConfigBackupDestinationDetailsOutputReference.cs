@@ -83,6 +83,12 @@ namespace oci.DatabaseDbSystem
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "vpcUser", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VpcUser
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "backupRetentionPolicyOnTerminateInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? BackupRetentionPolicyOnTerminateInput

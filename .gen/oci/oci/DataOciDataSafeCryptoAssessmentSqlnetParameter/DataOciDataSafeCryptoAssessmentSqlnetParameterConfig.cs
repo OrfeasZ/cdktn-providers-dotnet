@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentSqlnetParameter
     [JsiiByValue(fqn: "oci.dataOciDataSafeCryptoAssessmentSqlnetParameter.DataOciDataSafeCryptoAssessmentSqlnetParameterConfig")]
     public class DataOciDataSafeCryptoAssessmentSqlnetParameterConfig : oci.DataOciDataSafeCryptoAssessmentSqlnetParameter.IDataOciDataSafeCryptoAssessmentSqlnetParameterConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_sqlnet_parameter#crypto_assessment_id DataOciDataSafeCryptoAssessmentSqlnetParameter#crypto_assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_sqlnet_parameter#crypto_assessment_id DataOciDataSafeCryptoAssessmentSqlnetParameter#crypto_assessment_id}.</summary>
         [JsiiProperty(name: "cryptoAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CryptoAssessmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentSqlnetParameter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_sqlnet_parameter#id DataOciDataSafeCryptoAssessmentSqlnetParameter#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_sqlnet_parameter#id DataOciDataSafeCryptoAssessmentSqlnetParameter#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,7 +30,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentSqlnetParameter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_sqlnet_parameter#parameter DataOciDataSafeCryptoAssessmentSqlnetParameter#parameter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_sqlnet_parameter#parameter DataOciDataSafeCryptoAssessmentSqlnetParameter#parameter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parameter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Parameter
@@ -39,7 +39,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentSqlnetParameter
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_sqlnet_parameter#quantum_readiness DataOciDataSafeCryptoAssessmentSqlnetParameter#quantum_readiness}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_sqlnet_parameter#quantum_readiness DataOciDataSafeCryptoAssessmentSqlnetParameter#quantum_readiness}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "quantumReadiness", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? QuantumReadiness

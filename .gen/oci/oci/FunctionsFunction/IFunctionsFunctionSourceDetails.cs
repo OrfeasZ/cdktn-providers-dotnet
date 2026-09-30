@@ -7,7 +7,7 @@ namespace oci.FunctionsFunction
     [JsiiInterface(nativeType: typeof(IFunctionsFunctionSourceDetails), fullyQualifiedName: "oci.functionsFunction.FunctionsFunctionSourceDetails")]
     public interface IFunctionsFunctionSourceDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/resources/functions_function#source_type FunctionsFunction#source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#source_type FunctionsFunction#source_type}.</summary>
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
         string SourceType
         {
@@ -16,7 +16,7 @@ namespace oci.FunctionsFunction
 
         /// <summary>archive_source_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/resources/functions_function#archive_source_details FunctionsFunction#archive_source_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#archive_source_details FunctionsFunction#archive_source_details}
         /// </remarks>
         [JsiiProperty(name: "archiveSourceDetails", typeJson: "{\"fqn\":\"oci.functionsFunction.FunctionsFunctionSourceDetailsArchiveSourceDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -28,7 +28,7 @@ namespace oci.FunctionsFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/resources/functions_function#handler FunctionsFunction#handler}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#handler FunctionsFunction#handler}.</summary>
         [JsiiProperty(name: "handler", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Handler
@@ -39,7 +39,7 @@ namespace oci.FunctionsFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/resources/functions_function#image FunctionsFunction#image}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#image FunctionsFunction#image}.</summary>
         [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Image
@@ -50,7 +50,7 @@ namespace oci.FunctionsFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/resources/functions_function#image_digest FunctionsFunction#image_digest}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#image_digest FunctionsFunction#image_digest}.</summary>
         [JsiiProperty(name: "imageDigest", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ImageDigest
@@ -61,7 +61,7 @@ namespace oci.FunctionsFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/resources/functions_function#pbf_listing_id FunctionsFunction#pbf_listing_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#pbf_listing_id FunctionsFunction#pbf_listing_id}.</summary>
         [JsiiProperty(name: "pbfListingId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PbfListingId
@@ -74,7 +74,7 @@ namespace oci.FunctionsFunction
 
         /// <summary>runtime_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/resources/functions_function#runtime_config FunctionsFunction#runtime_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#runtime_config FunctionsFunction#runtime_config}
         /// </remarks>
         [JsiiProperty(name: "runtimeConfig", typeJson: "{\"fqn\":\"oci.functionsFunction.FunctionsFunctionSourceDetailsRuntimeConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -93,7 +93,7 @@ namespace oci.FunctionsFunction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/resources/functions_function#source_type FunctionsFunction#source_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#source_type FunctionsFunction#source_type}.</summary>
             [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceType
             {
@@ -102,7 +102,7 @@ namespace oci.FunctionsFunction
 
             /// <summary>archive_source_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/resources/functions_function#archive_source_details FunctionsFunction#archive_source_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#archive_source_details FunctionsFunction#archive_source_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "archiveSourceDetails", typeJson: "{\"fqn\":\"oci.functionsFunction.FunctionsFunctionSourceDetailsArchiveSourceDetails\"}", isOptional: true)]
@@ -111,7 +111,7 @@ namespace oci.FunctionsFunction
                 get => GetInstanceProperty<oci.FunctionsFunction.IFunctionsFunctionSourceDetailsArchiveSourceDetails?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/resources/functions_function#handler FunctionsFunction#handler}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#handler FunctionsFunction#handler}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "handler", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Handler
@@ -119,7 +119,7 @@ namespace oci.FunctionsFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/resources/functions_function#image FunctionsFunction#image}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#image FunctionsFunction#image}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "image", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Image
@@ -127,7 +127,7 @@ namespace oci.FunctionsFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/resources/functions_function#image_digest FunctionsFunction#image_digest}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#image_digest FunctionsFunction#image_digest}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "imageDigest", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ImageDigest
@@ -135,7 +135,7 @@ namespace oci.FunctionsFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/resources/functions_function#pbf_listing_id FunctionsFunction#pbf_listing_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#pbf_listing_id FunctionsFunction#pbf_listing_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "pbfListingId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PbfListingId
@@ -145,7 +145,7 @@ namespace oci.FunctionsFunction
 
             /// <summary>runtime_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/resources/functions_function#runtime_config FunctionsFunction#runtime_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#runtime_config FunctionsFunction#runtime_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "runtimeConfig", typeJson: "{\"fqn\":\"oci.functionsFunction.FunctionsFunctionSourceDetailsRuntimeConfig\"}", isOptional: true)]

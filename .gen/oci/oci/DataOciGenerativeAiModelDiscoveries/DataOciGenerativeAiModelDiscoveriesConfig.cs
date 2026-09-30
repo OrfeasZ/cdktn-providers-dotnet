@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiModelDiscoveries
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiModelDiscoveries.DataOciGenerativeAiModelDiscoveriesConfig")]
     public class DataOciGenerativeAiModelDiscoveriesConfig : oci.DataOciGenerativeAiModelDiscoveries.IDataOciGenerativeAiModelDiscoveriesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_model_discoveries#compartment_id DataOciGenerativeAiModelDiscoveries#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/generative_ai_model_discoveries#compartment_id DataOciGenerativeAiModelDiscoveries#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGenerativeAiModelDiscoveries
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_model_discoveries#api_capability DataOciGenerativeAiModelDiscoveries#api_capability}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/generative_ai_model_discoveries#api_capability DataOciGenerativeAiModelDiscoveries#api_capability}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "apiCapability", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ApiCapability
@@ -26,7 +26,7 @@ namespace oci.DataOciGenerativeAiModelDiscoveries
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_model_discoveries#capability DataOciGenerativeAiModelDiscoveries#capability}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/generative_ai_model_discoveries#capability DataOciGenerativeAiModelDiscoveries#capability}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "capability", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Capability
@@ -39,7 +39,7 @@ namespace oci.DataOciGenerativeAiModelDiscoveries
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_model_discoveries#filter DataOciGenerativeAiModelDiscoveries#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/generative_ai_model_discoveries#filter DataOciGenerativeAiModelDiscoveries#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGenerativeAiModelDiscoveries.IDataOciGenerativeAiModelDiscoveriesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -70,7 +70,7 @@ namespace oci.DataOciGenerativeAiModelDiscoveries
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_model_discoveries#id DataOciGenerativeAiModelDiscoveries#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/generative_ai_model_discoveries#id DataOciGenerativeAiModelDiscoveries#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace oci.DataOciGenerativeAiModelDiscoveries
 
         private object? _isDedicatedRetired;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_model_discoveries#is_dedicated_retired DataOciGenerativeAiModelDiscoveries#is_dedicated_retired}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/generative_ai_model_discoveries#is_dedicated_retired DataOciGenerativeAiModelDiscoveries#is_dedicated_retired}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -119,7 +119,7 @@ namespace oci.DataOciGenerativeAiModelDiscoveries
 
         private object? _isDeprecated;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_model_discoveries#is_deprecated DataOciGenerativeAiModelDiscoveries#is_deprecated}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/generative_ai_model_discoveries#is_deprecated DataOciGenerativeAiModelDiscoveries#is_deprecated}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -153,7 +153,7 @@ namespace oci.DataOciGenerativeAiModelDiscoveries
 
         private object? _isOnDemandRetired;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_model_discoveries#is_on_demand_retired DataOciGenerativeAiModelDiscoveries#is_on_demand_retired}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/generative_ai_model_discoveries#is_on_demand_retired DataOciGenerativeAiModelDiscoveries#is_on_demand_retired}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -185,7 +185,7 @@ namespace oci.DataOciGenerativeAiModelDiscoveries
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_model_discoveries#model_access DataOciGenerativeAiModelDiscoveries#model_access}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/generative_ai_model_discoveries#model_access DataOciGenerativeAiModelDiscoveries#model_access}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "modelAccess", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ModelAccess
@@ -194,7 +194,7 @@ namespace oci.DataOciGenerativeAiModelDiscoveries
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_model_discoveries#model_id DataOciGenerativeAiModelDiscoveries#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/generative_ai_model_discoveries#model_id DataOciGenerativeAiModelDiscoveries#model_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ModelId
@@ -203,7 +203,7 @@ namespace oci.DataOciGenerativeAiModelDiscoveries
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_model_discoveries#realm DataOciGenerativeAiModelDiscoveries#realm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/generative_ai_model_discoveries#realm DataOciGenerativeAiModelDiscoveries#realm}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "realm", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Realm
@@ -212,7 +212,7 @@ namespace oci.DataOciGenerativeAiModelDiscoveries
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_model_discoveries#region DataOciGenerativeAiModelDiscoveries#region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/generative_ai_model_discoveries#region DataOciGenerativeAiModelDiscoveries#region}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Region
@@ -221,7 +221,7 @@ namespace oci.DataOciGenerativeAiModelDiscoveries
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/generative_ai_model_discoveries#serving_mode DataOciGenerativeAiModelDiscoveries#serving_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/generative_ai_model_discoveries#serving_mode DataOciGenerativeAiModelDiscoveries#serving_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "servingMode", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ServingMode

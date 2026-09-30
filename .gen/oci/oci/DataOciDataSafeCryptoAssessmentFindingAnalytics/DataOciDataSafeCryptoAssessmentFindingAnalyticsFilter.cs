@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindingAnalytics
     [JsiiByValue(fqn: "oci.dataOciDataSafeCryptoAssessmentFindingAnalytics.DataOciDataSafeCryptoAssessmentFindingAnalyticsFilter")]
     public class DataOciDataSafeCryptoAssessmentFindingAnalyticsFilter : oci.DataOciDataSafeCryptoAssessmentFindingAnalytics.IDataOciDataSafeCryptoAssessmentFindingAnalyticsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_finding_analytics#name DataOciDataSafeCryptoAssessmentFindingAnalytics#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#name DataOciDataSafeCryptoAssessmentFindingAnalytics#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindingAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_finding_analytics#values DataOciDataSafeCryptoAssessmentFindingAnalytics#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#values DataOciDataSafeCryptoAssessmentFindingAnalytics#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindingAnalytics
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_finding_analytics#regex DataOciDataSafeCryptoAssessmentFindingAnalytics#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#regex DataOciDataSafeCryptoAssessmentFindingAnalytics#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

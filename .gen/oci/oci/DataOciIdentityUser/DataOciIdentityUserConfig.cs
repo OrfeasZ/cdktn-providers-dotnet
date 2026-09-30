@@ -9,7 +9,7 @@ namespace oci.DataOciIdentityUser
     [JsiiByValue(fqn: "oci.dataOciIdentityUser.DataOciIdentityUserConfig")]
     public class DataOciIdentityUserConfig : oci.DataOciIdentityUser.IDataOciIdentityUserConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/identity_user#user_id DataOciIdentityUser#user_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/identity_user#user_id DataOciIdentityUser#user_id}.</summary>
         [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}")]
         public string UserId
         {

@@ -53,8 +53,20 @@ namespace oci.DataOciCoreDrgAttachments
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "doesPreserveOriginalRoutesWithNat", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable DoesPreserveOriginalRoutesWithNat
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "drgId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DrgId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "drgNatPolicyId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DrgNatPolicyId
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -93,6 +105,12 @@ namespace oci.DataOciCoreDrgAttachments
         public virtual oci.DataOciCoreDrgAttachments.DataOciCoreDrgAttachmentsDrgAttachmentsNetworkDetailsList NetworkDetails
         {
             get => GetInstanceProperty<oci.DataOciCoreDrgAttachments.DataOciCoreDrgAttachmentsDrgAttachmentsNetworkDetailsList>()!;
+        }
+
+        [JsiiProperty(name: "removeDrgNatPolicyTrigger", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable RemoveDrgNatPolicyTrigger
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiProperty(name: "removeExportDrgRouteDistributionTrigger", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]

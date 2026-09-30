@@ -39,6 +39,12 @@ namespace oci.CoreInstanceConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetConfigMap")]
+        public virtual void ResetConfigMap()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetIsAccessControlServiceEnabled")]
         public virtual void ResetIsAccessControlServiceEnabled()
         {
@@ -101,6 +107,13 @@ namespace oci.CoreInstanceConfiguration
         public virtual object? AreVirtualInstructionsEnabledInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "configMapInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public virtual System.Collections.Generic.IDictionary<string, string>? ConfigMapInput
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
         /// <remarks>
@@ -222,6 +235,13 @@ namespace oci.CoreInstanceConfiguration
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "configMap", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+        public virtual System.Collections.Generic.IDictionary<string, string> ConfigMap
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
+            set => SetInstanceProperty(value);
         }
 
         /// <remarks>

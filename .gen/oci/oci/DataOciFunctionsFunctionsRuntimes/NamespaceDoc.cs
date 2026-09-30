@@ -5,7 +5,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
     /// <remarks>
     /// <h1><c>data_oci_functions_functions_runtimes</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/functions_functions_runtimes"><c>data_oci_functions_functions_runtimes</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes"><c>data_oci_functions_functions_runtimes</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

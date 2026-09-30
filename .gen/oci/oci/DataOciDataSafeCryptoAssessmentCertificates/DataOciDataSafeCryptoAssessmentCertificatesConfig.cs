@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCertificates
     [JsiiByValue(fqn: "oci.dataOciDataSafeCryptoAssessmentCertificates.DataOciDataSafeCryptoAssessmentCertificatesConfig")]
     public class DataOciDataSafeCryptoAssessmentCertificatesConfig : oci.DataOciDataSafeCryptoAssessmentCertificates.IDataOciDataSafeCryptoAssessmentCertificatesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_certificates#compartment_id DataOciDataSafeCryptoAssessmentCertificates#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_certificates#compartment_id DataOciDataSafeCryptoAssessmentCertificates#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCertificates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_certificates#access_level DataOciDataSafeCryptoAssessmentCertificates#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_certificates#access_level DataOciDataSafeCryptoAssessmentCertificates#access_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccessLevel
@@ -26,7 +26,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCertificates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_certificates#assessment_id DataOciDataSafeCryptoAssessmentCertificates#assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_certificates#assessment_id DataOciDataSafeCryptoAssessmentCertificates#assessment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "assessmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AssessmentId
@@ -35,7 +35,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCertificates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_certificates#assessment_type DataOciDataSafeCryptoAssessmentCertificates#assessment_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_certificates#assessment_type DataOciDataSafeCryptoAssessmentCertificates#assessment_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "assessmentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AssessmentType
@@ -44,7 +44,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCertificates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_certificates#certificate_type DataOciDataSafeCryptoAssessmentCertificates#certificate_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_certificates#certificate_type DataOciDataSafeCryptoAssessmentCertificates#certificate_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? CertificateType
@@ -55,7 +55,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCertificates
 
         private object? _compartmentIdInSubtree;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_certificates#compartment_id_in_subtree DataOciDataSafeCryptoAssessmentCertificates#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_certificates#compartment_id_in_subtree DataOciDataSafeCryptoAssessmentCertificates#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -87,7 +87,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCertificates
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_certificates#days_to_expiry DataOciDataSafeCryptoAssessmentCertificates#days_to_expiry}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_certificates#days_to_expiry DataOciDataSafeCryptoAssessmentCertificates#days_to_expiry}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "daysToExpiry", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? DaysToExpiry
@@ -96,7 +96,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCertificates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_certificates#expiry_bucket DataOciDataSafeCryptoAssessmentCertificates#expiry_bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_certificates#expiry_bucket DataOciDataSafeCryptoAssessmentCertificates#expiry_bucket}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "expiryBucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ExpiryBucket
@@ -109,7 +109,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCertificates
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_certificates#filter DataOciDataSafeCryptoAssessmentCertificates#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_certificates#filter DataOciDataSafeCryptoAssessmentCertificates#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeCryptoAssessmentCertificates.IDataOciDataSafeCryptoAssessmentCertificatesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -140,7 +140,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCertificates
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_certificates#id DataOciDataSafeCryptoAssessmentCertificates#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_certificates#id DataOciDataSafeCryptoAssessmentCertificates#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -153,7 +153,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCertificates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_certificates#public_key_type DataOciDataSafeCryptoAssessmentCertificates#public_key_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_certificates#public_key_type DataOciDataSafeCryptoAssessmentCertificates#public_key_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "publicKeyType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? PublicKeyType
@@ -162,7 +162,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCertificates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_certificates#signature_algorithm DataOciDataSafeCryptoAssessmentCertificates#signature_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_certificates#signature_algorithm DataOciDataSafeCryptoAssessmentCertificates#signature_algorithm}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "signatureAlgorithm", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SignatureAlgorithm
@@ -171,7 +171,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCertificates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_certificates#status DataOciDataSafeCryptoAssessmentCertificates#status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_certificates#status DataOciDataSafeCryptoAssessmentCertificates#status}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Status
@@ -180,7 +180,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCertificates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_certificates#target_id DataOciDataSafeCryptoAssessmentCertificates#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_certificates#target_id DataOciDataSafeCryptoAssessmentCertificates#target_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetId
@@ -189,7 +189,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCertificates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_certificates#target_ids DataOciDataSafeCryptoAssessmentCertificates#target_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_certificates#target_ids DataOciDataSafeCryptoAssessmentCertificates#target_ids}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? TargetIds

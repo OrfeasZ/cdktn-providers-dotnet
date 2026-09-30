@@ -5,7 +5,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCertificates
     /// <remarks>
     /// <h1><c>data_oci_data_safe_crypto_assessment_certificates</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/data-sources/data_safe_crypto_assessment_certificates"><c>data_oci_data_safe_crypto_assessment_certificates</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_certificates"><c>data_oci_data_safe_crypto_assessment_certificates</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

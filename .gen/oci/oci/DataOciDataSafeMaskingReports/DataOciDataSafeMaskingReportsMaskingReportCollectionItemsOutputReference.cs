@@ -101,6 +101,12 @@ namespace oci.DataOciDataSafeMaskingReports
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "subsettingReportId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SubsettingReportId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TargetId
         {

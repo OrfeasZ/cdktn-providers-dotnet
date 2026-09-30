@@ -83,6 +83,12 @@ namespace oci.DataOciDatabaseDbSystems
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "vpcUser", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VpcUser
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciDatabaseDbSystems.DataOciDatabaseDbSystemsDbSystemsDbHomeDatabaseDbBackupConfigBackupDestinationDetails\"}", isOptional: true)]
         public virtual oci.DataOciDatabaseDbSystems.IDataOciDatabaseDbSystemsDbSystemsDbHomeDatabaseDbBackupConfigBackupDestinationDetails? InternalValue

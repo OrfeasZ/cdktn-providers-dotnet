@@ -5,7 +5,7 @@ namespace oci.StackMonitoringMaintenanceWindowsRetryFailedOperation
     /// <remarks>
     /// <h1><c>oci_stack_monitoring_maintenance_windows_retry_failed_operation</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.7.1/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation"><c>oci_stack_monitoring_maintenance_windows_retry_failed_operation</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/stack_monitoring_maintenance_windows_retry_failed_operation"><c>oci_stack_monitoring_maintenance_windows_retry_failed_operation</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc
