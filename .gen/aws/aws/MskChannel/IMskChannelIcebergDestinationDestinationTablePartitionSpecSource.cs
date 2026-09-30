@@ -7,7 +7,7 @@ namespace aws.MskChannel
     [JsiiInterface(nativeType: typeof(IMskChannelIcebergDestinationDestinationTablePartitionSpecSource), fullyQualifiedName: "aws.mskChannel.MskChannelIcebergDestinationDestinationTablePartitionSpecSource")]
     public interface IMskChannelIcebergDestinationDestinationTablePartitionSpecSource
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_channel#source_name MskChannel#source_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#source_name MskChannel#source_name}.</summary>
         [JsiiProperty(name: "sourceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceName
@@ -25,7 +25,7 @@ namespace aws.MskChannel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_channel#source_name MskChannel#source_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#source_name MskChannel#source_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceName

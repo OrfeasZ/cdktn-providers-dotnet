@@ -7,7 +7,7 @@ namespace aws.EcsService
     [JsiiInterface(nativeType: typeof(IEcsServiceDeploymentConfigurationLifecycleHookTimeoutConfiguration), fullyQualifiedName: "aws.ecsService.EcsServiceDeploymentConfigurationLifecycleHookTimeoutConfiguration")]
     public interface IEcsServiceDeploymentConfigurationLifecycleHookTimeoutConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/ecs_service#action EcsService#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/ecs_service#action EcsService#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Action
@@ -18,7 +18,7 @@ namespace aws.EcsService
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/ecs_service#timeout_in_minutes EcsService#timeout_in_minutes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/ecs_service#timeout_in_minutes EcsService#timeout_in_minutes}.</summary>
         [JsiiProperty(name: "timeoutInMinutes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeoutInMinutes
@@ -36,7 +36,7 @@ namespace aws.EcsService
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/ecs_service#action EcsService#action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/ecs_service#action EcsService#action}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Action
@@ -44,7 +44,7 @@ namespace aws.EcsService
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/ecs_service#timeout_in_minutes EcsService#timeout_in_minutes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/ecs_service#timeout_in_minutes EcsService#timeout_in_minutes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeoutInMinutes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeoutInMinutes

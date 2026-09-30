@@ -7,7 +7,7 @@ namespace aws.MskChannel
     [JsiiInterface(nativeType: typeof(IMskChannelIcebergDestinationDestinationTable), fullyQualifiedName: "aws.mskChannel.MskChannelIcebergDestinationDestinationTable")]
     public interface IMskChannelIcebergDestinationDestinationTable
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_channel#destination_database_name MskChannel#destination_database_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#destination_database_name MskChannel#destination_database_name}.</summary>
         [JsiiProperty(name: "destinationDatabaseName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DestinationDatabaseName
@@ -18,7 +18,7 @@ namespace aws.MskChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_channel#destination_table_name MskChannel#destination_table_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#destination_table_name MskChannel#destination_table_name}.</summary>
         [JsiiProperty(name: "destinationTableName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DestinationTableName
@@ -31,7 +31,7 @@ namespace aws.MskChannel
 
         /// <summary>partition_spec block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_channel#partition_spec MskChannel#partition_spec}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#partition_spec MskChannel#partition_spec}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MskChannel.IMskChannelIcebergDestinationDestinationTablePartitionSpec" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "partitionSpec", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.mskChannel.MskChannelIcebergDestinationDestinationTablePartitionSpec\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace aws.MskChannel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_channel#destination_database_name MskChannel#destination_database_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#destination_database_name MskChannel#destination_database_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "destinationDatabaseName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DestinationDatabaseName
@@ -59,7 +59,7 @@ namespace aws.MskChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_channel#destination_table_name MskChannel#destination_table_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#destination_table_name MskChannel#destination_table_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "destinationTableName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DestinationTableName
@@ -69,7 +69,7 @@ namespace aws.MskChannel
 
             /// <summary>partition_spec block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_channel#partition_spec MskChannel#partition_spec}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#partition_spec MskChannel#partition_spec}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MskChannel.IMskChannelIcebergDestinationDestinationTablePartitionSpec" />)[]</para>
             /// </remarks>
             [JsiiOptional]

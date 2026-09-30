@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.BedrockagentcoreWorkloadIdentity
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity}.</summary>
     [JsiiClass(nativeType: typeof(aws.BedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity), fullyQualifiedName: "aws.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.bedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentityConfig\"}}]")]
     public class BedrockagentcoreWorkloadIdentity : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/bedrockagentcore_workload_identity aws_bedrockagentcore_workload_identity} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public BedrockagentcoreWorkloadIdentity(Constructs.Construct scope, string id, aws.BedrockagentcoreWorkloadIdentity.IBedrockagentcoreWorkloadIdentityConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.BedrockagentcoreWorkloadIdentity
         /// <param name="importToId">The construct id used in the generated config for the BedrockagentcoreWorkloadIdentity to import.</param>
         /// <param name="importFromId">The id of the existing BedrockagentcoreWorkloadIdentity that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the BedrockagentcoreWorkloadIdentity to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the BedrockagentcoreWorkloadIdentity to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/bedrockagentcore_workload_identity#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing BedrockagentcoreWorkloadIdentity that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the BedrockagentcoreWorkloadIdentity to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the BedrockagentcoreWorkloadIdentity to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/bedrockagentcore_workload_identity#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing BedrockagentcoreWorkloadIdentity that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the BedrockagentcoreWorkloadIdentity to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.BedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -54,6 +54,12 @@ namespace aws.BedrockagentcoreWorkloadIdentity
 
         [JsiiMethod(name: "resetRegion")]
         public virtual void ResetRegion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTags")]
+        public virtual void ResetTags()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -76,6 +82,12 @@ namespace aws.BedrockagentcoreWorkloadIdentity
             get;
         }
         = GetStaticProperty<string>(typeof(aws.BedrockagentcoreWorkloadIdentity.BedrockagentcoreWorkloadIdentity))!;
+
+        [JsiiProperty(name: "tagsAll", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap TagsAll
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
 
         [JsiiProperty(name: "workloadIdentityArn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string WorkloadIdentityArn
@@ -104,6 +116,13 @@ namespace aws.BedrockagentcoreWorkloadIdentity
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "tagsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public virtual System.Collections.Generic.IDictionary<string, string>? TagsInput
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
         [JsiiProperty(name: "allowedResourceOauth2ReturnUrls", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] AllowedResourceOauth2ReturnUrls
         {
@@ -122,6 +141,13 @@ namespace aws.BedrockagentcoreWorkloadIdentity
         public virtual string Region
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+        public virtual System.Collections.Generic.IDictionary<string, string> Tags
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
             set => SetInstanceProperty(value);
         }
     }

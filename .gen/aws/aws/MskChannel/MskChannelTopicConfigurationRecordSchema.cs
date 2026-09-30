@@ -9,7 +9,7 @@ namespace aws.MskChannel
     [JsiiByValue(fqn: "aws.mskChannel.MskChannelTopicConfigurationRecordSchema")]
     public class MskChannelTopicConfigurationRecordSchema : aws.MskChannel.IMskChannelTopicConfigurationRecordSchema
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.66.0/docs/resources/msk_channel#gsr_arn MskChannel#gsr_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#gsr_arn MskChannel#gsr_arn}.</summary>
         [JsiiProperty(name: "gsrArn", typeJson: "{\"primitive\":\"string\"}")]
         public string GsrArn
         {
