@@ -1,0 +1,186 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases
+{
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_knowledge_bases digitalocean_agent_platform_knowledge_bases}.</summary>
+    [JsiiClass(nativeType: typeof(digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases.DataDigitaloceanAgentPlatformKnowledgeBases), fullyQualifiedName: "digitalocean.dataDigitaloceanAgentPlatformKnowledgeBases.DataDigitaloceanAgentPlatformKnowledgeBases", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"digitalocean.dataDigitaloceanAgentPlatformKnowledgeBases.DataDigitaloceanAgentPlatformKnowledgeBasesConfig\"}}]")]
+    public class DataDigitaloceanAgentPlatformKnowledgeBases : Io.Cdktn.TerraformDataSource
+    {
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_knowledge_bases digitalocean_agent_platform_knowledge_bases} Data Source.</summary>
+        /// <param name="scope">The scope in which to define this construct.</param>
+        /// <param name="id">The scoped construct ID.</param>
+        public DataDigitaloceanAgentPlatformKnowledgeBases(Constructs.Construct scope, string id, digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases.IDataDigitaloceanAgentPlatformKnowledgeBasesConfig? config = null): base(_MakeDeputyProps(scope, id, config))
+        {
+        }
+
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases.IDataDigitaloceanAgentPlatformKnowledgeBasesConfig? config = null)
+        {
+            return new DeputyProps(new object?[]{scope, id, config});
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
+        /// <param name="reference">The Javascript-owned object reference</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected DataDigitaloceanAgentPlatformKnowledgeBases(ByRefValue reference): base(reference)
+        {
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
+        /// <param name="props">The deputy props</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected DataDigitaloceanAgentPlatformKnowledgeBases(DeputyProps props): base(props)
+        {
+        }
+
+        /// <summary>Generates CDKTN code for importing a DataDigitaloceanAgentPlatformKnowledgeBases resource upon running "cdktn plan &lt;stack-name&gt;".</summary>
+        /// <param name="scope">The scope in which to define this construct.</param>
+        /// <param name="importToId">The construct id used in the generated config for the DataDigitaloceanAgentPlatformKnowledgeBases to import.</param>
+        /// <param name="importFromId">The id of the existing DataDigitaloceanAgentPlatformKnowledgeBases that should be imported.</param>
+        /// <param name="provider">? Optional instance of the provider where the DataDigitaloceanAgentPlatformKnowledgeBases to import is found.</param>
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataDigitaloceanAgentPlatformKnowledgeBases to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_knowledge_bases#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataDigitaloceanAgentPlatformKnowledgeBases that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataDigitaloceanAgentPlatformKnowledgeBases to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
+        {
+            return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases.DataDigitaloceanAgentPlatformKnowledgeBases), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases.IDataDigitaloceanAgentPlatformKnowledgeBasesFilter" />)[]</param>
+        [JsiiMethod(name: "putFilter", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanAgentPlatformKnowledgeBases.DataDigitaloceanAgentPlatformKnowledgeBasesFilter\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutFilter(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases.IDataDigitaloceanAgentPlatformKnowledgeBasesFilter[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases.IDataDigitaloceanAgentPlatformKnowledgeBasesFilter).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases.IDataDigitaloceanAgentPlatformKnowledgeBasesFilter).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases.IDataDigitaloceanAgentPlatformKnowledgeBasesSort" />)[]</param>
+        [JsiiMethod(name: "putSort", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanAgentPlatformKnowledgeBases.DataDigitaloceanAgentPlatformKnowledgeBasesSort\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutSort(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases.IDataDigitaloceanAgentPlatformKnowledgeBasesSort[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases.IDataDigitaloceanAgentPlatformKnowledgeBasesSort).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases.IDataDigitaloceanAgentPlatformKnowledgeBasesSort).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetFilter")]
+        public virtual void ResetFilter()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetId")]
+        public virtual void ResetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSort")]
+        public virtual void ResetSort()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "synthesizeAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
+        protected override System.Collections.Generic.IDictionary<string, object> SynthesizeAttributes()
+        {
+            return InvokeInstanceMethod<System.Collections.Generic.IDictionary<string, object>>(new System.Type[]{}, new object[]{})!;
+        }
+
+        [JsiiMethod(name: "synthesizeHclAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
+        protected override System.Collections.Generic.IDictionary<string, object> SynthesizeHclAttributes()
+        {
+            return InvokeInstanceMethod<System.Collections.Generic.IDictionary<string, object>>(new System.Type[]{}, new object[]{})!;
+        }
+
+        [JsiiProperty(name: "tfResourceType", typeJson: "{\"primitive\":\"string\"}")]
+        public static string TfResourceType
+        {
+            get;
+        }
+        = GetStaticProperty<string>(typeof(digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases.DataDigitaloceanAgentPlatformKnowledgeBases))!;
+
+        [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanAgentPlatformKnowledgeBases.DataDigitaloceanAgentPlatformKnowledgeBasesFilterList\"}")]
+        public virtual digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases.DataDigitaloceanAgentPlatformKnowledgeBasesFilterList Filter
+        {
+            get => GetInstanceProperty<digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases.DataDigitaloceanAgentPlatformKnowledgeBasesFilterList>()!;
+        }
+
+        [JsiiProperty(name: "knowledgeBases", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanAgentPlatformKnowledgeBases.DataDigitaloceanAgentPlatformKnowledgeBasesKnowledgeBasesList\"}")]
+        public virtual digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases.DataDigitaloceanAgentPlatformKnowledgeBasesKnowledgeBasesList KnowledgeBases
+        {
+            get => GetInstanceProperty<digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases.DataDigitaloceanAgentPlatformKnowledgeBasesKnowledgeBasesList>()!;
+        }
+
+        [JsiiProperty(name: "sort", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanAgentPlatformKnowledgeBases.DataDigitaloceanAgentPlatformKnowledgeBasesSortList\"}")]
+        public virtual digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases.DataDigitaloceanAgentPlatformKnowledgeBasesSortList Sort
+        {
+            get => GetInstanceProperty<digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases.DataDigitaloceanAgentPlatformKnowledgeBasesSortList>()!;
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases.IDataDigitaloceanAgentPlatformKnowledgeBasesFilter" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "filterInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanAgentPlatformKnowledgeBases.DataDigitaloceanAgentPlatformKnowledgeBasesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? FilterInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "idInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? IdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanAgentPlatformKnowledgeBases.IDataDigitaloceanAgentPlatformKnowledgeBasesSort" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "sortInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanAgentPlatformKnowledgeBases.DataDigitaloceanAgentPlatformKnowledgeBasesSort\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? SortInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+    }
+}
