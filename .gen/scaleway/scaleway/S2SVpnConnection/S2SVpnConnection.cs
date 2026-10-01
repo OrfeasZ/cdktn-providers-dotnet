@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace scaleway.S2SVpnConnection
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/s2s_vpn_connection scaleway_s2s_vpn_connection}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/s2s_vpn_connection scaleway_s2s_vpn_connection}.</summary>
     [JsiiClass(nativeType: typeof(scaleway.S2SVpnConnection.S2SVpnConnection), fullyQualifiedName: "scaleway.s2SVpnConnection.S2SVpnConnection", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"scaleway.s2SVpnConnection.S2SVpnConnectionConfig\"}}]")]
     public class S2SVpnConnection : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/s2s_vpn_connection scaleway_s2s_vpn_connection} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/s2s_vpn_connection scaleway_s2s_vpn_connection} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public S2SVpnConnection(Constructs.Construct scope, string id, scaleway.S2SVpnConnection.IS2SVpnConnectionConfig? config = null): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace scaleway.S2SVpnConnection
         /// <param name="importToId">The construct id used in the generated config for the S2SVpnConnection to import.</param>
         /// <param name="importFromId">The id of the existing S2SVpnConnection that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the S2SVpnConnection to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the S2SVpnConnection to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/s2s_vpn_connection#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing S2SVpnConnection that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the S2SVpnConnection to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the S2SVpnConnection to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/s2s_vpn_connection#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing S2SVpnConnection that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the S2SVpnConnection to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.S2SVpnConnection.S2SVpnConnection), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -214,6 +214,18 @@ namespace scaleway.S2SVpnConnection
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSecretId")]
+        public virtual void ResetSecretId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSecretVersion")]
+        public virtual void ResetSecretVersion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTags")]
         public virtual void ResetTags()
         {
@@ -309,18 +321,6 @@ namespace scaleway.S2SVpnConnection
         public virtual Io.Cdktn.IResolvable RoutePropagationEnabled
         {
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
-        }
-
-        [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string SecretId
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "secretVersion", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double SecretVersion
-        {
-            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "srn", typeJson: "{\"primitive\":\"string\"}")]
@@ -450,6 +450,20 @@ namespace scaleway.S2SVpnConnection
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "secretIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SecretIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "secretVersionInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? SecretVersionInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "tagsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? TagsInput
         {
@@ -562,6 +576,20 @@ namespace scaleway.S2SVpnConnection
         public virtual string Region
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SecretId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "secretVersion", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double SecretVersion
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 

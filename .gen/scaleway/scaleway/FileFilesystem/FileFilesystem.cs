@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace scaleway.FileFilesystem
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/file_filesystem scaleway_file_filesystem}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/file_filesystem scaleway_file_filesystem}.</summary>
     [JsiiClass(nativeType: typeof(scaleway.FileFilesystem.FileFilesystem), fullyQualifiedName: "scaleway.fileFilesystem.FileFilesystem", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"scaleway.fileFilesystem.FileFilesystemConfig\"}}]")]
     public class FileFilesystem : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/file_filesystem scaleway_file_filesystem} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/file_filesystem scaleway_file_filesystem} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public FileFilesystem(Constructs.Construct scope, string id, scaleway.FileFilesystem.IFileFilesystemConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,26 +40,20 @@ namespace scaleway.FileFilesystem
         /// <param name="importToId">The construct id used in the generated config for the FileFilesystem to import.</param>
         /// <param name="importFromId">The id of the existing FileFilesystem that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the FileFilesystem to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the FileFilesystem to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/file_filesystem#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing FileFilesystem that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the FileFilesystem to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the FileFilesystem to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/file_filesystem#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing FileFilesystem that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the FileFilesystem to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.FileFilesystem.FileFilesystem), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
         }
 
-        [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"scaleway.fileFilesystem.FileFilesystemTimeouts\"}}]")]
-        public virtual void PutTimeouts(scaleway.FileFilesystem.IFileFilesystemTimeouts @value)
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(scaleway.FileFilesystem.IFileFilesystemTimeouts)}, new object[]{@value});
-        }
-
-        [JsiiMethod(name: "resetId")]
-        public virtual void ResetId()
+        [JsiiMethod(name: "resetName")]
+        public virtual void ResetName()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetName")]
-        public virtual void ResetName()
+        [JsiiMethod(name: "resetOrganizationId")]
+        public virtual void ResetOrganizationId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -78,12 +72,6 @@ namespace scaleway.FileFilesystem
 
         [JsiiMethod(name: "resetTags")]
         public virtual void ResetTags()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetTimeouts")]
-        public virtual void ResetTimeouts()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -113,16 +101,16 @@ namespace scaleway.FileFilesystem
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "numberOfAttachments", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double NumberOfAttachments
         {
             get => GetInstanceProperty<double>()!;
-        }
-
-        [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string OrganizationId
-        {
-            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "srn", typeJson: "{\"primitive\":\"string\"}")]
@@ -137,12 +125,6 @@ namespace scaleway.FileFilesystem
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.fileFilesystem.FileFilesystemTimeoutsOutputReference\"}")]
-        public virtual scaleway.FileFilesystem.FileFilesystemTimeoutsOutputReference Timeouts
-        {
-            get => GetInstanceProperty<scaleway.FileFilesystem.FileFilesystemTimeoutsOutputReference>()!;
-        }
-
         [JsiiProperty(name: "updatedAt", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string UpdatedAt
         {
@@ -150,15 +132,15 @@ namespace scaleway.FileFilesystem
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "idInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? IdInput
+        [JsiiProperty(name: "nameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NameInput
         {
             get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "nameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? NameInput
+        [JsiiProperty(name: "organizationIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? OrganizationIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -191,25 +173,15 @@ namespace scaleway.FileFilesystem
             get => GetInstanceProperty<string[]?>();
         }
 
-        /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.FileFilesystem.IFileFilesystemTimeouts" /></para>
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.fileFilesystem.FileFilesystemTimeouts\"}]}}", isOptional: true)]
-        public virtual object? TimeoutsInput
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Id
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Name
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Name
+        [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OrganizationId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

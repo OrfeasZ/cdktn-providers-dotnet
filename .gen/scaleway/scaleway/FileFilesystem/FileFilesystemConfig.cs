@@ -11,7 +11,7 @@ namespace scaleway.FileFilesystem
     {
         /// <summary>The filesystem size in GB. Minimum 25GB, maximum 50TB.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/file_filesystem#size_in_gb FileFilesystem#size_in_gb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/file_filesystem#size_in_gb FileFilesystem#size_in_gb}
         /// </remarks>
         [JsiiProperty(name: "sizeInGb", typeJson: "{\"primitive\":\"number\"}")]
         public double SizeInGb
@@ -20,22 +20,9 @@ namespace scaleway.FileFilesystem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/file_filesystem#id FileFilesystem#id}.</summary>
-        /// <remarks>
-        /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-        /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Id
-        {
-            get;
-            set;
-        }
-
         /// <summary>The name of the filesystem.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/file_filesystem#name FileFilesystem#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/file_filesystem#name FileFilesystem#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,9 +32,21 @@ namespace scaleway.FileFilesystem
             set;
         }
 
-        /// <summary>The project_id you want to attach the resource to.</summary>
+        /// <summary>ID of the organization. If not set, the organization ID is derived from the provider configuration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/file_filesystem#project_id FileFilesystem#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/file_filesystem#organization_id FileFilesystem#organization_id}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? OrganizationId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>The project ID the filesystem belongs to. Defaults to the provider's project ID.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/file_filesystem#project_id FileFilesystem#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -59,7 +58,7 @@ namespace scaleway.FileFilesystem
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/file_filesystem#region FileFilesystem#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/file_filesystem#region FileFilesystem#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -71,23 +70,11 @@ namespace scaleway.FileFilesystem
 
         /// <summary>The list of tags assigned to the filesystem.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/file_filesystem#tags FileFilesystem#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/file_filesystem#tags FileFilesystem#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Tags
-        {
-            get;
-            set;
-        }
-
-        /// <summary>timeouts block.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.83.1/docs/resources/file_filesystem#timeouts FileFilesystem#timeouts}
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.fileFilesystem.FileFilesystemTimeouts\"}", isOptional: true)]
-        public scaleway.FileFilesystem.IFileFilesystemTimeouts? Timeouts
         {
             get;
             set;
