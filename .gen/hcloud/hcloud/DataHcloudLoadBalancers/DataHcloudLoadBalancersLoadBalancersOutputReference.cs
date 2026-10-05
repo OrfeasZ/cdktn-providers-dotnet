@@ -59,10 +59,22 @@ namespace hcloud.DataHcloudLoadBalancers
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "ipv4Id", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Ipv4Id
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "ipv6", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Ipv6
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "ipv6Id", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Ipv6Id
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "labels", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
