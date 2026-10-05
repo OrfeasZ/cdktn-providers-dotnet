@@ -11,7 +11,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
     {
         /// <summary>The OpenAI API key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#api_key AgentPlatformOpenaiApiKey#api_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#api_key AgentPlatformOpenaiApiKey#api_key}
         /// </remarks>
         [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiKey
@@ -22,7 +22,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
         /// <summary>A name for the API key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#name AgentPlatformOpenaiApiKey#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#name AgentPlatformOpenaiApiKey#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -31,7 +31,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#id AgentPlatformOpenaiApiKey#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#id AgentPlatformOpenaiApiKey#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
         /// <summary>model block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#model AgentPlatformOpenaiApiKey#model}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#model AgentPlatformOpenaiApiKey#model}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.AgentPlatformOpenaiApiKey.IAgentPlatformOpenaiApiKeyModel" />)[]</para>
         /// </remarks>
         [JsiiOptional]

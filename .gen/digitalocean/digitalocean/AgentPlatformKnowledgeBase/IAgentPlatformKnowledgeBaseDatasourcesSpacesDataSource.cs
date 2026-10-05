@@ -9,7 +9,7 @@ namespace digitalocean.AgentPlatformKnowledgeBase
     {
         /// <summary>The name of the Spaces bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_knowledge_base#bucket_name AgentPlatformKnowledgeBase#bucket_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base#bucket_name AgentPlatformKnowledgeBase#bucket_name}
         /// </remarks>
         [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace digitalocean.AgentPlatformKnowledgeBase
 
         /// <summary>The path to the item in the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_knowledge_base#item_path AgentPlatformKnowledgeBase#item_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base#item_path AgentPlatformKnowledgeBase#item_path}
         /// </remarks>
         [JsiiProperty(name: "itemPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace digitalocean.AgentPlatformKnowledgeBase
 
         /// <summary>The region of the Spaces bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_knowledge_base#region AgentPlatformKnowledgeBase#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base#region AgentPlatformKnowledgeBase#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace digitalocean.AgentPlatformKnowledgeBase
 
             /// <summary>The name of the Spaces bucket.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_knowledge_base#bucket_name AgentPlatformKnowledgeBase#bucket_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base#bucket_name AgentPlatformKnowledgeBase#bucket_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace digitalocean.AgentPlatformKnowledgeBase
 
             /// <summary>The path to the item in the bucket.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_knowledge_base#item_path AgentPlatformKnowledgeBase#item_path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base#item_path AgentPlatformKnowledgeBase#item_path}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "itemPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace digitalocean.AgentPlatformKnowledgeBase
 
             /// <summary>The region of the Spaces bucket.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_knowledge_base#region AgentPlatformKnowledgeBase#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base#region AgentPlatformKnowledgeBase#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

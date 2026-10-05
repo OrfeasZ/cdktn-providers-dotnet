@@ -9,7 +9,7 @@ namespace digitalocean.AgentPlatformCustomModel
     {
         /// <summary>A human-readable name for the custom model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#name AgentPlatformCustomModel#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#name AgentPlatformCustomModel#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -19,7 +19,7 @@ namespace digitalocean.AgentPlatformCustomModel
 
         /// <summary>source_ref block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#source_ref AgentPlatformCustomModel#source_ref}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#source_ref AgentPlatformCustomModel#source_ref}
         /// </remarks>
         [JsiiProperty(name: "sourceRef", typeJson: "{\"fqn\":\"digitalocean.agentPlatformCustomModel.AgentPlatformCustomModelSourceRef\"}")]
         digitalocean.AgentPlatformCustomModel.IAgentPlatformCustomModelSourceRef SourceRef
@@ -29,7 +29,7 @@ namespace digitalocean.AgentPlatformCustomModel
 
         /// <summary>Source of the model to import. One of SOURCE_TYPE_HUGGINGFACE, SOURCE_TYPE_SPACES_BUCKET, SOURCE_TYPE_SDK_UPLOAD, SOURCE_TYPE_FINE_TUNING.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#source_type AgentPlatformCustomModel#source_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#source_type AgentPlatformCustomModel#source_type}
         /// </remarks>
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
         string SourceType
@@ -39,7 +39,7 @@ namespace digitalocean.AgentPlatformCustomModel
 
         /// <summary>Whether the caller accepts the model provider's terms and conditions. Write-only.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#accept_terms_and_conditions AgentPlatformCustomModel#accept_terms_and_conditions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#accept_terms_and_conditions AgentPlatformCustomModel#accept_terms_and_conditions}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "acceptTermsAndConditions", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace digitalocean.AgentPlatformCustomModel
 
         /// <summary>Description of the custom model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#description AgentPlatformCustomModel#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#description AgentPlatformCustomModel#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,7 +66,7 @@ namespace digitalocean.AgentPlatformCustomModel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#id AgentPlatformCustomModel#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#id AgentPlatformCustomModel#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace digitalocean.AgentPlatformCustomModel
         /// <remarks>
         /// Defaults to the values reported by the importer. Caller-supplied overrides are honored only for SOURCE_TYPE_SPACES_BUCKET imports.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#input_modalities AgentPlatformCustomModel#input_modalities}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#input_modalities AgentPlatformCustomModel#input_modalities}
         /// </remarks>
         [JsiiProperty(name: "inputModalities", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -101,7 +101,7 @@ namespace digitalocean.AgentPlatformCustomModel
         /// <remarks>
         /// Defaults to the value reported by the importer. Caller-supplied overrides are honored only for SOURCE_TYPE_SPACES_BUCKET imports.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#license AgentPlatformCustomModel#license}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#license AgentPlatformCustomModel#license}
         /// </remarks>
         [JsiiProperty(name: "license", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -117,7 +117,7 @@ namespace digitalocean.AgentPlatformCustomModel
         /// <remarks>
         /// Defaults to the values reported by the importer. Caller-supplied overrides are honored only for SOURCE_TYPE_SPACES_BUCKET imports.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#output_modalities AgentPlatformCustomModel#output_modalities}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#output_modalities AgentPlatformCustomModel#output_modalities}
         /// </remarks>
         [JsiiProperty(name: "outputModalities", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -133,7 +133,7 @@ namespace digitalocean.AgentPlatformCustomModel
         /// <remarks>
         /// Defaults to the value reported by the importer. Caller-supplied overrides are honored only for SOURCE_TYPE_SPACES_BUCKET imports.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#parameters AgentPlatformCustomModel#parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#parameters AgentPlatformCustomModel#parameters}
         /// </remarks>
         [JsiiProperty(name: "parameters", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -147,7 +147,7 @@ namespace digitalocean.AgentPlatformCustomModel
 
         /// <summary>Preferred GPU region where the model artifacts should be staged.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#preferred_gpu_region AgentPlatformCustomModel#preferred_gpu_region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#preferred_gpu_region AgentPlatformCustomModel#preferred_gpu_region}
         /// </remarks>
         [JsiiProperty(name: "preferredGpuRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -161,7 +161,7 @@ namespace digitalocean.AgentPlatformCustomModel
 
         /// <summary>User-defined tags associated with the custom model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#tags AgentPlatformCustomModel#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#tags AgentPlatformCustomModel#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -175,7 +175,7 @@ namespace digitalocean.AgentPlatformCustomModel
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#timeouts AgentPlatformCustomModel#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#timeouts AgentPlatformCustomModel#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"digitalocean.agentPlatformCustomModel.AgentPlatformCustomModelTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -196,7 +196,7 @@ namespace digitalocean.AgentPlatformCustomModel
 
             /// <summary>A human-readable name for the custom model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#name AgentPlatformCustomModel#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#name AgentPlatformCustomModel#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -206,7 +206,7 @@ namespace digitalocean.AgentPlatformCustomModel
 
             /// <summary>source_ref block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#source_ref AgentPlatformCustomModel#source_ref}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#source_ref AgentPlatformCustomModel#source_ref}
             /// </remarks>
             [JsiiProperty(name: "sourceRef", typeJson: "{\"fqn\":\"digitalocean.agentPlatformCustomModel.AgentPlatformCustomModelSourceRef\"}")]
             public digitalocean.AgentPlatformCustomModel.IAgentPlatformCustomModelSourceRef SourceRef
@@ -216,7 +216,7 @@ namespace digitalocean.AgentPlatformCustomModel
 
             /// <summary>Source of the model to import. One of SOURCE_TYPE_HUGGINGFACE, SOURCE_TYPE_SPACES_BUCKET, SOURCE_TYPE_SDK_UPLOAD, SOURCE_TYPE_FINE_TUNING.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#source_type AgentPlatformCustomModel#source_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#source_type AgentPlatformCustomModel#source_type}
             /// </remarks>
             [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceType
@@ -226,7 +226,7 @@ namespace digitalocean.AgentPlatformCustomModel
 
             /// <summary>Whether the caller accepts the model provider's terms and conditions. Write-only.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#accept_terms_and_conditions AgentPlatformCustomModel#accept_terms_and_conditions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#accept_terms_and_conditions AgentPlatformCustomModel#accept_terms_and_conditions}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -238,7 +238,7 @@ namespace digitalocean.AgentPlatformCustomModel
 
             /// <summary>Description of the custom model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#description AgentPlatformCustomModel#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#description AgentPlatformCustomModel#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -247,7 +247,7 @@ namespace digitalocean.AgentPlatformCustomModel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#id AgentPlatformCustomModel#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#id AgentPlatformCustomModel#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -263,7 +263,7 @@ namespace digitalocean.AgentPlatformCustomModel
             /// <remarks>
             /// Defaults to the values reported by the importer. Caller-supplied overrides are honored only for SOURCE_TYPE_SPACES_BUCKET imports.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#input_modalities AgentPlatformCustomModel#input_modalities}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#input_modalities AgentPlatformCustomModel#input_modalities}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "inputModalities", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -276,7 +276,7 @@ namespace digitalocean.AgentPlatformCustomModel
             /// <remarks>
             /// Defaults to the value reported by the importer. Caller-supplied overrides are honored only for SOURCE_TYPE_SPACES_BUCKET imports.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#license AgentPlatformCustomModel#license}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#license AgentPlatformCustomModel#license}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "license", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -289,7 +289,7 @@ namespace digitalocean.AgentPlatformCustomModel
             /// <remarks>
             /// Defaults to the values reported by the importer. Caller-supplied overrides are honored only for SOURCE_TYPE_SPACES_BUCKET imports.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#output_modalities AgentPlatformCustomModel#output_modalities}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#output_modalities AgentPlatformCustomModel#output_modalities}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "outputModalities", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -302,7 +302,7 @@ namespace digitalocean.AgentPlatformCustomModel
             /// <remarks>
             /// Defaults to the value reported by the importer. Caller-supplied overrides are honored only for SOURCE_TYPE_SPACES_BUCKET imports.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#parameters AgentPlatformCustomModel#parameters}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#parameters AgentPlatformCustomModel#parameters}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "parameters", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -313,7 +313,7 @@ namespace digitalocean.AgentPlatformCustomModel
 
             /// <summary>Preferred GPU region where the model artifacts should be staged.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#preferred_gpu_region AgentPlatformCustomModel#preferred_gpu_region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#preferred_gpu_region AgentPlatformCustomModel#preferred_gpu_region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "preferredGpuRegion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -324,7 +324,7 @@ namespace digitalocean.AgentPlatformCustomModel
 
             /// <summary>User-defined tags associated with the custom model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#tags AgentPlatformCustomModel#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#tags AgentPlatformCustomModel#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -335,7 +335,7 @@ namespace digitalocean.AgentPlatformCustomModel
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#timeouts AgentPlatformCustomModel#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#timeouts AgentPlatformCustomModel#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"digitalocean.agentPlatformCustomModel.AgentPlatformCustomModelTimeouts\"}", isOptional: true)]

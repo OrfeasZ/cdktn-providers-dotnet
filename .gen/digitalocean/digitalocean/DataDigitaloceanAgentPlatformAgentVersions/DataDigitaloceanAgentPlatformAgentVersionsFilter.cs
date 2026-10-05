@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgentVersions
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanAgentPlatformAgentVersions.DataDigitaloceanAgentPlatformAgentVersionsFilter")]
     public class DataDigitaloceanAgentPlatformAgentVersionsFilter : digitalocean.DataDigitaloceanAgentPlatformAgentVersions.IDataDigitaloceanAgentPlatformAgentVersionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_agent_versions#key DataDigitaloceanAgentPlatformAgentVersions#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent_versions#key DataDigitaloceanAgentPlatformAgentVersions#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgentVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_agent_versions#values DataDigitaloceanAgentPlatformAgentVersions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent_versions#values DataDigitaloceanAgentPlatformAgentVersions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgentVersions
 
         private object? _all;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_agent_versions#all DataDigitaloceanAgentPlatformAgentVersions#all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent_versions#all DataDigitaloceanAgentPlatformAgentVersions#all}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -59,7 +59,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgentVersions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_agent_versions#match_by DataDigitaloceanAgentPlatformAgentVersions#match_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent_versions#match_by DataDigitaloceanAgentPlatformAgentVersions#match_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "matchBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MatchBy

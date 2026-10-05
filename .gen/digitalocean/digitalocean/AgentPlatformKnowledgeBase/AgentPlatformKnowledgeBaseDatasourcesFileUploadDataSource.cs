@@ -9,7 +9,7 @@ namespace digitalocean.AgentPlatformKnowledgeBase
     {
         /// <summary>The original name of the uploaded file.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_knowledge_base#original_file_name AgentPlatformKnowledgeBase#original_file_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base#original_file_name AgentPlatformKnowledgeBase#original_file_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "originalFileName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace digitalocean.AgentPlatformKnowledgeBase
 
         /// <summary>The size of the file in bytes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_knowledge_base#size_in_bytes AgentPlatformKnowledgeBase#size_in_bytes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base#size_in_bytes AgentPlatformKnowledgeBase#size_in_bytes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sizeInBytes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace digitalocean.AgentPlatformKnowledgeBase
 
         /// <summary>The stored object key for the file.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_knowledge_base#stored_object_key AgentPlatformKnowledgeBase#stored_object_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base#stored_object_key AgentPlatformKnowledgeBase#stored_object_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "storedObjectKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

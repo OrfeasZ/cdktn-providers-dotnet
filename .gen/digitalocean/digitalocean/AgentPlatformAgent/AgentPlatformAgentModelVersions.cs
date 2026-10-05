@@ -9,7 +9,7 @@ namespace digitalocean.AgentPlatformAgent
     {
         /// <summary>Major version of the model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_agent#major AgentPlatformAgent#major}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#major AgentPlatformAgent#major}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "major", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace digitalocean.AgentPlatformAgent
 
         /// <summary>Minor version of the model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_agent#minor AgentPlatformAgent#minor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#minor AgentPlatformAgent#minor}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minor", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace digitalocean.AgentPlatformAgent
 
         /// <summary>Patch version of the model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_agent#patch AgentPlatformAgent#patch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#patch AgentPlatformAgent#patch}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "patch", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

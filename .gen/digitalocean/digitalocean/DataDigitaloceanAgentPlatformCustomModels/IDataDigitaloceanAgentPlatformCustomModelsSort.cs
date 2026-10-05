@@ -7,14 +7,14 @@ namespace digitalocean.DataDigitaloceanAgentPlatformCustomModels
     [JsiiInterface(nativeType: typeof(IDataDigitaloceanAgentPlatformCustomModelsSort), fullyQualifiedName: "digitalocean.dataDigitaloceanAgentPlatformCustomModels.DataDigitaloceanAgentPlatformCustomModelsSort")]
     public interface IDataDigitaloceanAgentPlatformCustomModelsSort
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_custom_models#key DataDigitaloceanAgentPlatformCustomModels#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_custom_models#key DataDigitaloceanAgentPlatformCustomModels#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         string Key
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_custom_models#direction DataDigitaloceanAgentPlatformCustomModels#direction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_custom_models#direction DataDigitaloceanAgentPlatformCustomModels#direction}.</summary>
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Direction
@@ -32,14 +32,14 @@ namespace digitalocean.DataDigitaloceanAgentPlatformCustomModels
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_custom_models#key DataDigitaloceanAgentPlatformCustomModels#key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_custom_models#key DataDigitaloceanAgentPlatformCustomModels#key}.</summary>
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
             public string Key
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_custom_models#direction DataDigitaloceanAgentPlatformCustomModels#direction}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_custom_models#direction DataDigitaloceanAgentPlatformCustomModels#direction}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Direction

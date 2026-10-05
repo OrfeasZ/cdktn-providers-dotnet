@@ -11,7 +11,7 @@ namespace digitalocean.AgentPlatformKnowledgeBaseDataSource
     {
         /// <summary>UUID of the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_knowledge_base_data_source#knowledge_base_uuid AgentPlatformKnowledgeBaseDataSource#knowledge_base_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base_data_source#knowledge_base_uuid AgentPlatformKnowledgeBaseDataSource#knowledge_base_uuid}
         /// </remarks>
         [JsiiProperty(name: "knowledgeBaseUuid", typeJson: "{\"primitive\":\"string\"}")]
         public string KnowledgeBaseUuid
@@ -20,7 +20,7 @@ namespace digitalocean.AgentPlatformKnowledgeBaseDataSource
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_knowledge_base_data_source#id AgentPlatformKnowledgeBaseDataSource#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base_data_source#id AgentPlatformKnowledgeBaseDataSource#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ namespace digitalocean.AgentPlatformKnowledgeBaseDataSource
 
         /// <summary>spaces_data_source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_knowledge_base_data_source#spaces_data_source AgentPlatformKnowledgeBaseDataSource#spaces_data_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base_data_source#spaces_data_source AgentPlatformKnowledgeBaseDataSource#spaces_data_source}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "spacesDataSource", typeJson: "{\"fqn\":\"digitalocean.agentPlatformKnowledgeBaseDataSource.AgentPlatformKnowledgeBaseDataSourceSpacesDataSource\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace digitalocean.AgentPlatformKnowledgeBaseDataSource
 
         /// <summary>web_crawler_data_source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_knowledge_base_data_source#web_crawler_data_source AgentPlatformKnowledgeBaseDataSource#web_crawler_data_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base_data_source#web_crawler_data_source AgentPlatformKnowledgeBaseDataSource#web_crawler_data_source}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "webCrawlerDataSource", typeJson: "{\"fqn\":\"digitalocean.agentPlatformKnowledgeBaseDataSource.AgentPlatformKnowledgeBaseDataSourceWebCrawlerDataSource\"}", isOptional: true)]

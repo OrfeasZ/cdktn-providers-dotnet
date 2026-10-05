@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformOpenaiApiKeys
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanAgentPlatformOpenaiApiKeys.DataDigitaloceanAgentPlatformOpenaiApiKeysFilter")]
     public class DataDigitaloceanAgentPlatformOpenaiApiKeysFilter : digitalocean.DataDigitaloceanAgentPlatformOpenaiApiKeys.IDataDigitaloceanAgentPlatformOpenaiApiKeysFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_openai_api_keys#key DataDigitaloceanAgentPlatformOpenaiApiKeys#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_openai_api_keys#key DataDigitaloceanAgentPlatformOpenaiApiKeys#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformOpenaiApiKeys
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_openai_api_keys#values DataDigitaloceanAgentPlatformOpenaiApiKeys#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_openai_api_keys#values DataDigitaloceanAgentPlatformOpenaiApiKeys#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformOpenaiApiKeys
 
         private object? _all;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_openai_api_keys#all DataDigitaloceanAgentPlatformOpenaiApiKeys#all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_openai_api_keys#all DataDigitaloceanAgentPlatformOpenaiApiKeys#all}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -59,7 +59,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformOpenaiApiKeys
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_openai_api_keys#match_by DataDigitaloceanAgentPlatformOpenaiApiKeys#match_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_openai_api_keys#match_by DataDigitaloceanAgentPlatformOpenaiApiKeys#match_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "matchBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MatchBy

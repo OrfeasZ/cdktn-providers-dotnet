@@ -11,7 +11,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformKnowledgeBaseIndexingJobs
     {
         /// <summary>UUID of the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_knowledge_base_indexing_jobs#knowledge_base_uuid DataDigitaloceanAgentPlatformKnowledgeBaseIndexingJobs#knowledge_base_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_knowledge_base_indexing_jobs#knowledge_base_uuid DataDigitaloceanAgentPlatformKnowledgeBaseIndexingJobs#knowledge_base_uuid}
         /// </remarks>
         [JsiiProperty(name: "knowledgeBaseUuid", typeJson: "{\"primitive\":\"string\"}")]
         public string KnowledgeBaseUuid
@@ -20,7 +20,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformKnowledgeBaseIndexingJobs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_knowledge_base_indexing_jobs#id DataDigitaloceanAgentPlatformKnowledgeBaseIndexingJobs#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_knowledge_base_indexing_jobs#id DataDigitaloceanAgentPlatformKnowledgeBaseIndexingJobs#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

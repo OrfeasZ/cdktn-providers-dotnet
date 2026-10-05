@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformModels
     {
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_models#filter DataDigitaloceanAgentPlatformModels#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_models#filter DataDigitaloceanAgentPlatformModels#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanAgentPlatformModels.IDataDigitaloceanAgentPlatformModelsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanAgentPlatformModels.DataDigitaloceanAgentPlatformModelsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -22,7 +22,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformModels
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_models#id DataDigitaloceanAgentPlatformModels#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_models#id DataDigitaloceanAgentPlatformModels#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,7 +39,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformModels
 
         /// <summary>sort block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_models#sort DataDigitaloceanAgentPlatformModels#sort}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_models#sort DataDigitaloceanAgentPlatformModels#sort}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanAgentPlatformModels.IDataDigitaloceanAgentPlatformModelsSort" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "sort", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanAgentPlatformModels.DataDigitaloceanAgentPlatformModelsSort\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformModels
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_models#filter DataDigitaloceanAgentPlatformModels#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_models#filter DataDigitaloceanAgentPlatformModels#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanAgentPlatformModels.IDataDigitaloceanAgentPlatformModelsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -71,7 +71,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformModels
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_models#id DataDigitaloceanAgentPlatformModels#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_models#id DataDigitaloceanAgentPlatformModels#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -85,7 +85,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformModels
 
             /// <summary>sort block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/data-sources/agent_platform_models#sort DataDigitaloceanAgentPlatformModels#sort}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_models#sort DataDigitaloceanAgentPlatformModels#sort}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanAgentPlatformModels.IDataDigitaloceanAgentPlatformModelsSort" />)[]</para>
             /// </remarks>
             [JsiiOptional]

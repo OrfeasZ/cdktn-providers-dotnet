@@ -9,7 +9,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
     {
         /// <summary>agreement block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#agreement AgentPlatformOpenaiApiKey#agreement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#agreement AgentPlatformOpenaiApiKey#agreement}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.AgentPlatformOpenaiApiKey.IAgentPlatformOpenaiApiKeyModelAgreement" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "agreement", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.agentPlatformOpenaiApiKey.AgentPlatformOpenaiApiKeyModelAgreement\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -24,7 +24,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
         /// <summary>Inference name of the model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#inference_name AgentPlatformOpenaiApiKey#inference_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#inference_name AgentPlatformOpenaiApiKey#inference_name}
         /// </remarks>
         [JsiiProperty(name: "inferenceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,7 +38,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
         /// <summary>Infernce version of the model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#inference_version AgentPlatformOpenaiApiKey#inference_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#inference_version AgentPlatformOpenaiApiKey#inference_version}
         /// </remarks>
         [JsiiProperty(name: "inferenceVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,7 +52,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
         /// <summary>Indicates if the Model Base is foundational.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#is_foundational AgentPlatformOpenaiApiKey#is_foundational}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#is_foundational AgentPlatformOpenaiApiKey#is_foundational}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "isFoundational", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
         /// <summary>Name of the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#name AgentPlatformOpenaiApiKey#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#name AgentPlatformOpenaiApiKey#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -81,7 +81,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
         /// <summary>Parent UUID of the Model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#parent_uuid AgentPlatformOpenaiApiKey#parent_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#parent_uuid AgentPlatformOpenaiApiKey#parent_uuid}
         /// </remarks>
         [JsiiProperty(name: "parentUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -95,7 +95,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
         /// <summary>Provider of the Model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#provider AgentPlatformOpenaiApiKey#provider}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#provider AgentPlatformOpenaiApiKey#provider}
         /// </remarks>
         [JsiiProperty(name: "provider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -109,7 +109,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
         /// <summary>Indicates if the Model upload is complete.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#upload_complete AgentPlatformOpenaiApiKey#upload_complete}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#upload_complete AgentPlatformOpenaiApiKey#upload_complete}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "uploadComplete", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -124,7 +124,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
         /// <summary>URL of the Model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#url AgentPlatformOpenaiApiKey#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#url AgentPlatformOpenaiApiKey#url}
         /// </remarks>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -138,7 +138,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
         /// <summary>List of Usecases for the Model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#usecases AgentPlatformOpenaiApiKey#usecases}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#usecases AgentPlatformOpenaiApiKey#usecases}
         /// </remarks>
         [JsiiProperty(name: "usecases", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -152,7 +152,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
         /// <summary>versions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#versions AgentPlatformOpenaiApiKey#versions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#versions AgentPlatformOpenaiApiKey#versions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.AgentPlatformOpenaiApiKey.IAgentPlatformOpenaiApiKeyModelVersions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "versions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.agentPlatformOpenaiApiKey.AgentPlatformOpenaiApiKeyModelVersions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -174,7 +174,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
             /// <summary>agreement block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#agreement AgentPlatformOpenaiApiKey#agreement}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#agreement AgentPlatformOpenaiApiKey#agreement}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.AgentPlatformOpenaiApiKey.IAgentPlatformOpenaiApiKeyModelAgreement" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -186,7 +186,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
             /// <summary>Inference name of the model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#inference_name AgentPlatformOpenaiApiKey#inference_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#inference_name AgentPlatformOpenaiApiKey#inference_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "inferenceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -197,7 +197,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
             /// <summary>Infernce version of the model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#inference_version AgentPlatformOpenaiApiKey#inference_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#inference_version AgentPlatformOpenaiApiKey#inference_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "inferenceVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -208,7 +208,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
             /// <summary>Indicates if the Model Base is foundational.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#is_foundational AgentPlatformOpenaiApiKey#is_foundational}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#is_foundational AgentPlatformOpenaiApiKey#is_foundational}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -220,7 +220,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
             /// <summary>Name of the Knowledge Base.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#name AgentPlatformOpenaiApiKey#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#name AgentPlatformOpenaiApiKey#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -231,7 +231,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
             /// <summary>Parent UUID of the Model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#parent_uuid AgentPlatformOpenaiApiKey#parent_uuid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#parent_uuid AgentPlatformOpenaiApiKey#parent_uuid}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "parentUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -242,7 +242,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
             /// <summary>Provider of the Model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#provider AgentPlatformOpenaiApiKey#provider}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#provider AgentPlatformOpenaiApiKey#provider}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -253,7 +253,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
             /// <summary>Indicates if the Model upload is complete.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#upload_complete AgentPlatformOpenaiApiKey#upload_complete}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#upload_complete AgentPlatformOpenaiApiKey#upload_complete}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -265,7 +265,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
             /// <summary>URL of the Model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#url AgentPlatformOpenaiApiKey#url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#url AgentPlatformOpenaiApiKey#url}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -276,7 +276,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
             /// <summary>List of Usecases for the Model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#usecases AgentPlatformOpenaiApiKey#usecases}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#usecases AgentPlatformOpenaiApiKey#usecases}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "usecases", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -287,7 +287,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
             /// <summary>versions block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_openai_api_key#versions AgentPlatformOpenaiApiKey#versions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#versions AgentPlatformOpenaiApiKey#versions}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.AgentPlatformOpenaiApiKey.IAgentPlatformOpenaiApiKeyModelVersions" />)[]</para>
             /// </remarks>
             [JsiiOptional]

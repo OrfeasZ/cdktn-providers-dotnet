@@ -9,7 +9,7 @@ namespace digitalocean.AgentPlatformCustomModel
     {
         /// <summary>Access type for the source repository. One of ACCESS_TYPE_PUBLIC, ACCESS_TYPE_PRIVATE, ACCESS_TYPE_GATED.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#access_type AgentPlatformCustomModel#access_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#access_type AgentPlatformCustomModel#access_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accessType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace digitalocean.AgentPlatformCustomModel
 
         /// <summary>Spaces bucket name for SOURCE_TYPE_SPACES_BUCKET sources.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#bucket AgentPlatformCustomModel#bucket}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#bucket AgentPlatformCustomModel#bucket}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace digitalocean.AgentPlatformCustomModel
 
         /// <summary>Commit SHA to pin for the import. If omitted, the API resolves and returns the SHA actually imported.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#commit_sha AgentPlatformCustomModel#commit_sha}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#commit_sha AgentPlatformCustomModel#commit_sha}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "commitSha", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace digitalocean.AgentPlatformCustomModel
 
         /// <summary>HuggingFace token used to access ACCESS_TYPE_PRIVATE or ACCESS_TYPE_GATED repositories. Write-only.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#hf_token AgentPlatformCustomModel#hf_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#hf_token AgentPlatformCustomModel#hf_token}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hfToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace digitalocean.AgentPlatformCustomModel
 
         /// <summary>Key prefix inside the source bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#prefix AgentPlatformCustomModel#prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#prefix AgentPlatformCustomModel#prefix}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "prefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace digitalocean.AgentPlatformCustomModel
 
         /// <summary>Region of the source bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#region AgentPlatformCustomModel#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#region AgentPlatformCustomModel#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace digitalocean.AgentPlatformCustomModel
 
         /// <summary>Repository identifier (e.g. the HuggingFace repo). Required for SOURCE_TYPE_HUGGINGFACE sources.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.103.0/docs/resources/agent_platform_custom_model#repo_id AgentPlatformCustomModel#repo_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_custom_model#repo_id AgentPlatformCustomModel#repo_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "repoId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
