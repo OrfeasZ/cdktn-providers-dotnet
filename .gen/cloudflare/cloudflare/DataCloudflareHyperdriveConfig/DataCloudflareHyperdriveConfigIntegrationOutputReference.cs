@@ -51,8 +51,8 @@ namespace cloudflare.DataCloudflareHyperdriveConfig
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "integration", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Integration
+        [JsiiProperty(name: "hyperdriveConfigProvider", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string HyperdriveConfigProvider
         {
             get => GetInstanceProperty<string>()!;
         }

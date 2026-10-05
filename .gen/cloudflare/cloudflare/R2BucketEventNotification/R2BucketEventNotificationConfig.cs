@@ -9,9 +9,9 @@ namespace cloudflare.R2BucketEventNotification
     [JsiiByValue(fqn: "cloudflare.r2BucketEventNotification.R2BucketEventNotificationConfig")]
     public class R2BucketEventNotificationConfig : cloudflare.R2BucketEventNotification.IR2BucketEventNotificationConfig
     {
-        /// <summary>Account ID.</summary>
+        /// <summary>Cloudflare account ID that owns the R2 resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/r2_bucket_event_notification#account_id R2BucketEventNotification#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/r2_bucket_event_notification#account_id R2BucketEventNotification#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -22,7 +22,7 @@ namespace cloudflare.R2BucketEventNotification
 
         /// <summary>Name of the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/r2_bucket_event_notification#bucket_name R2BucketEventNotification#bucket_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/r2_bucket_event_notification#bucket_name R2BucketEventNotification#bucket_name}
         /// </remarks>
         [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
         public string BucketName
@@ -31,9 +31,9 @@ namespace cloudflare.R2BucketEventNotification
             set;
         }
 
-        /// <summary>Queue ID.</summary>
+        /// <summary>ID of the Cloudflare Queue that receives notifications for matching R2 object events.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/r2_bucket_event_notification#queue_id R2BucketEventNotification#queue_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/r2_bucket_event_notification#queue_id R2BucketEventNotification#queue_id}
         /// </remarks>
         [JsiiProperty(name: "queueId", typeJson: "{\"primitive\":\"string\"}")]
         public string QueueId
@@ -46,7 +46,7 @@ namespace cloudflare.R2BucketEventNotification
 
         /// <summary>Array of rules to drive notifications.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/r2_bucket_event_notification#rules R2BucketEventNotification#rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/r2_bucket_event_notification#rules R2BucketEventNotification#rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.R2BucketEventNotification.IR2BucketEventNotificationRules" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.r2BucketEventNotification.R2BucketEventNotificationRules\"},\"kind\":\"array\"}}]}}")]
@@ -78,7 +78,7 @@ namespace cloudflare.R2BucketEventNotification
 
         /// <summary>Jurisdiction of the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/r2_bucket_event_notification#jurisdiction R2BucketEventNotification#jurisdiction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/r2_bucket_event_notification#jurisdiction R2BucketEventNotification#jurisdiction}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

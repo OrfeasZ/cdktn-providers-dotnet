@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustCasbPolicy
     {
         /// <summary>The ID of the remediation type to execute.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/zero_trust_casb_policy#remediation_type_id ZeroTrustCasbPolicy#remediation_type_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zero_trust_casb_policy#remediation_type_id ZeroTrustCasbPolicy#remediation_type_id}
         /// </remarks>
         [JsiiProperty(name: "remediationTypeId", typeJson: "{\"primitive\":\"string\"}")]
         string RemediationTypeId
@@ -26,7 +26,7 @@ namespace cloudflare.ZeroTrustCasbPolicy
 
             /// <summary>The ID of the remediation type to execute.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/zero_trust_casb_policy#remediation_type_id ZeroTrustCasbPolicy#remediation_type_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zero_trust_casb_policy#remediation_type_id ZeroTrustCasbPolicy#remediation_type_id}
             /// </remarks>
             [JsiiProperty(name: "remediationTypeId", typeJson: "{\"primitive\":\"string\"}")]
             public string RemediationTypeId

@@ -11,7 +11,7 @@ namespace cloudflare.EmailRoutingSettings
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/email_routing_settings#zone_id EmailRoutingSettings#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/email_routing_settings#zone_id EmailRoutingSettings#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId
@@ -24,7 +24,7 @@ namespace cloudflare.EmailRoutingSettings
 
         /// <summary>Whether subaddressing (plus-addressing) is honored when matching incoming mail against routing rules.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/email_routing_settings#support_subaddress EmailRoutingSettings#support_subaddress}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/email_routing_settings#support_subaddress EmailRoutingSettings#support_subaddress}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

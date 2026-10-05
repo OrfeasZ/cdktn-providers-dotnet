@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareMagicWanBgpFilterProfiles
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/magic_wan_bgp_filter_profiles#account_id DataCloudflareMagicWanBgpFilterProfiles#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/magic_wan_bgp_filter_profiles#account_id DataCloudflareMagicWanBgpFilterProfiles#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -22,7 +22,7 @@ namespace cloudflare.DataCloudflareMagicWanBgpFilterProfiles
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/magic_wan_bgp_filter_profiles#max_items DataCloudflareMagicWanBgpFilterProfiles#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/magic_wan_bgp_filter_profiles#max_items DataCloudflareMagicWanBgpFilterProfiles#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

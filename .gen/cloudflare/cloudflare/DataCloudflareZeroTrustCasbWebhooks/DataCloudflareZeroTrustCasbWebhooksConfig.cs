@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareZeroTrustCasbWebhooks
     [JsiiByValue(fqn: "cloudflare.dataCloudflareZeroTrustCasbWebhooks.DataCloudflareZeroTrustCasbWebhooksConfig")]
     public class DataCloudflareZeroTrustCasbWebhooksConfig : cloudflare.DataCloudflareZeroTrustCasbWebhooks.IDataCloudflareZeroTrustCasbWebhooksConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/zero_trust_casb_webhooks#account_id DataCloudflareZeroTrustCasbWebhooks#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/zero_trust_casb_webhooks#account_id DataCloudflareZeroTrustCasbWebhooks#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
         {
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflareZeroTrustCasbWebhooks
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/zero_trust_casb_webhooks#max_items DataCloudflareZeroTrustCasbWebhooks#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/zero_trust_casb_webhooks#max_items DataCloudflareZeroTrustCasbWebhooks#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

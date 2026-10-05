@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareZeroTrustDeviceCustomProfile
     {
         /// <summary>Filter profiles by client type. When omitted, only WARP profiles are returned. Available values: "warp", "browser_extension".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/zero_trust_device_custom_profile#profile_type DataCloudflareZeroTrustDeviceCustomProfile#profile_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/zero_trust_device_custom_profile#profile_type DataCloudflareZeroTrustDeviceCustomProfile#profile_type}
         /// </remarks>
         [JsiiProperty(name: "profileType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace cloudflare.DataCloudflareZeroTrustDeviceCustomProfile
 
             /// <summary>Filter profiles by client type. When omitted, only WARP profiles are returned. Available values: "warp", "browser_extension".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/zero_trust_device_custom_profile#profile_type DataCloudflareZeroTrustDeviceCustomProfile#profile_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/zero_trust_device_custom_profile#profile_type DataCloudflareZeroTrustDeviceCustomProfile#profile_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "profileType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

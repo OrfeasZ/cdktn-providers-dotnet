@@ -7,9 +7,9 @@ namespace cloudflare.R2ManagedDomain
     [JsiiInterface(nativeType: typeof(IR2ManagedDomainConfig), fullyQualifiedName: "cloudflare.r2ManagedDomain.R2ManagedDomainConfig")]
     public interface IR2ManagedDomainConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Account ID.</summary>
+        /// <summary>Cloudflare account ID that owns the R2 resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/r2_managed_domain#account_id R2ManagedDomain#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/r2_managed_domain#account_id R2ManagedDomain#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.R2ManagedDomain
 
         /// <summary>Name of the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/r2_managed_domain#bucket_name R2ManagedDomain#bucket_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/r2_managed_domain#bucket_name R2ManagedDomain#bucket_name}
         /// </remarks>
         [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
         string BucketName
@@ -29,7 +29,7 @@ namespace cloudflare.R2ManagedDomain
 
         /// <summary>Whether to enable public bucket access at the r2.dev domain.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/r2_managed_domain#enabled R2ManagedDomain#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/r2_managed_domain#enabled R2ManagedDomain#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -40,7 +40,7 @@ namespace cloudflare.R2ManagedDomain
 
         /// <summary>Jurisdiction of the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/r2_managed_domain#jurisdiction R2ManagedDomain#jurisdiction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/r2_managed_domain#jurisdiction R2ManagedDomain#jurisdiction}
         /// </remarks>
         [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,9 +59,9 @@ namespace cloudflare.R2ManagedDomain
             {
             }
 
-            /// <summary>Account ID.</summary>
+            /// <summary>Cloudflare account ID that owns the R2 resource.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/r2_managed_domain#account_id R2ManagedDomain#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/r2_managed_domain#account_id R2ManagedDomain#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -71,7 +71,7 @@ namespace cloudflare.R2ManagedDomain
 
             /// <summary>Name of the bucket.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/r2_managed_domain#bucket_name R2ManagedDomain#bucket_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/r2_managed_domain#bucket_name R2ManagedDomain#bucket_name}
             /// </remarks>
             [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
             public string BucketName
@@ -81,7 +81,7 @@ namespace cloudflare.R2ManagedDomain
 
             /// <summary>Whether to enable public bucket access at the r2.dev domain.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/r2_managed_domain#enabled R2ManagedDomain#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/r2_managed_domain#enabled R2ManagedDomain#enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -92,7 +92,7 @@ namespace cloudflare.R2ManagedDomain
 
             /// <summary>Jurisdiction of the bucket.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/r2_managed_domain#jurisdiction R2ManagedDomain#jurisdiction}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/r2_managed_domain#jurisdiction R2ManagedDomain#jurisdiction}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

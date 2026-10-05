@@ -7,9 +7,9 @@ namespace cloudflare.DataCloudflareFlagshipApp
     [JsiiInterface(nativeType: typeof(IDataCloudflareFlagshipAppConfig), fullyQualifiedName: "cloudflare.dataCloudflareFlagshipApp.DataCloudflareFlagshipAppConfig")]
     public interface IDataCloudflareFlagshipAppConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Cloudflare account ID.</summary>
+        /// <summary>Cloudflare account ID that owns the Flagship app.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_app#account_id DataCloudflareFlagshipApp#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_app#account_id DataCloudflareFlagshipApp#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -17,9 +17,9 @@ namespace cloudflare.DataCloudflareFlagshipApp
             get;
         }
 
-        /// <summary>App identifier.</summary>
+        /// <summary>Flagship app ID returned when the app was created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_app#app_id DataCloudflareFlagshipApp#app_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_app#app_id DataCloudflareFlagshipApp#app_id}
         /// </remarks>
         [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
         string AppId
@@ -34,9 +34,9 @@ namespace cloudflare.DataCloudflareFlagshipApp
             {
             }
 
-            /// <summary>Cloudflare account ID.</summary>
+            /// <summary>Cloudflare account ID that owns the Flagship app.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_app#account_id DataCloudflareFlagshipApp#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_app#account_id DataCloudflareFlagshipApp#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -44,9 +44,9 @@ namespace cloudflare.DataCloudflareFlagshipApp
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>App identifier.</summary>
+            /// <summary>Flagship app ID returned when the app was created.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_app#app_id DataCloudflareFlagshipApp#app_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_app#app_id DataCloudflareFlagshipApp#app_id}
             /// </remarks>
             [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
             public string AppId

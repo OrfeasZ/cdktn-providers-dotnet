@@ -7,9 +7,11 @@ namespace cloudflare.DataCloudflarePagesProject
     [JsiiInterface(nativeType: typeof(IDataCloudflarePagesProjectConfig), fullyQualifiedName: "cloudflare.dataCloudflarePagesProject.DataCloudflarePagesProjectConfig")]
     public interface IDataCloudflarePagesProjectConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Name of the project.</summary>
+        /// <summary>Name of the Pages project.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/pages_project#project_name DataCloudflarePagesProject#project_name}
+        /// Must begin with a lowercase letter or digit and contain only lowercase letters, digits, and hyphens.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/pages_project#project_name DataCloudflarePagesProject#project_name}
         /// </remarks>
         [JsiiProperty(name: "projectName", typeJson: "{\"primitive\":\"string\"}")]
         string ProjectName
@@ -19,7 +21,7 @@ namespace cloudflare.DataCloudflarePagesProject
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/pages_project#account_id DataCloudflarePagesProject#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/pages_project#account_id DataCloudflarePagesProject#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,9 +40,11 @@ namespace cloudflare.DataCloudflarePagesProject
             {
             }
 
-            /// <summary>Name of the project.</summary>
+            /// <summary>Name of the Pages project.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/pages_project#project_name DataCloudflarePagesProject#project_name}
+            /// Must begin with a lowercase letter or digit and contain only lowercase letters, digits, and hyphens.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/pages_project#project_name DataCloudflarePagesProject#project_name}
             /// </remarks>
             [JsiiProperty(name: "projectName", typeJson: "{\"primitive\":\"string\"}")]
             public string ProjectName
@@ -50,7 +54,7 @@ namespace cloudflare.DataCloudflarePagesProject
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/pages_project#account_id DataCloudflarePagesProject#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/pages_project#account_id DataCloudflarePagesProject#account_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

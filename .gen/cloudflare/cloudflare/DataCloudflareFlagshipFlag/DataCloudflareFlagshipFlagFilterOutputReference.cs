@@ -40,16 +40,16 @@ namespace cloudflare.DataCloudflareFlagshipFlag
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "limitInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? LimitInput
+        [JsiiProperty(name: "limitInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? LimitInput
         {
-            get => GetInstanceProperty<string?>();
+            get => GetInstanceProperty<double?>();
         }
 
-        [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Limit
+        [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double Limit
         {
-            get => GetInstanceProperty<string>()!;
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 

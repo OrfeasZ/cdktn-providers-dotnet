@@ -41,6 +41,12 @@ namespace cloudflare.DataCloudflareApiTokens
             get => GetInstanceProperty<cloudflare.DataCloudflareApiTokens.DataCloudflareApiTokensResultConditionOutputReference>()!;
         }
 
+        [JsiiProperty(name: "creatorEmailAtCreation", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CreatorEmailAtCreation
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "expiresOn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ExpiresOn
         {
@@ -87,6 +93,18 @@ namespace cloudflare.DataCloudflareApiTokens
         public virtual cloudflare.DataCloudflareApiTokens.DataCloudflareApiTokensResultPoliciesList Policies
         {
             get => GetInstanceProperty<cloudflare.DataCloudflareApiTokens.DataCloudflareApiTokensResultPoliciesList>()!;
+        }
+
+        [JsiiProperty(name: "provisionerId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ProvisionerId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "provisionerType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ProvisionerType
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]

@@ -7,14 +7,14 @@ namespace cloudflare.DataCloudflareZeroTrustCasbWebhook
     [JsiiInterface(nativeType: typeof(IDataCloudflareZeroTrustCasbWebhookConfig), fullyQualifiedName: "cloudflare.dataCloudflareZeroTrustCasbWebhook.DataCloudflareZeroTrustCasbWebhookConfig")]
     public interface IDataCloudflareZeroTrustCasbWebhookConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/zero_trust_casb_webhook#account_id DataCloudflareZeroTrustCasbWebhook#account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/zero_trust_casb_webhook#account_id DataCloudflareZeroTrustCasbWebhook#account_id}.</summary>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/zero_trust_casb_webhook#webhook_id DataCloudflareZeroTrustCasbWebhook#webhook_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/zero_trust_casb_webhook#webhook_id DataCloudflareZeroTrustCasbWebhook#webhook_id}.</summary>
         [JsiiProperty(name: "webhookId", typeJson: "{\"primitive\":\"string\"}")]
         string WebhookId
         {
@@ -28,14 +28,14 @@ namespace cloudflare.DataCloudflareZeroTrustCasbWebhook
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/zero_trust_casb_webhook#account_id DataCloudflareZeroTrustCasbWebhook#account_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/zero_trust_casb_webhook#account_id DataCloudflareZeroTrustCasbWebhook#account_id}.</summary>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/zero_trust_casb_webhook#webhook_id DataCloudflareZeroTrustCasbWebhook#webhook_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/zero_trust_casb_webhook#webhook_id DataCloudflareZeroTrustCasbWebhook#webhook_id}.</summary>
             [JsiiProperty(name: "webhookId", typeJson: "{\"primitive\":\"string\"}")]
             public string WebhookId
             {

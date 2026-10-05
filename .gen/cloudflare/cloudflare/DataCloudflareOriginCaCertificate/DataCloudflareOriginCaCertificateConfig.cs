@@ -7,9 +7,9 @@ namespace cloudflare.DataCloudflareOriginCaCertificate
     [JsiiByValue(fqn: "cloudflare.dataCloudflareOriginCaCertificate.DataCloudflareOriginCaCertificateConfig")]
     public class DataCloudflareOriginCaCertificateConfig : cloudflare.DataCloudflareOriginCaCertificate.IDataCloudflareOriginCaCertificateConfig
     {
-        /// <summary>Identifier.</summary>
+        /// <summary>The x509 serial number of the Origin CA certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/origin_ca_certificate#certificate_id DataCloudflareOriginCaCertificate#certificate_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/origin_ca_certificate#certificate_id DataCloudflareOriginCaCertificate#certificate_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflareOriginCaCertificate
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/origin_ca_certificate#filter DataCloudflareOriginCaCertificate#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/origin_ca_certificate#filter DataCloudflareOriginCaCertificate#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareOriginCaCertificate.DataCloudflareOriginCaCertificateFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareOriginCaCertificate.IDataCloudflareOriginCaCertificateFilter? Filter

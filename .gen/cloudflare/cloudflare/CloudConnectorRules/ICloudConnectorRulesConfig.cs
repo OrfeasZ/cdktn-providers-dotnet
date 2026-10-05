@@ -7,28 +7,24 @@ namespace cloudflare.CloudConnectorRules
     [JsiiInterface(nativeType: typeof(ICloudConnectorRulesConfig), fullyQualifiedName: "cloudflare.cloudConnectorRules.CloudConnectorRulesConfig")]
     public interface ICloudConnectorRulesConfig : Io.Cdktn.ITerraformMetaArguments
     {
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/cloud_connector_rules#rules CloudConnectorRules#rules}.</summary>
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.CloudConnectorRules.ICloudConnectorRulesRules" />)[]</para>
+        /// </remarks>
+        [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.cloudConnectorRules.CloudConnectorRulesRules\"},\"kind\":\"array\"}}]}}")]
+        object Rules
+        {
+            get;
+        }
+
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/cloud_connector_rules#zone_id CloudConnectorRules#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/cloud_connector_rules#zone_id CloudConnectorRules#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
         {
             get;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/cloud_connector_rules#rules CloudConnectorRules#rules}.</summary>
-        /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.CloudConnectorRules.ICloudConnectorRulesRules" />)[]</para>
-        /// </remarks>
-        [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.cloudConnectorRules.CloudConnectorRulesRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? Rules
-        {
-            get
-            {
-                return null;
-            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(ICloudConnectorRulesConfig), fullyQualifiedName: "cloudflare.cloudConnectorRules.CloudConnectorRulesConfig")]
@@ -38,25 +34,24 @@ namespace cloudflare.CloudConnectorRules
             {
             }
 
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/cloud_connector_rules#rules CloudConnectorRules#rules}.</summary>
+            /// <remarks>
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.CloudConnectorRules.ICloudConnectorRulesRules" />)[]</para>
+            /// </remarks>
+            [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.cloudConnectorRules.CloudConnectorRulesRules\"},\"kind\":\"array\"}}]}}")]
+            public object Rules
+            {
+                get => GetInstanceProperty<object>()!;
+            }
+
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/cloud_connector_rules#zone_id CloudConnectorRules#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/cloud_connector_rules#zone_id CloudConnectorRules#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId
             {
                 get => GetInstanceProperty<string>()!;
-            }
-
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/cloud_connector_rules#rules CloudConnectorRules#rules}.</summary>
-            /// <remarks>
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.CloudConnectorRules.ICloudConnectorRulesRules" />)[]</para>
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.cloudConnectorRules.CloudConnectorRulesRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? Rules
-            {
-                get => GetInstanceProperty<object?>();
             }
 
             /// <remarks>

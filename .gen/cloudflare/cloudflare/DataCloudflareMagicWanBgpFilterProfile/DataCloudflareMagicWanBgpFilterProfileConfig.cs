@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareMagicWanBgpFilterProfile
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/magic_wan_bgp_filter_profile#account_id DataCloudflareMagicWanBgpFilterProfile#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/magic_wan_bgp_filter_profile#account_id DataCloudflareMagicWanBgpFilterProfile#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -22,7 +22,7 @@ namespace cloudflare.DataCloudflareMagicWanBgpFilterProfile
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/magic_wan_bgp_filter_profile#profile_id DataCloudflareMagicWanBgpFilterProfile#profile_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/magic_wan_bgp_filter_profile#profile_id DataCloudflareMagicWanBgpFilterProfile#profile_id}
         /// </remarks>
         [JsiiProperty(name: "profileId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProfileId

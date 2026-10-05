@@ -11,7 +11,7 @@ namespace cloudflare.ZoneTracingRules
     {
         /// <summary>The ratio of requests sampled for tracing, from 0 to 1.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/zone_tracing_rules#sampling_ratio ZoneTracingRules#sampling_ratio}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zone_tracing_rules#sampling_ratio ZoneTracingRules#sampling_ratio}
         /// </remarks>
         [JsiiProperty(name: "samplingRatio", typeJson: "{\"primitive\":\"number\"}")]
         public double SamplingRatio

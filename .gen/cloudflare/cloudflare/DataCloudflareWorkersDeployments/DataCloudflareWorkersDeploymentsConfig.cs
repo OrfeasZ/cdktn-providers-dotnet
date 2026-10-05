@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflareWorkersDeployments
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/workers_deployments#account_id DataCloudflareWorkersDeployments#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/workers_deployments#account_id DataCloudflareWorkersDeployments#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -20,9 +20,9 @@ namespace cloudflare.DataCloudflareWorkersDeployments
             set;
         }
 
-        /// <summary>Name of the script, used in URLs and route configuration.</summary>
+        /// <summary>Name of the script.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/workers_deployments#script_name DataCloudflareWorkersDeployments#script_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/workers_deployments#script_name DataCloudflareWorkersDeployments#script_name}
         /// </remarks>
         [JsiiProperty(name: "scriptName", typeJson: "{\"primitive\":\"string\"}")]
         public string ScriptName
@@ -33,7 +33,7 @@ namespace cloudflare.DataCloudflareWorkersDeployments
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/workers_deployments#max_items DataCloudflareWorkersDeployments#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/workers_deployments#max_items DataCloudflareWorkersDeployments#max_items}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace cloudflare.DataCloudflareWorkersDeployments
 
         /// <summary>Start of the deployment creation time range, inclusive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/workers_deployments#since DataCloudflareWorkersDeployments#since}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/workers_deployments#since DataCloudflareWorkersDeployments#since}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "since", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace cloudflare.DataCloudflareWorkersDeployments
 
         /// <summary>End of the deployment creation time range, inclusive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/workers_deployments#until DataCloudflareWorkersDeployments#until}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/workers_deployments#until DataCloudflareWorkersDeployments#until}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "until", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

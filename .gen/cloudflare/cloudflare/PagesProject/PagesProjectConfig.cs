@@ -11,7 +11,7 @@ namespace cloudflare.PagesProject
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/pages_project#account_id PagesProject#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/pages_project#account_id PagesProject#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -20,9 +20,11 @@ namespace cloudflare.PagesProject
             set;
         }
 
-        /// <summary>Name of the project.</summary>
+        /// <summary>Name for the Pages project.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/pages_project#name PagesProject#name}
+        /// Must begin with a lowercase letter or digit and contain only lowercase letters, digits, and hyphens.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/pages_project#name PagesProject#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -33,7 +35,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>Production branch of the project. Used to identify production deployments.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/pages_project#production_branch PagesProject#production_branch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/pages_project#production_branch PagesProject#production_branch}
         /// </remarks>
         [JsiiProperty(name: "productionBranch", typeJson: "{\"primitive\":\"string\"}")]
         public string ProductionBranch
@@ -44,7 +46,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>Configs for the project build process.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/pages_project#build_config PagesProject#build_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/pages_project#build_config PagesProject#build_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "buildConfig", typeJson: "{\"fqn\":\"cloudflare.pagesProject.PagesProjectBuildConfig\"}", isOptional: true)]
@@ -56,7 +58,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>Configs for deployments in a project.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/pages_project#deployment_configs PagesProject#deployment_configs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/pages_project#deployment_configs PagesProject#deployment_configs}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deploymentConfigs", typeJson: "{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigs\"}", isOptional: true)]
@@ -68,7 +70,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>Configs for the project source control.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/pages_project#source PagesProject#source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/pages_project#source PagesProject#source}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "source", typeJson: "{\"fqn\":\"cloudflare.pagesProject.PagesProjectSource\"}", isOptional: true)]

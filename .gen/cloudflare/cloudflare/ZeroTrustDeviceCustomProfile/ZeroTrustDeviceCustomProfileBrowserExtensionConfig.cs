@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustDeviceCustomProfile
     {
         /// <summary>Whether the user may disable the browser extension proxy. Available values: "unlocked", "locked".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/zero_trust_device_custom_profile#proxy_control ZeroTrustDeviceCustomProfile#proxy_control}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zero_trust_device_custom_profile#proxy_control ZeroTrustDeviceCustomProfile#proxy_control}
         /// </remarks>
         [JsiiProperty(name: "proxyControl", typeJson: "{\"primitive\":\"string\"}")]
         public string ProxyControl
@@ -24,7 +24,7 @@ namespace cloudflare.ZeroTrustDeviceCustomProfile
 
         /// <summary>Whether the browser extension proxy is active.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/zero_trust_device_custom_profile#proxy_enabled ZeroTrustDeviceCustomProfile#proxy_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zero_trust_device_custom_profile#proxy_enabled ZeroTrustDeviceCustomProfile#proxy_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "proxyEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]

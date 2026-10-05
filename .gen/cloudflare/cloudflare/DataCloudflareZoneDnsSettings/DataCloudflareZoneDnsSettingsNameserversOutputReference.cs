@@ -33,6 +33,12 @@ namespace cloudflare.DataCloudflareZoneDnsSettings
         {
         }
 
+        [JsiiProperty(name: "nameserverSetId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NameserverSetId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "nsSet", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double NsSet
         {

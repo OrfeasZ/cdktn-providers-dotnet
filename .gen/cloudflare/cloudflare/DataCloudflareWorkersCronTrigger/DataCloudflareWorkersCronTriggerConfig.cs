@@ -9,9 +9,9 @@ namespace cloudflare.DataCloudflareWorkersCronTrigger
     [JsiiByValue(fqn: "cloudflare.dataCloudflareWorkersCronTrigger.DataCloudflareWorkersCronTriggerConfig")]
     public class DataCloudflareWorkersCronTriggerConfig : cloudflare.DataCloudflareWorkersCronTrigger.IDataCloudflareWorkersCronTriggerConfig
     {
-        /// <summary>Name of the script, used in URLs and route configuration.</summary>
+        /// <summary>Name of the script.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/workers_cron_trigger#script_name DataCloudflareWorkersCronTrigger#script_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/workers_cron_trigger#script_name DataCloudflareWorkersCronTrigger#script_name}
         /// </remarks>
         [JsiiProperty(name: "scriptName", typeJson: "{\"primitive\":\"string\"}")]
         public string ScriptName
@@ -22,7 +22,7 @@ namespace cloudflare.DataCloudflareWorkersCronTrigger
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/workers_cron_trigger#account_id DataCloudflareWorkersCronTrigger#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/workers_cron_trigger#account_id DataCloudflareWorkersCronTrigger#account_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

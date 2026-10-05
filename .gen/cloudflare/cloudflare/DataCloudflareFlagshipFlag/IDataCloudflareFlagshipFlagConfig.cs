@@ -7,9 +7,9 @@ namespace cloudflare.DataCloudflareFlagshipFlag
     [JsiiInterface(nativeType: typeof(IDataCloudflareFlagshipFlagConfig), fullyQualifiedName: "cloudflare.dataCloudflareFlagshipFlag.DataCloudflareFlagshipFlagConfig")]
     public interface IDataCloudflareFlagshipFlagConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Cloudflare account ID.</summary>
+        /// <summary>Cloudflare account ID that owns the Flagship app.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flag#account_id DataCloudflareFlagshipFlag#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_flag#account_id DataCloudflareFlagshipFlag#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -17,9 +17,9 @@ namespace cloudflare.DataCloudflareFlagshipFlag
             get;
         }
 
-        /// <summary>App identifier.</summary>
+        /// <summary>Flagship app ID returned when the app was created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flag#app_id DataCloudflareFlagshipFlag#app_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_flag#app_id DataCloudflareFlagshipFlag#app_id}
         /// </remarks>
         [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
         string AppId
@@ -27,7 +27,7 @@ namespace cloudflare.DataCloudflareFlagshipFlag
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flag#filter DataCloudflareFlagshipFlag#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_flag#filter DataCloudflareFlagshipFlag#filter}.</summary>
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareFlagshipFlag.DataCloudflareFlagshipFlagFilter\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.DataCloudflareFlagshipFlag.IDataCloudflareFlagshipFlagFilter? Filter
@@ -38,9 +38,9 @@ namespace cloudflare.DataCloudflareFlagshipFlag
             }
         }
 
-        /// <summary>Flag key (slug).</summary>
+        /// <summary>Case-sensitive key identifying the flag within the app.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flag#flag_key DataCloudflareFlagshipFlag#flag_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_flag#flag_key DataCloudflareFlagshipFlag#flag_key}
         /// </remarks>
         [JsiiProperty(name: "flagKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,9 +59,9 @@ namespace cloudflare.DataCloudflareFlagshipFlag
             {
             }
 
-            /// <summary>Cloudflare account ID.</summary>
+            /// <summary>Cloudflare account ID that owns the Flagship app.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flag#account_id DataCloudflareFlagshipFlag#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_flag#account_id DataCloudflareFlagshipFlag#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -69,9 +69,9 @@ namespace cloudflare.DataCloudflareFlagshipFlag
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>App identifier.</summary>
+            /// <summary>Flagship app ID returned when the app was created.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flag#app_id DataCloudflareFlagshipFlag#app_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_flag#app_id DataCloudflareFlagshipFlag#app_id}
             /// </remarks>
             [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
             public string AppId
@@ -79,7 +79,7 @@ namespace cloudflare.DataCloudflareFlagshipFlag
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flag#filter DataCloudflareFlagshipFlag#filter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_flag#filter DataCloudflareFlagshipFlag#filter}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareFlagshipFlag.DataCloudflareFlagshipFlagFilter\"}", isOptional: true)]
             public cloudflare.DataCloudflareFlagshipFlag.IDataCloudflareFlagshipFlagFilter? Filter
@@ -87,9 +87,9 @@ namespace cloudflare.DataCloudflareFlagshipFlag
                 get => GetInstanceProperty<cloudflare.DataCloudflareFlagshipFlag.IDataCloudflareFlagshipFlagFilter?>();
             }
 
-            /// <summary>Flag key (slug).</summary>
+            /// <summary>Case-sensitive key identifying the flag within the app.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flag#flag_key DataCloudflareFlagshipFlag#flag_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_flag#flag_key DataCloudflareFlagshipFlag#flag_key}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "flagKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

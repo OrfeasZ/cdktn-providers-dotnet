@@ -5,7 +5,7 @@ namespace cloudflare.ZoneTracing
     /// <remarks>
     /// <h1><c>cloudflare_zone_tracing</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/zone_tracing"><c>cloudflare_zone_tracing</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zone_tracing"><c>cloudflare_zone_tracing</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

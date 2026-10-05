@@ -11,7 +11,7 @@ namespace cloudflare.ZoneTracing
     {
         /// <summary>Specify the zone ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/zone_tracing#zone_id ZoneTracing#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zone_tracing#zone_id ZoneTracing#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         public string ZoneId
@@ -22,7 +22,7 @@ namespace cloudflare.ZoneTracing
 
         /// <summary>Up to 100 OpenTelemetry destination identifiers that receive traces.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/zone_tracing#destinations ZoneTracing#destinations}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zone_tracing#destinations ZoneTracing#destinations}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "destinations", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace cloudflare.ZoneTracing
 
         /// <summary>Whether Cloudflare Traces is enabled for the zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/zone_tracing#enabled ZoneTracing#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zone_tracing#enabled ZoneTracing#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -71,7 +71,7 @@ namespace cloudflare.ZoneTracing
 
         /// <summary>Whether trace context is sent externally or across a zone boundary.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/zone_tracing#forward_context ZoneTracing#forward_context}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zone_tracing#forward_context ZoneTracing#forward_context}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -106,7 +106,7 @@ namespace cloudflare.ZoneTracing
 
         /// <summary>Whether traces are persisted in Cloudflare.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/zone_tracing#persist ZoneTracing#persist}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zone_tracing#persist ZoneTracing#persist}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -139,7 +139,7 @@ namespace cloudflare.ZoneTracing
 
         /// <summary>When inbound trace context may be continued. Authenticated propagation is not supported yet. Available values: "accept", "authenticated", "reject".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/zone_tracing#propagation_policy ZoneTracing#propagation_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zone_tracing#propagation_policy ZoneTracing#propagation_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "propagationPolicy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -151,7 +151,7 @@ namespace cloudflare.ZoneTracing
 
         /// <summary>The ratio of requests sampled for tracing, from 0 to 1.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/zone_tracing#sampling_ratio ZoneTracing#sampling_ratio}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zone_tracing#sampling_ratio ZoneTracing#sampling_ratio}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "samplingRatio", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

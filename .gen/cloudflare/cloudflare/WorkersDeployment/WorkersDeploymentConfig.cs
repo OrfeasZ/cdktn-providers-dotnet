@@ -11,7 +11,7 @@ namespace cloudflare.WorkersDeployment
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_deployment#account_id WorkersDeployment#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/workers_deployment#account_id WorkersDeployment#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -20,9 +20,9 @@ namespace cloudflare.WorkersDeployment
             set;
         }
 
-        /// <summary>Name of the script, used in URLs and route configuration.</summary>
+        /// <summary>Name of the script.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_deployment#script_name WorkersDeployment#script_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/workers_deployment#script_name WorkersDeployment#script_name}
         /// </remarks>
         [JsiiProperty(name: "scriptName", typeJson: "{\"primitive\":\"string\"}")]
         public string ScriptName
@@ -33,7 +33,7 @@ namespace cloudflare.WorkersDeployment
 
         /// <summary>Available values: "percentage".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_deployment#strategy WorkersDeployment#strategy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/workers_deployment#strategy WorkersDeployment#strategy}
         /// </remarks>
         [JsiiProperty(name: "strategy", typeJson: "{\"primitive\":\"string\"}")]
         public string Strategy
@@ -50,7 +50,7 @@ namespace cloudflare.WorkersDeployment
         ///
         /// <strong>Versions</strong>: .json`.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_deployment#versions WorkersDeployment#versions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/workers_deployment#versions WorkersDeployment#versions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkersDeployment.IWorkersDeploymentVersions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "versions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.workersDeployment.WorkersDeploymentVersions\"},\"kind\":\"array\"}}]}}")]
@@ -80,7 +80,7 @@ namespace cloudflare.WorkersDeployment
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_deployment#annotations WorkersDeployment#annotations}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/workers_deployment#annotations WorkersDeployment#annotations}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "annotations", typeJson: "{\"fqn\":\"cloudflare.workersDeployment.WorkersDeploymentAnnotations\"}", isOptional: true)]
         public cloudflare.WorkersDeployment.IWorkersDeploymentAnnotations? Annotations
@@ -93,7 +93,7 @@ namespace cloudflare.WorkersDeployment
 
         /// <summary>If set to true, the deployment will be created even if normally blocked by something such rolling back to an older version when a secret has changed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/workers_deployment#force WorkersDeployment#force}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/workers_deployment#force WorkersDeployment#force}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

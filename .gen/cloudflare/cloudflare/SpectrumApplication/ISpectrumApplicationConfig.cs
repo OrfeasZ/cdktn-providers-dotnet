@@ -9,7 +9,7 @@ namespace cloudflare.SpectrumApplication
     {
         /// <summary>The name and type of DNS record for the Spectrum application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#dns SpectrumApplication#dns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#dns SpectrumApplication#dns}
         /// </remarks>
         [JsiiProperty(name: "dns", typeJson: "{\"fqn\":\"cloudflare.spectrumApplication.SpectrumApplicationDns\"}")]
         cloudflare.SpectrumApplication.ISpectrumApplicationDns Dns
@@ -21,7 +21,7 @@ namespace cloudflare.SpectrumApplication
         /// <remarks>
         /// May specify a single port, for example <c>"tcp/1000"</c>, or a range of ports, for example <c>"tcp/1000-2000"</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#protocol SpectrumApplication#protocol}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#protocol SpectrumApplication#protocol}
         /// </remarks>
         [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
         string Protocol
@@ -31,7 +31,7 @@ namespace cloudflare.SpectrumApplication
 
         /// <summary>Zone identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#zone_id SpectrumApplication#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#zone_id SpectrumApplication#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
@@ -41,7 +41,7 @@ namespace cloudflare.SpectrumApplication
 
         /// <summary>Enables Argo Smart Routing for this application. Notes: Only available for TCP or UDP applications with traffic_type set to "direct".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#argo_smart_routing SpectrumApplication#argo_smart_routing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#argo_smart_routing SpectrumApplication#argo_smart_routing}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "argoSmartRouting", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace cloudflare.SpectrumApplication
 
         /// <summary>The anycast edge IP configuration for the hostname of this application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#edge_ips SpectrumApplication#edge_ips}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#edge_ips SpectrumApplication#edge_ips}
         /// </remarks>
         [JsiiProperty(name: "edgeIps", typeJson: "{\"fqn\":\"cloudflare.spectrumApplication.SpectrumApplicationEdgeIps\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -70,7 +70,7 @@ namespace cloudflare.SpectrumApplication
 
         /// <summary>Enables IP Access Rules for this application. Notes: Only available for TCP applications.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#ip_firewall SpectrumApplication#ip_firewall}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#ip_firewall SpectrumApplication#ip_firewall}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "ipFirewall", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -85,7 +85,7 @@ namespace cloudflare.SpectrumApplication
 
         /// <summary>List of origin IP addresses. Array may contain multiple IP addresses for load balancing.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#origin_direct SpectrumApplication#origin_direct}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#origin_direct SpectrumApplication#origin_direct}
         /// </remarks>
         [JsiiProperty(name: "originDirect", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -99,7 +99,7 @@ namespace cloudflare.SpectrumApplication
 
         /// <summary>The name and type of DNS record for the Spectrum application.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#origin_dns SpectrumApplication#origin_dns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#origin_dns SpectrumApplication#origin_dns}
         /// </remarks>
         [JsiiProperty(name: "originDns", typeJson: "{\"fqn\":\"cloudflare.spectrumApplication.SpectrumApplicationOriginDns\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -116,7 +116,7 @@ namespace cloudflare.SpectrumApplication
         /// Only specified in conjunction with origin_dns. May use an integer to specify a single origin port, for example <c>1000</c>, or a string to specify a range of origin ports, for example <c>"1000-2000"</c>.
         /// Notes: If specifying a port range, the number of ports in the range must match the number of ports specified in the "protocol" field.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#origin_port SpectrumApplication#origin_port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#origin_port SpectrumApplication#origin_port}
         /// </remarks>
         [JsiiProperty(name: "originPort", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -132,7 +132,7 @@ namespace cloudflare.SpectrumApplication
         /// <remarks>
         /// Only supported for TCP applications with traffic_type "worker"; mutually exclusive with origin_direct, origin_dns, origin_port, proxy_protocol, and argo_smart_routing. tls may only be "off" or "flexible".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#origin_worker_id SpectrumApplication#origin_worker_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#origin_worker_id SpectrumApplication#origin_worker_id}
         /// </remarks>
         [JsiiProperty(name: "originWorkerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -149,7 +149,7 @@ namespace cloudflare.SpectrumApplication
         /// Refer to <a href="https://developers.cloudflare.com/spectrum/getting-started/proxy-protocol/">Enable Proxy protocol</a> for implementation details on PROXY Protocol V1, PROXY Protocol V2, and Simple Proxy Protocol.
         /// Available values: "off", "v1", "v2", "simple".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#proxy_protocol SpectrumApplication#proxy_protocol}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#proxy_protocol SpectrumApplication#proxy_protocol}
         /// </remarks>
         [JsiiProperty(name: "proxyProtocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -163,7 +163,7 @@ namespace cloudflare.SpectrumApplication
 
         /// <summary>The type of TLS termination associated with the application. Available values: "off", "flexible", "full", "strict".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#tls SpectrumApplication#tls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#tls SpectrumApplication#tls}
         /// </remarks>
         [JsiiProperty(name: "tls", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -180,7 +180,7 @@ namespace cloudflare.SpectrumApplication
         /// When set to "direct", Spectrum will send traffic directly to your origin, and the application's type is derived from the <c>protocol</c>. When set to "http" or "https", Spectrum will apply Cloudflare's HTTP/HTTPS features as it sends traffic to your origin, and the application type matches this property exactly. When set to "worker", traffic is sent to the Worker specified by <c>origin_worker_id</c>.
         /// Available values: "direct", "http", "https", "worker".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#traffic_type SpectrumApplication#traffic_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#traffic_type SpectrumApplication#traffic_type}
         /// </remarks>
         [JsiiProperty(name: "trafficType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -194,7 +194,7 @@ namespace cloudflare.SpectrumApplication
 
         /// <summary>Optional UUID of a virtual network for routing origin traffic through tunnel virtual networks.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#virtual_network_id SpectrumApplication#virtual_network_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#virtual_network_id SpectrumApplication#virtual_network_id}
         /// </remarks>
         [JsiiProperty(name: "virtualNetworkId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -215,7 +215,7 @@ namespace cloudflare.SpectrumApplication
 
             /// <summary>The name and type of DNS record for the Spectrum application.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#dns SpectrumApplication#dns}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#dns SpectrumApplication#dns}
             /// </remarks>
             [JsiiProperty(name: "dns", typeJson: "{\"fqn\":\"cloudflare.spectrumApplication.SpectrumApplicationDns\"}")]
             public cloudflare.SpectrumApplication.ISpectrumApplicationDns Dns
@@ -227,7 +227,7 @@ namespace cloudflare.SpectrumApplication
             /// <remarks>
             /// May specify a single port, for example <c>"tcp/1000"</c>, or a range of ports, for example <c>"tcp/1000-2000"</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#protocol SpectrumApplication#protocol}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#protocol SpectrumApplication#protocol}
             /// </remarks>
             [JsiiProperty(name: "protocol", typeJson: "{\"primitive\":\"string\"}")]
             public string Protocol
@@ -237,7 +237,7 @@ namespace cloudflare.SpectrumApplication
 
             /// <summary>Zone identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#zone_id SpectrumApplication#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#zone_id SpectrumApplication#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId
@@ -247,7 +247,7 @@ namespace cloudflare.SpectrumApplication
 
             /// <summary>Enables Argo Smart Routing for this application. Notes: Only available for TCP or UDP applications with traffic_type set to "direct".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#argo_smart_routing SpectrumApplication#argo_smart_routing}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#argo_smart_routing SpectrumApplication#argo_smart_routing}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -259,7 +259,7 @@ namespace cloudflare.SpectrumApplication
 
             /// <summary>The anycast edge IP configuration for the hostname of this application.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#edge_ips SpectrumApplication#edge_ips}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#edge_ips SpectrumApplication#edge_ips}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "edgeIps", typeJson: "{\"fqn\":\"cloudflare.spectrumApplication.SpectrumApplicationEdgeIps\"}", isOptional: true)]
@@ -270,7 +270,7 @@ namespace cloudflare.SpectrumApplication
 
             /// <summary>Enables IP Access Rules for this application. Notes: Only available for TCP applications.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#ip_firewall SpectrumApplication#ip_firewall}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#ip_firewall SpectrumApplication#ip_firewall}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -282,7 +282,7 @@ namespace cloudflare.SpectrumApplication
 
             /// <summary>List of origin IP addresses. Array may contain multiple IP addresses for load balancing.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#origin_direct SpectrumApplication#origin_direct}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#origin_direct SpectrumApplication#origin_direct}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "originDirect", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -293,7 +293,7 @@ namespace cloudflare.SpectrumApplication
 
             /// <summary>The name and type of DNS record for the Spectrum application.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#origin_dns SpectrumApplication#origin_dns}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#origin_dns SpectrumApplication#origin_dns}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "originDns", typeJson: "{\"fqn\":\"cloudflare.spectrumApplication.SpectrumApplicationOriginDns\"}", isOptional: true)]
@@ -307,7 +307,7 @@ namespace cloudflare.SpectrumApplication
             /// Only specified in conjunction with origin_dns. May use an integer to specify a single origin port, for example <c>1000</c>, or a string to specify a range of origin ports, for example <c>"1000-2000"</c>.
             /// Notes: If specifying a port range, the number of ports in the range must match the number of ports specified in the "protocol" field.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#origin_port SpectrumApplication#origin_port}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#origin_port SpectrumApplication#origin_port}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "originPort", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -320,7 +320,7 @@ namespace cloudflare.SpectrumApplication
             /// <remarks>
             /// Only supported for TCP applications with traffic_type "worker"; mutually exclusive with origin_direct, origin_dns, origin_port, proxy_protocol, and argo_smart_routing. tls may only be "off" or "flexible".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#origin_worker_id SpectrumApplication#origin_worker_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#origin_worker_id SpectrumApplication#origin_worker_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "originWorkerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -334,7 +334,7 @@ namespace cloudflare.SpectrumApplication
             /// Refer to <a href="https://developers.cloudflare.com/spectrum/getting-started/proxy-protocol/">Enable Proxy protocol</a> for implementation details on PROXY Protocol V1, PROXY Protocol V2, and Simple Proxy Protocol.
             /// Available values: "off", "v1", "v2", "simple".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#proxy_protocol SpectrumApplication#proxy_protocol}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#proxy_protocol SpectrumApplication#proxy_protocol}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "proxyProtocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -345,7 +345,7 @@ namespace cloudflare.SpectrumApplication
 
             /// <summary>The type of TLS termination associated with the application. Available values: "off", "flexible", "full", "strict".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#tls SpectrumApplication#tls}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#tls SpectrumApplication#tls}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tls", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -359,7 +359,7 @@ namespace cloudflare.SpectrumApplication
             /// When set to "direct", Spectrum will send traffic directly to your origin, and the application's type is derived from the <c>protocol</c>. When set to "http" or "https", Spectrum will apply Cloudflare's HTTP/HTTPS features as it sends traffic to your origin, and the application type matches this property exactly. When set to "worker", traffic is sent to the Worker specified by <c>origin_worker_id</c>.
             /// Available values: "direct", "http", "https", "worker".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#traffic_type SpectrumApplication#traffic_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#traffic_type SpectrumApplication#traffic_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "trafficType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -370,7 +370,7 @@ namespace cloudflare.SpectrumApplication
 
             /// <summary>Optional UUID of a virtual network for routing origin traffic through tunnel virtual networks.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/spectrum_application#virtual_network_id SpectrumApplication#virtual_network_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/spectrum_application#virtual_network_id SpectrumApplication#virtual_network_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "virtualNetworkId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

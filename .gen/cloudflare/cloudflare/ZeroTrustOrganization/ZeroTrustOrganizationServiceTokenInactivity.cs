@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustOrganization
     {
         /// <summary>The action applied to an inactive service token. Available values: "disable", "delete".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/zero_trust_organization#action ZeroTrustOrganization#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zero_trust_organization#action ZeroTrustOrganization#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         public string Action
@@ -24,7 +24,7 @@ namespace cloudflare.ZeroTrustOrganization
 
         /// <summary>Whether automatic enforcement for inactive service tokens is enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/zero_trust_organization#enabled ZeroTrustOrganization#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zero_trust_organization#enabled ZeroTrustOrganization#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -56,7 +56,7 @@ namespace cloudflare.ZeroTrustOrganization
 
         /// <summary>The number of days a service token must be inactive before the configured action is applied.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/zero_trust_organization#inactivity_threshold_days ZeroTrustOrganization#inactivity_threshold_days}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zero_trust_organization#inactivity_threshold_days ZeroTrustOrganization#inactivity_threshold_days}
         /// </remarks>
         [JsiiProperty(name: "inactivityThresholdDays", typeJson: "{\"primitive\":\"number\"}")]
         public double InactivityThresholdDays

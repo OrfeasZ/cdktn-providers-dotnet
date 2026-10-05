@@ -35,10 +35,22 @@ namespace cloudflare.DataCloudflareApiTokenPermissionGroupsList
         {
         }
 
+        [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Category
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "isSelectable", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsSelectable
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]

@@ -33,6 +33,12 @@ namespace cloudflare.DataCloudflareAiSearchInstance
         {
         }
 
+        [JsiiMethod(name: "resetHostname")]
+        public virtual void ResetHostname()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetNamespace")]
         public virtual void ResetNamespace()
         {
@@ -55,6 +61,13 @@ namespace cloudflare.DataCloudflareAiSearchInstance
         public virtual void ResetSearch()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "hostnameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? HostnameInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -83,6 +96,13 @@ namespace cloudflare.DataCloudflareAiSearchInstance
         public virtual string? SearchInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Hostname
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]

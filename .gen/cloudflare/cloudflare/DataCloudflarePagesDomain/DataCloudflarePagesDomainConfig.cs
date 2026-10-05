@@ -11,7 +11,7 @@ namespace cloudflare.DataCloudflarePagesDomain
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/pages_domain#account_id DataCloudflarePagesDomain#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/pages_domain#account_id DataCloudflarePagesDomain#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -20,9 +20,9 @@ namespace cloudflare.DataCloudflarePagesDomain
             set;
         }
 
-        /// <summary>The domain name.</summary>
+        /// <summary>Fully qualified domain name for the Pages project, such as `example.com`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/pages_domain#domain_name DataCloudflarePagesDomain#domain_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/pages_domain#domain_name DataCloudflarePagesDomain#domain_name}
         /// </remarks>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainName
@@ -31,9 +31,11 @@ namespace cloudflare.DataCloudflarePagesDomain
             set;
         }
 
-        /// <summary>Name of the project.</summary>
+        /// <summary>Name of the Pages project.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/pages_domain#project_name DataCloudflarePagesDomain#project_name}
+        /// Must begin with a lowercase letter or digit and contain only lowercase letters, digits, and hyphens.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/pages_domain#project_name DataCloudflarePagesDomain#project_name}
         /// </remarks>
         [JsiiProperty(name: "projectName", typeJson: "{\"primitive\":\"string\"}")]
         public string ProjectName

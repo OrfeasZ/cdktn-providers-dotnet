@@ -33,16 +33,23 @@ namespace cloudflare.ZoneDnsSettings
         {
         }
 
+        [JsiiMethod(name: "resetNameserverSetId")]
+        public virtual void ResetNameserverSetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetNsSet")]
         public virtual void ResetNsSet()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetType")]
-        public virtual void ResetType()
+        [JsiiOptional]
+        [JsiiProperty(name: "nameserverSetIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? NameserverSetIdInput
         {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -57,6 +64,13 @@ namespace cloudflare.ZoneDnsSettings
         public virtual string? TypeInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "nameserverSetId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string NameserverSetId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "nsSet", typeJson: "{\"primitive\":\"number\"}")]

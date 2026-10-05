@@ -11,7 +11,7 @@ namespace cloudflare.MagicTransitSiteWan
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/magic_transit_site_wan#account_id MagicTransitSiteWan#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/magic_transit_site_wan#account_id MagicTransitSiteWan#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -20,7 +20,7 @@ namespace cloudflare.MagicTransitSiteWan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/magic_transit_site_wan#physport MagicTransitSiteWan#physport}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/magic_transit_site_wan#physport MagicTransitSiteWan#physport}.</summary>
         [JsiiProperty(name: "physport", typeJson: "{\"primitive\":\"number\"}")]
         public double Physport
         {
@@ -30,7 +30,7 @@ namespace cloudflare.MagicTransitSiteWan
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/magic_transit_site_wan#site_id MagicTransitSiteWan#site_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/magic_transit_site_wan#site_id MagicTransitSiteWan#site_id}
         /// </remarks>
         [JsiiProperty(name: "siteId", typeJson: "{\"primitive\":\"string\"}")]
         public string SiteId
@@ -39,7 +39,56 @@ namespace cloudflare.MagicTransitSiteWan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/magic_transit_site_wan#name MagicTransitSiteWan#name}.</summary>
+        /// <summary>Magic WAN health check rate for tunnels created on this link.</summary>
+        /// <remarks>
+        /// The default value is <c>mid</c>.
+        /// Available values: "low", "mid", "high".
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/magic_transit_site_wan#health_check_rate MagicTransitSiteWan#health_check_rate}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "healthCheckRate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? HealthCheckRate
+        {
+            get;
+            set;
+        }
+
+        private object? _loadBalanceInnerFlows;
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/magic_transit_site_wan#load_balance_inner_flows MagicTransitSiteWan#load_balance_inner_flows}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "loadBalanceInnerFlows", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public object? LoadBalanceInnerFlows
+        {
+            get => _loadBalanceInnerFlows;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _loadBalanceInnerFlows = value;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/magic_transit_site_wan#name MagicTransitSiteWan#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -48,7 +97,7 @@ namespace cloudflare.MagicTransitSiteWan
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/magic_transit_site_wan#priority MagicTransitSiteWan#priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/magic_transit_site_wan#priority MagicTransitSiteWan#priority}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Priority
@@ -59,7 +108,7 @@ namespace cloudflare.MagicTransitSiteWan
 
         /// <summary>(optional) if omitted, use DHCP. Submit secondary_address when site is in high availability mode.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/magic_transit_site_wan#static_addressing MagicTransitSiteWan#static_addressing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/magic_transit_site_wan#static_addressing MagicTransitSiteWan#static_addressing}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "staticAddressing", typeJson: "{\"fqn\":\"cloudflare.magicTransitSiteWan.MagicTransitSiteWanStaticAddressing\"}", isOptional: true)]
@@ -71,7 +120,7 @@ namespace cloudflare.MagicTransitSiteWan
 
         /// <summary>VLAN ID. Use zero for untagged.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/magic_transit_site_wan#vlan_tag MagicTransitSiteWan#vlan_tag}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/magic_transit_site_wan#vlan_tag MagicTransitSiteWan#vlan_tag}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vlanTag", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

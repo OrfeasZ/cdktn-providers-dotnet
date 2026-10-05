@@ -9,7 +9,7 @@ namespace cloudflare.Worker
     {
         /// <summary>Cache options used when creating new Previews.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/worker#cache_options Worker#cache_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/worker#cache_options Worker#cache_options}
         /// </remarks>
         [JsiiProperty(name: "cacheOptions", typeJson: "{\"fqn\":\"cloudflare.worker.WorkerPreviewsBaseConfigCacheOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace cloudflare.Worker
 
         /// <summary>Bindings used when creating new Previews, keyed by binding name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/worker#env Worker#env}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/worker#env Worker#env}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.Worker.IWorkerPreviewsBaseConfigEnv" />&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "env", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.worker.WorkerPreviewsBaseConfigEnv\"},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -38,7 +38,7 @@ namespace cloudflare.Worker
 
         /// <summary>Resource limits enforced at runtime for newly created Previews.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/worker#limits Worker#limits}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/worker#limits Worker#limits}
         /// </remarks>
         [JsiiProperty(name: "limits", typeJson: "{\"fqn\":\"cloudflare.worker.WorkerPreviewsBaseConfigLimits\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,7 +52,7 @@ namespace cloudflare.Worker
 
         /// <summary>Whether logpush is enabled when creating new Previews.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/worker#logpush Worker#logpush}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/worker#logpush Worker#logpush}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "logpush", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace cloudflare.Worker
 
         /// <summary>Observability settings used when creating new Previews.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/worker#observability Worker#observability}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/worker#observability Worker#observability}
         /// </remarks>
         [JsiiProperty(name: "observability", typeJson: "{\"fqn\":\"cloudflare.worker.WorkerPreviewsBaseConfigObservability\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -81,7 +81,7 @@ namespace cloudflare.Worker
 
         /// <summary>Placement configuration used when creating new Previews.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/worker#placement Worker#placement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/worker#placement Worker#placement}
         /// </remarks>
         [JsiiProperty(name: "placement", typeJson: "{\"fqn\":\"cloudflare.worker.WorkerPreviewsBaseConfigPlacement\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -95,7 +95,7 @@ namespace cloudflare.Worker
 
         /// <summary>Other Workers that should consume logs from newly created Previews.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/worker#tail_consumers Worker#tail_consumers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/worker#tail_consumers Worker#tail_consumers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Worker.IWorkerPreviewsBaseConfigTailConsumers" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "tailConsumers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.worker.WorkerPreviewsBaseConfigTailConsumers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -117,7 +117,7 @@ namespace cloudflare.Worker
 
             /// <summary>Cache options used when creating new Previews.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/worker#cache_options Worker#cache_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/worker#cache_options Worker#cache_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cacheOptions", typeJson: "{\"fqn\":\"cloudflare.worker.WorkerPreviewsBaseConfigCacheOptions\"}", isOptional: true)]
@@ -128,7 +128,7 @@ namespace cloudflare.Worker
 
             /// <summary>Bindings used when creating new Previews, keyed by binding name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/worker#env Worker#env}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/worker#env Worker#env}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.Worker.IWorkerPreviewsBaseConfigEnv" />&gt;</para>
             /// </remarks>
             [JsiiOptional]
@@ -140,7 +140,7 @@ namespace cloudflare.Worker
 
             /// <summary>Resource limits enforced at runtime for newly created Previews.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/worker#limits Worker#limits}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/worker#limits Worker#limits}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "limits", typeJson: "{\"fqn\":\"cloudflare.worker.WorkerPreviewsBaseConfigLimits\"}", isOptional: true)]
@@ -151,7 +151,7 @@ namespace cloudflare.Worker
 
             /// <summary>Whether logpush is enabled when creating new Previews.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/worker#logpush Worker#logpush}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/worker#logpush Worker#logpush}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -163,7 +163,7 @@ namespace cloudflare.Worker
 
             /// <summary>Observability settings used when creating new Previews.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/worker#observability Worker#observability}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/worker#observability Worker#observability}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "observability", typeJson: "{\"fqn\":\"cloudflare.worker.WorkerPreviewsBaseConfigObservability\"}", isOptional: true)]
@@ -174,7 +174,7 @@ namespace cloudflare.Worker
 
             /// <summary>Placement configuration used when creating new Previews.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/worker#placement Worker#placement}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/worker#placement Worker#placement}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "placement", typeJson: "{\"fqn\":\"cloudflare.worker.WorkerPreviewsBaseConfigPlacement\"}", isOptional: true)]
@@ -185,7 +185,7 @@ namespace cloudflare.Worker
 
             /// <summary>Other Workers that should consume logs from newly created Previews.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/worker#tail_consumers Worker#tail_consumers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/worker#tail_consumers Worker#tail_consumers}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Worker.IWorkerPreviewsBaseConfigTailConsumers" />)[]</para>
             /// </remarks>
             [JsiiOptional]

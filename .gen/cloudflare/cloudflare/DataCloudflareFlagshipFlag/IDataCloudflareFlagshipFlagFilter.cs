@@ -9,11 +9,11 @@ namespace cloudflare.DataCloudflareFlagshipFlag
     {
         /// <summary>Max items to return (1–200).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flag#limit DataCloudflareFlagshipFlag#limit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_flag#limit DataCloudflareFlagshipFlag#limit}
         /// </remarks>
-        [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? Limit
+        double? Limit
         {
             get
             {
@@ -30,13 +30,13 @@ namespace cloudflare.DataCloudflareFlagshipFlag
 
             /// <summary>Max items to return (1–200).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flag#limit DataCloudflareFlagshipFlag#limit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_flag#limit DataCloudflareFlagshipFlag#limit}
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? Limit
+            [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+            public double? Limit
             {
-                get => GetInstanceProperty<string?>();
+                get => GetInstanceProperty<double?>();
             }
         }
     }

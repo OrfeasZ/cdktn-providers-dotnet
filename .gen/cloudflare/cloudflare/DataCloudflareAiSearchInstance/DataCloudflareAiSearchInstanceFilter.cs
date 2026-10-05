@@ -7,9 +7,21 @@ namespace cloudflare.DataCloudflareAiSearchInstance
     [JsiiByValue(fqn: "cloudflare.dataCloudflareAiSearchInstance.DataCloudflareAiSearchInstanceFilter")]
     public class DataCloudflareAiSearchInstanceFilter : cloudflare.DataCloudflareAiSearchInstance.IDataCloudflareAiSearchInstanceFilter
     {
+        /// <summary>Filter by exact Search for Agents hostname (case-insensitive).</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/ai_search_instance#hostname DataCloudflareAiSearchInstance#hostname}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Hostname
+        {
+            get;
+            set;
+        }
+
         /// <summary>Filter by namespace.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/ai_search_instance#namespace DataCloudflareAiSearchInstance#namespace}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/ai_search_instance#namespace DataCloudflareAiSearchInstance#namespace}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +33,7 @@ namespace cloudflare.DataCloudflareAiSearchInstance
 
         /// <summary>Field to order results by. Available values: "created_at".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/ai_search_instance#order_by DataCloudflareAiSearchInstance#order_by}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/ai_search_instance#order_by DataCloudflareAiSearchInstance#order_by}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "orderBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +45,7 @@ namespace cloudflare.DataCloudflareAiSearchInstance
 
         /// <summary>Order direction. Available values: "asc", "desc".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/ai_search_instance#order_by_direction DataCloudflareAiSearchInstance#order_by_direction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/ai_search_instance#order_by_direction DataCloudflareAiSearchInstance#order_by_direction}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "orderByDirection", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +57,7 @@ namespace cloudflare.DataCloudflareAiSearchInstance
 
         /// <summary>Filter instances whose id contains this string (case-insensitive).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/ai_search_instance#search DataCloudflareAiSearchInstance#search}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/ai_search_instance#search DataCloudflareAiSearchInstance#search}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "search", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

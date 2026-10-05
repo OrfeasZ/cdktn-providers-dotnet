@@ -33,14 +33,50 @@ namespace cloudflare.DataCloudflareApiTokens
         {
         }
 
-        [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Key
+        [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Category
         {
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Value
+        [JsiiProperty(name: "deprecated", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Deprecated
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Description
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "editable", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Editable
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "eolAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string EolAt
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Label
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "scopes", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Scopes
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "visibility", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Visibility
         {
             get => GetInstanceProperty<string>()!;
         }

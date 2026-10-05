@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareTurnstileWidget
     {
         /// <summary>Direction to order widgets. Available values: "asc", "desc".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/turnstile_widget#direction DataCloudflareTurnstileWidget#direction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/turnstile_widget#direction DataCloudflareTurnstileWidget#direction}
         /// </remarks>
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,7 +21,7 @@ namespace cloudflare.DataCloudflareTurnstileWidget
             }
         }
 
-        /// <summary>Filter widgets by field using case-insensitive substring matching. Format: `field:value`.</summary>
+        /// <summary>Filter widgets by field. The `name` field uses case-insensitive substring matching; `sitekey` uses exact matching. Format: `field:value`.</summary>
         /// <remarks>
         /// Supported fields:
         ///
@@ -33,7 +33,7 @@ namespace cloudflare.DataCloudflareTurnstileWidget
         /// Returns 400 Bad Request if the field is unsupported or format is invalid.
         /// An empty filter value returns all results.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/turnstile_widget#filter DataCloudflareTurnstileWidget#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/turnstile_widget#filter DataCloudflareTurnstileWidget#filter}
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -47,7 +47,7 @@ namespace cloudflare.DataCloudflareTurnstileWidget
 
         /// <summary>Field to order widgets by. Available values: "id", "sitekey", "name", "created_on", "modified_on".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/turnstile_widget#order DataCloudflareTurnstileWidget#order}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/turnstile_widget#order DataCloudflareTurnstileWidget#order}
         /// </remarks>
         [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,7 +68,7 @@ namespace cloudflare.DataCloudflareTurnstileWidget
 
             /// <summary>Direction to order widgets. Available values: "asc", "desc".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/turnstile_widget#direction DataCloudflareTurnstileWidget#direction}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/turnstile_widget#direction DataCloudflareTurnstileWidget#direction}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -77,7 +77,7 @@ namespace cloudflare.DataCloudflareTurnstileWidget
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Filter widgets by field using case-insensitive substring matching. Format: `field:value`.</summary>
+            /// <summary>Filter widgets by field. The `name` field uses case-insensitive substring matching; `sitekey` uses exact matching. Format: `field:value`.</summary>
             /// <remarks>
             /// Supported fields:
             ///
@@ -89,7 +89,7 @@ namespace cloudflare.DataCloudflareTurnstileWidget
             /// Returns 400 Bad Request if the field is unsupported or format is invalid.
             /// An empty filter value returns all results.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/turnstile_widget#filter DataCloudflareTurnstileWidget#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/turnstile_widget#filter DataCloudflareTurnstileWidget#filter}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "filter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -100,7 +100,7 @@ namespace cloudflare.DataCloudflareTurnstileWidget
 
             /// <summary>Field to order widgets by. Available values: "id", "sitekey", "name", "created_on", "modified_on".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/turnstile_widget#order DataCloudflareTurnstileWidget#order}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/turnstile_widget#order DataCloudflareTurnstileWidget#order}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "order", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

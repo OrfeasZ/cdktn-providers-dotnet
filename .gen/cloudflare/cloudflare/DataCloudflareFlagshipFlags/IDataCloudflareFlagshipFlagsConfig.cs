@@ -7,9 +7,9 @@ namespace cloudflare.DataCloudflareFlagshipFlags
     [JsiiInterface(nativeType: typeof(IDataCloudflareFlagshipFlagsConfig), fullyQualifiedName: "cloudflare.dataCloudflareFlagshipFlags.DataCloudflareFlagshipFlagsConfig")]
     public interface IDataCloudflareFlagshipFlagsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Cloudflare account ID.</summary>
+        /// <summary>Cloudflare account ID that owns the Flagship app.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flags#account_id DataCloudflareFlagshipFlags#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_flags#account_id DataCloudflareFlagshipFlags#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -17,9 +17,9 @@ namespace cloudflare.DataCloudflareFlagshipFlags
             get;
         }
 
-        /// <summary>App identifier.</summary>
+        /// <summary>Flagship app ID returned when the app was created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flags#app_id DataCloudflareFlagshipFlags#app_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_flags#app_id DataCloudflareFlagshipFlags#app_id}
         /// </remarks>
         [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
         string AppId
@@ -29,11 +29,11 @@ namespace cloudflare.DataCloudflareFlagshipFlags
 
         /// <summary>Max items to return (1–200).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flags#limit DataCloudflareFlagshipFlags#limit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_flags#limit DataCloudflareFlagshipFlags#limit}
         /// </remarks>
-        [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? Limit
+        double? Limit
         {
             get
             {
@@ -43,7 +43,7 @@ namespace cloudflare.DataCloudflareFlagshipFlags
 
         /// <summary>Max items to fetch, default: 1000.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flags#max_items DataCloudflareFlagshipFlags#max_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_flags#max_items DataCloudflareFlagshipFlags#max_items}
         /// </remarks>
         [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -62,9 +62,9 @@ namespace cloudflare.DataCloudflareFlagshipFlags
             {
             }
 
-            /// <summary>Cloudflare account ID.</summary>
+            /// <summary>Cloudflare account ID that owns the Flagship app.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flags#account_id DataCloudflareFlagshipFlags#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_flags#account_id DataCloudflareFlagshipFlags#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -72,9 +72,9 @@ namespace cloudflare.DataCloudflareFlagshipFlags
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>App identifier.</summary>
+            /// <summary>Flagship app ID returned when the app was created.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flags#app_id DataCloudflareFlagshipFlags#app_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_flags#app_id DataCloudflareFlagshipFlags#app_id}
             /// </remarks>
             [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
             public string AppId
@@ -84,18 +84,18 @@ namespace cloudflare.DataCloudflareFlagshipFlags
 
             /// <summary>Max items to return (1–200).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flags#limit DataCloudflareFlagshipFlags#limit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_flags#limit DataCloudflareFlagshipFlags#limit}
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? Limit
+            [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+            public double? Limit
             {
-                get => GetInstanceProperty<string?>();
+                get => GetInstanceProperty<double?>();
             }
 
             /// <summary>Max items to fetch, default: 1000.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/data-sources/flagship_flags#max_items DataCloudflareFlagshipFlags#max_items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/data-sources/flagship_flags#max_items DataCloudflareFlagshipFlags#max_items}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxItems", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

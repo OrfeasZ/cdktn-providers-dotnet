@@ -11,7 +11,7 @@ namespace cloudflare.EmailSecurityDomain
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/email_security_domain#account_id EmailSecurityDomain#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/email_security_domain#account_id EmailSecurityDomain#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -20,7 +20,10 @@ namespace cloudflare.EmailSecurityDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/email_security_domain#allowed_delivery_modes EmailSecurityDomain#allowed_delivery_modes}.</summary>
+        /// <summary>Delivery modes to onboard the domain through.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/email_security_domain#allowed_delivery_modes EmailSecurityDomain#allowed_delivery_modes}
+        /// </remarks>
         [JsiiProperty(name: "allowedDeliveryModes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] AllowedDeliveryModes
         {
@@ -28,7 +31,10 @@ namespace cloudflare.EmailSecurityDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/email_security_domain#domain EmailSecurityDomain#domain}.</summary>
+        /// <summary>The email domain to protect.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/email_security_domain#domain EmailSecurityDomain#domain}
+        /// </remarks>
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
         public string Domain
         {
@@ -36,7 +42,10 @@ namespace cloudflare.EmailSecurityDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/email_security_domain#drop_dispositions EmailSecurityDomain#drop_dispositions}.</summary>
+        /// <summary>Dispositions to drop instead of delivering, e.g. `["MALICIOUS", "SPAM"]`.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/email_security_domain#drop_dispositions EmailSecurityDomain#drop_dispositions}
+        /// </remarks>
         [JsiiProperty(name: "dropDispositions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] DropDispositions
         {
@@ -44,7 +53,10 @@ namespace cloudflare.EmailSecurityDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/email_security_domain#ip_restrictions EmailSecurityDomain#ip_restrictions}.</summary>
+        /// <summary>Source IP ranges mail is accepted from. Any other source is rejected.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/email_security_domain#ip_restrictions EmailSecurityDomain#ip_restrictions}
+        /// </remarks>
         [JsiiProperty(name: "ipRestrictions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] IpRestrictions
         {
@@ -52,7 +64,10 @@ namespace cloudflare.EmailSecurityDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/email_security_domain#regions EmailSecurityDomain#regions}.</summary>
+        /// <summary>Regions that process messages for this domain, e.g. `["GLOBAL"]` or `["US"]`.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/email_security_domain#regions EmailSecurityDomain#regions}
+        /// </remarks>
         [JsiiProperty(name: "regions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Regions
         {
@@ -60,9 +75,9 @@ namespace cloudflare.EmailSecurityDomain
             set;
         }
 
-        /// <summary>Available values: "AllItems", "Inbox".</summary>
+        /// <summary>The mailbox folder to scan, for API-scanning domains. Available values: "AllItems", "Inbox".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/email_security_domain#folder EmailSecurityDomain#folder}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/email_security_domain#folder EmailSecurityDomain#folder}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "folder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -72,7 +87,12 @@ namespace cloudflare.EmailSecurityDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/email_security_domain#integration_id EmailSecurityDomain#integration_id}.</summary>
+        /// <summary>Identifier of the CASB integration that authorizes this domain.</summary>
+        /// <remarks>
+        /// The integration also enables API scanning, post-delivery actions, and directory sync.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/email_security_domain#integration_id EmailSecurityDomain#integration_id}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "integrationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? IntegrationId
@@ -81,7 +101,10 @@ namespace cloudflare.EmailSecurityDomain
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/email_security_domain#lookback_hops EmailSecurityDomain#lookback_hops}.</summary>
+        /// <summary>Number of hops to trace back through received headers when reconstructing the original message (1-20).</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/email_security_domain#lookback_hops EmailSecurityDomain#lookback_hops}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lookbackHops", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? LookbackHops
@@ -92,8 +115,9 @@ namespace cloudflare.EmailSecurityDomain
 
         private object? _requireTlsInbound;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/email_security_domain#require_tls_inbound EmailSecurityDomain#require_tls_inbound}.</summary>
+        /// <summary>Require TLS on inbound connections.</summary>
         /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/email_security_domain#require_tls_inbound EmailSecurityDomain#require_tls_inbound}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -126,8 +150,9 @@ namespace cloudflare.EmailSecurityDomain
 
         private object? _requireTlsOutbound;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/email_security_domain#require_tls_outbound EmailSecurityDomain#require_tls_outbound}.</summary>
+        /// <summary>Require TLS on outbound connections.</summary>
         /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/email_security_domain#require_tls_outbound EmailSecurityDomain#require_tls_outbound}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -158,7 +183,10 @@ namespace cloudflare.EmailSecurityDomain
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.26.0/docs/resources/email_security_domain#transport EmailSecurityDomain#transport}.</summary>
+        /// <summary>The mail transport hostname for MX/Inline delivery — the MX record Cloudflare delivers email to (e.g. `mx.example.com`).</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/email_security_domain#transport EmailSecurityDomain#transport}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transport", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Transport
