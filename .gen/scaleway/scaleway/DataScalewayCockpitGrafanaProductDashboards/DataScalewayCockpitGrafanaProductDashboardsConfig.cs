@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayCockpitGrafanaProductDashboards
     {
         /// <summary>The ID of the project to list Grafana product dashboards for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/cockpit_grafana_product_dashboards#project_id DataScalewayCockpitGrafanaProductDashboards#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/cockpit_grafana_product_dashboards#project_id DataScalewayCockpitGrafanaProductDashboards#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace scaleway.DataScalewayCockpitGrafanaProductDashboards
 
         /// <summary>Filter dashboards by tags (e.g. rdb, lb).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/cockpit_grafana_product_dashboards#tags DataScalewayCockpitGrafanaProductDashboards#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/cockpit_grafana_product_dashboards#tags DataScalewayCockpitGrafanaProductDashboards#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

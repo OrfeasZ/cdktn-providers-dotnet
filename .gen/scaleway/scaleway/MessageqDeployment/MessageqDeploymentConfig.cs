@@ -11,7 +11,7 @@ namespace scaleway.MessageqDeployment
     {
         /// <summary>Number of nodes. Can be updated via Upgrade without recreating the deployment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/messageq_deployment#node_count MessageqDeployment#node_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/messageq_deployment#node_count MessageqDeployment#node_count}
         /// </remarks>
         [JsiiProperty(name: "nodeCount", typeJson: "{\"primitive\":\"number\"}")]
         public double NodeCount
@@ -22,7 +22,7 @@ namespace scaleway.MessageqDeployment
 
         /// <summary>Type of node.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/messageq_deployment#node_type MessageqDeployment#node_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/messageq_deployment#node_type MessageqDeployment#node_type}
         /// </remarks>
         [JsiiProperty(name: "nodeType", typeJson: "{\"primitive\":\"string\"}")]
         public string NodeType
@@ -33,7 +33,7 @@ namespace scaleway.MessageqDeployment
 
         /// <summary>MessageQ version to use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/messageq_deployment#version MessageqDeployment#version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/messageq_deployment#version MessageqDeployment#version}
         /// </remarks>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}")]
         public string Version
@@ -44,7 +44,7 @@ namespace scaleway.MessageqDeployment
 
         /// <summary>Name of the MessageQ deployment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/messageq_deployment#name MessageqDeployment#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/messageq_deployment#name MessageqDeployment#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace scaleway.MessageqDeployment
         /// <remarks>
         /// Only one of <c>password</c> or <c>password_wo</c> should be specified. Prefer scaleway_messageq_user for password rotation
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/messageq_deployment#password MessageqDeployment#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/messageq_deployment#password MessageqDeployment#password}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace scaleway.MessageqDeployment
 
         /// <summary>Bootstrap password for the deployment user in [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) mode. Only one of `password` or `password_wo` should be specified. `password_wo` will not be set in the Terraform state. Bootstrap credentials are immutable, so changing `password_wo_version` recreates the deployment: use scaleway_messageq_user to rotate a password in place.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/messageq_deployment#password_wo MessageqDeployment#password_wo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/messageq_deployment#password_wo MessageqDeployment#password_wo}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "passwordWo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace scaleway.MessageqDeployment
 
         /// <summary>The version of the [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) password. To update the `password_wo`, you must also update the `password_wo_version`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/messageq_deployment#password_wo_version MessageqDeployment#password_wo_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/messageq_deployment#password_wo_version MessageqDeployment#password_wo_version}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "passwordWoVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace scaleway.MessageqDeployment
 
         /// <summary>Private network configuration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/messageq_deployment#private_network MessageqDeployment#private_network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/messageq_deployment#private_network MessageqDeployment#private_network}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privateNetwork", typeJson: "{\"fqn\":\"scaleway.messageqDeployment.MessageqDeploymentPrivateNetwork\"}", isOptional: true)]
@@ -106,7 +106,7 @@ namespace scaleway.MessageqDeployment
 
         /// <summary>The project ID the MessageQ deployment belongs to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/messageq_deployment#project_id MessageqDeployment#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/messageq_deployment#project_id MessageqDeployment#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -118,7 +118,7 @@ namespace scaleway.MessageqDeployment
 
         /// <summary>The region the MessageQ deployment is in.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/messageq_deployment#region MessageqDeployment#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/messageq_deployment#region MessageqDeployment#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -130,7 +130,7 @@ namespace scaleway.MessageqDeployment
 
         /// <summary>List of tags to apply.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/messageq_deployment#tags MessageqDeployment#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/messageq_deployment#tags MessageqDeployment#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -142,7 +142,7 @@ namespace scaleway.MessageqDeployment
 
         /// <summary>Bootstrap username for the deployment. Prefer scaleway_messageq_user for additional users.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/messageq_deployment#user_name MessageqDeployment#user_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/messageq_deployment#user_name MessageqDeployment#user_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -154,7 +154,7 @@ namespace scaleway.MessageqDeployment
 
         /// <summary>Volume configuration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/messageq_deployment#volume MessageqDeployment#volume}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/messageq_deployment#volume MessageqDeployment#volume}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "volume", typeJson: "{\"fqn\":\"scaleway.messageqDeployment.MessageqDeploymentVolume\"}", isOptional: true)]

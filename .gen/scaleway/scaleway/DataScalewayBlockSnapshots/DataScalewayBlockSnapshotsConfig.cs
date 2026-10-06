@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayBlockSnapshots
     {
         /// <summary>Filter snapshots by their name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/block_snapshots#name DataScalewayBlockSnapshots#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/block_snapshots#name DataScalewayBlockSnapshots#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace scaleway.DataScalewayBlockSnapshots
 
         /// <summary>Criteria to use when ordering the list of snapshots. Default value: created_at_asc.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/block_snapshots#order_by DataScalewayBlockSnapshots#order_by}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/block_snapshots#order_by DataScalewayBlockSnapshots#order_by}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "orderBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace scaleway.DataScalewayBlockSnapshots
 
         /// <summary>Filter snapshots by organization ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/block_snapshots#organization_id DataScalewayBlockSnapshots#organization_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/block_snapshots#organization_id DataScalewayBlockSnapshots#organization_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace scaleway.DataScalewayBlockSnapshots
 
         /// <summary>Filter snapshots by project ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/block_snapshots#project_id DataScalewayBlockSnapshots#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/block_snapshots#project_id DataScalewayBlockSnapshots#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace scaleway.DataScalewayBlockSnapshots
 
         /// <summary>Filter snapshots by tags. Only snapshots with one or more matching tags will be returned.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/block_snapshots#tags DataScalewayBlockSnapshots#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/block_snapshots#tags DataScalewayBlockSnapshots#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace scaleway.DataScalewayBlockSnapshots
 
         /// <summary>Filter snapshots by the ID of the original volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/block_snapshots#volume_id DataScalewayBlockSnapshots#volume_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/block_snapshots#volume_id DataScalewayBlockSnapshots#volume_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "volumeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace scaleway.DataScalewayBlockSnapshots
 
         /// <summary>The zone in which to list snapshots. Defaults to the zone of the provider.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/block_snapshots#zone DataScalewayBlockSnapshots#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/block_snapshots#zone DataScalewayBlockSnapshots#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

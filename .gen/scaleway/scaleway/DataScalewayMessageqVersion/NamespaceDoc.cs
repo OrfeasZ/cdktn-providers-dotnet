@@ -5,7 +5,7 @@ namespace scaleway.DataScalewayMessageqVersion
     /// <remarks>
     /// <h1><c>data_scaleway_messageq_version</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/messageq_version"><c>data_scaleway_messageq_version</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/messageq_version"><c>data_scaleway_messageq_version</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

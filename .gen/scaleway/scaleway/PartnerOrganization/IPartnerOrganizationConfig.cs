@@ -9,7 +9,7 @@ namespace scaleway.PartnerOrganization
     {
         /// <summary>A custom ID for the customer in your own infrastructure.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/partner_organization#customer_id PartnerOrganization#customer_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/partner_organization#customer_id PartnerOrganization#customer_id}
         /// </remarks>
         [JsiiProperty(name: "customerId", typeJson: "{\"primitive\":\"string\"}")]
         string CustomerId
@@ -19,7 +19,7 @@ namespace scaleway.PartnerOrganization
 
         /// <summary>The email of the new organization owner.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/partner_organization#email PartnerOrganization#email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/partner_organization#email PartnerOrganization#email}
         /// </remarks>
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
         string Email
@@ -29,7 +29,7 @@ namespace scaleway.PartnerOrganization
 
         /// <summary>The name of the organization you want to create. Usually the company name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/partner_organization#organization_name PartnerOrganization#organization_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/partner_organization#organization_name PartnerOrganization#organization_name}
         /// </remarks>
         [JsiiProperty(name: "organizationName", typeJson: "{\"primitive\":\"string\"}")]
         string OrganizationName
@@ -39,7 +39,7 @@ namespace scaleway.PartnerOrganization
 
         /// <summary>The first name of the new organization owner.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/partner_organization#owner_firstname PartnerOrganization#owner_firstname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/partner_organization#owner_firstname PartnerOrganization#owner_firstname}
         /// </remarks>
         [JsiiProperty(name: "ownerFirstname", typeJson: "{\"primitive\":\"string\"}")]
         string OwnerFirstname
@@ -49,7 +49,7 @@ namespace scaleway.PartnerOrganization
 
         /// <summary>The last name of the new organization owner.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/partner_organization#owner_lastname PartnerOrganization#owner_lastname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/partner_organization#owner_lastname PartnerOrganization#owner_lastname}
         /// </remarks>
         [JsiiProperty(name: "ownerLastname", typeJson: "{\"primitive\":\"string\"}")]
         string OwnerLastname
@@ -59,7 +59,7 @@ namespace scaleway.PartnerOrganization
 
         /// <summary>Your personal partner_id. This is the same as your Organization ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/partner_organization#partner_id PartnerOrganization#partner_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/partner_organization#partner_id PartnerOrganization#partner_id}
         /// </remarks>
         [JsiiProperty(name: "partnerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -73,7 +73,7 @@ namespace scaleway.PartnerOrganization
 
         /// <summary>The phone number of the new organization owner.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/partner_organization#phone_number PartnerOrganization#phone_number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/partner_organization#phone_number PartnerOrganization#phone_number}
         /// </remarks>
         [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -94,7 +94,7 @@ namespace scaleway.PartnerOrganization
 
             /// <summary>A custom ID for the customer in your own infrastructure.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/partner_organization#customer_id PartnerOrganization#customer_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/partner_organization#customer_id PartnerOrganization#customer_id}
             /// </remarks>
             [JsiiProperty(name: "customerId", typeJson: "{\"primitive\":\"string\"}")]
             public string CustomerId
@@ -104,7 +104,7 @@ namespace scaleway.PartnerOrganization
 
             /// <summary>The email of the new organization owner.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/partner_organization#email PartnerOrganization#email}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/partner_organization#email PartnerOrganization#email}
             /// </remarks>
             [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
             public string Email
@@ -114,7 +114,7 @@ namespace scaleway.PartnerOrganization
 
             /// <summary>The name of the organization you want to create. Usually the company name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/partner_organization#organization_name PartnerOrganization#organization_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/partner_organization#organization_name PartnerOrganization#organization_name}
             /// </remarks>
             [JsiiProperty(name: "organizationName", typeJson: "{\"primitive\":\"string\"}")]
             public string OrganizationName
@@ -124,7 +124,7 @@ namespace scaleway.PartnerOrganization
 
             /// <summary>The first name of the new organization owner.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/partner_organization#owner_firstname PartnerOrganization#owner_firstname}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/partner_organization#owner_firstname PartnerOrganization#owner_firstname}
             /// </remarks>
             [JsiiProperty(name: "ownerFirstname", typeJson: "{\"primitive\":\"string\"}")]
             public string OwnerFirstname
@@ -134,7 +134,7 @@ namespace scaleway.PartnerOrganization
 
             /// <summary>The last name of the new organization owner.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/partner_organization#owner_lastname PartnerOrganization#owner_lastname}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/partner_organization#owner_lastname PartnerOrganization#owner_lastname}
             /// </remarks>
             [JsiiProperty(name: "ownerLastname", typeJson: "{\"primitive\":\"string\"}")]
             public string OwnerLastname
@@ -144,7 +144,7 @@ namespace scaleway.PartnerOrganization
 
             /// <summary>Your personal partner_id. This is the same as your Organization ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/partner_organization#partner_id PartnerOrganization#partner_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/partner_organization#partner_id PartnerOrganization#partner_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "partnerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -155,7 +155,7 @@ namespace scaleway.PartnerOrganization
 
             /// <summary>The phone number of the new organization owner.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/partner_organization#phone_number PartnerOrganization#phone_number}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/partner_organization#phone_number PartnerOrganization#phone_number}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace scaleway.Mailbox
     {
         /// <summary>ID of the mailbox domain to which this mailbox belongs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/mailbox#domain_id Mailbox#domain_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/mailbox#domain_id Mailbox#domain_id}
         /// </remarks>
         [JsiiProperty(name: "domainId", typeJson: "{\"primitive\":\"string\"}")]
         string DomainId
@@ -21,7 +21,7 @@ namespace scaleway.Mailbox
         /// <remarks>
         /// <strong></strong>: ). Changing this forces a new mailbox.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/mailbox#local_part Mailbox#local_part}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/mailbox#local_part Mailbox#local_part}
         /// </remarks>
         [JsiiProperty(name: "localPart", typeJson: "{\"primitive\":\"string\"}")]
         string LocalPart
@@ -31,7 +31,7 @@ namespace scaleway.Mailbox
 
         /// <summary>Billing subscription period: monthly or yearly. Updating this value changes the next renewal period.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/mailbox#subscription_period Mailbox#subscription_period}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/mailbox#subscription_period Mailbox#subscription_period}
         /// </remarks>
         [JsiiProperty(name: "subscriptionPeriod", typeJson: "{\"primitive\":\"string\"}")]
         string SubscriptionPeriod
@@ -41,7 +41,7 @@ namespace scaleway.Mailbox
 
         /// <summary>Password for the mailbox. Only one of `password` or `password_wo` should be specified.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/mailbox#password Mailbox#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/mailbox#password Mailbox#password}
         /// </remarks>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -55,7 +55,7 @@ namespace scaleway.Mailbox
 
         /// <summary>Password in [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) mode. Only one of `password` or `password_wo` should be specified. To update `password_wo`, also update `password_wo_version`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/mailbox#password_wo Mailbox#password_wo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/mailbox#password_wo Mailbox#password_wo}
         /// </remarks>
         [JsiiProperty(name: "passwordWo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -69,7 +69,7 @@ namespace scaleway.Mailbox
 
         /// <summary>Version of the write-only password. Bump this value together with `password_wo` to rotate the password.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/mailbox#password_wo_version Mailbox#password_wo_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/mailbox#password_wo_version Mailbox#password_wo_version}
         /// </remarks>
         [JsiiProperty(name: "passwordWoVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -90,7 +90,7 @@ namespace scaleway.Mailbox
 
             /// <summary>ID of the mailbox domain to which this mailbox belongs.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/mailbox#domain_id Mailbox#domain_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/mailbox#domain_id Mailbox#domain_id}
             /// </remarks>
             [JsiiProperty(name: "domainId", typeJson: "{\"primitive\":\"string\"}")]
             public string DomainId
@@ -102,7 +102,7 @@ namespace scaleway.Mailbox
             /// <remarks>
             /// <strong></strong>: ). Changing this forces a new mailbox.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/mailbox#local_part Mailbox#local_part}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/mailbox#local_part Mailbox#local_part}
             /// </remarks>
             [JsiiProperty(name: "localPart", typeJson: "{\"primitive\":\"string\"}")]
             public string LocalPart
@@ -112,7 +112,7 @@ namespace scaleway.Mailbox
 
             /// <summary>Billing subscription period: monthly or yearly. Updating this value changes the next renewal period.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/mailbox#subscription_period Mailbox#subscription_period}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/mailbox#subscription_period Mailbox#subscription_period}
             /// </remarks>
             [JsiiProperty(name: "subscriptionPeriod", typeJson: "{\"primitive\":\"string\"}")]
             public string SubscriptionPeriod
@@ -122,7 +122,7 @@ namespace scaleway.Mailbox
 
             /// <summary>Password for the mailbox. Only one of `password` or `password_wo` should be specified.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/mailbox#password Mailbox#password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/mailbox#password Mailbox#password}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -133,7 +133,7 @@ namespace scaleway.Mailbox
 
             /// <summary>Password in [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) mode. Only one of `password` or `password_wo` should be specified. To update `password_wo`, also update `password_wo_version`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/mailbox#password_wo Mailbox#password_wo}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/mailbox#password_wo Mailbox#password_wo}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "passwordWo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -144,7 +144,7 @@ namespace scaleway.Mailbox
 
             /// <summary>Version of the write-only password. Bump this value together with `password_wo` to rotate the password.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/resources/mailbox#password_wo_version Mailbox#password_wo_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/mailbox#password_wo_version Mailbox#password_wo_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "passwordWoVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

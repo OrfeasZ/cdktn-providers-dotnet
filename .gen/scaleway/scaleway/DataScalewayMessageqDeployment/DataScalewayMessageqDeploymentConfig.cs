@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayMessageqDeployment
     {
         /// <summary>The ID of the MessageQ deployment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/messageq_deployment#deployment_id DataScalewayMessageqDeployment#deployment_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/messageq_deployment#deployment_id DataScalewayMessageqDeployment#deployment_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "deploymentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace scaleway.DataScalewayMessageqDeployment
 
         /// <summary>Name of the MessageQ deployment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/messageq_deployment#name DataScalewayMessageqDeployment#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/messageq_deployment#name DataScalewayMessageqDeployment#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace scaleway.DataScalewayMessageqDeployment
 
         /// <summary>The project ID the MessageQ deployment belongs to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/messageq_deployment#project_id DataScalewayMessageqDeployment#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/messageq_deployment#project_id DataScalewayMessageqDeployment#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace scaleway.DataScalewayMessageqDeployment
 
         /// <summary>The region the MessageQ deployment is in.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/messageq_deployment#region DataScalewayMessageqDeployment#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/messageq_deployment#region DataScalewayMessageqDeployment#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

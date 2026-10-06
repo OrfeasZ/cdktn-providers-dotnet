@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayMessageqNodeType
     {
         /// <summary>The node type name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/messageq_node_type#name DataScalewayMessageqNodeType#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/messageq_node_type#name DataScalewayMessageqNodeType#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -19,7 +19,7 @@ namespace scaleway.DataScalewayMessageqNodeType
 
         /// <summary>The region the node type is available in.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/messageq_node_type#region DataScalewayMessageqNodeType#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/messageq_node_type#region DataScalewayMessageqNodeType#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace scaleway.DataScalewayMessageqNodeType
 
             /// <summary>The node type name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/messageq_node_type#name DataScalewayMessageqNodeType#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/messageq_node_type#name DataScalewayMessageqNodeType#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -50,7 +50,7 @@ namespace scaleway.DataScalewayMessageqNodeType
 
             /// <summary>The region the node type is available in.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/messageq_node_type#region DataScalewayMessageqNodeType#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/messageq_node_type#region DataScalewayMessageqNodeType#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

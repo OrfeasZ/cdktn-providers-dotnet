@@ -7,7 +7,7 @@ namespace scaleway.DataScalewayRdbNodeTypes
     [JsiiByValue(fqn: "scaleway.dataScalewayRdbNodeTypes.DataScalewayRdbNodeTypesConfig")]
     public class DataScalewayRdbNodeTypesConfig : scaleway.DataScalewayRdbNodeTypes.IDataScalewayRdbNodeTypesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/rdb_node_types#id DataScalewayRdbNodeTypes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/rdb_node_types#id DataScalewayRdbNodeTypes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,7 +24,7 @@ namespace scaleway.DataScalewayRdbNodeTypes
 
         /// <summary>Whether to include disabled node types in the list.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/rdb_node_types#include_disabled_types DataScalewayRdbNodeTypes#include_disabled_types}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/rdb_node_types#include_disabled_types DataScalewayRdbNodeTypes#include_disabled_types}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -57,7 +57,7 @@ namespace scaleway.DataScalewayRdbNodeTypes
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/rdb_node_types#region DataScalewayRdbNodeTypes#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/rdb_node_types#region DataScalewayRdbNodeTypes#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

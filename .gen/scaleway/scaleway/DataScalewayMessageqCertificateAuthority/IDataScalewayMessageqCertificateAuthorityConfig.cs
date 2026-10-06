@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayMessageqCertificateAuthority
     {
         /// <summary>The ID of the MessageQ deployment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/messageq_certificate_authority#deployment_id DataScalewayMessageqCertificateAuthority#deployment_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/messageq_certificate_authority#deployment_id DataScalewayMessageqCertificateAuthority#deployment_id}
         /// </remarks>
         [JsiiProperty(name: "deploymentId", typeJson: "{\"primitive\":\"string\"}")]
         string DeploymentId
@@ -19,7 +19,7 @@ namespace scaleway.DataScalewayMessageqCertificateAuthority
 
         /// <summary>The region the MessageQ deployment is in.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/messageq_certificate_authority#region DataScalewayMessageqCertificateAuthority#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/messageq_certificate_authority#region DataScalewayMessageqCertificateAuthority#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace scaleway.DataScalewayMessageqCertificateAuthority
 
             /// <summary>The ID of the MessageQ deployment.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/messageq_certificate_authority#deployment_id DataScalewayMessageqCertificateAuthority#deployment_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/messageq_certificate_authority#deployment_id DataScalewayMessageqCertificateAuthority#deployment_id}
             /// </remarks>
             [JsiiProperty(name: "deploymentId", typeJson: "{\"primitive\":\"string\"}")]
             public string DeploymentId
@@ -50,7 +50,7 @@ namespace scaleway.DataScalewayMessageqCertificateAuthority
 
             /// <summary>The region the MessageQ deployment is in.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.84.0/docs/data-sources/messageq_certificate_authority#region DataScalewayMessageqCertificateAuthority#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/messageq_certificate_authority#region DataScalewayMessageqCertificateAuthority#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
