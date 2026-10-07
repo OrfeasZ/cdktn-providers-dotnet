@@ -5,7 +5,7 @@ namespace aws.MskChannel
     /// <remarks>
     /// <h1><c>aws_msk_channel</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel"><c>aws_msk_channel</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/msk_channel"><c>aws_msk_channel</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

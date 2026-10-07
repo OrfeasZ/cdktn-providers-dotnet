@@ -7,7 +7,7 @@ namespace aws.MskChannel
     [JsiiInterface(nativeType: typeof(IMskChannelIcebergDestinationTableCreation), fullyQualifiedName: "aws.mskChannel.MskChannelIcebergDestinationTableCreation")]
     public interface IMskChannelIcebergDestinationTableCreation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#enable_table_creation MskChannel#enable_table_creation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/msk_channel#enable_table_creation MskChannel#enable_table_creation}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -28,7 +28,7 @@ namespace aws.MskChannel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#enable_table_creation MskChannel#enable_table_creation}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/msk_channel#enable_table_creation MskChannel#enable_table_creation}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

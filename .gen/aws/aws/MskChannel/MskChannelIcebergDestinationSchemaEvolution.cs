@@ -9,7 +9,7 @@ namespace aws.MskChannel
     {
         private object? _enableSchemaEvolution;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#enable_schema_evolution MskChannel#enable_schema_evolution}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/msk_channel#enable_schema_evolution MskChannel#enable_schema_evolution}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

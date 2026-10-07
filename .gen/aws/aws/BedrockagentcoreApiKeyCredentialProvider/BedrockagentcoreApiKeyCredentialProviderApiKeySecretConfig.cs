@@ -9,7 +9,7 @@ namespace aws.BedrockagentcoreApiKeyCredentialProvider
     [JsiiByValue(fqn: "aws.bedrockagentcoreApiKeyCredentialProvider.BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfig")]
     public class BedrockagentcoreApiKeyCredentialProviderApiKeySecretConfig : aws.BedrockagentcoreApiKeyCredentialProvider.IBedrockagentcoreApiKeyCredentialProviderApiKeySecretConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/bedrockagentcore_api_key_credential_provider#json_key BedrockagentcoreApiKeyCredentialProvider#json_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/bedrockagentcore_api_key_credential_provider#json_key BedrockagentcoreApiKeyCredentialProvider#json_key}.</summary>
         [JsiiProperty(name: "jsonKey", typeJson: "{\"primitive\":\"string\"}")]
         public string JsonKey
         {
@@ -17,7 +17,7 @@ namespace aws.BedrockagentcoreApiKeyCredentialProvider
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/bedrockagentcore_api_key_credential_provider#secret_id BedrockagentcoreApiKeyCredentialProvider#secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/bedrockagentcore_api_key_credential_provider#secret_id BedrockagentcoreApiKeyCredentialProvider#secret_id}.</summary>
         [JsiiProperty(name: "secretId", typeJson: "{\"primitive\":\"string\"}")]
         public string SecretId
         {

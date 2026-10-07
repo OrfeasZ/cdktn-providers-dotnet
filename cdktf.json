@@ -5,7 +5,7 @@
   "sendCrashReports": "false",
   "terraformProviders": [
     "vancluever/acme@3.2.1",
-    "hashicorp/aws@6.67.0",
+    "hashicorp/aws@6.68.0",
     "cloudflare/cloudflare@5.27.0",
     "digitalocean/digitalocean@2.104.0",
     "hashicorp/random@3.9.1",

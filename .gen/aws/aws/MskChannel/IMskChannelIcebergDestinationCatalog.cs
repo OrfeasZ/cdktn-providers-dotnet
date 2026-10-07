@@ -7,7 +7,7 @@ namespace aws.MskChannel
     [JsiiInterface(nativeType: typeof(IMskChannelIcebergDestinationCatalog), fullyQualifiedName: "aws.mskChannel.MskChannelIcebergDestinationCatalog")]
     public interface IMskChannelIcebergDestinationCatalog
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#catalog_arn MskChannel#catalog_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/msk_channel#catalog_arn MskChannel#catalog_arn}.</summary>
         [JsiiProperty(name: "catalogArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CatalogArn
@@ -18,7 +18,7 @@ namespace aws.MskChannel
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#warehouse_location MskChannel#warehouse_location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/msk_channel#warehouse_location MskChannel#warehouse_location}.</summary>
         [JsiiProperty(name: "warehouseLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? WarehouseLocation
@@ -36,7 +36,7 @@ namespace aws.MskChannel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#catalog_arn MskChannel#catalog_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/msk_channel#catalog_arn MskChannel#catalog_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "catalogArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CatalogArn
@@ -44,7 +44,7 @@ namespace aws.MskChannel
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#warehouse_location MskChannel#warehouse_location}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/msk_channel#warehouse_location MskChannel#warehouse_location}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "warehouseLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? WarehouseLocation

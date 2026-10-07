@@ -9,7 +9,7 @@ namespace aws.MskChannel
     [JsiiByValue(fqn: "aws.mskChannel.MskChannelTopicConfigurationRecordConverter")]
     public class MskChannelTopicConfigurationRecordConverter : aws.MskChannel.IMskChannelTopicConfigurationRecordConverter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#value_converter MskChannel#value_converter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/msk_channel#value_converter MskChannel#value_converter}.</summary>
         [JsiiProperty(name: "valueConverter", typeJson: "{\"primitive\":\"string\"}")]
         public string ValueConverter
         {

@@ -9,7 +9,7 @@ namespace aws.MskChannel
     [JsiiByValue(fqn: "aws.mskChannel.MskChannelIcebergDestinationDestinationTablePartitionSpec")]
     public class MskChannelIcebergDestinationDestinationTablePartitionSpec : aws.MskChannel.IMskChannelIcebergDestinationDestinationTablePartitionSpec
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#partition_strategy MskChannel#partition_strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/msk_channel#partition_strategy MskChannel#partition_strategy}.</summary>
         [JsiiProperty(name: "partitionStrategy", typeJson: "{\"primitive\":\"string\"}")]
         public string PartitionStrategy
         {
@@ -21,7 +21,7 @@ namespace aws.MskChannel
 
         /// <summary>source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.67.0/docs/resources/msk_channel#source MskChannel#source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/msk_channel#source MskChannel#source}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.MskChannel.IMskChannelIcebergDestinationDestinationTablePartitionSpecSource" />)[]</para>
         /// </remarks>
         [JsiiOptional]
