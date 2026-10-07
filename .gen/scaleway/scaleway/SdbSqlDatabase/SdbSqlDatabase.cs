@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace scaleway.SdbSqlDatabase
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/sdb_sql_database scaleway_sdb_sql_database}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/resources/sdb_sql_database scaleway_sdb_sql_database}.</summary>
     [JsiiClass(nativeType: typeof(scaleway.SdbSqlDatabase.SdbSqlDatabase), fullyQualifiedName: "scaleway.sdbSqlDatabase.SdbSqlDatabase", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"scaleway.sdbSqlDatabase.SdbSqlDatabaseConfig\"}}]")]
     public class SdbSqlDatabase : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/sdb_sql_database scaleway_sdb_sql_database} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/resources/sdb_sql_database scaleway_sdb_sql_database} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public SdbSqlDatabase(Constructs.Construct scope, string id, scaleway.SdbSqlDatabase.ISdbSqlDatabaseConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace scaleway.SdbSqlDatabase
         /// <param name="importToId">The construct id used in the generated config for the SdbSqlDatabase to import.</param>
         /// <param name="importFromId">The id of the existing SdbSqlDatabase that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the SdbSqlDatabase to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the SdbSqlDatabase to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/sdb_sql_database#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing SdbSqlDatabase that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the SdbSqlDatabase to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the SdbSqlDatabase to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/resources/sdb_sql_database#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing SdbSqlDatabase that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the SdbSqlDatabase to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.SdbSqlDatabase.SdbSqlDatabase), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -88,6 +88,12 @@ namespace scaleway.SdbSqlDatabase
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetVersion")]
+        public virtual void ResetVersion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "synthesizeAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
         protected override System.Collections.Generic.IDictionary<string, object> SynthesizeAttributes()
         {
@@ -113,10 +119,22 @@ namespace scaleway.SdbSqlDatabase
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "srn", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Srn
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.sdbSqlDatabase.SdbSqlDatabaseTimeoutsOutputReference\"}")]
         public virtual scaleway.SdbSqlDatabase.SdbSqlDatabaseTimeoutsOutputReference Timeouts
         {
             get => GetInstanceProperty<scaleway.SdbSqlDatabase.SdbSqlDatabaseTimeoutsOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "versionEndOfLifeAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VersionEndOfLifeAt
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiOptional]
@@ -171,6 +189,13 @@ namespace scaleway.SdbSqlDatabase
             get => GetInstanceProperty<object?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "versionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? VersionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {
@@ -208,6 +233,13 @@ namespace scaleway.SdbSqlDatabase
 
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Region
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Version
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

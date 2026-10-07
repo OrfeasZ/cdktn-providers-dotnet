@@ -9,17 +9,17 @@ namespace scaleway.AnnotationsBinding
     {
         /// <summary>Scaleway Resource Number to associate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/annotations_binding#srn AnnotationsBinding#srn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/resources/annotations_binding#target_srn AnnotationsBinding#target_srn}
         /// </remarks>
-        [JsiiProperty(name: "srn", typeJson: "{\"primitive\":\"string\"}")]
-        string Srn
+        [JsiiProperty(name: "targetSrn", typeJson: "{\"primitive\":\"string\"}")]
+        string TargetSrn
         {
             get;
         }
 
         /// <summary>ID of the value to associate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/annotations_binding#value_id AnnotationsBinding#value_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/resources/annotations_binding#value_id AnnotationsBinding#value_id}
         /// </remarks>
         [JsiiProperty(name: "valueId", typeJson: "{\"primitive\":\"string\"}")]
         string ValueId
@@ -36,17 +36,17 @@ namespace scaleway.AnnotationsBinding
 
             /// <summary>Scaleway Resource Number to associate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/annotations_binding#srn AnnotationsBinding#srn}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/resources/annotations_binding#target_srn AnnotationsBinding#target_srn}
             /// </remarks>
-            [JsiiProperty(name: "srn", typeJson: "{\"primitive\":\"string\"}")]
-            public string Srn
+            [JsiiProperty(name: "targetSrn", typeJson: "{\"primitive\":\"string\"}")]
+            public string TargetSrn
             {
                 get => GetInstanceProperty<string>()!;
             }
 
             /// <summary>ID of the value to associate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/annotations_binding#value_id AnnotationsBinding#value_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/resources/annotations_binding#value_id AnnotationsBinding#value_id}
             /// </remarks>
             [JsiiProperty(name: "valueId", typeJson: "{\"primitive\":\"string\"}")]
             public string ValueId

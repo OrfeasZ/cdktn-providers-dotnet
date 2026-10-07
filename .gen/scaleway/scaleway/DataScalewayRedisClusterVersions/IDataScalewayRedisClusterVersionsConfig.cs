@@ -7,7 +7,7 @@ namespace scaleway.DataScalewayRedisClusterVersions
     [JsiiInterface(nativeType: typeof(IDataScalewayRedisClusterVersionsConfig), fullyQualifiedName: "scaleway.dataScalewayRedisClusterVersions.DataScalewayRedisClusterVersionsConfig")]
     public interface IDataScalewayRedisClusterVersionsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/redis_cluster_versions#id DataScalewayRedisClusterVersions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/redis_cluster_versions#id DataScalewayRedisClusterVersions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,7 +24,7 @@ namespace scaleway.DataScalewayRedisClusterVersions
 
         /// <summary>Whether to include beta Redis™ engine versions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/redis_cluster_versions#include_beta DataScalewayRedisClusterVersions#include_beta}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/redis_cluster_versions#include_beta DataScalewayRedisClusterVersions#include_beta}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "includeBeta", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace scaleway.DataScalewayRedisClusterVersions
 
         /// <summary>Whether to include deprecated Redis™ engine versions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/redis_cluster_versions#include_deprecated DataScalewayRedisClusterVersions#include_deprecated}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/redis_cluster_versions#include_deprecated DataScalewayRedisClusterVersions#include_deprecated}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "includeDeprecated", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace scaleway.DataScalewayRedisClusterVersions
 
         /// <summary>Whether to include disabled Redis™ engine versions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/redis_cluster_versions#include_disabled DataScalewayRedisClusterVersions#include_disabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/redis_cluster_versions#include_disabled DataScalewayRedisClusterVersions#include_disabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "includeDisabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace scaleway.DataScalewayRedisClusterVersions
 
         /// <summary>Filter Redis™ engine versions that match a given name pattern.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/redis_cluster_versions#version DataScalewayRedisClusterVersions#version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/redis_cluster_versions#version DataScalewayRedisClusterVersions#version}
         /// </remarks>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -83,7 +83,7 @@ namespace scaleway.DataScalewayRedisClusterVersions
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/redis_cluster_versions#zone DataScalewayRedisClusterVersions#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/redis_cluster_versions#zone DataScalewayRedisClusterVersions#zone}
         /// </remarks>
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -102,7 +102,7 @@ namespace scaleway.DataScalewayRedisClusterVersions
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/redis_cluster_versions#id DataScalewayRedisClusterVersions#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/redis_cluster_versions#id DataScalewayRedisClusterVersions#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -116,7 +116,7 @@ namespace scaleway.DataScalewayRedisClusterVersions
 
             /// <summary>Whether to include beta Redis™ engine versions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/redis_cluster_versions#include_beta DataScalewayRedisClusterVersions#include_beta}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/redis_cluster_versions#include_beta DataScalewayRedisClusterVersions#include_beta}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -128,7 +128,7 @@ namespace scaleway.DataScalewayRedisClusterVersions
 
             /// <summary>Whether to include deprecated Redis™ engine versions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/redis_cluster_versions#include_deprecated DataScalewayRedisClusterVersions#include_deprecated}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/redis_cluster_versions#include_deprecated DataScalewayRedisClusterVersions#include_deprecated}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -140,7 +140,7 @@ namespace scaleway.DataScalewayRedisClusterVersions
 
             /// <summary>Whether to include disabled Redis™ engine versions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/redis_cluster_versions#include_disabled DataScalewayRedisClusterVersions#include_disabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/redis_cluster_versions#include_disabled DataScalewayRedisClusterVersions#include_disabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -152,7 +152,7 @@ namespace scaleway.DataScalewayRedisClusterVersions
 
             /// <summary>Filter Redis™ engine versions that match a given name pattern.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/redis_cluster_versions#version DataScalewayRedisClusterVersions#version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/redis_cluster_versions#version DataScalewayRedisClusterVersions#version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -163,7 +163,7 @@ namespace scaleway.DataScalewayRedisClusterVersions
 
             /// <summary>The zone you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/redis_cluster_versions#zone DataScalewayRedisClusterVersions#zone}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/redis_cluster_versions#zone DataScalewayRedisClusterVersions#zone}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

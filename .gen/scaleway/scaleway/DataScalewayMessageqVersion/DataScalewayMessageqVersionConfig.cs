@@ -11,7 +11,7 @@ namespace scaleway.DataScalewayMessageqVersion
     {
         /// <summary>The MessageQ version name. Use `latest` to retrieve the most recent available non-disabled version.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/messageq_version#name DataScalewayMessageqVersion#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/messageq_version#name DataScalewayMessageqVersion#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace scaleway.DataScalewayMessageqVersion
 
         /// <summary>The region the MessageQ version is available in.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/messageq_version#region DataScalewayMessageqVersion#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/messageq_version#region DataScalewayMessageqVersion#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

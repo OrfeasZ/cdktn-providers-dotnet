@@ -2,12 +2,12 @@ using Amazon.JSII.Runtime.Deputy;
 
 #pragma warning disable CS0672,CS0809,CS1591
 
-namespace scaleway.Cockpit
+namespace scaleway.DataScalewayCockpitConfig
 {
-    [JsiiInterface(nativeType: typeof(ICockpitConfig), fullyQualifiedName: "scaleway.cockpit.CockpitConfig")]
-    public interface ICockpitConfig : Io.Cdktn.ITerraformMetaArguments
+    [JsiiInterface(nativeType: typeof(IDataScalewayCockpitConfigConfig), fullyQualifiedName: "scaleway.dataScalewayCockpitConfig.DataScalewayCockpitConfigConfig")]
+    public interface IDataScalewayCockpitConfigConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/cockpit#id Cockpit#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/cockpit_config#id DataScalewayCockpitConfig#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,13 +22,13 @@ namespace scaleway.Cockpit
             }
         }
 
-        /// <summary>[DEPRECATED] The plan field is deprecated. Any modification or selection will have no effect.</summary>
+        /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/cockpit#plan Cockpit#plan}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/cockpit_config#region DataScalewayCockpitConfig#region}
         /// </remarks>
-        [JsiiProperty(name: "plan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? Plan
+        string? Region
         {
             get
             {
@@ -36,28 +36,14 @@ namespace scaleway.Cockpit
             }
         }
 
-        /// <summary>The project_id you want to attach the resource to.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/cockpit#project_id Cockpit#project_id}
-        /// </remarks>
-        [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? ProjectId
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        [JsiiTypeProxy(nativeType: typeof(ICockpitConfig), fullyQualifiedName: "scaleway.cockpit.CockpitConfig")]
-        internal sealed class _Proxy : DeputyBase, scaleway.Cockpit.ICockpitConfig
+        [JsiiTypeProxy(nativeType: typeof(IDataScalewayCockpitConfigConfig), fullyQualifiedName: "scaleway.dataScalewayCockpitConfig.DataScalewayCockpitConfigConfig")]
+        internal sealed class _Proxy : DeputyBase, scaleway.DataScalewayCockpitConfig.IDataScalewayCockpitConfigConfig
         {
             private _Proxy(ByRefValue reference): base(reference)
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/cockpit#id Cockpit#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/cockpit_config#id DataScalewayCockpitConfig#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,24 +55,13 @@ namespace scaleway.Cockpit
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>[DEPRECATED] The plan field is deprecated. Any modification or selection will have no effect.</summary>
+            /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/cockpit#plan Cockpit#plan}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/cockpit_config#region DataScalewayCockpitConfig#region}
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "plan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? Plan
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
-            /// <summary>The project_id you want to attach the resource to.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/cockpit#project_id Cockpit#project_id}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? ProjectId
+            [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Region
             {
                 get => GetInstanceProperty<string?>();
             }

@@ -11,7 +11,7 @@ namespace scaleway.DataScalewayRdbInstanceLogsDetails
     {
         /// <summary>The ID of the Database Instance. Can be a plain UUID or a regional ID (`{region}/{id}`).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/rdb_instance_logs_details#instance_id DataScalewayRdbInstanceLogsDetails#instance_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/rdb_instance_logs_details#instance_id DataScalewayRdbInstanceLogsDetails#instance_id}
         /// </remarks>
         [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceId
@@ -22,7 +22,7 @@ namespace scaleway.DataScalewayRdbInstanceLogsDetails
 
         /// <summary>The region of the Database Instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/rdb_instance_logs_details#region DataScalewayRdbInstanceLogsDetails#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/rdb_instance_logs_details#region DataScalewayRdbInstanceLogsDetails#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

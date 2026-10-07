@@ -2,12 +2,12 @@ using Amazon.JSII.Runtime.Deputy;
 
 #pragma warning disable CS0672,CS0809,CS1591
 
-namespace scaleway.DataScalewayCockpitConfig
+namespace scaleway.DataScalewaySdbSqlVersions
 {
-    [JsiiInterface(nativeType: typeof(IDataScalewayCockpitConfigAConfig), fullyQualifiedName: "scaleway.dataScalewayCockpitConfig.DataScalewayCockpitConfigAConfig")]
-    public interface IDataScalewayCockpitConfigAConfig : Io.Cdktn.ITerraformMetaArguments
+    [JsiiInterface(nativeType: typeof(IDataScalewaySdbSqlVersionsConfig), fullyQualifiedName: "scaleway.dataScalewaySdbSqlVersions.DataScalewaySdbSqlVersionsConfig")]
+    public interface IDataScalewaySdbSqlVersionsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/cockpit_config#id DataScalewayCockpitConfigA#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/sdb_sql_versions#id DataScalewaySdbSqlVersions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,9 +22,23 @@ namespace scaleway.DataScalewayCockpitConfig
             }
         }
 
+        /// <summary>Filter Serverless SQL Database versions that match a given name pattern (e.g. `16`).</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/sdb_sql_versions#name DataScalewaySdbSqlVersions#name}
+        /// </remarks>
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Name
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/cockpit_config#region DataScalewayCockpitConfigA#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/sdb_sql_versions#region DataScalewaySdbSqlVersions#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -36,14 +50,14 @@ namespace scaleway.DataScalewayCockpitConfig
             }
         }
 
-        [JsiiTypeProxy(nativeType: typeof(IDataScalewayCockpitConfigAConfig), fullyQualifiedName: "scaleway.dataScalewayCockpitConfig.DataScalewayCockpitConfigAConfig")]
-        internal sealed class _Proxy : DeputyBase, scaleway.DataScalewayCockpitConfig.IDataScalewayCockpitConfigAConfig
+        [JsiiTypeProxy(nativeType: typeof(IDataScalewaySdbSqlVersionsConfig), fullyQualifiedName: "scaleway.dataScalewaySdbSqlVersions.DataScalewaySdbSqlVersionsConfig")]
+        internal sealed class _Proxy : DeputyBase, scaleway.DataScalewaySdbSqlVersions.IDataScalewaySdbSqlVersionsConfig
         {
             private _Proxy(ByRefValue reference): base(reference)
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/cockpit_config#id DataScalewayCockpitConfigA#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/sdb_sql_versions#id DataScalewaySdbSqlVersions#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,9 +69,20 @@ namespace scaleway.DataScalewayCockpitConfig
                 get => GetInstanceProperty<string?>();
             }
 
+            /// <summary>Filter Serverless SQL Database versions that match a given name pattern (e.g. `16`).</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/sdb_sql_versions#name DataScalewaySdbSqlVersions#name}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Name
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/cockpit_config#region DataScalewayCockpitConfigA#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/sdb_sql_versions#region DataScalewaySdbSqlVersions#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

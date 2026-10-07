@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayMailbox
     {
         /// <summary>Full email address of the mailbox. Exactly one of `mailbox_id` or `email` must be specified.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/mailbox#email DataScalewayMailbox#email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/mailbox#email DataScalewayMailbox#email}
         /// </remarks>
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace scaleway.DataScalewayMailbox
 
         /// <summary>UUID of the mailbox. Exactly one of `mailbox_id` or `email` must be specified.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/mailbox#mailbox_id DataScalewayMailbox#mailbox_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/mailbox#mailbox_id DataScalewayMailbox#mailbox_id}
         /// </remarks>
         [JsiiProperty(name: "mailboxId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace scaleway.DataScalewayMailbox
 
             /// <summary>Full email address of the mailbox. Exactly one of `mailbox_id` or `email` must be specified.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/mailbox#email DataScalewayMailbox#email}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/mailbox#email DataScalewayMailbox#email}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace scaleway.DataScalewayMailbox
 
             /// <summary>UUID of the mailbox. Exactly one of `mailbox_id` or `email` must be specified.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/mailbox#mailbox_id DataScalewayMailbox#mailbox_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/mailbox#mailbox_id DataScalewayMailbox#mailbox_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mailboxId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

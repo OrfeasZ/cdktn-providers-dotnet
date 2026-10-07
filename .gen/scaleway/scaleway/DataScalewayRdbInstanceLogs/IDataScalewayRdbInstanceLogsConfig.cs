@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayRdbInstanceLogs
     {
         /// <summary>The ID of the Database Instance. Can be a plain UUID or a regional ID (`{region}/{id}`).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/rdb_instance_logs#instance_id DataScalewayRdbInstanceLogs#instance_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/rdb_instance_logs#instance_id DataScalewayRdbInstanceLogs#instance_id}
         /// </remarks>
         [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
         string InstanceId
@@ -19,7 +19,7 @@ namespace scaleway.DataScalewayRdbInstanceLogs
 
         /// <summary>Criteria to use when ordering Database Instance logs listing. Possible values are `created_at_asc` and `created_at_desc`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/rdb_instance_logs#order_by DataScalewayRdbInstanceLogs#order_by}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/rdb_instance_logs#order_by DataScalewayRdbInstanceLogs#order_by}
         /// </remarks>
         [JsiiProperty(name: "orderBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +33,7 @@ namespace scaleway.DataScalewayRdbInstanceLogs
 
         /// <summary>The region of the Database Instance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/rdb_instance_logs#region DataScalewayRdbInstanceLogs#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/rdb_instance_logs#region DataScalewayRdbInstanceLogs#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +54,7 @@ namespace scaleway.DataScalewayRdbInstanceLogs
 
             /// <summary>The ID of the Database Instance. Can be a plain UUID or a regional ID (`{region}/{id}`).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/rdb_instance_logs#instance_id DataScalewayRdbInstanceLogs#instance_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/rdb_instance_logs#instance_id DataScalewayRdbInstanceLogs#instance_id}
             /// </remarks>
             [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string InstanceId
@@ -64,7 +64,7 @@ namespace scaleway.DataScalewayRdbInstanceLogs
 
             /// <summary>Criteria to use when ordering Database Instance logs listing. Possible values are `created_at_asc` and `created_at_desc`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/rdb_instance_logs#order_by DataScalewayRdbInstanceLogs#order_by}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/rdb_instance_logs#order_by DataScalewayRdbInstanceLogs#order_by}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "orderBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace scaleway.DataScalewayRdbInstanceLogs
 
             /// <summary>The region of the Database Instance.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/rdb_instance_logs#region DataScalewayRdbInstanceLogs#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/rdb_instance_logs#region DataScalewayRdbInstanceLogs#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

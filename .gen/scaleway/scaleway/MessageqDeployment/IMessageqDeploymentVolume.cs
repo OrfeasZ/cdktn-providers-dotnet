@@ -9,7 +9,7 @@ namespace scaleway.MessageqDeployment
     {
         /// <summary>Volume size in GB. Can be updated via Upgrade without recreating the deployment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/messageq_deployment#size_in_gb MessageqDeployment#size_in_gb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/resources/messageq_deployment#size_in_gb MessageqDeployment#size_in_gb}
         /// </remarks>
         [JsiiProperty(name: "sizeInGb", typeJson: "{\"primitive\":\"number\"}")]
         double SizeInGb
@@ -19,7 +19,7 @@ namespace scaleway.MessageqDeployment
 
         /// <summary>Volume type (sbs_5k, sbs_15k).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/messageq_deployment#type MessageqDeployment#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/resources/messageq_deployment#type MessageqDeployment#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -36,7 +36,7 @@ namespace scaleway.MessageqDeployment
 
             /// <summary>Volume size in GB. Can be updated via Upgrade without recreating the deployment.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/messageq_deployment#size_in_gb MessageqDeployment#size_in_gb}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/resources/messageq_deployment#size_in_gb MessageqDeployment#size_in_gb}
             /// </remarks>
             [JsiiProperty(name: "sizeInGb", typeJson: "{\"primitive\":\"number\"}")]
             public double SizeInGb
@@ -46,7 +46,7 @@ namespace scaleway.MessageqDeployment
 
             /// <summary>Volume type (sbs_5k, sbs_15k).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/resources/messageq_deployment#type MessageqDeployment#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/resources/messageq_deployment#type MessageqDeployment#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type

@@ -11,7 +11,7 @@ namespace scaleway.DataScalewayCockpitGrafanaProductDashboard
     {
         /// <summary>Name of the Grafana product dashboard to retrieve.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/cockpit_grafana_product_dashboard#dashboard_name DataScalewayCockpitGrafanaProductDashboard#dashboard_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/cockpit_grafana_product_dashboard#dashboard_name DataScalewayCockpitGrafanaProductDashboard#dashboard_name}
         /// </remarks>
         [JsiiProperty(name: "dashboardName", typeJson: "{\"primitive\":\"string\"}")]
         public string DashboardName
@@ -22,7 +22,7 @@ namespace scaleway.DataScalewayCockpitGrafanaProductDashboard
 
         /// <summary>The ID of the project the dashboard belongs to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs/data-sources/cockpit_grafana_product_dashboard#project_id DataScalewayCockpitGrafanaProductDashboard#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/cockpit_grafana_product_dashboard#project_id DataScalewayCockpitGrafanaProductDashboard#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

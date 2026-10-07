@@ -9,7 +9,7 @@ namespace scaleway.Provider
     {
         /// <summary>Use this to override the default service endpoint URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.85.0/docs#s3 ScalewayProvider#s3}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs#s3 ScalewayProvider#s3}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
