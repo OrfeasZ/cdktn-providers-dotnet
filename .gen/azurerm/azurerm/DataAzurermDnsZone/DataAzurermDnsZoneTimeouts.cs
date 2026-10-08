@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermDnsZone
     [JsiiByValue(fqn: "azurerm.dataAzurermDnsZone.DataAzurermDnsZoneTimeouts")]
     public class DataAzurermDnsZoneTimeouts : azurerm.DataAzurermDnsZone.IDataAzurermDnsZoneTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.8.0/docs/data-sources/dns_zone#read DataAzurermDnsZone#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/data-sources/dns_zone#read DataAzurermDnsZone#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

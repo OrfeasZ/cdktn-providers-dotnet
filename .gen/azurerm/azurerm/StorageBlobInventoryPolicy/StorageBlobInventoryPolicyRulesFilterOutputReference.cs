@@ -33,6 +33,12 @@ namespace azurerm.StorageBlobInventoryPolicy
         {
         }
 
+        [JsiiMethod(name: "resetCreatedWithinDays")]
+        public virtual void ResetCreatedWithinDays()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetExcludePrefixes")]
         public virtual void ResetExcludePrefixes()
         {
@@ -68,6 +74,13 @@ namespace azurerm.StorageBlobInventoryPolicy
         public virtual string[]? BlobTypesInput
         {
             get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "createdWithinDaysInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? CreatedWithinDaysInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -118,6 +131,13 @@ namespace azurerm.StorageBlobInventoryPolicy
         public virtual string[] BlobTypes
         {
             get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "createdWithinDays", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double CreatedWithinDays
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 

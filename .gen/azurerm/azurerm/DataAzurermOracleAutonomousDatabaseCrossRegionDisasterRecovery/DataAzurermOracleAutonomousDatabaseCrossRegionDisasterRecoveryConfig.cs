@@ -9,7 +9,7 @@ namespace azurerm.DataAzurermOracleAutonomousDatabaseCrossRegionDisasterRecovery
     [JsiiByValue(fqn: "azurerm.dataAzurermOracleAutonomousDatabaseCrossRegionDisasterRecovery.DataAzurermOracleAutonomousDatabaseCrossRegionDisasterRecoveryConfig")]
     public class DataAzurermOracleAutonomousDatabaseCrossRegionDisasterRecoveryConfig : azurerm.DataAzurermOracleAutonomousDatabaseCrossRegionDisasterRecovery.IDataAzurermOracleAutonomousDatabaseCrossRegionDisasterRecoveryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.8.0/docs/data-sources/oracle_autonomous_database_cross_region_disaster_recovery#name DataAzurermOracleAutonomousDatabaseCrossRegionDisasterRecovery#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/data-sources/oracle_autonomous_database_cross_region_disaster_recovery#name DataAzurermOracleAutonomousDatabaseCrossRegionDisasterRecovery#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace azurerm.DataAzurermOracleAutonomousDatabaseCrossRegionDisasterRecovery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.8.0/docs/data-sources/oracle_autonomous_database_cross_region_disaster_recovery#resource_group_name DataAzurermOracleAutonomousDatabaseCrossRegionDisasterRecovery#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/data-sources/oracle_autonomous_database_cross_region_disaster_recovery#resource_group_name DataAzurermOracleAutonomousDatabaseCrossRegionDisasterRecovery#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -25,7 +25,7 @@ namespace azurerm.DataAzurermOracleAutonomousDatabaseCrossRegionDisasterRecovery
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.8.0/docs/data-sources/oracle_autonomous_database_cross_region_disaster_recovery#id DataAzurermOracleAutonomousDatabaseCrossRegionDisasterRecovery#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/data-sources/oracle_autonomous_database_cross_region_disaster_recovery#id DataAzurermOracleAutonomousDatabaseCrossRegionDisasterRecovery#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ namespace azurerm.DataAzurermOracleAutonomousDatabaseCrossRegionDisasterRecovery
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.8.0/docs/data-sources/oracle_autonomous_database_cross_region_disaster_recovery#timeouts DataAzurermOracleAutonomousDatabaseCrossRegionDisasterRecovery#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/data-sources/oracle_autonomous_database_cross_region_disaster_recovery#timeouts DataAzurermOracleAutonomousDatabaseCrossRegionDisasterRecovery#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermOracleAutonomousDatabaseCrossRegionDisasterRecovery.DataAzurermOracleAutonomousDatabaseCrossRegionDisasterRecoveryTimeouts\"}", isOptional: true)]

@@ -41,6 +41,12 @@ namespace azurerm.ApplicationGateway
             InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.ApplicationGateway.IApplicationGatewaySslProfileSslPolicy)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetClientAuthenticationMode")]
+        public virtual void ResetClientAuthenticationMode()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSslPolicy")]
         public virtual void ResetSslPolicy()
         {
@@ -75,6 +81,13 @@ namespace azurerm.ApplicationGateway
         public virtual azurerm.ApplicationGateway.ApplicationGatewaySslProfileSslPolicyOutputReference SslPolicy
         {
             get => GetInstanceProperty<azurerm.ApplicationGateway.ApplicationGatewaySslProfileSslPolicyOutputReference>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "clientAuthenticationModeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ClientAuthenticationModeInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -113,6 +126,13 @@ namespace azurerm.ApplicationGateway
         public virtual string? VerifyClientCertificateRevocationInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "clientAuthenticationMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ClientAuthenticationMode
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]

@@ -6,7 +6,7 @@
     "azapi": "2.13.0",
     "azuread": "3.10.0",
     "azuredevops": "1.16.0",
-    "azurerm": "5.8.0",
+    "azurerm": "5.9.0",
     "azurestack": "1.0.0",
     "cloudflare": "5.27.0",
     "digitalocean": "2.104.0",

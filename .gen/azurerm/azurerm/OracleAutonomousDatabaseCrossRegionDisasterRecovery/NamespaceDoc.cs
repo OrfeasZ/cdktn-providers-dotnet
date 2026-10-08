@@ -5,7 +5,7 @@ namespace azurerm.OracleAutonomousDatabaseCrossRegionDisasterRecovery
     /// <remarks>
     /// <h1><c>azurerm_oracle_autonomous_database_cross_region_disaster_recovery</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.8.0/docs/resources/oracle_autonomous_database_cross_region_disaster_recovery"><c>azurerm_oracle_autonomous_database_cross_region_disaster_recovery</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/oracle_autonomous_database_cross_region_disaster_recovery"><c>azurerm_oracle_autonomous_database_cross_region_disaster_recovery</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

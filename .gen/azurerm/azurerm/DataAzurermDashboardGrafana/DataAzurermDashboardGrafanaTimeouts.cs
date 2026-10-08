@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermDashboardGrafana
     [JsiiByValue(fqn: "azurerm.dataAzurermDashboardGrafana.DataAzurermDashboardGrafanaTimeouts")]
     public class DataAzurermDashboardGrafanaTimeouts : azurerm.DataAzurermDashboardGrafana.IDataAzurermDashboardGrafanaTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.8.0/docs/data-sources/dashboard_grafana#read DataAzurermDashboardGrafana#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/data-sources/dashboard_grafana#read DataAzurermDashboardGrafana#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read

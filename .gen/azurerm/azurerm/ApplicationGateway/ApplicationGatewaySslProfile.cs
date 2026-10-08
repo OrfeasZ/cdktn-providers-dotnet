@@ -9,7 +9,7 @@ namespace azurerm.ApplicationGateway
     [JsiiByValue(fqn: "azurerm.applicationGateway.ApplicationGatewaySslProfile")]
     public class ApplicationGatewaySslProfile : azurerm.ApplicationGateway.IApplicationGatewaySslProfile
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.8.0/docs/resources/application_gateway#name ApplicationGateway#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/application_gateway#name ApplicationGateway#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,9 +17,18 @@ namespace azurerm.ApplicationGateway
             set;
         }
 
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/application_gateway#client_authentication_mode ApplicationGateway#client_authentication_mode}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "clientAuthenticationMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ClientAuthenticationMode
+        {
+            get;
+            set;
+        }
+
         /// <summary>ssl_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.8.0/docs/resources/application_gateway#ssl_policy ApplicationGateway#ssl_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/application_gateway#ssl_policy ApplicationGateway#ssl_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sslPolicy", typeJson: "{\"fqn\":\"azurerm.applicationGateway.ApplicationGatewaySslProfileSslPolicy\"}", isOptional: true)]
@@ -29,7 +38,7 @@ namespace azurerm.ApplicationGateway
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.8.0/docs/resources/application_gateway#trusted_client_certificate_names ApplicationGateway#trusted_client_certificate_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/application_gateway#trusted_client_certificate_names ApplicationGateway#trusted_client_certificate_names}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "trustedClientCertificateNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? TrustedClientCertificateNames
@@ -40,7 +49,7 @@ namespace azurerm.ApplicationGateway
 
         private object? _verifyClientCertificateIssuerDn;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.8.0/docs/resources/application_gateway#verify_client_certificate_issuer_dn ApplicationGateway#verify_client_certificate_issuer_dn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/application_gateway#verify_client_certificate_issuer_dn ApplicationGateway#verify_client_certificate_issuer_dn}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -72,7 +81,7 @@ namespace azurerm.ApplicationGateway
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.8.0/docs/resources/application_gateway#verify_client_certificate_revocation ApplicationGateway#verify_client_certificate_revocation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/application_gateway#verify_client_certificate_revocation ApplicationGateway#verify_client_certificate_revocation}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "verifyClientCertificateRevocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VerifyClientCertificateRevocation
