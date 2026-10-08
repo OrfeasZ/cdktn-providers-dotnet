@@ -7,21 +7,21 @@ namespace oci.DataOciDataSafeSubsettingPolicyHealthReportLogs
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSubsettingPolicyHealthReportLogsFilter), fullyQualifiedName: "oci.dataOciDataSafeSubsettingPolicyHealthReportLogs.DataOciDataSafeSubsettingPolicyHealthReportLogsFilter")]
     public interface IDataOciDataSafeSubsettingPolicyHealthReportLogsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_health_report_logs#name DataOciDataSafeSubsettingPolicyHealthReportLogs#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_health_report_logs#name DataOciDataSafeSubsettingPolicyHealthReportLogs#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_health_report_logs#values DataOciDataSafeSubsettingPolicyHealthReportLogs#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_health_report_logs#values DataOciDataSafeSubsettingPolicyHealthReportLogs#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_health_report_logs#regex DataOciDataSafeSubsettingPolicyHealthReportLogs#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_health_report_logs#regex DataOciDataSafeSubsettingPolicyHealthReportLogs#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciDataSafeSubsettingPolicyHealthReportLogs
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_health_report_logs#name DataOciDataSafeSubsettingPolicyHealthReportLogs#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_health_report_logs#name DataOciDataSafeSubsettingPolicyHealthReportLogs#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_health_report_logs#values DataOciDataSafeSubsettingPolicyHealthReportLogs#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_health_report_logs#values DataOciDataSafeSubsettingPolicyHealthReportLogs#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_health_report_logs#regex DataOciDataSafeSubsettingPolicyHealthReportLogs#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_health_report_logs#regex DataOciDataSafeSubsettingPolicyHealthReportLogs#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

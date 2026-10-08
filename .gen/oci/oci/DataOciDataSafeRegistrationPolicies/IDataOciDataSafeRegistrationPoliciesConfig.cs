@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeRegistrationPolicies
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeRegistrationPoliciesConfig), fullyQualifiedName: "oci.dataOciDataSafeRegistrationPolicies.DataOciDataSafeRegistrationPoliciesConfig")]
     public interface IDataOciDataSafeRegistrationPoliciesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#compartment_id DataOciDataSafeRegistrationPolicies#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#compartment_id DataOciDataSafeRegistrationPolicies#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#access_level DataOciDataSafeRegistrationPolicies#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#access_level DataOciDataSafeRegistrationPolicies#access_level}.</summary>
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessLevel
@@ -25,7 +25,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#compartment_id_in_subtree DataOciDataSafeRegistrationPolicies#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#compartment_id_in_subtree DataOciDataSafeRegistrationPolicies#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -39,7 +39,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#connection_id DataOciDataSafeRegistrationPolicies#connection_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#connection_id DataOciDataSafeRegistrationPolicies#connection_id}.</summary>
         [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ConnectionId
@@ -50,7 +50,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#connection_type DataOciDataSafeRegistrationPolicies#connection_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#connection_type DataOciDataSafeRegistrationPolicies#connection_type}.</summary>
         [JsiiProperty(name: "connectionType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ConnectionType
@@ -61,7 +61,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#display_name DataOciDataSafeRegistrationPolicies#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#display_name DataOciDataSafeRegistrationPolicies#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -72,7 +72,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#enablement_level DataOciDataSafeRegistrationPolicies#enablement_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#enablement_level DataOciDataSafeRegistrationPolicies#enablement_level}.</summary>
         [JsiiProperty(name: "enablementLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EnablementLevel
@@ -85,7 +85,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#filter DataOciDataSafeRegistrationPolicies#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#filter DataOciDataSafeRegistrationPolicies#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeRegistrationPolicies.IDataOciDataSafeRegistrationPoliciesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataSafeRegistrationPolicies.DataOciDataSafeRegistrationPoliciesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -98,7 +98,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#id DataOciDataSafeRegistrationPolicies#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#id DataOciDataSafeRegistrationPolicies#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -113,7 +113,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#registration_policy_id DataOciDataSafeRegistrationPolicies#registration_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#registration_policy_id DataOciDataSafeRegistrationPolicies#registration_policy_id}.</summary>
         [JsiiProperty(name: "registrationPolicyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RegistrationPolicyId
@@ -124,7 +124,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#resource_id DataOciDataSafeRegistrationPolicies#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#resource_id DataOciDataSafeRegistrationPolicies#resource_id}.</summary>
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ResourceId
@@ -135,7 +135,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#state DataOciDataSafeRegistrationPolicies#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#state DataOciDataSafeRegistrationPolicies#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -146,7 +146,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#time_created_greater_than_or_equal_to DataOciDataSafeRegistrationPolicies#time_created_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#time_created_greater_than_or_equal_to DataOciDataSafeRegistrationPolicies#time_created_greater_than_or_equal_to}.</summary>
         [JsiiProperty(name: "timeCreatedGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeCreatedGreaterThanOrEqualTo
@@ -157,7 +157,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#time_created_less_than DataOciDataSafeRegistrationPolicies#time_created_less_than}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#time_created_less_than DataOciDataSafeRegistrationPolicies#time_created_less_than}.</summary>
         [JsiiProperty(name: "timeCreatedLessThan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeCreatedLessThan
@@ -175,14 +175,14 @@ namespace oci.DataOciDataSafeRegistrationPolicies
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#compartment_id DataOciDataSafeRegistrationPolicies#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#compartment_id DataOciDataSafeRegistrationPolicies#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#access_level DataOciDataSafeRegistrationPolicies#access_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#access_level DataOciDataSafeRegistrationPolicies#access_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessLevel
@@ -190,7 +190,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#compartment_id_in_subtree DataOciDataSafeRegistrationPolicies#compartment_id_in_subtree}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#compartment_id_in_subtree DataOciDataSafeRegistrationPolicies#compartment_id_in_subtree}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -201,7 +201,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#connection_id DataOciDataSafeRegistrationPolicies#connection_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#connection_id DataOciDataSafeRegistrationPolicies#connection_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "connectionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ConnectionId
@@ -209,7 +209,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#connection_type DataOciDataSafeRegistrationPolicies#connection_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#connection_type DataOciDataSafeRegistrationPolicies#connection_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "connectionType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ConnectionType
@@ -217,7 +217,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#display_name DataOciDataSafeRegistrationPolicies#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#display_name DataOciDataSafeRegistrationPolicies#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -225,7 +225,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#enablement_level DataOciDataSafeRegistrationPolicies#enablement_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#enablement_level DataOciDataSafeRegistrationPolicies#enablement_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "enablementLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EnablementLevel
@@ -235,7 +235,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#filter DataOciDataSafeRegistrationPolicies#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#filter DataOciDataSafeRegistrationPolicies#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeRegistrationPolicies.IDataOciDataSafeRegistrationPoliciesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -245,7 +245,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#id DataOciDataSafeRegistrationPolicies#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#id DataOciDataSafeRegistrationPolicies#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -257,7 +257,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#registration_policy_id DataOciDataSafeRegistrationPolicies#registration_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#registration_policy_id DataOciDataSafeRegistrationPolicies#registration_policy_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "registrationPolicyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RegistrationPolicyId
@@ -265,7 +265,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#resource_id DataOciDataSafeRegistrationPolicies#resource_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#resource_id DataOciDataSafeRegistrationPolicies#resource_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ResourceId
@@ -273,7 +273,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#state DataOciDataSafeRegistrationPolicies#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#state DataOciDataSafeRegistrationPolicies#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State
@@ -281,7 +281,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#time_created_greater_than_or_equal_to DataOciDataSafeRegistrationPolicies#time_created_greater_than_or_equal_to}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#time_created_greater_than_or_equal_to DataOciDataSafeRegistrationPolicies#time_created_greater_than_or_equal_to}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeCreatedGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeCreatedGreaterThanOrEqualTo
@@ -289,7 +289,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#time_created_less_than DataOciDataSafeRegistrationPolicies#time_created_less_than}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#time_created_less_than DataOciDataSafeRegistrationPolicies#time_created_less_than}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeCreatedLessThan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeCreatedLessThan

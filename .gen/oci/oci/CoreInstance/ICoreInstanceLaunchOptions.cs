@@ -7,7 +7,7 @@ namespace oci.CoreInstance
     [JsiiInterface(nativeType: typeof(ICoreInstanceLaunchOptions), fullyQualifiedName: "oci.coreInstance.CoreInstanceLaunchOptions")]
     public interface ICoreInstanceLaunchOptions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_instance#boot_volume_type CoreInstance#boot_volume_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_instance#boot_volume_type CoreInstance#boot_volume_type}.</summary>
         [JsiiProperty(name: "bootVolumeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BootVolumeType
@@ -18,7 +18,7 @@ namespace oci.CoreInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_instance#firmware CoreInstance#firmware}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_instance#firmware CoreInstance#firmware}.</summary>
         [JsiiProperty(name: "firmware", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Firmware
@@ -29,7 +29,7 @@ namespace oci.CoreInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_instance#is_consistent_volume_naming_enabled CoreInstance#is_consistent_volume_naming_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_instance#is_consistent_volume_naming_enabled CoreInstance#is_consistent_volume_naming_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -43,7 +43,21 @@ namespace oci.CoreInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_instance#is_pv_encryption_in_transit_enabled CoreInstance#is_pv_encryption_in_transit_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_instance#is_encryption_in_transit_enabled CoreInstance#is_encryption_in_transit_enabled}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "isEncryptionInTransitEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        object? IsEncryptionInTransitEnabled
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_instance#is_pv_encryption_in_transit_enabled CoreInstance#is_pv_encryption_in_transit_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -57,7 +71,7 @@ namespace oci.CoreInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_instance#network_type CoreInstance#network_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_instance#network_type CoreInstance#network_type}.</summary>
         [JsiiProperty(name: "networkType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NetworkType
@@ -68,7 +82,7 @@ namespace oci.CoreInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_instance#remote_data_volume_type CoreInstance#remote_data_volume_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_instance#remote_data_volume_type CoreInstance#remote_data_volume_type}.</summary>
         [JsiiProperty(name: "remoteDataVolumeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RemoteDataVolumeType
@@ -86,7 +100,7 @@ namespace oci.CoreInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_instance#boot_volume_type CoreInstance#boot_volume_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_instance#boot_volume_type CoreInstance#boot_volume_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bootVolumeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BootVolumeType
@@ -94,7 +108,7 @@ namespace oci.CoreInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_instance#firmware CoreInstance#firmware}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_instance#firmware CoreInstance#firmware}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "firmware", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Firmware
@@ -102,7 +116,7 @@ namespace oci.CoreInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_instance#is_consistent_volume_naming_enabled CoreInstance#is_consistent_volume_naming_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_instance#is_consistent_volume_naming_enabled CoreInstance#is_consistent_volume_naming_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -113,7 +127,18 @@ namespace oci.CoreInstance
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_instance#is_pv_encryption_in_transit_enabled CoreInstance#is_pv_encryption_in_transit_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_instance#is_encryption_in_transit_enabled CoreInstance#is_encryption_in_transit_enabled}.</summary>
+            /// <remarks>
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "isEncryptionInTransitEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+            public object? IsEncryptionInTransitEnabled
+            {
+                get => GetInstanceProperty<object?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_instance#is_pv_encryption_in_transit_enabled CoreInstance#is_pv_encryption_in_transit_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -124,7 +149,7 @@ namespace oci.CoreInstance
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_instance#network_type CoreInstance#network_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_instance#network_type CoreInstance#network_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "networkType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NetworkType
@@ -132,7 +157,7 @@ namespace oci.CoreInstance
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_instance#remote_data_volume_type CoreInstance#remote_data_volume_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_instance#remote_data_volume_type CoreInstance#remote_data_volume_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "remoteDataVolumeType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RemoteDataVolumeType

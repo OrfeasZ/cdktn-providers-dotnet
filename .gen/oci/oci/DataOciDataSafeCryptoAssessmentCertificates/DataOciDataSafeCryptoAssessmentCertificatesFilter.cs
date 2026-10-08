@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCertificates
     [JsiiByValue(fqn: "oci.dataOciDataSafeCryptoAssessmentCertificates.DataOciDataSafeCryptoAssessmentCertificatesFilter")]
     public class DataOciDataSafeCryptoAssessmentCertificatesFilter : oci.DataOciDataSafeCryptoAssessmentCertificates.IDataOciDataSafeCryptoAssessmentCertificatesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_certificates#name DataOciDataSafeCryptoAssessmentCertificates#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_certificates#name DataOciDataSafeCryptoAssessmentCertificates#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCertificates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_certificates#values DataOciDataSafeCryptoAssessmentCertificates#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_certificates#values DataOciDataSafeCryptoAssessmentCertificates#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCertificates
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_certificates#regex DataOciDataSafeCryptoAssessmentCertificates#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_certificates#regex DataOciDataSafeCryptoAssessmentCertificates#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

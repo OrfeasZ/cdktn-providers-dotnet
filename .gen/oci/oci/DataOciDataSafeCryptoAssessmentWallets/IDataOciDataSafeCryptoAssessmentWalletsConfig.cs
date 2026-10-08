@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeCryptoAssessmentWallets
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeCryptoAssessmentWalletsConfig), fullyQualifiedName: "oci.dataOciDataSafeCryptoAssessmentWallets.DataOciDataSafeCryptoAssessmentWalletsConfig")]
     public interface IDataOciDataSafeCryptoAssessmentWalletsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#compartment_id DataOciDataSafeCryptoAssessmentWallets#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#compartment_id DataOciDataSafeCryptoAssessmentWallets#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#access_level DataOciDataSafeCryptoAssessmentWallets#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#access_level DataOciDataSafeCryptoAssessmentWallets#access_level}.</summary>
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessLevel
@@ -25,7 +25,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentWallets
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#assessment_id DataOciDataSafeCryptoAssessmentWallets#assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#assessment_id DataOciDataSafeCryptoAssessmentWallets#assessment_id}.</summary>
         [JsiiProperty(name: "assessmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AssessmentId
@@ -36,7 +36,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentWallets
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#assessment_type DataOciDataSafeCryptoAssessmentWallets#assessment_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#assessment_type DataOciDataSafeCryptoAssessmentWallets#assessment_type}.</summary>
         [JsiiProperty(name: "assessmentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AssessmentType
@@ -47,7 +47,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentWallets
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#compartment_id_in_subtree DataOciDataSafeCryptoAssessmentWallets#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#compartment_id_in_subtree DataOciDataSafeCryptoAssessmentWallets#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -61,7 +61,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentWallets
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#feature DataOciDataSafeCryptoAssessmentWallets#feature}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#feature DataOciDataSafeCryptoAssessmentWallets#feature}.</summary>
         [JsiiProperty(name: "feature", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Feature
@@ -74,7 +74,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentWallets
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#filter DataOciDataSafeCryptoAssessmentWallets#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#filter DataOciDataSafeCryptoAssessmentWallets#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeCryptoAssessmentWallets.IDataOciDataSafeCryptoAssessmentWalletsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataSafeCryptoAssessmentWallets.DataOciDataSafeCryptoAssessmentWalletsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -87,7 +87,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentWallets
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#id DataOciDataSafeCryptoAssessmentWallets#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#id DataOciDataSafeCryptoAssessmentWallets#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -102,7 +102,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentWallets
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#target_id DataOciDataSafeCryptoAssessmentWallets#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#target_id DataOciDataSafeCryptoAssessmentWallets#target_id}.</summary>
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetId
@@ -113,7 +113,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentWallets
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#target_ids DataOciDataSafeCryptoAssessmentWallets#target_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#target_ids DataOciDataSafeCryptoAssessmentWallets#target_ids}.</summary>
         [JsiiProperty(name: "targetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? TargetIds
@@ -124,7 +124,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentWallets
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#wallet_encryption_algorithm DataOciDataSafeCryptoAssessmentWallets#wallet_encryption_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#wallet_encryption_algorithm DataOciDataSafeCryptoAssessmentWallets#wallet_encryption_algorithm}.</summary>
         [JsiiProperty(name: "walletEncryptionAlgorithm", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? WalletEncryptionAlgorithm
@@ -142,14 +142,14 @@ namespace oci.DataOciDataSafeCryptoAssessmentWallets
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#compartment_id DataOciDataSafeCryptoAssessmentWallets#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#compartment_id DataOciDataSafeCryptoAssessmentWallets#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#access_level DataOciDataSafeCryptoAssessmentWallets#access_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#access_level DataOciDataSafeCryptoAssessmentWallets#access_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessLevel
@@ -157,7 +157,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentWallets
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#assessment_id DataOciDataSafeCryptoAssessmentWallets#assessment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#assessment_id DataOciDataSafeCryptoAssessmentWallets#assessment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "assessmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AssessmentId
@@ -165,7 +165,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentWallets
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#assessment_type DataOciDataSafeCryptoAssessmentWallets#assessment_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#assessment_type DataOciDataSafeCryptoAssessmentWallets#assessment_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "assessmentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AssessmentType
@@ -173,7 +173,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentWallets
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#compartment_id_in_subtree DataOciDataSafeCryptoAssessmentWallets#compartment_id_in_subtree}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#compartment_id_in_subtree DataOciDataSafeCryptoAssessmentWallets#compartment_id_in_subtree}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -184,7 +184,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentWallets
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#feature DataOciDataSafeCryptoAssessmentWallets#feature}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#feature DataOciDataSafeCryptoAssessmentWallets#feature}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "feature", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Feature
@@ -194,7 +194,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentWallets
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#filter DataOciDataSafeCryptoAssessmentWallets#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#filter DataOciDataSafeCryptoAssessmentWallets#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeCryptoAssessmentWallets.IDataOciDataSafeCryptoAssessmentWalletsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -204,7 +204,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentWallets
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#id DataOciDataSafeCryptoAssessmentWallets#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#id DataOciDataSafeCryptoAssessmentWallets#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -216,7 +216,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentWallets
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#target_id DataOciDataSafeCryptoAssessmentWallets#target_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#target_id DataOciDataSafeCryptoAssessmentWallets#target_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetId
@@ -224,7 +224,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentWallets
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#target_ids DataOciDataSafeCryptoAssessmentWallets#target_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#target_ids DataOciDataSafeCryptoAssessmentWallets#target_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? TargetIds
@@ -232,7 +232,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentWallets
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_wallets#wallet_encryption_algorithm DataOciDataSafeCryptoAssessmentWallets#wallet_encryption_algorithm}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_wallets#wallet_encryption_algorithm DataOciDataSafeCryptoAssessmentWallets#wallet_encryption_algorithm}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "walletEncryptionAlgorithm", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? WalletEncryptionAlgorithm

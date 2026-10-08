@@ -9,7 +9,7 @@ namespace oci.DataOciCoreDrgNatPolicyDrgNatRules
     [JsiiByValue(fqn: "oci.dataOciCoreDrgNatPolicyDrgNatRules.DataOciCoreDrgNatPolicyDrgNatRulesConfig")]
     public class DataOciCoreDrgNatPolicyDrgNatRulesConfig : oci.DataOciCoreDrgNatPolicyDrgNatRules.IDataOciCoreDrgNatPolicyDrgNatRulesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/core_drg_nat_policy_drg_nat_rules#drg_nat_policy_id DataOciCoreDrgNatPolicyDrgNatRules#drg_nat_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/core_drg_nat_policy_drg_nat_rules#drg_nat_policy_id DataOciCoreDrgNatPolicyDrgNatRules#drg_nat_policy_id}.</summary>
         [JsiiProperty(name: "drgNatPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string DrgNatPolicyId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreDrgNatPolicyDrgNatRules
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/core_drg_nat_policy_drg_nat_rules#filter DataOciCoreDrgNatPolicyDrgNatRules#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/core_drg_nat_policy_drg_nat_rules#filter DataOciCoreDrgNatPolicyDrgNatRules#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreDrgNatPolicyDrgNatRules.IDataOciCoreDrgNatPolicyDrgNatRulesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciCoreDrgNatPolicyDrgNatRules
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/core_drg_nat_policy_drg_nat_rules#id DataOciCoreDrgNatPolicyDrgNatRules#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/core_drg_nat_policy_drg_nat_rules#id DataOciCoreDrgNatPolicyDrgNatRules#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

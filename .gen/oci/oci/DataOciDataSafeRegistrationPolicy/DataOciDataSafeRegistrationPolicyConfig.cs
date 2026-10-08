@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeRegistrationPolicy
     [JsiiByValue(fqn: "oci.dataOciDataSafeRegistrationPolicy.DataOciDataSafeRegistrationPolicyConfig")]
     public class DataOciDataSafeRegistrationPolicyConfig : oci.DataOciDataSafeRegistrationPolicy.IDataOciDataSafeRegistrationPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policy#registration_policy_id DataOciDataSafeRegistrationPolicy#registration_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policy#registration_policy_id DataOciDataSafeRegistrationPolicy#registration_policy_id}.</summary>
         [JsiiProperty(name: "registrationPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string RegistrationPolicyId
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
     [JsiiByValue(fqn: "oci.dataOciDataSafeRegistrationPolicies.DataOciDataSafeRegistrationPoliciesFilter")]
     public class DataOciDataSafeRegistrationPoliciesFilter : oci.DataOciDataSafeRegistrationPolicies.IDataOciDataSafeRegistrationPoliciesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#name DataOciDataSafeRegistrationPolicies#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#name DataOciDataSafeRegistrationPolicies#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#values DataOciDataSafeRegistrationPolicies#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#values DataOciDataSafeRegistrationPolicies#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeRegistrationPolicies
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policies#regex DataOciDataSafeRegistrationPolicies#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policies#regex DataOciDataSafeRegistrationPolicies#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiModelDiscoveries
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiModelDiscoveries.DataOciGenerativeAiModelDiscoveriesFilter")]
     public class DataOciGenerativeAiModelDiscoveriesFilter : oci.DataOciGenerativeAiModelDiscoveries.IDataOciGenerativeAiModelDiscoveriesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/generative_ai_model_discoveries#name DataOciGenerativeAiModelDiscoveries#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/generative_ai_model_discoveries#name DataOciGenerativeAiModelDiscoveries#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGenerativeAiModelDiscoveries
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/generative_ai_model_discoveries#values DataOciGenerativeAiModelDiscoveries#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/generative_ai_model_discoveries#values DataOciGenerativeAiModelDiscoveries#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciGenerativeAiModelDiscoveries
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/generative_ai_model_discoveries#regex DataOciGenerativeAiModelDiscoveries#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/generative_ai_model_discoveries#regex DataOciGenerativeAiModelDiscoveries#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

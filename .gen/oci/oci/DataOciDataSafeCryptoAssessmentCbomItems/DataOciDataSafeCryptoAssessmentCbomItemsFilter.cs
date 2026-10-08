@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCbomItems
     [JsiiByValue(fqn: "oci.dataOciDataSafeCryptoAssessmentCbomItems.DataOciDataSafeCryptoAssessmentCbomItemsFilter")]
     public class DataOciDataSafeCryptoAssessmentCbomItemsFilter : oci.DataOciDataSafeCryptoAssessmentCbomItems.IDataOciDataSafeCryptoAssessmentCbomItemsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_cbom_items#name DataOciDataSafeCryptoAssessmentCbomItems#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_cbom_items#name DataOciDataSafeCryptoAssessmentCbomItems#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCbomItems
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_cbom_items#values DataOciDataSafeCryptoAssessmentCbomItems#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_cbom_items#values DataOciDataSafeCryptoAssessmentCbomItems#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentCbomItems
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_cbom_items#regex DataOciDataSafeCryptoAssessmentCbomItems#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_cbom_items#regex DataOciDataSafeCryptoAssessmentCbomItems#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

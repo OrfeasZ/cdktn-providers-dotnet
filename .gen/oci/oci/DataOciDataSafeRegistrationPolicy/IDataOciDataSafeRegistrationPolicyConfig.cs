@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeRegistrationPolicy
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeRegistrationPolicyConfig), fullyQualifiedName: "oci.dataOciDataSafeRegistrationPolicy.DataOciDataSafeRegistrationPolicyConfig")]
     public interface IDataOciDataSafeRegistrationPolicyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policy#registration_policy_id DataOciDataSafeRegistrationPolicy#registration_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policy#registration_policy_id DataOciDataSafeRegistrationPolicy#registration_policy_id}.</summary>
         [JsiiProperty(name: "registrationPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string RegistrationPolicyId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeRegistrationPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policy#registration_policy_id DataOciDataSafeRegistrationPolicy#registration_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policy#registration_policy_id DataOciDataSafeRegistrationPolicy#registration_policy_id}.</summary>
             [JsiiProperty(name: "registrationPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string RegistrationPolicyId
             {

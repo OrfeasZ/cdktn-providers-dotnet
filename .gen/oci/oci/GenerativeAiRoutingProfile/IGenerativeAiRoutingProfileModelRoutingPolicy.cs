@@ -7,7 +7,7 @@ namespace oci.GenerativeAiRoutingProfile
     [JsiiInterface(nativeType: typeof(IGenerativeAiRoutingProfileModelRoutingPolicy), fullyQualifiedName: "oci.generativeAiRoutingProfile.GenerativeAiRoutingProfileModelRoutingPolicy")]
     public interface IGenerativeAiRoutingProfileModelRoutingPolicy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/generative_ai_routing_profile#allowed_models GenerativeAiRoutingProfile#allowed_models}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/generative_ai_routing_profile#allowed_models GenerativeAiRoutingProfile#allowed_models}.</summary>
         [JsiiProperty(name: "allowedModels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? AllowedModels
@@ -25,7 +25,7 @@ namespace oci.GenerativeAiRoutingProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/generative_ai_routing_profile#allowed_models GenerativeAiRoutingProfile#allowed_models}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/generative_ai_routing_profile#allowed_models GenerativeAiRoutingProfile#allowed_models}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "allowedModels", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? AllowedModels

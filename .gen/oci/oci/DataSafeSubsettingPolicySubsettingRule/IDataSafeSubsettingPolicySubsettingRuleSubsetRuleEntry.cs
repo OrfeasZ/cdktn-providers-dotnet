@@ -7,14 +7,14 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
     [JsiiInterface(nativeType: typeof(IDataSafeSubsettingPolicySubsettingRuleSubsetRuleEntry), fullyQualifiedName: "oci.dataSafeSubsettingPolicySubsettingRule.DataSafeSubsettingPolicySubsettingRuleSubsetRuleEntry")]
     public interface IDataSafeSubsettingPolicySubsettingRuleSubsetRuleEntry
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#rule_type DataSafeSubsettingPolicySubsettingRule#rule_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#rule_type DataSafeSubsettingPolicySubsettingRule#rule_type}.</summary>
         [JsiiProperty(name: "ruleType", typeJson: "{\"primitive\":\"string\"}")]
         string RuleType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#condition DataSafeSubsettingPolicySubsettingRule#condition}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#condition DataSafeSubsettingPolicySubsettingRule#condition}.</summary>
         [JsiiProperty(name: "condition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Condition
@@ -25,7 +25,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#partitions_list DataSafeSubsettingPolicySubsettingRule#partitions_list}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#partitions_list DataSafeSubsettingPolicySubsettingRule#partitions_list}.</summary>
         [JsiiProperty(name: "partitionsList", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? PartitionsList
@@ -36,7 +36,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#percent DataSafeSubsettingPolicySubsettingRule#percent}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#percent DataSafeSubsettingPolicySubsettingRule#percent}.</summary>
         [JsiiProperty(name: "percent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Percent
@@ -47,7 +47,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#sub_partitions_list DataSafeSubsettingPolicySubsettingRule#sub_partitions_list}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#sub_partitions_list DataSafeSubsettingPolicySubsettingRule#sub_partitions_list}.</summary>
         [JsiiProperty(name: "subPartitionsList", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SubPartitionsList
@@ -65,14 +65,14 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#rule_type DataSafeSubsettingPolicySubsettingRule#rule_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#rule_type DataSafeSubsettingPolicySubsettingRule#rule_type}.</summary>
             [JsiiProperty(name: "ruleType", typeJson: "{\"primitive\":\"string\"}")]
             public string RuleType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#condition DataSafeSubsettingPolicySubsettingRule#condition}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#condition DataSafeSubsettingPolicySubsettingRule#condition}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "condition", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Condition
@@ -80,7 +80,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#partitions_list DataSafeSubsettingPolicySubsettingRule#partitions_list}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#partitions_list DataSafeSubsettingPolicySubsettingRule#partitions_list}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "partitionsList", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? PartitionsList
@@ -88,7 +88,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#percent DataSafeSubsettingPolicySubsettingRule#percent}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#percent DataSafeSubsettingPolicySubsettingRule#percent}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "percent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Percent
@@ -96,7 +96,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#sub_partitions_list DataSafeSubsettingPolicySubsettingRule#sub_partitions_list}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#sub_partitions_list DataSafeSubsettingPolicySubsettingRule#sub_partitions_list}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subPartitionsList", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SubPartitionsList

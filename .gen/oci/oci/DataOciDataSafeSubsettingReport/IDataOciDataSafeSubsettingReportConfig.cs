@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeSubsettingReport
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSubsettingReportConfig), fullyQualifiedName: "oci.dataOciDataSafeSubsettingReport.DataOciDataSafeSubsettingReportConfig")]
     public interface IDataOciDataSafeSubsettingReportConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_report#subsetting_report_id DataOciDataSafeSubsettingReport#subsetting_report_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_report#subsetting_report_id DataOciDataSafeSubsettingReport#subsetting_report_id}.</summary>
         [JsiiProperty(name: "subsettingReportId", typeJson: "{\"primitive\":\"string\"}")]
         string SubsettingReportId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_report#id DataOciDataSafeSubsettingReport#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_report#id DataOciDataSafeSubsettingReport#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -36,14 +36,14 @@ namespace oci.DataOciDataSafeSubsettingReport
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_report#subsetting_report_id DataOciDataSafeSubsettingReport#subsetting_report_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_report#subsetting_report_id DataOciDataSafeSubsettingReport#subsetting_report_id}.</summary>
             [JsiiProperty(name: "subsettingReportId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubsettingReportId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_report#id DataOciDataSafeSubsettingReport#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_report#id DataOciDataSafeSubsettingReport#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

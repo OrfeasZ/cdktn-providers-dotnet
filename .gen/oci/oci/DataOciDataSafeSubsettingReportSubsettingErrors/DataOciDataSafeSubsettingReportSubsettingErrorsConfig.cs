@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSubsettingReportSubsettingErrors
     [JsiiByValue(fqn: "oci.dataOciDataSafeSubsettingReportSubsettingErrors.DataOciDataSafeSubsettingReportSubsettingErrorsConfig")]
     public class DataOciDataSafeSubsettingReportSubsettingErrorsConfig : oci.DataOciDataSafeSubsettingReportSubsettingErrors.IDataOciDataSafeSubsettingReportSubsettingErrorsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors#subsetting_report_id DataOciDataSafeSubsettingReportSubsettingErrors#subsetting_report_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors#subsetting_report_id DataOciDataSafeSubsettingReportSubsettingErrors#subsetting_report_id}.</summary>
         [JsiiProperty(name: "subsettingReportId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubsettingReportId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeSubsettingReportSubsettingErrors
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors#filter DataOciDataSafeSubsettingReportSubsettingErrors#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors#filter DataOciDataSafeSubsettingReportSubsettingErrors#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSubsettingReportSubsettingErrors.IDataOciDataSafeSubsettingReportSubsettingErrorsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciDataSafeSubsettingReportSubsettingErrors
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors#id DataOciDataSafeSubsettingReportSubsettingErrors#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors#id DataOciDataSafeSubsettingReportSubsettingErrors#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciDataSafeSubsettingReportSubsettingErrors
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors#step_name DataOciDataSafeSubsettingReportSubsettingErrors#step_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors#step_name DataOciDataSafeSubsettingReportSubsettingErrors#step_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "stepName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StepName

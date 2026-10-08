@@ -9,7 +9,7 @@ namespace oci.DataOciFunctionsFunctionsRuntime
     [JsiiByValue(fqn: "oci.dataOciFunctionsFunctionsRuntime.DataOciFunctionsFunctionsRuntimeConfig")]
     public class DataOciFunctionsFunctionsRuntimeConfig : oci.DataOciFunctionsFunctionsRuntime.IDataOciFunctionsFunctionsRuntimeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtime#functions_runtime_id DataOciFunctionsFunctionsRuntime#functions_runtime_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtime#functions_runtime_id DataOciFunctionsFunctionsRuntime#functions_runtime_id}.</summary>
         [JsiiProperty(name: "functionsRuntimeId", typeJson: "{\"primitive\":\"string\"}")]
         public string FunctionsRuntimeId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFunctionsFunctionsRuntime
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtime#id DataOciFunctionsFunctionsRuntime#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtime#id DataOciFunctionsFunctionsRuntime#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

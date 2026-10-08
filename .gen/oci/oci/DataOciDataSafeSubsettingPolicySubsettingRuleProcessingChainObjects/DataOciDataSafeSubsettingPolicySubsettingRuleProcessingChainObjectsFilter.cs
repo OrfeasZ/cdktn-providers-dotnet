@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObject
     [JsiiByValue(fqn: "oci.dataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjects.DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjectsFilter")]
     public class DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjectsFilter : oci.DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjects.IDataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjectsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_rule_processing_chain_objects#name DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjects#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_rule_processing_chain_objects#name DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjects#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_rule_processing_chain_objects#values DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjects#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_rule_processing_chain_objects#values DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjects#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObject
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_rule_processing_chain_objects#regex DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjects#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_rule_processing_chain_objects#regex DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjects#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

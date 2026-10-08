@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSubsettingPolicyHealthReports
     [JsiiByValue(fqn: "oci.dataOciDataSafeSubsettingPolicyHealthReports.DataOciDataSafeSubsettingPolicyHealthReportsFilter")]
     public class DataOciDataSafeSubsettingPolicyHealthReportsFilter : oci.DataOciDataSafeSubsettingPolicyHealthReports.IDataOciDataSafeSubsettingPolicyHealthReportsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_health_reports#name DataOciDataSafeSubsettingPolicyHealthReports#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_health_reports#name DataOciDataSafeSubsettingPolicyHealthReports#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeSubsettingPolicyHealthReports
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_health_reports#values DataOciDataSafeSubsettingPolicyHealthReports#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_health_reports#values DataOciDataSafeSubsettingPolicyHealthReports#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeSubsettingPolicyHealthReports
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_health_reports#regex DataOciDataSafeSubsettingPolicyHealthReports#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_health_reports#regex DataOciDataSafeSubsettingPolicyHealthReports#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

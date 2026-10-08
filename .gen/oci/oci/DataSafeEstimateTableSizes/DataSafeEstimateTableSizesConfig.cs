@@ -9,7 +9,7 @@ namespace oci.DataSafeEstimateTableSizes
     [JsiiByValue(fqn: "oci.dataSafeEstimateTableSizes.DataSafeEstimateTableSizesConfig")]
     public class DataSafeEstimateTableSizesConfig : oci.DataSafeEstimateTableSizes.IDataSafeEstimateTableSizesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_estimate_table_sizes#subsetting_policy_id DataSafeEstimateTableSizes#subsetting_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_estimate_table_sizes#subsetting_policy_id DataSafeEstimateTableSizes#subsetting_policy_id}.</summary>
         [JsiiProperty(name: "subsettingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubsettingPolicyId
         {
@@ -19,7 +19,7 @@ namespace oci.DataSafeEstimateTableSizes
 
         /// <summary>target_credentials block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_estimate_table_sizes#target_credentials DataSafeEstimateTableSizes#target_credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_estimate_table_sizes#target_credentials DataSafeEstimateTableSizes#target_credentials}
         /// </remarks>
         [JsiiProperty(name: "targetCredentials", typeJson: "{\"fqn\":\"oci.dataSafeEstimateTableSizes.DataSafeEstimateTableSizesTargetCredentials\"}")]
         public oci.DataSafeEstimateTableSizes.IDataSafeEstimateTableSizesTargetCredentials TargetCredentials
@@ -28,7 +28,7 @@ namespace oci.DataSafeEstimateTableSizes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_estimate_table_sizes#id DataSafeEstimateTableSizes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_estimate_table_sizes#id DataSafeEstimateTableSizes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,7 +41,7 @@ namespace oci.DataSafeEstimateTableSizes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_estimate_table_sizes#target_id DataSafeEstimateTableSizes#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_estimate_table_sizes#target_id DataSafeEstimateTableSizes#target_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetId
@@ -52,7 +52,7 @@ namespace oci.DataSafeEstimateTableSizes
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_estimate_table_sizes#timeouts DataSafeEstimateTableSizes#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_estimate_table_sizes#timeouts DataSafeEstimateTableSizes#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeEstimateTableSizes.DataSafeEstimateTableSizesTimeouts\"}", isOptional: true)]

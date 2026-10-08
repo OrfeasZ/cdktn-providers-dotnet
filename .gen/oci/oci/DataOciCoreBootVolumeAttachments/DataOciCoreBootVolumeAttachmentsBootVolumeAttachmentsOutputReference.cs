@@ -77,6 +77,12 @@ namespace oci.DataOciCoreBootVolumeAttachments
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "isEncryptionInTransitEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsEncryptionInTransitEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "isPvEncryptionInTransitEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsPvEncryptionInTransitEnabled
         {

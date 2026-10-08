@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSubsettingPolicyHealthReportLogs
     [JsiiByValue(fqn: "oci.dataOciDataSafeSubsettingPolicyHealthReportLogs.DataOciDataSafeSubsettingPolicyHealthReportLogsConfig")]
     public class DataOciDataSafeSubsettingPolicyHealthReportLogsConfig : oci.DataOciDataSafeSubsettingPolicyHealthReportLogs.IDataOciDataSafeSubsettingPolicyHealthReportLogsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_health_report_logs#subsetting_policy_health_report_id DataOciDataSafeSubsettingPolicyHealthReportLogs#subsetting_policy_health_report_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_health_report_logs#subsetting_policy_health_report_id DataOciDataSafeSubsettingPolicyHealthReportLogs#subsetting_policy_health_report_id}.</summary>
         [JsiiProperty(name: "subsettingPolicyHealthReportId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubsettingPolicyHealthReportId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeSubsettingPolicyHealthReportLogs
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_health_report_logs#filter DataOciDataSafeSubsettingPolicyHealthReportLogs#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_health_report_logs#filter DataOciDataSafeSubsettingPolicyHealthReportLogs#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSubsettingPolicyHealthReportLogs.IDataOciDataSafeSubsettingPolicyHealthReportLogsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciDataSafeSubsettingPolicyHealthReportLogs
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_health_report_logs#id DataOciDataSafeSubsettingPolicyHealthReportLogs#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_health_report_logs#id DataOciDataSafeSubsettingPolicyHealthReportLogs#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciDataSafeSubsettingPolicyHealthReportLogs
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_health_report_logs#message_type DataOciDataSafeSubsettingPolicyHealthReportLogs#message_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_health_report_logs#message_type DataOciDataSafeSubsettingPolicyHealthReportLogs#message_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "messageType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MessageType

@@ -9,7 +9,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimeVersions
     [JsiiByValue(fqn: "oci.dataOciFunctionsFunctionsRuntimeVersions.DataOciFunctionsFunctionsRuntimeVersionsFilter")]
     public class DataOciFunctionsFunctionsRuntimeVersionsFilter : oci.DataOciFunctionsFunctionsRuntimeVersions.IDataOciFunctionsFunctionsRuntimeVersionsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtime_versions#name DataOciFunctionsFunctionsRuntimeVersions#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtime_versions#name DataOciFunctionsFunctionsRuntimeVersions#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimeVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtime_versions#values DataOciFunctionsFunctionsRuntimeVersions#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtime_versions#values DataOciFunctionsFunctionsRuntimeVersions#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimeVersions
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtime_versions#regex DataOciFunctionsFunctionsRuntimeVersions#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtime_versions#regex DataOciFunctionsFunctionsRuntimeVersions#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

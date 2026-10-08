@@ -7,7 +7,7 @@ namespace oci.CoreDrgNatPolicyDrgNatRule
     [JsiiInterface(nativeType: typeof(ICoreDrgNatPolicyDrgNatRuleTimeouts), fullyQualifiedName: "oci.coreDrgNatPolicyDrgNatRule.CoreDrgNatPolicyDrgNatRuleTimeouts")]
     public interface ICoreDrgNatPolicyDrgNatRuleTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_drg_nat_policy_drg_nat_rule#create CoreDrgNatPolicyDrgNatRule#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_drg_nat_policy_drg_nat_rule#create CoreDrgNatPolicyDrgNatRule#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.CoreDrgNatPolicyDrgNatRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_drg_nat_policy_drg_nat_rule#delete CoreDrgNatPolicyDrgNatRule#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_drg_nat_policy_drg_nat_rule#delete CoreDrgNatPolicyDrgNatRule#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.CoreDrgNatPolicyDrgNatRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_drg_nat_policy_drg_nat_rule#update CoreDrgNatPolicyDrgNatRule#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_drg_nat_policy_drg_nat_rule#update CoreDrgNatPolicyDrgNatRule#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.CoreDrgNatPolicyDrgNatRule
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_drg_nat_policy_drg_nat_rule#create CoreDrgNatPolicyDrgNatRule#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_drg_nat_policy_drg_nat_rule#create CoreDrgNatPolicyDrgNatRule#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.CoreDrgNatPolicyDrgNatRule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_drg_nat_policy_drg_nat_rule#delete CoreDrgNatPolicyDrgNatRule#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_drg_nat_policy_drg_nat_rule#delete CoreDrgNatPolicyDrgNatRule#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.CoreDrgNatPolicyDrgNatRule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_drg_nat_policy_drg_nat_rule#update CoreDrgNatPolicyDrgNatRule#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_drg_nat_policy_drg_nat_rule#update CoreDrgNatPolicyDrgNatRule#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

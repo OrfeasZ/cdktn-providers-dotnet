@@ -9,7 +9,7 @@ namespace oci.DataOciCoreDrgNatPolicies
     [JsiiByValue(fqn: "oci.dataOciCoreDrgNatPolicies.DataOciCoreDrgNatPoliciesConfig")]
     public class DataOciCoreDrgNatPoliciesConfig : oci.DataOciCoreDrgNatPolicies.IDataOciCoreDrgNatPoliciesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/core_drg_nat_policies#compartment_id DataOciCoreDrgNatPolicies#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/core_drg_nat_policies#compartment_id DataOciCoreDrgNatPolicies#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciCoreDrgNatPolicies
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/core_drg_nat_policies#display_name DataOciCoreDrgNatPolicies#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/core_drg_nat_policies#display_name DataOciCoreDrgNatPolicies#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -30,7 +30,7 @@ namespace oci.DataOciCoreDrgNatPolicies
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/core_drg_nat_policies#filter DataOciCoreDrgNatPolicies#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/core_drg_nat_policies#filter DataOciCoreDrgNatPolicies#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciCoreDrgNatPolicies.IDataOciCoreDrgNatPoliciesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace oci.DataOciCoreDrgNatPolicies
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/core_drg_nat_policies#id DataOciCoreDrgNatPolicies#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/core_drg_nat_policies#id DataOciCoreDrgNatPolicies#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

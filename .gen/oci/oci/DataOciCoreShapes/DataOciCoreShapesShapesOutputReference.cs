@@ -47,6 +47,12 @@ namespace oci.DataOciCoreShapes
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "bsNvmeAttachmentsConfig", typeJson: "{\"fqn\":\"oci.dataOciCoreShapes.DataOciCoreShapesShapesBsNvmeAttachmentsConfigList\"}")]
+        public virtual oci.DataOciCoreShapes.DataOciCoreShapesShapesBsNvmeAttachmentsConfigList BsNvmeAttachmentsConfig
+        {
+            get => GetInstanceProperty<oci.DataOciCoreShapes.DataOciCoreShapesShapesBsNvmeAttachmentsConfigList>()!;
+        }
+
         [JsiiProperty(name: "gpuDescription", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string GpuDescription
         {

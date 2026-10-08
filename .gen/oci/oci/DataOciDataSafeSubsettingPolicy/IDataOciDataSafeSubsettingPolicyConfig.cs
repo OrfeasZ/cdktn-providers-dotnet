@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeSubsettingPolicy
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSubsettingPolicyConfig), fullyQualifiedName: "oci.dataOciDataSafeSubsettingPolicy.DataOciDataSafeSubsettingPolicyConfig")]
     public interface IDataOciDataSafeSubsettingPolicyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy#subsetting_policy_id DataOciDataSafeSubsettingPolicy#subsetting_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy#subsetting_policy_id DataOciDataSafeSubsettingPolicy#subsetting_policy_id}.</summary>
         [JsiiProperty(name: "subsettingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string SubsettingPolicyId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeSubsettingPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy#subsetting_policy_id DataOciDataSafeSubsettingPolicy#subsetting_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy#subsetting_policy_id DataOciDataSafeSubsettingPolicy#subsetting_policy_id}.</summary>
             [JsiiProperty(name: "subsettingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubsettingPolicyId
             {

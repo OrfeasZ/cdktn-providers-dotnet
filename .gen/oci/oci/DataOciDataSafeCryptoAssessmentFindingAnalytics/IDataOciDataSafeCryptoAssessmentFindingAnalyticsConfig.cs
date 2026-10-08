@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindingAnalytics
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeCryptoAssessmentFindingAnalyticsConfig), fullyQualifiedName: "oci.dataOciDataSafeCryptoAssessmentFindingAnalytics.DataOciDataSafeCryptoAssessmentFindingAnalyticsConfig")]
     public interface IDataOciDataSafeCryptoAssessmentFindingAnalyticsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#compartment_id DataOciDataSafeCryptoAssessmentFindingAnalytics#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#compartment_id DataOciDataSafeCryptoAssessmentFindingAnalytics#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#access_level DataOciDataSafeCryptoAssessmentFindingAnalytics#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#access_level DataOciDataSafeCryptoAssessmentFindingAnalytics#access_level}.</summary>
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessLevel
@@ -25,7 +25,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindingAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#category DataOciDataSafeCryptoAssessmentFindingAnalytics#category}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#category DataOciDataSafeCryptoAssessmentFindingAnalytics#category}.</summary>
         [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Category
@@ -36,7 +36,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindingAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#compartment_id_in_subtree DataOciDataSafeCryptoAssessmentFindingAnalytics#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#compartment_id_in_subtree DataOciDataSafeCryptoAssessmentFindingAnalytics#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -52,7 +52,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindingAnalytics
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#filter DataOciDataSafeCryptoAssessmentFindingAnalytics#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#filter DataOciDataSafeCryptoAssessmentFindingAnalytics#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeCryptoAssessmentFindingAnalytics.IDataOciDataSafeCryptoAssessmentFindingAnalyticsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataSafeCryptoAssessmentFindingAnalytics.DataOciDataSafeCryptoAssessmentFindingAnalyticsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -65,7 +65,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindingAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#finding_key DataOciDataSafeCryptoAssessmentFindingAnalytics#finding_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#finding_key DataOciDataSafeCryptoAssessmentFindingAnalytics#finding_key}.</summary>
         [JsiiProperty(name: "findingKey", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? FindingKey
@@ -76,7 +76,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindingAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#id DataOciDataSafeCryptoAssessmentFindingAnalytics#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#id DataOciDataSafeCryptoAssessmentFindingAnalytics#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -91,7 +91,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindingAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#is_quantum_readiness_check DataOciDataSafeCryptoAssessmentFindingAnalytics#is_quantum_readiness_check}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#is_quantum_readiness_check DataOciDataSafeCryptoAssessmentFindingAnalytics#is_quantum_readiness_check}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -112,14 +112,14 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindingAnalytics
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#compartment_id DataOciDataSafeCryptoAssessmentFindingAnalytics#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#compartment_id DataOciDataSafeCryptoAssessmentFindingAnalytics#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#access_level DataOciDataSafeCryptoAssessmentFindingAnalytics#access_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#access_level DataOciDataSafeCryptoAssessmentFindingAnalytics#access_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessLevel
@@ -127,7 +127,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindingAnalytics
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#category DataOciDataSafeCryptoAssessmentFindingAnalytics#category}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#category DataOciDataSafeCryptoAssessmentFindingAnalytics#category}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Category
@@ -135,7 +135,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindingAnalytics
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#compartment_id_in_subtree DataOciDataSafeCryptoAssessmentFindingAnalytics#compartment_id_in_subtree}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#compartment_id_in_subtree DataOciDataSafeCryptoAssessmentFindingAnalytics#compartment_id_in_subtree}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -148,7 +148,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindingAnalytics
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#filter DataOciDataSafeCryptoAssessmentFindingAnalytics#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#filter DataOciDataSafeCryptoAssessmentFindingAnalytics#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeCryptoAssessmentFindingAnalytics.IDataOciDataSafeCryptoAssessmentFindingAnalyticsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -158,7 +158,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindingAnalytics
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#finding_key DataOciDataSafeCryptoAssessmentFindingAnalytics#finding_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#finding_key DataOciDataSafeCryptoAssessmentFindingAnalytics#finding_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "findingKey", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? FindingKey
@@ -166,7 +166,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindingAnalytics
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#id DataOciDataSafeCryptoAssessmentFindingAnalytics#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#id DataOciDataSafeCryptoAssessmentFindingAnalytics#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -178,7 +178,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentFindingAnalytics
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#is_quantum_readiness_check DataOciDataSafeCryptoAssessmentFindingAnalytics#is_quantum_readiness_check}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_finding_analytics#is_quantum_readiness_check DataOciDataSafeCryptoAssessmentFindingAnalytics#is_quantum_readiness_check}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

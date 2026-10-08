@@ -7,7 +7,7 @@ namespace oci.DataOciCoreDrgNatPolicy
     [JsiiInterface(nativeType: typeof(IDataOciCoreDrgNatPolicyConfig), fullyQualifiedName: "oci.dataOciCoreDrgNatPolicy.DataOciCoreDrgNatPolicyConfig")]
     public interface IDataOciCoreDrgNatPolicyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/core_drg_nat_policy#drg_nat_policy_id DataOciCoreDrgNatPolicy#drg_nat_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/core_drg_nat_policy#drg_nat_policy_id DataOciCoreDrgNatPolicy#drg_nat_policy_id}.</summary>
         [JsiiProperty(name: "drgNatPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string DrgNatPolicyId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciCoreDrgNatPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/core_drg_nat_policy#drg_nat_policy_id DataOciCoreDrgNatPolicy#drg_nat_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/core_drg_nat_policy#drg_nat_policy_id DataOciCoreDrgNatPolicy#drg_nat_policy_id}.</summary>
             [JsiiProperty(name: "drgNatPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string DrgNatPolicyId
             {

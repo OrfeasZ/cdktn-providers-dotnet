@@ -5,7 +5,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingSchemaRelations
     /// <remarks>
     /// <h1><c>data_oci_data_safe_subsetting_policy_subsetting_schema_relations</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schema_relations"><c>data_oci_data_safe_subsetting_policy_subsetting_schema_relations</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schema_relations"><c>data_oci_data_safe_subsetting_policy_subsetting_schema_relations</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

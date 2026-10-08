@@ -7,7 +7,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingSchemaRelation
     [JsiiByValue(fqn: "oci.dataSafeSubsettingPolicySubsettingSchemaRelation.DataSafeSubsettingPolicySubsettingSchemaRelationTimeouts")]
     public class DataSafeSubsettingPolicySubsettingSchemaRelationTimeouts : oci.DataSafeSubsettingPolicySubsettingSchemaRelation.IDataSafeSubsettingPolicySubsettingSchemaRelationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_schema_relation#create DataSafeSubsettingPolicySubsettingSchemaRelation#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_schema_relation#create DataSafeSubsettingPolicySubsettingSchemaRelation#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingSchemaRelation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_schema_relation#delete DataSafeSubsettingPolicySubsettingSchemaRelation#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_schema_relation#delete DataSafeSubsettingPolicySubsettingSchemaRelation#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingSchemaRelation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_schema_relation#update DataSafeSubsettingPolicySubsettingSchemaRelation#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_schema_relation#update DataSafeSubsettingPolicySubsettingSchemaRelation#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

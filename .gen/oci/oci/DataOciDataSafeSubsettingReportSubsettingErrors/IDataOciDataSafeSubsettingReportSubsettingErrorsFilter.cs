@@ -7,21 +7,21 @@ namespace oci.DataOciDataSafeSubsettingReportSubsettingErrors
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSubsettingReportSubsettingErrorsFilter), fullyQualifiedName: "oci.dataOciDataSafeSubsettingReportSubsettingErrors.DataOciDataSafeSubsettingReportSubsettingErrorsFilter")]
     public interface IDataOciDataSafeSubsettingReportSubsettingErrorsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors#name DataOciDataSafeSubsettingReportSubsettingErrors#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors#name DataOciDataSafeSubsettingReportSubsettingErrors#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors#values DataOciDataSafeSubsettingReportSubsettingErrors#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors#values DataOciDataSafeSubsettingReportSubsettingErrors#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors#regex DataOciDataSafeSubsettingReportSubsettingErrors#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors#regex DataOciDataSafeSubsettingReportSubsettingErrors#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciDataSafeSubsettingReportSubsettingErrors
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors#name DataOciDataSafeSubsettingReportSubsettingErrors#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors#name DataOciDataSafeSubsettingReportSubsettingErrors#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors#values DataOciDataSafeSubsettingReportSubsettingErrors#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors#values DataOciDataSafeSubsettingReportSubsettingErrors#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors#regex DataOciDataSafeSubsettingReportSubsettingErrors#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors#regex DataOciDataSafeSubsettingReportSubsettingErrors#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

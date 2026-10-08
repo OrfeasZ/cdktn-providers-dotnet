@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeRegistrationPolicyTargetDatabases
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeRegistrationPolicyTargetDatabasesConfig), fullyQualifiedName: "oci.dataOciDataSafeRegistrationPolicyTargetDatabases.DataOciDataSafeRegistrationPolicyTargetDatabasesConfig")]
     public interface IDataOciDataSafeRegistrationPolicyTargetDatabasesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policy_target_databases#compartment_id DataOciDataSafeRegistrationPolicyTargetDatabases#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policy_target_databases#compartment_id DataOciDataSafeRegistrationPolicyTargetDatabases#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policy_target_databases#registration_policy_id DataOciDataSafeRegistrationPolicyTargetDatabases#registration_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policy_target_databases#registration_policy_id DataOciDataSafeRegistrationPolicyTargetDatabases#registration_policy_id}.</summary>
         [JsiiProperty(name: "registrationPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string RegistrationPolicyId
         {
@@ -23,7 +23,7 @@ namespace oci.DataOciDataSafeRegistrationPolicyTargetDatabases
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policy_target_databases#filter DataOciDataSafeRegistrationPolicyTargetDatabases#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policy_target_databases#filter DataOciDataSafeRegistrationPolicyTargetDatabases#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeRegistrationPolicyTargetDatabases.IDataOciDataSafeRegistrationPolicyTargetDatabasesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataSafeRegistrationPolicyTargetDatabases.DataOciDataSafeRegistrationPolicyTargetDatabasesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace oci.DataOciDataSafeRegistrationPolicyTargetDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policy_target_databases#id DataOciDataSafeRegistrationPolicyTargetDatabases#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policy_target_databases#id DataOciDataSafeRegistrationPolicyTargetDatabases#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.DataOciDataSafeRegistrationPolicyTargetDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policy_target_databases#membership_status DataOciDataSafeRegistrationPolicyTargetDatabases#membership_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policy_target_databases#membership_status DataOciDataSafeRegistrationPolicyTargetDatabases#membership_status}.</summary>
         [JsiiProperty(name: "membershipStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MembershipStatus
@@ -62,7 +62,7 @@ namespace oci.DataOciDataSafeRegistrationPolicyTargetDatabases
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policy_target_databases#target_database_id DataOciDataSafeRegistrationPolicyTargetDatabases#target_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policy_target_databases#target_database_id DataOciDataSafeRegistrationPolicyTargetDatabases#target_database_id}.</summary>
         [JsiiProperty(name: "targetDatabaseId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetDatabaseId
@@ -80,14 +80,14 @@ namespace oci.DataOciDataSafeRegistrationPolicyTargetDatabases
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policy_target_databases#compartment_id DataOciDataSafeRegistrationPolicyTargetDatabases#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policy_target_databases#compartment_id DataOciDataSafeRegistrationPolicyTargetDatabases#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policy_target_databases#registration_policy_id DataOciDataSafeRegistrationPolicyTargetDatabases#registration_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policy_target_databases#registration_policy_id DataOciDataSafeRegistrationPolicyTargetDatabases#registration_policy_id}.</summary>
             [JsiiProperty(name: "registrationPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string RegistrationPolicyId
             {
@@ -96,7 +96,7 @@ namespace oci.DataOciDataSafeRegistrationPolicyTargetDatabases
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policy_target_databases#filter DataOciDataSafeRegistrationPolicyTargetDatabases#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policy_target_databases#filter DataOciDataSafeRegistrationPolicyTargetDatabases#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeRegistrationPolicyTargetDatabases.IDataOciDataSafeRegistrationPolicyTargetDatabasesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -106,7 +106,7 @@ namespace oci.DataOciDataSafeRegistrationPolicyTargetDatabases
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policy_target_databases#id DataOciDataSafeRegistrationPolicyTargetDatabases#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policy_target_databases#id DataOciDataSafeRegistrationPolicyTargetDatabases#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -118,7 +118,7 @@ namespace oci.DataOciDataSafeRegistrationPolicyTargetDatabases
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policy_target_databases#membership_status DataOciDataSafeRegistrationPolicyTargetDatabases#membership_status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policy_target_databases#membership_status DataOciDataSafeRegistrationPolicyTargetDatabases#membership_status}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "membershipStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MembershipStatus
@@ -126,7 +126,7 @@ namespace oci.DataOciDataSafeRegistrationPolicyTargetDatabases
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policy_target_databases#target_database_id DataOciDataSafeRegistrationPolicyTargetDatabases#target_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policy_target_databases#target_database_id DataOciDataSafeRegistrationPolicyTargetDatabases#target_database_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetDatabaseId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetDatabaseId

@@ -9,7 +9,7 @@ namespace oci.DataSafeRegistrationPolicy
     [JsiiByValue(fqn: "oci.dataSafeRegistrationPolicy.DataSafeRegistrationPolicyConfig")]
     public class DataSafeRegistrationPolicyConfig : oci.DataSafeRegistrationPolicy.IDataSafeRegistrationPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_registration_policy#compartment_id DataSafeRegistrationPolicy#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_registration_policy#compartment_id DataSafeRegistrationPolicy#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataSafeRegistrationPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_registration_policy#features DataSafeRegistrationPolicy#features}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_registration_policy#features DataSafeRegistrationPolicy#features}.</summary>
         [JsiiProperty(name: "features", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Features
         {
@@ -25,7 +25,7 @@ namespace oci.DataSafeRegistrationPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_registration_policy#resource_id DataSafeRegistrationPolicy#resource_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_registration_policy#resource_id DataSafeRegistrationPolicy#resource_id}.</summary>
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceId
         {
@@ -35,7 +35,7 @@ namespace oci.DataSafeRegistrationPolicy
 
         private object? _canOverrideFeatures;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_registration_policy#can_override_features DataSafeRegistrationPolicy#can_override_features}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_registration_policy#can_override_features DataSafeRegistrationPolicy#can_override_features}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -69,7 +69,7 @@ namespace oci.DataSafeRegistrationPolicy
 
         /// <summary>connection_option block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_registration_policy#connection_option DataSafeRegistrationPolicy#connection_option}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_registration_policy#connection_option DataSafeRegistrationPolicy#connection_option}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connectionOption", typeJson: "{\"fqn\":\"oci.dataSafeRegistrationPolicy.DataSafeRegistrationPolicyConnectionOption\"}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace oci.DataSafeRegistrationPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_registration_policy#defined_tags DataSafeRegistrationPolicy#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_registration_policy#defined_tags DataSafeRegistrationPolicy#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -88,7 +88,7 @@ namespace oci.DataSafeRegistrationPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_registration_policy#description DataSafeRegistrationPolicy#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_registration_policy#description DataSafeRegistrationPolicy#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -97,7 +97,7 @@ namespace oci.DataSafeRegistrationPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_registration_policy#display_name DataSafeRegistrationPolicy#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_registration_policy#display_name DataSafeRegistrationPolicy#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -106,7 +106,7 @@ namespace oci.DataSafeRegistrationPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_registration_policy#freeform_tags DataSafeRegistrationPolicy#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_registration_policy#freeform_tags DataSafeRegistrationPolicy#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -115,7 +115,7 @@ namespace oci.DataSafeRegistrationPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_registration_policy#id DataSafeRegistrationPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_registration_policy#id DataSafeRegistrationPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -130,7 +130,7 @@ namespace oci.DataSafeRegistrationPolicy
 
         private object? _opcDryRun;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_registration_policy#opc_dry_run DataSafeRegistrationPolicy#opc_dry_run}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_registration_policy#opc_dry_run DataSafeRegistrationPolicy#opc_dry_run}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -164,7 +164,7 @@ namespace oci.DataSafeRegistrationPolicy
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_registration_policy#timeouts DataSafeRegistrationPolicy#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_registration_policy#timeouts DataSafeRegistrationPolicy#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeRegistrationPolicy.DataSafeRegistrationPolicyTimeouts\"}", isOptional: true)]
@@ -174,7 +174,7 @@ namespace oci.DataSafeRegistrationPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_registration_policy#x_cluster_id DataSafeRegistrationPolicy#x_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_registration_policy#x_cluster_id DataSafeRegistrationPolicy#x_cluster_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "xClusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? XClusterId

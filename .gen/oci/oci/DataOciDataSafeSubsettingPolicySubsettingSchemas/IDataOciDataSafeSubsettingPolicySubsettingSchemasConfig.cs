@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingSchemas
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSubsettingPolicySubsettingSchemasConfig), fullyQualifiedName: "oci.dataOciDataSafeSubsettingPolicySubsettingSchemas.DataOciDataSafeSubsettingPolicySubsettingSchemasConfig")]
     public interface IDataOciDataSafeSubsettingPolicySubsettingSchemasConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#subsetting_policy_id DataOciDataSafeSubsettingPolicySubsettingSchemas#subsetting_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#subsetting_policy_id DataOciDataSafeSubsettingPolicySubsettingSchemas#subsetting_policy_id}.</summary>
         [JsiiProperty(name: "subsettingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string SubsettingPolicyId
         {
@@ -16,7 +16,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingSchemas
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#filter DataOciDataSafeSubsettingPolicySubsettingSchemas#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#filter DataOciDataSafeSubsettingPolicySubsettingSchemas#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSubsettingPolicySubsettingSchemas.IDataOciDataSafeSubsettingPolicySubsettingSchemasFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataSafeSubsettingPolicySubsettingSchemas.DataOciDataSafeSubsettingPolicySubsettingSchemasFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingSchemas
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#id DataOciDataSafeSubsettingPolicySubsettingSchemas#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#id DataOciDataSafeSubsettingPolicySubsettingSchemas#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingSchemas
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#is_derived_schema DataOciDataSafeSubsettingPolicySubsettingSchemas#is_derived_schema}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#is_derived_schema DataOciDataSafeSubsettingPolicySubsettingSchemas#is_derived_schema}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -58,7 +58,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingSchemas
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#schema_name DataOciDataSafeSubsettingPolicySubsettingSchemas#schema_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#schema_name DataOciDataSafeSubsettingPolicySubsettingSchemas#schema_name}.</summary>
         [JsiiProperty(name: "schemaName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? SchemaName
@@ -76,7 +76,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingSchemas
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#subsetting_policy_id DataOciDataSafeSubsettingPolicySubsettingSchemas#subsetting_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#subsetting_policy_id DataOciDataSafeSubsettingPolicySubsettingSchemas#subsetting_policy_id}.</summary>
             [JsiiProperty(name: "subsettingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubsettingPolicyId
             {
@@ -85,7 +85,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingSchemas
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#filter DataOciDataSafeSubsettingPolicySubsettingSchemas#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#filter DataOciDataSafeSubsettingPolicySubsettingSchemas#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSubsettingPolicySubsettingSchemas.IDataOciDataSafeSubsettingPolicySubsettingSchemasFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -95,7 +95,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingSchemas
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#id DataOciDataSafeSubsettingPolicySubsettingSchemas#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#id DataOciDataSafeSubsettingPolicySubsettingSchemas#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -107,7 +107,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingSchemas
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#is_derived_schema DataOciDataSafeSubsettingPolicySubsettingSchemas#is_derived_schema}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#is_derived_schema DataOciDataSafeSubsettingPolicySubsettingSchemas#is_derived_schema}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -118,7 +118,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingSchemas
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#schema_name DataOciDataSafeSubsettingPolicySubsettingSchemas#schema_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#schema_name DataOciDataSafeSubsettingPolicySubsettingSchemas#schema_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "schemaName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? SchemaName

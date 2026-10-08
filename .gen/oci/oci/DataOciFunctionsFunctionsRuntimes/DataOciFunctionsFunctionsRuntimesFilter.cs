@@ -9,7 +9,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
     [JsiiByValue(fqn: "oci.dataOciFunctionsFunctionsRuntimes.DataOciFunctionsFunctionsRuntimesFilter")]
     public class DataOciFunctionsFunctionsRuntimesFilter : oci.DataOciFunctionsFunctionsRuntimes.IDataOciFunctionsFunctionsRuntimesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes#name DataOciFunctionsFunctionsRuntimes#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtimes#name DataOciFunctionsFunctionsRuntimes#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes#values DataOciFunctionsFunctionsRuntimes#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtimes#values DataOciFunctionsFunctionsRuntimes#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes#regex DataOciFunctionsFunctionsRuntimes#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtimes#regex DataOciFunctionsFunctionsRuntimes#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

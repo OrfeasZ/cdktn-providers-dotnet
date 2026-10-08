@@ -5,7 +5,7 @@ namespace oci.DataOciCoreDrgNatPolicies
     /// <remarks>
     /// <h1><c>data_oci_core_drg_nat_policies</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/core_drg_nat_policies"><c>data_oci_core_drg_nat_policies</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/core_drg_nat_policies"><c>data_oci_core_drg_nat_policies</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

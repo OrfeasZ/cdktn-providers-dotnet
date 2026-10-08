@@ -9,7 +9,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
     {
         /// <summary>scope block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#scope DataSafeSubsettingPolicySubsettingRule#scope}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#scope DataSafeSubsettingPolicySubsettingRule#scope}
         /// </remarks>
         [JsiiProperty(name: "scope", typeJson: "{\"fqn\":\"oci.dataSafeSubsettingPolicySubsettingRule.DataSafeSubsettingPolicySubsettingRuleScope\"}")]
         oci.DataSafeSubsettingPolicySubsettingRule.IDataSafeSubsettingPolicySubsettingRuleScope Scope
@@ -19,7 +19,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
 
         /// <summary>subset_rule_entry block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#subset_rule_entry DataSafeSubsettingPolicySubsettingRule#subset_rule_entry}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#subset_rule_entry DataSafeSubsettingPolicySubsettingRule#subset_rule_entry}
         /// </remarks>
         [JsiiProperty(name: "subsetRuleEntry", typeJson: "{\"fqn\":\"oci.dataSafeSubsettingPolicySubsettingRule.DataSafeSubsettingPolicySubsettingRuleSubsetRuleEntry\"}")]
         oci.DataSafeSubsettingPolicySubsettingRule.IDataSafeSubsettingPolicySubsettingRuleSubsetRuleEntry SubsetRuleEntry
@@ -27,14 +27,14 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#subsetting_policy_id DataSafeSubsettingPolicySubsettingRule#subsetting_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#subsetting_policy_id DataSafeSubsettingPolicySubsettingRule#subsetting_policy_id}.</summary>
         [JsiiProperty(name: "subsettingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string SubsettingPolicyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#description DataSafeSubsettingPolicySubsettingRule#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#description DataSafeSubsettingPolicySubsettingRule#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -45,7 +45,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#display_name DataSafeSubsettingPolicySubsettingRule#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#display_name DataSafeSubsettingPolicySubsettingRule#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -56,7 +56,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#id DataSafeSubsettingPolicySubsettingRule#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#id DataSafeSubsettingPolicySubsettingRule#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,7 +71,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#peer_tables_action DataSafeSubsettingPolicySubsettingRule#peer_tables_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#peer_tables_action DataSafeSubsettingPolicySubsettingRule#peer_tables_action}.</summary>
         [JsiiProperty(name: "peerTablesAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PeerTablesAction
@@ -82,7 +82,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#related_tables_propagation DataSafeSubsettingPolicySubsettingRule#related_tables_propagation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#related_tables_propagation DataSafeSubsettingPolicySubsettingRule#related_tables_propagation}.</summary>
         [JsiiProperty(name: "relatedTablesPropagation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RelatedTablesPropagation
@@ -93,7 +93,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#rule_combination_mode DataSafeSubsettingPolicySubsettingRule#rule_combination_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#rule_combination_mode DataSafeSubsettingPolicySubsettingRule#rule_combination_mode}.</summary>
         [JsiiProperty(name: "ruleCombinationMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RuleCombinationMode
@@ -106,7 +106,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#timeouts DataSafeSubsettingPolicySubsettingRule#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#timeouts DataSafeSubsettingPolicySubsettingRule#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeSubsettingPolicySubsettingRule.DataSafeSubsettingPolicySubsettingRuleTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -127,7 +127,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
 
             /// <summary>scope block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#scope DataSafeSubsettingPolicySubsettingRule#scope}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#scope DataSafeSubsettingPolicySubsettingRule#scope}
             /// </remarks>
             [JsiiProperty(name: "scope", typeJson: "{\"fqn\":\"oci.dataSafeSubsettingPolicySubsettingRule.DataSafeSubsettingPolicySubsettingRuleScope\"}")]
             public oci.DataSafeSubsettingPolicySubsettingRule.IDataSafeSubsettingPolicySubsettingRuleScope Scope
@@ -137,7 +137,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
 
             /// <summary>subset_rule_entry block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#subset_rule_entry DataSafeSubsettingPolicySubsettingRule#subset_rule_entry}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#subset_rule_entry DataSafeSubsettingPolicySubsettingRule#subset_rule_entry}
             /// </remarks>
             [JsiiProperty(name: "subsetRuleEntry", typeJson: "{\"fqn\":\"oci.dataSafeSubsettingPolicySubsettingRule.DataSafeSubsettingPolicySubsettingRuleSubsetRuleEntry\"}")]
             public oci.DataSafeSubsettingPolicySubsettingRule.IDataSafeSubsettingPolicySubsettingRuleSubsetRuleEntry SubsetRuleEntry
@@ -145,14 +145,14 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
                 get => GetInstanceProperty<oci.DataSafeSubsettingPolicySubsettingRule.IDataSafeSubsettingPolicySubsettingRuleSubsetRuleEntry>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#subsetting_policy_id DataSafeSubsettingPolicySubsettingRule#subsetting_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#subsetting_policy_id DataSafeSubsettingPolicySubsettingRule#subsetting_policy_id}.</summary>
             [JsiiProperty(name: "subsettingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubsettingPolicyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#description DataSafeSubsettingPolicySubsettingRule#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#description DataSafeSubsettingPolicySubsettingRule#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -160,7 +160,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#display_name DataSafeSubsettingPolicySubsettingRule#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#display_name DataSafeSubsettingPolicySubsettingRule#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -168,7 +168,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#id DataSafeSubsettingPolicySubsettingRule#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#id DataSafeSubsettingPolicySubsettingRule#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -180,7 +180,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#peer_tables_action DataSafeSubsettingPolicySubsettingRule#peer_tables_action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#peer_tables_action DataSafeSubsettingPolicySubsettingRule#peer_tables_action}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "peerTablesAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PeerTablesAction
@@ -188,7 +188,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#related_tables_propagation DataSafeSubsettingPolicySubsettingRule#related_tables_propagation}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#related_tables_propagation DataSafeSubsettingPolicySubsettingRule#related_tables_propagation}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "relatedTablesPropagation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RelatedTablesPropagation
@@ -196,7 +196,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#rule_combination_mode DataSafeSubsettingPolicySubsettingRule#rule_combination_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#rule_combination_mode DataSafeSubsettingPolicySubsettingRule#rule_combination_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ruleCombinationMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RuleCombinationMode
@@ -206,7 +206,7 @@ namespace oci.DataSafeSubsettingPolicySubsettingRule
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#timeouts DataSafeSubsettingPolicySubsettingRule#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_subsetting_rule#timeouts DataSafeSubsettingPolicySubsettingRule#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeSubsettingPolicySubsettingRule.DataSafeSubsettingPolicySubsettingRuleTimeouts\"}", isOptional: true)]

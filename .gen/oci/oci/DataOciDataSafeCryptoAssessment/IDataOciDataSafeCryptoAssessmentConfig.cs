@@ -7,7 +7,7 @@ namespace oci.DataOciDataSafeCryptoAssessment
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeCryptoAssessmentConfig), fullyQualifiedName: "oci.dataOciDataSafeCryptoAssessment.DataOciDataSafeCryptoAssessmentConfig")]
     public interface IDataOciDataSafeCryptoAssessmentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment#crypto_assessment_id DataOciDataSafeCryptoAssessment#crypto_assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment#crypto_assessment_id DataOciDataSafeCryptoAssessment#crypto_assessment_id}.</summary>
         [JsiiProperty(name: "cryptoAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CryptoAssessmentId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeCryptoAssessment
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment#crypto_assessment_id DataOciDataSafeCryptoAssessment#crypto_assessment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment#crypto_assessment_id DataOciDataSafeCryptoAssessment#crypto_assessment_id}.</summary>
             [JsiiProperty(name: "cryptoAssessmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CryptoAssessmentId
             {

@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiRoutingProfile
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiRoutingProfile.DataOciGenerativeAiRoutingProfileConfig")]
     public class DataOciGenerativeAiRoutingProfileConfig : oci.DataOciGenerativeAiRoutingProfile.IDataOciGenerativeAiRoutingProfileConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/generative_ai_routing_profile#routing_profile_id DataOciGenerativeAiRoutingProfile#routing_profile_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/generative_ai_routing_profile#routing_profile_id DataOciGenerativeAiRoutingProfile#routing_profile_id}.</summary>
         [JsiiProperty(name: "routingProfileId", typeJson: "{\"primitive\":\"string\"}")]
         public string RoutingProfileId
         {

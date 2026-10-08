@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeSubsettingReports
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSubsettingReportsConfig), fullyQualifiedName: "oci.dataOciDataSafeSubsettingReports.DataOciDataSafeSubsettingReportsConfig")]
     public interface IDataOciDataSafeSubsettingReportsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_reports#compartment_id DataOciDataSafeSubsettingReports#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_reports#compartment_id DataOciDataSafeSubsettingReports#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_reports#access_level DataOciDataSafeSubsettingReports#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_reports#access_level DataOciDataSafeSubsettingReports#access_level}.</summary>
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessLevel
@@ -25,7 +25,7 @@ namespace oci.DataOciDataSafeSubsettingReports
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_reports#compartment_id_in_subtree DataOciDataSafeSubsettingReports#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_reports#compartment_id_in_subtree DataOciDataSafeSubsettingReports#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -41,7 +41,7 @@ namespace oci.DataOciDataSafeSubsettingReports
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_reports#filter DataOciDataSafeSubsettingReports#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_reports#filter DataOciDataSafeSubsettingReports#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSubsettingReports.IDataOciDataSafeSubsettingReportsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataSafeSubsettingReports.DataOciDataSafeSubsettingReportsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace oci.DataOciDataSafeSubsettingReports
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_reports#id DataOciDataSafeSubsettingReports#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_reports#id DataOciDataSafeSubsettingReports#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,7 +69,7 @@ namespace oci.DataOciDataSafeSubsettingReports
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_reports#subsetting_policy_id DataOciDataSafeSubsettingReports#subsetting_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_reports#subsetting_policy_id DataOciDataSafeSubsettingReports#subsetting_policy_id}.</summary>
         [JsiiProperty(name: "subsettingPolicyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SubsettingPolicyId
@@ -80,7 +80,7 @@ namespace oci.DataOciDataSafeSubsettingReports
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_reports#target_database_group_id DataOciDataSafeSubsettingReports#target_database_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_reports#target_database_group_id DataOciDataSafeSubsettingReports#target_database_group_id}.</summary>
         [JsiiProperty(name: "targetDatabaseGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetDatabaseGroupId
@@ -91,7 +91,7 @@ namespace oci.DataOciDataSafeSubsettingReports
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_reports#target_id DataOciDataSafeSubsettingReports#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_reports#target_id DataOciDataSafeSubsettingReports#target_id}.</summary>
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetId
@@ -109,14 +109,14 @@ namespace oci.DataOciDataSafeSubsettingReports
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_reports#compartment_id DataOciDataSafeSubsettingReports#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_reports#compartment_id DataOciDataSafeSubsettingReports#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_reports#access_level DataOciDataSafeSubsettingReports#access_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_reports#access_level DataOciDataSafeSubsettingReports#access_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessLevel
@@ -124,7 +124,7 @@ namespace oci.DataOciDataSafeSubsettingReports
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_reports#compartment_id_in_subtree DataOciDataSafeSubsettingReports#compartment_id_in_subtree}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_reports#compartment_id_in_subtree DataOciDataSafeSubsettingReports#compartment_id_in_subtree}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -137,7 +137,7 @@ namespace oci.DataOciDataSafeSubsettingReports
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_reports#filter DataOciDataSafeSubsettingReports#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_reports#filter DataOciDataSafeSubsettingReports#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSubsettingReports.IDataOciDataSafeSubsettingReportsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -147,7 +147,7 @@ namespace oci.DataOciDataSafeSubsettingReports
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_reports#id DataOciDataSafeSubsettingReports#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_reports#id DataOciDataSafeSubsettingReports#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -159,7 +159,7 @@ namespace oci.DataOciDataSafeSubsettingReports
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_reports#subsetting_policy_id DataOciDataSafeSubsettingReports#subsetting_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_reports#subsetting_policy_id DataOciDataSafeSubsettingReports#subsetting_policy_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subsettingPolicyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SubsettingPolicyId
@@ -167,7 +167,7 @@ namespace oci.DataOciDataSafeSubsettingReports
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_reports#target_database_group_id DataOciDataSafeSubsettingReports#target_database_group_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_reports#target_database_group_id DataOciDataSafeSubsettingReports#target_database_group_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetDatabaseGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetDatabaseGroupId
@@ -175,7 +175,7 @@ namespace oci.DataOciDataSafeSubsettingReports
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_reports#target_id DataOciDataSafeSubsettingReports#target_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_reports#target_id DataOciDataSafeSubsettingReports#target_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetId

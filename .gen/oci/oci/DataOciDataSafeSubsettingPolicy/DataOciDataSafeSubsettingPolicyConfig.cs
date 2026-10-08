@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSubsettingPolicy
     [JsiiByValue(fqn: "oci.dataOciDataSafeSubsettingPolicy.DataOciDataSafeSubsettingPolicyConfig")]
     public class DataOciDataSafeSubsettingPolicyConfig : oci.DataOciDataSafeSubsettingPolicy.IDataOciDataSafeSubsettingPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy#subsetting_policy_id DataOciDataSafeSubsettingPolicy#subsetting_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy#subsetting_policy_id DataOciDataSafeSubsettingPolicy#subsetting_policy_id}.</summary>
         [JsiiProperty(name: "subsettingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubsettingPolicyId
         {

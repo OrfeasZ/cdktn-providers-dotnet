@@ -7,21 +7,21 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeCryptoAssessmentTdeObjectsConfig), fullyQualifiedName: "oci.dataOciDataSafeCryptoAssessmentTdeObjects.DataOciDataSafeCryptoAssessmentTdeObjectsConfig")]
     public interface IDataOciDataSafeCryptoAssessmentTdeObjectsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#compartment_id DataOciDataSafeCryptoAssessmentTdeObjects#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#compartment_id DataOciDataSafeCryptoAssessmentTdeObjects#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#object_type DataOciDataSafeCryptoAssessmentTdeObjects#object_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#object_type DataOciDataSafeCryptoAssessmentTdeObjects#object_type}.</summary>
         [JsiiProperty(name: "objectType", typeJson: "{\"primitive\":\"string\"}")]
         string ObjectType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#access_level DataOciDataSafeCryptoAssessmentTdeObjects#access_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#access_level DataOciDataSafeCryptoAssessmentTdeObjects#access_level}.</summary>
         [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AccessLevel
@@ -32,7 +32,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#assessment_id DataOciDataSafeCryptoAssessmentTdeObjects#assessment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#assessment_id DataOciDataSafeCryptoAssessmentTdeObjects#assessment_id}.</summary>
         [JsiiProperty(name: "assessmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AssessmentId
@@ -43,7 +43,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#assessment_type DataOciDataSafeCryptoAssessmentTdeObjects#assessment_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#assessment_type DataOciDataSafeCryptoAssessmentTdeObjects#assessment_type}.</summary>
         [JsiiProperty(name: "assessmentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AssessmentType
@@ -54,7 +54,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#compartment_id_in_subtree DataOciDataSafeCryptoAssessmentTdeObjects#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#compartment_id_in_subtree DataOciDataSafeCryptoAssessmentTdeObjects#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -68,7 +68,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#encryption_observed DataOciDataSafeCryptoAssessmentTdeObjects#encryption_observed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#encryption_observed DataOciDataSafeCryptoAssessmentTdeObjects#encryption_observed}.</summary>
         [JsiiProperty(name: "encryptionObserved", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? EncryptionObserved
@@ -79,7 +79,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#encryption_status DataOciDataSafeCryptoAssessmentTdeObjects#encryption_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#encryption_status DataOciDataSafeCryptoAssessmentTdeObjects#encryption_status}.</summary>
         [JsiiProperty(name: "encryptionStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? EncryptionStatus
@@ -92,7 +92,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#filter DataOciDataSafeCryptoAssessmentTdeObjects#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#filter DataOciDataSafeCryptoAssessmentTdeObjects#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeCryptoAssessmentTdeObjects.IDataOciDataSafeCryptoAssessmentTdeObjectsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDataSafeCryptoAssessmentTdeObjects.DataOciDataSafeCryptoAssessmentTdeObjectsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#id DataOciDataSafeCryptoAssessmentTdeObjects#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#id DataOciDataSafeCryptoAssessmentTdeObjects#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -120,7 +120,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#quantum_readiness DataOciDataSafeCryptoAssessmentTdeObjects#quantum_readiness}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#quantum_readiness DataOciDataSafeCryptoAssessmentTdeObjects#quantum_readiness}.</summary>
         [JsiiProperty(name: "quantumReadiness", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? QuantumReadiness
@@ -131,7 +131,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#target_id DataOciDataSafeCryptoAssessmentTdeObjects#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#target_id DataOciDataSafeCryptoAssessmentTdeObjects#target_id}.</summary>
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetId
@@ -142,7 +142,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#target_ids DataOciDataSafeCryptoAssessmentTdeObjects#target_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#target_ids DataOciDataSafeCryptoAssessmentTdeObjects#target_ids}.</summary>
         [JsiiProperty(name: "targetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? TargetIds
@@ -160,21 +160,21 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#compartment_id DataOciDataSafeCryptoAssessmentTdeObjects#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#compartment_id DataOciDataSafeCryptoAssessmentTdeObjects#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#object_type DataOciDataSafeCryptoAssessmentTdeObjects#object_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#object_type DataOciDataSafeCryptoAssessmentTdeObjects#object_type}.</summary>
             [JsiiProperty(name: "objectType", typeJson: "{\"primitive\":\"string\"}")]
             public string ObjectType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#access_level DataOciDataSafeCryptoAssessmentTdeObjects#access_level}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#access_level DataOciDataSafeCryptoAssessmentTdeObjects#access_level}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "accessLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AccessLevel
@@ -182,7 +182,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#assessment_id DataOciDataSafeCryptoAssessmentTdeObjects#assessment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#assessment_id DataOciDataSafeCryptoAssessmentTdeObjects#assessment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "assessmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AssessmentId
@@ -190,7 +190,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#assessment_type DataOciDataSafeCryptoAssessmentTdeObjects#assessment_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#assessment_type DataOciDataSafeCryptoAssessmentTdeObjects#assessment_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "assessmentType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AssessmentType
@@ -198,7 +198,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#compartment_id_in_subtree DataOciDataSafeCryptoAssessmentTdeObjects#compartment_id_in_subtree}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#compartment_id_in_subtree DataOciDataSafeCryptoAssessmentTdeObjects#compartment_id_in_subtree}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -209,7 +209,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#encryption_observed DataOciDataSafeCryptoAssessmentTdeObjects#encryption_observed}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#encryption_observed DataOciDataSafeCryptoAssessmentTdeObjects#encryption_observed}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "encryptionObserved", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? EncryptionObserved
@@ -217,7 +217,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#encryption_status DataOciDataSafeCryptoAssessmentTdeObjects#encryption_status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#encryption_status DataOciDataSafeCryptoAssessmentTdeObjects#encryption_status}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "encryptionStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? EncryptionStatus
@@ -227,7 +227,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#filter DataOciDataSafeCryptoAssessmentTdeObjects#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#filter DataOciDataSafeCryptoAssessmentTdeObjects#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeCryptoAssessmentTdeObjects.IDataOciDataSafeCryptoAssessmentTdeObjectsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -237,7 +237,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#id DataOciDataSafeCryptoAssessmentTdeObjects#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#id DataOciDataSafeCryptoAssessmentTdeObjects#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -249,7 +249,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#quantum_readiness DataOciDataSafeCryptoAssessmentTdeObjects#quantum_readiness}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#quantum_readiness DataOciDataSafeCryptoAssessmentTdeObjects#quantum_readiness}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "quantumReadiness", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? QuantumReadiness
@@ -257,7 +257,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#target_id DataOciDataSafeCryptoAssessmentTdeObjects#target_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#target_id DataOciDataSafeCryptoAssessmentTdeObjects#target_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetId
@@ -265,7 +265,7 @@ namespace oci.DataOciDataSafeCryptoAssessmentTdeObjects
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#target_ids DataOciDataSafeCryptoAssessmentTdeObjects#target_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_crypto_assessment_tde_objects#target_ids DataOciDataSafeCryptoAssessmentTdeObjects#target_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? TargetIds

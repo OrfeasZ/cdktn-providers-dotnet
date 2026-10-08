@@ -125,6 +125,12 @@ namespace oci.DataOciCoreVolumeAttachments
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "isEncryptionInTransitEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsEncryptionInTransitEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "isMultipath", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsMultipath
         {

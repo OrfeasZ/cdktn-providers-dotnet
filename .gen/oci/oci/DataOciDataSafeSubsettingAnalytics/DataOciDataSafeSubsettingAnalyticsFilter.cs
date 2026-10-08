@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSubsettingAnalytics
     [JsiiByValue(fqn: "oci.dataOciDataSafeSubsettingAnalytics.DataOciDataSafeSubsettingAnalyticsFilter")]
     public class DataOciDataSafeSubsettingAnalyticsFilter : oci.DataOciDataSafeSubsettingAnalytics.IDataOciDataSafeSubsettingAnalyticsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_analytics#name DataOciDataSafeSubsettingAnalytics#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_analytics#name DataOciDataSafeSubsettingAnalytics#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeSubsettingAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_analytics#values DataOciDataSafeSubsettingAnalytics#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_analytics#values DataOciDataSafeSubsettingAnalytics#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeSubsettingAnalytics
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_analytics#regex DataOciDataSafeSubsettingAnalytics#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_analytics#regex DataOciDataSafeSubsettingAnalytics#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

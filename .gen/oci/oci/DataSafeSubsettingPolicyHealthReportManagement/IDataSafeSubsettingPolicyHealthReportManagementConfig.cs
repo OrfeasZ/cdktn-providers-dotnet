@@ -7,7 +7,7 @@ namespace oci.DataSafeSubsettingPolicyHealthReportManagement
     [JsiiInterface(nativeType: typeof(IDataSafeSubsettingPolicyHealthReportManagementConfig), fullyQualifiedName: "oci.dataSafeSubsettingPolicyHealthReportManagement.DataSafeSubsettingPolicyHealthReportManagementConfig")]
     public interface IDataSafeSubsettingPolicyHealthReportManagementConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_health_report_management#subsetting_policy_id DataSafeSubsettingPolicyHealthReportManagement#subsetting_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_health_report_management#subsetting_policy_id DataSafeSubsettingPolicyHealthReportManagement#subsetting_policy_id}.</summary>
         [JsiiProperty(name: "subsettingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string SubsettingPolicyId
         {
@@ -16,7 +16,7 @@ namespace oci.DataSafeSubsettingPolicyHealthReportManagement
 
         /// <summary>target_credentials block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_health_report_management#target_credentials DataSafeSubsettingPolicyHealthReportManagement#target_credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_health_report_management#target_credentials DataSafeSubsettingPolicyHealthReportManagement#target_credentials}
         /// </remarks>
         [JsiiProperty(name: "targetCredentials", typeJson: "{\"fqn\":\"oci.dataSafeSubsettingPolicyHealthReportManagement.DataSafeSubsettingPolicyHealthReportManagementTargetCredentials\"}")]
         oci.DataSafeSubsettingPolicyHealthReportManagement.IDataSafeSubsettingPolicyHealthReportManagementTargetCredentials TargetCredentials
@@ -24,7 +24,7 @@ namespace oci.DataSafeSubsettingPolicyHealthReportManagement
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_health_report_management#check_type DataSafeSubsettingPolicyHealthReportManagement#check_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_health_report_management#check_type DataSafeSubsettingPolicyHealthReportManagement#check_type}.</summary>
         [JsiiProperty(name: "checkType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CheckType
@@ -35,7 +35,7 @@ namespace oci.DataSafeSubsettingPolicyHealthReportManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_health_report_management#compartment_id DataSafeSubsettingPolicyHealthReportManagement#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_health_report_management#compartment_id DataSafeSubsettingPolicyHealthReportManagement#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -46,7 +46,7 @@ namespace oci.DataSafeSubsettingPolicyHealthReportManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_health_report_management#defined_tags DataSafeSubsettingPolicyHealthReportManagement#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_health_report_management#defined_tags DataSafeSubsettingPolicyHealthReportManagement#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -57,7 +57,7 @@ namespace oci.DataSafeSubsettingPolicyHealthReportManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_health_report_management#freeform_tags DataSafeSubsettingPolicyHealthReportManagement#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_health_report_management#freeform_tags DataSafeSubsettingPolicyHealthReportManagement#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -68,7 +68,7 @@ namespace oci.DataSafeSubsettingPolicyHealthReportManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_health_report_management#tablespace DataSafeSubsettingPolicyHealthReportManagement#tablespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_health_report_management#tablespace DataSafeSubsettingPolicyHealthReportManagement#tablespace}.</summary>
         [JsiiProperty(name: "tablespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Tablespace
@@ -79,7 +79,7 @@ namespace oci.DataSafeSubsettingPolicyHealthReportManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_health_report_management#target_id DataSafeSubsettingPolicyHealthReportManagement#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_health_report_management#target_id DataSafeSubsettingPolicyHealthReportManagement#target_id}.</summary>
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetId
@@ -92,7 +92,7 @@ namespace oci.DataSafeSubsettingPolicyHealthReportManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_health_report_management#timeouts DataSafeSubsettingPolicyHealthReportManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_health_report_management#timeouts DataSafeSubsettingPolicyHealthReportManagement#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeSubsettingPolicyHealthReportManagement.DataSafeSubsettingPolicyHealthReportManagementTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -111,7 +111,7 @@ namespace oci.DataSafeSubsettingPolicyHealthReportManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_health_report_management#subsetting_policy_id DataSafeSubsettingPolicyHealthReportManagement#subsetting_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_health_report_management#subsetting_policy_id DataSafeSubsettingPolicyHealthReportManagement#subsetting_policy_id}.</summary>
             [JsiiProperty(name: "subsettingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubsettingPolicyId
             {
@@ -120,7 +120,7 @@ namespace oci.DataSafeSubsettingPolicyHealthReportManagement
 
             /// <summary>target_credentials block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_health_report_management#target_credentials DataSafeSubsettingPolicyHealthReportManagement#target_credentials}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_health_report_management#target_credentials DataSafeSubsettingPolicyHealthReportManagement#target_credentials}
             /// </remarks>
             [JsiiProperty(name: "targetCredentials", typeJson: "{\"fqn\":\"oci.dataSafeSubsettingPolicyHealthReportManagement.DataSafeSubsettingPolicyHealthReportManagementTargetCredentials\"}")]
             public oci.DataSafeSubsettingPolicyHealthReportManagement.IDataSafeSubsettingPolicyHealthReportManagementTargetCredentials TargetCredentials
@@ -128,7 +128,7 @@ namespace oci.DataSafeSubsettingPolicyHealthReportManagement
                 get => GetInstanceProperty<oci.DataSafeSubsettingPolicyHealthReportManagement.IDataSafeSubsettingPolicyHealthReportManagementTargetCredentials>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_health_report_management#check_type DataSafeSubsettingPolicyHealthReportManagement#check_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_health_report_management#check_type DataSafeSubsettingPolicyHealthReportManagement#check_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "checkType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CheckType
@@ -136,7 +136,7 @@ namespace oci.DataSafeSubsettingPolicyHealthReportManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_health_report_management#compartment_id DataSafeSubsettingPolicyHealthReportManagement#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_health_report_management#compartment_id DataSafeSubsettingPolicyHealthReportManagement#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -144,7 +144,7 @@ namespace oci.DataSafeSubsettingPolicyHealthReportManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_health_report_management#defined_tags DataSafeSubsettingPolicyHealthReportManagement#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_health_report_management#defined_tags DataSafeSubsettingPolicyHealthReportManagement#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -152,7 +152,7 @@ namespace oci.DataSafeSubsettingPolicyHealthReportManagement
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_health_report_management#freeform_tags DataSafeSubsettingPolicyHealthReportManagement#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_health_report_management#freeform_tags DataSafeSubsettingPolicyHealthReportManagement#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -160,7 +160,7 @@ namespace oci.DataSafeSubsettingPolicyHealthReportManagement
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_health_report_management#tablespace DataSafeSubsettingPolicyHealthReportManagement#tablespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_health_report_management#tablespace DataSafeSubsettingPolicyHealthReportManagement#tablespace}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tablespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Tablespace
@@ -168,7 +168,7 @@ namespace oci.DataSafeSubsettingPolicyHealthReportManagement
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_health_report_management#target_id DataSafeSubsettingPolicyHealthReportManagement#target_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_health_report_management#target_id DataSafeSubsettingPolicyHealthReportManagement#target_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetId
@@ -178,7 +178,7 @@ namespace oci.DataSafeSubsettingPolicyHealthReportManagement
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy_health_report_management#timeouts DataSafeSubsettingPolicyHealthReportManagement#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy_health_report_management#timeouts DataSafeSubsettingPolicyHealthReportManagement#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeSubsettingPolicyHealthReportManagement.DataSafeSubsettingPolicyHealthReportManagementTimeouts\"}", isOptional: true)]

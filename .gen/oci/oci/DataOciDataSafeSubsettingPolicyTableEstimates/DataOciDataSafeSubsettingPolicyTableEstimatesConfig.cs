@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSubsettingPolicyTableEstimates
     [JsiiByValue(fqn: "oci.dataOciDataSafeSubsettingPolicyTableEstimates.DataOciDataSafeSubsettingPolicyTableEstimatesConfig")]
     public class DataOciDataSafeSubsettingPolicyTableEstimatesConfig : oci.DataOciDataSafeSubsettingPolicyTableEstimates.IDataOciDataSafeSubsettingPolicyTableEstimatesConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_table_estimates#subsetting_policy_id DataOciDataSafeSubsettingPolicyTableEstimates#subsetting_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_table_estimates#subsetting_policy_id DataOciDataSafeSubsettingPolicyTableEstimates#subsetting_policy_id}.</summary>
         [JsiiProperty(name: "subsettingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubsettingPolicyId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeSubsettingPolicyTableEstimates
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_table_estimates#filter DataOciDataSafeSubsettingPolicyTableEstimates#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_table_estimates#filter DataOciDataSafeSubsettingPolicyTableEstimates#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSubsettingPolicyTableEstimates.IDataOciDataSafeSubsettingPolicyTableEstimatesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciDataSafeSubsettingPolicyTableEstimates
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_table_estimates#id DataOciDataSafeSubsettingPolicyTableEstimates#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_table_estimates#id DataOciDataSafeSubsettingPolicyTableEstimates#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciDataSafeSubsettingPolicyTableEstimates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_table_estimates#object DataOciDataSafeSubsettingPolicyTableEstimates#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_table_estimates#object DataOciDataSafeSubsettingPolicyTableEstimates#object}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "object", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Object
@@ -74,7 +74,7 @@ namespace oci.DataOciDataSafeSubsettingPolicyTableEstimates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_table_estimates#schema_name DataOciDataSafeSubsettingPolicyTableEstimates#schema_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_table_estimates#schema_name DataOciDataSafeSubsettingPolicyTableEstimates#schema_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "schemaName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SchemaName
@@ -83,7 +83,7 @@ namespace oci.DataOciDataSafeSubsettingPolicyTableEstimates
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_table_estimates#target_id DataOciDataSafeSubsettingPolicyTableEstimates#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_table_estimates#target_id DataOciDataSafeSubsettingPolicyTableEstimates#target_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetId

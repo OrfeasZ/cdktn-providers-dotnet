@@ -9,7 +9,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
     {
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes#filter DataOciFunctionsFunctionsRuntimes#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtimes#filter DataOciFunctionsFunctionsRuntimes#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFunctionsFunctionsRuntimes.IDataOciFunctionsFunctionsRuntimesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciFunctionsFunctionsRuntimes.DataOciFunctionsFunctionsRuntimesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -22,7 +22,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes#functions_runtime_id DataOciFunctionsFunctionsRuntimes#functions_runtime_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtimes#functions_runtime_id DataOciFunctionsFunctionsRuntimes#functions_runtime_id}.</summary>
         [JsiiProperty(name: "functionsRuntimeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? FunctionsRuntimeId
@@ -33,7 +33,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes#id DataOciFunctionsFunctionsRuntimes#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtimes#id DataOciFunctionsFunctionsRuntimes#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +48,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes#language DataOciFunctionsFunctionsRuntimes#language}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtimes#language DataOciFunctionsFunctionsRuntimes#language}.</summary>
         [JsiiProperty(name: "language", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Language
@@ -59,7 +59,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes#name DataOciFunctionsFunctionsRuntimes#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtimes#name DataOciFunctionsFunctionsRuntimes#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -70,7 +70,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes#name_contains DataOciFunctionsFunctionsRuntimes#name_contains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtimes#name_contains DataOciFunctionsFunctionsRuntimes#name_contains}.</summary>
         [JsiiProperty(name: "nameContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NameContains
@@ -81,7 +81,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes#name_starts_with DataOciFunctionsFunctionsRuntimes#name_starts_with}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtimes#name_starts_with DataOciFunctionsFunctionsRuntimes#name_starts_with}.</summary>
         [JsiiProperty(name: "nameStartsWith", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NameStartsWith
@@ -92,7 +92,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes#os DataOciFunctionsFunctionsRuntimes#os}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtimes#os DataOciFunctionsFunctionsRuntimes#os}.</summary>
         [JsiiProperty(name: "os", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Os
@@ -103,7 +103,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes#state DataOciFunctionsFunctionsRuntimes#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtimes#state DataOciFunctionsFunctionsRuntimes#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -123,7 +123,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes#filter DataOciFunctionsFunctionsRuntimes#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtimes#filter DataOciFunctionsFunctionsRuntimes#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciFunctionsFunctionsRuntimes.IDataOciFunctionsFunctionsRuntimesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -133,7 +133,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes#functions_runtime_id DataOciFunctionsFunctionsRuntimes#functions_runtime_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtimes#functions_runtime_id DataOciFunctionsFunctionsRuntimes#functions_runtime_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "functionsRuntimeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? FunctionsRuntimeId
@@ -141,7 +141,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes#id DataOciFunctionsFunctionsRuntimes#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtimes#id DataOciFunctionsFunctionsRuntimes#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -153,7 +153,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes#language DataOciFunctionsFunctionsRuntimes#language}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtimes#language DataOciFunctionsFunctionsRuntimes#language}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "language", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Language
@@ -161,7 +161,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes#name DataOciFunctionsFunctionsRuntimes#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtimes#name DataOciFunctionsFunctionsRuntimes#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -169,7 +169,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes#name_contains DataOciFunctionsFunctionsRuntimes#name_contains}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtimes#name_contains DataOciFunctionsFunctionsRuntimes#name_contains}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nameContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NameContains
@@ -177,7 +177,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes#name_starts_with DataOciFunctionsFunctionsRuntimes#name_starts_with}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtimes#name_starts_with DataOciFunctionsFunctionsRuntimes#name_starts_with}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nameStartsWith", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NameStartsWith
@@ -185,7 +185,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes#os DataOciFunctionsFunctionsRuntimes#os}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtimes#os DataOciFunctionsFunctionsRuntimes#os}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "os", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Os
@@ -193,7 +193,7 @@ namespace oci.DataOciFunctionsFunctionsRuntimes
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/functions_functions_runtimes#state DataOciFunctionsFunctionsRuntimes#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/functions_functions_runtimes#state DataOciFunctionsFunctionsRuntimes#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

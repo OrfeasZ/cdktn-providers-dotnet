@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSubsettingReportSubsettedObjects
     [JsiiByValue(fqn: "oci.dataOciDataSafeSubsettingReportSubsettedObjects.DataOciDataSafeSubsettingReportSubsettedObjectsConfig")]
     public class DataOciDataSafeSubsettingReportSubsettedObjectsConfig : oci.DataOciDataSafeSubsettingReportSubsettedObjects.IDataOciDataSafeSubsettingReportSubsettedObjectsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_report_subsetted_objects#subsetting_report_id DataOciDataSafeSubsettingReportSubsettedObjects#subsetting_report_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_report_subsetted_objects#subsetting_report_id DataOciDataSafeSubsettingReportSubsettedObjects#subsetting_report_id}.</summary>
         [JsiiProperty(name: "subsettingReportId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubsettingReportId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDataSafeSubsettingReportSubsettedObjects
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_report_subsetted_objects#filter DataOciDataSafeSubsettingReportSubsettedObjects#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_report_subsetted_objects#filter DataOciDataSafeSubsettingReportSubsettedObjects#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSubsettingReportSubsettedObjects.IDataOciDataSafeSubsettingReportSubsettedObjectsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace oci.DataOciDataSafeSubsettingReportSubsettedObjects
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_report_subsetted_objects#id DataOciDataSafeSubsettingReportSubsettedObjects#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_report_subsetted_objects#id DataOciDataSafeSubsettingReportSubsettedObjects#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.DataOciDataSafeSubsettingReportSubsettedObjects
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_report_subsetted_objects#object DataOciDataSafeSubsettingReportSubsettedObjects#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_report_subsetted_objects#object DataOciDataSafeSubsettingReportSubsettedObjects#object}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "object", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Object
@@ -74,7 +74,7 @@ namespace oci.DataOciDataSafeSubsettingReportSubsettedObjects
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_report_subsetted_objects#schema_name DataOciDataSafeSubsettingReportSubsettedObjects#schema_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_report_subsetted_objects#schema_name DataOciDataSafeSubsettingReportSubsettedObjects#schema_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "schemaName", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SchemaName

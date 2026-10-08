@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingSchemas
     [JsiiByValue(fqn: "oci.dataOciDataSafeSubsettingPolicySubsettingSchemas.DataOciDataSafeSubsettingPolicySubsettingSchemasFilter")]
     public class DataOciDataSafeSubsettingPolicySubsettingSchemasFilter : oci.DataOciDataSafeSubsettingPolicySubsettingSchemas.IDataOciDataSafeSubsettingPolicySubsettingSchemasFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#name DataOciDataSafeSubsettingPolicySubsettingSchemas#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#name DataOciDataSafeSubsettingPolicySubsettingSchemas#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingSchemas
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#values DataOciDataSafeSubsettingPolicySubsettingSchemas#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#values DataOciDataSafeSubsettingPolicySubsettingSchemas#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingSchemas
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#regex DataOciDataSafeSubsettingPolicySubsettingSchemas#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schemas#regex DataOciDataSafeSubsettingPolicySubsettingSchemas#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

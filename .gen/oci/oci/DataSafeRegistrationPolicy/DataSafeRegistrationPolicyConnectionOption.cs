@@ -9,7 +9,7 @@ namespace oci.DataSafeRegistrationPolicy
     [JsiiByValue(fqn: "oci.dataSafeRegistrationPolicy.DataSafeRegistrationPolicyConnectionOption")]
     public class DataSafeRegistrationPolicyConnectionOption : oci.DataSafeRegistrationPolicy.IDataSafeRegistrationPolicyConnectionOption
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_registration_policy#connection_type DataSafeRegistrationPolicy#connection_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_registration_policy#connection_type DataSafeRegistrationPolicy#connection_type}.</summary>
         [JsiiProperty(name: "connectionType", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectionType
         {
@@ -17,7 +17,7 @@ namespace oci.DataSafeRegistrationPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_registration_policy#identifiers DataSafeRegistrationPolicy#identifiers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_registration_policy#identifiers DataSafeRegistrationPolicy#identifiers}.</summary>
         [JsiiProperty(name: "identifiers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Identifiers
         {

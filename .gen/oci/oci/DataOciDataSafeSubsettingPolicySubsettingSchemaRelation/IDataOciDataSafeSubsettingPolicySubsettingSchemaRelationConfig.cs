@@ -7,14 +7,14 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingSchemaRelation
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeSubsettingPolicySubsettingSchemaRelationConfig), fullyQualifiedName: "oci.dataOciDataSafeSubsettingPolicySubsettingSchemaRelation.DataOciDataSafeSubsettingPolicySubsettingSchemaRelationConfig")]
     public interface IDataOciDataSafeSubsettingPolicySubsettingSchemaRelationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schema_relation#subsetting_policy_id DataOciDataSafeSubsettingPolicySubsettingSchemaRelation#subsetting_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schema_relation#subsetting_policy_id DataOciDataSafeSubsettingPolicySubsettingSchemaRelation#subsetting_policy_id}.</summary>
         [JsiiProperty(name: "subsettingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string SubsettingPolicyId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schema_relation#subsetting_schema_relation_key DataOciDataSafeSubsettingPolicySubsettingSchemaRelation#subsetting_schema_relation_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schema_relation#subsetting_schema_relation_key DataOciDataSafeSubsettingPolicySubsettingSchemaRelation#subsetting_schema_relation_key}.</summary>
         [JsiiProperty(name: "subsettingSchemaRelationKey", typeJson: "{\"primitive\":\"string\"}")]
         string SubsettingSchemaRelationKey
         {
@@ -28,14 +28,14 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingSchemaRelation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schema_relation#subsetting_policy_id DataOciDataSafeSubsettingPolicySubsettingSchemaRelation#subsetting_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schema_relation#subsetting_policy_id DataOciDataSafeSubsettingPolicySubsettingSchemaRelation#subsetting_policy_id}.</summary>
             [JsiiProperty(name: "subsettingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubsettingPolicyId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schema_relation#subsetting_schema_relation_key DataOciDataSafeSubsettingPolicySubsettingSchemaRelation#subsetting_schema_relation_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schema_relation#subsetting_schema_relation_key DataOciDataSafeSubsettingPolicySubsettingSchemaRelation#subsetting_schema_relation_key}.</summary>
             [JsiiProperty(name: "subsettingSchemaRelationKey", typeJson: "{\"primitive\":\"string\"}")]
             public string SubsettingSchemaRelationKey
             {

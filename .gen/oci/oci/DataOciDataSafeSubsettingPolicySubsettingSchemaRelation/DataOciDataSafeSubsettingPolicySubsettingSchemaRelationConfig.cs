@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingSchemaRelation
     [JsiiByValue(fqn: "oci.dataOciDataSafeSubsettingPolicySubsettingSchemaRelation.DataOciDataSafeSubsettingPolicySubsettingSchemaRelationConfig")]
     public class DataOciDataSafeSubsettingPolicySubsettingSchemaRelationConfig : oci.DataOciDataSafeSubsettingPolicySubsettingSchemaRelation.IDataOciDataSafeSubsettingPolicySubsettingSchemaRelationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schema_relation#subsetting_policy_id DataOciDataSafeSubsettingPolicySubsettingSchemaRelation#subsetting_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schema_relation#subsetting_policy_id DataOciDataSafeSubsettingPolicySubsettingSchemaRelation#subsetting_policy_id}.</summary>
         [JsiiProperty(name: "subsettingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubsettingPolicyId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingSchemaRelation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schema_relation#subsetting_schema_relation_key DataOciDataSafeSubsettingPolicySubsettingSchemaRelation#subsetting_schema_relation_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_schema_relation#subsetting_schema_relation_key DataOciDataSafeSubsettingPolicySubsettingSchemaRelation#subsetting_schema_relation_key}.</summary>
         [JsiiProperty(name: "subsettingSchemaRelationKey", typeJson: "{\"primitive\":\"string\"}")]
         public string SubsettingSchemaRelationKey
         {

@@ -9,7 +9,7 @@ namespace oci.DataSafeSubsettingReportManagement
     [JsiiByValue(fqn: "oci.dataSafeSubsettingReportManagement.DataSafeSubsettingReportManagementConfig")]
     public class DataSafeSubsettingReportManagementConfig : oci.DataSafeSubsettingReportManagement.IDataSafeSubsettingReportManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_report_management#subsetting_policy_id DataSafeSubsettingReportManagement#subsetting_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_report_management#subsetting_policy_id DataSafeSubsettingReportManagement#subsetting_policy_id}.</summary>
         [JsiiProperty(name: "subsettingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubsettingPolicyId
         {
@@ -19,7 +19,7 @@ namespace oci.DataSafeSubsettingReportManagement
 
         /// <summary>target_credentials block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_report_management#target_credentials DataSafeSubsettingReportManagement#target_credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_report_management#target_credentials DataSafeSubsettingReportManagement#target_credentials}
         /// </remarks>
         [JsiiProperty(name: "targetCredentials", typeJson: "{\"fqn\":\"oci.dataSafeSubsettingReportManagement.DataSafeSubsettingReportManagementTargetCredentials\"}")]
         public oci.DataSafeSubsettingReportManagement.IDataSafeSubsettingReportManagementTargetCredentials TargetCredentials
@@ -28,7 +28,7 @@ namespace oci.DataSafeSubsettingReportManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_report_management#id DataSafeSubsettingReportManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_report_management#id DataSafeSubsettingReportManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,7 +43,7 @@ namespace oci.DataSafeSubsettingReportManagement
 
         private object? _isRedoLoggingEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_report_management#is_redo_logging_enabled DataSafeSubsettingReportManagement#is_redo_logging_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_report_management#is_redo_logging_enabled DataSafeSubsettingReportManagement#is_redo_logging_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -77,7 +77,7 @@ namespace oci.DataSafeSubsettingReportManagement
 
         private object? _isRefreshStatsEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_report_management#is_refresh_stats_enabled DataSafeSubsettingReportManagement#is_refresh_stats_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_report_management#is_refresh_stats_enabled DataSafeSubsettingReportManagement#is_refresh_stats_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -111,7 +111,7 @@ namespace oci.DataSafeSubsettingReportManagement
 
         private object? _isRerun;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_report_management#is_rerun DataSafeSubsettingReportManagement#is_rerun}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_report_management#is_rerun DataSafeSubsettingReportManagement#is_rerun}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -143,7 +143,7 @@ namespace oci.DataSafeSubsettingReportManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_report_management#masking DataSafeSubsettingReportManagement#masking}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_report_management#masking DataSafeSubsettingReportManagement#masking}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "masking", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Masking
@@ -152,7 +152,7 @@ namespace oci.DataSafeSubsettingReportManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_report_management#parallel_degree DataSafeSubsettingReportManagement#parallel_degree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_report_management#parallel_degree DataSafeSubsettingReportManagement#parallel_degree}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "parallelDegree", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ParallelDegree
@@ -161,7 +161,7 @@ namespace oci.DataSafeSubsettingReportManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_report_management#recompile DataSafeSubsettingReportManagement#recompile}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_report_management#recompile DataSafeSubsettingReportManagement#recompile}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "recompile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Recompile
@@ -170,7 +170,7 @@ namespace oci.DataSafeSubsettingReportManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_report_management#re_run_from_step DataSafeSubsettingReportManagement#re_run_from_step}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_report_management#re_run_from_step DataSafeSubsettingReportManagement#re_run_from_step}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "reRunFromStep", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ReRunFromStep
@@ -179,7 +179,7 @@ namespace oci.DataSafeSubsettingReportManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_report_management#tablespace DataSafeSubsettingReportManagement#tablespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_report_management#tablespace DataSafeSubsettingReportManagement#tablespace}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tablespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Tablespace
@@ -188,7 +188,7 @@ namespace oci.DataSafeSubsettingReportManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_report_management#target_id DataSafeSubsettingReportManagement#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_report_management#target_id DataSafeSubsettingReportManagement#target_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetId
@@ -199,7 +199,7 @@ namespace oci.DataSafeSubsettingReportManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_report_management#timeouts DataSafeSubsettingReportManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_report_management#timeouts DataSafeSubsettingReportManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeSubsettingReportManagement.DataSafeSubsettingReportManagementTimeouts\"}", isOptional: true)]

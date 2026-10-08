@@ -7,21 +7,21 @@ namespace oci.DataOciDataSafeRegistrationPolicyTargetDatabases
     [JsiiInterface(nativeType: typeof(IDataOciDataSafeRegistrationPolicyTargetDatabasesFilter), fullyQualifiedName: "oci.dataOciDataSafeRegistrationPolicyTargetDatabases.DataOciDataSafeRegistrationPolicyTargetDatabasesFilter")]
     public interface IDataOciDataSafeRegistrationPolicyTargetDatabasesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policy_target_databases#name DataOciDataSafeRegistrationPolicyTargetDatabases#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policy_target_databases#name DataOciDataSafeRegistrationPolicyTargetDatabases#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policy_target_databases#values DataOciDataSafeRegistrationPolicyTargetDatabases#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policy_target_databases#values DataOciDataSafeRegistrationPolicyTargetDatabases#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policy_target_databases#regex DataOciDataSafeRegistrationPolicyTargetDatabases#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policy_target_databases#regex DataOciDataSafeRegistrationPolicyTargetDatabases#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciDataSafeRegistrationPolicyTargetDatabases
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policy_target_databases#name DataOciDataSafeRegistrationPolicyTargetDatabases#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policy_target_databases#name DataOciDataSafeRegistrationPolicyTargetDatabases#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policy_target_databases#values DataOciDataSafeRegistrationPolicyTargetDatabases#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policy_target_databases#values DataOciDataSafeRegistrationPolicyTargetDatabases#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_registration_policy_target_databases#regex DataOciDataSafeRegistrationPolicyTargetDatabases#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_registration_policy_target_databases#regex DataOciDataSafeRegistrationPolicyTargetDatabases#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

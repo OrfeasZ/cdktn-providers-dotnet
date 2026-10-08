@@ -7,7 +7,7 @@ namespace oci.DataSafeSubsetData
     [JsiiInterface(nativeType: typeof(IDataSafeSubsetDataConfig), fullyQualifiedName: "oci.dataSafeSubsetData.DataSafeSubsetDataConfig")]
     public interface IDataSafeSubsetDataConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#subsetting_policy_id DataSafeSubsetData#subsetting_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#subsetting_policy_id DataSafeSubsetData#subsetting_policy_id}.</summary>
         [JsiiProperty(name: "subsettingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string SubsettingPolicyId
         {
@@ -16,7 +16,7 @@ namespace oci.DataSafeSubsetData
 
         /// <summary>target_credentials block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#target_credentials DataSafeSubsetData#target_credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#target_credentials DataSafeSubsetData#target_credentials}
         /// </remarks>
         [JsiiProperty(name: "targetCredentials", typeJson: "{\"fqn\":\"oci.dataSafeSubsetData.DataSafeSubsetDataTargetCredentials\"}")]
         oci.DataSafeSubsetData.IDataSafeSubsetDataTargetCredentials TargetCredentials
@@ -24,7 +24,7 @@ namespace oci.DataSafeSubsetData
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#id DataSafeSubsetData#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#id DataSafeSubsetData#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -39,7 +39,7 @@ namespace oci.DataSafeSubsetData
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#is_redo_logging_enabled DataSafeSubsetData#is_redo_logging_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#is_redo_logging_enabled DataSafeSubsetData#is_redo_logging_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -53,7 +53,7 @@ namespace oci.DataSafeSubsetData
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#is_refresh_stats_enabled DataSafeSubsetData#is_refresh_stats_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#is_refresh_stats_enabled DataSafeSubsetData#is_refresh_stats_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -67,7 +67,7 @@ namespace oci.DataSafeSubsetData
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#is_rerun DataSafeSubsetData#is_rerun}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#is_rerun DataSafeSubsetData#is_rerun}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -81,7 +81,7 @@ namespace oci.DataSafeSubsetData
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#masking DataSafeSubsetData#masking}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#masking DataSafeSubsetData#masking}.</summary>
         [JsiiProperty(name: "masking", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Masking
@@ -92,7 +92,7 @@ namespace oci.DataSafeSubsetData
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#parallel_degree DataSafeSubsetData#parallel_degree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#parallel_degree DataSafeSubsetData#parallel_degree}.</summary>
         [JsiiProperty(name: "parallelDegree", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ParallelDegree
@@ -103,7 +103,7 @@ namespace oci.DataSafeSubsetData
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#recompile DataSafeSubsetData#recompile}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#recompile DataSafeSubsetData#recompile}.</summary>
         [JsiiProperty(name: "recompile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Recompile
@@ -114,7 +114,7 @@ namespace oci.DataSafeSubsetData
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#re_run_from_step DataSafeSubsetData#re_run_from_step}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#re_run_from_step DataSafeSubsetData#re_run_from_step}.</summary>
         [JsiiProperty(name: "reRunFromStep", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ReRunFromStep
@@ -125,7 +125,7 @@ namespace oci.DataSafeSubsetData
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#tablespace DataSafeSubsetData#tablespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#tablespace DataSafeSubsetData#tablespace}.</summary>
         [JsiiProperty(name: "tablespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Tablespace
@@ -136,7 +136,7 @@ namespace oci.DataSafeSubsetData
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#target_id DataSafeSubsetData#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#target_id DataSafeSubsetData#target_id}.</summary>
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TargetId
@@ -149,7 +149,7 @@ namespace oci.DataSafeSubsetData
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#timeouts DataSafeSubsetData#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#timeouts DataSafeSubsetData#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeSubsetData.DataSafeSubsetDataTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -168,7 +168,7 @@ namespace oci.DataSafeSubsetData
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#subsetting_policy_id DataSafeSubsetData#subsetting_policy_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#subsetting_policy_id DataSafeSubsetData#subsetting_policy_id}.</summary>
             [JsiiProperty(name: "subsettingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubsettingPolicyId
             {
@@ -177,7 +177,7 @@ namespace oci.DataSafeSubsetData
 
             /// <summary>target_credentials block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#target_credentials DataSafeSubsetData#target_credentials}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#target_credentials DataSafeSubsetData#target_credentials}
             /// </remarks>
             [JsiiProperty(name: "targetCredentials", typeJson: "{\"fqn\":\"oci.dataSafeSubsetData.DataSafeSubsetDataTargetCredentials\"}")]
             public oci.DataSafeSubsetData.IDataSafeSubsetDataTargetCredentials TargetCredentials
@@ -185,7 +185,7 @@ namespace oci.DataSafeSubsetData
                 get => GetInstanceProperty<oci.DataSafeSubsetData.IDataSafeSubsetDataTargetCredentials>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#id DataSafeSubsetData#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#id DataSafeSubsetData#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -197,7 +197,7 @@ namespace oci.DataSafeSubsetData
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#is_redo_logging_enabled DataSafeSubsetData#is_redo_logging_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#is_redo_logging_enabled DataSafeSubsetData#is_redo_logging_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -208,7 +208,7 @@ namespace oci.DataSafeSubsetData
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#is_refresh_stats_enabled DataSafeSubsetData#is_refresh_stats_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#is_refresh_stats_enabled DataSafeSubsetData#is_refresh_stats_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -219,7 +219,7 @@ namespace oci.DataSafeSubsetData
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#is_rerun DataSafeSubsetData#is_rerun}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#is_rerun DataSafeSubsetData#is_rerun}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -230,7 +230,7 @@ namespace oci.DataSafeSubsetData
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#masking DataSafeSubsetData#masking}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#masking DataSafeSubsetData#masking}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "masking", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Masking
@@ -238,7 +238,7 @@ namespace oci.DataSafeSubsetData
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#parallel_degree DataSafeSubsetData#parallel_degree}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#parallel_degree DataSafeSubsetData#parallel_degree}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "parallelDegree", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ParallelDegree
@@ -246,7 +246,7 @@ namespace oci.DataSafeSubsetData
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#recompile DataSafeSubsetData#recompile}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#recompile DataSafeSubsetData#recompile}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "recompile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Recompile
@@ -254,7 +254,7 @@ namespace oci.DataSafeSubsetData
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#re_run_from_step DataSafeSubsetData#re_run_from_step}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#re_run_from_step DataSafeSubsetData#re_run_from_step}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "reRunFromStep", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ReRunFromStep
@@ -262,7 +262,7 @@ namespace oci.DataSafeSubsetData
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#tablespace DataSafeSubsetData#tablespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#tablespace DataSafeSubsetData#tablespace}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tablespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Tablespace
@@ -270,7 +270,7 @@ namespace oci.DataSafeSubsetData
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#target_id DataSafeSubsetData#target_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#target_id DataSafeSubsetData#target_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TargetId
@@ -280,7 +280,7 @@ namespace oci.DataSafeSubsetData
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subset_data#timeouts DataSafeSubsetData#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subset_data#timeouts DataSafeSubsetData#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dataSafeSubsetData.DataSafeSubsetDataTimeouts\"}", isOptional: true)]

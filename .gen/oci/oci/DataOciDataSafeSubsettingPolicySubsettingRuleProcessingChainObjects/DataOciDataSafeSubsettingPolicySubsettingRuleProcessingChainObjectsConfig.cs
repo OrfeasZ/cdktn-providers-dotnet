@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObject
     [JsiiByValue(fqn: "oci.dataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjects.DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjectsConfig")]
     public class DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjectsConfig : oci.DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjects.IDataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjectsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_rule_processing_chain_objects#subsetting_policy_id DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjects#subsetting_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_rule_processing_chain_objects#subsetting_policy_id DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjects#subsetting_policy_id}.</summary>
         [JsiiProperty(name: "subsettingPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string SubsettingPolicyId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_rule_processing_chain_objects#subsetting_rule_key DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjects#subsetting_rule_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_rule_processing_chain_objects#subsetting_rule_key DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjects#subsetting_rule_key}.</summary>
         [JsiiProperty(name: "subsettingRuleKey", typeJson: "{\"primitive\":\"string\"}")]
         public string SubsettingRuleKey
         {
@@ -29,7 +29,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObject
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_rule_processing_chain_objects#filter DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjects#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_rule_processing_chain_objects#filter DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjects#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjects.IDataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjectsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObject
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_rule_processing_chain_objects#id DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjects#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_rule_processing_chain_objects#id DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjects#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,7 +75,7 @@ namespace oci.DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObject
 
         private object? _isEnabledForProcessing;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_policy_subsetting_rule_processing_chain_objects#is_enabled_for_processing DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjects#is_enabled_for_processing}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_policy_subsetting_rule_processing_chain_objects#is_enabled_for_processing DataOciDataSafeSubsettingPolicySubsettingRuleProcessingChainObjects#is_enabled_for_processing}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

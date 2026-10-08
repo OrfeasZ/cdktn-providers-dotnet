@@ -9,7 +9,7 @@ namespace oci.DataOciCoreDrgNatPolicy
     [JsiiByValue(fqn: "oci.dataOciCoreDrgNatPolicy.DataOciCoreDrgNatPolicyConfig")]
     public class DataOciCoreDrgNatPolicyConfig : oci.DataOciCoreDrgNatPolicy.IDataOciCoreDrgNatPolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/core_drg_nat_policy#drg_nat_policy_id DataOciCoreDrgNatPolicy#drg_nat_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/core_drg_nat_policy#drg_nat_policy_id DataOciCoreDrgNatPolicy#drg_nat_policy_id}.</summary>
         [JsiiProperty(name: "drgNatPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string DrgNatPolicyId
         {

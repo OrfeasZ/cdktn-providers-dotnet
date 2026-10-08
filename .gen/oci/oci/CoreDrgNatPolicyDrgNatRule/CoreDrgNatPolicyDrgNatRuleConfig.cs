@@ -9,7 +9,7 @@ namespace oci.CoreDrgNatPolicyDrgNatRule
     [JsiiByValue(fqn: "oci.coreDrgNatPolicyDrgNatRule.CoreDrgNatPolicyDrgNatRuleConfig")]
     public class CoreDrgNatPolicyDrgNatRuleConfig : oci.CoreDrgNatPolicyDrgNatRule.ICoreDrgNatPolicyDrgNatRuleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_drg_nat_policy_drg_nat_rule#drg_nat_policy_id CoreDrgNatPolicyDrgNatRule#drg_nat_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_drg_nat_policy_drg_nat_rule#drg_nat_policy_id CoreDrgNatPolicyDrgNatRule#drg_nat_policy_id}.</summary>
         [JsiiProperty(name: "drgNatPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         public string DrgNatPolicyId
         {
@@ -17,7 +17,7 @@ namespace oci.CoreDrgNatPolicyDrgNatRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_drg_nat_policy_drg_nat_rule#drg_nat_rule_priority CoreDrgNatPolicyDrgNatRule#drg_nat_rule_priority}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_drg_nat_policy_drg_nat_rule#drg_nat_rule_priority CoreDrgNatPolicyDrgNatRule#drg_nat_rule_priority}.</summary>
         [JsiiProperty(name: "drgNatRulePriority", typeJson: "{\"primitive\":\"number\"}")]
         public double DrgNatRulePriority
         {
@@ -25,7 +25,7 @@ namespace oci.CoreDrgNatPolicyDrgNatRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_drg_nat_policy_drg_nat_rule#id CoreDrgNatPolicyDrgNatRule#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_drg_nat_policy_drg_nat_rule#id CoreDrgNatPolicyDrgNatRule#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace oci.CoreDrgNatPolicyDrgNatRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_drg_nat_policy_drg_nat_rule#original_destination CoreDrgNatPolicyDrgNatRule#original_destination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_drg_nat_policy_drg_nat_rule#original_destination CoreDrgNatPolicyDrgNatRule#original_destination}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "originalDestination", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OriginalDestination
@@ -47,7 +47,7 @@ namespace oci.CoreDrgNatPolicyDrgNatRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_drg_nat_policy_drg_nat_rule#original_source CoreDrgNatPolicyDrgNatRule#original_source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_drg_nat_policy_drg_nat_rule#original_source CoreDrgNatPolicyDrgNatRule#original_source}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "originalSource", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? OriginalSource
@@ -58,7 +58,7 @@ namespace oci.CoreDrgNatPolicyDrgNatRule
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_drg_nat_policy_drg_nat_rule#timeouts CoreDrgNatPolicyDrgNatRule#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_drg_nat_policy_drg_nat_rule#timeouts CoreDrgNatPolicyDrgNatRule#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.coreDrgNatPolicyDrgNatRule.CoreDrgNatPolicyDrgNatRuleTimeouts\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace oci.CoreDrgNatPolicyDrgNatRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_drg_nat_policy_drg_nat_rule#translated_destination CoreDrgNatPolicyDrgNatRule#translated_destination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_drg_nat_policy_drg_nat_rule#translated_destination CoreDrgNatPolicyDrgNatRule#translated_destination}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "translatedDestination", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TranslatedDestination
@@ -77,7 +77,7 @@ namespace oci.CoreDrgNatPolicyDrgNatRule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/core_drg_nat_policy_drg_nat_rule#translated_source CoreDrgNatPolicyDrgNatRule#translated_source}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/core_drg_nat_policy_drg_nat_rule#translated_source CoreDrgNatPolicyDrgNatRule#translated_source}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "translatedSource", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TranslatedSource

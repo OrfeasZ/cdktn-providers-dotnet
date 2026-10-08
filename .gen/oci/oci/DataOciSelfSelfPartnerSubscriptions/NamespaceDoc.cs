@@ -5,7 +5,7 @@ namespace oci.DataOciSelfSelfPartnerSubscriptions
     /// <remarks>
     /// <h1><c>data_oci_self_self_partner_subscriptions</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/self_self_partner_subscriptions"><c>data_oci_self_self_partner_subscriptions</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/self_self_partner_subscriptions"><c>data_oci_self_self_partner_subscriptions</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -7,14 +7,14 @@ namespace oci.FunctionsFunction
     [JsiiInterface(nativeType: typeof(IFunctionsFunctionSourceDetailsArchiveSourceDetails), fullyQualifiedName: "oci.functionsFunction.FunctionsFunctionSourceDetailsArchiveSourceDetails")]
     public interface IFunctionsFunctionSourceDetailsArchiveSourceDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#archive_source_type FunctionsFunction#archive_source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/functions_function#archive_source_type FunctionsFunction#archive_source_type}.</summary>
         [JsiiProperty(name: "archiveSourceType", typeJson: "{\"primitive\":\"string\"}")]
         string ArchiveSourceType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#archive_file FunctionsFunction#archive_file}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/functions_function#archive_file FunctionsFunction#archive_file}.</summary>
         [JsiiProperty(name: "archiveFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ArchiveFile
@@ -25,7 +25,7 @@ namespace oci.FunctionsFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#bucket FunctionsFunction#bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/functions_function#bucket FunctionsFunction#bucket}.</summary>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Bucket
@@ -36,7 +36,7 @@ namespace oci.FunctionsFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#namespace FunctionsFunction#namespace}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/functions_function#namespace FunctionsFunction#namespace}.</summary>
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Namespace
@@ -47,7 +47,7 @@ namespace oci.FunctionsFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#object FunctionsFunction#object}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/functions_function#object FunctionsFunction#object}.</summary>
         [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Object
@@ -58,7 +58,7 @@ namespace oci.FunctionsFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#object_version_id FunctionsFunction#object_version_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/functions_function#object_version_id FunctionsFunction#object_version_id}.</summary>
         [JsiiProperty(name: "objectVersionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ObjectVersionId
@@ -76,14 +76,14 @@ namespace oci.FunctionsFunction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#archive_source_type FunctionsFunction#archive_source_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/functions_function#archive_source_type FunctionsFunction#archive_source_type}.</summary>
             [JsiiProperty(name: "archiveSourceType", typeJson: "{\"primitive\":\"string\"}")]
             public string ArchiveSourceType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#archive_file FunctionsFunction#archive_file}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/functions_function#archive_file FunctionsFunction#archive_file}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "archiveFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ArchiveFile
@@ -91,7 +91,7 @@ namespace oci.FunctionsFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#bucket FunctionsFunction#bucket}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/functions_function#bucket FunctionsFunction#bucket}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Bucket
@@ -99,7 +99,7 @@ namespace oci.FunctionsFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#namespace FunctionsFunction#namespace}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/functions_function#namespace FunctionsFunction#namespace}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Namespace
@@ -107,7 +107,7 @@ namespace oci.FunctionsFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#object FunctionsFunction#object}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/functions_function#object FunctionsFunction#object}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "object", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Object
@@ -115,7 +115,7 @@ namespace oci.FunctionsFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/functions_function#object_version_id FunctionsFunction#object_version_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/functions_function#object_version_id FunctionsFunction#object_version_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "objectVersionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ObjectVersionId

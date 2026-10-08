@@ -9,7 +9,7 @@ namespace oci.DataOciDataSafeSubsettingAnalytics
     [JsiiByValue(fqn: "oci.dataOciDataSafeSubsettingAnalytics.DataOciDataSafeSubsettingAnalyticsConfig")]
     public class DataOciDataSafeSubsettingAnalyticsConfig : oci.DataOciDataSafeSubsettingAnalytics.IDataOciDataSafeSubsettingAnalyticsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_analytics#compartment_id DataOciDataSafeSubsettingAnalytics#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_analytics#compartment_id DataOciDataSafeSubsettingAnalytics#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -19,7 +19,7 @@ namespace oci.DataOciDataSafeSubsettingAnalytics
 
         private object? _compartmentIdInSubtree;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_analytics#compartment_id_in_subtree DataOciDataSafeSubsettingAnalytics#compartment_id_in_subtree}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_analytics#compartment_id_in_subtree DataOciDataSafeSubsettingAnalytics#compartment_id_in_subtree}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -55,7 +55,7 @@ namespace oci.DataOciDataSafeSubsettingAnalytics
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_analytics#filter DataOciDataSafeSubsettingAnalytics#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_analytics#filter DataOciDataSafeSubsettingAnalytics#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDataSafeSubsettingAnalytics.IDataOciDataSafeSubsettingAnalyticsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -86,7 +86,7 @@ namespace oci.DataOciDataSafeSubsettingAnalytics
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_analytics#group_by DataOciDataSafeSubsettingAnalytics#group_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_analytics#group_by DataOciDataSafeSubsettingAnalytics#group_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "groupBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? GroupBy
@@ -95,7 +95,7 @@ namespace oci.DataOciDataSafeSubsettingAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_analytics#id DataOciDataSafeSubsettingAnalytics#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_analytics#id DataOciDataSafeSubsettingAnalytics#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -108,7 +108,7 @@ namespace oci.DataOciDataSafeSubsettingAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_analytics#subsetting_policy_id DataOciDataSafeSubsettingAnalytics#subsetting_policy_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_analytics#subsetting_policy_id DataOciDataSafeSubsettingAnalytics#subsetting_policy_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subsettingPolicyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SubsettingPolicyId
@@ -117,7 +117,7 @@ namespace oci.DataOciDataSafeSubsettingAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_analytics#target_database_group_id DataOciDataSafeSubsettingAnalytics#target_database_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_analytics#target_database_group_id DataOciDataSafeSubsettingAnalytics#target_database_group_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetDatabaseGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetDatabaseGroupId
@@ -126,7 +126,7 @@ namespace oci.DataOciDataSafeSubsettingAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_analytics#target_id DataOciDataSafeSubsettingAnalytics#target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_analytics#target_id DataOciDataSafeSubsettingAnalytics#target_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "targetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TargetId
@@ -135,7 +135,7 @@ namespace oci.DataOciDataSafeSubsettingAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_analytics#time_created_greater_than_or_equal_to DataOciDataSafeSubsettingAnalytics#time_created_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_analytics#time_created_greater_than_or_equal_to DataOciDataSafeSubsettingAnalytics#time_created_greater_than_or_equal_to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeCreatedGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeCreatedGreaterThanOrEqualTo
@@ -144,7 +144,7 @@ namespace oci.DataOciDataSafeSubsettingAnalytics
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/data-sources/data_safe_subsetting_analytics#time_created_less_than DataOciDataSafeSubsettingAnalytics#time_created_less_than}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/data_safe_subsetting_analytics#time_created_less_than DataOciDataSafeSubsettingAnalytics#time_created_less_than}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeCreatedLessThan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeCreatedLessThan

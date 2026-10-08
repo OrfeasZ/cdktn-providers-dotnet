@@ -7,14 +7,14 @@ namespace oci.DataSafeSubsettingPolicy
     [JsiiInterface(nativeType: typeof(IDataSafeSubsettingPolicyTargetCredentials), fullyQualifiedName: "oci.dataSafeSubsettingPolicy.DataSafeSubsettingPolicyTargetCredentials")]
     public interface IDataSafeSubsettingPolicyTargetCredentials
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy#password DataSafeSubsettingPolicy#password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy#password DataSafeSubsettingPolicy#password}.</summary>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         string Password
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy#user_name DataSafeSubsettingPolicy#user_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy#user_name DataSafeSubsettingPolicy#user_name}.</summary>
         [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}")]
         string UserName
         {
@@ -28,14 +28,14 @@ namespace oci.DataSafeSubsettingPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy#password DataSafeSubsettingPolicy#password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy#password DataSafeSubsettingPolicy#password}.</summary>
             [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
             public string Password
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/data_safe_subsetting_policy#user_name DataSafeSubsettingPolicy#user_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/data_safe_subsetting_policy#user_name DataSafeSubsettingPolicy#user_name}.</summary>
             [JsiiProperty(name: "userName", typeJson: "{\"primitive\":\"string\"}")]
             public string UserName
             {

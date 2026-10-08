@@ -9,7 +9,7 @@ namespace oci.GenerativeAiRoutingProfile
     [JsiiByValue(fqn: "oci.generativeAiRoutingProfile.GenerativeAiRoutingProfileConfig")]
     public class GenerativeAiRoutingProfileConfig : oci.GenerativeAiRoutingProfile.IGenerativeAiRoutingProfileConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/generative_ai_routing_profile#compartment_id GenerativeAiRoutingProfile#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/generative_ai_routing_profile#compartment_id GenerativeAiRoutingProfile#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.GenerativeAiRoutingProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/generative_ai_routing_profile#display_name GenerativeAiRoutingProfile#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/generative_ai_routing_profile#display_name GenerativeAiRoutingProfile#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace oci.GenerativeAiRoutingProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/generative_ai_routing_profile#defined_tags GenerativeAiRoutingProfile#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/generative_ai_routing_profile#defined_tags GenerativeAiRoutingProfile#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -34,7 +34,7 @@ namespace oci.GenerativeAiRoutingProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/generative_ai_routing_profile#description GenerativeAiRoutingProfile#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/generative_ai_routing_profile#description GenerativeAiRoutingProfile#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -43,7 +43,7 @@ namespace oci.GenerativeAiRoutingProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/generative_ai_routing_profile#freeform_tags GenerativeAiRoutingProfile#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/generative_ai_routing_profile#freeform_tags GenerativeAiRoutingProfile#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -52,7 +52,7 @@ namespace oci.GenerativeAiRoutingProfile
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/generative_ai_routing_profile#id GenerativeAiRoutingProfile#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/generative_ai_routing_profile#id GenerativeAiRoutingProfile#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -67,7 +67,7 @@ namespace oci.GenerativeAiRoutingProfile
 
         /// <summary>model_routing_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/generative_ai_routing_profile#model_routing_policy GenerativeAiRoutingProfile#model_routing_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/generative_ai_routing_profile#model_routing_policy GenerativeAiRoutingProfile#model_routing_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "modelRoutingPolicy", typeJson: "{\"fqn\":\"oci.generativeAiRoutingProfile.GenerativeAiRoutingProfileModelRoutingPolicy\"}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace oci.GenerativeAiRoutingProfile
 
         /// <summary>region_routing_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/generative_ai_routing_profile#region_routing_policy GenerativeAiRoutingProfile#region_routing_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/generative_ai_routing_profile#region_routing_policy GenerativeAiRoutingProfile#region_routing_policy}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "regionRoutingPolicy", typeJson: "{\"fqn\":\"oci.generativeAiRoutingProfile.GenerativeAiRoutingProfileRegionRoutingPolicy\"}", isOptional: true)]
@@ -91,7 +91,7 @@ namespace oci.GenerativeAiRoutingProfile
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.8.0/docs/resources/generative_ai_routing_profile#timeouts GenerativeAiRoutingProfile#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/generative_ai_routing_profile#timeouts GenerativeAiRoutingProfile#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.generativeAiRoutingProfile.GenerativeAiRoutingProfileTimeouts\"}", isOptional: true)]
