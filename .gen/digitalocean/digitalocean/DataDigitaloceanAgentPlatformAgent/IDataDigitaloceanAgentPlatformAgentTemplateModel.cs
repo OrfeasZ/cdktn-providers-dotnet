@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
     {
         /// <summary>agreement block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#agreement DataDigitaloceanAgentPlatformAgent#agreement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#agreement DataDigitaloceanAgentPlatformAgent#agreement}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanAgentPlatformAgent.IDataDigitaloceanAgentPlatformAgentTemplateModelAgreement" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "agreement", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanAgentPlatformAgent.DataDigitaloceanAgentPlatformAgentTemplateModelAgreement\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -24,7 +24,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>Inference name of the model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#inference_name DataDigitaloceanAgentPlatformAgent#inference_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#inference_name DataDigitaloceanAgentPlatformAgent#inference_name}
         /// </remarks>
         [JsiiProperty(name: "inferenceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,7 +38,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>Infernce version of the model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#inference_version DataDigitaloceanAgentPlatformAgent#inference_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#inference_version DataDigitaloceanAgentPlatformAgent#inference_version}
         /// </remarks>
         [JsiiProperty(name: "inferenceVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,7 +52,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>Indicates if the Model Base is foundational.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#is_foundational DataDigitaloceanAgentPlatformAgent#is_foundational}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#is_foundational DataDigitaloceanAgentPlatformAgent#is_foundational}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "isFoundational", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>Name of the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#name DataDigitaloceanAgentPlatformAgent#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#name DataDigitaloceanAgentPlatformAgent#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -81,7 +81,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>Parent UUID of the Model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#parent_uuid DataDigitaloceanAgentPlatformAgent#parent_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#parent_uuid DataDigitaloceanAgentPlatformAgent#parent_uuid}
         /// </remarks>
         [JsiiProperty(name: "parentUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -95,7 +95,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>Provider of the Model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#provider DataDigitaloceanAgentPlatformAgent#provider}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#provider DataDigitaloceanAgentPlatformAgent#provider}
         /// </remarks>
         [JsiiProperty(name: "provider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -109,7 +109,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>Indicates if the Model upload is complete.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#upload_complete DataDigitaloceanAgentPlatformAgent#upload_complete}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#upload_complete DataDigitaloceanAgentPlatformAgent#upload_complete}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "uploadComplete", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -124,7 +124,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>URL of the Model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#url DataDigitaloceanAgentPlatformAgent#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#url DataDigitaloceanAgentPlatformAgent#url}
         /// </remarks>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -138,7 +138,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>List of Usecases for the Model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#usecases DataDigitaloceanAgentPlatformAgent#usecases}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#usecases DataDigitaloceanAgentPlatformAgent#usecases}
         /// </remarks>
         [JsiiProperty(name: "usecases", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -152,7 +152,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>versions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#versions DataDigitaloceanAgentPlatformAgent#versions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#versions DataDigitaloceanAgentPlatformAgent#versions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanAgentPlatformAgent.IDataDigitaloceanAgentPlatformAgentTemplateModelVersions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "versions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.dataDigitaloceanAgentPlatformAgent.DataDigitaloceanAgentPlatformAgentTemplateModelVersions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -174,7 +174,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
             /// <summary>agreement block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#agreement DataDigitaloceanAgentPlatformAgent#agreement}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#agreement DataDigitaloceanAgentPlatformAgent#agreement}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanAgentPlatformAgent.IDataDigitaloceanAgentPlatformAgentTemplateModelAgreement" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -186,7 +186,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
             /// <summary>Inference name of the model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#inference_name DataDigitaloceanAgentPlatformAgent#inference_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#inference_name DataDigitaloceanAgentPlatformAgent#inference_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "inferenceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -197,7 +197,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
             /// <summary>Infernce version of the model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#inference_version DataDigitaloceanAgentPlatformAgent#inference_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#inference_version DataDigitaloceanAgentPlatformAgent#inference_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "inferenceVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -208,7 +208,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
             /// <summary>Indicates if the Model Base is foundational.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#is_foundational DataDigitaloceanAgentPlatformAgent#is_foundational}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#is_foundational DataDigitaloceanAgentPlatformAgent#is_foundational}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -220,7 +220,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
             /// <summary>Name of the Knowledge Base.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#name DataDigitaloceanAgentPlatformAgent#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#name DataDigitaloceanAgentPlatformAgent#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -231,7 +231,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
             /// <summary>Parent UUID of the Model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#parent_uuid DataDigitaloceanAgentPlatformAgent#parent_uuid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#parent_uuid DataDigitaloceanAgentPlatformAgent#parent_uuid}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "parentUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -242,7 +242,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
             /// <summary>Provider of the Model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#provider DataDigitaloceanAgentPlatformAgent#provider}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#provider DataDigitaloceanAgentPlatformAgent#provider}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "provider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -253,7 +253,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
             /// <summary>Indicates if the Model upload is complete.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#upload_complete DataDigitaloceanAgentPlatformAgent#upload_complete}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#upload_complete DataDigitaloceanAgentPlatformAgent#upload_complete}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -265,7 +265,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
             /// <summary>URL of the Model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#url DataDigitaloceanAgentPlatformAgent#url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#url DataDigitaloceanAgentPlatformAgent#url}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -276,7 +276,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
             /// <summary>List of Usecases for the Model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#usecases DataDigitaloceanAgentPlatformAgent#usecases}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#usecases DataDigitaloceanAgentPlatformAgent#usecases}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "usecases", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -287,7 +287,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
             /// <summary>versions block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#versions DataDigitaloceanAgentPlatformAgent#versions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#versions DataDigitaloceanAgentPlatformAgent#versions}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanAgentPlatformAgent.IDataDigitaloceanAgentPlatformAgentTemplateModelVersions" />)[]</para>
             /// </remarks>
             [JsiiOptional]

@@ -9,7 +9,7 @@ namespace digitalocean.AgentPlatformKnowledgeBaseDataSource
     {
         /// <summary>The base URL to crawl.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base_data_source#base_url AgentPlatformKnowledgeBaseDataSource#base_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_knowledge_base_data_source#base_url AgentPlatformKnowledgeBaseDataSource#base_url}
         /// </remarks>
         [JsiiProperty(name: "baseUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -31,7 +31,7 @@ namespace digitalocean.AgentPlatformKnowledgeBaseDataSource
         /// <description>SUBDOMAINS: Crawl the base URL and linked pages for any subdomain.</description>
         /// </list>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base_data_source#crawling_option AgentPlatformKnowledgeBaseDataSource#crawling_option}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_knowledge_base_data_source#crawling_option AgentPlatformKnowledgeBaseDataSource#crawling_option}
         /// </remarks>
         [JsiiProperty(name: "crawlingOption", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace digitalocean.AgentPlatformKnowledgeBaseDataSource
 
         /// <summary>Whether to embed media content.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base_data_source#embed_media AgentPlatformKnowledgeBaseDataSource#embed_media}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_knowledge_base_data_source#embed_media AgentPlatformKnowledgeBaseDataSource#embed_media}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "embedMedia", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace digitalocean.AgentPlatformKnowledgeBaseDataSource
 
             /// <summary>The base URL to crawl.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base_data_source#base_url AgentPlatformKnowledgeBaseDataSource#base_url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_knowledge_base_data_source#base_url AgentPlatformKnowledgeBaseDataSource#base_url}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "baseUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -86,7 +86,7 @@ namespace digitalocean.AgentPlatformKnowledgeBaseDataSource
             /// <description>SUBDOMAINS: Crawl the base URL and linked pages for any subdomain.</description>
             /// </list>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base_data_source#crawling_option AgentPlatformKnowledgeBaseDataSource#crawling_option}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_knowledge_base_data_source#crawling_option AgentPlatformKnowledgeBaseDataSource#crawling_option}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "crawlingOption", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace digitalocean.AgentPlatformKnowledgeBaseDataSource
 
             /// <summary>Whether to embed media content.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base_data_source#embed_media AgentPlatformKnowledgeBaseDataSource#embed_media}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_knowledge_base_data_source#embed_media AgentPlatformKnowledgeBaseDataSource#embed_media}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

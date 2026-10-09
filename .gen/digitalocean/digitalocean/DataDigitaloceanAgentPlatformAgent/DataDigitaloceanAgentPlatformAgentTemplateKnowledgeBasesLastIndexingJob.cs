@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
     {
         /// <summary>Number of completed datasources in the last indexing job.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#completed_datasources DataDigitaloceanAgentPlatformAgent#completed_datasources}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#completed_datasources DataDigitaloceanAgentPlatformAgent#completed_datasources}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "completedDatasources", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>Datasource UUIDs for the last indexing job.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#data_source_uuids DataDigitaloceanAgentPlatformAgent#data_source_uuids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#data_source_uuids DataDigitaloceanAgentPlatformAgent#data_source_uuids}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dataSourceUuids", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>Phase of the last indexing job.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#phase DataDigitaloceanAgentPlatformAgent#phase}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#phase DataDigitaloceanAgentPlatformAgent#phase}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "phase", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>Number of tokens processed in the last indexing job.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#tokens DataDigitaloceanAgentPlatformAgent#tokens}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#tokens DataDigitaloceanAgentPlatformAgent#tokens}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tokens", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>Total number of datasources in the last indexing job.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#total_datasources DataDigitaloceanAgentPlatformAgent#total_datasources}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#total_datasources DataDigitaloceanAgentPlatformAgent#total_datasources}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "totalDatasources", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>UUID  of the last indexing job.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#uuid DataDigitaloceanAgentPlatformAgent#uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#uuid DataDigitaloceanAgentPlatformAgent#uuid}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "uuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace digitalocean.AgentPlatformAgent
     {
         /// <summary>Database ID of the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#database_id AgentPlatformAgent#database_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent#database_id AgentPlatformAgent#database_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace digitalocean.AgentPlatformAgent
 
         /// <summary>Embedding model UUID for the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#embedding_model_uuid AgentPlatformAgent#embedding_model_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent#embedding_model_uuid AgentPlatformAgent#embedding_model_uuid}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "embeddingModelUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -35,7 +35,7 @@ namespace digitalocean.AgentPlatformAgent
 
         /// <summary>Indicates if the Knowledge Base is public.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#is_public AgentPlatformAgent#is_public}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent#is_public AgentPlatformAgent#is_public}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -68,7 +68,7 @@ namespace digitalocean.AgentPlatformAgent
 
         /// <summary>last_indexing_job block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#last_indexing_job AgentPlatformAgent#last_indexing_job}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent#last_indexing_job AgentPlatformAgent#last_indexing_job}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lastIndexingJob", typeJson: "{\"fqn\":\"digitalocean.agentPlatformAgent.AgentPlatformAgentTemplateKnowledgeBasesLastIndexingJob\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace digitalocean.AgentPlatformAgent
 
         /// <summary>Name of the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#name AgentPlatformAgent#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent#name AgentPlatformAgent#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -92,7 +92,7 @@ namespace digitalocean.AgentPlatformAgent
 
         /// <summary>Project ID of the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#project_id AgentPlatformAgent#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent#project_id AgentPlatformAgent#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -104,7 +104,7 @@ namespace digitalocean.AgentPlatformAgent
 
         /// <summary>Region of the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#region AgentPlatformAgent#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent#region AgentPlatformAgent#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -116,7 +116,7 @@ namespace digitalocean.AgentPlatformAgent
 
         /// <summary>List of tags.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#tags AgentPlatformAgent#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent#tags AgentPlatformAgent#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -128,7 +128,7 @@ namespace digitalocean.AgentPlatformAgent
 
         /// <summary>User ID of the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#user_id AgentPlatformAgent#user_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent#user_id AgentPlatformAgent#user_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

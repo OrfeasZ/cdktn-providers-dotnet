@@ -11,7 +11,7 @@ namespace digitalocean.AgentPlatformFunction
     {
         /// <summary>The name of the Agent Platform resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_function#agent_id AgentPlatformFunction#agent_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_function#agent_id AgentPlatformFunction#agent_id}
         /// </remarks>
         [JsiiProperty(name: "agentId", typeJson: "{\"primitive\":\"string\"}")]
         public string AgentId
@@ -22,7 +22,7 @@ namespace digitalocean.AgentPlatformFunction
 
         /// <summary>The region where the Agent Platform resource will be created.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_function#description AgentPlatformFunction#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_function#description AgentPlatformFunction#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public string Description
@@ -33,7 +33,7 @@ namespace digitalocean.AgentPlatformFunction
 
         /// <summary>The current status of the Agent Platform resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_function#faas_namespace AgentPlatformFunction#faas_namespace}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_function#faas_namespace AgentPlatformFunction#faas_namespace}
         /// </remarks>
         [JsiiProperty(name: "faasNamespace", typeJson: "{\"primitive\":\"string\"}")]
         public string FaasNamespace
@@ -44,7 +44,7 @@ namespace digitalocean.AgentPlatformFunction
 
         /// <summary>The creation timestamp of the Agent Platform resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_function#function_name AgentPlatformFunction#function_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_function#function_name AgentPlatformFunction#function_name}
         /// </remarks>
         [JsiiProperty(name: "functionName", typeJson: "{\"primitive\":\"string\"}")]
         public string FunctionName
@@ -55,7 +55,7 @@ namespace digitalocean.AgentPlatformFunction
 
         /// <summary>The input schema of the Agent Platform resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_function#input_schema AgentPlatformFunction#input_schema}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_function#input_schema AgentPlatformFunction#input_schema}
         /// </remarks>
         [JsiiProperty(name: "inputSchema", typeJson: "{\"primitive\":\"string\"}")]
         public string InputSchema
@@ -66,7 +66,7 @@ namespace digitalocean.AgentPlatformFunction
 
         /// <summary>The model to use for the Agent Platform resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_function#faas_name AgentPlatformFunction#faas_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_function#faas_name AgentPlatformFunction#faas_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "faasName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -76,7 +76,7 @@ namespace digitalocean.AgentPlatformFunction
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_function#id AgentPlatformFunction#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_function#id AgentPlatformFunction#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -91,7 +91,7 @@ namespace digitalocean.AgentPlatformFunction
 
         /// <summary>The output schema of the Agent Platform resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_function#output_schema AgentPlatformFunction#output_schema}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_function#output_schema AgentPlatformFunction#output_schema}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "outputSchema", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

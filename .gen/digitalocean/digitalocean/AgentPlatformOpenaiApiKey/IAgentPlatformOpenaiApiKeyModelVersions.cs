@@ -9,7 +9,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
     {
         /// <summary>Major version of the model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#major AgentPlatformOpenaiApiKey#major}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_openai_api_key#major AgentPlatformOpenaiApiKey#major}
         /// </remarks>
         [JsiiProperty(name: "major", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
         /// <summary>Minor version of the model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#minor AgentPlatformOpenaiApiKey#minor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_openai_api_key#minor AgentPlatformOpenaiApiKey#minor}
         /// </remarks>
         [JsiiProperty(name: "minor", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
         /// <summary>Patch version of the model.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#patch AgentPlatformOpenaiApiKey#patch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_openai_api_key#patch AgentPlatformOpenaiApiKey#patch}
         /// </remarks>
         [JsiiProperty(name: "patch", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
             /// <summary>Major version of the model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#major AgentPlatformOpenaiApiKey#major}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_openai_api_key#major AgentPlatformOpenaiApiKey#major}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "major", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
             /// <summary>Minor version of the model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#minor AgentPlatformOpenaiApiKey#minor}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_openai_api_key#minor AgentPlatformOpenaiApiKey#minor}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "minor", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace digitalocean.AgentPlatformOpenaiApiKey
 
             /// <summary>Patch version of the model.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_openai_api_key#patch AgentPlatformOpenaiApiKey#patch}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_openai_api_key#patch AgentPlatformOpenaiApiKey#patch}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "patch", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

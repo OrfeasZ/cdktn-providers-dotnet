@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
     {
         /// <summary>Agent UUID for the Guardrail.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#agent_uuid DataDigitaloceanAgentPlatformAgent#agent_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#agent_uuid DataDigitaloceanAgentPlatformAgent#agent_uuid}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "agentUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>Default response for the Guardrail.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#default_response DataDigitaloceanAgentPlatformAgent#default_response}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#default_response DataDigitaloceanAgentPlatformAgent#default_response}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultResponse", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>Description of the Guardrail.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#description DataDigitaloceanAgentPlatformAgent#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#description DataDigitaloceanAgentPlatformAgent#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>Guardrail UUID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#guardrail_uuid DataDigitaloceanAgentPlatformAgent#guardrail_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#guardrail_uuid DataDigitaloceanAgentPlatformAgent#guardrail_uuid}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "guardrailUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>Indicates if the Guardrail is default.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#is_default DataDigitaloceanAgentPlatformAgent#is_default}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#is_default DataDigitaloceanAgentPlatformAgent#is_default}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -92,7 +92,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>Name of Guardrail.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#name DataDigitaloceanAgentPlatformAgent#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#name DataDigitaloceanAgentPlatformAgent#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -104,7 +104,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>Priority of the Guardrail.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#priority DataDigitaloceanAgentPlatformAgent#priority}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#priority DataDigitaloceanAgentPlatformAgent#priority}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -116,7 +116,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>Type of the Guardrail.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#type DataDigitaloceanAgentPlatformAgent#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#type DataDigitaloceanAgentPlatformAgent#type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -128,7 +128,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
         /// <summary>Guardrail UUID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#uuid DataDigitaloceanAgentPlatformAgent#uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#uuid DataDigitaloceanAgentPlatformAgent#uuid}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "uuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

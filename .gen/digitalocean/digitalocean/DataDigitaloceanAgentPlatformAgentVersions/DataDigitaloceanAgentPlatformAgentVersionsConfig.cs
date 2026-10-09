@@ -11,7 +11,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgentVersions
     {
         /// <summary>The ID of the agent to fetch versions for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent_versions#agent_id DataDigitaloceanAgentPlatformAgentVersions#agent_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent_versions#agent_id DataDigitaloceanAgentPlatformAgentVersions#agent_id}
         /// </remarks>
         [JsiiProperty(name: "agentId", typeJson: "{\"primitive\":\"string\"}")]
         public string AgentId
@@ -24,7 +24,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgentVersions
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent_versions#filter DataDigitaloceanAgentPlatformAgentVersions#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent_versions#filter DataDigitaloceanAgentPlatformAgentVersions#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanAgentPlatformAgentVersions.IDataDigitaloceanAgentPlatformAgentVersionsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -55,7 +55,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgentVersions
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent_versions#id DataDigitaloceanAgentPlatformAgentVersions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent_versions#id DataDigitaloceanAgentPlatformAgentVersions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,7 +72,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgentVersions
 
         /// <summary>sort block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent_versions#sort DataDigitaloceanAgentPlatformAgentVersions#sort}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent_versions#sort DataDigitaloceanAgentPlatformAgentVersions#sort}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanAgentPlatformAgentVersions.IDataDigitaloceanAgentPlatformAgentVersionsSort" />)[]</para>
         /// </remarks>
         [JsiiOptional]

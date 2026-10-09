@@ -9,7 +9,7 @@ namespace digitalocean.AgentPlatformAgent
     {
         /// <summary>Background color for the chatbot button.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#button_background_color AgentPlatformAgent#button_background_color}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent#button_background_color AgentPlatformAgent#button_background_color}
         /// </remarks>
         [JsiiProperty(name: "buttonBackgroundColor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace digitalocean.AgentPlatformAgent
 
         /// <summary>Logo for the chatbot.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#logo AgentPlatformAgent#logo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent#logo AgentPlatformAgent#logo}
         /// </remarks>
         [JsiiProperty(name: "logo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace digitalocean.AgentPlatformAgent
 
         /// <summary>Name of the chatbot.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#name AgentPlatformAgent#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent#name AgentPlatformAgent#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace digitalocean.AgentPlatformAgent
 
         /// <summary>Primary color for the chatbot.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#primary_color AgentPlatformAgent#primary_color}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent#primary_color AgentPlatformAgent#primary_color}
         /// </remarks>
         [JsiiProperty(name: "primaryColor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace digitalocean.AgentPlatformAgent
 
         /// <summary>Secondary color for the chatbot.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#secondary_color AgentPlatformAgent#secondary_color}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent#secondary_color AgentPlatformAgent#secondary_color}
         /// </remarks>
         [JsiiProperty(name: "secondaryColor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,7 +79,7 @@ namespace digitalocean.AgentPlatformAgent
 
         /// <summary>Starting message for the chatbot.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#starting_message AgentPlatformAgent#starting_message}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent#starting_message AgentPlatformAgent#starting_message}
         /// </remarks>
         [JsiiProperty(name: "startingMessage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -100,7 +100,7 @@ namespace digitalocean.AgentPlatformAgent
 
             /// <summary>Background color for the chatbot button.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#button_background_color AgentPlatformAgent#button_background_color}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent#button_background_color AgentPlatformAgent#button_background_color}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "buttonBackgroundColor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -111,7 +111,7 @@ namespace digitalocean.AgentPlatformAgent
 
             /// <summary>Logo for the chatbot.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#logo AgentPlatformAgent#logo}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent#logo AgentPlatformAgent#logo}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "logo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -122,7 +122,7 @@ namespace digitalocean.AgentPlatformAgent
 
             /// <summary>Name of the chatbot.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#name AgentPlatformAgent#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent#name AgentPlatformAgent#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -133,7 +133,7 @@ namespace digitalocean.AgentPlatformAgent
 
             /// <summary>Primary color for the chatbot.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#primary_color AgentPlatformAgent#primary_color}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent#primary_color AgentPlatformAgent#primary_color}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "primaryColor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -144,7 +144,7 @@ namespace digitalocean.AgentPlatformAgent
 
             /// <summary>Secondary color for the chatbot.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#secondary_color AgentPlatformAgent#secondary_color}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent#secondary_color AgentPlatformAgent#secondary_color}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "secondaryColor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -155,7 +155,7 @@ namespace digitalocean.AgentPlatformAgent
 
             /// <summary>Starting message for the chatbot.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent#starting_message AgentPlatformAgent#starting_message}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent#starting_message AgentPlatformAgent#starting_message}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "startingMessage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@
     "azurerm": "5.9.0",
     "azurestack": "1.0.0",
     "cloudflare": "5.27.0",
-    "digitalocean": "2.104.0",
+    "digitalocean": "2.105.0",
     "hcloud": "1.70.0",
     "libvirt": "0.9.9",
     "neon": "0.18.0",

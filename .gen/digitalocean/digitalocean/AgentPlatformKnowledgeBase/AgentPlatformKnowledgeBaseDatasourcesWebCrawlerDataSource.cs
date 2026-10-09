@@ -9,7 +9,7 @@ namespace digitalocean.AgentPlatformKnowledgeBase
     {
         /// <summary>The base URL to crawl.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base#base_url AgentPlatformKnowledgeBase#base_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_knowledge_base#base_url AgentPlatformKnowledgeBase#base_url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "baseUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -29,7 +29,7 @@ namespace digitalocean.AgentPlatformKnowledgeBase
         /// <description>SUBDOMAINS: Crawl the base URL and linked pages for any subdomain.</description>
         /// </list>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base#crawling_option AgentPlatformKnowledgeBase#crawling_option}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_knowledge_base#crawling_option AgentPlatformKnowledgeBase#crawling_option}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "crawlingOption", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace digitalocean.AgentPlatformKnowledgeBase
 
         /// <summary>Whether to embed media content.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base#embed_media AgentPlatformKnowledgeBase#embed_media}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_knowledge_base#embed_media AgentPlatformKnowledgeBase#embed_media}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

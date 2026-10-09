@@ -9,7 +9,7 @@ namespace digitalocean.AgentPlatformAgentRoute
     {
         /// <summary>The UUID of the child agent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent_route#child_agent_uuid AgentPlatformAgentRoute#child_agent_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent_route#child_agent_uuid AgentPlatformAgentRoute#child_agent_uuid}
         /// </remarks>
         [JsiiProperty(name: "childAgentUuid", typeJson: "{\"primitive\":\"string\"}")]
         string ChildAgentUuid
@@ -19,7 +19,7 @@ namespace digitalocean.AgentPlatformAgentRoute
 
         /// <summary>The UUID of the parent agent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent_route#parent_agent_uuid AgentPlatformAgentRoute#parent_agent_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent_route#parent_agent_uuid AgentPlatformAgentRoute#parent_agent_uuid}
         /// </remarks>
         [JsiiProperty(name: "parentAgentUuid", typeJson: "{\"primitive\":\"string\"}")]
         string ParentAgentUuid
@@ -27,7 +27,7 @@ namespace digitalocean.AgentPlatformAgentRoute
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent_route#id AgentPlatformAgentRoute#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent_route#id AgentPlatformAgentRoute#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -44,7 +44,7 @@ namespace digitalocean.AgentPlatformAgentRoute
 
         /// <summary>if-case condition for the route.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent_route#if_case AgentPlatformAgentRoute#if_case}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent_route#if_case AgentPlatformAgentRoute#if_case}
         /// </remarks>
         [JsiiProperty(name: "ifCase", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -56,7 +56,7 @@ namespace digitalocean.AgentPlatformAgentRoute
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent_route#rollback AgentPlatformAgentRoute#rollback}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent_route#rollback AgentPlatformAgentRoute#rollback}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -72,7 +72,7 @@ namespace digitalocean.AgentPlatformAgentRoute
 
         /// <summary>A name for the route.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent_route#route_name AgentPlatformAgentRoute#route_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent_route#route_name AgentPlatformAgentRoute#route_name}
         /// </remarks>
         [JsiiProperty(name: "routeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -93,7 +93,7 @@ namespace digitalocean.AgentPlatformAgentRoute
 
             /// <summary>The UUID of the child agent.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent_route#child_agent_uuid AgentPlatformAgentRoute#child_agent_uuid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent_route#child_agent_uuid AgentPlatformAgentRoute#child_agent_uuid}
             /// </remarks>
             [JsiiProperty(name: "childAgentUuid", typeJson: "{\"primitive\":\"string\"}")]
             public string ChildAgentUuid
@@ -103,7 +103,7 @@ namespace digitalocean.AgentPlatformAgentRoute
 
             /// <summary>The UUID of the parent agent.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent_route#parent_agent_uuid AgentPlatformAgentRoute#parent_agent_uuid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent_route#parent_agent_uuid AgentPlatformAgentRoute#parent_agent_uuid}
             /// </remarks>
             [JsiiProperty(name: "parentAgentUuid", typeJson: "{\"primitive\":\"string\"}")]
             public string ParentAgentUuid
@@ -111,7 +111,7 @@ namespace digitalocean.AgentPlatformAgentRoute
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent_route#id AgentPlatformAgentRoute#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent_route#id AgentPlatformAgentRoute#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -125,7 +125,7 @@ namespace digitalocean.AgentPlatformAgentRoute
 
             /// <summary>if-case condition for the route.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent_route#if_case AgentPlatformAgentRoute#if_case}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent_route#if_case AgentPlatformAgentRoute#if_case}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ifCase", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -134,7 +134,7 @@ namespace digitalocean.AgentPlatformAgentRoute
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent_route#rollback AgentPlatformAgentRoute#rollback}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent_route#rollback AgentPlatformAgentRoute#rollback}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -147,7 +147,7 @@ namespace digitalocean.AgentPlatformAgentRoute
 
             /// <summary>A name for the route.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_agent_route#route_name AgentPlatformAgentRoute#route_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_agent_route#route_name AgentPlatformAgentRoute#route_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "routeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

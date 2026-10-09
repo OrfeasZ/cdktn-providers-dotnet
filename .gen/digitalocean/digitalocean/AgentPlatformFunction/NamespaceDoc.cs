@@ -5,7 +5,7 @@ namespace digitalocean.AgentPlatformFunction
     /// <remarks>
     /// <h1><c>digitalocean_agent_platform_function</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_function"><c>digitalocean_agent_platform_function</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_function"><c>digitalocean_agent_platform_function</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

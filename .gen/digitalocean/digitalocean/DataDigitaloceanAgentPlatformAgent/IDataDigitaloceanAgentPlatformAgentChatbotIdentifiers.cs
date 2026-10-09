@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
     {
         /// <summary>Chatbot ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#chatbot_id DataDigitaloceanAgentPlatformAgent#chatbot_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#chatbot_id DataDigitaloceanAgentPlatformAgent#chatbot_id}
         /// </remarks>
         [JsiiProperty(name: "chatbotId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgent
 
             /// <summary>Chatbot ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent#chatbot_id DataDigitaloceanAgentPlatformAgent#chatbot_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent#chatbot_id DataDigitaloceanAgentPlatformAgent#chatbot_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "chatbotId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

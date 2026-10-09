@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgentVersions
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanAgentPlatformAgentVersions.DataDigitaloceanAgentPlatformAgentVersionsSort")]
     public class DataDigitaloceanAgentPlatformAgentVersionsSort : digitalocean.DataDigitaloceanAgentPlatformAgentVersions.IDataDigitaloceanAgentPlatformAgentVersionsSort
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent_versions#key DataDigitaloceanAgentPlatformAgentVersions#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent_versions#key DataDigitaloceanAgentPlatformAgentVersions#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformAgentVersions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_agent_versions#direction DataDigitaloceanAgentPlatformAgentVersions#direction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_agent_versions#direction DataDigitaloceanAgentPlatformAgentVersions#direction}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Direction

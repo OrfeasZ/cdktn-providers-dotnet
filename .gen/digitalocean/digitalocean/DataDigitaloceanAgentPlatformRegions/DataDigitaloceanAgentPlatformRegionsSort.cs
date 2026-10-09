@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformRegions
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanAgentPlatformRegions.DataDigitaloceanAgentPlatformRegionsSort")]
     public class DataDigitaloceanAgentPlatformRegionsSort : digitalocean.DataDigitaloceanAgentPlatformRegions.IDataDigitaloceanAgentPlatformRegionsSort
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_regions#key DataDigitaloceanAgentPlatformRegions#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_regions#key DataDigitaloceanAgentPlatformRegions#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanAgentPlatformRegions
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/data-sources/agent_platform_regions#direction DataDigitaloceanAgentPlatformRegions#direction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/agent_platform_regions#direction DataDigitaloceanAgentPlatformRegions#direction}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Direction

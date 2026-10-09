@@ -5,7 +5,7 @@ namespace digitalocean.AgentPlatformKnowledgeBaseDataSource
     /// <remarks>
     /// <h1><c>digitalocean_agent_platform_knowledge_base_data_source</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base_data_source"><c>digitalocean_agent_platform_knowledge_base_data_source</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_knowledge_base_data_source"><c>digitalocean_agent_platform_knowledge_base_data_source</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

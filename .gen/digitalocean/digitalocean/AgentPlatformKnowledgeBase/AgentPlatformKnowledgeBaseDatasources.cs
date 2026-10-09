@@ -11,7 +11,7 @@ namespace digitalocean.AgentPlatformKnowledgeBase
 
         /// <summary>file_upload_data_source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base#file_upload_data_source AgentPlatformKnowledgeBase#file_upload_data_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_knowledge_base#file_upload_data_source AgentPlatformKnowledgeBase#file_upload_data_source}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.AgentPlatformKnowledgeBase.IAgentPlatformKnowledgeBaseDatasourcesFileUploadDataSource" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace digitalocean.AgentPlatformKnowledgeBase
 
         /// <summary>last_indexing_job block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base#last_indexing_job AgentPlatformKnowledgeBase#last_indexing_job}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_knowledge_base#last_indexing_job AgentPlatformKnowledgeBase#last_indexing_job}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.AgentPlatformKnowledgeBase.IAgentPlatformKnowledgeBaseDatasourcesLastIndexingJob" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -81,7 +81,7 @@ namespace digitalocean.AgentPlatformKnowledgeBase
 
         /// <summary>spaces_data_source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base#spaces_data_source AgentPlatformKnowledgeBase#spaces_data_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_knowledge_base#spaces_data_source AgentPlatformKnowledgeBase#spaces_data_source}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.AgentPlatformKnowledgeBase.IAgentPlatformKnowledgeBaseDatasourcesSpacesDataSource" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -114,7 +114,7 @@ namespace digitalocean.AgentPlatformKnowledgeBase
 
         /// <summary>UUID of the Knowledge Base.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base#uuid AgentPlatformKnowledgeBase#uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_knowledge_base#uuid AgentPlatformKnowledgeBase#uuid}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "uuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -128,7 +128,7 @@ namespace digitalocean.AgentPlatformKnowledgeBase
 
         /// <summary>web_crawler_data_source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.104.0/docs/resources/agent_platform_knowledge_base#web_crawler_data_source AgentPlatformKnowledgeBase#web_crawler_data_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/agent_platform_knowledge_base#web_crawler_data_source AgentPlatformKnowledgeBase#web_crawler_data_source}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.AgentPlatformKnowledgeBase.IAgentPlatformKnowledgeBaseDatasourcesWebCrawlerDataSource" />)[]</para>
         /// </remarks>
         [JsiiOptional]
