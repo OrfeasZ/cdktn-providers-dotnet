@@ -11,7 +11,7 @@ namespace digitalocean.DataDigitaloceanMicrovmCheckpoints
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/microvm_checkpoints#filter DataDigitaloceanMicrovmCheckpoints#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/data-sources/microvm_checkpoints#filter DataDigitaloceanMicrovmCheckpoints#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanMicrovmCheckpoints.IDataDigitaloceanMicrovmCheckpointsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -42,7 +42,7 @@ namespace digitalocean.DataDigitaloceanMicrovmCheckpoints
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/microvm_checkpoints#id DataDigitaloceanMicrovmCheckpoints#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/data-sources/microvm_checkpoints#id DataDigitaloceanMicrovmCheckpoints#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,7 +57,7 @@ namespace digitalocean.DataDigitaloceanMicrovmCheckpoints
 
         /// <summary>Filter checkpoints captured from this MicroVM UUID. Omit to list all checkpoints for the team.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/microvm_checkpoints#microvm_id DataDigitaloceanMicrovmCheckpoints#microvm_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/data-sources/microvm_checkpoints#microvm_id DataDigitaloceanMicrovmCheckpoints#microvm_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "microvmId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -71,7 +71,7 @@ namespace digitalocean.DataDigitaloceanMicrovmCheckpoints
 
         /// <summary>sort block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/data-sources/microvm_checkpoints#sort DataDigitaloceanMicrovmCheckpoints#sort}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/data-sources/microvm_checkpoints#sort DataDigitaloceanMicrovmCheckpoints#sort}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.DataDigitaloceanMicrovmCheckpoints.IDataDigitaloceanMicrovmCheckpointsSort" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -7,7 +7,7 @@ namespace digitalocean.MicrovmCheckpoint
     [JsiiByValue(fqn: "digitalocean.microvmCheckpoint.MicrovmCheckpointTimeouts")]
     public class MicrovmCheckpointTimeouts : digitalocean.MicrovmCheckpoint.IMicrovmCheckpointTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm_checkpoint#create MicrovmCheckpoint#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm_checkpoint#create MicrovmCheckpoint#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace digitalocean.MicrovmCheckpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm_checkpoint#delete MicrovmCheckpoint#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm_checkpoint#delete MicrovmCheckpoint#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete

@@ -9,7 +9,7 @@ namespace digitalocean.Microvm
     {
         /// <summary>Whether auto-pause is enabled. Forces recreation on change (no in-place API path).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm#enabled Microvm#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm#enabled Microvm#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -20,7 +20,7 @@ namespace digitalocean.Microvm
 
         /// <summary>Idle timeout as a Go duration string (e.g. '5m', '30s'). Forces recreation on change (no in-place API path).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm#idle_timeout Microvm#idle_timeout}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm#idle_timeout Microvm#idle_timeout}
         /// </remarks>
         [JsiiProperty(name: "idleTimeout", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -41,7 +41,7 @@ namespace digitalocean.Microvm
 
             /// <summary>Whether auto-pause is enabled. Forces recreation on change (no in-place API path).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm#enabled Microvm#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm#enabled Microvm#enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -52,7 +52,7 @@ namespace digitalocean.Microvm
 
             /// <summary>Idle timeout as a Go duration string (e.g. '5m', '30s'). Forces recreation on change (no in-place API path).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm#idle_timeout Microvm#idle_timeout}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm#idle_timeout Microvm#idle_timeout}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "idleTimeout", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace digitalocean.Microvm
     {
         /// <summary>Name of the MicroVM.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm#name Microvm#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm#name Microvm#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace digitalocean.Microvm
 
         /// <summary>source block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm#source Microvm#source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm#source Microvm#source}
         /// </remarks>
         [JsiiProperty(name: "source", typeJson: "{\"fqn\":\"digitalocean.microvm.MicrovmSource\"}")]
         public digitalocean.Microvm.IMicrovmSource Source
@@ -33,7 +33,7 @@ namespace digitalocean.Microvm
 
         /// <summary>auto_pause block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm#auto_pause Microvm#auto_pause}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm#auto_pause Microvm#auto_pause}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "autoPause", typeJson: "{\"fqn\":\"digitalocean.microvm.MicrovmAutoPause\"}", isOptional: true)]
@@ -49,7 +49,7 @@ namespace digitalocean.Microvm
         /// <remarks>
         /// Forces recreation on change: the MicroVMs API has no in-place update path for auto_resume.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm#auto_resume Microvm#auto_resume}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm#auto_resume Microvm#auto_resume}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -82,7 +82,7 @@ namespace digitalocean.Microvm
 
         /// <summary>Environment variables passed to the MicroVM.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm#environment Microvm#environment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm#environment Microvm#environment}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "environment", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace digitalocean.Microvm
 
         /// <summary>Port the MicroVM exposes over HTTP.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm#http_port Microvm#http_port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm#http_port Microvm#http_port}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpPort", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -106,7 +106,7 @@ namespace digitalocean.Microvm
 
         /// <summary>HTTP protocol: 'http' or 'http2'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm#http_protocol Microvm#http_protocol}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm#http_protocol Microvm#http_protocol}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "httpProtocol", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -116,7 +116,7 @@ namespace digitalocean.Microvm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm#id Microvm#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm#id Microvm#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -131,7 +131,7 @@ namespace digitalocean.Microvm
 
         /// <summary>Networking mode: 'public' or 'vpc'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm#networking Microvm#networking}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm#networking Microvm#networking}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networking", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -143,7 +143,7 @@ namespace digitalocean.Microvm
 
         /// <summary>Guest ports open for ingress. Defaults to just http_port when omitted.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm#ports Microvm#ports}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm#ports Microvm#ports}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ports", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -155,7 +155,7 @@ namespace digitalocean.Microvm
 
         /// <summary>DigitalOcean region slug. Required when creating from oci_ref; optional when restoring from a checkpoint (inherited).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm#region Microvm#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm#region Microvm#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -167,7 +167,7 @@ namespace digitalocean.Microvm
 
         /// <summary>size block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm#size Microvm#size}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm#size Microvm#size}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "size", typeJson: "{\"fqn\":\"digitalocean.microvm.MicrovmSize\"}", isOptional: true)]
@@ -179,7 +179,7 @@ namespace digitalocean.Microvm
 
         /// <summary>Desired lifecycle state: 'running' or 'paused'. Changes are applied by calling the microvm pause / resume action endpoints.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm#state Microvm#state}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm#state Microvm#state}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -189,7 +189,7 @@ namespace digitalocean.Microvm
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm#tags Microvm#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm#tags Microvm#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Tags
@@ -200,7 +200,7 @@ namespace digitalocean.Microvm
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm#timeouts Microvm#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm#timeouts Microvm#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"digitalocean.microvm.MicrovmTimeouts\"}", isOptional: true)]
@@ -212,7 +212,7 @@ namespace digitalocean.Microvm
 
         /// <summary>UUID of the VPC to attach the MicroVM to. Only valid when networking is 'vpc'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm#vpc_uuid Microvm#vpc_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm#vpc_uuid Microvm#vpc_uuid}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpcUuid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

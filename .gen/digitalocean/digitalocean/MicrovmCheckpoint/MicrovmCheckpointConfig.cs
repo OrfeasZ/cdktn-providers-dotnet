@@ -11,7 +11,7 @@ namespace digitalocean.MicrovmCheckpoint
     {
         /// <summary>ID of the running MicroVM to checkpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm_checkpoint#microvm_id MicrovmCheckpoint#microvm_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm_checkpoint#microvm_id MicrovmCheckpoint#microvm_id}
         /// </remarks>
         [JsiiProperty(name: "microvmId", typeJson: "{\"primitive\":\"string\"}")]
         public string MicrovmId
@@ -20,7 +20,7 @@ namespace digitalocean.MicrovmCheckpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm_checkpoint#id MicrovmCheckpoint#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm_checkpoint#id MicrovmCheckpoint#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ namespace digitalocean.MicrovmCheckpoint
 
         /// <summary>Human-readable name for the checkpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm_checkpoint#name MicrovmCheckpoint#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm_checkpoint#name MicrovmCheckpoint#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace digitalocean.MicrovmCheckpoint
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.105.0/docs/resources/microvm_checkpoint#timeouts MicrovmCheckpoint#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm_checkpoint#timeouts MicrovmCheckpoint#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"digitalocean.microvmCheckpoint.MicrovmCheckpointTimeouts\"}", isOptional: true)]
