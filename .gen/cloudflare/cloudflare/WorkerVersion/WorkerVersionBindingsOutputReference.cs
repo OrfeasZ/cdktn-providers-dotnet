@@ -41,6 +41,12 @@ namespace cloudflare.WorkerVersion
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.WorkerVersion.IWorkerVersionBindingsOutbound)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putRetry", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionBindingsRetry\"}}]")]
+        public virtual void PutRetry(cloudflare.WorkerVersion.IWorkerVersionBindingsRetry @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.WorkerVersion.IWorkerVersionBindingsRetry)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putSimple", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.workerVersion.WorkerVersionBindingsSimple\"}}]")]
         public virtual void PutSimple(cloudflare.WorkerVersion.IWorkerVersionBindingsSimple @value)
         {
@@ -227,6 +233,12 @@ namespace cloudflare.WorkerVersion
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetRetry")]
+        public virtual void ResetRetry()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetScriptName")]
         public virtual void ResetScriptName()
         {
@@ -303,6 +315,12 @@ namespace cloudflare.WorkerVersion
         public virtual cloudflare.WorkerVersion.WorkerVersionBindingsOutboundOutputReference Outbound
         {
             get => GetInstanceProperty<cloudflare.WorkerVersion.WorkerVersionBindingsOutboundOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "retry", typeJson: "{\"fqn\":\"cloudflare.workerVersion.WorkerVersionBindingsRetryOutputReference\"}")]
+        public virtual cloudflare.WorkerVersion.WorkerVersionBindingsRetryOutputReference Retry
+        {
+            get => GetInstanceProperty<cloudflare.WorkerVersion.WorkerVersionBindingsRetryOutputReference>()!;
         }
 
         [JsiiProperty(name: "simple", typeJson: "{\"fqn\":\"cloudflare.workerVersion.WorkerVersionBindingsSimpleOutputReference\"}")]
@@ -529,6 +547,16 @@ namespace cloudflare.WorkerVersion
         public virtual string? QueueNameInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkerVersion.IWorkerVersionBindingsRetry" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "retryInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workerVersion.WorkerVersionBindingsRetry\"}]}}", isOptional: true)]
+        public virtual object? RetryInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

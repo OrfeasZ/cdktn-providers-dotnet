@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustTunnelWarpConnectorConfig
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zero_trust_tunnel_warp_connector_config#account_id ZeroTrustTunnelWarpConnectorConfigA#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_tunnel_warp_connector_config#account_id ZeroTrustTunnelWarpConnectorConfigA#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -20,12 +20,12 @@ namespace cloudflare.ZeroTrustTunnelWarpConnectorConfig
             set;
         }
 
-        /// <summary>High-availability mode for the WARP Connector tunnel.</summary>
+        /// <summary>High-availability mode for the Mesh node.</summary>
         /// <remarks>
-        /// <c>none</c> means HA is enabled but no provider is configured yet (newly created tunnels default to this). <c>disabled</c> means HA is explicitly turned off. <c>aws</c> uses AWS ENI move for failover. <c>local</c> uses virtual IPs (VIPs) on the local interface.
+        /// <c>none</c> means HA is enabled but no provider is configured yet (newly created nodes default to this). <c>disabled</c> means HA is explicitly turned off. <c>aws</c> uses AWS ENI move for failover. <c>local</c> uses virtual IPs (VIPs) on the local interface.
         /// Available values: "none", "disabled", "aws", "local".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zero_trust_tunnel_warp_connector_config#ha_mode ZeroTrustTunnelWarpConnectorConfigA#ha_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_tunnel_warp_connector_config#ha_mode ZeroTrustTunnelWarpConnectorConfigA#ha_mode}
         /// </remarks>
         [JsiiProperty(name: "haMode", typeJson: "{\"primitive\":\"string\"}")]
         public string HaMode
@@ -36,7 +36,7 @@ namespace cloudflare.ZeroTrustTunnelWarpConnectorConfig
 
         /// <summary>UUID of the tunnel.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zero_trust_tunnel_warp_connector_config#tunnel_id ZeroTrustTunnelWarpConnectorConfigA#tunnel_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_tunnel_warp_connector_config#tunnel_id ZeroTrustTunnelWarpConnectorConfigA#tunnel_id}
         /// </remarks>
         [JsiiProperty(name: "tunnelId", typeJson: "{\"primitive\":\"string\"}")]
         public string TunnelId
@@ -49,7 +49,7 @@ namespace cloudflare.ZeroTrustTunnelWarpConnectorConfig
         /// <remarks>
         /// Required shape depends on ha_mode. For <c>aws</c>, must contain <c>fnr_id</c>. For <c>local</c>, must contain <c>vips</c>. For <c>none</c> and <c>disabled</c>, must be empty or omitted.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zero_trust_tunnel_warp_connector_config#config ZeroTrustTunnelWarpConnectorConfigA#config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_tunnel_warp_connector_config#config ZeroTrustTunnelWarpConnectorConfigA#config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "config", typeJson: "{\"fqn\":\"cloudflare.zeroTrustTunnelWarpConnectorConfig.ZeroTrustTunnelWarpConnectorConfigConfig\"}", isOptional: true)]

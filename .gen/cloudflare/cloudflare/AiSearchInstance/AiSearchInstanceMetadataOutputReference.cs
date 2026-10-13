@@ -33,8 +33,20 @@ namespace cloudflare.AiSearchInstance
         {
         }
 
+        [JsiiMethod(name: "putCreatedFromEmdashPlugin", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceMetadataCreatedFromEmdashPlugin\"}}]")]
+        public virtual void PutCreatedFromEmdashPlugin(cloudflare.AiSearchInstance.IAiSearchInstanceMetadataCreatedFromEmdashPlugin @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.AiSearchInstance.IAiSearchInstanceMetadataCreatedFromEmdashPlugin)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetCreatedFromAisearchWizard")]
         public virtual void ResetCreatedFromAisearchWizard()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCreatedFromEmdashPlugin")]
+        public virtual void ResetCreatedFromEmdashPlugin()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -45,12 +57,28 @@ namespace cloudflare.AiSearchInstance
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "createdFromEmdashPlugin", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceMetadataCreatedFromEmdashPluginOutputReference\"}")]
+        public virtual cloudflare.AiSearchInstance.AiSearchInstanceMetadataCreatedFromEmdashPluginOutputReference CreatedFromEmdashPlugin
+        {
+            get => GetInstanceProperty<cloudflare.AiSearchInstance.AiSearchInstanceMetadataCreatedFromEmdashPluginOutputReference>()!;
+        }
+
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "createdFromAisearchWizardInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? CreatedFromAisearchWizardInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.AiSearchInstance.IAiSearchInstanceMetadataCreatedFromEmdashPlugin" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "createdFromEmdashPluginInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceMetadataCreatedFromEmdashPlugin\"}]}}", isOptional: true)]
+        public virtual object? CreatedFromEmdashPluginInput
         {
             get => GetInstanceProperty<object?>();
         }

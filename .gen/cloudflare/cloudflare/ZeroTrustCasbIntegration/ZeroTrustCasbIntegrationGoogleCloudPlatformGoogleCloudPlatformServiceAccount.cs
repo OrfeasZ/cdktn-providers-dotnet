@@ -13,7 +13,7 @@ namespace cloudflare.ZeroTrustCasbIntegration
         /// <remarks>
         /// This value is write-only and is never persisted to Terraform state.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zero_trust_casb_integration#service_account_key_json ZeroTrustCasbIntegration#service_account_key_json}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_casb_integration#service_account_key_json ZeroTrustCasbIntegration#service_account_key_json}
         /// </remarks>
         [JsiiProperty(name: "serviceAccountKeyJson", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceAccountKeyJson

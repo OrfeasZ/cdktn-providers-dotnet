@@ -35,6 +35,18 @@ namespace cloudflare.DataCloudflareZeroTrustAccessApplication
         {
         }
 
+        [JsiiProperty(name: "exclude", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessApplication.DataCloudflareZeroTrustAccessApplicationTargetCriteriaExcludeOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareZeroTrustAccessApplication.DataCloudflareZeroTrustAccessApplicationTargetCriteriaExcludeOutputReference Exclude
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessApplication.DataCloudflareZeroTrustAccessApplicationTargetCriteriaExcludeOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "include", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessApplication.DataCloudflareZeroTrustAccessApplicationTargetCriteriaIncludeOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareZeroTrustAccessApplication.DataCloudflareZeroTrustAccessApplicationTargetCriteriaIncludeOutputReference Include
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessApplication.DataCloudflareZeroTrustAccessApplicationTargetCriteriaIncludeOutputReference>()!;
+        }
+
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double Port
         {
@@ -45,6 +57,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessApplication
         public virtual string Protocol
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "require", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustAccessApplication.DataCloudflareZeroTrustAccessApplicationTargetCriteriaRequireOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareZeroTrustAccessApplication.DataCloudflareZeroTrustAccessApplicationTargetCriteriaRequireOutputReference Require
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustAccessApplication.DataCloudflareZeroTrustAccessApplicationTargetCriteriaRequireOutputReference>()!;
         }
 
         [JsiiProperty(name: "targetAttributes", typeJson: "{\"fqn\":\"cdktn.StringListMap\"}")]

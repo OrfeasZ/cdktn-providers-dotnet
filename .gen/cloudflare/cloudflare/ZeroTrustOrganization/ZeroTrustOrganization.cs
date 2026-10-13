@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.ZeroTrustOrganization
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zero_trust_organization cloudflare_zero_trust_organization}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_organization cloudflare_zero_trust_organization}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.ZeroTrustOrganization.ZeroTrustOrganization), fullyQualifiedName: "cloudflare.zeroTrustOrganization.ZeroTrustOrganization", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"cloudflare.zeroTrustOrganization.ZeroTrustOrganizationConfig\"}}]")]
     public class ZeroTrustOrganization : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zero_trust_organization cloudflare_zero_trust_organization} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_organization cloudflare_zero_trust_organization} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ZeroTrustOrganization(Constructs.Construct scope, string id, cloudflare.ZeroTrustOrganization.IZeroTrustOrganizationConfig? config = null): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace cloudflare.ZeroTrustOrganization
         /// <param name="importToId">The construct id used in the generated config for the ZeroTrustOrganization to import.</param>
         /// <param name="importFromId">The id of the existing ZeroTrustOrganization that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ZeroTrustOrganization to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ZeroTrustOrganization to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.27.0/docs/resources/zero_trust_organization#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ZeroTrustOrganization that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ZeroTrustOrganization to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ZeroTrustOrganization to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_organization#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ZeroTrustOrganization that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ZeroTrustOrganization to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.ZeroTrustOrganization.ZeroTrustOrganization), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -64,10 +64,10 @@ namespace cloudflare.ZeroTrustOrganization
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustOrganization.IZeroTrustOrganizationMfaConfig)}, new object[]{@value});
         }
 
-        [JsiiMethod(name: "putMfaSshPivKeyRequirements", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustOrganization.ZeroTrustOrganizationMfaSshPivKeyRequirements\"}}]")]
-        public virtual void PutMfaSshPivKeyRequirements(cloudflare.ZeroTrustOrganization.IZeroTrustOrganizationMfaSshPivKeyRequirements @value)
+        [JsiiMethod(name: "putMfaPivKeyRequirements", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustOrganization.ZeroTrustOrganizationMfaPivKeyRequirements\"}}]")]
+        public virtual void PutMfaPivKeyRequirements(cloudflare.ZeroTrustOrganization.IZeroTrustOrganizationMfaPivKeyRequirements @value)
         {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustOrganization.IZeroTrustOrganizationMfaSshPivKeyRequirements)}, new object[]{@value});
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustOrganization.IZeroTrustOrganizationMfaPivKeyRequirements)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putServiceTokenInactivity", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustOrganization.ZeroTrustOrganizationServiceTokenInactivity\"}}]")]
@@ -142,14 +142,14 @@ namespace cloudflare.ZeroTrustOrganization
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetMfaRequiredForAllApps")]
-        public virtual void ResetMfaRequiredForAllApps()
+        [JsiiMethod(name: "resetMfaPivKeyRequirements")]
+        public virtual void ResetMfaPivKeyRequirements()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetMfaSshPivKeyRequirements")]
-        public virtual void ResetMfaSshPivKeyRequirements()
+        [JsiiMethod(name: "resetMfaRequiredForAllApps")]
+        public virtual void ResetMfaRequiredForAllApps()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -245,10 +245,10 @@ namespace cloudflare.ZeroTrustOrganization
             get => GetInstanceProperty<cloudflare.ZeroTrustOrganization.ZeroTrustOrganizationMfaConfigOutputReference>()!;
         }
 
-        [JsiiProperty(name: "mfaSshPivKeyRequirements", typeJson: "{\"fqn\":\"cloudflare.zeroTrustOrganization.ZeroTrustOrganizationMfaSshPivKeyRequirementsOutputReference\"}")]
-        public virtual cloudflare.ZeroTrustOrganization.ZeroTrustOrganizationMfaSshPivKeyRequirementsOutputReference MfaSshPivKeyRequirements
+        [JsiiProperty(name: "mfaPivKeyRequirements", typeJson: "{\"fqn\":\"cloudflare.zeroTrustOrganization.ZeroTrustOrganizationMfaPivKeyRequirementsOutputReference\"}")]
+        public virtual cloudflare.ZeroTrustOrganization.ZeroTrustOrganizationMfaPivKeyRequirementsOutputReference MfaPivKeyRequirements
         {
-            get => GetInstanceProperty<cloudflare.ZeroTrustOrganization.ZeroTrustOrganizationMfaSshPivKeyRequirementsOutputReference>()!;
+            get => GetInstanceProperty<cloudflare.ZeroTrustOrganization.ZeroTrustOrganizationMfaPivKeyRequirementsOutputReference>()!;
         }
 
         [JsiiProperty(name: "serviceTokenInactivity", typeJson: "{\"fqn\":\"cloudflare.zeroTrustOrganization.ZeroTrustOrganizationServiceTokenInactivityOutputReference\"}")]
@@ -365,21 +365,21 @@ namespace cloudflare.ZeroTrustOrganization
         }
 
         /// <remarks>
-        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustOrganization.IZeroTrustOrganizationMfaPivKeyRequirements" /></para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "mfaRequiredForAllAppsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
-        public virtual object? MfaRequiredForAllAppsInput
+        [JsiiProperty(name: "mfaPivKeyRequirementsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustOrganization.ZeroTrustOrganizationMfaPivKeyRequirements\"}]}}", isOptional: true)]
+        public virtual object? MfaPivKeyRequirementsInput
         {
             get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustOrganization.IZeroTrustOrganizationMfaSshPivKeyRequirements" /></para>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "mfaSshPivKeyRequirementsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustOrganization.ZeroTrustOrganizationMfaSshPivKeyRequirements\"}]}}", isOptional: true)]
-        public virtual object? MfaSshPivKeyRequirementsInput
+        [JsiiProperty(name: "mfaRequiredForAllAppsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? MfaRequiredForAllAppsInput
         {
             get => GetInstanceProperty<object?>();
         }

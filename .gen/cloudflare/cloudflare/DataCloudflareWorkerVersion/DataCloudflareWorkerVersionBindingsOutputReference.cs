@@ -221,6 +221,12 @@ namespace cloudflare.DataCloudflareWorkerVersion
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "retry", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkerVersion.DataCloudflareWorkerVersionBindingsRetryOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareWorkerVersion.DataCloudflareWorkerVersionBindingsRetryOutputReference Retry
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareWorkerVersion.DataCloudflareWorkerVersionBindingsRetryOutputReference>()!;
+        }
+
         [JsiiProperty(name: "scriptName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ScriptName
         {

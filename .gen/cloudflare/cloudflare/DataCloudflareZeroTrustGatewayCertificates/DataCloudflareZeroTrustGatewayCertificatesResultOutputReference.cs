@@ -89,6 +89,12 @@ namespace cloudflare.DataCloudflareZeroTrustGatewayCertificates
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Region
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Type
         {

@@ -51,6 +51,12 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryApplication
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetLookup")]
+        public virtual void ResetLookup()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetOffset")]
         public virtual void ResetOffset()
         {
@@ -88,6 +94,13 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryApplication
         public virtual double? LimitInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "lookupInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? LookupInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -129,6 +142,13 @@ namespace cloudflare.DataCloudflareZeroTrustResourceLibraryApplication
         public virtual double Limit
         {
             get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "lookup", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Lookup
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

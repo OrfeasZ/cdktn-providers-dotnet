@@ -125,10 +125,10 @@ namespace cloudflare.DataCloudflareZeroTrustDlpIntegrationEntries
             get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustDlpIntegrationEntries.DataCloudflareZeroTrustDlpIntegrationEntriesResultVariantOutputReference>()!;
         }
 
-        [JsiiProperty(name: "wordList", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string WordList
+        [JsiiProperty(name: "wordList", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] WordList
         {
-            get => GetInstanceProperty<string>()!;
+            get => GetInstanceProperty<string[]>()!;
         }
 
         [JsiiOptional]

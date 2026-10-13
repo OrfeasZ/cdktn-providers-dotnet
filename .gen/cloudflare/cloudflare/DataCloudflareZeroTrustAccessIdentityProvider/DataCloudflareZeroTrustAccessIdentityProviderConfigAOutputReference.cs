@@ -147,6 +147,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessIdentityProvider
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "loginPageAutoPrompt", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable LoginPageAutoPrompt
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "maxSsoUrlLength", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double MaxSsoUrlLength
         {

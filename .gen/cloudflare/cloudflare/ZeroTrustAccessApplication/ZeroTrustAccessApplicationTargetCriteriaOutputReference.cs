@@ -35,6 +35,86 @@ namespace cloudflare.ZeroTrustAccessApplication
         {
         }
 
+        [JsiiMethod(name: "putExclude", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationTargetCriteriaExclude\"}}]")]
+        public virtual void PutExclude(cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationTargetCriteriaExclude @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationTargetCriteriaExclude)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putInclude", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationTargetCriteriaInclude\"}}]")]
+        public virtual void PutInclude(cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationTargetCriteriaInclude @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationTargetCriteriaInclude)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putRequire", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationTargetCriteriaRequire\"}}]")]
+        public virtual void PutRequire(cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationTargetCriteriaRequire @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationTargetCriteriaRequire)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetExclude")]
+        public virtual void ResetExclude()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetInclude")]
+        public virtual void ResetInclude()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetRequire")]
+        public virtual void ResetRequire()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTargetAttributes")]
+        public virtual void ResetTargetAttributes()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "exclude", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationTargetCriteriaExcludeOutputReference\"}")]
+        public virtual cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationTargetCriteriaExcludeOutputReference Exclude
+        {
+            get => GetInstanceProperty<cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationTargetCriteriaExcludeOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "include", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationTargetCriteriaIncludeOutputReference\"}")]
+        public virtual cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationTargetCriteriaIncludeOutputReference Include
+        {
+            get => GetInstanceProperty<cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationTargetCriteriaIncludeOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "require", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationTargetCriteriaRequireOutputReference\"}")]
+        public virtual cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationTargetCriteriaRequireOutputReference Require
+        {
+            get => GetInstanceProperty<cloudflare.ZeroTrustAccessApplication.ZeroTrustAccessApplicationTargetCriteriaRequireOutputReference>()!;
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationTargetCriteriaExclude" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "excludeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationTargetCriteriaExclude\"}]}}", isOptional: true)]
+        public virtual object? ExcludeInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationTargetCriteriaInclude" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "includeInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationTargetCriteriaInclude\"}]}}", isOptional: true)]
+        public virtual object? IncludeInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "portInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? PortInput
@@ -47,6 +127,16 @@ namespace cloudflare.ZeroTrustAccessApplication
         public virtual string? ProtocolInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationTargetCriteriaRequire" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "requireInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationTargetCriteriaRequire\"}]}}", isOptional: true)]
+        public virtual object? RequireInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>

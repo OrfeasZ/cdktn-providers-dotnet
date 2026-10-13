@@ -41,6 +41,12 @@ namespace cloudflare.WorkersScript
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.WorkersScript.IWorkersScriptBindingsOutbound)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putRetry", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptBindingsRetry\"}}]")]
+        public virtual void PutRetry(cloudflare.WorkersScript.IWorkersScriptBindingsRetry @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.WorkersScript.IWorkersScriptBindingsRetry)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putSimple", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.workersScript.WorkersScriptBindingsSimple\"}}]")]
         public virtual void PutSimple(cloudflare.WorkersScript.IWorkersScriptBindingsSimple @value)
         {
@@ -221,6 +227,12 @@ namespace cloudflare.WorkersScript
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetRetry")]
+        public virtual void ResetRetry()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetScriptName")]
         public virtual void ResetScriptName()
         {
@@ -297,6 +309,12 @@ namespace cloudflare.WorkersScript
         public virtual cloudflare.WorkersScript.WorkersScriptBindingsOutboundOutputReference Outbound
         {
             get => GetInstanceProperty<cloudflare.WorkersScript.WorkersScriptBindingsOutboundOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "retry", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptBindingsRetryOutputReference\"}")]
+        public virtual cloudflare.WorkersScript.WorkersScriptBindingsRetryOutputReference Retry
+        {
+            get => GetInstanceProperty<cloudflare.WorkersScript.WorkersScriptBindingsRetryOutputReference>()!;
         }
 
         [JsiiProperty(name: "simple", typeJson: "{\"fqn\":\"cloudflare.workersScript.WorkersScriptBindingsSimpleOutputReference\"}")]
@@ -516,6 +534,16 @@ namespace cloudflare.WorkersScript
         public virtual string? QueueNameInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkersScript.IWorkersScriptBindingsRetry" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "retryInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workersScript.WorkersScriptBindingsRetry\"}]}}", isOptional: true)]
+        public virtual object? RetryInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

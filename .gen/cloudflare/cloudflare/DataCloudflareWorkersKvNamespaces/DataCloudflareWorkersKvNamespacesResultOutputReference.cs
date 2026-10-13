@@ -47,6 +47,12 @@ namespace cloudflare.DataCloudflareWorkersKvNamespaces
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Mode
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "supportsUrlEncoding", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable SupportsUrlEncoding
         {

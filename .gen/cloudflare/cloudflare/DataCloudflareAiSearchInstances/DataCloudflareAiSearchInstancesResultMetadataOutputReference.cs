@@ -39,6 +39,12 @@ namespace cloudflare.DataCloudflareAiSearchInstances
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "createdFromEmdashPlugin", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAiSearchInstances.DataCloudflareAiSearchInstancesResultMetadataCreatedFromEmdashPluginOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareAiSearchInstances.DataCloudflareAiSearchInstancesResultMetadataCreatedFromEmdashPluginOutputReference CreatedFromEmdashPlugin
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareAiSearchInstances.DataCloudflareAiSearchInstancesResultMetadataCreatedFromEmdashPluginOutputReference>()!;
+        }
+
         [JsiiProperty(name: "workerDomain", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string WorkerDomain
         {

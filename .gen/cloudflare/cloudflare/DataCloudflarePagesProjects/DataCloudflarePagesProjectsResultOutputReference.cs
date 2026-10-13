@@ -41,6 +41,12 @@ namespace cloudflare.DataCloudflarePagesProjects
             get => GetInstanceProperty<cloudflare.DataCloudflarePagesProjects.DataCloudflarePagesProjectsResultBuildConfigOutputReference>()!;
         }
 
+        [JsiiProperty(name: "buildImageAutoUpgrade", typeJson: "{\"fqn\":\"cloudflare.dataCloudflarePagesProjects.DataCloudflarePagesProjectsResultBuildImageAutoUpgradeOutputReference\"}")]
+        public virtual cloudflare.DataCloudflarePagesProjects.DataCloudflarePagesProjectsResultBuildImageAutoUpgradeOutputReference BuildImageAutoUpgrade
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflarePagesProjects.DataCloudflarePagesProjectsResultBuildImageAutoUpgradeOutputReference>()!;
+        }
+
         [JsiiProperty(name: "canonicalDeployment", typeJson: "{\"fqn\":\"cloudflare.dataCloudflarePagesProjects.DataCloudflarePagesProjectsResultCanonicalDeploymentOutputReference\"}")]
         public virtual cloudflare.DataCloudflarePagesProjects.DataCloudflarePagesProjectsResultCanonicalDeploymentOutputReference CanonicalDeployment
         {
