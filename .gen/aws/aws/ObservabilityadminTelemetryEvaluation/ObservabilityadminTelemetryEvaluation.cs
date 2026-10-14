@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.ObservabilityadminTelemetryEvaluation
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/observabilityadmin_telemetry_evaluation aws_observabilityadmin_telemetry_evaluation}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/observabilityadmin_telemetry_evaluation aws_observabilityadmin_telemetry_evaluation}.</summary>
     [JsiiClass(nativeType: typeof(aws.ObservabilityadminTelemetryEvaluation.ObservabilityadminTelemetryEvaluation), fullyQualifiedName: "aws.observabilityadminTelemetryEvaluation.ObservabilityadminTelemetryEvaluation", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"aws.observabilityadminTelemetryEvaluation.ObservabilityadminTelemetryEvaluationConfig\"}}]")]
     public class ObservabilityadminTelemetryEvaluation : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/observabilityadmin_telemetry_evaluation aws_observabilityadmin_telemetry_evaluation} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/observabilityadmin_telemetry_evaluation aws_observabilityadmin_telemetry_evaluation} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ObservabilityadminTelemetryEvaluation(Constructs.Construct scope, string id, aws.ObservabilityadminTelemetryEvaluation.IObservabilityadminTelemetryEvaluationConfig? config = null): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.ObservabilityadminTelemetryEvaluation
         /// <param name="importToId">The construct id used in the generated config for the ObservabilityadminTelemetryEvaluation to import.</param>
         /// <param name="importFromId">The id of the existing ObservabilityadminTelemetryEvaluation that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ObservabilityadminTelemetryEvaluation to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ObservabilityadminTelemetryEvaluation to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/observabilityadmin_telemetry_evaluation#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ObservabilityadminTelemetryEvaluation that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ObservabilityadminTelemetryEvaluation to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ObservabilityadminTelemetryEvaluation to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/observabilityadmin_telemetry_evaluation#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ObservabilityadminTelemetryEvaluation that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ObservabilityadminTelemetryEvaluation to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ObservabilityadminTelemetryEvaluation.ObservabilityadminTelemetryEvaluation), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -52,8 +52,20 @@ namespace aws.ObservabilityadminTelemetryEvaluation
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.ObservabilityadminTelemetryEvaluation.IObservabilityadminTelemetryEvaluationTimeouts)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetAllRegions")]
+        public virtual void ResetAllRegions()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetRegion")]
         public virtual void ResetRegion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetRegions")]
+        public virtual void ResetRegions()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -107,11 +119,28 @@ namespace aws.ObservabilityadminTelemetryEvaluation
             get => GetInstanceProperty<aws.ObservabilityadminTelemetryEvaluation.ObservabilityadminTelemetryEvaluationTimeoutsOutputReference>()!;
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "allRegionsInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? AllRegionsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "regionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? RegionInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "regionsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? RegionsInput
+        {
+            get => GetInstanceProperty<string[]?>();
         }
 
         /// <remarks>
@@ -124,10 +153,47 @@ namespace aws.ObservabilityadminTelemetryEvaluation
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "allRegions", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object AllRegions
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Region
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "regions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] Regions
+        {
+            get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);
         }
     }

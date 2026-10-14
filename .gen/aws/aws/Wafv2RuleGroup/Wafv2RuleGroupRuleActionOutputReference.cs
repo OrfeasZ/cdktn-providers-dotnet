@@ -63,6 +63,12 @@ namespace aws.Wafv2RuleGroup
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.Wafv2RuleGroup.IWafv2RuleGroupRuleActionCount)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putMonetize", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.wafv2RuleGroup.Wafv2RuleGroupRuleActionMonetize\"}}]")]
+        public virtual void PutMonetize(aws.Wafv2RuleGroup.IWafv2RuleGroupRuleActionMonetize @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.Wafv2RuleGroup.IWafv2RuleGroupRuleActionMonetize)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetAllow")]
         public virtual void ResetAllow()
         {
@@ -89,6 +95,12 @@ namespace aws.Wafv2RuleGroup
 
         [JsiiMethod(name: "resetCount")]
         public virtual void ResetCount()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMonetize")]
+        public virtual void ResetMonetize()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -121,6 +133,12 @@ namespace aws.Wafv2RuleGroup
         public virtual aws.Wafv2RuleGroup.Wafv2RuleGroupRuleActionCountOutputReference Count
         {
             get => GetInstanceProperty<aws.Wafv2RuleGroup.Wafv2RuleGroupRuleActionCountOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "monetize", typeJson: "{\"fqn\":\"aws.wafv2RuleGroup.Wafv2RuleGroupRuleActionMonetizeOutputReference\"}")]
+        public virtual aws.Wafv2RuleGroup.Wafv2RuleGroupRuleActionMonetizeOutputReference Monetize
+        {
+            get => GetInstanceProperty<aws.Wafv2RuleGroup.Wafv2RuleGroupRuleActionMonetizeOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -156,6 +174,13 @@ namespace aws.Wafv2RuleGroup
         public virtual aws.Wafv2RuleGroup.IWafv2RuleGroupRuleActionCount? CountInput
         {
             get => GetInstanceProperty<aws.Wafv2RuleGroup.IWafv2RuleGroupRuleActionCount?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "monetizeInput", typeJson: "{\"fqn\":\"aws.wafv2RuleGroup.Wafv2RuleGroupRuleActionMonetize\"}", isOptional: true)]
+        public virtual aws.Wafv2RuleGroup.IWafv2RuleGroupRuleActionMonetize? MonetizeInput
+        {
+            get => GetInstanceProperty<aws.Wafv2RuleGroup.IWafv2RuleGroupRuleActionMonetize?>();
         }
 
         [JsiiOptional]

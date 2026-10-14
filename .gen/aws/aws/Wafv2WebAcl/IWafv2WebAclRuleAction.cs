@@ -9,7 +9,7 @@ namespace aws.Wafv2WebAcl
     {
         /// <summary>allow block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/wafv2_web_acl#allow Wafv2WebAcl#allow}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl#allow Wafv2WebAcl#allow}
         /// </remarks>
         [JsiiProperty(name: "allow", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclRuleActionAllow\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace aws.Wafv2WebAcl
 
         /// <summary>block block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/wafv2_web_acl#block Wafv2WebAcl#block}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl#block Wafv2WebAcl#block}
         /// </remarks>
         [JsiiProperty(name: "block", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclRuleActionBlock\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace aws.Wafv2WebAcl
 
         /// <summary>captcha block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/wafv2_web_acl#captcha Wafv2WebAcl#captcha}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl#captcha Wafv2WebAcl#captcha}
         /// </remarks>
         [JsiiProperty(name: "captcha", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclRuleActionCaptcha\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace aws.Wafv2WebAcl
 
         /// <summary>challenge block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/wafv2_web_acl#challenge Wafv2WebAcl#challenge}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl#challenge Wafv2WebAcl#challenge}
         /// </remarks>
         [JsiiProperty(name: "challenge", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclRuleActionChallenge\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,11 +65,25 @@ namespace aws.Wafv2WebAcl
 
         /// <summary>count block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/wafv2_web_acl#count Wafv2WebAcl#count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl#count Wafv2WebAcl#count}
         /// </remarks>
         [JsiiProperty(name: "count", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclRuleActionCount\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         aws.Wafv2WebAcl.IWafv2WebAclRuleActionCount? Count
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>monetize block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl#monetize Wafv2WebAcl#monetize}
+        /// </remarks>
+        [JsiiProperty(name: "monetize", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclRuleActionMonetize\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        aws.Wafv2WebAcl.IWafv2WebAclRuleActionMonetize? Monetize
         {
             get
             {
@@ -86,7 +100,7 @@ namespace aws.Wafv2WebAcl
 
             /// <summary>allow block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/wafv2_web_acl#allow Wafv2WebAcl#allow}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl#allow Wafv2WebAcl#allow}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "allow", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclRuleActionAllow\"}", isOptional: true)]
@@ -97,7 +111,7 @@ namespace aws.Wafv2WebAcl
 
             /// <summary>block block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/wafv2_web_acl#block Wafv2WebAcl#block}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl#block Wafv2WebAcl#block}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "block", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclRuleActionBlock\"}", isOptional: true)]
@@ -108,7 +122,7 @@ namespace aws.Wafv2WebAcl
 
             /// <summary>captcha block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/wafv2_web_acl#captcha Wafv2WebAcl#captcha}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl#captcha Wafv2WebAcl#captcha}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "captcha", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclRuleActionCaptcha\"}", isOptional: true)]
@@ -119,7 +133,7 @@ namespace aws.Wafv2WebAcl
 
             /// <summary>challenge block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/wafv2_web_acl#challenge Wafv2WebAcl#challenge}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl#challenge Wafv2WebAcl#challenge}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "challenge", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclRuleActionChallenge\"}", isOptional: true)]
@@ -130,13 +144,24 @@ namespace aws.Wafv2WebAcl
 
             /// <summary>count block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/wafv2_web_acl#count Wafv2WebAcl#count}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl#count Wafv2WebAcl#count}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclRuleActionCount\"}", isOptional: true)]
             public aws.Wafv2WebAcl.IWafv2WebAclRuleActionCount? Count
             {
                 get => GetInstanceProperty<aws.Wafv2WebAcl.IWafv2WebAclRuleActionCount?>();
+            }
+
+            /// <summary>monetize block.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl#monetize Wafv2WebAcl#monetize}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "monetize", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclRuleActionMonetize\"}", isOptional: true)]
+            public aws.Wafv2WebAcl.IWafv2WebAclRuleActionMonetize? Monetize
+            {
+                get => GetInstanceProperty<aws.Wafv2WebAcl.IWafv2WebAclRuleActionMonetize?>();
             }
         }
     }

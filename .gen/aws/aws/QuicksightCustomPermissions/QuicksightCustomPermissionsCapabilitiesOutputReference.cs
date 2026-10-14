@@ -35,8 +35,32 @@ namespace aws.QuicksightCustomPermissions
         {
         }
 
+        [JsiiMethod(name: "resetAction")]
+        public virtual void ResetAction()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetAddOrRunAnomalyDetectionForAnalyses")]
         public virtual void ResetAddOrRunAnomalyDetectionForAnalyses()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAnalysis")]
+        public virtual void ResetAnalysis()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetAutomate")]
+        public virtual void ResetAutomate()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetChatAgent")]
+        public virtual void ResetChatAgent()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -71,6 +95,12 @@ namespace aws.QuicksightCustomPermissions
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetCreateChatAgents")]
+        public virtual void ResetCreateChatAgents()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetCreateSharedFolders")]
         public virtual void ResetCreateSharedFolders()
         {
@@ -79,6 +109,12 @@ namespace aws.QuicksightCustomPermissions
 
         [JsiiMethod(name: "resetCreateSpiceDataset")]
         public virtual void ResetCreateSpiceDataset()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDashboard")]
+        public virtual void ResetDashboard()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -119,8 +155,26 @@ namespace aws.QuicksightCustomPermissions
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetFlow")]
+        public virtual void ResetFlow()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetIncludeContentInScheduledReportsEmail")]
         public virtual void ResetIncludeContentInScheduledReportsEmail()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetKnowledgeBase")]
+        public virtual void ResetKnowledgeBase()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetPerformFlowUiTask")]
+        public virtual void ResetPerformFlowUiTask()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -131,8 +185,20 @@ namespace aws.QuicksightCustomPermissions
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetPublishWithoutApproval")]
+        public virtual void ResetPublishWithoutApproval()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetRenameSharedFolders")]
         public virtual void ResetRenameSharedFolders()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetResearch")]
+        public virtual void ResetResearch()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -161,8 +227,26 @@ namespace aws.QuicksightCustomPermissions
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSpace")]
+        public virtual void ResetSpace()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSubscribeDashboardEmailReports")]
         public virtual void ResetSubscribeDashboardEmailReports()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetUseAgentWebSearch")]
+        public virtual void ResetUseAgentWebSearch()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetUseBedrockModels")]
+        public virtual void ResetUseBedrockModels()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -174,8 +258,36 @@ namespace aws.QuicksightCustomPermissions
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "actionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ActionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "addOrRunAnomalyDetectionForAnalysesInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? AddOrRunAnomalyDetectionForAnalysesInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "analysisInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AnalysisInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "automateInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AutomateInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "chatAgentInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ChatAgentInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -216,6 +328,13 @@ namespace aws.QuicksightCustomPermissions
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "createChatAgentsInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CreateChatAgentsInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "createSharedFoldersInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CreateSharedFoldersInput
         {
@@ -225,6 +344,13 @@ namespace aws.QuicksightCustomPermissions
         [JsiiOptional]
         [JsiiProperty(name: "createSpiceDatasetInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CreateSpiceDatasetInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "dashboardInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DashboardInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -272,8 +398,29 @@ namespace aws.QuicksightCustomPermissions
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "flowInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? FlowInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "includeContentInScheduledReportsEmailInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? IncludeContentInScheduledReportsEmailInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "knowledgeBaseInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? KnowledgeBaseInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "performFlowUiTaskInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PerformFlowUiTaskInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -286,8 +433,22 @@ namespace aws.QuicksightCustomPermissions
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "publishWithoutApprovalInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PublishWithoutApprovalInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "renameSharedFoldersInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? RenameSharedFoldersInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "researchInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ResearchInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -321,8 +482,29 @@ namespace aws.QuicksightCustomPermissions
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "spaceInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SpaceInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "subscribeDashboardEmailReportsInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? SubscribeDashboardEmailReportsInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "useAgentWebSearchInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? UseAgentWebSearchInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "useBedrockModelsInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? UseBedrockModelsInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -334,8 +516,36 @@ namespace aws.QuicksightCustomPermissions
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Action
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "addOrRunAnomalyDetectionForAnalyses", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AddOrRunAnomalyDetectionForAnalyses
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "analysis", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Analysis
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "automate", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Automate
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "chatAgent", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ChatAgent
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -376,6 +586,13 @@ namespace aws.QuicksightCustomPermissions
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "createChatAgents", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CreateChatAgents
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "createSharedFolders", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CreateSharedFolders
         {
@@ -385,6 +602,13 @@ namespace aws.QuicksightCustomPermissions
 
         [JsiiProperty(name: "createSpiceDataset", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CreateSpiceDataset
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "dashboard", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Dashboard
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -432,8 +656,29 @@ namespace aws.QuicksightCustomPermissions
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "flow", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Flow
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "includeContentInScheduledReportsEmail", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string IncludeContentInScheduledReportsEmail
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "knowledgeBase", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string KnowledgeBase
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "performFlowUiTask", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PerformFlowUiTask
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -446,8 +691,22 @@ namespace aws.QuicksightCustomPermissions
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "publishWithoutApproval", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PublishWithoutApproval
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "renameSharedFolders", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string RenameSharedFolders
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "research", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Research
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
@@ -481,8 +740,29 @@ namespace aws.QuicksightCustomPermissions
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "space", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Space
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "subscribeDashboardEmailReports", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SubscribeDashboardEmailReports
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "useAgentWebSearch", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UseAgentWebSearch
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "useBedrockModels", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UseBedrockModels
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

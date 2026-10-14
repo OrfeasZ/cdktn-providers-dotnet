@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.CloudwatchMetricAlarm
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm}.</summary>
     [JsiiClass(nativeType: typeof(aws.CloudwatchMetricAlarm.CloudwatchMetricAlarm), fullyQualifiedName: "aws.cloudwatchMetricAlarm.CloudwatchMetricAlarm", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmConfig\"}}]")]
     public class CloudwatchMetricAlarm : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/cloudwatch_metric_alarm aws_cloudwatch_metric_alarm} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public CloudwatchMetricAlarm(Constructs.Construct scope, string id, aws.CloudwatchMetricAlarm.ICloudwatchMetricAlarmConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.CloudwatchMetricAlarm
         /// <param name="importToId">The construct id used in the generated config for the CloudwatchMetricAlarm to import.</param>
         /// <param name="importFromId">The id of the existing CloudwatchMetricAlarm that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the CloudwatchMetricAlarm to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CloudwatchMetricAlarm to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/cloudwatch_metric_alarm#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CloudwatchMetricAlarm that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CloudwatchMetricAlarm to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CloudwatchMetricAlarm to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/cloudwatch_metric_alarm#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CloudwatchMetricAlarm that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CloudwatchMetricAlarm to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.CloudwatchMetricAlarm.CloudwatchMetricAlarm), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -50,6 +50,12 @@ namespace aws.CloudwatchMetricAlarm
         public virtual void PutEvaluationCriteria(aws.CloudwatchMetricAlarm.ICloudwatchMetricAlarmEvaluationCriteria @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.CloudwatchMetricAlarm.ICloudwatchMetricAlarmEvaluationCriteria)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putEvaluationWindow", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmEvaluationWindow\"}}]")]
+        public virtual void PutEvaluationWindow(aws.CloudwatchMetricAlarm.ICloudwatchMetricAlarmEvaluationWindow @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.CloudwatchMetricAlarm.ICloudwatchMetricAlarmEvaluationWindow)}, new object[]{@value});
         }
 
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchMetricAlarm.ICloudwatchMetricAlarmMetricQuery" />)[]</param>
@@ -138,6 +144,12 @@ namespace aws.CloudwatchMetricAlarm
 
         [JsiiMethod(name: "resetEvaluationPeriods")]
         public virtual void ResetEvaluationPeriods()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetEvaluationWindow")]
+        public virtual void ResetEvaluationWindow()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -275,6 +287,12 @@ namespace aws.CloudwatchMetricAlarm
             get => GetInstanceProperty<aws.CloudwatchMetricAlarm.CloudwatchMetricAlarmEvaluationCriteriaOutputReference>()!;
         }
 
+        [JsiiProperty(name: "evaluationWindow", typeJson: "{\"fqn\":\"aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmEvaluationWindowOutputReference\"}")]
+        public virtual aws.CloudwatchMetricAlarm.CloudwatchMetricAlarmEvaluationWindowOutputReference EvaluationWindow
+        {
+            get => GetInstanceProperty<aws.CloudwatchMetricAlarm.CloudwatchMetricAlarmEvaluationWindowOutputReference>()!;
+        }
+
         [JsiiProperty(name: "metricQuery", typeJson: "{\"fqn\":\"aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmMetricQueryList\"}")]
         public virtual aws.CloudwatchMetricAlarm.CloudwatchMetricAlarmMetricQueryList MetricQuery
         {
@@ -365,6 +383,13 @@ namespace aws.CloudwatchMetricAlarm
         public virtual double? EvaluationPeriodsInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "evaluationWindowInput", typeJson: "{\"fqn\":\"aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmEvaluationWindow\"}", isOptional: true)]
+        public virtual aws.CloudwatchMetricAlarm.ICloudwatchMetricAlarmEvaluationWindow? EvaluationWindowInput
+        {
+            get => GetInstanceProperty<aws.CloudwatchMetricAlarm.ICloudwatchMetricAlarmEvaluationWindow?>();
         }
 
         [JsiiOptional]

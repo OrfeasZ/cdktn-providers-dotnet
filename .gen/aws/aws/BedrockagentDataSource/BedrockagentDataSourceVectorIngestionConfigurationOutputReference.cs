@@ -59,6 +59,30 @@ namespace aws.BedrockagentDataSource
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentDataSource.IBedrockagentDataSourceVectorIngestionConfigurationContextEnrichmentConfiguration" />)[]</param>
+        [JsiiMethod(name: "putContextEnrichmentConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentDataSource.BedrockagentDataSourceVectorIngestionConfigurationContextEnrichmentConfiguration\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutContextEnrichmentConfiguration(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.BedrockagentDataSource.IBedrockagentDataSourceVectorIngestionConfigurationContextEnrichmentConfiguration[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.BedrockagentDataSource.IBedrockagentDataSourceVectorIngestionConfigurationContextEnrichmentConfiguration).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.BedrockagentDataSource.IBedrockagentDataSourceVectorIngestionConfigurationContextEnrichmentConfiguration).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentDataSource.IBedrockagentDataSourceVectorIngestionConfigurationCustomTransformationConfiguration" />)[]</param>
         [JsiiMethod(name: "putCustomTransformationConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentDataSource.BedrockagentDataSourceVectorIngestionConfigurationCustomTransformationConfiguration\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutCustomTransformationConfiguration(object @value)
@@ -113,6 +137,12 @@ namespace aws.BedrockagentDataSource
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetContextEnrichmentConfiguration")]
+        public virtual void ResetContextEnrichmentConfiguration()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetCustomTransformationConfiguration")]
         public virtual void ResetCustomTransformationConfiguration()
         {
@@ -129,6 +159,12 @@ namespace aws.BedrockagentDataSource
         public virtual aws.BedrockagentDataSource.BedrockagentDataSourceVectorIngestionConfigurationChunkingConfigurationList ChunkingConfiguration
         {
             get => GetInstanceProperty<aws.BedrockagentDataSource.BedrockagentDataSourceVectorIngestionConfigurationChunkingConfigurationList>()!;
+        }
+
+        [JsiiProperty(name: "contextEnrichmentConfiguration", typeJson: "{\"fqn\":\"aws.bedrockagentDataSource.BedrockagentDataSourceVectorIngestionConfigurationContextEnrichmentConfigurationList\"}")]
+        public virtual aws.BedrockagentDataSource.BedrockagentDataSourceVectorIngestionConfigurationContextEnrichmentConfigurationList ContextEnrichmentConfiguration
+        {
+            get => GetInstanceProperty<aws.BedrockagentDataSource.BedrockagentDataSourceVectorIngestionConfigurationContextEnrichmentConfigurationList>()!;
         }
 
         [JsiiProperty(name: "customTransformationConfiguration", typeJson: "{\"fqn\":\"aws.bedrockagentDataSource.BedrockagentDataSourceVectorIngestionConfigurationCustomTransformationConfigurationList\"}")]
@@ -149,6 +185,16 @@ namespace aws.BedrockagentDataSource
         [JsiiOptional]
         [JsiiProperty(name: "chunkingConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentDataSource.BedrockagentDataSourceVectorIngestionConfigurationChunkingConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? ChunkingConfigurationInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockagentDataSource.IBedrockagentDataSourceVectorIngestionConfigurationContextEnrichmentConfiguration" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "contextEnrichmentConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockagentDataSource.BedrockagentDataSourceVectorIngestionConfigurationContextEnrichmentConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? ContextEnrichmentConfigurationInput
         {
             get => GetInstanceProperty<object?>();
         }

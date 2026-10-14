@@ -7,9 +7,79 @@ namespace aws.CloudwatchOtelEnrichment
     [JsiiByValue(fqn: "aws.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentConfig")]
     public class CloudwatchOtelEnrichmentConfig : aws.CloudwatchOtelEnrichment.ICloudwatchOtelEnrichmentConfig
     {
+        private object? _excludeFilter;
+
+        /// <summary>exclude_filter block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/cloudwatch_otel_enrichment#exclude_filter CloudwatchOtelEnrichment#exclude_filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchOtelEnrichment.ICloudwatchOtelEnrichmentExcludeFilter" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "excludeFilter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? ExcludeFilter
+        {
+            get => _excludeFilter;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case aws.CloudwatchOtelEnrichment.ICloudwatchOtelEnrichmentExcludeFilter[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.CloudwatchOtelEnrichment.ICloudwatchOtelEnrichmentExcludeFilter).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _excludeFilter = value;
+            }
+        }
+
+        private object? _includeFilter;
+
+        /// <summary>include_filter block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/cloudwatch_otel_enrichment#include_filter CloudwatchOtelEnrichment#include_filter}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.CloudwatchOtelEnrichment.ICloudwatchOtelEnrichmentIncludeFilter" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "includeFilter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? IncludeFilter
+        {
+            get => _includeFilter;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case aws.CloudwatchOtelEnrichment.ICloudwatchOtelEnrichmentIncludeFilter[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.CloudwatchOtelEnrichment.ICloudwatchOtelEnrichmentIncludeFilter).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _includeFilter = value;
+            }
+        }
+
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/cloudwatch_otel_enrichment#region CloudwatchOtelEnrichment#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/cloudwatch_otel_enrichment#region CloudwatchOtelEnrichment#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +91,7 @@ namespace aws.CloudwatchOtelEnrichment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/cloudwatch_otel_enrichment#timeouts CloudwatchOtelEnrichment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/cloudwatch_otel_enrichment#timeouts CloudwatchOtelEnrichment#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentTimeouts\"}", isOptional: true)]

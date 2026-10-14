@@ -63,6 +63,12 @@ namespace aws.Wafv2WebAcl
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.Wafv2WebAcl.IWafv2WebAclRuleActionCount)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putMonetize", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclRuleActionMonetize\"}}]")]
+        public virtual void PutMonetize(aws.Wafv2WebAcl.IWafv2WebAclRuleActionMonetize @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.Wafv2WebAcl.IWafv2WebAclRuleActionMonetize)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetAllow")]
         public virtual void ResetAllow()
         {
@@ -89,6 +95,12 @@ namespace aws.Wafv2WebAcl
 
         [JsiiMethod(name: "resetCount")]
         public virtual void ResetCount()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMonetize")]
+        public virtual void ResetMonetize()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -121,6 +133,12 @@ namespace aws.Wafv2WebAcl
         public virtual aws.Wafv2WebAcl.Wafv2WebAclRuleActionCountOutputReference Count
         {
             get => GetInstanceProperty<aws.Wafv2WebAcl.Wafv2WebAclRuleActionCountOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "monetize", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclRuleActionMonetizeOutputReference\"}")]
+        public virtual aws.Wafv2WebAcl.Wafv2WebAclRuleActionMonetizeOutputReference Monetize
+        {
+            get => GetInstanceProperty<aws.Wafv2WebAcl.Wafv2WebAclRuleActionMonetizeOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -156,6 +174,13 @@ namespace aws.Wafv2WebAcl
         public virtual aws.Wafv2WebAcl.IWafv2WebAclRuleActionCount? CountInput
         {
             get => GetInstanceProperty<aws.Wafv2WebAcl.IWafv2WebAclRuleActionCount?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "monetizeInput", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclRuleActionMonetize\"}", isOptional: true)]
+        public virtual aws.Wafv2WebAcl.IWafv2WebAclRuleActionMonetize? MonetizeInput
+        {
+            get => GetInstanceProperty<aws.Wafv2WebAcl.IWafv2WebAclRuleActionMonetize?>();
         }
 
         [JsiiOptional]

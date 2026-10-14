@@ -9,7 +9,7 @@ namespace aws.OdbAutonomousDatabase
     {
         /// <summary>Type of clone to create.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/odb_autonomous_database#clone_type OdbAutonomousDatabase#clone_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/odb_autonomous_database#clone_type OdbAutonomousDatabase#clone_type}
         /// </remarks>
         [JsiiProperty(name: "cloneType", typeJson: "{\"primitive\":\"string\"}")]
         string CloneType
@@ -19,7 +19,7 @@ namespace aws.OdbAutonomousDatabase
 
         /// <summary>ID of the source Autonomous Database.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/odb_autonomous_database#source_autonomous_database_id OdbAutonomousDatabase#source_autonomous_database_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/odb_autonomous_database#source_autonomous_database_id OdbAutonomousDatabase#source_autonomous_database_id}
         /// </remarks>
         [JsiiProperty(name: "sourceAutonomousDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         string SourceAutonomousDatabaseId
@@ -36,7 +36,7 @@ namespace aws.OdbAutonomousDatabase
 
             /// <summary>Type of clone to create.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/odb_autonomous_database#clone_type OdbAutonomousDatabase#clone_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/odb_autonomous_database#clone_type OdbAutonomousDatabase#clone_type}
             /// </remarks>
             [JsiiProperty(name: "cloneType", typeJson: "{\"primitive\":\"string\"}")]
             public string CloneType
@@ -46,7 +46,7 @@ namespace aws.OdbAutonomousDatabase
 
             /// <summary>ID of the source Autonomous Database.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/odb_autonomous_database#source_autonomous_database_id OdbAutonomousDatabase#source_autonomous_database_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/odb_autonomous_database#source_autonomous_database_id OdbAutonomousDatabase#source_autonomous_database_id}
             /// </remarks>
             [JsiiProperty(name: "sourceAutonomousDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
             public string SourceAutonomousDatabaseId

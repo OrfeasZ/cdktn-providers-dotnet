@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.Wafv2WebAcl
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/wafv2_web_acl aws_wafv2_web_acl}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl aws_wafv2_web_acl}.</summary>
     [JsiiClass(nativeType: typeof(aws.Wafv2WebAcl.Wafv2WebAcl), fullyQualifiedName: "aws.wafv2WebAcl.Wafv2WebAcl", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclConfig\"}}]")]
     public class Wafv2WebAcl : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/wafv2_web_acl aws_wafv2_web_acl} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl aws_wafv2_web_acl} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public Wafv2WebAcl(Constructs.Construct scope, string id, aws.Wafv2WebAcl.IWafv2WebAclConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.Wafv2WebAcl
         /// <param name="importToId">The construct id used in the generated config for the Wafv2WebAcl to import.</param>
         /// <param name="importFromId">The id of the existing Wafv2WebAcl that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the Wafv2WebAcl to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Wafv2WebAcl to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.68.0/docs/resources/wafv2_web_acl#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Wafv2WebAcl that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Wafv2WebAcl to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Wafv2WebAcl to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Wafv2WebAcl that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Wafv2WebAcl to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Wafv2WebAcl.Wafv2WebAcl), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -98,6 +98,12 @@ namespace aws.Wafv2WebAcl
         public virtual void PutDefaultAction(aws.Wafv2WebAcl.IWafv2WebAclDefaultAction @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.Wafv2WebAcl.IWafv2WebAclDefaultAction)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putMonetizationConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclMonetizationConfig\"}}]")]
+        public virtual void PutMonetizationConfig(aws.Wafv2WebAcl.IWafv2WebAclMonetizationConfig @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.Wafv2WebAcl.IWafv2WebAclMonetizationConfig)}, new object[]{@value});
         }
 
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAcl.IWafv2WebAclRule" />)[]</param>
@@ -168,6 +174,12 @@ namespace aws.Wafv2WebAcl
 
         [JsiiMethod(name: "resetId")]
         public virtual void ResetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMonetizationConfig")]
+        public virtual void ResetMonetizationConfig()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -299,6 +311,12 @@ namespace aws.Wafv2WebAcl
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "monetizationConfig", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclMonetizationConfigOutputReference\"}")]
+        public virtual aws.Wafv2WebAcl.Wafv2WebAclMonetizationConfigOutputReference MonetizationConfig
+        {
+            get => GetInstanceProperty<aws.Wafv2WebAcl.Wafv2WebAclMonetizationConfigOutputReference>()!;
+        }
+
         [JsiiProperty(name: "rule", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclRuleList\"}")]
         public virtual aws.Wafv2WebAcl.Wafv2WebAclRuleList Rule
         {
@@ -368,6 +386,13 @@ namespace aws.Wafv2WebAcl
         public virtual string? IdInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "monetizationConfigInput", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclMonetizationConfig\"}", isOptional: true)]
+        public virtual aws.Wafv2WebAcl.IWafv2WebAclMonetizationConfig? MonetizationConfigInput
+        {
+            get => GetInstanceProperty<aws.Wafv2WebAcl.IWafv2WebAclMonetizationConfig?>();
         }
 
         [JsiiOptional]
