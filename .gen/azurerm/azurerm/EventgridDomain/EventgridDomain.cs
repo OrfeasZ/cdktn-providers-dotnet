@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace azurerm.EventgridDomain
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/eventgrid_domain azurerm_eventgrid_domain}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/eventgrid_domain azurerm_eventgrid_domain}.</summary>
     [JsiiClass(nativeType: typeof(azurerm.EventgridDomain.EventgridDomain), fullyQualifiedName: "azurerm.eventgridDomain.EventgridDomain", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"azurerm.eventgridDomain.EventgridDomainConfig\"}}]")]
     public class EventgridDomain : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/eventgrid_domain azurerm_eventgrid_domain} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/eventgrid_domain azurerm_eventgrid_domain} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public EventgridDomain(Constructs.Construct scope, string id, azurerm.EventgridDomain.IEventgridDomainConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace azurerm.EventgridDomain
         /// <param name="importToId">The construct id used in the generated config for the EventgridDomain to import.</param>
         /// <param name="importFromId">The id of the existing EventgridDomain that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the EventgridDomain to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the EventgridDomain to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.9.0/docs/resources/eventgrid_domain#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing EventgridDomain that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the EventgridDomain to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the EventgridDomain to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/eventgrid_domain#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing EventgridDomain that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the EventgridDomain to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(azurerm.EventgridDomain.EventgridDomain), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -106,6 +106,12 @@ namespace azurerm.EventgridDomain
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDataResidencyBoundary")]
+        public virtual void ResetDataResidencyBoundary()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetId")]
         public virtual void ResetId()
         {
@@ -144,6 +150,12 @@ namespace azurerm.EventgridDomain
 
         [JsiiMethod(name: "resetLocalAuthEnabled")]
         public virtual void ResetLocalAuthEnabled()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMinimumTlsVersion")]
+        public virtual void ResetMinimumTlsVersion()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -254,6 +266,13 @@ namespace azurerm.EventgridDomain
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "dataResidencyBoundaryInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DataResidencyBoundaryInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "identityInput", typeJson: "{\"fqn\":\"azurerm.eventgridDomain.EventgridDomainIdentity\"}", isOptional: true)]
         public virtual azurerm.EventgridDomain.IEventgridDomainIdentity? IdentityInput
         {
@@ -311,6 +330,13 @@ namespace azurerm.EventgridDomain
         [JsiiOptional]
         [JsiiProperty(name: "locationInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? LocationInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "minimumTlsVersionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? MinimumTlsVersionInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -416,6 +442,13 @@ namespace azurerm.EventgridDomain
             }
         }
 
+        [JsiiProperty(name: "dataResidencyBoundary", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DataResidencyBoundary
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {
@@ -462,6 +495,13 @@ namespace azurerm.EventgridDomain
 
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Location
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "minimumTlsVersion", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string MinimumTlsVersion
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
