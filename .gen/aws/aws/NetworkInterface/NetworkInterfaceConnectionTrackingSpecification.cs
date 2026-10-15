@@ -7,7 +7,7 @@ namespace aws.NetworkInterface
     [JsiiByValue(fqn: "aws.networkInterface.NetworkInterfaceConnectionTrackingSpecification")]
     public class NetworkInterfaceConnectionTrackingSpecification : aws.NetworkInterface.INetworkInterfaceConnectionTrackingSpecification
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/network_interface#tcp_established_timeout NetworkInterface#tcp_established_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/network_interface#tcp_established_timeout NetworkInterface#tcp_established_timeout}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tcpEstablishedTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? TcpEstablishedTimeout
@@ -16,7 +16,7 @@ namespace aws.NetworkInterface
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/network_interface#udp_stream_timeout NetworkInterface#udp_stream_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/network_interface#udp_stream_timeout NetworkInterface#udp_stream_timeout}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "udpStreamTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? UdpStreamTimeout
@@ -25,7 +25,7 @@ namespace aws.NetworkInterface
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/network_interface#udp_timeout NetworkInterface#udp_timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/network_interface#udp_timeout NetworkInterface#udp_timeout}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "udpTimeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? UdpTimeout

@@ -9,7 +9,7 @@ namespace aws.MskChannel
     [JsiiByValue(fqn: "aws.mskChannel.MskChannelEncryptionConfiguration")]
     public class MskChannelEncryptionConfiguration : aws.MskChannel.IMskChannelEncryptionConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/msk_channel#kms_key_arn MskChannel#kms_key_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/msk_channel#kms_key_arn MskChannel#kms_key_arn}.</summary>
         [JsiiProperty(name: "kmsKeyArn", typeJson: "{\"primitive\":\"string\"}")]
         public string KmsKeyArn
         {

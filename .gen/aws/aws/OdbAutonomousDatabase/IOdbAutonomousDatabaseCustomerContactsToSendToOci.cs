@@ -9,7 +9,7 @@ namespace aws.OdbAutonomousDatabase
     {
         /// <summary>Email address of the customer contact.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/odb_autonomous_database#email OdbAutonomousDatabase#email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/odb_autonomous_database#email OdbAutonomousDatabase#email}
         /// </remarks>
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
         string Email
@@ -26,7 +26,7 @@ namespace aws.OdbAutonomousDatabase
 
             /// <summary>Email address of the customer contact.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/odb_autonomous_database#email OdbAutonomousDatabase#email}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/odb_autonomous_database#email OdbAutonomousDatabase#email}
             /// </remarks>
             [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
             public string Email

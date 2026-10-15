@@ -9,7 +9,7 @@ namespace aws.Wafv2WebAcl
     {
         /// <summary>crypto_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl#crypto_config Wafv2WebAcl#crypto_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/wafv2_web_acl#crypto_config Wafv2WebAcl#crypto_config}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cryptoConfig", typeJson: "{\"fqn\":\"aws.wafv2WebAcl.Wafv2WebAclMonetizationConfigCryptoConfig\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace aws.Wafv2WebAcl
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.0/docs/resources/wafv2_web_acl#currency_mode Wafv2WebAcl#currency_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/wafv2_web_acl#currency_mode Wafv2WebAcl#currency_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "currencyMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CurrencyMode
