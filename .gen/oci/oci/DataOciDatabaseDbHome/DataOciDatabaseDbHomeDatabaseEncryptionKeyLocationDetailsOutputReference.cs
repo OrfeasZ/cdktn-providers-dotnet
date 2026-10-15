@@ -41,6 +41,12 @@ namespace oci.DataOciDatabaseDbHome
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "awsEncryptionKeyPoolId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AwsEncryptionKeyPoolId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "azureEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AzureEncryptionKeyId
         {

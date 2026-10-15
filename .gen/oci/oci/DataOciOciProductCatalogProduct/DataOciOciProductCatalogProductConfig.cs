@@ -9,7 +9,7 @@ namespace oci.DataOciOciProductCatalogProduct
     [JsiiByValue(fqn: "oci.dataOciOciProductCatalogProduct.DataOciOciProductCatalogProductConfig")]
     public class DataOciOciProductCatalogProductConfig : oci.DataOciOciProductCatalogProduct.IDataOciOciProductCatalogProductConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/oci_product_catalog_product#product_id DataOciOciProductCatalogProduct#product_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_product#product_id DataOciOciProductCatalogProduct#product_id}.</summary>
         [JsiiProperty(name: "productId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProductId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOciProductCatalogProduct
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/oci_product_catalog_product#id DataOciOciProductCatalogProduct#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_product#id DataOciOciProductCatalogProduct#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

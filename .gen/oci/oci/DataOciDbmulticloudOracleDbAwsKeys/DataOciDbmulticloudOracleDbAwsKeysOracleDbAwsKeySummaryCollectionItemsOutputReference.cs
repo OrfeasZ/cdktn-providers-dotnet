@@ -89,6 +89,12 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeys
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "isOracleAwsKeyUsed", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsOracleAwsKeyUsed
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "lifecycleStateDetails", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LifecycleStateDetails
         {
@@ -97,6 +103,12 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeys
 
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Location
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "oracleDbAwsKeyPoolId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OracleDbAwsKeyPoolId
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -111,6 +123,12 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeys
         public virtual Io.Cdktn.StringMap Properties
         {
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "refCount", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double RefCount
+        {
+            get => GetInstanceProperty<double>()!;
         }
 
         [JsiiProperty(name: "replicationMetadata", typeJson: "{\"fqn\":\"oci.dataOciDbmulticloudOracleDbAwsKeys.DataOciDbmulticloudOracleDbAwsKeysOracleDbAwsKeySummaryCollectionItemsReplicationMetadataList\"}")]

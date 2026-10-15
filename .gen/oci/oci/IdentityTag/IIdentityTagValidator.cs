@@ -7,18 +7,22 @@ namespace oci.IdentityTag
     [JsiiInterface(nativeType: typeof(IIdentityTagValidator), fullyQualifiedName: "oci.identityTag.IdentityTagValidator")]
     public interface IIdentityTagValidator
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/identity_tag#validator_type IdentityTag#validator_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/identity_tag#validator_type IdentityTag#validator_type}.</summary>
         [JsiiProperty(name: "validatorType", typeJson: "{\"primitive\":\"string\"}")]
         string ValidatorType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/identity_tag#values IdentityTag#values}.</summary>
-        [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        string[] Values
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/identity_tag#values IdentityTag#values}.</summary>
+        [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string[]? Values
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IIdentityTagValidator), fullyQualifiedName: "oci.identityTag.IdentityTagValidator")]
@@ -28,18 +32,19 @@ namespace oci.IdentityTag
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/identity_tag#validator_type IdentityTag#validator_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/identity_tag#validator_type IdentityTag#validator_type}.</summary>
             [JsiiProperty(name: "validatorType", typeJson: "{\"primitive\":\"string\"}")]
             public string ValidatorType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/identity_tag#values IdentityTag#values}.</summary>
-            [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-            public string[] Values
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/identity_tag#values IdentityTag#values}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+            public string[]? Values
             {
-                get => GetInstanceProperty<string[]>()!;
+                get => GetInstanceProperty<string[]?>();
             }
         }
     }

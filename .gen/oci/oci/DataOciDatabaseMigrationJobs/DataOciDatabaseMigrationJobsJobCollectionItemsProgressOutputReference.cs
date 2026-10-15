@@ -47,6 +47,12 @@ namespace oci.DataOciDatabaseMigrationJobs
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "jobProgress", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double JobProgress
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "phases", typeJson: "{\"fqn\":\"oci.dataOciDatabaseMigrationJobs.DataOciDatabaseMigrationJobsJobCollectionItemsProgressPhasesList\"}")]
         public virtual oci.DataOciDatabaseMigrationJobs.DataOciDatabaseMigrationJobsJobCollectionItemsProgressPhasesList Phases
         {

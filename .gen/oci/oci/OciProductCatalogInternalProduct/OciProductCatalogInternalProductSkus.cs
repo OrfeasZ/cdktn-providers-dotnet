@@ -7,7 +7,7 @@ namespace oci.OciProductCatalogInternalProduct
     [JsiiByValue(fqn: "oci.ociProductCatalogInternalProduct.OciProductCatalogInternalProductSkus")]
     public class OciProductCatalogInternalProductSkus : oci.OciProductCatalogInternalProduct.IOciProductCatalogInternalProductSkus
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/oci_product_catalog_internal_product#bpart_number OciProductCatalogInternalProduct#bpart_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_product#bpart_number OciProductCatalogInternalProduct#bpart_number}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bpartNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BpartNumber
@@ -16,7 +16,7 @@ namespace oci.OciProductCatalogInternalProduct
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/oci_product_catalog_internal_product#description OciProductCatalogInternalProduct#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_product#description OciProductCatalogInternalProduct#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description

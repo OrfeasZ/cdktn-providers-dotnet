@@ -5,7 +5,7 @@ namespace oci.OciProductCatalogInternalProduct
     /// <remarks>
     /// <h1><c>oci_oci_product_catalog_internal_product</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/resources/oci_product_catalog_internal_product"><c>oci_oci_product_catalog_internal_product</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_product"><c>oci_oci_product_catalog_internal_product</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -33,6 +33,12 @@ namespace oci.IdentityTag
         {
         }
 
+        [JsiiMethod(name: "resetValues")]
+        public virtual void ResetValues()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "validatorTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ValidatorTypeInput

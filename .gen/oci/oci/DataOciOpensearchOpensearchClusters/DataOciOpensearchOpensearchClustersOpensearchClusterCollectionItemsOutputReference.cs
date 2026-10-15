@@ -317,6 +317,12 @@ namespace oci.DataOciOpensearchOpensearchClusters
             get => GetInstanceProperty<oci.DataOciOpensearchOpensearchClusters.DataOciOpensearchOpensearchClustersOpensearchClusterCollectionItemsOutboundClusterConfigList>()!;
         }
 
+        [JsiiProperty(name: "remoteReindexTrustConfig", typeJson: "{\"fqn\":\"oci.dataOciOpensearchOpensearchClusters.DataOciOpensearchOpensearchClustersOpensearchClusterCollectionItemsRemoteReindexTrustConfigList\"}")]
+        public virtual oci.DataOciOpensearchOpensearchClusters.DataOciOpensearchOpensearchClustersOpensearchClusterCollectionItemsRemoteReindexTrustConfigList RemoteReindexTrustConfig
+        {
+            get => GetInstanceProperty<oci.DataOciOpensearchOpensearchClusters.DataOciOpensearchOpensearchClustersOpensearchClusterCollectionItemsRemoteReindexTrustConfigList>()!;
+        }
+
         [JsiiProperty(name: "reverseConnectionEndpointCustomerIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] ReverseConnectionEndpointCustomerIps
         {
@@ -369,6 +375,12 @@ namespace oci.DataOciOpensearchOpensearchClusters
         public virtual Io.Cdktn.StringMap SecurityAttributes
         {
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
+        [JsiiProperty(name: "securityMasterUserAuthDetails", typeJson: "{\"fqn\":\"oci.dataOciOpensearchOpensearchClusters.DataOciOpensearchOpensearchClustersOpensearchClusterCollectionItemsSecurityMasterUserAuthDetailsList\"}")]
+        public virtual oci.DataOciOpensearchOpensearchClusters.DataOciOpensearchOpensearchClustersOpensearchClusterCollectionItemsSecurityMasterUserAuthDetailsList SecurityMasterUserAuthDetails
+        {
+            get => GetInstanceProperty<oci.DataOciOpensearchOpensearchClusters.DataOciOpensearchOpensearchClustersOpensearchClusterCollectionItemsSecurityMasterUserAuthDetailsList>()!;
         }
 
         [JsiiProperty(name: "securityMasterUserName", typeJson: "{\"primitive\":\"string\"}")]

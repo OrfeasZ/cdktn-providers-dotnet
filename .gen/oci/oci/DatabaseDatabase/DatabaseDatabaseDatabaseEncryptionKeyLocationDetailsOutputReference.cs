@@ -39,6 +39,12 @@ namespace oci.DatabaseDatabase
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetAwsEncryptionKeyPoolId")]
+        public virtual void ResetAwsEncryptionKeyPoolId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetAzureEncryptionKeyId")]
         public virtual void ResetAzureEncryptionKeyId()
         {
@@ -60,6 +66,13 @@ namespace oci.DatabaseDatabase
         [JsiiOptional]
         [JsiiProperty(name: "awsEncryptionKeyIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? AwsEncryptionKeyIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "awsEncryptionKeyPoolIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? AwsEncryptionKeyPoolIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -94,6 +107,13 @@ namespace oci.DatabaseDatabase
 
         [JsiiProperty(name: "awsEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AwsEncryptionKeyId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "awsEncryptionKeyPoolId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AwsEncryptionKeyPoolId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

@@ -7,7 +7,7 @@ namespace oci.DataOciOciProductCatalogProducts
     [JsiiInterface(nativeType: typeof(IDataOciOciProductCatalogProductsLimits), fullyQualifiedName: "oci.dataOciOciProductCatalogProducts.DataOciOciProductCatalogProductsLimits")]
     public interface IDataOciOciProductCatalogProductsLimits
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/oci_product_catalog_products#public_limit_name DataOciOciProductCatalogProducts#public_limit_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_products#public_limit_name DataOciOciProductCatalogProducts#public_limit_name}.</summary>
         [JsiiProperty(name: "publicLimitName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PublicLimitName
@@ -18,7 +18,7 @@ namespace oci.DataOciOciProductCatalogProducts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/oci_product_catalog_products#public_service_name DataOciOciProductCatalogProducts#public_service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_products#public_service_name DataOciOciProductCatalogProducts#public_service_name}.</summary>
         [JsiiProperty(name: "publicServiceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PublicServiceName
@@ -36,7 +36,7 @@ namespace oci.DataOciOciProductCatalogProducts
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/oci_product_catalog_products#public_limit_name DataOciOciProductCatalogProducts#public_limit_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_products#public_limit_name DataOciOciProductCatalogProducts#public_limit_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "publicLimitName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PublicLimitName
@@ -44,7 +44,7 @@ namespace oci.DataOciOciProductCatalogProducts
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/oci_product_catalog_products#public_service_name DataOciOciProductCatalogProducts#public_service_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_products#public_service_name DataOciOciProductCatalogProducts#public_service_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "publicServiceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PublicServiceName

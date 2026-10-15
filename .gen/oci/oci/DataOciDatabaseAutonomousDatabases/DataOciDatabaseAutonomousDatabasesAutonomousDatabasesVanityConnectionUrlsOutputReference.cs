@@ -47,6 +47,12 @@ namespace oci.DataOciDatabaseAutonomousDatabases
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "essbaseUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string EssbaseUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "graphStudioUrl", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string GraphStudioUrl
         {

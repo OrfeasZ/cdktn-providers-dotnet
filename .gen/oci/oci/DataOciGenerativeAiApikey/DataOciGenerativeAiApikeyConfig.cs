@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiApikey
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiApikey.DataOciGenerativeAiApikeyConfig")]
     public class DataOciGenerativeAiApikeyConfig : oci.DataOciGenerativeAiApikey.IDataOciGenerativeAiApikeyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.9.0/docs/data-sources/generative_ai_apikey#api_key_id DataOciGenerativeAiApikey#api_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/generative_ai_apikey#api_key_id DataOciGenerativeAiApikey#api_key_id}.</summary>
         [JsiiProperty(name: "apiKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiKeyId
         {

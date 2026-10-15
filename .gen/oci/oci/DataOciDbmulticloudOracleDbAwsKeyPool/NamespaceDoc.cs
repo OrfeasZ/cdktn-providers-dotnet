@@ -1,0 +1,14 @@
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace oci.DataOciDbmulticloudOracleDbAwsKeyPool
+{
+    /// <remarks>
+    /// <h1><c>data_oci_dbmulticloud_oracle_db_aws_key_pool</c></h1>
+    ///
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pool"><c>data_oci_dbmulticloud_oracle_db_aws_key_pool</c></a>.
+    /// </remarks>
+    [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+    public class NamespaceDoc
+    {
+    }
+}
