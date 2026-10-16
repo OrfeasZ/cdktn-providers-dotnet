@@ -7,22 +7,9 @@ namespace scaleway.DataScalewayBlockSnapshot
     [JsiiByValue(fqn: "scaleway.dataScalewayBlockSnapshot.DataScalewayBlockSnapshotConfig")]
     public class DataScalewayBlockSnapshotConfig : scaleway.DataScalewayBlockSnapshot.IDataScalewayBlockSnapshotConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/block_snapshot#id DataScalewayBlockSnapshot#id}.</summary>
-        /// <remarks>
-        /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-        /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Id
-        {
-            get;
-            set;
-        }
-
         /// <summary>The snapshot name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/block_snapshot#name DataScalewayBlockSnapshot#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/data-sources/block_snapshot#name DataScalewayBlockSnapshot#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -32,9 +19,9 @@ namespace scaleway.DataScalewayBlockSnapshot
             set;
         }
 
-        /// <summary>The project_id you want to attach the resource to.</summary>
+        /// <summary>The project ID the snapshot belongs to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/block_snapshot#project_id DataScalewayBlockSnapshot#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/data-sources/block_snapshot#project_id DataScalewayBlockSnapshot#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +33,7 @@ namespace scaleway.DataScalewayBlockSnapshot
 
         /// <summary>The ID of the snapshot.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/block_snapshot#snapshot_id DataScalewayBlockSnapshot#snapshot_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/data-sources/block_snapshot#snapshot_id DataScalewayBlockSnapshot#snapshot_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "snapshotId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +45,7 @@ namespace scaleway.DataScalewayBlockSnapshot
 
         /// <summary>ID of the volume from which creates a snapshot.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/block_snapshot#volume_id DataScalewayBlockSnapshot#volume_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/data-sources/block_snapshot#volume_id DataScalewayBlockSnapshot#volume_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "volumeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -68,9 +55,9 @@ namespace scaleway.DataScalewayBlockSnapshot
             set;
         }
 
-        /// <summary>The zone you want to attach the resource to.</summary>
+        /// <summary>The zone of the snapshot.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/data-sources/block_snapshot#zone DataScalewayBlockSnapshot#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/data-sources/block_snapshot#zone DataScalewayBlockSnapshot#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

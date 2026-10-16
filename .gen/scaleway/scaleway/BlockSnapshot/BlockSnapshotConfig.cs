@@ -7,46 +7,79 @@ namespace scaleway.BlockSnapshot
     [JsiiByValue(fqn: "scaleway.blockSnapshot.BlockSnapshotConfig")]
     public class BlockSnapshotConfig : scaleway.BlockSnapshot.IBlockSnapshotConfig
     {
+        private object? _export;
+
         /// <summary>export block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/resources/block_snapshot#export BlockSnapshot#export}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/block_snapshot#export BlockSnapshot#export}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.BlockSnapshot.IBlockSnapshotExport" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "export", typeJson: "{\"fqn\":\"scaleway.blockSnapshot.BlockSnapshotExport\"}", isOptional: true)]
-        public scaleway.BlockSnapshot.IBlockSnapshotExport? Export
+        [JsiiProperty(name: "export", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.blockSnapshot.BlockSnapshotExport\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? Export
         {
-            get;
-            set;
+            get => _export;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case scaleway.BlockSnapshot.IBlockSnapshotExport[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(scaleway.BlockSnapshot.IBlockSnapshotExport).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _export = value;
+            }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/resources/block_snapshot#id BlockSnapshot#id}.</summary>
-        /// <remarks>
-        /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-        /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Id
-        {
-            get;
-            set;
-        }
+        private object? _import;
 
         /// <summary>import block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/resources/block_snapshot#import BlockSnapshot#import}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/block_snapshot#import BlockSnapshot#import}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.BlockSnapshot.IBlockSnapshotImport" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "import", typeJson: "{\"fqn\":\"scaleway.blockSnapshot.BlockSnapshotImport\"}", isOptional: true)]
-        public scaleway.BlockSnapshot.IBlockSnapshotImport? Import
+        [JsiiProperty(name: "import", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"scaleway.blockSnapshot.BlockSnapshotImport\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? Import
         {
-            get;
-            set;
+            get => _import;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case scaleway.BlockSnapshot.IBlockSnapshotImport[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(scaleway.BlockSnapshot.IBlockSnapshotImport).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _import = value;
+            }
         }
 
         /// <summary>The snapshot name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/resources/block_snapshot#name BlockSnapshot#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/block_snapshot#name BlockSnapshot#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +91,7 @@ namespace scaleway.BlockSnapshot
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/resources/block_snapshot#project_id BlockSnapshot#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/block_snapshot#project_id BlockSnapshot#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +103,7 @@ namespace scaleway.BlockSnapshot
 
         /// <summary>The tags associated with the snapshot.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/resources/block_snapshot#tags BlockSnapshot#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/block_snapshot#tags BlockSnapshot#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -80,21 +113,9 @@ namespace scaleway.BlockSnapshot
             set;
         }
 
-        /// <summary>timeouts block.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/resources/block_snapshot#timeouts BlockSnapshot#timeouts}
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.blockSnapshot.BlockSnapshotTimeouts\"}", isOptional: true)]
-        public scaleway.BlockSnapshot.IBlockSnapshotTimeouts? Timeouts
-        {
-            get;
-            set;
-        }
-
         /// <summary>ID of the volume from which creates a snapshot.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/resources/block_snapshot#volume_id BlockSnapshot#volume_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/block_snapshot#volume_id BlockSnapshot#volume_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "volumeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -106,7 +127,7 @@ namespace scaleway.BlockSnapshot
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.86.0/docs/resources/block_snapshot#zone BlockSnapshot#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/block_snapshot#zone BlockSnapshot#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
