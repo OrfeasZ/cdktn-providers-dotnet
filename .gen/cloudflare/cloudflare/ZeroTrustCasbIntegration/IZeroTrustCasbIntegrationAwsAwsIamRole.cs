@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustCasbIntegration
     {
         /// <summary>External ID required when assuming the IAM role.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_casb_integration#external_id ZeroTrustCasbIntegration#external_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_casb_integration#external_id ZeroTrustCasbIntegration#external_id}
         /// </remarks>
         [JsiiProperty(name: "externalId", typeJson: "{\"primitive\":\"string\"}")]
         string ExternalId
@@ -19,7 +19,7 @@ namespace cloudflare.ZeroTrustCasbIntegration
 
         /// <summary>ARN of the cross-account IAM role Cloudflare will assume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_casb_integration#role_arn ZeroTrustCasbIntegration#role_arn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_casb_integration#role_arn ZeroTrustCasbIntegration#role_arn}
         /// </remarks>
         [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
         string RoleArn
@@ -36,7 +36,7 @@ namespace cloudflare.ZeroTrustCasbIntegration
 
             /// <summary>External ID required when assuming the IAM role.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_casb_integration#external_id ZeroTrustCasbIntegration#external_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_casb_integration#external_id ZeroTrustCasbIntegration#external_id}
             /// </remarks>
             [JsiiProperty(name: "externalId", typeJson: "{\"primitive\":\"string\"}")]
             public string ExternalId
@@ -46,7 +46,7 @@ namespace cloudflare.ZeroTrustCasbIntegration
 
             /// <summary>ARN of the cross-account IAM role Cloudflare will assume.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_casb_integration#role_arn ZeroTrustCasbIntegration#role_arn}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_casb_integration#role_arn ZeroTrustCasbIntegration#role_arn}
             /// </remarks>
             [JsiiProperty(name: "roleArn", typeJson: "{\"primitive\":\"string\"}")]
             public string RoleArn

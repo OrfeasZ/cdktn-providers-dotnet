@@ -9,7 +9,7 @@ namespace cloudflare.AiSearchInstance
     {
         private object? _createdFromAisearchWizard;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/ai_search_instance#created_from_aisearch_wizard AiSearchInstance#created_from_aisearch_wizard}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/ai_search_instance#created_from_aisearch_wizard AiSearchInstance#created_from_aisearch_wizard}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -41,7 +41,7 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/ai_search_instance#created_from_emdash_plugin AiSearchInstance#created_from_emdash_plugin}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/ai_search_instance#created_from_emdash_plugin AiSearchInstance#created_from_emdash_plugin}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "createdFromEmdashPlugin", typeJson: "{\"fqn\":\"cloudflare.aiSearchInstance.AiSearchInstanceMetadataCreatedFromEmdashPlugin\"}", isOptional: true)]
         public cloudflare.AiSearchInstance.IAiSearchInstanceMetadataCreatedFromEmdashPlugin? CreatedFromEmdashPlugin
@@ -50,7 +50,7 @@ namespace cloudflare.AiSearchInstance
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/ai_search_instance#worker_domain AiSearchInstance#worker_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/ai_search_instance#worker_domain AiSearchInstance#worker_domain}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "workerDomain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? WorkerDomain

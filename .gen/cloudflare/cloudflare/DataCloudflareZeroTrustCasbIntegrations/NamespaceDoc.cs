@@ -5,7 +5,7 @@ namespace cloudflare.DataCloudflareZeroTrustCasbIntegrations
     /// <remarks>
     /// <h1><c>data_cloudflare_zero_trust_casb_integrations</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/data-sources/zero_trust_casb_integrations"><c>data_cloudflare_zero_trust_casb_integrations</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/data-sources/zero_trust_casb_integrations"><c>data_cloudflare_zero_trust_casb_integrations</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

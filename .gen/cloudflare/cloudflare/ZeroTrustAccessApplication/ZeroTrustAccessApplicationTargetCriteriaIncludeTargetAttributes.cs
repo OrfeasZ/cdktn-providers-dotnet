@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustAccessApplication
     [JsiiByValue(fqn: "cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationTargetCriteriaIncludeTargetAttributes")]
     public class ZeroTrustAccessApplicationTargetCriteriaIncludeTargetAttributes : cloudflare.ZeroTrustAccessApplication.IZeroTrustAccessApplicationTargetCriteriaIncludeTargetAttributes
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_access_application#hostname ZeroTrustAccessApplication#hostname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_access_application#hostname ZeroTrustAccessApplication#hostname}.</summary>
         [JsiiProperty(name: "hostname", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Hostname
         {

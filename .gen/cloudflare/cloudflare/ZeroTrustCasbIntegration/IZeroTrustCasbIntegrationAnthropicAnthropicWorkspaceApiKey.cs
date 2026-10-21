@@ -9,7 +9,7 @@ namespace cloudflare.ZeroTrustCasbIntegration
     {
         /// <summary>Anthropic Workspace API key. This value is write-only and is never persisted to Terraform state.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_casb_integration#api_key ZeroTrustCasbIntegration#api_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_casb_integration#api_key ZeroTrustCasbIntegration#api_key}
         /// </remarks>
         [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}")]
         string ApiKey
@@ -19,7 +19,7 @@ namespace cloudflare.ZeroTrustCasbIntegration
 
         /// <summary>Workspace ID, found in the Anthropic Console URL after /workspaces/.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_casb_integration#tenant_id ZeroTrustCasbIntegration#tenant_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_casb_integration#tenant_id ZeroTrustCasbIntegration#tenant_id}
         /// </remarks>
         [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}")]
         string TenantId
@@ -36,7 +36,7 @@ namespace cloudflare.ZeroTrustCasbIntegration
 
             /// <summary>Anthropic Workspace API key. This value is write-only and is never persisted to Terraform state.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_casb_integration#api_key ZeroTrustCasbIntegration#api_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_casb_integration#api_key ZeroTrustCasbIntegration#api_key}
             /// </remarks>
             [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}")]
             public string ApiKey
@@ -46,7 +46,7 @@ namespace cloudflare.ZeroTrustCasbIntegration
 
             /// <summary>Workspace ID, found in the Anthropic Console URL after /workspaces/.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_casb_integration#tenant_id ZeroTrustCasbIntegration#tenant_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_casb_integration#tenant_id ZeroTrustCasbIntegration#tenant_id}
             /// </remarks>
             [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}")]
             public string TenantId

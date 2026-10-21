@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustCasbIntegration
     {
         /// <summary>Anthropic Compliance API key. This value is write-only and is never persisted to Terraform state.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_casb_integration#compliance_api_key ZeroTrustCasbIntegration#compliance_api_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_casb_integration#compliance_api_key ZeroTrustCasbIntegration#compliance_api_key}
         /// </remarks>
         [JsiiProperty(name: "complianceApiKey", typeJson: "{\"primitive\":\"string\"}")]
         public string ComplianceApiKey
@@ -22,7 +22,7 @@ namespace cloudflare.ZeroTrustCasbIntegration
 
         /// <summary>Organization ID. Auto-extracted from the key if not provided.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_casb_integration#tenant_id ZeroTrustCasbIntegration#tenant_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_casb_integration#tenant_id ZeroTrustCasbIntegration#tenant_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

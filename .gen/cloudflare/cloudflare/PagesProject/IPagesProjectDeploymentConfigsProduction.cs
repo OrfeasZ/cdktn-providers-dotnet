@@ -9,7 +9,7 @@ namespace cloudflare.PagesProject
     {
         /// <summary>Constellation bindings used for Pages Functions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#ai_bindings PagesProject#ai_bindings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#ai_bindings PagesProject#ai_bindings}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionAiBindings" />&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "aiBindings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionAiBindings\"},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -24,7 +24,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>Whether to always use the latest compatibility date for Pages Functions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#always_use_latest_compatibility_date PagesProject#always_use_latest_compatibility_date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#always_use_latest_compatibility_date PagesProject#always_use_latest_compatibility_date}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "alwaysUseLatestCompatibilityDate", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>Analytics Engine bindings used for Pages Functions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#analytics_engine_datasets PagesProject#analytics_engine_datasets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#analytics_engine_datasets PagesProject#analytics_engine_datasets}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionAnalyticsEngineDatasets" />&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "analyticsEngineDatasets", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionAnalyticsEngineDatasets\"},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>Browser bindings used for Pages Functions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#browsers PagesProject#browsers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#browsers PagesProject#browsers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionBrowsers" />&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "browsers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionBrowsers\"},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -71,7 +71,7 @@ namespace cloudflare.PagesProject
         /// <remarks>
         /// Version 1 is retired and its projects are moved to version 3. Once a project's builds have been moved, a request that sets version 1 is rejected.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#build_image_major_version PagesProject#build_image_major_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#build_image_major_version PagesProject#build_image_major_version}
         /// </remarks>
         [JsiiProperty(name: "buildImageMajorVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -85,7 +85,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>Compatibility date used for Pages Functions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#compatibility_date PagesProject#compatibility_date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#compatibility_date PagesProject#compatibility_date}
         /// </remarks>
         [JsiiProperty(name: "compatibilityDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -99,7 +99,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>Compatibility flags used for Pages Functions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#compatibility_flags PagesProject#compatibility_flags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#compatibility_flags PagesProject#compatibility_flags}
         /// </remarks>
         [JsiiProperty(name: "compatibilityFlags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -113,7 +113,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>D1 databases used for Pages Functions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#d1_databases PagesProject#d1_databases}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#d1_databases PagesProject#d1_databases}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionD1Databases" />&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "d1Databases", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionD1Databases\"},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -128,7 +128,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>Durable Object namespaces used for Pages Functions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#durable_object_namespaces PagesProject#durable_object_namespaces}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#durable_object_namespaces PagesProject#durable_object_namespaces}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionDurableObjectNamespaces" />&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "durableObjectNamespaces", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionDurableObjectNamespaces\"},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -143,7 +143,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>Environment variables used for builds and Pages Functions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#env_vars PagesProject#env_vars}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#env_vars PagesProject#env_vars}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionEnvVars" />&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "envVars", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionEnvVars\"},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -158,7 +158,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>Whether to fail open when the deployment config cannot be applied.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#fail_open PagesProject#fail_open}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#fail_open PagesProject#fail_open}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "failOpen", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -173,7 +173,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>Hyperdrive bindings used for Pages Functions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#hyperdrive_bindings PagesProject#hyperdrive_bindings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#hyperdrive_bindings PagesProject#hyperdrive_bindings}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionHyperdriveBindings" />&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "hyperdriveBindings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionHyperdriveBindings\"},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -188,7 +188,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>KV namespaces used for Pages Functions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#kv_namespaces PagesProject#kv_namespaces}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#kv_namespaces PagesProject#kv_namespaces}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionKvNamespaces" />&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "kvNamespaces", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionKvNamespaces\"},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -203,7 +203,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>Limits for Pages Functions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#limits PagesProject#limits}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#limits PagesProject#limits}
         /// </remarks>
         [JsiiProperty(name: "limits", typeJson: "{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionLimits\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -217,7 +217,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>mTLS bindings used for Pages Functions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#mtls_certificates PagesProject#mtls_certificates}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#mtls_certificates PagesProject#mtls_certificates}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionMtlsCertificates" />&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "mtlsCertificates", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionMtlsCertificates\"},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -232,7 +232,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>Placement setting used for Pages Functions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#placement PagesProject#placement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#placement PagesProject#placement}
         /// </remarks>
         [JsiiProperty(name: "placement", typeJson: "{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionPlacement\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -246,7 +246,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>Queue Producer bindings used for Pages Functions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#queue_producers PagesProject#queue_producers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#queue_producers PagesProject#queue_producers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionQueueProducers" />&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "queueProducers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionQueueProducers\"},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -261,7 +261,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>R2 buckets used for Pages Functions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#r2_buckets PagesProject#r2_buckets}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#r2_buckets PagesProject#r2_buckets}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionR2Buckets" />&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "r2Buckets", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionR2Buckets\"},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -276,7 +276,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>Services used for Pages Functions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#services PagesProject#services}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#services PagesProject#services}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionServices" />&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "services", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionServices\"},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -291,7 +291,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>The usage model for Pages Functions. Available values: "standard", "bundled", "unbound".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#usage_model PagesProject#usage_model}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#usage_model PagesProject#usage_model}
         /// </remarks>
         [JsiiProperty(name: "usageModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -305,7 +305,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>Vectorize bindings used for Pages Functions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#vectorize_bindings PagesProject#vectorize_bindings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#vectorize_bindings PagesProject#vectorize_bindings}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionVectorizeBindings" />&gt;</para>
         /// </remarks>
         [JsiiProperty(name: "vectorizeBindings", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionVectorizeBindings\"},\"kind\":\"map\"}}]}}", isOptional: true)]
@@ -320,7 +320,7 @@ namespace cloudflare.PagesProject
 
         /// <summary>Hash of the Wrangler configuration used for the deployment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#wrangler_config_hash PagesProject#wrangler_config_hash}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#wrangler_config_hash PagesProject#wrangler_config_hash}
         /// </remarks>
         [JsiiProperty(name: "wranglerConfigHash", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -341,7 +341,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>Constellation bindings used for Pages Functions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#ai_bindings PagesProject#ai_bindings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#ai_bindings PagesProject#ai_bindings}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionAiBindings" />&gt;</para>
             /// </remarks>
             [JsiiOptional]
@@ -353,7 +353,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>Whether to always use the latest compatibility date for Pages Functions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#always_use_latest_compatibility_date PagesProject#always_use_latest_compatibility_date}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#always_use_latest_compatibility_date PagesProject#always_use_latest_compatibility_date}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -365,7 +365,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>Analytics Engine bindings used for Pages Functions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#analytics_engine_datasets PagesProject#analytics_engine_datasets}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#analytics_engine_datasets PagesProject#analytics_engine_datasets}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionAnalyticsEngineDatasets" />&gt;</para>
             /// </remarks>
             [JsiiOptional]
@@ -377,7 +377,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>Browser bindings used for Pages Functions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#browsers PagesProject#browsers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#browsers PagesProject#browsers}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionBrowsers" />&gt;</para>
             /// </remarks>
             [JsiiOptional]
@@ -391,7 +391,7 @@ namespace cloudflare.PagesProject
             /// <remarks>
             /// Version 1 is retired and its projects are moved to version 3. Once a project's builds have been moved, a request that sets version 1 is rejected.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#build_image_major_version PagesProject#build_image_major_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#build_image_major_version PagesProject#build_image_major_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "buildImageMajorVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -402,7 +402,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>Compatibility date used for Pages Functions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#compatibility_date PagesProject#compatibility_date}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#compatibility_date PagesProject#compatibility_date}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "compatibilityDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -413,7 +413,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>Compatibility flags used for Pages Functions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#compatibility_flags PagesProject#compatibility_flags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#compatibility_flags PagesProject#compatibility_flags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "compatibilityFlags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -424,7 +424,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>D1 databases used for Pages Functions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#d1_databases PagesProject#d1_databases}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#d1_databases PagesProject#d1_databases}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionD1Databases" />&gt;</para>
             /// </remarks>
             [JsiiOptional]
@@ -436,7 +436,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>Durable Object namespaces used for Pages Functions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#durable_object_namespaces PagesProject#durable_object_namespaces}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#durable_object_namespaces PagesProject#durable_object_namespaces}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionDurableObjectNamespaces" />&gt;</para>
             /// </remarks>
             [JsiiOptional]
@@ -448,7 +448,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>Environment variables used for builds and Pages Functions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#env_vars PagesProject#env_vars}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#env_vars PagesProject#env_vars}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionEnvVars" />&gt;</para>
             /// </remarks>
             [JsiiOptional]
@@ -460,7 +460,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>Whether to fail open when the deployment config cannot be applied.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#fail_open PagesProject#fail_open}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#fail_open PagesProject#fail_open}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -472,7 +472,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>Hyperdrive bindings used for Pages Functions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#hyperdrive_bindings PagesProject#hyperdrive_bindings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#hyperdrive_bindings PagesProject#hyperdrive_bindings}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionHyperdriveBindings" />&gt;</para>
             /// </remarks>
             [JsiiOptional]
@@ -484,7 +484,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>KV namespaces used for Pages Functions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#kv_namespaces PagesProject#kv_namespaces}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#kv_namespaces PagesProject#kv_namespaces}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionKvNamespaces" />&gt;</para>
             /// </remarks>
             [JsiiOptional]
@@ -496,7 +496,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>Limits for Pages Functions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#limits PagesProject#limits}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#limits PagesProject#limits}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "limits", typeJson: "{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionLimits\"}", isOptional: true)]
@@ -507,7 +507,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>mTLS bindings used for Pages Functions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#mtls_certificates PagesProject#mtls_certificates}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#mtls_certificates PagesProject#mtls_certificates}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionMtlsCertificates" />&gt;</para>
             /// </remarks>
             [JsiiOptional]
@@ -519,7 +519,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>Placement setting used for Pages Functions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#placement PagesProject#placement}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#placement PagesProject#placement}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "placement", typeJson: "{\"fqn\":\"cloudflare.pagesProject.PagesProjectDeploymentConfigsProductionPlacement\"}", isOptional: true)]
@@ -530,7 +530,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>Queue Producer bindings used for Pages Functions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#queue_producers PagesProject#queue_producers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#queue_producers PagesProject#queue_producers}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionQueueProducers" />&gt;</para>
             /// </remarks>
             [JsiiOptional]
@@ -542,7 +542,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>R2 buckets used for Pages Functions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#r2_buckets PagesProject#r2_buckets}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#r2_buckets PagesProject#r2_buckets}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionR2Buckets" />&gt;</para>
             /// </remarks>
             [JsiiOptional]
@@ -554,7 +554,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>Services used for Pages Functions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#services PagesProject#services}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#services PagesProject#services}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionServices" />&gt;</para>
             /// </remarks>
             [JsiiOptional]
@@ -566,7 +566,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>The usage model for Pages Functions. Available values: "standard", "bundled", "unbound".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#usage_model PagesProject#usage_model}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#usage_model PagesProject#usage_model}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "usageModel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -577,7 +577,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>Vectorize bindings used for Pages Functions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#vectorize_bindings PagesProject#vectorize_bindings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#vectorize_bindings PagesProject#vectorize_bindings}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, <see cref="cloudflare.PagesProject.IPagesProjectDeploymentConfigsProductionVectorizeBindings" />&gt;</para>
             /// </remarks>
             [JsiiOptional]
@@ -589,7 +589,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>Hash of the Wrangler configuration used for the deployment.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/pages_project#wrangler_config_hash PagesProject#wrangler_config_hash}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#wrangler_config_hash PagesProject#wrangler_config_hash}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "wranglerConfigHash", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustCasbIntegration
     {
         /// <summary>Box Enterprise ID from Admin Console &gt; Accounts &amp; Billing.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_casb_integration#enterprise_id ZeroTrustCasbIntegration#enterprise_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_casb_integration#enterprise_id ZeroTrustCasbIntegration#enterprise_id}
         /// </remarks>
         [JsiiProperty(name: "enterpriseId", typeJson: "{\"primitive\":\"string\"}")]
         public string EnterpriseId

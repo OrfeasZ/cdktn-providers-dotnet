@@ -9,7 +9,7 @@ namespace cloudflare.WorkersKvNamespace
     {
         /// <summary>ID of the Cloudflare account that owns the Workers KV namespaces.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/workers_kv_namespace#account_id WorkersKvNamespace#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/workers_kv_namespace#account_id WorkersKvNamespace#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,7 +19,7 @@ namespace cloudflare.WorkersKvNamespace
 
         /// <summary>Human-readable string name for a Workers KV namespace.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/workers_kv_namespace#title WorkersKvNamespace#title}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/workers_kv_namespace#title WorkersKvNamespace#title}
         /// </remarks>
         [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}")]
         string Title
@@ -32,7 +32,7 @@ namespace cloudflare.WorkersKvNamespace
         /// Can only be set at namespace creation time.
         /// Available values: "eu", "fedramp", "us".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/workers_kv_namespace#jurisdiction WorkersKvNamespace#jurisdiction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/workers_kv_namespace#jurisdiction WorkersKvNamespace#jurisdiction}
         /// </remarks>
         [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -49,7 +49,7 @@ namespace cloudflare.WorkersKvNamespace
         /// Specify <c>instant</c> when creating a namespace to create a KV Instant namespace. Omit this field when creating a namespace to create a classic namespace. Currently, <c>instant</c> is the only supported explicit value.
         /// Available values: "instant".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/workers_kv_namespace#mode WorkersKvNamespace#mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/workers_kv_namespace#mode WorkersKvNamespace#mode}
         /// </remarks>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -70,7 +70,7 @@ namespace cloudflare.WorkersKvNamespace
 
             /// <summary>ID of the Cloudflare account that owns the Workers KV namespaces.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/workers_kv_namespace#account_id WorkersKvNamespace#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/workers_kv_namespace#account_id WorkersKvNamespace#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -80,7 +80,7 @@ namespace cloudflare.WorkersKvNamespace
 
             /// <summary>Human-readable string name for a Workers KV namespace.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/workers_kv_namespace#title WorkersKvNamespace#title}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/workers_kv_namespace#title WorkersKvNamespace#title}
             /// </remarks>
             [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}")]
             public string Title
@@ -93,7 +93,7 @@ namespace cloudflare.WorkersKvNamespace
             /// Can only be set at namespace creation time.
             /// Available values: "eu", "fedramp", "us".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/workers_kv_namespace#jurisdiction WorkersKvNamespace#jurisdiction}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/workers_kv_namespace#jurisdiction WorkersKvNamespace#jurisdiction}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace cloudflare.WorkersKvNamespace
             /// Specify <c>instant</c> when creating a namespace to create a KV Instant namespace. Omit this field when creating a namespace to create a classic namespace. Currently, <c>instant</c> is the only supported explicit value.
             /// Available values: "instant".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/workers_kv_namespace#mode WorkersKvNamespace#mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/workers_kv_namespace#mode WorkersKvNamespace#mode}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

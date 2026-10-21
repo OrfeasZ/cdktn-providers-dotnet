@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>Map of target tag keys to values. Values within a key are OR'd.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_access_application#tags ZeroTrustAccessApplication#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_access_application#tags ZeroTrustAccessApplication#tags}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or Dictionary&lt;string, (string)[]&gt;</para>
         /// </remarks>
         [JsiiOptional]
@@ -44,7 +44,7 @@ namespace cloudflare.ZeroTrustAccessApplication
 
         /// <summary>Hostname selector map. Only the hostname key is supported.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_access_application#target_attributes ZeroTrustAccessApplication#target_attributes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_access_application#target_attributes ZeroTrustAccessApplication#target_attributes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetAttributes", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationTargetCriteriaIncludeTargetAttributes\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace cloudflare.ZeroTrustAccessApplication
     [JsiiInterface(nativeType: typeof(IZeroTrustAccessApplicationTargetCriteriaExcludeTargetAttributes), fullyQualifiedName: "cloudflare.zeroTrustAccessApplication.ZeroTrustAccessApplicationTargetCriteriaExcludeTargetAttributes")]
     public interface IZeroTrustAccessApplicationTargetCriteriaExcludeTargetAttributes
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_access_application#hostname ZeroTrustAccessApplication#hostname}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_access_application#hostname ZeroTrustAccessApplication#hostname}.</summary>
         [JsiiProperty(name: "hostname", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Hostname
         {
@@ -21,7 +21,7 @@ namespace cloudflare.ZeroTrustAccessApplication
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/resources/zero_trust_access_application#hostname ZeroTrustAccessApplication#hostname}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_access_application#hostname ZeroTrustAccessApplication#hostname}.</summary>
             [JsiiProperty(name: "hostname", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Hostname
             {

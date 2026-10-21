@@ -9,7 +9,7 @@ namespace cloudflare.DataCloudflareZeroTrustList
     {
         /// <summary>Specify the Cloudflare account identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/data-sources/zero_trust_list#account_id DataCloudflareZeroTrustList#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/data-sources/zero_trust_list#account_id DataCloudflareZeroTrustList#account_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace cloudflare.DataCloudflareZeroTrustList
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/data-sources/zero_trust_list#filter DataCloudflareZeroTrustList#filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/data-sources/zero_trust_list#filter DataCloudflareZeroTrustList#filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filter", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustList.DataCloudflareZeroTrustListFilter\"}", isOptional: true)]
         public cloudflare.DataCloudflareZeroTrustList.IDataCloudflareZeroTrustListFilter? Filter
@@ -30,7 +30,7 @@ namespace cloudflare.DataCloudflareZeroTrustList
 
         /// <summary>Identify the API resource with a UUID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.0/docs/data-sources/zero_trust_list#list_id DataCloudflareZeroTrustList#list_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/data-sources/zero_trust_list#list_id DataCloudflareZeroTrustList#list_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "listId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
