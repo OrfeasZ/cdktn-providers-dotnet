@@ -11,7 +11,7 @@ namespace scaleway.KeyManagerKey
         /// <remarks>
         /// The valid algorithms depend on the usage type. See the <a href="https://www.scaleway.com/en/docs/key-manager/reference-content/cryptographic-details-key-manager/#encryption-algorithm">Key Manager cryptographic details</a> for the algorithms available for each usage.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#algorithm KeyManagerKey#algorithm}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#algorithm KeyManagerKey#algorithm}
         /// </remarks>
         [JsiiProperty(name: "algorithm", typeJson: "{\"primitive\":\"string\"}")]
         string Algorithm
@@ -21,7 +21,7 @@ namespace scaleway.KeyManagerKey
 
         /// <summary>Key usage type. Possible values: symmetric_encryption, asymmetric_encryption, asymmetric_signing, key_encapsulation.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#usage KeyManagerKey#usage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#usage KeyManagerKey#usage}
         /// </remarks>
         [JsiiProperty(name: "usage", typeJson: "{\"primitive\":\"string\"}")]
         string Usage
@@ -31,7 +31,7 @@ namespace scaleway.KeyManagerKey
 
         /// <summary>Description of the key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#description KeyManagerKey#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#description KeyManagerKey#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace scaleway.KeyManagerKey
 
         /// <summary>Name of the key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#name KeyManagerKey#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#name KeyManagerKey#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace scaleway.KeyManagerKey
         /// <remarks>
         /// Possible values: scaleway_kms (Key Manager generates the key material), external (key material comes from an external source).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#origin KeyManagerKey#origin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#origin KeyManagerKey#origin}
         /// </remarks>
         [JsiiProperty(name: "origin", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,7 +75,7 @@ namespace scaleway.KeyManagerKey
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#project_id KeyManagerKey#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#project_id KeyManagerKey#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -91,7 +91,7 @@ namespace scaleway.KeyManagerKey
         /// <remarks>
         /// Possible values: software (cryptographic operations are performed in software), hsm (cryptographic operations are performed within a dedicated Hardware Security Module). Defaults to software.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#protection_level KeyManagerKey#protection_level}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#protection_level KeyManagerKey#protection_level}
         /// </remarks>
         [JsiiProperty(name: "protectionLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -105,7 +105,7 @@ namespace scaleway.KeyManagerKey
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#region KeyManagerKey#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#region KeyManagerKey#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -119,7 +119,7 @@ namespace scaleway.KeyManagerKey
 
         /// <summary>rotation_policy block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#rotation_policy KeyManagerKey#rotation_policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#rotation_policy KeyManagerKey#rotation_policy}
         /// </remarks>
         [JsiiProperty(name: "rotationPolicy", typeJson: "{\"fqn\":\"scaleway.keyManagerKey.KeyManagerKeyRotationPolicy\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -133,7 +133,7 @@ namespace scaleway.KeyManagerKey
 
         /// <summary>List of the key's tags.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#tags KeyManagerKey#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#tags KeyManagerKey#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -147,7 +147,7 @@ namespace scaleway.KeyManagerKey
 
         /// <summary>If true, the key is not protected against deletion.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#unprotected KeyManagerKey#unprotected}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#unprotected KeyManagerKey#unprotected}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "unprotected", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -171,7 +171,7 @@ namespace scaleway.KeyManagerKey
             /// <remarks>
             /// The valid algorithms depend on the usage type. See the <a href="https://www.scaleway.com/en/docs/key-manager/reference-content/cryptographic-details-key-manager/#encryption-algorithm">Key Manager cryptographic details</a> for the algorithms available for each usage.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#algorithm KeyManagerKey#algorithm}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#algorithm KeyManagerKey#algorithm}
             /// </remarks>
             [JsiiProperty(name: "algorithm", typeJson: "{\"primitive\":\"string\"}")]
             public string Algorithm
@@ -181,7 +181,7 @@ namespace scaleway.KeyManagerKey
 
             /// <summary>Key usage type. Possible values: symmetric_encryption, asymmetric_encryption, asymmetric_signing, key_encapsulation.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#usage KeyManagerKey#usage}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#usage KeyManagerKey#usage}
             /// </remarks>
             [JsiiProperty(name: "usage", typeJson: "{\"primitive\":\"string\"}")]
             public string Usage
@@ -191,7 +191,7 @@ namespace scaleway.KeyManagerKey
 
             /// <summary>Description of the key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#description KeyManagerKey#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#description KeyManagerKey#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -202,7 +202,7 @@ namespace scaleway.KeyManagerKey
 
             /// <summary>Name of the key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#name KeyManagerKey#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#name KeyManagerKey#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -215,7 +215,7 @@ namespace scaleway.KeyManagerKey
             /// <remarks>
             /// Possible values: scaleway_kms (Key Manager generates the key material), external (key material comes from an external source).
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#origin KeyManagerKey#origin}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#origin KeyManagerKey#origin}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "origin", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -226,7 +226,7 @@ namespace scaleway.KeyManagerKey
 
             /// <summary>The project_id you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#project_id KeyManagerKey#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#project_id KeyManagerKey#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -239,7 +239,7 @@ namespace scaleway.KeyManagerKey
             /// <remarks>
             /// Possible values: software (cryptographic operations are performed in software), hsm (cryptographic operations are performed within a dedicated Hardware Security Module). Defaults to software.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#protection_level KeyManagerKey#protection_level}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#protection_level KeyManagerKey#protection_level}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "protectionLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -250,7 +250,7 @@ namespace scaleway.KeyManagerKey
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#region KeyManagerKey#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#region KeyManagerKey#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -261,7 +261,7 @@ namespace scaleway.KeyManagerKey
 
             /// <summary>rotation_policy block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#rotation_policy KeyManagerKey#rotation_policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#rotation_policy KeyManagerKey#rotation_policy}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "rotationPolicy", typeJson: "{\"fqn\":\"scaleway.keyManagerKey.KeyManagerKeyRotationPolicy\"}", isOptional: true)]
@@ -272,7 +272,7 @@ namespace scaleway.KeyManagerKey
 
             /// <summary>List of the key's tags.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#tags KeyManagerKey#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#tags KeyManagerKey#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -283,7 +283,7 @@ namespace scaleway.KeyManagerKey
 
             /// <summary>If true, the key is not protected against deletion.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/key_manager_key#unprotected KeyManagerKey#unprotected}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/key_manager_key#unprotected KeyManagerKey#unprotected}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

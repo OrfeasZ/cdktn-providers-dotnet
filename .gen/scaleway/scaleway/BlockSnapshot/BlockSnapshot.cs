@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace scaleway.BlockSnapshot
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/block_snapshot scaleway_block_snapshot}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/block_snapshot scaleway_block_snapshot}.</summary>
     [JsiiClass(nativeType: typeof(scaleway.BlockSnapshot.BlockSnapshot), fullyQualifiedName: "scaleway.blockSnapshot.BlockSnapshot", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"scaleway.blockSnapshot.BlockSnapshotConfig\"}}]")]
     public class BlockSnapshot : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/block_snapshot scaleway_block_snapshot} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/block_snapshot scaleway_block_snapshot} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public BlockSnapshot(Constructs.Construct scope, string id, scaleway.BlockSnapshot.IBlockSnapshotConfig? config = null): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace scaleway.BlockSnapshot
         /// <param name="importToId">The construct id used in the generated config for the BlockSnapshot to import.</param>
         /// <param name="importFromId">The id of the existing BlockSnapshot that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the BlockSnapshot to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the BlockSnapshot to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.87.0/docs/resources/block_snapshot#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing BlockSnapshot that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the BlockSnapshot to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the BlockSnapshot to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/block_snapshot#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing BlockSnapshot that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the BlockSnapshot to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.BlockSnapshot.BlockSnapshot), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -94,6 +94,12 @@ namespace scaleway.BlockSnapshot
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"scaleway.blockSnapshot.BlockSnapshotTimeouts\"}}]")]
+        public virtual void PutTimeouts(scaleway.BlockSnapshot.IBlockSnapshotTimeouts @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(scaleway.BlockSnapshot.IBlockSnapshotTimeouts)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetExport")]
         public virtual void ResetExport()
         {
@@ -120,6 +126,12 @@ namespace scaleway.BlockSnapshot
 
         [JsiiMethod(name: "resetTags")]
         public virtual void ResetTags()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTimeouts")]
+        public virtual void ResetTimeouts()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -179,6 +191,12 @@ namespace scaleway.BlockSnapshot
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.blockSnapshot.BlockSnapshotTimeoutsOutputReference\"}")]
+        public virtual scaleway.BlockSnapshot.BlockSnapshotTimeoutsOutputReference Timeouts
+        {
+            get => GetInstanceProperty<scaleway.BlockSnapshot.BlockSnapshotTimeoutsOutputReference>()!;
+        }
+
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.BlockSnapshot.IBlockSnapshotExport" />)[]</para>
         /// </remarks>
@@ -218,6 +236,16 @@ namespace scaleway.BlockSnapshot
         public virtual string[]? TagsInput
         {
             get => GetInstanceProperty<string[]?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.BlockSnapshot.IBlockSnapshotTimeouts" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.blockSnapshot.BlockSnapshotTimeouts\"}]}}", isOptional: true)]
+        public virtual object? TimeoutsInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
