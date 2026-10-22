@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.DxMacsecKeyAssociation
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dx_macsec_key_association aws_dx_macsec_key_association}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dx_macsec_key_association aws_dx_macsec_key_association}.</summary>
     [JsiiClass(nativeType: typeof(aws.DxMacsecKeyAssociation.DxMacsecKeyAssociation), fullyQualifiedName: "aws.dxMacsecKeyAssociation.DxMacsecKeyAssociation", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.dxMacsecKeyAssociation.DxMacsecKeyAssociationConfig\"}}]")]
     public class DxMacsecKeyAssociation : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dx_macsec_key_association aws_dx_macsec_key_association} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dx_macsec_key_association aws_dx_macsec_key_association} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DxMacsecKeyAssociation(Constructs.Construct scope, string id, aws.DxMacsecKeyAssociation.IDxMacsecKeyAssociationConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.DxMacsecKeyAssociation
         /// <param name="importToId">The construct id used in the generated config for the DxMacsecKeyAssociation to import.</param>
         /// <param name="importFromId">The id of the existing DxMacsecKeyAssociation that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DxMacsecKeyAssociation to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DxMacsecKeyAssociation to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/dx_macsec_key_association#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DxMacsecKeyAssociation that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DxMacsecKeyAssociation to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DxMacsecKeyAssociation to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/dx_macsec_key_association#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DxMacsecKeyAssociation that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DxMacsecKeyAssociation to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.DxMacsecKeyAssociation.DxMacsecKeyAssociation), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -52,8 +52,32 @@ namespace aws.DxMacsecKeyAssociation
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetCakWo")]
+        public virtual void ResetCakWo()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCakWoVersion")]
+        public virtual void ResetCakWoVersion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetCkn")]
         public virtual void ResetCkn()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCknWo")]
+        public virtual void ResetCknWo()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCknWoVersion")]
+        public virtual void ResetCknWoVersion()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -115,10 +139,38 @@ namespace aws.DxMacsecKeyAssociation
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "cakWoInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CakWoInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "cakWoVersionInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? CakWoVersionInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "cknInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CknInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "cknWoInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CknWoInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "cknWoVersionInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? CknWoVersionInput
+        {
+            get => GetInstanceProperty<double?>();
         }
 
         [JsiiOptional]
@@ -156,10 +208,38 @@ namespace aws.DxMacsecKeyAssociation
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "cakWo", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CakWo
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "cakWoVersion", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double CakWoVersion
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "ckn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Ckn
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "cknWo", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CknWo
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "cknWoVersion", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double CknWoVersion
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 

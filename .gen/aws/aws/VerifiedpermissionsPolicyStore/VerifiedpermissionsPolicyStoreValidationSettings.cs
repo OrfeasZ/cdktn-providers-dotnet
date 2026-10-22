@@ -9,7 +9,7 @@ namespace aws.VerifiedpermissionsPolicyStore
     [JsiiByValue(fqn: "aws.verifiedpermissionsPolicyStore.VerifiedpermissionsPolicyStoreValidationSettings")]
     public class VerifiedpermissionsPolicyStoreValidationSettings : aws.VerifiedpermissionsPolicyStore.IVerifiedpermissionsPolicyStoreValidationSettings
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/verifiedpermissions_policy_store#mode VerifiedpermissionsPolicyStore#mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/verifiedpermissions_policy_store#mode VerifiedpermissionsPolicyStore#mode}.</summary>
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}")]
         public string Mode
         {

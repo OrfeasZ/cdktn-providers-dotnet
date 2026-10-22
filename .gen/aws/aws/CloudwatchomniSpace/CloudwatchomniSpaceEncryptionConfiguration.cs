@@ -9,7 +9,7 @@ namespace aws.CloudwatchomniSpace
     [JsiiByValue(fqn: "aws.cloudwatchomniSpace.CloudwatchomniSpaceEncryptionConfiguration")]
     public class CloudwatchomniSpaceEncryptionConfiguration : aws.CloudwatchomniSpace.ICloudwatchomniSpaceEncryptionConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatchomni_space#encryption_strategy CloudwatchomniSpace#encryption_strategy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatchomni_space#encryption_strategy CloudwatchomniSpace#encryption_strategy}.</summary>
         [JsiiProperty(name: "encryptionStrategy", typeJson: "{\"primitive\":\"string\"}")]
         public string EncryptionStrategy
         {
@@ -17,7 +17,7 @@ namespace aws.CloudwatchomniSpace
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.69.1/docs/resources/cloudwatchomni_space#kms_key_arn CloudwatchomniSpace#kms_key_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatchomni_space#kms_key_arn CloudwatchomniSpace#kms_key_arn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KmsKeyArn
