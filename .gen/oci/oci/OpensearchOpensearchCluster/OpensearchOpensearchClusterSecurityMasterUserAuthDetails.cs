@@ -11,7 +11,7 @@ namespace oci.OpensearchOpensearchCluster
     {
         /// <summary>user_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#user_details OpensearchOpensearchCluster#user_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#user_details OpensearchOpensearchCluster#user_details}
         /// </remarks>
         [JsiiProperty(name: "userDetails", typeJson: "{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterSecurityMasterUserAuthDetailsUserDetails\"}")]
         public oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterSecurityMasterUserAuthDetailsUserDetails UserDetails

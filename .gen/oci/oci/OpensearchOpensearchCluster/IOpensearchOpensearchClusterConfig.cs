@@ -7,133 +7,133 @@ namespace oci.OpensearchOpensearchCluster
     [JsiiInterface(nativeType: typeof(IOpensearchOpensearchClusterConfig), fullyQualifiedName: "oci.opensearchOpensearchCluster.OpensearchOpensearchClusterConfig")]
     public interface IOpensearchOpensearchClusterConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#compartment_id OpensearchOpensearchCluster#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#compartment_id OpensearchOpensearchCluster#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#data_node_count OpensearchOpensearchCluster#data_node_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#data_node_count OpensearchOpensearchCluster#data_node_count}.</summary>
         [JsiiProperty(name: "dataNodeCount", typeJson: "{\"primitive\":\"number\"}")]
         double DataNodeCount
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#data_node_host_memory_gb OpensearchOpensearchCluster#data_node_host_memory_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#data_node_host_memory_gb OpensearchOpensearchCluster#data_node_host_memory_gb}.</summary>
         [JsiiProperty(name: "dataNodeHostMemoryGb", typeJson: "{\"primitive\":\"number\"}")]
         double DataNodeHostMemoryGb
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#data_node_host_ocpu_count OpensearchOpensearchCluster#data_node_host_ocpu_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#data_node_host_ocpu_count OpensearchOpensearchCluster#data_node_host_ocpu_count}.</summary>
         [JsiiProperty(name: "dataNodeHostOcpuCount", typeJson: "{\"primitive\":\"number\"}")]
         double DataNodeHostOcpuCount
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#data_node_host_type OpensearchOpensearchCluster#data_node_host_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#data_node_host_type OpensearchOpensearchCluster#data_node_host_type}.</summary>
         [JsiiProperty(name: "dataNodeHostType", typeJson: "{\"primitive\":\"string\"}")]
         string DataNodeHostType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#data_node_storage_gb OpensearchOpensearchCluster#data_node_storage_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#data_node_storage_gb OpensearchOpensearchCluster#data_node_storage_gb}.</summary>
         [JsiiProperty(name: "dataNodeStorageGb", typeJson: "{\"primitive\":\"number\"}")]
         double DataNodeStorageGb
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#display_name OpensearchOpensearchCluster#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#display_name OpensearchOpensearchCluster#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         string DisplayName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#master_node_count OpensearchOpensearchCluster#master_node_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#master_node_count OpensearchOpensearchCluster#master_node_count}.</summary>
         [JsiiProperty(name: "masterNodeCount", typeJson: "{\"primitive\":\"number\"}")]
         double MasterNodeCount
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#master_node_host_memory_gb OpensearchOpensearchCluster#master_node_host_memory_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#master_node_host_memory_gb OpensearchOpensearchCluster#master_node_host_memory_gb}.</summary>
         [JsiiProperty(name: "masterNodeHostMemoryGb", typeJson: "{\"primitive\":\"number\"}")]
         double MasterNodeHostMemoryGb
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#master_node_host_ocpu_count OpensearchOpensearchCluster#master_node_host_ocpu_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#master_node_host_ocpu_count OpensearchOpensearchCluster#master_node_host_ocpu_count}.</summary>
         [JsiiProperty(name: "masterNodeHostOcpuCount", typeJson: "{\"primitive\":\"number\"}")]
         double MasterNodeHostOcpuCount
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#master_node_host_type OpensearchOpensearchCluster#master_node_host_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#master_node_host_type OpensearchOpensearchCluster#master_node_host_type}.</summary>
         [JsiiProperty(name: "masterNodeHostType", typeJson: "{\"primitive\":\"string\"}")]
         string MasterNodeHostType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_count OpensearchOpensearchCluster#opendashboard_node_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_count OpensearchOpensearchCluster#opendashboard_node_count}.</summary>
         [JsiiProperty(name: "opendashboardNodeCount", typeJson: "{\"primitive\":\"number\"}")]
         double OpendashboardNodeCount
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_host_memory_gb OpensearchOpensearchCluster#opendashboard_node_host_memory_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_host_memory_gb OpensearchOpensearchCluster#opendashboard_node_host_memory_gb}.</summary>
         [JsiiProperty(name: "opendashboardNodeHostMemoryGb", typeJson: "{\"primitive\":\"number\"}")]
         double OpendashboardNodeHostMemoryGb
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_host_ocpu_count OpensearchOpensearchCluster#opendashboard_node_host_ocpu_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_host_ocpu_count OpensearchOpensearchCluster#opendashboard_node_host_ocpu_count}.</summary>
         [JsiiProperty(name: "opendashboardNodeHostOcpuCount", typeJson: "{\"primitive\":\"number\"}")]
         double OpendashboardNodeHostOcpuCount
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#software_version OpensearchOpensearchCluster#software_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#software_version OpensearchOpensearchCluster#software_version}.</summary>
         [JsiiProperty(name: "softwareVersion", typeJson: "{\"primitive\":\"string\"}")]
         string SoftwareVersion
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#subnet_compartment_id OpensearchOpensearchCluster#subnet_compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#subnet_compartment_id OpensearchOpensearchCluster#subnet_compartment_id}.</summary>
         [JsiiProperty(name: "subnetCompartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string SubnetCompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#subnet_id OpensearchOpensearchCluster#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#subnet_id OpensearchOpensearchCluster#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         string SubnetId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#vcn_compartment_id OpensearchOpensearchCluster#vcn_compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#vcn_compartment_id OpensearchOpensearchCluster#vcn_compartment_id}.</summary>
         [JsiiProperty(name: "vcnCompartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string VcnCompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#vcn_id OpensearchOpensearchCluster#vcn_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#vcn_id OpensearchOpensearchCluster#vcn_id}.</summary>
         [JsiiProperty(name: "vcnId", typeJson: "{\"primitive\":\"string\"}")]
         string VcnId
         {
@@ -142,7 +142,7 @@ namespace oci.OpensearchOpensearchCluster
 
         /// <summary>certificate_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#certificate_config OpensearchOpensearchCluster#certificate_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#certificate_config OpensearchOpensearchCluster#certificate_config}
         /// </remarks>
         [JsiiProperty(name: "certificateConfig", typeJson: "{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterCertificateConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -154,7 +154,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#configure_outbound_cluster_trigger OpensearchOpensearchCluster#configure_outbound_cluster_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#configure_outbound_cluster_trigger OpensearchOpensearchCluster#configure_outbound_cluster_trigger}.</summary>
         [JsiiProperty(name: "configureOutboundClusterTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ConfigureOutboundClusterTrigger
@@ -165,7 +165,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#coordinator_node_count OpensearchOpensearchCluster#coordinator_node_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#coordinator_node_count OpensearchOpensearchCluster#coordinator_node_count}.</summary>
         [JsiiProperty(name: "coordinatorNodeCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? CoordinatorNodeCount
@@ -176,7 +176,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#coordinator_node_host_memory_gb OpensearchOpensearchCluster#coordinator_node_host_memory_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#coordinator_node_host_memory_gb OpensearchOpensearchCluster#coordinator_node_host_memory_gb}.</summary>
         [JsiiProperty(name: "coordinatorNodeHostMemoryGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? CoordinatorNodeHostMemoryGb
@@ -187,7 +187,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#coordinator_node_host_ocpu_count OpensearchOpensearchCluster#coordinator_node_host_ocpu_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#coordinator_node_host_ocpu_count OpensearchOpensearchCluster#coordinator_node_host_ocpu_count}.</summary>
         [JsiiProperty(name: "coordinatorNodeHostOcpuCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? CoordinatorNodeHostOcpuCount
@@ -198,7 +198,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#coordinator_node_host_shape OpensearchOpensearchCluster#coordinator_node_host_shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#coordinator_node_host_shape OpensearchOpensearchCluster#coordinator_node_host_shape}.</summary>
         [JsiiProperty(name: "coordinatorNodeHostShape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CoordinatorNodeHostShape
@@ -209,7 +209,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#coordinator_node_host_type OpensearchOpensearchCluster#coordinator_node_host_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#coordinator_node_host_type OpensearchOpensearchCluster#coordinator_node_host_type}.</summary>
         [JsiiProperty(name: "coordinatorNodeHostType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CoordinatorNodeHostType
@@ -220,7 +220,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#data_node_host_bare_metal_shape OpensearchOpensearchCluster#data_node_host_bare_metal_shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#data_node_host_bare_metal_shape OpensearchOpensearchCluster#data_node_host_bare_metal_shape}.</summary>
         [JsiiProperty(name: "dataNodeHostBareMetalShape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DataNodeHostBareMetalShape
@@ -231,7 +231,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#data_node_host_shape OpensearchOpensearchCluster#data_node_host_shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#data_node_host_shape OpensearchOpensearchCluster#data_node_host_shape}.</summary>
         [JsiiProperty(name: "dataNodeHostShape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DataNodeHostShape
@@ -242,7 +242,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#defined_tags OpensearchOpensearchCluster#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#defined_tags OpensearchOpensearchCluster#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -253,7 +253,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#freeform_tags OpensearchOpensearchCluster#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#freeform_tags OpensearchOpensearchCluster#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -264,7 +264,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#id OpensearchOpensearchCluster#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#id OpensearchOpensearchCluster#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -279,7 +279,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#inbound_cluster_ids OpensearchOpensearchCluster#inbound_cluster_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#inbound_cluster_ids OpensearchOpensearchCluster#inbound_cluster_ids}.</summary>
         [JsiiProperty(name: "inboundClusterIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? InboundClusterIds
@@ -292,7 +292,7 @@ namespace oci.OpensearchOpensearchCluster
 
         /// <summary>load_balancer_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#load_balancer_config OpensearchOpensearchCluster#load_balancer_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#load_balancer_config OpensearchOpensearchCluster#load_balancer_config}
         /// </remarks>
         [JsiiProperty(name: "loadBalancerConfig", typeJson: "{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterLoadBalancerConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -306,7 +306,7 @@ namespace oci.OpensearchOpensearchCluster
 
         /// <summary>maintenance_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#maintenance_details OpensearchOpensearchCluster#maintenance_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#maintenance_details OpensearchOpensearchCluster#maintenance_details}
         /// </remarks>
         [JsiiProperty(name: "maintenanceDetails", typeJson: "{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterMaintenanceDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -318,7 +318,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#master_node_host_bare_metal_shape OpensearchOpensearchCluster#master_node_host_bare_metal_shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#master_node_host_bare_metal_shape OpensearchOpensearchCluster#master_node_host_bare_metal_shape}.</summary>
         [JsiiProperty(name: "masterNodeHostBareMetalShape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MasterNodeHostBareMetalShape
@@ -329,7 +329,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#master_node_host_shape OpensearchOpensearchCluster#master_node_host_shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#master_node_host_shape OpensearchOpensearchCluster#master_node_host_shape}.</summary>
         [JsiiProperty(name: "masterNodeHostShape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MasterNodeHostShape
@@ -340,7 +340,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#ml_node_count OpensearchOpensearchCluster#ml_node_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#ml_node_count OpensearchOpensearchCluster#ml_node_count}.</summary>
         [JsiiProperty(name: "mlNodeCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MlNodeCount
@@ -351,7 +351,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#ml_node_host_memory_gb OpensearchOpensearchCluster#ml_node_host_memory_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#ml_node_host_memory_gb OpensearchOpensearchCluster#ml_node_host_memory_gb}.</summary>
         [JsiiProperty(name: "mlNodeHostMemoryGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MlNodeHostMemoryGb
@@ -362,7 +362,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#ml_node_host_ocpu_count OpensearchOpensearchCluster#ml_node_host_ocpu_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#ml_node_host_ocpu_count OpensearchOpensearchCluster#ml_node_host_ocpu_count}.</summary>
         [JsiiProperty(name: "mlNodeHostOcpuCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MlNodeHostOcpuCount
@@ -373,7 +373,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#ml_node_host_shape OpensearchOpensearchCluster#ml_node_host_shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#ml_node_host_shape OpensearchOpensearchCluster#ml_node_host_shape}.</summary>
         [JsiiProperty(name: "mlNodeHostShape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MlNodeHostShape
@@ -384,7 +384,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#ml_node_host_type OpensearchOpensearchCluster#ml_node_host_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#ml_node_host_type OpensearchOpensearchCluster#ml_node_host_type}.</summary>
         [JsiiProperty(name: "mlNodeHostType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MlNodeHostType
@@ -395,7 +395,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#ml_node_storage_gb OpensearchOpensearchCluster#ml_node_storage_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#ml_node_storage_gb OpensearchOpensearchCluster#ml_node_storage_gb}.</summary>
         [JsiiProperty(name: "mlNodeStorageGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MlNodeStorageGb
@@ -406,7 +406,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#nsg_id OpensearchOpensearchCluster#nsg_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#nsg_id OpensearchOpensearchCluster#nsg_id}.</summary>
         [JsiiProperty(name: "nsgId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NsgId
@@ -417,7 +417,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_host_shape OpensearchOpensearchCluster#opendashboard_node_host_shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_host_shape OpensearchOpensearchCluster#opendashboard_node_host_shape}.</summary>
         [JsiiProperty(name: "opendashboardNodeHostShape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OpendashboardNodeHostShape
@@ -430,7 +430,7 @@ namespace oci.OpensearchOpensearchCluster
 
         /// <summary>outbound_cluster_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#outbound_cluster_config OpensearchOpensearchCluster#outbound_cluster_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#outbound_cluster_config OpensearchOpensearchCluster#outbound_cluster_config}
         /// </remarks>
         [JsiiProperty(name: "outboundClusterConfig", typeJson: "{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterOutboundClusterConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -444,7 +444,7 @@ namespace oci.OpensearchOpensearchCluster
 
         /// <summary>remote_reindex_trust_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#remote_reindex_trust_config OpensearchOpensearchCluster#remote_reindex_trust_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#remote_reindex_trust_config OpensearchOpensearchCluster#remote_reindex_trust_config}
         /// </remarks>
         [JsiiProperty(name: "remoteReindexTrustConfig", typeJson: "{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterRemoteReindexTrustConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -456,7 +456,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#reverse_connection_endpoint_customer_ips OpensearchOpensearchCluster#reverse_connection_endpoint_customer_ips}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#reverse_connection_endpoint_customer_ips OpensearchOpensearchCluster#reverse_connection_endpoint_customer_ips}.</summary>
         [JsiiProperty(name: "reverseConnectionEndpointCustomerIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ReverseConnectionEndpointCustomerIps
@@ -467,7 +467,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#search_node_count OpensearchOpensearchCluster#search_node_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#search_node_count OpensearchOpensearchCluster#search_node_count}.</summary>
         [JsiiProperty(name: "searchNodeCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? SearchNodeCount
@@ -478,7 +478,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#search_node_host_memory_gb OpensearchOpensearchCluster#search_node_host_memory_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#search_node_host_memory_gb OpensearchOpensearchCluster#search_node_host_memory_gb}.</summary>
         [JsiiProperty(name: "searchNodeHostMemoryGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? SearchNodeHostMemoryGb
@@ -489,7 +489,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#search_node_host_ocpu_count OpensearchOpensearchCluster#search_node_host_ocpu_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#search_node_host_ocpu_count OpensearchOpensearchCluster#search_node_host_ocpu_count}.</summary>
         [JsiiProperty(name: "searchNodeHostOcpuCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? SearchNodeHostOcpuCount
@@ -500,7 +500,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#search_node_host_shape OpensearchOpensearchCluster#search_node_host_shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#search_node_host_shape OpensearchOpensearchCluster#search_node_host_shape}.</summary>
         [JsiiProperty(name: "searchNodeHostShape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SearchNodeHostShape
@@ -511,7 +511,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#search_node_host_type OpensearchOpensearchCluster#search_node_host_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#search_node_host_type OpensearchOpensearchCluster#search_node_host_type}.</summary>
         [JsiiProperty(name: "searchNodeHostType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SearchNodeHostType
@@ -522,7 +522,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#search_node_storage_gb OpensearchOpensearchCluster#search_node_storage_gb}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#search_node_storage_gb OpensearchOpensearchCluster#search_node_storage_gb}.</summary>
         [JsiiProperty(name: "searchNodeStorageGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? SearchNodeStorageGb
@@ -533,7 +533,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#security_attributes OpensearchOpensearchCluster#security_attributes}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#security_attributes OpensearchOpensearchCluster#security_attributes}.</summary>
         [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? SecurityAttributes
@@ -546,7 +546,7 @@ namespace oci.OpensearchOpensearchCluster
 
         /// <summary>security_master_user_auth_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#security_master_user_auth_details OpensearchOpensearchCluster#security_master_user_auth_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#security_master_user_auth_details OpensearchOpensearchCluster#security_master_user_auth_details}
         /// </remarks>
         [JsiiProperty(name: "securityMasterUserAuthDetails", typeJson: "{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterSecurityMasterUserAuthDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -558,7 +558,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#security_master_user_name OpensearchOpensearchCluster#security_master_user_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#security_master_user_name OpensearchOpensearchCluster#security_master_user_name}.</summary>
         [JsiiProperty(name: "securityMasterUserName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SecurityMasterUserName
@@ -569,7 +569,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#security_master_user_password_hash OpensearchOpensearchCluster#security_master_user_password_hash}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#security_master_user_password_hash OpensearchOpensearchCluster#security_master_user_password_hash}.</summary>
         [JsiiProperty(name: "securityMasterUserPasswordHash", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SecurityMasterUserPasswordHash
@@ -580,7 +580,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#security_mode OpensearchOpensearchCluster#security_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#security_mode OpensearchOpensearchCluster#security_mode}.</summary>
         [JsiiProperty(name: "securityMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SecurityMode
@@ -593,7 +593,7 @@ namespace oci.OpensearchOpensearchCluster
 
         /// <summary>security_saml_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#security_saml_config OpensearchOpensearchCluster#security_saml_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#security_saml_config OpensearchOpensearchCluster#security_saml_config}
         /// </remarks>
         [JsiiProperty(name: "securitySamlConfig", typeJson: "{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterSecuritySamlConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -605,7 +605,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#system_tags OpensearchOpensearchCluster#system_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#system_tags OpensearchOpensearchCluster#system_tags}.</summary>
         [JsiiProperty(name: "systemTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? SystemTags
@@ -618,7 +618,7 @@ namespace oci.OpensearchOpensearchCluster
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#timeouts OpensearchOpensearchCluster#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#timeouts OpensearchOpensearchCluster#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -630,7 +630,7 @@ namespace oci.OpensearchOpensearchCluster
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#upgrade_major_version_trigger OpensearchOpensearchCluster#upgrade_major_version_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#upgrade_major_version_trigger OpensearchOpensearchCluster#upgrade_major_version_trigger}.</summary>
         [JsiiProperty(name: "upgradeMajorVersionTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? UpgradeMajorVersionTrigger
@@ -648,133 +648,133 @@ namespace oci.OpensearchOpensearchCluster
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#compartment_id OpensearchOpensearchCluster#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#compartment_id OpensearchOpensearchCluster#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#data_node_count OpensearchOpensearchCluster#data_node_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#data_node_count OpensearchOpensearchCluster#data_node_count}.</summary>
             [JsiiProperty(name: "dataNodeCount", typeJson: "{\"primitive\":\"number\"}")]
             public double DataNodeCount
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#data_node_host_memory_gb OpensearchOpensearchCluster#data_node_host_memory_gb}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#data_node_host_memory_gb OpensearchOpensearchCluster#data_node_host_memory_gb}.</summary>
             [JsiiProperty(name: "dataNodeHostMemoryGb", typeJson: "{\"primitive\":\"number\"}")]
             public double DataNodeHostMemoryGb
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#data_node_host_ocpu_count OpensearchOpensearchCluster#data_node_host_ocpu_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#data_node_host_ocpu_count OpensearchOpensearchCluster#data_node_host_ocpu_count}.</summary>
             [JsiiProperty(name: "dataNodeHostOcpuCount", typeJson: "{\"primitive\":\"number\"}")]
             public double DataNodeHostOcpuCount
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#data_node_host_type OpensearchOpensearchCluster#data_node_host_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#data_node_host_type OpensearchOpensearchCluster#data_node_host_type}.</summary>
             [JsiiProperty(name: "dataNodeHostType", typeJson: "{\"primitive\":\"string\"}")]
             public string DataNodeHostType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#data_node_storage_gb OpensearchOpensearchCluster#data_node_storage_gb}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#data_node_storage_gb OpensearchOpensearchCluster#data_node_storage_gb}.</summary>
             [JsiiProperty(name: "dataNodeStorageGb", typeJson: "{\"primitive\":\"number\"}")]
             public double DataNodeStorageGb
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#display_name OpensearchOpensearchCluster#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#display_name OpensearchOpensearchCluster#display_name}.</summary>
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
             public string DisplayName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#master_node_count OpensearchOpensearchCluster#master_node_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#master_node_count OpensearchOpensearchCluster#master_node_count}.</summary>
             [JsiiProperty(name: "masterNodeCount", typeJson: "{\"primitive\":\"number\"}")]
             public double MasterNodeCount
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#master_node_host_memory_gb OpensearchOpensearchCluster#master_node_host_memory_gb}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#master_node_host_memory_gb OpensearchOpensearchCluster#master_node_host_memory_gb}.</summary>
             [JsiiProperty(name: "masterNodeHostMemoryGb", typeJson: "{\"primitive\":\"number\"}")]
             public double MasterNodeHostMemoryGb
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#master_node_host_ocpu_count OpensearchOpensearchCluster#master_node_host_ocpu_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#master_node_host_ocpu_count OpensearchOpensearchCluster#master_node_host_ocpu_count}.</summary>
             [JsiiProperty(name: "masterNodeHostOcpuCount", typeJson: "{\"primitive\":\"number\"}")]
             public double MasterNodeHostOcpuCount
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#master_node_host_type OpensearchOpensearchCluster#master_node_host_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#master_node_host_type OpensearchOpensearchCluster#master_node_host_type}.</summary>
             [JsiiProperty(name: "masterNodeHostType", typeJson: "{\"primitive\":\"string\"}")]
             public string MasterNodeHostType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_count OpensearchOpensearchCluster#opendashboard_node_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_count OpensearchOpensearchCluster#opendashboard_node_count}.</summary>
             [JsiiProperty(name: "opendashboardNodeCount", typeJson: "{\"primitive\":\"number\"}")]
             public double OpendashboardNodeCount
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_host_memory_gb OpensearchOpensearchCluster#opendashboard_node_host_memory_gb}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_host_memory_gb OpensearchOpensearchCluster#opendashboard_node_host_memory_gb}.</summary>
             [JsiiProperty(name: "opendashboardNodeHostMemoryGb", typeJson: "{\"primitive\":\"number\"}")]
             public double OpendashboardNodeHostMemoryGb
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_host_ocpu_count OpensearchOpensearchCluster#opendashboard_node_host_ocpu_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_host_ocpu_count OpensearchOpensearchCluster#opendashboard_node_host_ocpu_count}.</summary>
             [JsiiProperty(name: "opendashboardNodeHostOcpuCount", typeJson: "{\"primitive\":\"number\"}")]
             public double OpendashboardNodeHostOcpuCount
             {
                 get => GetInstanceProperty<double>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#software_version OpensearchOpensearchCluster#software_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#software_version OpensearchOpensearchCluster#software_version}.</summary>
             [JsiiProperty(name: "softwareVersion", typeJson: "{\"primitive\":\"string\"}")]
             public string SoftwareVersion
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#subnet_compartment_id OpensearchOpensearchCluster#subnet_compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#subnet_compartment_id OpensearchOpensearchCluster#subnet_compartment_id}.</summary>
             [JsiiProperty(name: "subnetCompartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubnetCompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#subnet_id OpensearchOpensearchCluster#subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#subnet_id OpensearchOpensearchCluster#subnet_id}.</summary>
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubnetId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#vcn_compartment_id OpensearchOpensearchCluster#vcn_compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#vcn_compartment_id OpensearchOpensearchCluster#vcn_compartment_id}.</summary>
             [JsiiProperty(name: "vcnCompartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string VcnCompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#vcn_id OpensearchOpensearchCluster#vcn_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#vcn_id OpensearchOpensearchCluster#vcn_id}.</summary>
             [JsiiProperty(name: "vcnId", typeJson: "{\"primitive\":\"string\"}")]
             public string VcnId
             {
@@ -783,7 +783,7 @@ namespace oci.OpensearchOpensearchCluster
 
             /// <summary>certificate_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#certificate_config OpensearchOpensearchCluster#certificate_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#certificate_config OpensearchOpensearchCluster#certificate_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "certificateConfig", typeJson: "{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterCertificateConfig\"}", isOptional: true)]
@@ -792,7 +792,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterCertificateConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#configure_outbound_cluster_trigger OpensearchOpensearchCluster#configure_outbound_cluster_trigger}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#configure_outbound_cluster_trigger OpensearchOpensearchCluster#configure_outbound_cluster_trigger}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "configureOutboundClusterTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ConfigureOutboundClusterTrigger
@@ -800,7 +800,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#coordinator_node_count OpensearchOpensearchCluster#coordinator_node_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#coordinator_node_count OpensearchOpensearchCluster#coordinator_node_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "coordinatorNodeCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? CoordinatorNodeCount
@@ -808,7 +808,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#coordinator_node_host_memory_gb OpensearchOpensearchCluster#coordinator_node_host_memory_gb}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#coordinator_node_host_memory_gb OpensearchOpensearchCluster#coordinator_node_host_memory_gb}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "coordinatorNodeHostMemoryGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? CoordinatorNodeHostMemoryGb
@@ -816,7 +816,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#coordinator_node_host_ocpu_count OpensearchOpensearchCluster#coordinator_node_host_ocpu_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#coordinator_node_host_ocpu_count OpensearchOpensearchCluster#coordinator_node_host_ocpu_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "coordinatorNodeHostOcpuCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? CoordinatorNodeHostOcpuCount
@@ -824,7 +824,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#coordinator_node_host_shape OpensearchOpensearchCluster#coordinator_node_host_shape}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#coordinator_node_host_shape OpensearchOpensearchCluster#coordinator_node_host_shape}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "coordinatorNodeHostShape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CoordinatorNodeHostShape
@@ -832,7 +832,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#coordinator_node_host_type OpensearchOpensearchCluster#coordinator_node_host_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#coordinator_node_host_type OpensearchOpensearchCluster#coordinator_node_host_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "coordinatorNodeHostType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CoordinatorNodeHostType
@@ -840,7 +840,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#data_node_host_bare_metal_shape OpensearchOpensearchCluster#data_node_host_bare_metal_shape}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#data_node_host_bare_metal_shape OpensearchOpensearchCluster#data_node_host_bare_metal_shape}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dataNodeHostBareMetalShape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DataNodeHostBareMetalShape
@@ -848,7 +848,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#data_node_host_shape OpensearchOpensearchCluster#data_node_host_shape}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#data_node_host_shape OpensearchOpensearchCluster#data_node_host_shape}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dataNodeHostShape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DataNodeHostShape
@@ -856,7 +856,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#defined_tags OpensearchOpensearchCluster#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#defined_tags OpensearchOpensearchCluster#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -864,7 +864,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#freeform_tags OpensearchOpensearchCluster#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#freeform_tags OpensearchOpensearchCluster#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -872,7 +872,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#id OpensearchOpensearchCluster#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#id OpensearchOpensearchCluster#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -884,7 +884,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#inbound_cluster_ids OpensearchOpensearchCluster#inbound_cluster_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#inbound_cluster_ids OpensearchOpensearchCluster#inbound_cluster_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "inboundClusterIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? InboundClusterIds
@@ -894,7 +894,7 @@ namespace oci.OpensearchOpensearchCluster
 
             /// <summary>load_balancer_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#load_balancer_config OpensearchOpensearchCluster#load_balancer_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#load_balancer_config OpensearchOpensearchCluster#load_balancer_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "loadBalancerConfig", typeJson: "{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterLoadBalancerConfig\"}", isOptional: true)]
@@ -905,7 +905,7 @@ namespace oci.OpensearchOpensearchCluster
 
             /// <summary>maintenance_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#maintenance_details OpensearchOpensearchCluster#maintenance_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#maintenance_details OpensearchOpensearchCluster#maintenance_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maintenanceDetails", typeJson: "{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterMaintenanceDetails\"}", isOptional: true)]
@@ -914,7 +914,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterMaintenanceDetails?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#master_node_host_bare_metal_shape OpensearchOpensearchCluster#master_node_host_bare_metal_shape}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#master_node_host_bare_metal_shape OpensearchOpensearchCluster#master_node_host_bare_metal_shape}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "masterNodeHostBareMetalShape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MasterNodeHostBareMetalShape
@@ -922,7 +922,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#master_node_host_shape OpensearchOpensearchCluster#master_node_host_shape}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#master_node_host_shape OpensearchOpensearchCluster#master_node_host_shape}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "masterNodeHostShape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MasterNodeHostShape
@@ -930,7 +930,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#ml_node_count OpensearchOpensearchCluster#ml_node_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#ml_node_count OpensearchOpensearchCluster#ml_node_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mlNodeCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MlNodeCount
@@ -938,7 +938,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#ml_node_host_memory_gb OpensearchOpensearchCluster#ml_node_host_memory_gb}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#ml_node_host_memory_gb OpensearchOpensearchCluster#ml_node_host_memory_gb}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mlNodeHostMemoryGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MlNodeHostMemoryGb
@@ -946,7 +946,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#ml_node_host_ocpu_count OpensearchOpensearchCluster#ml_node_host_ocpu_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#ml_node_host_ocpu_count OpensearchOpensearchCluster#ml_node_host_ocpu_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mlNodeHostOcpuCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MlNodeHostOcpuCount
@@ -954,7 +954,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#ml_node_host_shape OpensearchOpensearchCluster#ml_node_host_shape}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#ml_node_host_shape OpensearchOpensearchCluster#ml_node_host_shape}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mlNodeHostShape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MlNodeHostShape
@@ -962,7 +962,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#ml_node_host_type OpensearchOpensearchCluster#ml_node_host_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#ml_node_host_type OpensearchOpensearchCluster#ml_node_host_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mlNodeHostType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MlNodeHostType
@@ -970,7 +970,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#ml_node_storage_gb OpensearchOpensearchCluster#ml_node_storage_gb}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#ml_node_storage_gb OpensearchOpensearchCluster#ml_node_storage_gb}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mlNodeStorageGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MlNodeStorageGb
@@ -978,7 +978,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#nsg_id OpensearchOpensearchCluster#nsg_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#nsg_id OpensearchOpensearchCluster#nsg_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nsgId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NsgId
@@ -986,7 +986,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_host_shape OpensearchOpensearchCluster#opendashboard_node_host_shape}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#opendashboard_node_host_shape OpensearchOpensearchCluster#opendashboard_node_host_shape}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "opendashboardNodeHostShape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OpendashboardNodeHostShape
@@ -996,7 +996,7 @@ namespace oci.OpensearchOpensearchCluster
 
             /// <summary>outbound_cluster_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#outbound_cluster_config OpensearchOpensearchCluster#outbound_cluster_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#outbound_cluster_config OpensearchOpensearchCluster#outbound_cluster_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "outboundClusterConfig", typeJson: "{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterOutboundClusterConfig\"}", isOptional: true)]
@@ -1007,7 +1007,7 @@ namespace oci.OpensearchOpensearchCluster
 
             /// <summary>remote_reindex_trust_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#remote_reindex_trust_config OpensearchOpensearchCluster#remote_reindex_trust_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#remote_reindex_trust_config OpensearchOpensearchCluster#remote_reindex_trust_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "remoteReindexTrustConfig", typeJson: "{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterRemoteReindexTrustConfig\"}", isOptional: true)]
@@ -1016,7 +1016,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterRemoteReindexTrustConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#reverse_connection_endpoint_customer_ips OpensearchOpensearchCluster#reverse_connection_endpoint_customer_ips}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#reverse_connection_endpoint_customer_ips OpensearchOpensearchCluster#reverse_connection_endpoint_customer_ips}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "reverseConnectionEndpointCustomerIps", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ReverseConnectionEndpointCustomerIps
@@ -1024,7 +1024,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#search_node_count OpensearchOpensearchCluster#search_node_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#search_node_count OpensearchOpensearchCluster#search_node_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "searchNodeCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? SearchNodeCount
@@ -1032,7 +1032,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#search_node_host_memory_gb OpensearchOpensearchCluster#search_node_host_memory_gb}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#search_node_host_memory_gb OpensearchOpensearchCluster#search_node_host_memory_gb}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "searchNodeHostMemoryGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? SearchNodeHostMemoryGb
@@ -1040,7 +1040,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#search_node_host_ocpu_count OpensearchOpensearchCluster#search_node_host_ocpu_count}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#search_node_host_ocpu_count OpensearchOpensearchCluster#search_node_host_ocpu_count}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "searchNodeHostOcpuCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? SearchNodeHostOcpuCount
@@ -1048,7 +1048,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#search_node_host_shape OpensearchOpensearchCluster#search_node_host_shape}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#search_node_host_shape OpensearchOpensearchCluster#search_node_host_shape}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "searchNodeHostShape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SearchNodeHostShape
@@ -1056,7 +1056,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#search_node_host_type OpensearchOpensearchCluster#search_node_host_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#search_node_host_type OpensearchOpensearchCluster#search_node_host_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "searchNodeHostType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SearchNodeHostType
@@ -1064,7 +1064,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#search_node_storage_gb OpensearchOpensearchCluster#search_node_storage_gb}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#search_node_storage_gb OpensearchOpensearchCluster#search_node_storage_gb}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "searchNodeStorageGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? SearchNodeStorageGb
@@ -1072,7 +1072,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#security_attributes OpensearchOpensearchCluster#security_attributes}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#security_attributes OpensearchOpensearchCluster#security_attributes}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "securityAttributes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? SecurityAttributes
@@ -1082,7 +1082,7 @@ namespace oci.OpensearchOpensearchCluster
 
             /// <summary>security_master_user_auth_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#security_master_user_auth_details OpensearchOpensearchCluster#security_master_user_auth_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#security_master_user_auth_details OpensearchOpensearchCluster#security_master_user_auth_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "securityMasterUserAuthDetails", typeJson: "{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterSecurityMasterUserAuthDetails\"}", isOptional: true)]
@@ -1091,7 +1091,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterSecurityMasterUserAuthDetails?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#security_master_user_name OpensearchOpensearchCluster#security_master_user_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#security_master_user_name OpensearchOpensearchCluster#security_master_user_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "securityMasterUserName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SecurityMasterUserName
@@ -1099,7 +1099,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#security_master_user_password_hash OpensearchOpensearchCluster#security_master_user_password_hash}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#security_master_user_password_hash OpensearchOpensearchCluster#security_master_user_password_hash}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "securityMasterUserPasswordHash", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SecurityMasterUserPasswordHash
@@ -1107,7 +1107,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#security_mode OpensearchOpensearchCluster#security_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#security_mode OpensearchOpensearchCluster#security_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "securityMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SecurityMode
@@ -1117,7 +1117,7 @@ namespace oci.OpensearchOpensearchCluster
 
             /// <summary>security_saml_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#security_saml_config OpensearchOpensearchCluster#security_saml_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#security_saml_config OpensearchOpensearchCluster#security_saml_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "securitySamlConfig", typeJson: "{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterSecuritySamlConfig\"}", isOptional: true)]
@@ -1126,7 +1126,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterSecuritySamlConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#system_tags OpensearchOpensearchCluster#system_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#system_tags OpensearchOpensearchCluster#system_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "systemTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? SystemTags
@@ -1136,7 +1136,7 @@ namespace oci.OpensearchOpensearchCluster
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#timeouts OpensearchOpensearchCluster#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#timeouts OpensearchOpensearchCluster#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.opensearchOpensearchCluster.OpensearchOpensearchClusterTimeouts\"}", isOptional: true)]
@@ -1145,7 +1145,7 @@ namespace oci.OpensearchOpensearchCluster
                 get => GetInstanceProperty<oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#upgrade_major_version_trigger OpensearchOpensearchCluster#upgrade_major_version_trigger}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#upgrade_major_version_trigger OpensearchOpensearchCluster#upgrade_major_version_trigger}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "upgradeMajorVersionTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? UpgradeMajorVersionTrigger

@@ -125,6 +125,12 @@ namespace oci.DisasterRecoveryDrProtectionGroup
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DisasterRecoveryDrProtectionGroup.IDisasterRecoveryDrProtectionGroupMembersDestinationEncryptionKey)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putDrDrillProperties", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.disasterRecoveryDrProtectionGroup.DisasterRecoveryDrProtectionGroupMembersDrDrillProperties\"}}]")]
+        public virtual void PutDrDrillProperties(oci.DisasterRecoveryDrProtectionGroup.IDisasterRecoveryDrProtectionGroupMembersDrDrillProperties @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DisasterRecoveryDrProtectionGroup.IDisasterRecoveryDrProtectionGroupMembersDrDrillProperties)}, new object[]{@value});
+        }
+
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DisasterRecoveryDrProtectionGroup.IDisasterRecoveryDrProtectionGroupMembersExportMappings" />)[]</param>
         [JsiiMethod(name: "putExportMappings", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.disasterRecoveryDrProtectionGroup.DisasterRecoveryDrProtectionGroupMembersExportMappings\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutExportMappings(object @value)
@@ -509,6 +515,12 @@ namespace oci.DisasterRecoveryDrProtectionGroup
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDrDrillProperties")]
+        public virtual void ResetDrDrillProperties()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetExportMappings")]
         public virtual void ResetExportMappings()
         {
@@ -687,6 +699,12 @@ namespace oci.DisasterRecoveryDrProtectionGroup
         public virtual oci.DisasterRecoveryDrProtectionGroup.DisasterRecoveryDrProtectionGroupMembersDestinationEncryptionKeyOutputReference DestinationEncryptionKey
         {
             get => GetInstanceProperty<oci.DisasterRecoveryDrProtectionGroup.DisasterRecoveryDrProtectionGroupMembersDestinationEncryptionKeyOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "drDrillProperties", typeJson: "{\"fqn\":\"oci.disasterRecoveryDrProtectionGroup.DisasterRecoveryDrProtectionGroupMembersDrDrillPropertiesOutputReference\"}")]
+        public virtual oci.DisasterRecoveryDrProtectionGroup.DisasterRecoveryDrProtectionGroupMembersDrDrillPropertiesOutputReference DrDrillProperties
+        {
+            get => GetInstanceProperty<oci.DisasterRecoveryDrProtectionGroup.DisasterRecoveryDrProtectionGroupMembersDrDrillPropertiesOutputReference>()!;
         }
 
         [JsiiProperty(name: "exportMappings", typeJson: "{\"fqn\":\"oci.disasterRecoveryDrProtectionGroup.DisasterRecoveryDrProtectionGroupMembersExportMappingsList\"}")]
@@ -899,6 +917,13 @@ namespace oci.DisasterRecoveryDrProtectionGroup
         public virtual string? DestinationSnapshotPolicyIdInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "drDrillPropertiesInput", typeJson: "{\"fqn\":\"oci.disasterRecoveryDrProtectionGroup.DisasterRecoveryDrProtectionGroupMembersDrDrillProperties\"}", isOptional: true)]
+        public virtual oci.DisasterRecoveryDrProtectionGroup.IDisasterRecoveryDrProtectionGroupMembersDrDrillProperties? DrDrillPropertiesInput
+        {
+            get => GetInstanceProperty<oci.DisasterRecoveryDrProtectionGroup.IDisasterRecoveryDrProtectionGroupMembersDrDrillProperties?>();
         }
 
         /// <remarks>

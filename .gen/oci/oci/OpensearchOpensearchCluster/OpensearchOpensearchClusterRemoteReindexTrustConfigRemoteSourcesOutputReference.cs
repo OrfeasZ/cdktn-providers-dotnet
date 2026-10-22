@@ -35,10 +35,11 @@ namespace oci.OpensearchOpensearchCluster
         {
         }
 
-        [JsiiMethod(name: "resetEndpointResolutionIp")]
-        public virtual void ResetEndpointResolutionIp()
+        [JsiiOptional]
+        [JsiiProperty(name: "caBundleIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CaBundleIdInput
         {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -60,6 +61,13 @@ namespace oci.OpensearchOpensearchCluster
         public virtual string? EndpointResolutionIpInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "caBundleId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CaBundleId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}")]

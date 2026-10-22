@@ -9,7 +9,15 @@ namespace oci.OpensearchOpensearchCluster
     [JsiiByValue(fqn: "oci.opensearchOpensearchCluster.OpensearchOpensearchClusterRemoteReindexTrustConfigRemoteSources")]
     public class OpensearchOpensearchClusterRemoteReindexTrustConfigRemoteSources : oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterRemoteReindexTrustConfigRemoteSources
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#certificate_id OpensearchOpensearchCluster#certificate_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#ca_bundle_id OpensearchOpensearchCluster#ca_bundle_id}.</summary>
+        [JsiiProperty(name: "caBundleId", typeJson: "{\"primitive\":\"string\"}")]
+        public string CaBundleId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#certificate_id OpensearchOpensearchCluster#certificate_id}.</summary>
         [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}")]
         public string CertificateId
         {
@@ -17,7 +25,7 @@ namespace oci.OpensearchOpensearchCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#endpoint OpensearchOpensearchCluster#endpoint}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#endpoint OpensearchOpensearchCluster#endpoint}.</summary>
         [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string Endpoint
         {
@@ -25,10 +33,9 @@ namespace oci.OpensearchOpensearchCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#endpoint_resolution_ip OpensearchOpensearchCluster#endpoint_resolution_ip}.</summary>
-        [JsiiOptional]
-        [JsiiProperty(name: "endpointResolutionIp", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? EndpointResolutionIp
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#endpoint_resolution_ip OpensearchOpensearchCluster#endpoint_resolution_ip}.</summary>
+        [JsiiProperty(name: "endpointResolutionIp", typeJson: "{\"primitive\":\"string\"}")]
+        public string EndpointResolutionIp
         {
             get;
             set;

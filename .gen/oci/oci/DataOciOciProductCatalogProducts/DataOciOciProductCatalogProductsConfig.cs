@@ -7,7 +7,7 @@ namespace oci.DataOciOciProductCatalogProducts
     [JsiiByValue(fqn: "oci.dataOciOciProductCatalogProducts.DataOciOciProductCatalogProductsConfig")]
     public class DataOciOciProductCatalogProductsConfig : oci.DataOciOciProductCatalogProducts.IDataOciOciProductCatalogProductsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_products#compartment_id DataOciOciProductCatalogProducts#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/oci_product_catalog_products#compartment_id DataOciOciProductCatalogProducts#compartment_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CompartmentId
@@ -16,7 +16,7 @@ namespace oci.DataOciOciProductCatalogProducts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_products#description DataOciOciProductCatalogProducts#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/oci_product_catalog_products#description DataOciOciProductCatalogProducts#description}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -25,7 +25,7 @@ namespace oci.DataOciOciProductCatalogProducts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_products#id DataOciOciProductCatalogProducts#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/oci_product_catalog_products#id DataOciOciProductCatalogProducts#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +38,7 @@ namespace oci.DataOciOciProductCatalogProducts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_products#lifecycle_state DataOciOciProductCatalogProducts#lifecycle_state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/oci_product_catalog_products#lifecycle_state DataOciOciProductCatalogProducts#lifecycle_state}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "lifecycleState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? LifecycleState
@@ -47,7 +47,7 @@ namespace oci.DataOciOciProductCatalogProducts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_products#limit DataOciOciProductCatalogProducts#limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/oci_product_catalog_products#limit DataOciOciProductCatalogProducts#limit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Limit
@@ -60,7 +60,7 @@ namespace oci.DataOciOciProductCatalogProducts
 
         /// <summary>limits block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_products#limits DataOciOciProductCatalogProducts#limits}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/oci_product_catalog_products#limits DataOciOciProductCatalogProducts#limits}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOciProductCatalogProducts.IDataOciOciProductCatalogProductsLimits" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -95,7 +95,7 @@ namespace oci.DataOciOciProductCatalogProducts
 
         /// <summary>meters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_products#meters DataOciOciProductCatalogProducts#meters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/oci_product_catalog_products#meters DataOciOciProductCatalogProducts#meters}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOciProductCatalogProducts.IDataOciOciProductCatalogProductsMeters" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -126,7 +126,7 @@ namespace oci.DataOciOciProductCatalogProducts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_products#name DataOciOciProductCatalogProducts#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/oci_product_catalog_products#name DataOciOciProductCatalogProducts#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -135,7 +135,7 @@ namespace oci.DataOciOciProductCatalogProducts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_products#page DataOciOciProductCatalogProducts#page}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/oci_product_catalog_products#page DataOciOciProductCatalogProducts#page}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "page", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Page
@@ -144,7 +144,7 @@ namespace oci.DataOciOciProductCatalogProducts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_products#service_name DataOciOciProductCatalogProducts#service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/oci_product_catalog_products#service_name DataOciOciProductCatalogProducts#service_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "serviceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ServiceName
@@ -153,7 +153,7 @@ namespace oci.DataOciOciProductCatalogProducts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_products#skus_contains DataOciOciProductCatalogProducts#skus_contains}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/oci_product_catalog_products#skus_contains DataOciOciProductCatalogProducts#skus_contains}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "skusContains", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SkusContains
@@ -162,7 +162,7 @@ namespace oci.DataOciOciProductCatalogProducts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_products#time_ready_greater_than_or_equal_to DataOciOciProductCatalogProducts#time_ready_greater_than_or_equal_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/oci_product_catalog_products#time_ready_greater_than_or_equal_to DataOciOciProductCatalogProducts#time_ready_greater_than_or_equal_to}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "timeReadyGreaterThanOrEqualTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TimeReadyGreaterThanOrEqualTo

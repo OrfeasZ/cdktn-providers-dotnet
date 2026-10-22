@@ -9,7 +9,7 @@ namespace oci.OciProductCatalogInternalProduct
     [JsiiByValue(fqn: "oci.ociProductCatalogInternalProduct.OciProductCatalogInternalProductConfig")]
     public class OciProductCatalogInternalProductConfig : oci.OciProductCatalogInternalProduct.IOciProductCatalogInternalProductConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_product#compartment_id OciProductCatalogInternalProduct#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/oci_product_catalog_internal_product#compartment_id OciProductCatalogInternalProduct#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.OciProductCatalogInternalProduct
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_product#description OciProductCatalogInternalProduct#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/oci_product_catalog_internal_product#description OciProductCatalogInternalProduct#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public string Description
         {
@@ -25,7 +25,7 @@ namespace oci.OciProductCatalogInternalProduct
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_product#name OciProductCatalogInternalProduct#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/oci_product_catalog_internal_product#name OciProductCatalogInternalProduct#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +33,7 @@ namespace oci.OciProductCatalogInternalProduct
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_product#service_name OciProductCatalogInternalProduct#service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/oci_product_catalog_internal_product#service_name OciProductCatalogInternalProduct#service_name}.</summary>
         [JsiiProperty(name: "serviceName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceName
         {
@@ -41,7 +41,7 @@ namespace oci.OciProductCatalogInternalProduct
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_product#backfill_eligibility OciProductCatalogInternalProduct#backfill_eligibility}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/oci_product_catalog_internal_product#backfill_eligibility OciProductCatalogInternalProduct#backfill_eligibility}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "backfillEligibility", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BackfillEligibility
@@ -50,7 +50,7 @@ namespace oci.OciProductCatalogInternalProduct
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_product#id OciProductCatalogInternalProduct#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/oci_product_catalog_internal_product#id OciProductCatalogInternalProduct#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,7 +65,7 @@ namespace oci.OciProductCatalogInternalProduct
 
         private object? _isExcluded;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_product#is_excluded OciProductCatalogInternalProduct#is_excluded}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/oci_product_catalog_internal_product#is_excluded OciProductCatalogInternalProduct#is_excluded}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -101,7 +101,7 @@ namespace oci.OciProductCatalogInternalProduct
 
         /// <summary>limits block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_product#limits OciProductCatalogInternalProduct#limits}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/oci_product_catalog_internal_product#limits OciProductCatalogInternalProduct#limits}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OciProductCatalogInternalProduct.IOciProductCatalogInternalProductLimits" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -136,7 +136,7 @@ namespace oci.OciProductCatalogInternalProduct
 
         /// <summary>meters block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_product#meters OciProductCatalogInternalProduct#meters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/oci_product_catalog_internal_product#meters OciProductCatalogInternalProduct#meters}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OciProductCatalogInternalProduct.IOciProductCatalogInternalProductMeters" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -171,7 +171,7 @@ namespace oci.OciProductCatalogInternalProduct
 
         /// <summary>skus block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_product#skus OciProductCatalogInternalProduct#skus}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/oci_product_catalog_internal_product#skus OciProductCatalogInternalProduct#skus}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OciProductCatalogInternalProduct.IOciProductCatalogInternalProductSkus" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -204,7 +204,7 @@ namespace oci.OciProductCatalogInternalProduct
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_product#timeouts OciProductCatalogInternalProduct#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/oci_product_catalog_internal_product#timeouts OciProductCatalogInternalProduct#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.ociProductCatalogInternalProduct.OciProductCatalogInternalProductTimeouts\"}", isOptional: true)]

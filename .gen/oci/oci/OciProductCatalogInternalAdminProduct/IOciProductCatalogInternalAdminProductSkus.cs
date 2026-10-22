@@ -7,7 +7,7 @@ namespace oci.OciProductCatalogInternalAdminProduct
     [JsiiInterface(nativeType: typeof(IOciProductCatalogInternalAdminProductSkus), fullyQualifiedName: "oci.ociProductCatalogInternalAdminProduct.OciProductCatalogInternalAdminProductSkus")]
     public interface IOciProductCatalogInternalAdminProductSkus
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_admin_product#bpart_number OciProductCatalogInternalAdminProduct#bpart_number}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/oci_product_catalog_internal_admin_product#bpart_number OciProductCatalogInternalAdminProduct#bpart_number}.</summary>
         [JsiiProperty(name: "bpartNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BpartNumber
@@ -18,7 +18,7 @@ namespace oci.OciProductCatalogInternalAdminProduct
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_admin_product#description OciProductCatalogInternalAdminProduct#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/oci_product_catalog_internal_admin_product#description OciProductCatalogInternalAdminProduct#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -36,7 +36,7 @@ namespace oci.OciProductCatalogInternalAdminProduct
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_admin_product#bpart_number OciProductCatalogInternalAdminProduct#bpart_number}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/oci_product_catalog_internal_admin_product#bpart_number OciProductCatalogInternalAdminProduct#bpart_number}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bpartNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BpartNumber
@@ -44,7 +44,7 @@ namespace oci.OciProductCatalogInternalAdminProduct
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_admin_product#description OciProductCatalogInternalAdminProduct#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/oci_product_catalog_internal_admin_product#description OciProductCatalogInternalAdminProduct#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description

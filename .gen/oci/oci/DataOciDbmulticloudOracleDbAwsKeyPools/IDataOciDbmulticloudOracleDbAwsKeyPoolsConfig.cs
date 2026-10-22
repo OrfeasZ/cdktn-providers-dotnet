@@ -7,14 +7,14 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeyPools
     [JsiiInterface(nativeType: typeof(IDataOciDbmulticloudOracleDbAwsKeyPoolsConfig), fullyQualifiedName: "oci.dataOciDbmulticloudOracleDbAwsKeyPools.DataOciDbmulticloudOracleDbAwsKeyPoolsConfig")]
     public interface IDataOciDbmulticloudOracleDbAwsKeyPoolsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#compartment_id DataOciDbmulticloudOracleDbAwsKeyPools#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#compartment_id DataOciDbmulticloudOracleDbAwsKeyPools#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#display_name DataOciDbmulticloudOracleDbAwsKeyPools#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#display_name DataOciDbmulticloudOracleDbAwsKeyPools#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -27,7 +27,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeyPools
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#filter DataOciDbmulticloudOracleDbAwsKeyPools#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#filter DataOciDbmulticloudOracleDbAwsKeyPools#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDbmulticloudOracleDbAwsKeyPools.IDataOciDbmulticloudOracleDbAwsKeyPoolsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDbmulticloudOracleDbAwsKeyPools.DataOciDbmulticloudOracleDbAwsKeyPoolsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +40,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeyPools
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#id DataOciDbmulticloudOracleDbAwsKeyPools#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#id DataOciDbmulticloudOracleDbAwsKeyPools#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +55,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeyPools
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#oracle_db_aws_key_pool_id DataOciDbmulticloudOracleDbAwsKeyPools#oracle_db_aws_key_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#oracle_db_aws_key_pool_id DataOciDbmulticloudOracleDbAwsKeyPools#oracle_db_aws_key_pool_id}.</summary>
         [JsiiProperty(name: "oracleDbAwsKeyPoolId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? OracleDbAwsKeyPoolId
@@ -66,7 +66,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeyPools
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#state DataOciDbmulticloudOracleDbAwsKeyPools#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#state DataOciDbmulticloudOracleDbAwsKeyPools#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -84,14 +84,14 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeyPools
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#compartment_id DataOciDbmulticloudOracleDbAwsKeyPools#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#compartment_id DataOciDbmulticloudOracleDbAwsKeyPools#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#display_name DataOciDbmulticloudOracleDbAwsKeyPools#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#display_name DataOciDbmulticloudOracleDbAwsKeyPools#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -101,7 +101,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeyPools
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#filter DataOciDbmulticloudOracleDbAwsKeyPools#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#filter DataOciDbmulticloudOracleDbAwsKeyPools#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDbmulticloudOracleDbAwsKeyPools.IDataOciDbmulticloudOracleDbAwsKeyPoolsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -111,7 +111,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeyPools
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#id DataOciDbmulticloudOracleDbAwsKeyPools#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#id DataOciDbmulticloudOracleDbAwsKeyPools#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -123,7 +123,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeyPools
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#oracle_db_aws_key_pool_id DataOciDbmulticloudOracleDbAwsKeyPools#oracle_db_aws_key_pool_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#oracle_db_aws_key_pool_id DataOciDbmulticloudOracleDbAwsKeyPools#oracle_db_aws_key_pool_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "oracleDbAwsKeyPoolId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? OracleDbAwsKeyPoolId
@@ -131,7 +131,7 @@ namespace oci.DataOciDbmulticloudOracleDbAwsKeyPools
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#state DataOciDbmulticloudOracleDbAwsKeyPools#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/dbmulticloud_oracle_db_aws_key_pools#state DataOciDbmulticloudOracleDbAwsKeyPools#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

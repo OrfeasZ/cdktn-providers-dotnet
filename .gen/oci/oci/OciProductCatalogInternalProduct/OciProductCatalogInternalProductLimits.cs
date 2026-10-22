@@ -7,7 +7,7 @@ namespace oci.OciProductCatalogInternalProduct
     [JsiiByValue(fqn: "oci.ociProductCatalogInternalProduct.OciProductCatalogInternalProductLimits")]
     public class OciProductCatalogInternalProductLimits : oci.OciProductCatalogInternalProduct.IOciProductCatalogInternalProductLimits
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_product#public_limit_name OciProductCatalogInternalProduct#public_limit_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/oci_product_catalog_internal_product#public_limit_name OciProductCatalogInternalProduct#public_limit_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "publicLimitName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PublicLimitName
@@ -16,7 +16,7 @@ namespace oci.OciProductCatalogInternalProduct
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_product#public_service_name OciProductCatalogInternalProduct#public_service_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/oci_product_catalog_internal_product#public_service_name OciProductCatalogInternalProduct#public_service_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "publicServiceName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PublicServiceName

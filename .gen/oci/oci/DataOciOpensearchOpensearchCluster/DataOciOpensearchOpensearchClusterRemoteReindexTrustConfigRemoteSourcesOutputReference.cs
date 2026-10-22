@@ -35,6 +35,12 @@ namespace oci.DataOciOpensearchOpensearchCluster
         {
         }
 
+        [JsiiProperty(name: "caBundleId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CaBundleId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "certificateId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CertificateId
         {

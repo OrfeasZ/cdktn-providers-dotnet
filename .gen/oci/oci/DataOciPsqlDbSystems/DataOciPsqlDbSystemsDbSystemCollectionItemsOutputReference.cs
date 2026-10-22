@@ -41,6 +41,12 @@ namespace oci.DataOciPsqlDbSystems
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "allowMajorVersionUpgrade", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable AllowMajorVersionUpgrade
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "applyChangeModeToStandAlone", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ApplyChangeModeToStandAlone
         {
@@ -231,6 +237,12 @@ namespace oci.DataOciPsqlDbSystems
         public virtual string TimeUpdated
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "upgradeOptions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] UpgradeOptions
+        {
+            get => GetInstanceProperty<string[]>()!;
         }
 
         [JsiiOptional]

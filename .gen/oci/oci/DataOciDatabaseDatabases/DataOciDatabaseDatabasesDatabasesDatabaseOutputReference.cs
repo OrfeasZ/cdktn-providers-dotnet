@@ -131,6 +131,18 @@ namespace oci.DataOciDatabaseDatabases
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "isThinClone", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsThinClone
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "keyStoreId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string KeyStoreId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string KmsKeyId
         {
@@ -191,6 +203,12 @@ namespace oci.DataOciDatabaseDatabases
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "sourceAdminPassword", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SourceAdminPassword
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "sourceDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SourceDatabaseId
         {
@@ -201,6 +219,18 @@ namespace oci.DataOciDatabaseDatabases
         public virtual oci.DataOciDatabaseDatabases.DataOciDatabaseDatabasesDatabasesDatabaseSourceEncryptionKeyLocationDetailsList SourceEncryptionKeyLocationDetails
         {
             get => GetInstanceProperty<oci.DataOciDatabaseDatabases.DataOciDatabaseDatabasesDatabasesDatabaseSourceEncryptionKeyLocationDetailsList>()!;
+        }
+
+        [JsiiProperty(name: "sourceSnapshotId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SourceSnapshotId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "sourceTdePassword", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SourceTdePassword
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "sourceTdeWalletPassword", typeJson: "{\"primitive\":\"string\"}")]

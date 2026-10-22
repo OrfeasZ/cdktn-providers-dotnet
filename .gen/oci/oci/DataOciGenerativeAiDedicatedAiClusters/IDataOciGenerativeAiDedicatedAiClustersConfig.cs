@@ -7,14 +7,25 @@ namespace oci.DataOciGenerativeAiDedicatedAiClusters
     [JsiiInterface(nativeType: typeof(IDataOciGenerativeAiDedicatedAiClustersConfig), fullyQualifiedName: "oci.dataOciGenerativeAiDedicatedAiClusters.DataOciGenerativeAiDedicatedAiClustersConfig")]
     public interface IDataOciGenerativeAiDedicatedAiClustersConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/generative_ai_dedicated_ai_clusters#compartment_id DataOciGenerativeAiDedicatedAiClusters#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/generative_ai_dedicated_ai_clusters#compartment_id DataOciGenerativeAiDedicatedAiClusters#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/generative_ai_dedicated_ai_clusters#display_name DataOciGenerativeAiDedicatedAiClusters#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/generative_ai_dedicated_ai_clusters#capacity_reservation_id DataOciGenerativeAiDedicatedAiClusters#capacity_reservation_id}.</summary>
+        [JsiiProperty(name: "capacityReservationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? CapacityReservationId
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/generative_ai_dedicated_ai_clusters#display_name DataOciGenerativeAiDedicatedAiClusters#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -27,7 +38,7 @@ namespace oci.DataOciGenerativeAiDedicatedAiClusters
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/generative_ai_dedicated_ai_clusters#filter DataOciGenerativeAiDedicatedAiClusters#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/generative_ai_dedicated_ai_clusters#filter DataOciGenerativeAiDedicatedAiClusters#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGenerativeAiDedicatedAiClusters.IDataOciGenerativeAiDedicatedAiClustersFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciGenerativeAiDedicatedAiClusters.DataOciGenerativeAiDedicatedAiClustersFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +51,7 @@ namespace oci.DataOciGenerativeAiDedicatedAiClusters
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/generative_ai_dedicated_ai_clusters#id DataOciGenerativeAiDedicatedAiClusters#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/generative_ai_dedicated_ai_clusters#id DataOciGenerativeAiDedicatedAiClusters#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,7 +66,7 @@ namespace oci.DataOciGenerativeAiDedicatedAiClusters
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/generative_ai_dedicated_ai_clusters#state DataOciGenerativeAiDedicatedAiClusters#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/generative_ai_dedicated_ai_clusters#state DataOciGenerativeAiDedicatedAiClusters#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -73,14 +84,22 @@ namespace oci.DataOciGenerativeAiDedicatedAiClusters
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/generative_ai_dedicated_ai_clusters#compartment_id DataOciGenerativeAiDedicatedAiClusters#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/generative_ai_dedicated_ai_clusters#compartment_id DataOciGenerativeAiDedicatedAiClusters#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/generative_ai_dedicated_ai_clusters#display_name DataOciGenerativeAiDedicatedAiClusters#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/generative_ai_dedicated_ai_clusters#capacity_reservation_id DataOciGenerativeAiDedicatedAiClusters#capacity_reservation_id}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "capacityReservationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? CapacityReservationId
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/generative_ai_dedicated_ai_clusters#display_name DataOciGenerativeAiDedicatedAiClusters#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -90,7 +109,7 @@ namespace oci.DataOciGenerativeAiDedicatedAiClusters
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/generative_ai_dedicated_ai_clusters#filter DataOciGenerativeAiDedicatedAiClusters#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/generative_ai_dedicated_ai_clusters#filter DataOciGenerativeAiDedicatedAiClusters#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGenerativeAiDedicatedAiClusters.IDataOciGenerativeAiDedicatedAiClustersFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -100,7 +119,7 @@ namespace oci.DataOciGenerativeAiDedicatedAiClusters
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/generative_ai_dedicated_ai_clusters#id DataOciGenerativeAiDedicatedAiClusters#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/generative_ai_dedicated_ai_clusters#id DataOciGenerativeAiDedicatedAiClusters#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -112,7 +131,7 @@ namespace oci.DataOciGenerativeAiDedicatedAiClusters
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/generative_ai_dedicated_ai_clusters#state DataOciGenerativeAiDedicatedAiClusters#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/generative_ai_dedicated_ai_clusters#state DataOciGenerativeAiDedicatedAiClusters#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

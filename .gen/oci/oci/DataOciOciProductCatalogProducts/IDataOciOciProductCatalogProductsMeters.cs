@@ -7,7 +7,7 @@ namespace oci.DataOciOciProductCatalogProducts
     [JsiiInterface(nativeType: typeof(IDataOciOciProductCatalogProductsMeters), fullyQualifiedName: "oci.dataOciOciProductCatalogProducts.DataOciOciProductCatalogProductsMeters")]
     public interface IDataOciOciProductCatalogProductsMeters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_products#name DataOciOciProductCatalogProducts#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/oci_product_catalog_products#name DataOciOciProductCatalogProducts#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -25,7 +25,7 @@ namespace oci.DataOciOciProductCatalogProducts
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_products#name DataOciOciProductCatalogProducts#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/oci_product_catalog_products#name DataOciOciProductCatalogProducts#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name

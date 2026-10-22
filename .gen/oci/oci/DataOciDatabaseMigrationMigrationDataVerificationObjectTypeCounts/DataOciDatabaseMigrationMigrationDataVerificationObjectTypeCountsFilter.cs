@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts
     [JsiiByValue(fqn: "oci.dataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts.DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCountsFilter")]
     public class DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCountsFilter : oci.DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts.IDataOciDatabaseMigrationMigrationDataVerificationObjectTypeCountsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#name DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#name DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#values DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#values DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#regex DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#regex DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

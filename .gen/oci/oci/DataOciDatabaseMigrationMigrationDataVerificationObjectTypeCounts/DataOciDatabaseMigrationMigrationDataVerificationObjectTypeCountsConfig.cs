@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts
     [JsiiByValue(fqn: "oci.dataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts.DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCountsConfig")]
     public class DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCountsConfig : oci.DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts.IDataOciDatabaseMigrationMigrationDataVerificationObjectTypeCountsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#compartment_id DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#compartment_id DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#migration_id DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#migration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#migration_id DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#migration_id}.</summary>
         [JsiiProperty(name: "migrationId", typeJson: "{\"primitive\":\"string\"}")]
         public string MigrationId
         {
@@ -29,7 +29,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#filter DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#filter DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts.IDataOciDatabaseMigrationMigrationDataVerificationObjectTypeCountsFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -60,7 +60,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#id DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#id DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#migration_data_verification_object_type_count_filter DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#migration_data_verification_object_type_count_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#migration_data_verification_object_type_count_filter DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#migration_data_verification_object_type_count_filter}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "migrationDataVerificationObjectTypeCountFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MigrationDataVerificationObjectTypeCountFilter
@@ -82,7 +82,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#min_abs_delta_percent DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#min_abs_delta_percent}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#min_abs_delta_percent DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#min_abs_delta_percent}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "minAbsDeltaPercent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MinAbsDeltaPercent
@@ -91,7 +91,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#object_type DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#object_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#object_type DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#object_type}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "objectType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ObjectType
@@ -100,7 +100,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#schema_name DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#schema_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts#schema_name DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts#schema_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "schemaName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SchemaName

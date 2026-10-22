@@ -9,7 +9,7 @@ namespace oci.OpensearchOpensearchCluster
     [JsiiByValue(fqn: "oci.opensearchOpensearchCluster.OpensearchOpensearchClusterSecurityMasterUserAuthDetailsUserDetailsPasswordDetails")]
     public class OpensearchOpensearchClusterSecurityMasterUserAuthDetailsUserDetailsPasswordDetails : oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterSecurityMasterUserAuthDetailsUserDetailsPasswordDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#source_type OpensearchOpensearchCluster#source_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#source_type OpensearchOpensearchCluster#source_type}.</summary>
         [JsiiProperty(name: "sourceType", typeJson: "{\"primitive\":\"string\"}")]
         public string SourceType
         {
@@ -17,7 +17,7 @@ namespace oci.OpensearchOpensearchCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#plain_password OpensearchOpensearchCluster#plain_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#plain_password OpensearchOpensearchCluster#plain_password}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "plainPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PlainPassword
@@ -26,7 +26,7 @@ namespace oci.OpensearchOpensearchCluster
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/opensearch_opensearch_cluster#vault_secret_id OpensearchOpensearchCluster#vault_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#vault_secret_id OpensearchOpensearchCluster#vault_secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "vaultSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VaultSecretId

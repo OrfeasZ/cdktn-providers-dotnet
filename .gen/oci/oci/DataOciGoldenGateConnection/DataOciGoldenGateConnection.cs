@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DataOciGoldenGateConnection
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/golden_gate_connection oci_golden_gate_connection}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/golden_gate_connection oci_golden_gate_connection}.</summary>
     [JsiiClass(nativeType: typeof(oci.DataOciGoldenGateConnection.DataOciGoldenGateConnection), fullyQualifiedName: "oci.dataOciGoldenGateConnection.DataOciGoldenGateConnection", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.dataOciGoldenGateConnection.DataOciGoldenGateConnectionConfig\"}}]")]
     public class DataOciGoldenGateConnection : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/golden_gate_connection oci_golden_gate_connection} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/golden_gate_connection oci_golden_gate_connection} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataOciGoldenGateConnection(Constructs.Construct scope, string id, oci.DataOciGoldenGateConnection.IDataOciGoldenGateConnectionConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DataOciGoldenGateConnection
         /// <param name="importToId">The construct id used in the generated config for the DataOciGoldenGateConnection to import.</param>
         /// <param name="importFromId">The id of the existing DataOciGoldenGateConnection that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataOciGoldenGateConnection to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciGoldenGateConnection to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/golden_gate_connection#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciGoldenGateConnection that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciGoldenGateConnection to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciGoldenGateConnection to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/golden_gate_connection#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciGoldenGateConnection that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciGoldenGateConnection to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DataOciGoldenGateConnection.DataOciGoldenGateConnection), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -95,6 +95,12 @@ namespace oci.DataOciGoldenGateConnection
             get => GetInstanceProperty<oci.DataOciGoldenGateConnection.DataOciGoldenGateConnectionAdditionalAttributesList>()!;
         }
 
+        [JsiiProperty(name: "artifactLocation", typeJson: "{\"fqn\":\"oci.dataOciGoldenGateConnection.DataOciGoldenGateConnectionArtifactLocationList\"}")]
+        public virtual oci.DataOciGoldenGateConnection.DataOciGoldenGateConnectionArtifactLocationList ArtifactLocation
+        {
+            get => GetInstanceProperty<oci.DataOciGoldenGateConnection.DataOciGoldenGateConnectionArtifactLocationList>()!;
+        }
+
         [JsiiProperty(name: "authDetails", typeJson: "{\"fqn\":\"oci.dataOciGoldenGateConnection.DataOciGoldenGateConnectionAuthDetailsList\"}")]
         public virtual oci.DataOciGoldenGateConnection.DataOciGoldenGateConnectionAuthDetailsList AuthDetails
         {
@@ -109,6 +115,30 @@ namespace oci.DataOciGoldenGateConnection
 
         [JsiiProperty(name: "authenticationType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AuthenticationType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "authSecret", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AuthSecret
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "authSecretSecretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AuthSecretSecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "authToken", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AuthToken
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "authTokenSecretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AuthTokenSecretId
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -151,6 +181,12 @@ namespace oci.DataOciGoldenGateConnection
 
         [JsiiProperty(name: "clientSecretSecretId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ClientSecretSecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "clusterEndpoint", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ClusterEndpoint
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -365,6 +401,12 @@ namespace oci.DataOciGoldenGateConnection
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "keyStoreType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string KeyStoreType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "lifecycleDetails", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LifecycleDetails
         {
@@ -449,6 +491,12 @@ namespace oci.DataOciGoldenGateConnection
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "providerId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ProviderId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "providerType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ProviderType
         {
@@ -473,8 +521,32 @@ namespace oci.DataOciGoldenGateConnection
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "restAuthSecretKey", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RestAuthSecretKey
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "restAuthSecretKeySecretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RestAuthSecretKeySecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "restEndpoint", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RestEndpoint
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "routingMethod", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string RoutingMethod
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "rpcCipher", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RpcCipher
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -659,6 +731,12 @@ namespace oci.DataOciGoldenGateConnection
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "submitMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SubmitMode
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SubnetId
         {
@@ -737,6 +815,12 @@ namespace oci.DataOciGoldenGateConnection
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "tlsProtocol", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TlsProtocol
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "triggerRefresh", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable TriggerRefresh
         {
@@ -763,6 +847,12 @@ namespace oci.DataOciGoldenGateConnection
 
         [JsiiProperty(name: "trustStoreSecretId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TrustStoreSecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "trustStoreType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TrustStoreType
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -799,6 +889,12 @@ namespace oci.DataOciGoldenGateConnection
 
         [JsiiProperty(name: "walletSecretId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string WalletSecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "workspaceUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string WorkspaceUrl
         {
             get => GetInstanceProperty<string>()!;
         }

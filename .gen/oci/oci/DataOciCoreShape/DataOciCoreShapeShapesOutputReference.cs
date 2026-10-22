@@ -227,6 +227,12 @@ namespace oci.DataOciCoreShape
             get => GetInstanceProperty<string[]>()!;
         }
 
+        [JsiiProperty(name: "supportedResourceManagement", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] SupportedResourceManagement
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciCoreShape.DataOciCoreShapeShapes\"}", isOptional: true)]
         public virtual oci.DataOciCoreShape.IDataOciCoreShapeShapes? InternalValue

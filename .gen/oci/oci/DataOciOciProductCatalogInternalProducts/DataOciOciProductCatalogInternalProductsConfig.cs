@@ -9,7 +9,7 @@ namespace oci.DataOciOciProductCatalogInternalProducts
     [JsiiByValue(fqn: "oci.dataOciOciProductCatalogInternalProducts.DataOciOciProductCatalogInternalProductsConfig")]
     public class DataOciOciProductCatalogInternalProductsConfig : oci.DataOciOciProductCatalogInternalProducts.IDataOciOciProductCatalogInternalProductsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_internal_products#compartment_id DataOciOciProductCatalogInternalProducts#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/oci_product_catalog_internal_products#compartment_id DataOciOciProductCatalogInternalProducts#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciOciProductCatalogInternalProducts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_internal_products#id DataOciOciProductCatalogInternalProducts#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/oci_product_catalog_internal_products#id DataOciOciProductCatalogInternalProducts#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -30,7 +30,7 @@ namespace oci.DataOciOciProductCatalogInternalProducts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_internal_products#limit DataOciOciProductCatalogInternalProducts#limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/oci_product_catalog_internal_products#limit DataOciOciProductCatalogInternalProducts#limit}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? Limit
@@ -39,7 +39,7 @@ namespace oci.DataOciOciProductCatalogInternalProducts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_internal_products#name DataOciOciProductCatalogInternalProducts#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/oci_product_catalog_internal_products#name DataOciOciProductCatalogInternalProducts#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name
@@ -48,7 +48,7 @@ namespace oci.DataOciOciProductCatalogInternalProducts
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_internal_products#page DataOciOciProductCatalogInternalProducts#page}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/oci_product_catalog_internal_products#page DataOciOciProductCatalogInternalProducts#page}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "page", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Page

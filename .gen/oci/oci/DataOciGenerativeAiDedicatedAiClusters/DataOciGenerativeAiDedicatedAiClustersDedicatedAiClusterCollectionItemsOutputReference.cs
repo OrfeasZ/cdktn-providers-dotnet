@@ -41,6 +41,12 @@ namespace oci.DataOciGenerativeAiDedicatedAiClusters
             get => GetInstanceProperty<oci.DataOciGenerativeAiDedicatedAiClusters.DataOciGenerativeAiDedicatedAiClustersDedicatedAiClusterCollectionItemsCapacityList>()!;
         }
 
+        [JsiiProperty(name: "capacityReservationId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CapacityReservationId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CompartmentId
         {

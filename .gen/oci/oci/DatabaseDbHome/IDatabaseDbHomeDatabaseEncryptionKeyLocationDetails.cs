@@ -7,14 +7,14 @@ namespace oci.DatabaseDbHome
     [JsiiInterface(nativeType: typeof(IDatabaseDbHomeDatabaseEncryptionKeyLocationDetails), fullyQualifiedName: "oci.databaseDbHome.DatabaseDbHomeDatabaseEncryptionKeyLocationDetails")]
     public interface IDatabaseDbHomeDatabaseEncryptionKeyLocationDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/database_db_home#provider_type DatabaseDbHome#provider_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/database_db_home#provider_type DatabaseDbHome#provider_type}.</summary>
         [JsiiProperty(name: "providerType", typeJson: "{\"primitive\":\"string\"}")]
         string ProviderType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/database_db_home#aws_encryption_key_id DatabaseDbHome#aws_encryption_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/database_db_home#aws_encryption_key_id DatabaseDbHome#aws_encryption_key_id}.</summary>
         [JsiiProperty(name: "awsEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AwsEncryptionKeyId
@@ -25,7 +25,7 @@ namespace oci.DatabaseDbHome
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/database_db_home#aws_encryption_key_pool_id DatabaseDbHome#aws_encryption_key_pool_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/database_db_home#aws_encryption_key_pool_id DatabaseDbHome#aws_encryption_key_pool_id}.</summary>
         [JsiiProperty(name: "awsEncryptionKeyPoolId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AwsEncryptionKeyPoolId
@@ -36,7 +36,7 @@ namespace oci.DatabaseDbHome
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/database_db_home#azure_encryption_key_id DatabaseDbHome#azure_encryption_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/database_db_home#azure_encryption_key_id DatabaseDbHome#azure_encryption_key_id}.</summary>
         [JsiiProperty(name: "azureEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AzureEncryptionKeyId
@@ -47,7 +47,7 @@ namespace oci.DatabaseDbHome
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/database_db_home#google_cloud_provider_encryption_key_id DatabaseDbHome#google_cloud_provider_encryption_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/database_db_home#google_cloud_provider_encryption_key_id DatabaseDbHome#google_cloud_provider_encryption_key_id}.</summary>
         [JsiiProperty(name: "googleCloudProviderEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GoogleCloudProviderEncryptionKeyId
@@ -58,7 +58,7 @@ namespace oci.DatabaseDbHome
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/database_db_home#hsm_password DatabaseDbHome#hsm_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/database_db_home#hsm_password DatabaseDbHome#hsm_password}.</summary>
         [JsiiProperty(name: "hsmPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? HsmPassword
@@ -76,14 +76,14 @@ namespace oci.DatabaseDbHome
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/database_db_home#provider_type DatabaseDbHome#provider_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/database_db_home#provider_type DatabaseDbHome#provider_type}.</summary>
             [JsiiProperty(name: "providerType", typeJson: "{\"primitive\":\"string\"}")]
             public string ProviderType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/database_db_home#aws_encryption_key_id DatabaseDbHome#aws_encryption_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/database_db_home#aws_encryption_key_id DatabaseDbHome#aws_encryption_key_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "awsEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AwsEncryptionKeyId
@@ -91,7 +91,7 @@ namespace oci.DatabaseDbHome
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/database_db_home#aws_encryption_key_pool_id DatabaseDbHome#aws_encryption_key_pool_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/database_db_home#aws_encryption_key_pool_id DatabaseDbHome#aws_encryption_key_pool_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "awsEncryptionKeyPoolId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AwsEncryptionKeyPoolId
@@ -99,7 +99,7 @@ namespace oci.DatabaseDbHome
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/database_db_home#azure_encryption_key_id DatabaseDbHome#azure_encryption_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/database_db_home#azure_encryption_key_id DatabaseDbHome#azure_encryption_key_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "azureEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AzureEncryptionKeyId
@@ -107,7 +107,7 @@ namespace oci.DatabaseDbHome
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/database_db_home#google_cloud_provider_encryption_key_id DatabaseDbHome#google_cloud_provider_encryption_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/database_db_home#google_cloud_provider_encryption_key_id DatabaseDbHome#google_cloud_provider_encryption_key_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "googleCloudProviderEncryptionKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GoogleCloudProviderEncryptionKeyId
@@ -115,7 +115,7 @@ namespace oci.DatabaseDbHome
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/database_db_home#hsm_password DatabaseDbHome#hsm_password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/database_db_home#hsm_password DatabaseDbHome#hsm_password}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hsmPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? HsmPassword

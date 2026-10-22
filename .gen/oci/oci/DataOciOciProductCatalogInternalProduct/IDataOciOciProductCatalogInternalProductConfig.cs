@@ -7,7 +7,7 @@ namespace oci.DataOciOciProductCatalogInternalProduct
     [JsiiInterface(nativeType: typeof(IDataOciOciProductCatalogInternalProductConfig), fullyQualifiedName: "oci.dataOciOciProductCatalogInternalProduct.DataOciOciProductCatalogInternalProductConfig")]
     public interface IDataOciOciProductCatalogInternalProductConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_internal_product#product_id DataOciOciProductCatalogInternalProduct#product_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/oci_product_catalog_internal_product#product_id DataOciOciProductCatalogInternalProduct#product_id}.</summary>
         [JsiiProperty(name: "productId", typeJson: "{\"primitive\":\"string\"}")]
         string ProductId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciOciProductCatalogInternalProduct
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/oci_product_catalog_internal_product#product_id DataOciOciProductCatalogInternalProduct#product_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/oci_product_catalog_internal_product#product_id DataOciOciProductCatalogInternalProduct#product_id}.</summary>
             [JsiiProperty(name: "productId", typeJson: "{\"primitive\":\"string\"}")]
             public string ProductId
             {

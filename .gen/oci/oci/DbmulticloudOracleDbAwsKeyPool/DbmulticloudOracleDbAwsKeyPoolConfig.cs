@@ -9,7 +9,7 @@ namespace oci.DbmulticloudOracleDbAwsKeyPool
     [JsiiByValue(fqn: "oci.dbmulticloudOracleDbAwsKeyPool.DbmulticloudOracleDbAwsKeyPoolConfig")]
     public class DbmulticloudOracleDbAwsKeyPoolConfig : oci.DbmulticloudOracleDbAwsKeyPool.IDbmulticloudOracleDbAwsKeyPoolConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/dbmulticloud_oracle_db_aws_key_pool#compartment_id DbmulticloudOracleDbAwsKeyPool#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/dbmulticloud_oracle_db_aws_key_pool#compartment_id DbmulticloudOracleDbAwsKeyPool#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DbmulticloudOracleDbAwsKeyPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/dbmulticloud_oracle_db_aws_key_pool#display_name DbmulticloudOracleDbAwsKeyPool#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/dbmulticloud_oracle_db_aws_key_pool#display_name DbmulticloudOracleDbAwsKeyPool#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace oci.DbmulticloudOracleDbAwsKeyPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/dbmulticloud_oracle_db_aws_key_pool#defined_tags DbmulticloudOracleDbAwsKeyPool#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/dbmulticloud_oracle_db_aws_key_pool#defined_tags DbmulticloudOracleDbAwsKeyPool#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -34,7 +34,7 @@ namespace oci.DbmulticloudOracleDbAwsKeyPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/dbmulticloud_oracle_db_aws_key_pool#freeform_tags DbmulticloudOracleDbAwsKeyPool#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/dbmulticloud_oracle_db_aws_key_pool#freeform_tags DbmulticloudOracleDbAwsKeyPool#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -43,7 +43,7 @@ namespace oci.DbmulticloudOracleDbAwsKeyPool
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/dbmulticloud_oracle_db_aws_key_pool#id DbmulticloudOracleDbAwsKeyPool#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/dbmulticloud_oracle_db_aws_key_pool#id DbmulticloudOracleDbAwsKeyPool#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ namespace oci.DbmulticloudOracleDbAwsKeyPool
 
         private object? _isMultiRegionKeyPool;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/dbmulticloud_oracle_db_aws_key_pool#is_multi_region_key_pool DbmulticloudOracleDbAwsKeyPool#is_multi_region_key_pool}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/dbmulticloud_oracle_db_aws_key_pool#is_multi_region_key_pool DbmulticloudOracleDbAwsKeyPool#is_multi_region_key_pool}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -92,7 +92,7 @@ namespace oci.DbmulticloudOracleDbAwsKeyPool
 
         private object? _isReuseAllowed;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/dbmulticloud_oracle_db_aws_key_pool#is_reuse_allowed DbmulticloudOracleDbAwsKeyPool#is_reuse_allowed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/dbmulticloud_oracle_db_aws_key_pool#is_reuse_allowed DbmulticloudOracleDbAwsKeyPool#is_reuse_allowed}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -126,7 +126,7 @@ namespace oci.DbmulticloudOracleDbAwsKeyPool
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/dbmulticloud_oracle_db_aws_key_pool#timeouts DbmulticloudOracleDbAwsKeyPool#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/dbmulticloud_oracle_db_aws_key_pool#timeouts DbmulticloudOracleDbAwsKeyPool#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.dbmulticloudOracleDbAwsKeyPool.DbmulticloudOracleDbAwsKeyPoolTimeouts\"}", isOptional: true)]

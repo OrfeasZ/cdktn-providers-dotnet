@@ -7,7 +7,7 @@ namespace oci.OciProductCatalogInternalProduct
     [JsiiByValue(fqn: "oci.ociProductCatalogInternalProduct.OciProductCatalogInternalProductMeters")]
     public class OciProductCatalogInternalProductMeters : oci.OciProductCatalogInternalProduct.IOciProductCatalogInternalProductMeters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_product#name OciProductCatalogInternalProduct#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/oci_product_catalog_internal_product#name OciProductCatalogInternalProduct#name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Name

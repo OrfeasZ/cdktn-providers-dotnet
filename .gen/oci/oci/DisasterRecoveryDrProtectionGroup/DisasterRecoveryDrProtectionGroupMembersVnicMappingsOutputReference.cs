@@ -53,6 +53,12 @@ namespace oci.DisasterRecoveryDrProtectionGroup
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDestinationReservedPrimaryPrivateIpId")]
+        public virtual void ResetDestinationReservedPrimaryPrivateIpId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDestinationReservedPublicIpId")]
         public virtual void ResetDestinationReservedPublicIpId()
         {
@@ -88,6 +94,13 @@ namespace oci.DisasterRecoveryDrProtectionGroup
         [JsiiOptional]
         [JsiiProperty(name: "destinationPrimaryPrivateIpHostnameLabelInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? DestinationPrimaryPrivateIpHostnameLabelInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "destinationReservedPrimaryPrivateIpIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DestinationReservedPrimaryPrivateIpIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -129,6 +142,13 @@ namespace oci.DisasterRecoveryDrProtectionGroup
 
         [JsiiProperty(name: "destinationPrimaryPrivateIpHostnameLabel", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DestinationPrimaryPrivateIpHostnameLabel
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "destinationReservedPrimaryPrivateIpId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DestinationReservedPrimaryPrivateIpId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

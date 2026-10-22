@@ -7,14 +7,14 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseMigrationMigrationDataVerificationObjectStatusesConfig), fullyQualifiedName: "oci.dataOciDatabaseMigrationMigrationDataVerificationObjectStatuses.DataOciDatabaseMigrationMigrationDataVerificationObjectStatusesConfig")]
     public interface IDataOciDatabaseMigrationMigrationDataVerificationObjectStatusesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#compartment_id DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#compartment_id DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#migration_id DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#migration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#migration_id DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#migration_id}.</summary>
         [JsiiProperty(name: "migrationId", typeJson: "{\"primitive\":\"string\"}")]
         string MigrationId
         {
@@ -23,7 +23,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#filter DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#filter DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses.IDataOciDatabaseMigrationMigrationDataVerificationObjectStatusesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseMigrationMigrationDataVerificationObjectStatuses.DataOciDatabaseMigrationMigrationDataVerificationObjectStatusesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#id DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#id DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#is_match DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#is_match}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#is_match DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#is_match}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -65,7 +65,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#migration_data_verification_object_status_filter DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#migration_data_verification_object_status_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#migration_data_verification_object_status_filter DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#migration_data_verification_object_status_filter}.</summary>
         [JsiiProperty(name: "migrationDataVerificationObjectStatusFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MigrationDataVerificationObjectStatusFilter
@@ -76,7 +76,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#name DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#name DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -87,7 +87,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#object_type DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#object_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#object_type DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#object_type}.</summary>
         [JsiiProperty(name: "objectType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ObjectType
@@ -98,7 +98,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#owner DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#owner}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#owner DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#owner}.</summary>
         [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Owner
@@ -116,14 +116,14 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#compartment_id DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#compartment_id DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#migration_id DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#migration_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#migration_id DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#migration_id}.</summary>
             [JsiiProperty(name: "migrationId", typeJson: "{\"primitive\":\"string\"}")]
             public string MigrationId
             {
@@ -132,7 +132,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#filter DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#filter DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses.IDataOciDatabaseMigrationMigrationDataVerificationObjectStatusesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -142,7 +142,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#id DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#id DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -154,7 +154,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#is_match DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#is_match}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#is_match DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#is_match}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -165,7 +165,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#migration_data_verification_object_status_filter DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#migration_data_verification_object_status_filter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#migration_data_verification_object_status_filter DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#migration_data_verification_object_status_filter}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "migrationDataVerificationObjectStatusFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MigrationDataVerificationObjectStatusFilter
@@ -173,7 +173,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#name DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#name DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -181,7 +181,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#object_type DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#object_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#object_type DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#object_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "objectType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ObjectType
@@ -189,7 +189,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#owner DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#owner}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#owner DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#owner}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Owner

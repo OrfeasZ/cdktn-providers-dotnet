@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses
     [JsiiByValue(fqn: "oci.dataOciDatabaseMigrationMigrationDataVerificationObjectStatuses.DataOciDatabaseMigrationMigrationDataVerificationObjectStatusesFilter")]
     public class DataOciDatabaseMigrationMigrationDataVerificationObjectStatusesFilter : oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses.IDataOciDatabaseMigrationMigrationDataVerificationObjectStatusesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#name DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#name DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#values DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#values DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#regex DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_statuses#regex DataOciDatabaseMigrationMigrationDataVerificationObjectStatuses#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

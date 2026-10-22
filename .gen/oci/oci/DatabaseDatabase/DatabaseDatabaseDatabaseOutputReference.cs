@@ -189,6 +189,18 @@ namespace oci.DatabaseDatabase
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetIsThinClone")]
+        public virtual void ResetIsThinClone()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetKeyStoreId")]
+        public virtual void ResetKeyStoreId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetKmsKeyId")]
         public virtual void ResetKmsKeyId()
         {
@@ -249,6 +261,12 @@ namespace oci.DatabaseDatabase
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSourceAdminPassword")]
+        public virtual void ResetSourceAdminPassword()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSourceDatabaseId")]
         public virtual void ResetSourceDatabaseId()
         {
@@ -257,6 +275,18 @@ namespace oci.DatabaseDatabase
 
         [JsiiMethod(name: "resetSourceEncryptionKeyLocationDetails")]
         public virtual void ResetSourceEncryptionKeyLocationDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSourceSnapshotId")]
+        public virtual void ResetSourceSnapshotId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSourceTdePassword")]
+        public virtual void ResetSourceTdePassword()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -460,6 +490,23 @@ namespace oci.DatabaseDatabase
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "isThinCloneInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? IsThinCloneInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "keyStoreIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? KeyStoreIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "kmsKeyIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? KmsKeyIdInput
@@ -534,6 +581,13 @@ namespace oci.DatabaseDatabase
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "sourceAdminPasswordInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SourceAdminPasswordInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "sourceDatabaseIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? SourceDatabaseIdInput
         {
@@ -545,6 +599,20 @@ namespace oci.DatabaseDatabase
         public virtual oci.DatabaseDatabase.IDatabaseDatabaseDatabaseSourceEncryptionKeyLocationDetails? SourceEncryptionKeyLocationDetailsInput
         {
             get => GetInstanceProperty<oci.DatabaseDatabase.IDatabaseDatabaseDatabaseSourceEncryptionKeyLocationDetails?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "sourceSnapshotIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SourceSnapshotIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "sourceTdePasswordInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SourceTdePasswordInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -710,6 +778,43 @@ namespace oci.DatabaseDatabase
             }
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "isThinClone", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object IsThinClone
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        [JsiiProperty(name: "keyStoreId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string KeyStoreId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string KmsKeyId
         {
@@ -766,8 +871,29 @@ namespace oci.DatabaseDatabase
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "sourceAdminPassword", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SourceAdminPassword
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "sourceDatabaseId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SourceDatabaseId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "sourceSnapshotId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SourceSnapshotId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "sourceTdePassword", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SourceTdePassword
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

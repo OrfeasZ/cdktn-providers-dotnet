@@ -53,6 +53,12 @@ namespace oci.DataOciDisasterRecoveryDrProtectionGroup
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "destinationReservedPrimaryPrivateIpId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DestinationReservedPrimaryPrivateIpId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "destinationReservedPublicIpId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DestinationReservedPublicIpId
         {

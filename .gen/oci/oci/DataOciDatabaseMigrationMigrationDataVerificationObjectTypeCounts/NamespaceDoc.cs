@@ -5,7 +5,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationObjectTypeCounts
     /// <remarks>
     /// <h1><c>data_oci_database_migration_migration_data_verification_object_type_counts</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts"><c>data_oci_database_migration_migration_data_verification_object_type_counts</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_object_type_counts"><c>data_oci_database_migration_migration_data_verification_object_type_counts</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

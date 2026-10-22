@@ -5,7 +5,7 @@ namespace oci.DataOciDataSafeSubsettingReportSubsettingErrors
     /// <remarks>
     /// <h1><c>data_oci_data_safe_subsetting_report_subsetting_errors</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors"><c>data_oci_data_safe_subsetting_report_subsetting_errors</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/data_safe_subsetting_report_subsetting_errors"><c>data_oci_data_safe_subsetting_report_subsetting_errors</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

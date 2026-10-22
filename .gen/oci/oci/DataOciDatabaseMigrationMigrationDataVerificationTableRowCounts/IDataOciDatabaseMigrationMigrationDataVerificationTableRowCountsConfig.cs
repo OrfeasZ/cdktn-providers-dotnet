@@ -7,14 +7,14 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseMigrationMigrationDataVerificationTableRowCountsConfig), fullyQualifiedName: "oci.dataOciDatabaseMigrationMigrationDataVerificationTableRowCounts.DataOciDatabaseMigrationMigrationDataVerificationTableRowCountsConfig")]
     public interface IDataOciDatabaseMigrationMigrationDataVerificationTableRowCountsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#compartment_id DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#compartment_id DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#migration_id DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#migration_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#migration_id DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#migration_id}.</summary>
         [JsiiProperty(name: "migrationId", typeJson: "{\"primitive\":\"string\"}")]
         string MigrationId
         {
@@ -23,7 +23,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#filter DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#filter DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts.IDataOciDatabaseMigrationMigrationDataVerificationTableRowCountsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseMigrationMigrationDataVerificationTableRowCounts.DataOciDatabaseMigrationMigrationDataVerificationTableRowCountsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#id DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#id DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#migration_data_verification_table_row_count_filter DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#migration_data_verification_table_row_count_filter}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#migration_data_verification_table_row_count_filter DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#migration_data_verification_table_row_count_filter}.</summary>
         [JsiiProperty(name: "migrationDataVerificationTableRowCountFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? MigrationDataVerificationTableRowCountFilter
@@ -62,7 +62,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#min_abs_delta_percent DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#min_abs_delta_percent}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#min_abs_delta_percent DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#min_abs_delta_percent}.</summary>
         [JsiiProperty(name: "minAbsDeltaPercent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MinAbsDeltaPercent
@@ -73,7 +73,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#owner DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#owner}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#owner DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#owner}.</summary>
         [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Owner
@@ -84,7 +84,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#table_name DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#table_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#table_name DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#table_name}.</summary>
         [JsiiProperty(name: "tableName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TableName
@@ -102,14 +102,14 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#compartment_id DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#compartment_id DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#migration_id DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#migration_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#migration_id DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#migration_id}.</summary>
             [JsiiProperty(name: "migrationId", typeJson: "{\"primitive\":\"string\"}")]
             public string MigrationId
             {
@@ -118,7 +118,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#filter DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#filter DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts.IDataOciDatabaseMigrationMigrationDataVerificationTableRowCountsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -128,7 +128,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#id DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#id DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -140,7 +140,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#migration_data_verification_table_row_count_filter DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#migration_data_verification_table_row_count_filter}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#migration_data_verification_table_row_count_filter DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#migration_data_verification_table_row_count_filter}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "migrationDataVerificationTableRowCountFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? MigrationDataVerificationTableRowCountFilter
@@ -148,7 +148,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#min_abs_delta_percent DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#min_abs_delta_percent}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#min_abs_delta_percent DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#min_abs_delta_percent}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "minAbsDeltaPercent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MinAbsDeltaPercent
@@ -156,7 +156,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#owner DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#owner}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#owner DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#owner}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "owner", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Owner
@@ -164,7 +164,7 @@ namespace oci.DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#table_name DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#table_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_migration_migration_data_verification_table_row_counts#table_name DataOciDatabaseMigrationMigrationDataVerificationTableRowCounts#table_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tableName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TableName

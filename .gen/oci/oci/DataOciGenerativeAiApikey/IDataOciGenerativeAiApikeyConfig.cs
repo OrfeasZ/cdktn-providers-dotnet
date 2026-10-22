@@ -7,7 +7,7 @@ namespace oci.DataOciGenerativeAiApikey
     [JsiiInterface(nativeType: typeof(IDataOciGenerativeAiApikeyConfig), fullyQualifiedName: "oci.dataOciGenerativeAiApikey.DataOciGenerativeAiApikeyConfig")]
     public interface IDataOciGenerativeAiApikeyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/generative_ai_apikey#api_key_id DataOciGenerativeAiApikey#api_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/generative_ai_apikey#api_key_id DataOciGenerativeAiApikey#api_key_id}.</summary>
         [JsiiProperty(name: "apiKeyId", typeJson: "{\"primitive\":\"string\"}")]
         string ApiKeyId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciGenerativeAiApikey
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/data-sources/generative_ai_apikey#api_key_id DataOciGenerativeAiApikey#api_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/generative_ai_apikey#api_key_id DataOciGenerativeAiApikey#api_key_id}.</summary>
             [JsiiProperty(name: "apiKeyId", typeJson: "{\"primitive\":\"string\"}")]
             public string ApiKeyId
             {

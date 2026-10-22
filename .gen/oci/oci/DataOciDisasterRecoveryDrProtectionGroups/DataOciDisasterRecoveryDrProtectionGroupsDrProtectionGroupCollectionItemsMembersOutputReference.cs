@@ -155,6 +155,12 @@ namespace oci.DataOciDisasterRecoveryDrProtectionGroups
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "drDrillProperties", typeJson: "{\"fqn\":\"oci.dataOciDisasterRecoveryDrProtectionGroups.DataOciDisasterRecoveryDrProtectionGroupsDrProtectionGroupCollectionItemsMembersDrDrillPropertiesList\"}")]
+        public virtual oci.DataOciDisasterRecoveryDrProtectionGroups.DataOciDisasterRecoveryDrProtectionGroupsDrProtectionGroupCollectionItemsMembersDrDrillPropertiesList DrDrillProperties
+        {
+            get => GetInstanceProperty<oci.DataOciDisasterRecoveryDrProtectionGroups.DataOciDisasterRecoveryDrProtectionGroupsDrProtectionGroupCollectionItemsMembersDrDrillPropertiesList>()!;
+        }
+
         [JsiiProperty(name: "exportMappings", typeJson: "{\"fqn\":\"oci.dataOciDisasterRecoveryDrProtectionGroups.DataOciDisasterRecoveryDrProtectionGroupsDrProtectionGroupCollectionItemsMembersExportMappingsList\"}")]
         public virtual oci.DataOciDisasterRecoveryDrProtectionGroups.DataOciDisasterRecoveryDrProtectionGroupsDrProtectionGroupCollectionItemsMembersExportMappingsList ExportMappings
         {

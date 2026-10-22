@@ -7,7 +7,7 @@ namespace oci.OciProductCatalogInternalAdminProduct
     [JsiiByValue(fqn: "oci.ociProductCatalogInternalAdminProduct.OciProductCatalogInternalAdminProductTimeouts")]
     public class OciProductCatalogInternalAdminProductTimeouts : oci.OciProductCatalogInternalAdminProduct.IOciProductCatalogInternalAdminProductTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_admin_product#create OciProductCatalogInternalAdminProduct#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/oci_product_catalog_internal_admin_product#create OciProductCatalogInternalAdminProduct#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace oci.OciProductCatalogInternalAdminProduct
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_admin_product#delete OciProductCatalogInternalAdminProduct#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/oci_product_catalog_internal_admin_product#delete OciProductCatalogInternalAdminProduct#delete}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Delete
@@ -25,7 +25,7 @@ namespace oci.OciProductCatalogInternalAdminProduct
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.10.0/docs/resources/oci_product_catalog_internal_admin_product#update OciProductCatalogInternalAdminProduct#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/oci_product_catalog_internal_admin_product#update OciProductCatalogInternalAdminProduct#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

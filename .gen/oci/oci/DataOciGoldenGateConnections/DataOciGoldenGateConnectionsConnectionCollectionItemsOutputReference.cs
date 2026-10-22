@@ -65,6 +65,12 @@ namespace oci.DataOciGoldenGateConnections
             get => GetInstanceProperty<oci.DataOciGoldenGateConnections.DataOciGoldenGateConnectionsConnectionCollectionItemsAdditionalAttributesList>()!;
         }
 
+        [JsiiProperty(name: "artifactLocation", typeJson: "{\"fqn\":\"oci.dataOciGoldenGateConnections.DataOciGoldenGateConnectionsConnectionCollectionItemsArtifactLocationList\"}")]
+        public virtual oci.DataOciGoldenGateConnections.DataOciGoldenGateConnectionsConnectionCollectionItemsArtifactLocationList ArtifactLocation
+        {
+            get => GetInstanceProperty<oci.DataOciGoldenGateConnections.DataOciGoldenGateConnectionsConnectionCollectionItemsArtifactLocationList>()!;
+        }
+
         [JsiiProperty(name: "authDetails", typeJson: "{\"fqn\":\"oci.dataOciGoldenGateConnections.DataOciGoldenGateConnectionsConnectionCollectionItemsAuthDetailsList\"}")]
         public virtual oci.DataOciGoldenGateConnections.DataOciGoldenGateConnectionsConnectionCollectionItemsAuthDetailsList AuthDetails
         {
@@ -79,6 +85,30 @@ namespace oci.DataOciGoldenGateConnections
 
         [JsiiProperty(name: "authenticationType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string AuthenticationType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "authSecret", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AuthSecret
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "authSecretSecretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AuthSecretSecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "authToken", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AuthToken
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "authTokenSecretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AuthTokenSecretId
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -121,6 +151,12 @@ namespace oci.DataOciGoldenGateConnections
 
         [JsiiProperty(name: "clientSecretSecretId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ClientSecretSecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "clusterEndpoint", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ClusterEndpoint
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -335,6 +371,12 @@ namespace oci.DataOciGoldenGateConnections
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "keyStoreType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string KeyStoreType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "lifecycleDetails", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LifecycleDetails
         {
@@ -419,6 +461,12 @@ namespace oci.DataOciGoldenGateConnections
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "providerId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ProviderId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "providerType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ProviderType
         {
@@ -443,8 +491,32 @@ namespace oci.DataOciGoldenGateConnections
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "restAuthSecretKey", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RestAuthSecretKey
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "restAuthSecretKeySecretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RestAuthSecretKeySecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "restEndpoint", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RestEndpoint
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "routingMethod", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string RoutingMethod
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "rpcCipher", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RpcCipher
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -629,6 +701,12 @@ namespace oci.DataOciGoldenGateConnections
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "submitMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SubmitMode
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SubnetId
         {
@@ -707,6 +785,12 @@ namespace oci.DataOciGoldenGateConnections
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "tlsProtocol", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TlsProtocol
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "triggerRefresh", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable TriggerRefresh
         {
@@ -733,6 +817,12 @@ namespace oci.DataOciGoldenGateConnections
 
         [JsiiProperty(name: "trustStoreSecretId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TrustStoreSecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "trustStoreType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TrustStoreType
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -769,6 +859,12 @@ namespace oci.DataOciGoldenGateConnections
 
         [JsiiProperty(name: "walletSecretId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string WalletSecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "workspaceUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string WorkspaceUrl
         {
             get => GetInstanceProperty<string>()!;
         }
