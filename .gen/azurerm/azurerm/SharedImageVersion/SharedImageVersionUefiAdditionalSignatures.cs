@@ -11,7 +11,7 @@ namespace azurerm.SharedImageVersion
 
         /// <summary>db block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/shared_image_version#db SharedImageVersion#db}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/shared_image_version#db SharedImageVersion#db}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SharedImageVersion.ISharedImageVersionUefiAdditionalSignaturesDb" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace azurerm.SharedImageVersion
 
         /// <summary>dbx block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/shared_image_version#dbx SharedImageVersion#dbx}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/shared_image_version#dbx SharedImageVersion#dbx}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SharedImageVersion.ISharedImageVersionUefiAdditionalSignaturesDbx" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -81,7 +81,7 @@ namespace azurerm.SharedImageVersion
 
         /// <summary>kek block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/shared_image_version#kek SharedImageVersion#kek}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/shared_image_version#kek SharedImageVersion#kek}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.SharedImageVersion.ISharedImageVersionUefiAdditionalSignaturesKek" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -114,7 +114,7 @@ namespace azurerm.SharedImageVersion
 
         /// <summary>pk block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/shared_image_version#pk SharedImageVersion#pk}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/shared_image_version#pk SharedImageVersion#pk}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pk", typeJson: "{\"fqn\":\"azurerm.sharedImageVersion.SharedImageVersionUefiAdditionalSignaturesPk\"}", isOptional: true)]

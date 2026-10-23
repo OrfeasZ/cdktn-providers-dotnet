@@ -9,7 +9,7 @@ namespace azurerm.SharedImageVersion
     [JsiiByValue(fqn: "azurerm.sharedImageVersion.SharedImageVersionUefi")]
     public class SharedImageVersionUefi : azurerm.SharedImageVersion.ISharedImageVersionUefi
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/shared_image_version#signature_template_names SharedImageVersion#signature_template_names}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/shared_image_version#signature_template_names SharedImageVersion#signature_template_names}.</summary>
         [JsiiProperty(name: "signatureTemplateNames", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] SignatureTemplateNames
         {
@@ -19,7 +19,7 @@ namespace azurerm.SharedImageVersion
 
         /// <summary>additional_signatures block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.10.0/docs/resources/shared_image_version#additional_signatures SharedImageVersion#additional_signatures}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/resources/shared_image_version#additional_signatures SharedImageVersion#additional_signatures}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "additionalSignatures", typeJson: "{\"fqn\":\"azurerm.sharedImageVersion.SharedImageVersionUefiAdditionalSignatures\"}", isOptional: true)]
