@@ -11,7 +11,7 @@ namespace hcloud.DataHcloudNetworkMembers
     {
         /// <summary>ID the Network to list the members of.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.70.0/docs/data-sources/network_members#network_id DataHcloudNetworkMembers#network_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.70.1/docs/data-sources/network_members#network_id DataHcloudNetworkMembers#network_id}
         /// </remarks>
         [JsiiProperty(name: "networkId", typeJson: "{\"primitive\":\"number\"}")]
         public double NetworkId
@@ -22,7 +22,7 @@ namespace hcloud.DataHcloudNetworkMembers
 
         /// <summary>Filter members by status. May be used multiple times.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.70.0/docs/data-sources/network_members#with_status DataHcloudNetworkMembers#with_status}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.70.1/docs/data-sources/network_members#with_status DataHcloudNetworkMembers#with_status}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "withStatus", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace hcloud.DataHcloudNetworkMembers
 
         /// <summary>Filter members by subnet. May be used multiple times.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.70.0/docs/data-sources/network_members#with_subnet DataHcloudNetworkMembers#with_subnet}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.70.1/docs/data-sources/network_members#with_subnet DataHcloudNetworkMembers#with_subnet}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "withSubnet", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace hcloud.DataHcloudNetworkMembers
 
         /// <summary>Filter members by type. May be used multiple times.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.70.0/docs/data-sources/network_members#with_type DataHcloudNetworkMembers#with_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hetznercloud/hcloud/1.70.1/docs/data-sources/network_members#with_type DataHcloudNetworkMembers#with_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "withType", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
