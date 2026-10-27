@@ -7,7 +7,7 @@ namespace scaleway.DataScalewaySdbSqlVersions
     [JsiiByValue(fqn: "scaleway.dataScalewaySdbSqlVersions.DataScalewaySdbSqlVersionsConfig")]
     public class DataScalewaySdbSqlVersionsConfig : scaleway.DataScalewaySdbSqlVersions.IDataScalewaySdbSqlVersionsConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/data-sources/sdb_sql_versions#id DataScalewaySdbSqlVersions#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/data-sources/sdb_sql_versions#id DataScalewaySdbSqlVersions#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -22,7 +22,7 @@ namespace scaleway.DataScalewaySdbSqlVersions
 
         /// <summary>Filter Serverless SQL Database versions that match a given name pattern (e.g. `16`).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/data-sources/sdb_sql_versions#name DataScalewaySdbSqlVersions#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/data-sources/sdb_sql_versions#name DataScalewaySdbSqlVersions#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace scaleway.DataScalewaySdbSqlVersions
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/data-sources/sdb_sql_versions#region DataScalewaySdbSqlVersions#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/data-sources/sdb_sql_versions#region DataScalewaySdbSqlVersions#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

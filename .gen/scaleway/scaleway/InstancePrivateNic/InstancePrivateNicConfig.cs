@@ -11,7 +11,7 @@ namespace scaleway.InstancePrivateNic
     {
         /// <summary>The private network ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/instance_private_nic#private_network_id InstancePrivateNic#private_network_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/resources/instance_private_nic#private_network_id InstancePrivateNic#private_network_id}
         /// </remarks>
         [JsiiProperty(name: "privateNetworkId", typeJson: "{\"primitive\":\"string\"}")]
         public string PrivateNetworkId
@@ -20,18 +20,7 @@ namespace scaleway.InstancePrivateNic
             set;
         }
 
-        /// <summary>The server ID.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/instance_private_nic#server_id InstancePrivateNic#server_id}
-        /// </remarks>
-        [JsiiProperty(name: "serverId", typeJson: "{\"primitive\":\"string\"}")]
-        public string ServerId
-        {
-            get;
-            set;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/instance_private_nic#id InstancePrivateNic#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/resources/instance_private_nic#id InstancePrivateNic#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +35,7 @@ namespace scaleway.InstancePrivateNic
 
         /// <summary>IPAM IDs of a pre-reserved IP addresses to assign to the Instance in the requested private network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/instance_private_nic#ipam_ip_ids InstancePrivateNic#ipam_ip_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/resources/instance_private_nic#ipam_ip_ids InstancePrivateNic#ipam_ip_ids}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipamIpIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -58,7 +47,7 @@ namespace scaleway.InstancePrivateNic
 
         /// <summary>IPAM ip list, should be for internal use only.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/instance_private_nic#ip_ids InstancePrivateNic#ip_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/resources/instance_private_nic#ip_ids InstancePrivateNic#ip_ids}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ipIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -72,7 +61,7 @@ namespace scaleway.InstancePrivateNic
 
         /// <summary>private_ips block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/instance_private_nic#private_ips InstancePrivateNic#private_ips}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/resources/instance_private_nic#private_ips InstancePrivateNic#private_ips}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="scaleway.InstancePrivateNic.IInstancePrivateNicPrivateIps" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -105,7 +94,7 @@ namespace scaleway.InstancePrivateNic
 
         /// <summary>The project_id you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/instance_private_nic#project_id InstancePrivateNic#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/resources/instance_private_nic#project_id InstancePrivateNic#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -115,9 +104,33 @@ namespace scaleway.InstancePrivateNic
             set;
         }
 
+        /// <summary>The ID of the security group associated with this interface.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/resources/instance_private_nic#security_group_id InstancePrivateNic#security_group_id}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "securityGroupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? SecurityGroupId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>The server ID.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/resources/instance_private_nic#server_id InstancePrivateNic#server_id}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "serverId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ServerId
+        {
+            get;
+            set;
+        }
+
         /// <summary>The tags associated with the private-nic.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/instance_private_nic#tags InstancePrivateNic#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/resources/instance_private_nic#tags InstancePrivateNic#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -129,7 +142,7 @@ namespace scaleway.InstancePrivateNic
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/instance_private_nic#timeouts InstancePrivateNic#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/resources/instance_private_nic#timeouts InstancePrivateNic#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.instancePrivateNic.InstancePrivateNicTimeouts\"}", isOptional: true)]
@@ -141,7 +154,7 @@ namespace scaleway.InstancePrivateNic
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/instance_private_nic#zone InstancePrivateNic#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/resources/instance_private_nic#zone InstancePrivateNic#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

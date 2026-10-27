@@ -13,7 +13,7 @@ namespace scaleway.MailboxAlias
         /// <remarks>
         /// <strong></strong>: ). Changing this forces a new alias.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/mailbox_alias#local_part MailboxAlias#local_part}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/resources/mailbox_alias#local_part MailboxAlias#local_part}
         /// </remarks>
         [JsiiProperty(name: "localPart", typeJson: "{\"primitive\":\"string\"}")]
         public string LocalPart
@@ -24,7 +24,7 @@ namespace scaleway.MailboxAlias
 
         /// <summary>ID of the mailbox to which this alias belongs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/mailbox_alias#mailbox_id MailboxAlias#mailbox_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/resources/mailbox_alias#mailbox_id MailboxAlias#mailbox_id}
         /// </remarks>
         [JsiiProperty(name: "mailboxId", typeJson: "{\"primitive\":\"string\"}")]
         public string MailboxId
@@ -35,7 +35,7 @@ namespace scaleway.MailboxAlias
 
         /// <summary>Description of the alias. Omit the attribute to leave it empty; an empty string is not allowed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.88.0/docs/resources/mailbox_alias#description MailboxAlias#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/resources/mailbox_alias#description MailboxAlias#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
