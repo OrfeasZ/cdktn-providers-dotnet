@@ -65,6 +65,12 @@ namespace aws.DataAwsBackupPlan
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        [JsiiProperty(name: "ruleId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RuleId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "ruleName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string RuleName
         {

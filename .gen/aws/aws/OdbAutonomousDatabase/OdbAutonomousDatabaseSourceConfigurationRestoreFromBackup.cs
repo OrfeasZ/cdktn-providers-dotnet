@@ -11,7 +11,7 @@ namespace aws.OdbAutonomousDatabase
     {
         /// <summary>ID of the Autonomous Database backup.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/odb_autonomous_database#autonomous_database_backup_id OdbAutonomousDatabase#autonomous_database_backup_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/odb_autonomous_database#autonomous_database_backup_id OdbAutonomousDatabase#autonomous_database_backup_id}
         /// </remarks>
         [JsiiProperty(name: "autonomousDatabaseBackupId", typeJson: "{\"primitive\":\"string\"}")]
         public string AutonomousDatabaseBackupId
@@ -22,7 +22,7 @@ namespace aws.OdbAutonomousDatabase
 
         /// <summary>Type of clone to create from the backup.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/odb_autonomous_database#clone_type OdbAutonomousDatabase#clone_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/odb_autonomous_database#clone_type OdbAutonomousDatabase#clone_type}
         /// </remarks>
         [JsiiProperty(name: "cloneType", typeJson: "{\"primitive\":\"string\"}")]
         public string CloneType
@@ -33,7 +33,7 @@ namespace aws.OdbAutonomousDatabase
 
         /// <summary>Tablespace IDs to clone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/odb_autonomous_database#clone_table_space_list OdbAutonomousDatabase#clone_table_space_list}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/odb_autonomous_database#clone_table_space_list OdbAutonomousDatabase#clone_table_space_list}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloneTableSpaceList", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"number\"},\"kind\":\"array\"}}", isOptional: true)]

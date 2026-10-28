@@ -7,7 +7,7 @@ namespace aws.CloudwatchMetricAlarm
     [JsiiInterface(nativeType: typeof(ICloudwatchMetricAlarmEvaluationWindowWallClockWindow), fullyQualifiedName: "aws.cloudwatchMetricAlarm.CloudwatchMetricAlarmEvaluationWindowWallClockWindow")]
     public interface ICloudwatchMetricAlarmEvaluationWindowWallClockWindow
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_metric_alarm#timezone CloudwatchMetricAlarm#timezone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/cloudwatch_metric_alarm#timezone CloudwatchMetricAlarm#timezone}.</summary>
         [JsiiProperty(name: "timezone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Timezone
@@ -25,7 +25,7 @@ namespace aws.CloudwatchMetricAlarm
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/cloudwatch_metric_alarm#timezone CloudwatchMetricAlarm#timezone}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/cloudwatch_metric_alarm#timezone CloudwatchMetricAlarm#timezone}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timezone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Timezone

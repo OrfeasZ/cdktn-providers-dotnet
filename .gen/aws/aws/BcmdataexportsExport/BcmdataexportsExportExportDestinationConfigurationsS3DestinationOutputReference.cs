@@ -59,6 +59,12 @@ namespace aws.BcmdataexportsExport
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetS3BucketOwner")]
+        public virtual void ResetS3BucketOwner()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetS3OutputConfigurations")]
         public virtual void ResetS3OutputConfigurations()
         {
@@ -74,6 +80,13 @@ namespace aws.BcmdataexportsExport
         [JsiiOptional]
         [JsiiProperty(name: "s3BucketInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? S3BucketInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "s3BucketOwnerInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? S3BucketOwnerInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -104,6 +117,13 @@ namespace aws.BcmdataexportsExport
 
         [JsiiProperty(name: "s3Bucket", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string S3Bucket
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "s3BucketOwner", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string S3BucketOwner
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

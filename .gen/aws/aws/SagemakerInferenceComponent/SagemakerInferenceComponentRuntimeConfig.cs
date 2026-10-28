@@ -9,7 +9,7 @@ namespace aws.SagemakerInferenceComponent
     [JsiiByValue(fqn: "aws.sagemakerInferenceComponent.SagemakerInferenceComponentRuntimeConfig")]
     public class SagemakerInferenceComponentRuntimeConfig : aws.SagemakerInferenceComponent.ISagemakerInferenceComponentRuntimeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_inference_component#copy_count SagemakerInferenceComponent#copy_count}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/sagemaker_inference_component#copy_count SagemakerInferenceComponent#copy_count}.</summary>
         [JsiiProperty(name: "copyCount", typeJson: "{\"primitive\":\"number\"}")]
         public double CopyCount
         {

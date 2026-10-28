@@ -41,6 +41,12 @@ namespace aws.DataAwsLambdaFunction
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "kmsKeyArn", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string KmsKeyArn
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "retentionPeriod", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double RetentionPeriod
         {

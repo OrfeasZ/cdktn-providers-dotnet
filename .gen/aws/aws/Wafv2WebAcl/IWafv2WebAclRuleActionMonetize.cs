@@ -7,7 +7,7 @@ namespace aws.Wafv2WebAcl
     [JsiiInterface(nativeType: typeof(IWafv2WebAclRuleActionMonetize), fullyQualifiedName: "aws.wafv2WebAcl.Wafv2WebAclRuleActionMonetize")]
     public interface IWafv2WebAclRuleActionMonetize
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/wafv2_web_acl#price_multiplier Wafv2WebAcl#price_multiplier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/wafv2_web_acl#price_multiplier Wafv2WebAcl#price_multiplier}.</summary>
         [JsiiProperty(name: "priceMultiplier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PriceMultiplier
@@ -25,7 +25,7 @@ namespace aws.Wafv2WebAcl
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/wafv2_web_acl#price_multiplier Wafv2WebAcl#price_multiplier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/wafv2_web_acl#price_multiplier Wafv2WebAcl#price_multiplier}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "priceMultiplier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PriceMultiplier

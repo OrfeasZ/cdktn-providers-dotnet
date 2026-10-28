@@ -9,7 +9,7 @@ namespace aws.PricingplanmanagerSubscription
     [JsiiByValue(fqn: "aws.pricingplanmanagerSubscription.PricingplanmanagerSubscriptionConfig")]
     public class PricingplanmanagerSubscriptionConfig : aws.PricingplanmanagerSubscription.IPricingplanmanagerSubscriptionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pricingplanmanager_subscription#plan_family PricingplanmanagerSubscription#plan_family}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/pricingplanmanager_subscription#plan_family PricingplanmanagerSubscription#plan_family}.</summary>
         [JsiiProperty(name: "planFamily", typeJson: "{\"primitive\":\"string\"}")]
         public string PlanFamily
         {
@@ -17,7 +17,7 @@ namespace aws.PricingplanmanagerSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pricingplanmanager_subscription#plan_tier PricingplanmanagerSubscription#plan_tier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/pricingplanmanager_subscription#plan_tier PricingplanmanagerSubscription#plan_tier}.</summary>
         [JsiiProperty(name: "planTier", typeJson: "{\"primitive\":\"string\"}")]
         public string PlanTier
         {
@@ -25,7 +25,7 @@ namespace aws.PricingplanmanagerSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pricingplanmanager_subscription#resource_arns PricingplanmanagerSubscription#resource_arns}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/pricingplanmanager_subscription#resource_arns PricingplanmanagerSubscription#resource_arns}.</summary>
         [JsiiProperty(name: "resourceArns", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] ResourceArns
         {
@@ -33,7 +33,7 @@ namespace aws.PricingplanmanagerSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pricingplanmanager_subscription#approval_mode PricingplanmanagerSubscription#approval_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/pricingplanmanager_subscription#approval_mode PricingplanmanagerSubscription#approval_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "approvalMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ApprovalMode
@@ -44,7 +44,7 @@ namespace aws.PricingplanmanagerSubscription
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pricingplanmanager_subscription#timeouts PricingplanmanagerSubscription#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/pricingplanmanager_subscription#timeouts PricingplanmanagerSubscription#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.pricingplanmanagerSubscription.PricingplanmanagerSubscriptionTimeouts\"}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace aws.PricingplanmanagerSubscription
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/pricingplanmanager_subscription#usage_level PricingplanmanagerSubscription#usage_level}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/pricingplanmanager_subscription#usage_level PricingplanmanagerSubscription#usage_level}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "usageLevel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? UsageLevel

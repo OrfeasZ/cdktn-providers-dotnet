@@ -35,16 +35,34 @@ namespace aws.SagemakerModel
         {
         }
 
+        [JsiiMethod(name: "putHubAccessConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSourceS3DataSourceHubAccessConfig\"}}]")]
+        public virtual void PutHubAccessConfig(aws.SagemakerModel.ISagemakerModelContainerAdditionalModelDataSourceS3DataSourceHubAccessConfig @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.SagemakerModel.ISagemakerModelContainerAdditionalModelDataSourceS3DataSourceHubAccessConfig)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putModelAccessConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSourceS3DataSourceModelAccessConfig\"}}]")]
         public virtual void PutModelAccessConfig(aws.SagemakerModel.ISagemakerModelContainerAdditionalModelDataSourceS3DataSourceModelAccessConfig @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.SagemakerModel.ISagemakerModelContainerAdditionalModelDataSourceS3DataSourceModelAccessConfig)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetHubAccessConfig")]
+        public virtual void ResetHubAccessConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetModelAccessConfig")]
         public virtual void ResetModelAccessConfig()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "hubAccessConfig", typeJson: "{\"fqn\":\"aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSourceS3DataSourceHubAccessConfigOutputReference\"}")]
+        public virtual aws.SagemakerModel.SagemakerModelContainerAdditionalModelDataSourceS3DataSourceHubAccessConfigOutputReference HubAccessConfig
+        {
+            get => GetInstanceProperty<aws.SagemakerModel.SagemakerModelContainerAdditionalModelDataSourceS3DataSourceHubAccessConfigOutputReference>()!;
         }
 
         [JsiiProperty(name: "modelAccessConfig", typeJson: "{\"fqn\":\"aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigOutputReference\"}")]
@@ -58,6 +76,13 @@ namespace aws.SagemakerModel
         public virtual string? CompressionTypeInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "hubAccessConfigInput", typeJson: "{\"fqn\":\"aws.sagemakerModel.SagemakerModelContainerAdditionalModelDataSourceS3DataSourceHubAccessConfig\"}", isOptional: true)]
+        public virtual aws.SagemakerModel.ISagemakerModelContainerAdditionalModelDataSourceS3DataSourceHubAccessConfig? HubAccessConfigInput
+        {
+            get => GetInstanceProperty<aws.SagemakerModel.ISagemakerModelContainerAdditionalModelDataSourceS3DataSourceHubAccessConfig?>();
         }
 
         [JsiiOptional]

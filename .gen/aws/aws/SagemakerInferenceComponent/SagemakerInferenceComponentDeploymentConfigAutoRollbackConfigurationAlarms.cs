@@ -9,7 +9,7 @@ namespace aws.SagemakerInferenceComponent
     [JsiiByValue(fqn: "aws.sagemakerInferenceComponent.SagemakerInferenceComponentDeploymentConfigAutoRollbackConfigurationAlarms")]
     public class SagemakerInferenceComponentDeploymentConfigAutoRollbackConfigurationAlarms : aws.SagemakerInferenceComponent.ISagemakerInferenceComponentDeploymentConfigAutoRollbackConfigurationAlarms
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_inference_component#alarm_name SagemakerInferenceComponent#alarm_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/sagemaker_inference_component#alarm_name SagemakerInferenceComponent#alarm_name}.</summary>
         [JsiiProperty(name: "alarmName", typeJson: "{\"primitive\":\"string\"}")]
         public string AlarmName
         {

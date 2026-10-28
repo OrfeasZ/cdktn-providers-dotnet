@@ -33,6 +33,12 @@ namespace aws.LambdaFunction
         {
         }
 
+        [JsiiMethod(name: "resetKmsKeyArn")]
+        public virtual void ResetKmsKeyArn()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetRetentionPeriod")]
         public virtual void ResetRetentionPeriod()
         {
@@ -47,6 +53,13 @@ namespace aws.LambdaFunction
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "kmsKeyArnInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? KmsKeyArnInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "retentionPeriodInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? RetentionPeriodInput
         {
@@ -57,6 +70,13 @@ namespace aws.LambdaFunction
         public virtual double ExecutionTimeout
         {
             get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "kmsKeyArn", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string KmsKeyArn
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

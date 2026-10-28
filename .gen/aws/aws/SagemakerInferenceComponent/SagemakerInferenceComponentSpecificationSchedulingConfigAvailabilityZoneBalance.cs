@@ -9,7 +9,7 @@ namespace aws.SagemakerInferenceComponent
     [JsiiByValue(fqn: "aws.sagemakerInferenceComponent.SagemakerInferenceComponentSpecificationSchedulingConfigAvailabilityZoneBalance")]
     public class SagemakerInferenceComponentSpecificationSchedulingConfigAvailabilityZoneBalance : aws.SagemakerInferenceComponent.ISagemakerInferenceComponentSpecificationSchedulingConfigAvailabilityZoneBalance
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_inference_component#enforcement_mode SagemakerInferenceComponent#enforcement_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/sagemaker_inference_component#enforcement_mode SagemakerInferenceComponent#enforcement_mode}.</summary>
         [JsiiProperty(name: "enforcementMode", typeJson: "{\"primitive\":\"string\"}")]
         public string EnforcementMode
         {
@@ -17,7 +17,7 @@ namespace aws.SagemakerInferenceComponent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_inference_component#max_imbalance SagemakerInferenceComponent#max_imbalance}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/sagemaker_inference_component#max_imbalance SagemakerInferenceComponent#max_imbalance}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "maxImbalance", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MaxImbalance

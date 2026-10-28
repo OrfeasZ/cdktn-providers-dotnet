@@ -39,6 +39,12 @@ namespace aws.NetworkfirewallFirewallPolicy
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.NetworkfirewallFirewallPolicy.INetworkfirewallFirewallPolicyFirewallPolicyPolicyVariables)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putRoute53ResolvedIpValidation", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.networkfirewallFirewallPolicy.NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation\"}}]")]
+        public virtual void PutRoute53ResolvedIpValidation(aws.NetworkfirewallFirewallPolicy.INetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.NetworkfirewallFirewallPolicy.INetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putStatefulEngineOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.networkfirewallFirewallPolicy.NetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptions\"}}]")]
         public virtual void PutStatefulEngineOptions(aws.NetworkfirewallFirewallPolicy.INetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptions @value)
         {
@@ -129,6 +135,12 @@ namespace aws.NetworkfirewallFirewallPolicy
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetRoute53ResolvedIpValidation")]
+        public virtual void ResetRoute53ResolvedIpValidation()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetStatefulDefaultActions")]
         public virtual void ResetStatefulDefaultActions()
         {
@@ -171,6 +183,12 @@ namespace aws.NetworkfirewallFirewallPolicy
             get => GetInstanceProperty<aws.NetworkfirewallFirewallPolicy.NetworkfirewallFirewallPolicyFirewallPolicyPolicyVariablesOutputReference>()!;
         }
 
+        [JsiiProperty(name: "route53ResolvedIpValidation", typeJson: "{\"fqn\":\"aws.networkfirewallFirewallPolicy.NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationOutputReference\"}")]
+        public virtual aws.NetworkfirewallFirewallPolicy.NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationOutputReference Route53ResolvedIpValidation
+        {
+            get => GetInstanceProperty<aws.NetworkfirewallFirewallPolicy.NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationOutputReference>()!;
+        }
+
         [JsiiProperty(name: "statefulEngineOptions", typeJson: "{\"fqn\":\"aws.networkfirewallFirewallPolicy.NetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptionsOutputReference\"}")]
         public virtual aws.NetworkfirewallFirewallPolicy.NetworkfirewallFirewallPolicyFirewallPolicyStatefulEngineOptionsOutputReference StatefulEngineOptions
         {
@@ -210,6 +228,13 @@ namespace aws.NetworkfirewallFirewallPolicy
         public virtual aws.NetworkfirewallFirewallPolicy.INetworkfirewallFirewallPolicyFirewallPolicyPolicyVariables? PolicyVariablesInput
         {
             get => GetInstanceProperty<aws.NetworkfirewallFirewallPolicy.INetworkfirewallFirewallPolicyFirewallPolicyPolicyVariables?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "route53ResolvedIpValidationInput", typeJson: "{\"fqn\":\"aws.networkfirewallFirewallPolicy.NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation\"}", isOptional: true)]
+        public virtual aws.NetworkfirewallFirewallPolicy.INetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation? Route53ResolvedIpValidationInput
+        {
+            get => GetInstanceProperty<aws.NetworkfirewallFirewallPolicy.INetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation?>();
         }
 
         [JsiiOptional]

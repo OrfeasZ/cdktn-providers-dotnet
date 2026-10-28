@@ -9,7 +9,7 @@ namespace aws.SagemakerInferenceComponent
     [JsiiByValue(fqn: "aws.sagemakerInferenceComponent.SagemakerInferenceComponentSpecificationContainerContainerMetricsConfigMetricsEndpoint")]
     public class SagemakerInferenceComponentSpecificationContainerContainerMetricsConfigMetricsEndpoint : aws.SagemakerInferenceComponent.ISagemakerInferenceComponentSpecificationContainerContainerMetricsConfigMetricsEndpoint
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_inference_component#metrics_endpoint_path SagemakerInferenceComponent#metrics_endpoint_path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/sagemaker_inference_component#metrics_endpoint_path SagemakerInferenceComponent#metrics_endpoint_path}.</summary>
         [JsiiProperty(name: "metricsEndpointPath", typeJson: "{\"primitive\":\"string\"}")]
         public string MetricsEndpointPath
         {
@@ -17,7 +17,7 @@ namespace aws.SagemakerInferenceComponent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/sagemaker_inference_component#metric_publish_frequency_in_seconds SagemakerInferenceComponent#metric_publish_frequency_in_seconds}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/sagemaker_inference_component#metric_publish_frequency_in_seconds SagemakerInferenceComponent#metric_publish_frequency_in_seconds}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "metricPublishFrequencyInSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? MetricPublishFrequencyInSeconds

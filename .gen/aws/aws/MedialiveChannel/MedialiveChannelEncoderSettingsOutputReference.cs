@@ -129,6 +129,12 @@ namespace aws.MedialiveChannel
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putThumbnailConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsThumbnailConfiguration\"}}]")]
+        public virtual void PutThumbnailConfiguration(aws.MedialiveChannel.IMedialiveChannelEncoderSettingsThumbnailConfiguration @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.MedialiveChannel.IMedialiveChannelEncoderSettingsThumbnailConfiguration)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putTimecodeConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsTimecodeConfig\"}}]")]
         public virtual void PutTimecodeConfig(aws.MedialiveChannel.IMedialiveChannelEncoderSettingsTimecodeConfig @value)
         {
@@ -195,6 +201,12 @@ namespace aws.MedialiveChannel
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetThumbnailConfiguration")]
+        public virtual void ResetThumbnailConfiguration()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetVideoDescriptions")]
         public virtual void ResetVideoDescriptions()
         {
@@ -241,6 +253,12 @@ namespace aws.MedialiveChannel
         public virtual aws.MedialiveChannel.MedialiveChannelEncoderSettingsOutputGroupsList OutputGroups
         {
             get => GetInstanceProperty<aws.MedialiveChannel.MedialiveChannelEncoderSettingsOutputGroupsList>()!;
+        }
+
+        [JsiiProperty(name: "thumbnailConfiguration", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsThumbnailConfigurationOutputReference\"}")]
+        public virtual aws.MedialiveChannel.MedialiveChannelEncoderSettingsThumbnailConfigurationOutputReference ThumbnailConfiguration
+        {
+            get => GetInstanceProperty<aws.MedialiveChannel.MedialiveChannelEncoderSettingsThumbnailConfigurationOutputReference>()!;
         }
 
         [JsiiProperty(name: "timecodeConfig", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsTimecodeConfigOutputReference\"}")]
@@ -311,6 +329,13 @@ namespace aws.MedialiveChannel
         public virtual object? OutputGroupsInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "thumbnailConfigurationInput", typeJson: "{\"fqn\":\"aws.medialiveChannel.MedialiveChannelEncoderSettingsThumbnailConfiguration\"}", isOptional: true)]
+        public virtual aws.MedialiveChannel.IMedialiveChannelEncoderSettingsThumbnailConfiguration? ThumbnailConfigurationInput
+        {
+            get => GetInstanceProperty<aws.MedialiveChannel.IMedialiveChannelEncoderSettingsThumbnailConfiguration?>();
         }
 
         [JsiiOptional]

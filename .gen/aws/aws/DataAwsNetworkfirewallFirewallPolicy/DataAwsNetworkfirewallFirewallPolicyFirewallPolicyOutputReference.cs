@@ -47,6 +47,12 @@ namespace aws.DataAwsNetworkfirewallFirewallPolicy
             get => GetInstanceProperty<aws.DataAwsNetworkfirewallFirewallPolicy.DataAwsNetworkfirewallFirewallPolicyFirewallPolicyPolicyVariablesList>()!;
         }
 
+        [JsiiProperty(name: "route53ResolvedIpValidation", typeJson: "{\"fqn\":\"aws.dataAwsNetworkfirewallFirewallPolicy.DataAwsNetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationList\"}")]
+        public virtual aws.DataAwsNetworkfirewallFirewallPolicy.DataAwsNetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationList Route53ResolvedIpValidation
+        {
+            get => GetInstanceProperty<aws.DataAwsNetworkfirewallFirewallPolicy.DataAwsNetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidationList>()!;
+        }
+
         [JsiiProperty(name: "statefulDefaultActions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] StatefulDefaultActions
         {

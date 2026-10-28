@@ -9,7 +9,7 @@ namespace aws.Wafv2RuleGroup
     [JsiiByValue(fqn: "aws.wafv2RuleGroup.Wafv2RuleGroupMonetizationConfigCryptoConfigPaymentNetworkPrices")]
     public class Wafv2RuleGroupMonetizationConfigCryptoConfigPaymentNetworkPrices : aws.Wafv2RuleGroup.IWafv2RuleGroupMonetizationConfigCryptoConfigPaymentNetworkPrices
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/wafv2_rule_group#amount Wafv2RuleGroup#amount}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/wafv2_rule_group#amount Wafv2RuleGroup#amount}.</summary>
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"string\"}")]
         public string Amount
         {
@@ -17,7 +17,7 @@ namespace aws.Wafv2RuleGroup
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.70.0/docs/resources/wafv2_rule_group#currency Wafv2RuleGroup#currency}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/wafv2_rule_group#currency Wafv2RuleGroup#currency}.</summary>
         [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}")]
         public string Currency
         {
