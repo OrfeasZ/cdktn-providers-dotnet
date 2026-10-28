@@ -9,7 +9,7 @@ namespace tailscale.DnsSearchPaths
     {
         /// <summary>Devices on your network will use these domain suffixes to resolve DNS names.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/dns_search_paths#search_paths DnsSearchPaths#search_paths}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/dns_search_paths#search_paths DnsSearchPaths#search_paths}
         /// </remarks>
         [JsiiProperty(name: "searchPaths", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] SearchPaths
@@ -26,7 +26,7 @@ namespace tailscale.DnsSearchPaths
 
             /// <summary>Devices on your network will use these domain suffixes to resolve DNS names.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/dns_search_paths#search_paths DnsSearchPaths#search_paths}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/dns_search_paths#search_paths DnsSearchPaths#search_paths}
             /// </remarks>
             [JsiiProperty(name: "searchPaths", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] SearchPaths

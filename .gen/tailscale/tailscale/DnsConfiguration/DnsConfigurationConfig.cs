@@ -11,7 +11,7 @@ namespace tailscale.DnsConfiguration
 
         /// <summary>Whether or not to enable MagicDNS. Defaults to true.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/dns_configuration#magic_dns DnsConfiguration#magic_dns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/dns_configuration#magic_dns DnsConfiguration#magic_dns}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace tailscale.DnsConfiguration
 
         /// <summary>nameservers block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/dns_configuration#nameservers DnsConfiguration#nameservers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/dns_configuration#nameservers DnsConfiguration#nameservers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.DnsConfiguration.IDnsConfigurationNameservers" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -83,7 +83,7 @@ namespace tailscale.DnsConfiguration
         /// <remarks>
         /// When disabled, devices will prefer their local DNS configuration. Defaults to false.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/dns_configuration#override_local_dns DnsConfiguration#override_local_dns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/dns_configuration#override_local_dns DnsConfiguration#override_local_dns}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -116,7 +116,7 @@ namespace tailscale.DnsConfiguration
 
         /// <summary>Additional search domains. When MagicDNS is on, the tailnet domain is automatically included as the first search domain.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/dns_configuration#search_paths DnsConfiguration#search_paths}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/dns_configuration#search_paths DnsConfiguration#search_paths}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "searchPaths", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -130,7 +130,7 @@ namespace tailscale.DnsConfiguration
 
         /// <summary>split_dns block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/dns_configuration#split_dns DnsConfiguration#split_dns}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/dns_configuration#split_dns DnsConfiguration#split_dns}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.DnsConfiguration.IDnsConfigurationSplitDns" />)[]</para>
         /// </remarks>
         [JsiiOptional]

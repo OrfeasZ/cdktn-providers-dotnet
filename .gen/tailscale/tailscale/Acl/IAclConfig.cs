@@ -11,7 +11,7 @@ namespace tailscale.Acl
         /// <remarks>
         /// Can be either a JSON or a HuJSON string.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/acl#acl Acl#acl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/acl#acl Acl#acl}
         /// </remarks>
         [JsiiProperty(name: "acl", typeJson: "{\"primitive\":\"string\"}")]
         string Acl
@@ -23,7 +23,7 @@ namespace tailscale.Acl
         /// <remarks>
         /// Be careful, can cause the policy file to be overwritten
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/acl#overwrite_existing_content Acl#overwrite_existing_content}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/acl#overwrite_existing_content Acl#overwrite_existing_content}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "overwriteExistingContent", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -38,7 +38,7 @@ namespace tailscale.Acl
 
         /// <summary>If true, will reset the policy file for the Tailnet to the default when this resource is destroyed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/acl#reset_acl_on_destroy Acl#reset_acl_on_destroy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/acl#reset_acl_on_destroy Acl#reset_acl_on_destroy}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "resetAclOnDestroy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -62,7 +62,7 @@ namespace tailscale.Acl
             /// <remarks>
             /// Can be either a JSON or a HuJSON string.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/acl#acl Acl#acl}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/acl#acl Acl#acl}
             /// </remarks>
             [JsiiProperty(name: "acl", typeJson: "{\"primitive\":\"string\"}")]
             public string Acl
@@ -74,7 +74,7 @@ namespace tailscale.Acl
             /// <remarks>
             /// Be careful, can cause the policy file to be overwritten
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/acl#overwrite_existing_content Acl#overwrite_existing_content}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/acl#overwrite_existing_content Acl#overwrite_existing_content}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -86,7 +86,7 @@ namespace tailscale.Acl
 
             /// <summary>If true, will reset the policy file for the Tailnet to the default when this resource is destroyed.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/acl#reset_acl_on_destroy Acl#reset_acl_on_destroy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/acl#reset_acl_on_destroy Acl#reset_acl_on_destroy}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

@@ -5,7 +5,7 @@ namespace tailscale.OauthClient
     /// <remarks>
     /// <h1><c>tailscale_oauth_client</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/oauth_client"><c>tailscale_oauth_client</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/oauth_client"><c>tailscale_oauth_client</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -9,7 +9,7 @@ namespace tailscale.DeviceAuthorization
     {
         /// <summary>Whether or not the device is authorized.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/device_authorization#authorized DeviceAuthorization#authorized}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/device_authorization#authorized DeviceAuthorization#authorized}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "authorized", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -20,7 +20,7 @@ namespace tailscale.DeviceAuthorization
 
         /// <summary>The device to set as authorized.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/device_authorization#device_id DeviceAuthorization#device_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/device_authorization#device_id DeviceAuthorization#device_id}
         /// </remarks>
         [JsiiProperty(name: "deviceId", typeJson: "{\"primitive\":\"string\"}")]
         string DeviceId
@@ -37,7 +37,7 @@ namespace tailscale.DeviceAuthorization
 
             /// <summary>Whether or not the device is authorized.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/device_authorization#authorized DeviceAuthorization#authorized}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/device_authorization#authorized DeviceAuthorization#authorized}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiProperty(name: "authorized", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -48,7 +48,7 @@ namespace tailscale.DeviceAuthorization
 
             /// <summary>The device to set as authorized.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/device_authorization#device_id DeviceAuthorization#device_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/device_authorization#device_id DeviceAuthorization#device_id}
             /// </remarks>
             [JsiiProperty(name: "deviceId", typeJson: "{\"primitive\":\"string\"}")]
             public string DeviceId

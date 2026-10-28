@@ -11,7 +11,7 @@ namespace tailscale.DnsConfiguration
     {
         /// <summary>The nameservers will be used only for this domain.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/dns_configuration#domain DnsConfiguration#domain}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/dns_configuration#domain DnsConfiguration#domain}
         /// </remarks>
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
         public string Domain
@@ -24,7 +24,7 @@ namespace tailscale.DnsConfiguration
 
         /// <summary>nameservers block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/dns_configuration#nameservers DnsConfiguration#nameservers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/dns_configuration#nameservers DnsConfiguration#nameservers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.DnsConfiguration.IDnsConfigurationSplitDnsNameservers" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -9,7 +9,7 @@ namespace tailscale.DnsNameservers
     {
         /// <summary>Devices on your network will use these nameservers to resolve DNS names. IPv4 or IPv6 addresses are accepted.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/dns_nameservers#nameservers DnsNameservers#nameservers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/dns_nameservers#nameservers DnsNameservers#nameservers}
         /// </remarks>
         [JsiiProperty(name: "nameservers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Nameservers
@@ -26,7 +26,7 @@ namespace tailscale.DnsNameservers
 
             /// <summary>Devices on your network will use these nameservers to resolve DNS names. IPv4 or IPv6 addresses are accepted.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/dns_nameservers#nameservers DnsNameservers#nameservers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/dns_nameservers#nameservers DnsNameservers#nameservers}
             /// </remarks>
             [JsiiProperty(name: "nameservers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Nameservers

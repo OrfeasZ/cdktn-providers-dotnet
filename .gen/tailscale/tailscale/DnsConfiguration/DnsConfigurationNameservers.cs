@@ -11,7 +11,7 @@ namespace tailscale.DnsConfiguration
     {
         /// <summary>The nameserver's IPv4 or IPv6 address.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/dns_configuration#address DnsConfiguration#address}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/dns_configuration#address DnsConfiguration#address}
         /// </remarks>
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
         public string Address
@@ -24,7 +24,7 @@ namespace tailscale.DnsConfiguration
 
         /// <summary>This nameserver will continue to be used when an exit node is selected (requires Tailscale v1.88.1 or later). Defaults to false.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/dns_configuration#use_with_exit_node DnsConfiguration#use_with_exit_node}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/dns_configuration#use_with_exit_node DnsConfiguration#use_with_exit_node}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

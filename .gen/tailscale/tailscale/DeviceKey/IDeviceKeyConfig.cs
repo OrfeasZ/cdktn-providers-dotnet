@@ -9,7 +9,7 @@ namespace tailscale.DeviceKey
     {
         /// <summary>The device to update the key properties of.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/device_key#device_id DeviceKey#device_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/device_key#device_id DeviceKey#device_id}
         /// </remarks>
         [JsiiProperty(name: "deviceId", typeJson: "{\"primitive\":\"string\"}")]
         string DeviceId
@@ -19,7 +19,7 @@ namespace tailscale.DeviceKey
 
         /// <summary>Determines whether or not the device's key will expire. Defaults to `false`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/device_key#key_expiry_disabled DeviceKey#key_expiry_disabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/device_key#key_expiry_disabled DeviceKey#key_expiry_disabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "keyExpiryDisabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -41,7 +41,7 @@ namespace tailscale.DeviceKey
 
             /// <summary>The device to update the key properties of.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/device_key#device_id DeviceKey#device_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/device_key#device_id DeviceKey#device_id}
             /// </remarks>
             [JsiiProperty(name: "deviceId", typeJson: "{\"primitive\":\"string\"}")]
             public string DeviceId
@@ -51,7 +51,7 @@ namespace tailscale.DeviceKey
 
             /// <summary>Determines whether or not the device's key will expire. Defaults to `false`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/device_key#key_expiry_disabled DeviceKey#key_expiry_disabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/device_key#key_expiry_disabled DeviceKey#key_expiry_disabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

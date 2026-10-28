@@ -11,7 +11,7 @@ namespace tailscale.PostureIntegration
     {
         /// <summary>The secret (auth key, token, etc.) used to authenticate with the provider.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/posture_integration#client_secret PostureIntegration#client_secret}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/posture_integration#client_secret PostureIntegration#client_secret}
         /// </remarks>
         [JsiiProperty(name: "clientSecret", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientSecret
@@ -22,7 +22,7 @@ namespace tailscale.PostureIntegration
 
         /// <summary>The third-party provider for posture data. Valid values are `falcon`, `fleet`, `huntress`, `intune`, `jamfpro`, `kandji`, `kolide`, and `sentinelone`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/posture_integration#posture_provider PostureIntegration#posture_provider}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/posture_integration#posture_provider PostureIntegration#posture_provider}
         /// </remarks>
         [JsiiProperty(name: "postureProvider", typeJson: "{\"primitive\":\"string\"}")]
         public string PostureProvider
@@ -33,7 +33,7 @@ namespace tailscale.PostureIntegration
 
         /// <summary>Unique identifier for your client.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/posture_integration#client_id PostureIntegration#client_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/posture_integration#client_id PostureIntegration#client_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace tailscale.PostureIntegration
 
         /// <summary>Identifies which of the provider's clouds to integrate with.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/posture_integration#cloud_id PostureIntegration#cloud_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/posture_integration#cloud_id PostureIntegration#cloud_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cloudId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace tailscale.PostureIntegration
 
         /// <summary>The Microsoft Intune directory (tenant) ID. For other providers, this is left blank.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/posture_integration#tenant_id PostureIntegration#tenant_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/posture_integration#tenant_id PostureIntegration#tenant_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tenantId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

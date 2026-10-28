@@ -9,7 +9,7 @@ namespace tailscale.TailnetKey
     {
         /// <summary>A description of the key consisting of alphanumeric characters. Defaults to `""`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/tailnet_key#description TailnetKey#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_key#description TailnetKey#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace tailscale.TailnetKey
 
         /// <summary>Indicates if the key is ephemeral. Defaults to `false`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/tailnet_key#ephemeral TailnetKey#ephemeral}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_key#ephemeral TailnetKey#ephemeral}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -56,7 +56,7 @@ namespace tailscale.TailnetKey
 
         /// <summary>The expiry of the key in seconds. Defaults to `7776000` (90 days).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/tailnet_key#expiry TailnetKey#expiry}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_key#expiry TailnetKey#expiry}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "expiry", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -72,7 +72,7 @@ namespace tailscale.TailnetKey
         /// <remarks>
         /// Defaults to <c>false</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/tailnet_key#preauthorized TailnetKey#preauthorized}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_key#preauthorized TailnetKey#preauthorized}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -107,7 +107,7 @@ namespace tailscale.TailnetKey
         /// <remarks>
         /// By default, reusable keys will be recreated, but single-use keys will not. Possible values: 'always', 'never'.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/tailnet_key#recreate_if_invalid TailnetKey#recreate_if_invalid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_key#recreate_if_invalid TailnetKey#recreate_if_invalid}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "recreateIfInvalid", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -121,7 +121,7 @@ namespace tailscale.TailnetKey
 
         /// <summary>Indicates if the key is reusable or single-use. Defaults to `false`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/tailnet_key#reusable TailnetKey#reusable}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_key#reusable TailnetKey#reusable}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -154,7 +154,7 @@ namespace tailscale.TailnetKey
 
         /// <summary>List of tags to apply to the machines authenticated by the key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/tailnet_key#tags TailnetKey#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_key#tags TailnetKey#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -166,7 +166,7 @@ namespace tailscale.TailnetKey
 
         /// <summary>ID of the user who created this key, empty for keys created by OAuth clients.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/tailnet_key#user_id TailnetKey#user_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_key#user_id TailnetKey#user_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

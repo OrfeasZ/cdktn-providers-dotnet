@@ -11,7 +11,7 @@ namespace tailscale.Contacts
 
         /// <summary>account block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/contacts#account Contacts#account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/contacts#account Contacts#account}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.Contacts.IContactsAccount" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace tailscale.Contacts
 
         /// <summary>security block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/contacts#security Contacts#security}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/contacts#security Contacts#security}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.Contacts.IContactsSecurity" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -81,7 +81,7 @@ namespace tailscale.Contacts
 
         /// <summary>support block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/contacts#support Contacts#support}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/contacts#support Contacts#support}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.Contacts.IContactsSupport" />)[]</para>
         /// </remarks>
         [JsiiOptional]

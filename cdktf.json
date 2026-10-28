@@ -14,7 +14,7 @@
     "scaleway/scaleway@2.89.0",
     "stripe/stripe@0.3.0",
     "hashicorp/null@3.3.2",
-    "tailscale/tailscale@0.29.2",
+    "tailscale/tailscale@0.29.3",
     "dmacvicar/libvirt@0.9.9",
     "oracle/oci@9.11.0",
     "hashicorp/azurerm@5.11.0",

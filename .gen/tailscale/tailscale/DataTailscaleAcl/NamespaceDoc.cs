@@ -5,7 +5,7 @@ namespace tailscale.DataTailscaleAcl
     /// <remarks>
     /// <h1><c>data_tailscale_acl</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/data-sources/acl"><c>data_tailscale_acl</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/data-sources/acl"><c>data_tailscale_acl</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

@@ -11,7 +11,7 @@ namespace tailscale.Webhook
     {
         /// <summary>The endpoint to send webhook events to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/webhook#endpoint_url Webhook#endpoint_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/webhook#endpoint_url Webhook#endpoint_url}
         /// </remarks>
         [JsiiProperty(name: "endpointUrl", typeJson: "{\"primitive\":\"string\"}")]
         public string EndpointUrl
@@ -22,7 +22,7 @@ namespace tailscale.Webhook
 
         /// <summary>The set of events that trigger this webhook. For a full list of event types, see the [webhooks documentation](https://tailscale.com/kb/1213/webhooks#events).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/webhook#subscriptions Webhook#subscriptions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/webhook#subscriptions Webhook#subscriptions}
         /// </remarks>
         [JsiiProperty(name: "subscriptions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Subscriptions
@@ -35,7 +35,7 @@ namespace tailscale.Webhook
         /// <remarks>
         /// This determines the payload format sent to the destination. Valid values are <c>slack</c>, <c>mattermost</c>, <c>googlechat</c>, and <c>discord</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/webhook#provider_type Webhook#provider_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/webhook#provider_type Webhook#provider_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "providerType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

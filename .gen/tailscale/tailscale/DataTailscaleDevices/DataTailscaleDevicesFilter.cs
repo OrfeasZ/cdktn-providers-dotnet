@@ -11,7 +11,7 @@ namespace tailscale.DataTailscaleDevices
     {
         /// <summary>The name must be a top-level device property, e.g. isEphemeral, tags, hostname, etc.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/data-sources/devices#name DataTailscaleDevices#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/data-sources/devices#name DataTailscaleDevices#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace tailscale.DataTailscaleDevices
 
         /// <summary>The list of values to filter for. Values are matched as exact matches.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/data-sources/devices#values DataTailscaleDevices#values}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/data-sources/devices#values DataTailscaleDevices#values}
         /// </remarks>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values

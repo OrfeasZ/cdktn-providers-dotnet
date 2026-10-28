@@ -9,7 +9,7 @@ namespace tailscale.Service
     {
         /// <summary>The name of the Service. Must begin with `svc:`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/service#name Service#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/service#name Service#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -21,7 +21,7 @@ namespace tailscale.Service
         /// <remarks>
         /// The only supported protocol is "tcp" at this time. "do-not-validate" can be used to skip validation.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/service#ports Service#ports}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/service#ports Service#ports}
         /// </remarks>
         [JsiiProperty(name: "ports", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Ports
@@ -31,7 +31,7 @@ namespace tailscale.Service
 
         /// <summary>An optional comment describing the Service.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/service#comment Service#comment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/service#comment Service#comment}
         /// </remarks>
         [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace tailscale.Service
 
         /// <summary>The ACL tags applied to the Service.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/service#tags Service#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/service#tags Service#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,7 +66,7 @@ namespace tailscale.Service
 
             /// <summary>The name of the Service. Must begin with `svc:`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/service#name Service#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/service#name Service#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -78,7 +78,7 @@ namespace tailscale.Service
             /// <remarks>
             /// The only supported protocol is "tcp" at this time. "do-not-validate" can be used to skip validation.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/service#ports Service#ports}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/service#ports Service#ports}
             /// </remarks>
             [JsiiProperty(name: "ports", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Ports
@@ -88,7 +88,7 @@ namespace tailscale.Service
 
             /// <summary>An optional comment describing the Service.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/service#comment Service#comment}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/service#comment Service#comment}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -99,7 +99,7 @@ namespace tailscale.Service
 
             /// <summary>The ACL tags applied to the Service.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/service#tags Service#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/service#tags Service#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

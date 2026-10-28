@@ -9,7 +9,7 @@ namespace tailscale.DataTailscaleDevice
     {
         /// <summary>The short hostname of the device.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/data-sources/device#hostname DataTailscaleDevice#hostname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/data-sources/device#hostname DataTailscaleDevice#hostname}
         /// </remarks>
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace tailscale.DataTailscaleDevice
 
         /// <summary>The full name of the device (e.g. `hostname.domain.ts.net`).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/data-sources/device#name DataTailscaleDevice#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/data-sources/device#name DataTailscaleDevice#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -39,7 +39,7 @@ namespace tailscale.DataTailscaleDevice
         /// <remarks>
         /// Retries are made every second so this value should be greater than 1s
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/data-sources/device#wait_for DataTailscaleDevice#wait_for}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/data-sources/device#wait_for DataTailscaleDevice#wait_for}
         /// </remarks>
         [JsiiProperty(name: "waitFor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -60,7 +60,7 @@ namespace tailscale.DataTailscaleDevice
 
             /// <summary>The short hostname of the device.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/data-sources/device#hostname DataTailscaleDevice#hostname}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/data-sources/device#hostname DataTailscaleDevice#hostname}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -71,7 +71,7 @@ namespace tailscale.DataTailscaleDevice
 
             /// <summary>The full name of the device (e.g. `hostname.domain.ts.net`).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/data-sources/device#name DataTailscaleDevice#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/data-sources/device#name DataTailscaleDevice#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -84,7 +84,7 @@ namespace tailscale.DataTailscaleDevice
             /// <remarks>
             /// Retries are made every second so this value should be greater than 1s
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/data-sources/device#wait_for DataTailscaleDevice#wait_for}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/data-sources/device#wait_for DataTailscaleDevice#wait_for}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "waitFor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

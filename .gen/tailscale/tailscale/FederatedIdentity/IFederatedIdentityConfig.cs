@@ -11,7 +11,7 @@ namespace tailscale.FederatedIdentity
         /// <remarks>
         /// Must be a valid and publicly reachable https:// URL.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/federated_identity#issuer FederatedIdentity#issuer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/federated_identity#issuer FederatedIdentity#issuer}
         /// </remarks>
         [JsiiProperty(name: "issuer", typeJson: "{\"primitive\":\"string\"}")]
         string Issuer
@@ -21,7 +21,7 @@ namespace tailscale.FederatedIdentity
 
         /// <summary>Scopes to grant to the federated identity. See https://tailscale.com/kb/1623/ for a list of available scopes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/federated_identity#scopes FederatedIdentity#scopes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/federated_identity#scopes FederatedIdentity#scopes}
         /// </remarks>
         [JsiiProperty(name: "scopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Scopes
@@ -33,7 +33,7 @@ namespace tailscale.FederatedIdentity
         /// <remarks>
         /// Patterns can include <c>*</c> characters to match against any character.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/federated_identity#subject FederatedIdentity#subject}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/federated_identity#subject FederatedIdentity#subject}
         /// </remarks>
         [JsiiProperty(name: "subject", typeJson: "{\"primitive\":\"string\"}")]
         string Subject
@@ -45,7 +45,7 @@ namespace tailscale.FederatedIdentity
         /// <remarks>
         /// Specifying the audience is optional as Tailscale will generate a secure audience at creation time by default.   It is recommended to let Tailscale generate the audience unless the identity provider you are integrating with requires a specific audience format.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/federated_identity#audience FederatedIdentity#audience}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/federated_identity#audience FederatedIdentity#audience}
         /// </remarks>
         [JsiiProperty(name: "audience", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace tailscale.FederatedIdentity
         /// <remarks>
         /// Patterns can include <c>*</c> characters to match against any character.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/federated_identity#custom_claim_rules FederatedIdentity#custom_claim_rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/federated_identity#custom_claim_rules FederatedIdentity#custom_claim_rules}
         /// </remarks>
         [JsiiProperty(name: "customClaimRules", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,7 +75,7 @@ namespace tailscale.FederatedIdentity
 
         /// <summary>A description of the federated identity consisting of alphanumeric characters. Defaults to `""`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/federated_identity#description FederatedIdentity#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/federated_identity#description FederatedIdentity#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -91,7 +91,7 @@ namespace tailscale.FederatedIdentity
         /// <remarks>
         /// Mandatory if the scopes include "devices:core" or "auth_keys".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/federated_identity#tags FederatedIdentity#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/federated_identity#tags FederatedIdentity#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -114,7 +114,7 @@ namespace tailscale.FederatedIdentity
             /// <remarks>
             /// Must be a valid and publicly reachable https:// URL.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/federated_identity#issuer FederatedIdentity#issuer}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/federated_identity#issuer FederatedIdentity#issuer}
             /// </remarks>
             [JsiiProperty(name: "issuer", typeJson: "{\"primitive\":\"string\"}")]
             public string Issuer
@@ -124,7 +124,7 @@ namespace tailscale.FederatedIdentity
 
             /// <summary>Scopes to grant to the federated identity. See https://tailscale.com/kb/1623/ for a list of available scopes.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/federated_identity#scopes FederatedIdentity#scopes}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/federated_identity#scopes FederatedIdentity#scopes}
             /// </remarks>
             [JsiiProperty(name: "scopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Scopes
@@ -136,7 +136,7 @@ namespace tailscale.FederatedIdentity
             /// <remarks>
             /// Patterns can include <c>*</c> characters to match against any character.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/federated_identity#subject FederatedIdentity#subject}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/federated_identity#subject FederatedIdentity#subject}
             /// </remarks>
             [JsiiProperty(name: "subject", typeJson: "{\"primitive\":\"string\"}")]
             public string Subject
@@ -148,7 +148,7 @@ namespace tailscale.FederatedIdentity
             /// <remarks>
             /// Specifying the audience is optional as Tailscale will generate a secure audience at creation time by default.   It is recommended to let Tailscale generate the audience unless the identity provider you are integrating with requires a specific audience format.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/federated_identity#audience FederatedIdentity#audience}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/federated_identity#audience FederatedIdentity#audience}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "audience", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -161,7 +161,7 @@ namespace tailscale.FederatedIdentity
             /// <remarks>
             /// Patterns can include <c>*</c> characters to match against any character.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/federated_identity#custom_claim_rules FederatedIdentity#custom_claim_rules}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/federated_identity#custom_claim_rules FederatedIdentity#custom_claim_rules}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "customClaimRules", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -172,7 +172,7 @@ namespace tailscale.FederatedIdentity
 
             /// <summary>A description of the federated identity consisting of alphanumeric characters. Defaults to `""`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/federated_identity#description FederatedIdentity#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/federated_identity#description FederatedIdentity#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -185,7 +185,7 @@ namespace tailscale.FederatedIdentity
             /// <remarks>
             /// Mandatory if the scopes include "devices:core" or "auth_keys".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/federated_identity#tags FederatedIdentity#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/federated_identity#tags FederatedIdentity#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

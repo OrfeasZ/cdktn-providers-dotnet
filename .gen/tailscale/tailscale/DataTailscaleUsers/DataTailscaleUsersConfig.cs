@@ -11,7 +11,7 @@ namespace tailscale.DataTailscaleUsers
         /// <remarks>
         /// Valid values are <c>owner</c>, <c>member</c>, <c>admin</c>, <c>it-admin</c>, <c>network-admin</c>, <c>billing-admin</c>, and <c>auditor</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/data-sources/users#role DataTailscaleUsers#role}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/data-sources/users#role DataTailscaleUsers#role}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace tailscale.DataTailscaleUsers
 
         /// <summary>Filter the results to only include users of a specific type. Valid values are `member` or `shared`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/data-sources/users#type DataTailscaleUsers#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/data-sources/users#type DataTailscaleUsers#type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -37,7 +37,7 @@ namespace tailscale.DataTailscaleUsers
 
         /// <summary>users block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/data-sources/users#users DataTailscaleUsers#users}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/data-sources/users#users DataTailscaleUsers#users}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.DataTailscaleUsers.IDataTailscaleUsersUsers" />)[]</para>
         /// </remarks>
         [JsiiOptional]

@@ -9,7 +9,7 @@ namespace tailscale.OauthClient
     {
         /// <summary>Scopes to grant to the client. See https://tailscale.com/kb/1623/ for a list of available scopes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/oauth_client#scopes OauthClient#scopes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/oauth_client#scopes OauthClient#scopes}
         /// </remarks>
         [JsiiProperty(name: "scopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Scopes
@@ -19,7 +19,7 @@ namespace tailscale.OauthClient
 
         /// <summary>A description of the OAuth client consisting of alphanumeric characters. Defaults to `""`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/oauth_client#description OauthClient#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/oauth_client#description OauthClient#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace tailscale.OauthClient
         /// <remarks>
         /// Mandatory if the scopes include "devices:core" or "auth_keys".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/oauth_client#tags OauthClient#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/oauth_client#tags OauthClient#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -56,7 +56,7 @@ namespace tailscale.OauthClient
 
             /// <summary>Scopes to grant to the client. See https://tailscale.com/kb/1623/ for a list of available scopes.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/oauth_client#scopes OauthClient#scopes}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/oauth_client#scopes OauthClient#scopes}
             /// </remarks>
             [JsiiProperty(name: "scopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Scopes
@@ -66,7 +66,7 @@ namespace tailscale.OauthClient
 
             /// <summary>A description of the OAuth client consisting of alphanumeric characters. Defaults to `""`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/oauth_client#description OauthClient#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/oauth_client#description OauthClient#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace tailscale.OauthClient
             /// <remarks>
             /// Mandatory if the scopes include "devices:core" or "auth_keys".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/oauth_client#tags OauthClient#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/oauth_client#tags OauthClient#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

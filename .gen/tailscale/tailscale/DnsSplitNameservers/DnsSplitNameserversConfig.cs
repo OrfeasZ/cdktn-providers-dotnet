@@ -13,7 +13,7 @@ namespace tailscale.DnsSplitNameservers
         /// <remarks>
         /// Requests for this domain will be resolved using the provided nameservers. Changing this will force the resource to be recreated.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/dns_split_nameservers#domain DnsSplitNameservers#domain}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/dns_split_nameservers#domain DnsSplitNameservers#domain}
         /// </remarks>
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
         public string Domain
@@ -24,7 +24,7 @@ namespace tailscale.DnsSplitNameservers
 
         /// <summary>Devices on your network will use these nameservers to resolve DNS names. IPv4 or IPv6 addresses are accepted.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/dns_split_nameservers#nameservers DnsSplitNameservers#nameservers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/dns_split_nameservers#nameservers DnsSplitNameservers#nameservers}
         /// </remarks>
         [JsiiProperty(name: "nameservers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Nameservers

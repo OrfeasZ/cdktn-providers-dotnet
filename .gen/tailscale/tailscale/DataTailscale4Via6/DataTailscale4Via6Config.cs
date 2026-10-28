@@ -11,7 +11,7 @@ namespace tailscale.DataTailscale4Via6
     {
         /// <summary>The IPv4 CIDR to map.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/data-sources/4via6#cidr DataTailscale4Via6#cidr}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/data-sources/4via6#cidr DataTailscale4Via6#cidr}
         /// </remarks>
         [JsiiProperty(name: "cidr", typeJson: "{\"primitive\":\"string\"}")]
         public string Cidr
@@ -22,7 +22,7 @@ namespace tailscale.DataTailscale4Via6
 
         /// <summary>Site ID (between 0 and 65535).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/data-sources/4via6#site DataTailscale4Via6#site}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/data-sources/4via6#site DataTailscale4Via6#site}
         /// </remarks>
         [JsiiProperty(name: "site", typeJson: "{\"primitive\":\"number\"}")]
         public double Site

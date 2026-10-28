@@ -9,7 +9,7 @@ namespace tailscale.DeviceSubnetRoutes
     {
         /// <summary>The device to set subnet routes for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/device_subnet_routes#device_id DeviceSubnetRoutes#device_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/device_subnet_routes#device_id DeviceSubnetRoutes#device_id}
         /// </remarks>
         [JsiiProperty(name: "deviceId", typeJson: "{\"primitive\":\"string\"}")]
         string DeviceId
@@ -19,7 +19,7 @@ namespace tailscale.DeviceSubnetRoutes
 
         /// <summary>The subnet routes that are enabled to be routed by a device.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/device_subnet_routes#routes DeviceSubnetRoutes#routes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/device_subnet_routes#routes DeviceSubnetRoutes#routes}
         /// </remarks>
         [JsiiProperty(name: "routes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Routes
@@ -36,7 +36,7 @@ namespace tailscale.DeviceSubnetRoutes
 
             /// <summary>The device to set subnet routes for.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/device_subnet_routes#device_id DeviceSubnetRoutes#device_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/device_subnet_routes#device_id DeviceSubnetRoutes#device_id}
             /// </remarks>
             [JsiiProperty(name: "deviceId", typeJson: "{\"primitive\":\"string\"}")]
             public string DeviceId
@@ -46,7 +46,7 @@ namespace tailscale.DeviceSubnetRoutes
 
             /// <summary>The subnet routes that are enabled to be routed by a device.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/device_subnet_routes#routes DeviceSubnetRoutes#routes}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/device_subnet_routes#routes DeviceSubnetRoutes#routes}
             /// </remarks>
             [JsiiProperty(name: "routes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Routes

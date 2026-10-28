@@ -11,7 +11,7 @@ namespace tailscale.DataTailscaleDevices
 
         /// <summary>devices block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/data-sources/devices#devices DataTailscaleDevices#devices}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/data-sources/devices#devices DataTailscaleDevices#devices}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.DataTailscaleDevices.IDataTailscaleDevicesDevices" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace tailscale.DataTailscaleDevices
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/data-sources/devices#filter DataTailscaleDevices#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/data-sources/devices#filter DataTailscaleDevices#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="tailscale.DataTailscaleDevices.IDataTailscaleDevicesFilter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -79,7 +79,7 @@ namespace tailscale.DataTailscaleDevices
 
         /// <summary>Filters the device list to elements whose name has the provided prefix.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/data-sources/devices#name_prefix DataTailscaleDevices#name_prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/data-sources/devices#name_prefix DataTailscaleDevices#name_prefix}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "namePrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

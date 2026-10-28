@@ -11,7 +11,7 @@ namespace tailscale.DataTailscaleService
     {
         /// <summary>The name of the Service (e.g. `svc:my-service`).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/data-sources/service#name DataTailscaleService#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/data-sources/service#name DataTailscaleService#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name

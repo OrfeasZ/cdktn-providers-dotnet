@@ -9,7 +9,7 @@ namespace tailscale.DeviceTags
     {
         /// <summary>The device to set tags for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/device_tags#device_id DeviceTags#device_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/device_tags#device_id DeviceTags#device_id}
         /// </remarks>
         [JsiiProperty(name: "deviceId", typeJson: "{\"primitive\":\"string\"}")]
         string DeviceId
@@ -19,7 +19,7 @@ namespace tailscale.DeviceTags
 
         /// <summary>The tags to apply to the device.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/device_tags#tags DeviceTags#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/device_tags#tags DeviceTags#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Tags
@@ -36,7 +36,7 @@ namespace tailscale.DeviceTags
 
             /// <summary>The device to set tags for.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/device_tags#device_id DeviceTags#device_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/device_tags#device_id DeviceTags#device_id}
             /// </remarks>
             [JsiiProperty(name: "deviceId", typeJson: "{\"primitive\":\"string\"}")]
             public string DeviceId
@@ -46,7 +46,7 @@ namespace tailscale.DeviceTags
 
             /// <summary>The tags to apply to the device.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/device_tags#tags DeviceTags#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/device_tags#tags DeviceTags#tags}
             /// </remarks>
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Tags

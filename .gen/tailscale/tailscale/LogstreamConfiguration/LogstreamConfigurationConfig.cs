@@ -13,7 +13,7 @@ namespace tailscale.LogstreamConfiguration
         /// <remarks>
         /// Valid values are <c>axiom</c>, <c>cribl</c>, <c>datadog</c>, <c>elastic</c>, <c>gcs</c>, <c>panther</c>, <c>splunk</c>, and <c>s3</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/logstream_configuration#destination_type LogstreamConfiguration#destination_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/logstream_configuration#destination_type LogstreamConfiguration#destination_type}
         /// </remarks>
         [JsiiProperty(name: "destinationType", typeJson: "{\"primitive\":\"string\"}")]
         public string DestinationType
@@ -24,7 +24,7 @@ namespace tailscale.LogstreamConfiguration
 
         /// <summary>The type of logs to stream. Valid values are `configuration` (configuration audit logs) and `network` (network flow logs).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/logstream_configuration#log_type LogstreamConfiguration#log_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/logstream_configuration#log_type LogstreamConfiguration#log_type}
         /// </remarks>
         [JsiiProperty(name: "logType", typeJson: "{\"primitive\":\"string\"}")]
         public string LogType
@@ -35,7 +35,7 @@ namespace tailscale.LogstreamConfiguration
 
         /// <summary>The compression algorithm used for logs. Valid values are `none`, `zstd` or `gzip`. Defaults to `none`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/logstream_configuration#compression_format LogstreamConfiguration#compression_format}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/logstream_configuration#compression_format LogstreamConfiguration#compression_format}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "compressionFormat", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace tailscale.LogstreamConfiguration
 
         /// <summary>The name of the GCS bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/logstream_configuration#gcs_bucket LogstreamConfiguration#gcs_bucket}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/logstream_configuration#gcs_bucket LogstreamConfiguration#gcs_bucket}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "gcsBucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace tailscale.LogstreamConfiguration
 
         /// <summary>The encoded string of JSON that is used to authenticate for workload identity in GCS.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/logstream_configuration#gcs_credentials LogstreamConfiguration#gcs_credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/logstream_configuration#gcs_credentials LogstreamConfiguration#gcs_credentials}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "gcsCredentials", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -71,7 +71,7 @@ namespace tailscale.LogstreamConfiguration
 
         /// <summary>The GCS key prefix for the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/logstream_configuration#gcs_key_prefix LogstreamConfiguration#gcs_key_prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/logstream_configuration#gcs_key_prefix LogstreamConfiguration#gcs_key_prefix}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "gcsKeyPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace tailscale.LogstreamConfiguration
 
         /// <summary>The GCS scopes needed to be able to write in the bucket.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/logstream_configuration#gcs_scopes LogstreamConfiguration#gcs_scopes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/logstream_configuration#gcs_scopes LogstreamConfiguration#gcs_scopes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "gcsScopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -95,7 +95,7 @@ namespace tailscale.LogstreamConfiguration
 
         /// <summary>The S3 access key ID. Required if destination_type is s3 and s3_authentication_type is 'accesskey'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/logstream_configuration#s3_access_key_id LogstreamConfiguration#s3_access_key_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/logstream_configuration#s3_access_key_id LogstreamConfiguration#s3_access_key_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3AccessKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -109,7 +109,7 @@ namespace tailscale.LogstreamConfiguration
         /// <remarks>
         /// Required if destination_type is <c>s3</c>. Valid values are <c>accesskey</c> and <c>rolearn</c>. Tailscale recommends using <c>rolearn</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/logstream_configuration#s3_authentication_type LogstreamConfiguration#s3_authentication_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/logstream_configuration#s3_authentication_type LogstreamConfiguration#s3_authentication_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3AuthenticationType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -121,7 +121,7 @@ namespace tailscale.LogstreamConfiguration
 
         /// <summary>The S3 bucket name. Required if destination_type is 's3'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/logstream_configuration#s3_bucket LogstreamConfiguration#s3_bucket}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/logstream_configuration#s3_bucket LogstreamConfiguration#s3_bucket}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3Bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -135,7 +135,7 @@ namespace tailscale.LogstreamConfiguration
         /// <remarks>
         /// Required if destination_type is 's3' and s3_authentication_type is 'rolearn'. This can be obtained via the tailscale_aws_external_id resource.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/logstream_configuration#s3_external_id LogstreamConfiguration#s3_external_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/logstream_configuration#s3_external_id LogstreamConfiguration#s3_external_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3ExternalId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -147,7 +147,7 @@ namespace tailscale.LogstreamConfiguration
 
         /// <summary>An optional S3 key prefix to prepend to the auto-generated S3 key name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/logstream_configuration#s3_key_prefix LogstreamConfiguration#s3_key_prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/logstream_configuration#s3_key_prefix LogstreamConfiguration#s3_key_prefix}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3KeyPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -159,7 +159,7 @@ namespace tailscale.LogstreamConfiguration
 
         /// <summary>The region in which the S3 bucket is located. Required if destination_type is 's3'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/logstream_configuration#s3_region LogstreamConfiguration#s3_region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/logstream_configuration#s3_region LogstreamConfiguration#s3_region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3Region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -173,7 +173,7 @@ namespace tailscale.LogstreamConfiguration
         /// <remarks>
         /// Required if destination_type is 's3' and s3_authentication_type is 'rolearn'.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/logstream_configuration#s3_role_arn LogstreamConfiguration#s3_role_arn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/logstream_configuration#s3_role_arn LogstreamConfiguration#s3_role_arn}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3RoleArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -185,7 +185,7 @@ namespace tailscale.LogstreamConfiguration
 
         /// <summary>The S3 secret access key. Required if destination_type is 's3' and s3_authentication_type is 'accesskey'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/logstream_configuration#s3_secret_access_key LogstreamConfiguration#s3_secret_access_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/logstream_configuration#s3_secret_access_key LogstreamConfiguration#s3_secret_access_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "s3SecretAccessKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -197,7 +197,7 @@ namespace tailscale.LogstreamConfiguration
 
         /// <summary>The token/password with which log streams to this endpoint should be authenticated, required unless destination_type is 's3'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/logstream_configuration#token LogstreamConfiguration#token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/logstream_configuration#token LogstreamConfiguration#token}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "token", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -211,7 +211,7 @@ namespace tailscale.LogstreamConfiguration
         /// <remarks>
         /// If the quantity of logs does not fit within a single upload, multiple uploads will be made.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/logstream_configuration#upload_period_minutes LogstreamConfiguration#upload_period_minutes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/logstream_configuration#upload_period_minutes LogstreamConfiguration#upload_period_minutes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "uploadPeriodMinutes", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -225,7 +225,7 @@ namespace tailscale.LogstreamConfiguration
         /// <remarks>
         /// If destination_type is 's3' and you want to use the official Amazon S3 endpoint, leave this empty.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/logstream_configuration#url LogstreamConfiguration#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/logstream_configuration#url LogstreamConfiguration#url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -239,7 +239,7 @@ namespace tailscale.LogstreamConfiguration
         /// <remarks>
         /// Only required if destination_type is 'elastic', defaults to 'user' if not set.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.2/docs/resources/logstream_configuration#user LogstreamConfiguration#user}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/logstream_configuration#user LogstreamConfiguration#user}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "user", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
