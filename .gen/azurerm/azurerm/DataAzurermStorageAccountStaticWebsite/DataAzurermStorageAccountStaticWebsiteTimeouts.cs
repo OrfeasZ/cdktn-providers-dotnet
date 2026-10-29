@@ -7,7 +7,7 @@ namespace azurerm.DataAzurermStorageAccountStaticWebsite
     [JsiiByValue(fqn: "azurerm.dataAzurermStorageAccountStaticWebsite.DataAzurermStorageAccountStaticWebsiteTimeouts")]
     public class DataAzurermStorageAccountStaticWebsiteTimeouts : azurerm.DataAzurermStorageAccountStaticWebsite.IDataAzurermStorageAccountStaticWebsiteTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.11.0/docs/data-sources/storage_account_static_website#read DataAzurermStorageAccountStaticWebsite#read}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/data-sources/storage_account_static_website#read DataAzurermStorageAccountStaticWebsite#read}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "read", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Read
