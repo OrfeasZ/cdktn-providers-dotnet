@@ -9,7 +9,7 @@ namespace aws.SagemakerModel
     [JsiiByValue(fqn: "aws.sagemakerModel.SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceHubAccessConfig")]
     public class SagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceHubAccessConfig : aws.SagemakerModel.ISagemakerModelPrimaryContainerAdditionalModelDataSourceS3DataSourceHubAccessConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/sagemaker_model#hub_content_arn SagemakerModel#hub_content_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/sagemaker_model#hub_content_arn SagemakerModel#hub_content_arn}.</summary>
         [JsiiProperty(name: "hubContentArn", typeJson: "{\"primitive\":\"string\"}")]
         public string HubContentArn
         {

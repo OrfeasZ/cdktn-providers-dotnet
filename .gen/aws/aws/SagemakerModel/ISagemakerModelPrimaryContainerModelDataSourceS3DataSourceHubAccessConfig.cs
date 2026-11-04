@@ -7,7 +7,7 @@ namespace aws.SagemakerModel
     [JsiiInterface(nativeType: typeof(ISagemakerModelPrimaryContainerModelDataSourceS3DataSourceHubAccessConfig), fullyQualifiedName: "aws.sagemakerModel.SagemakerModelPrimaryContainerModelDataSourceS3DataSourceHubAccessConfig")]
     public interface ISagemakerModelPrimaryContainerModelDataSourceS3DataSourceHubAccessConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/sagemaker_model#hub_content_arn SagemakerModel#hub_content_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/sagemaker_model#hub_content_arn SagemakerModel#hub_content_arn}.</summary>
         [JsiiProperty(name: "hubContentArn", typeJson: "{\"primitive\":\"string\"}")]
         string HubContentArn
         {
@@ -21,7 +21,7 @@ namespace aws.SagemakerModel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/sagemaker_model#hub_content_arn SagemakerModel#hub_content_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/sagemaker_model#hub_content_arn SagemakerModel#hub_content_arn}.</summary>
             [JsiiProperty(name: "hubContentArn", typeJson: "{\"primitive\":\"string\"}")]
             public string HubContentArn
             {

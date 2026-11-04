@@ -9,7 +9,7 @@ namespace aws.NetworkfirewallFirewallPolicy
     [JsiiByValue(fqn: "aws.networkfirewallFirewallPolicy.NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation")]
     public class NetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation : aws.NetworkfirewallFirewallPolicy.INetworkfirewallFirewallPolicyFirewallPolicyRoute53ResolvedIpValidation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/networkfirewall_firewall_policy#action NetworkfirewallFirewallPolicy#action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/networkfirewall_firewall_policy#action NetworkfirewallFirewallPolicy#action}.</summary>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         public string Action
         {
@@ -17,7 +17,7 @@ namespace aws.NetworkfirewallFirewallPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/networkfirewall_firewall_policy#dns_expiry_exception_policy NetworkfirewallFirewallPolicy#dns_expiry_exception_policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/networkfirewall_firewall_policy#dns_expiry_exception_policy NetworkfirewallFirewallPolicy#dns_expiry_exception_policy}.</summary>
         [JsiiProperty(name: "dnsExpiryExceptionPolicy", typeJson: "{\"primitive\":\"string\"}")]
         public string DnsExpiryExceptionPolicy
         {
@@ -25,7 +25,7 @@ namespace aws.NetworkfirewallFirewallPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/networkfirewall_firewall_policy#dns_firewall_rule_group_id NetworkfirewallFirewallPolicy#dns_firewall_rule_group_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/networkfirewall_firewall_policy#dns_firewall_rule_group_id NetworkfirewallFirewallPolicy#dns_firewall_rule_group_id}.</summary>
         [JsiiProperty(name: "dnsFirewallRuleGroupId", typeJson: "{\"primitive\":\"string\"}")]
         public string DnsFirewallRuleGroupId
         {
@@ -33,7 +33,7 @@ namespace aws.NetworkfirewallFirewallPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/networkfirewall_firewall_policy#bypass_destination_validation_ip_ranges NetworkfirewallFirewallPolicy#bypass_destination_validation_ip_ranges}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/networkfirewall_firewall_policy#bypass_destination_validation_ip_ranges NetworkfirewallFirewallPolicy#bypass_destination_validation_ip_ranges}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bypassDestinationValidationIpRanges", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? BypassDestinationValidationIpRanges
@@ -42,7 +42,7 @@ namespace aws.NetworkfirewallFirewallPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/networkfirewall_firewall_policy#source_ip_ranges NetworkfirewallFirewallPolicy#source_ip_ranges}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/networkfirewall_firewall_policy#source_ip_ranges NetworkfirewallFirewallPolicy#source_ip_ranges}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sourceIpRanges", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? SourceIpRanges

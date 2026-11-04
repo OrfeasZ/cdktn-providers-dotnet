@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.ElasticacheGlobalReplicationGroup
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/elasticache_global_replication_group aws_elasticache_global_replication_group}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/elasticache_global_replication_group aws_elasticache_global_replication_group}.</summary>
     [JsiiClass(nativeType: typeof(aws.ElasticacheGlobalReplicationGroup.ElasticacheGlobalReplicationGroup), fullyQualifiedName: "aws.elasticacheGlobalReplicationGroup.ElasticacheGlobalReplicationGroup", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.elasticacheGlobalReplicationGroup.ElasticacheGlobalReplicationGroupConfig\"}}]")]
     public class ElasticacheGlobalReplicationGroup : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/elasticache_global_replication_group aws_elasticache_global_replication_group} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/elasticache_global_replication_group aws_elasticache_global_replication_group} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ElasticacheGlobalReplicationGroup(Constructs.Construct scope, string id, aws.ElasticacheGlobalReplicationGroup.IElasticacheGlobalReplicationGroupConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.ElasticacheGlobalReplicationGroup
         /// <param name="importToId">The construct id used in the generated config for the ElasticacheGlobalReplicationGroup to import.</param>
         /// <param name="importFromId">The id of the existing ElasticacheGlobalReplicationGroup that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ElasticacheGlobalReplicationGroup to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ElasticacheGlobalReplicationGroup to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/elasticache_global_replication_group#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ElasticacheGlobalReplicationGroup that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ElasticacheGlobalReplicationGroup to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ElasticacheGlobalReplicationGroup to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/elasticache_global_replication_group#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ElasticacheGlobalReplicationGroup that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ElasticacheGlobalReplicationGroup to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.ElasticacheGlobalReplicationGroup.ElasticacheGlobalReplicationGroup), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -102,6 +102,12 @@ namespace aws.ElasticacheGlobalReplicationGroup
 
         [JsiiMethod(name: "resetRegion")]
         public virtual void ResetRegion()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTags")]
+        public virtual void ResetTags()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -171,6 +177,12 @@ namespace aws.ElasticacheGlobalReplicationGroup
         public virtual string GlobalReplicationGroupId
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "tagsAll", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap TagsAll
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.elasticacheGlobalReplicationGroup.ElasticacheGlobalReplicationGroupTimeoutsOutputReference\"}")]
@@ -263,6 +275,13 @@ namespace aws.ElasticacheGlobalReplicationGroup
         public virtual string? RegionInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tagsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public virtual System.Collections.Generic.IDictionary<string, string>? TagsInput
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
         }
 
         /// <remarks>
@@ -372,6 +391,13 @@ namespace aws.ElasticacheGlobalReplicationGroup
         public virtual string Region
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
+        public virtual System.Collections.Generic.IDictionary<string, string> Tags
+        {
+            get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
             set => SetInstanceProperty(value);
         }
     }

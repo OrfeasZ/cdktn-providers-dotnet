@@ -7,7 +7,7 @@ namespace aws.MedialiveChannel
     [JsiiInterface(nativeType: typeof(IMedialiveChannelEncoderSettingsThumbnailConfiguration), fullyQualifiedName: "aws.medialiveChannel.MedialiveChannelEncoderSettingsThumbnailConfiguration")]
     public interface IMedialiveChannelEncoderSettingsThumbnailConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/medialive_channel#state MedialiveChannel#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/medialive_channel#state MedialiveChannel#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         string State
         {
@@ -21,7 +21,7 @@ namespace aws.MedialiveChannel
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/medialive_channel#state MedialiveChannel#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/medialive_channel#state MedialiveChannel#state}.</summary>
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
             public string State
             {

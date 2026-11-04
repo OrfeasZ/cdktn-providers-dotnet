@@ -9,7 +9,7 @@ namespace aws.DevopsagentAsset
     {
         /// <summary>Base64-encoded binary file content.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/devopsagent_asset#bytes DevopsagentAsset#bytes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/devopsagent_asset#bytes DevopsagentAsset#bytes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bytes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace aws.DevopsagentAsset
 
         /// <summary>Text file content.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.71.0/docs/resources/devopsagent_asset#text DevopsagentAsset#text}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/devopsagent_asset#text DevopsagentAsset#text}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "text", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
