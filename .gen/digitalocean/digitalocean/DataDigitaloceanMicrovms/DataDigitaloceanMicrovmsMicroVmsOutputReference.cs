@@ -59,6 +59,12 @@ namespace digitalocean.DataDigitaloceanMicrovms
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "egressPolicy", typeJson: "{\"fqn\":\"digitalocean.dataDigitaloceanMicrovms.DataDigitaloceanMicrovmsMicroVmsEgressPolicyList\"}")]
+        public virtual digitalocean.DataDigitaloceanMicrovms.DataDigitaloceanMicrovmsMicroVmsEgressPolicyList EgressPolicy
+        {
+            get => GetInstanceProperty<digitalocean.DataDigitaloceanMicrovms.DataDigitaloceanMicrovmsMicroVmsEgressPolicyList>()!;
+        }
+
         [JsiiProperty(name: "environment", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
         public virtual Io.Cdktn.StringMap Environment
         {
@@ -87,6 +93,12 @@ namespace digitalocean.DataDigitaloceanMicrovms
         public virtual string Id
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "ingressEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IngressEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace digitalocean.Microvm
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm digitalocean_microvm}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.107.0/docs/resources/microvm digitalocean_microvm}.</summary>
     [JsiiClass(nativeType: typeof(digitalocean.Microvm.Microvm), fullyQualifiedName: "digitalocean.microvm.Microvm", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"digitalocean.microvm.MicrovmConfig\"}}]")]
     public class Microvm : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm digitalocean_microvm} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.107.0/docs/resources/microvm digitalocean_microvm} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public Microvm(Constructs.Construct scope, string id, digitalocean.Microvm.IMicrovmConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace digitalocean.Microvm
         /// <param name="importToId">The construct id used in the generated config for the Microvm to import.</param>
         /// <param name="importFromId">The id of the existing Microvm that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the Microvm to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Microvm to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.106.0/docs/resources/microvm#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Microvm that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Microvm to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Microvm to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.107.0/docs/resources/microvm#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Microvm that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Microvm to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(digitalocean.Microvm.Microvm), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -50,6 +50,12 @@ namespace digitalocean.Microvm
         public virtual void PutAutoPause(digitalocean.Microvm.IMicrovmAutoPause @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.Microvm.IMicrovmAutoPause)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putEgressPolicy", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"digitalocean.microvm.MicrovmEgressPolicy\"}}]")]
+        public virtual void PutEgressPolicy(digitalocean.Microvm.IMicrovmEgressPolicy @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(digitalocean.Microvm.IMicrovmEgressPolicy)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putSize", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"digitalocean.microvm.MicrovmSize\"}}]")]
@@ -82,6 +88,12 @@ namespace digitalocean.Microvm
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetEgressPolicy")]
+        public virtual void ResetEgressPolicy()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetEnvironment")]
         public virtual void ResetEnvironment()
         {
@@ -102,6 +114,12 @@ namespace digitalocean.Microvm
 
         [JsiiMethod(name: "resetId")]
         public virtual void ResetId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIngressEnabled")]
+        public virtual void ResetIngressEnabled()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -191,6 +209,12 @@ namespace digitalocean.Microvm
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "egressPolicy", typeJson: "{\"fqn\":\"digitalocean.microvm.MicrovmEgressPolicyOutputReference\"}")]
+        public virtual digitalocean.Microvm.MicrovmEgressPolicyOutputReference EgressPolicy
+        {
+            get => GetInstanceProperty<digitalocean.Microvm.MicrovmEgressPolicyOutputReference>()!;
+        }
+
         [JsiiProperty(name: "failureReason", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string FailureReason
         {
@@ -245,6 +269,13 @@ namespace digitalocean.Microvm
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "egressPolicyInput", typeJson: "{\"fqn\":\"digitalocean.microvm.MicrovmEgressPolicy\"}", isOptional: true)]
+        public virtual digitalocean.Microvm.IMicrovmEgressPolicy? EgressPolicyInput
+        {
+            get => GetInstanceProperty<digitalocean.Microvm.IMicrovmEgressPolicy?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "environmentInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public virtual System.Collections.Generic.IDictionary<string, string>? EnvironmentInput
         {
@@ -270,6 +301,16 @@ namespace digitalocean.Microvm
         public virtual string? IdInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "ingressEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? IngressEnabledInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -401,6 +442,36 @@ namespace digitalocean.Microvm
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "ingressEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object IngressEnabled
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
 
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]

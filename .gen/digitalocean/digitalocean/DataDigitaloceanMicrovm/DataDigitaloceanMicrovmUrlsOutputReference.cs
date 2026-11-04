@@ -47,6 +47,12 @@ namespace digitalocean.DataDigitaloceanMicrovm
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double Port
         {

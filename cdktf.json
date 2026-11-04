@@ -7,7 +7,7 @@
     "vancluever/acme@3.3.0",
     "hashicorp/aws@6.71.0",
     "cloudflare/cloudflare@5.28.1",
-    "digitalocean/digitalocean@2.106.0",
+    "digitalocean/digitalocean@2.107.0",
     "hashicorp/random@3.9.1",
     "hetznercloud/hcloud@1.70.2",
     "kislerdm/neon@0.18.0",
