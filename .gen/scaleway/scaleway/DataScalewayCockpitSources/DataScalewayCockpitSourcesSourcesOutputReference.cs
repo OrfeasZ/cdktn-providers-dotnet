@@ -83,6 +83,12 @@ namespace scaleway.DataScalewayCockpitSources
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "srn", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Srn
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "synchronizedWithGrafana", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable SynchronizedWithGrafana
         {

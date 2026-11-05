@@ -89,6 +89,12 @@ namespace scaleway.DataScalewayInterlinkPops
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "srn", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Srn
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"scaleway.dataScalewayInterlinkPops.DataScalewayInterlinkPopsPops\"}", isOptional: true)]
         public virtual scaleway.DataScalewayInterlinkPops.IDataScalewayInterlinkPopsPops? InternalValue

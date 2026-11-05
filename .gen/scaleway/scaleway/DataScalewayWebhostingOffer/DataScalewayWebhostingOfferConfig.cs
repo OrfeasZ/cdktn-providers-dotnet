@@ -7,9 +7,9 @@ namespace scaleway.DataScalewayWebhostingOffer
     [JsiiByValue(fqn: "scaleway.dataScalewayWebhostingOffer.DataScalewayWebhostingOfferConfig")]
     public class DataScalewayWebhostingOfferConfig : scaleway.DataScalewayWebhostingOffer.IDataScalewayWebhostingOfferConfig
     {
-        /// <summary>Name of the control panel.(Cpanel or Plesk).</summary>
+        /// <summary>Name of the control panel (Cpanel or Plesk).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/data-sources/webhosting_offer#control_panel DataScalewayWebhostingOffer#control_panel}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.91.0/docs/data-sources/webhosting_offer#control_panel DataScalewayWebhostingOffer#control_panel}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "controlPanel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,22 +19,9 @@ namespace scaleway.DataScalewayWebhostingOffer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/data-sources/webhosting_offer#id DataScalewayWebhostingOffer#id}.</summary>
-        /// <remarks>
-        /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-        /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Id
-        {
-            get;
-            set;
-        }
-
         /// <summary>Exact name of the desired offer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/data-sources/webhosting_offer#name DataScalewayWebhostingOffer#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.91.0/docs/data-sources/webhosting_offer#name DataScalewayWebhostingOffer#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +33,7 @@ namespace scaleway.DataScalewayWebhostingOffer
 
         /// <summary>ID of the desired offer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/data-sources/webhosting_offer#offer_id DataScalewayWebhostingOffer#offer_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.91.0/docs/data-sources/webhosting_offer#offer_id DataScalewayWebhostingOffer#offer_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "offerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -56,9 +43,9 @@ namespace scaleway.DataScalewayWebhostingOffer
             set;
         }
 
-        /// <summary>The region you want to attach the resource to.</summary>
+        /// <summary>The region of the offer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/data-sources/webhosting_offer#region DataScalewayWebhostingOffer#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.91.0/docs/data-sources/webhosting_offer#region DataScalewayWebhostingOffer#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayWebhosting
     {
         /// <summary>The domain name of the hosting.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/data-sources/webhosting#domain DataScalewayWebhosting#domain}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.91.0/docs/data-sources/webhosting#domain DataScalewayWebhosting#domain}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,22 +19,9 @@ namespace scaleway.DataScalewayWebhosting
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/data-sources/webhosting#id DataScalewayWebhosting#id}.</summary>
+        /// <summary>The organization ID the resource is associated to.</summary>
         /// <remarks>
-        /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-        /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public string? Id
-        {
-            get;
-            set;
-        }
-
-        /// <summary>ID of organization the resource is associated to.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/data-sources/webhosting#organization_id DataScalewayWebhosting#organization_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.91.0/docs/data-sources/webhosting#organization_id DataScalewayWebhosting#organization_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +33,7 @@ namespace scaleway.DataScalewayWebhosting
 
         /// <summary>The project ID the resource is associated to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/data-sources/webhosting#project_id DataScalewayWebhosting#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.91.0/docs/data-sources/webhosting#project_id DataScalewayWebhosting#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -56,9 +43,21 @@ namespace scaleway.DataScalewayWebhosting
             set;
         }
 
-        /// <summary>The ID of the Webhosting.</summary>
+        /// <summary>The region of the hosting.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/data-sources/webhosting#webhosting_id DataScalewayWebhosting#webhosting_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.91.0/docs/data-sources/webhosting#region DataScalewayWebhosting#region}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Region
+        {
+            get;
+            set;
+        }
+
+        /// <summary>The ID of the webhosting.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.91.0/docs/data-sources/webhosting#webhosting_id DataScalewayWebhosting#webhosting_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "webhostingId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

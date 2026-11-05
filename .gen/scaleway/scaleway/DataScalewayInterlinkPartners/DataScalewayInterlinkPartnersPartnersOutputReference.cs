@@ -71,6 +71,12 @@ namespace scaleway.DataScalewayInterlinkPartners
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "srn", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Srn
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "updatedAt", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string UpdatedAt
         {

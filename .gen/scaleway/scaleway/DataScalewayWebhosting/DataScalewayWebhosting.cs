@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace scaleway.DataScalewayWebhosting
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/data-sources/webhosting scaleway_webhosting}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.91.0/docs/data-sources/webhosting scaleway_webhosting}.</summary>
     [JsiiClass(nativeType: typeof(scaleway.DataScalewayWebhosting.DataScalewayWebhosting), fullyQualifiedName: "scaleway.dataScalewayWebhosting.DataScalewayWebhosting", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"scaleway.dataScalewayWebhosting.DataScalewayWebhostingConfig\"}}]")]
     public class DataScalewayWebhosting : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/data-sources/webhosting scaleway_webhosting} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.91.0/docs/data-sources/webhosting scaleway_webhosting} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataScalewayWebhosting(Constructs.Construct scope, string id, scaleway.DataScalewayWebhosting.IDataScalewayWebhostingConfig? config = null): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace scaleway.DataScalewayWebhosting
         /// <param name="importToId">The construct id used in the generated config for the DataScalewayWebhosting to import.</param>
         /// <param name="importFromId">The id of the existing DataScalewayWebhosting that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataScalewayWebhosting to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataScalewayWebhosting to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.89.0/docs/data-sources/webhosting#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataScalewayWebhosting that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataScalewayWebhosting to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataScalewayWebhosting to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.91.0/docs/data-sources/webhosting#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataScalewayWebhosting that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataScalewayWebhosting to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.DataScalewayWebhosting.DataScalewayWebhosting), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -48,12 +48,6 @@ namespace scaleway.DataScalewayWebhosting
 
         [JsiiMethod(name: "resetDomain")]
         public virtual void ResetDomain()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetId")]
-        public virtual void ResetId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -66,6 +60,12 @@ namespace scaleway.DataScalewayWebhosting
 
         [JsiiMethod(name: "resetProjectId")]
         public virtual void ResetProjectId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetRegion")]
+        public virtual void ResetRegion()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -119,6 +119,12 @@ namespace scaleway.DataScalewayWebhosting
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "nameServers", typeJson: "{\"fqn\":\"scaleway.dataScalewayWebhosting.DataScalewayWebhostingNameServersList\"}")]
         public virtual scaleway.DataScalewayWebhosting.DataScalewayWebhostingNameServersList NameServers
         {
@@ -167,12 +173,6 @@ namespace scaleway.DataScalewayWebhosting
             get => GetInstanceProperty<scaleway.DataScalewayWebhosting.DataScalewayWebhostingRecordsList>()!;
         }
 
-        [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Region
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Status
         {
@@ -205,13 +205,6 @@ namespace scaleway.DataScalewayWebhosting
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "idInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? IdInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
         [JsiiProperty(name: "organizationIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? OrganizationIdInput
         {
@@ -221,6 +214,13 @@ namespace scaleway.DataScalewayWebhosting
         [JsiiOptional]
         [JsiiProperty(name: "projectIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ProjectIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "regionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RegionInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -239,13 +239,6 @@ namespace scaleway.DataScalewayWebhosting
             set => SetInstanceProperty(value);
         }
 
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Id
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
         [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string OrganizationId
         {
@@ -255,6 +248,13 @@ namespace scaleway.DataScalewayWebhosting
 
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ProjectId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Region
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

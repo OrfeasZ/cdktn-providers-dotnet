@@ -17,7 +17,7 @@
     "oci": "9.12.1",
     "postgresql": "1.27.0",
     "random": "3.9.1",
-    "scaleway": "2.89.0",
+    "scaleway": "2.91.0",
     "stripe": "0.3.0",
     "tailscale": "0.29.3"
   }
