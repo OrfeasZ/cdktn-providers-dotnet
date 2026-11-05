@@ -7,7 +7,7 @@ namespace oci.TenantmanagercontrolplaneChildTenancy
     [JsiiInterface(nativeType: typeof(ITenantmanagercontrolplaneChildTenancyTimeouts), fullyQualifiedName: "oci.tenantmanagercontrolplaneChildTenancy.TenantmanagercontrolplaneChildTenancyTimeouts")]
     public interface ITenantmanagercontrolplaneChildTenancyTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/tenantmanagercontrolplane_child_tenancy#create TenantmanagercontrolplaneChildTenancy#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#create TenantmanagercontrolplaneChildTenancy#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -18,7 +18,7 @@ namespace oci.TenantmanagercontrolplaneChildTenancy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/tenantmanagercontrolplane_child_tenancy#delete TenantmanagercontrolplaneChildTenancy#delete}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#delete TenantmanagercontrolplaneChildTenancy#delete}.</summary>
         [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Delete
@@ -29,7 +29,7 @@ namespace oci.TenantmanagercontrolplaneChildTenancy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/tenantmanagercontrolplane_child_tenancy#update TenantmanagercontrolplaneChildTenancy#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#update TenantmanagercontrolplaneChildTenancy#update}.</summary>
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Update
@@ -47,7 +47,7 @@ namespace oci.TenantmanagercontrolplaneChildTenancy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/tenantmanagercontrolplane_child_tenancy#create TenantmanagercontrolplaneChildTenancy#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#create TenantmanagercontrolplaneChildTenancy#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create
@@ -55,7 +55,7 @@ namespace oci.TenantmanagercontrolplaneChildTenancy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/tenantmanagercontrolplane_child_tenancy#delete TenantmanagercontrolplaneChildTenancy#delete}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#delete TenantmanagercontrolplaneChildTenancy#delete}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "delete", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Delete
@@ -63,7 +63,7 @@ namespace oci.TenantmanagercontrolplaneChildTenancy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/tenantmanagercontrolplane_child_tenancy#update TenantmanagercontrolplaneChildTenancy#update}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#update TenantmanagercontrolplaneChildTenancy#update}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Update

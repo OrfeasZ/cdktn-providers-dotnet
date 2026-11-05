@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseDatabaseSnapshot
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseDatabaseSnapshotConfig), fullyQualifiedName: "oci.dataOciDatabaseDatabaseSnapshot.DataOciDatabaseDatabaseSnapshotConfig")]
     public interface IDataOciDatabaseDatabaseSnapshotConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_database_snapshot#database_snapshot_id DataOciDatabaseDatabaseSnapshot#database_snapshot_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/database_database_snapshot#database_snapshot_id DataOciDatabaseDatabaseSnapshot#database_snapshot_id}.</summary>
         [JsiiProperty(name: "databaseSnapshotId", typeJson: "{\"primitive\":\"string\"}")]
         string DatabaseSnapshotId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciDatabaseDatabaseSnapshot
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/database_database_snapshot#database_snapshot_id DataOciDatabaseDatabaseSnapshot#database_snapshot_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/database_database_snapshot#database_snapshot_id DataOciDatabaseDatabaseSnapshot#database_snapshot_id}.</summary>
             [JsiiProperty(name: "databaseSnapshotId", typeJson: "{\"primitive\":\"string\"}")]
             public string DatabaseSnapshotId
             {

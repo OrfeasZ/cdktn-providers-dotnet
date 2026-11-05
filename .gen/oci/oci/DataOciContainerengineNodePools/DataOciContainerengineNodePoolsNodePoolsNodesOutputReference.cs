@@ -119,6 +119,12 @@ namespace oci.DataOciContainerengineNodePools
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "systemTags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap SystemTags
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"oci.dataOciContainerengineNodePools.DataOciContainerengineNodePoolsNodePoolsNodes\"}", isOptional: true)]
         public virtual oci.DataOciContainerengineNodePools.IDataOciContainerengineNodePoolsNodePoolsNodes? InternalValue

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DataOciArtifactsContainerRepository
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/artifacts_container_repository oci_artifacts_container_repository}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/artifacts_container_repository oci_artifacts_container_repository}.</summary>
     [JsiiClass(nativeType: typeof(oci.DataOciArtifactsContainerRepository.DataOciArtifactsContainerRepository), fullyQualifiedName: "oci.dataOciArtifactsContainerRepository.DataOciArtifactsContainerRepository", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.dataOciArtifactsContainerRepository.DataOciArtifactsContainerRepositoryConfig\"}}]")]
     public class DataOciArtifactsContainerRepository : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/artifacts_container_repository oci_artifacts_container_repository} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/artifacts_container_repository oci_artifacts_container_repository} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataOciArtifactsContainerRepository(Constructs.Construct scope, string id, oci.DataOciArtifactsContainerRepository.IDataOciArtifactsContainerRepositoryConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DataOciArtifactsContainerRepository
         /// <param name="importToId">The construct id used in the generated config for the DataOciArtifactsContainerRepository to import.</param>
         /// <param name="importFromId">The id of the existing DataOciArtifactsContainerRepository that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataOciArtifactsContainerRepository to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciArtifactsContainerRepository to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/artifacts_container_repository#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciArtifactsContainerRepository that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciArtifactsContainerRepository to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciArtifactsContainerRepository to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/artifacts_container_repository#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciArtifactsContainerRepository that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciArtifactsContainerRepository to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DataOciArtifactsContainerRepository.DataOciArtifactsContainerRepository), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -125,6 +125,12 @@ namespace oci.DataOciArtifactsContainerRepository
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "isTopLevel", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsTopLevel
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "layerCount", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double LayerCount
         {
@@ -137,6 +143,12 @@ namespace oci.DataOciArtifactsContainerRepository
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "multiRegionPeers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] MultiRegionPeers
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Namespace
         {
@@ -147,6 +159,12 @@ namespace oci.DataOciArtifactsContainerRepository
         public virtual oci.DataOciArtifactsContainerRepository.DataOciArtifactsContainerRepositoryReadmeList Readme
         {
             get => GetInstanceProperty<oci.DataOciArtifactsContainerRepository.DataOciArtifactsContainerRepositoryReadmeList>()!;
+        }
+
+        [JsiiProperty(name: "repositoryType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RepositoryType
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
@@ -169,6 +187,24 @@ namespace oci.DataOciArtifactsContainerRepository
 
         [JsiiProperty(name: "timeLastPushed", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeLastPushed
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "upstreamSecretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UpstreamSecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "upstreamUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UpstreamUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "upstreamUsername", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UpstreamUsername
         {
             get => GetInstanceProperty<string>()!;
         }

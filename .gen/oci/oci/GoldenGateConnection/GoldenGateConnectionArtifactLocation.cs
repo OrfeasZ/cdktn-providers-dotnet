@@ -9,7 +9,7 @@ namespace oci.GoldenGateConnection
     [JsiiByValue(fqn: "oci.goldenGateConnection.GoldenGateConnectionArtifactLocation")]
     public class GoldenGateConnectionArtifactLocation : oci.GoldenGateConnection.IGoldenGateConnectionArtifactLocation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/golden_gate_connection#location_type GoldenGateConnection#location_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/golden_gate_connection#location_type GoldenGateConnection#location_type}.</summary>
         [JsiiProperty(name: "locationType", typeJson: "{\"primitive\":\"string\"}")]
         public string LocationType
         {
@@ -17,7 +17,7 @@ namespace oci.GoldenGateConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/golden_gate_connection#account_key GoldenGateConnection#account_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/golden_gate_connection#account_key GoldenGateConnection#account_key}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountKey
@@ -26,7 +26,7 @@ namespace oci.GoldenGateConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/golden_gate_connection#account_key_secret_id GoldenGateConnection#account_key_secret_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/golden_gate_connection#account_key_secret_id GoldenGateConnection#account_key_secret_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "accountKeySecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? AccountKeySecretId
@@ -37,7 +37,7 @@ namespace oci.GoldenGateConnection
 
         /// <summary>configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/golden_gate_connection#configuration GoldenGateConnection#configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/golden_gate_connection#configuration GoldenGateConnection#configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configuration", typeJson: "{\"fqn\":\"oci.goldenGateConnection.GoldenGateConnectionArtifactLocationConfiguration\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace oci.GoldenGateConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/golden_gate_connection#endpoint_suffix GoldenGateConnection#endpoint_suffix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/golden_gate_connection#endpoint_suffix GoldenGateConnection#endpoint_suffix}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "endpointSuffix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? EndpointSuffix
@@ -56,7 +56,7 @@ namespace oci.GoldenGateConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/golden_gate_connection#filesystem GoldenGateConnection#filesystem}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/golden_gate_connection#filesystem GoldenGateConnection#filesystem}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filesystem", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Filesystem
@@ -65,7 +65,7 @@ namespace oci.GoldenGateConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/golden_gate_connection#path GoldenGateConnection#path}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/golden_gate_connection#path GoldenGateConnection#path}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "path", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Path
@@ -76,7 +76,7 @@ namespace oci.GoldenGateConnection
 
         private object? _shouldOverwriteExisting;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/golden_gate_connection#should_overwrite_existing GoldenGateConnection#should_overwrite_existing}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/golden_gate_connection#should_overwrite_existing GoldenGateConnection#should_overwrite_existing}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -108,7 +108,7 @@ namespace oci.GoldenGateConnection
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/golden_gate_connection#storage_account GoldenGateConnection#storage_account}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/golden_gate_connection#storage_account GoldenGateConnection#storage_account}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "storageAccount", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? StorageAccount

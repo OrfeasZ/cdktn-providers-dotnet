@@ -53,6 +53,12 @@ namespace oci.DataOciDatascienceModelDeployments
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "modelArtifactSignatureId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ModelArtifactSignatureId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ModelId
         {

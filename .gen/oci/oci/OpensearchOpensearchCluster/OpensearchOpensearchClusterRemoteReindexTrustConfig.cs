@@ -11,7 +11,7 @@ namespace oci.OpensearchOpensearchCluster
     {
         private object _remoteSources;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/opensearch_opensearch_cluster#remote_sources OpensearchOpensearchCluster#remote_sources}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/opensearch_opensearch_cluster#remote_sources OpensearchOpensearchCluster#remote_sources}.</summary>
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.OpensearchOpensearchCluster.IOpensearchOpensearchClusterRemoteReindexTrustConfigRemoteSources" />)[]</para>
         /// </remarks>

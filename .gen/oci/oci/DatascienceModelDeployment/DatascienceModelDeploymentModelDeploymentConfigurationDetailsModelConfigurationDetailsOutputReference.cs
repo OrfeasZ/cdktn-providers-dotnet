@@ -63,6 +63,12 @@ namespace oci.DatascienceModelDeployment
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetModelArtifactSignatureId")]
+        public virtual void ResetModelArtifactSignatureId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetModelId")]
         public virtual void ResetModelId()
         {
@@ -109,6 +115,13 @@ namespace oci.DatascienceModelDeployment
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "modelArtifactSignatureIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ModelArtifactSignatureIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "modelIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ModelIdInput
         {
@@ -133,6 +146,13 @@ namespace oci.DatascienceModelDeployment
         public virtual double MaximumBandwidthMbps
         {
             get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "modelArtifactSignatureId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ModelArtifactSignatureId
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

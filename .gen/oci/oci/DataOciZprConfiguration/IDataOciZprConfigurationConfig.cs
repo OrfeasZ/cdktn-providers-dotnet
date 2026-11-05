@@ -7,11 +7,15 @@ namespace oci.DataOciZprConfiguration
     [JsiiInterface(nativeType: typeof(IDataOciZprConfigurationConfig), fullyQualifiedName: "oci.dataOciZprConfiguration.DataOciZprConfigurationConfig")]
     public interface IDataOciZprConfigurationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/zpr_configuration#compartment_id DataOciZprConfiguration#compartment_id}.</summary>
-        [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
-        string CompartmentId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/zpr_configuration#compartment_id DataOciZprConfiguration#compartment_id}.</summary>
+        [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? CompartmentId
         {
-            get;
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IDataOciZprConfigurationConfig), fullyQualifiedName: "oci.dataOciZprConfiguration.DataOciZprConfigurationConfig")]
@@ -21,11 +25,12 @@ namespace oci.DataOciZprConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/zpr_configuration#compartment_id DataOciZprConfiguration#compartment_id}.</summary>
-            [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
-            public string CompartmentId
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/zpr_configuration#compartment_id DataOciZprConfiguration#compartment_id}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? CompartmentId
             {
-                get => GetInstanceProperty<string>()!;
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

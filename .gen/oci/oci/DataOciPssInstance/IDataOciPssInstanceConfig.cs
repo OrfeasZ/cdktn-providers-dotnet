@@ -7,7 +7,7 @@ namespace oci.DataOciPssInstance
     [JsiiInterface(nativeType: typeof(IDataOciPssInstanceConfig), fullyQualifiedName: "oci.dataOciPssInstance.DataOciPssInstanceConfig")]
     public interface IDataOciPssInstanceConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/pss_instance#instance_id DataOciPssInstance#instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/pss_instance#instance_id DataOciPssInstance#instance_id}.</summary>
         [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
         string InstanceId
         {
@@ -21,7 +21,7 @@ namespace oci.DataOciPssInstance
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/pss_instance#instance_id DataOciPssInstance#instance_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/pss_instance#instance_id DataOciPssInstance#instance_id}.</summary>
             [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
             public string InstanceId
             {

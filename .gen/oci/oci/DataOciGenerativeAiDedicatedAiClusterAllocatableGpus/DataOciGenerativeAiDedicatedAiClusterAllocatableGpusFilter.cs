@@ -9,7 +9,7 @@ namespace oci.DataOciGenerativeAiDedicatedAiClusterAllocatableGpus
     [JsiiByValue(fqn: "oci.dataOciGenerativeAiDedicatedAiClusterAllocatableGpus.DataOciGenerativeAiDedicatedAiClusterAllocatableGpusFilter")]
     public class DataOciGenerativeAiDedicatedAiClusterAllocatableGpusFilter : oci.DataOciGenerativeAiDedicatedAiClusterAllocatableGpus.IDataOciGenerativeAiDedicatedAiClusterAllocatableGpusFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#name DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#name DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciGenerativeAiDedicatedAiClusterAllocatableGpus
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#values DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#values DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciGenerativeAiDedicatedAiClusterAllocatableGpus
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#regex DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#regex DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

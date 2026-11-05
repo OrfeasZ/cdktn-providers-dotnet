@@ -39,6 +39,12 @@ namespace oci.DatascienceModelDeployment
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatascienceModelDeployment.IDatascienceModelDeploymentModelDeploymentConfigurationDetailsInfrastructureConfigurationDetailsInstanceConfigurationModelDeploymentInstanceShapeConfigDetails)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetCapacityReservationIds")]
+        public virtual void ResetCapacityReservationIds()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetModelDeploymentInstanceShapeConfigDetails")]
         public virtual void ResetModelDeploymentInstanceShapeConfigDetails()
         {
@@ -67,6 +73,13 @@ namespace oci.DatascienceModelDeployment
         public virtual oci.DatascienceModelDeployment.DatascienceModelDeploymentModelDeploymentConfigurationDetailsInfrastructureConfigurationDetailsInstanceConfigurationModelDeploymentInstanceShapeConfigDetailsOutputReference ModelDeploymentInstanceShapeConfigDetails
         {
             get => GetInstanceProperty<oci.DatascienceModelDeployment.DatascienceModelDeploymentModelDeploymentConfigurationDetailsInfrastructureConfigurationDetailsInstanceConfigurationModelDeploymentInstanceShapeConfigDetailsOutputReference>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "capacityReservationIdsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? CapacityReservationIdsInput
+        {
+            get => GetInstanceProperty<string[]?>();
         }
 
         [JsiiOptional]
@@ -102,6 +115,13 @@ namespace oci.DatascienceModelDeployment
         public virtual string? SubnetIdInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "capacityReservationIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] CapacityReservationIds
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "instanceShapeName", typeJson: "{\"primitive\":\"string\"}")]

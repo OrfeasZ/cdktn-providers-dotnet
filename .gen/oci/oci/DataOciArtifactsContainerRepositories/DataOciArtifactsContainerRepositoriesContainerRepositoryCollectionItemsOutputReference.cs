@@ -95,6 +95,12 @@ namespace oci.DataOciArtifactsContainerRepositories
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "isTopLevel", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsTopLevel
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "layerCount", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double LayerCount
         {
@@ -107,6 +113,12 @@ namespace oci.DataOciArtifactsContainerRepositories
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "multiRegionPeers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] MultiRegionPeers
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Namespace
         {
@@ -117,6 +129,12 @@ namespace oci.DataOciArtifactsContainerRepositories
         public virtual oci.DataOciArtifactsContainerRepositories.DataOciArtifactsContainerRepositoriesContainerRepositoryCollectionItemsReadmeList Readme
         {
             get => GetInstanceProperty<oci.DataOciArtifactsContainerRepositories.DataOciArtifactsContainerRepositoriesContainerRepositoryCollectionItemsReadmeList>()!;
+        }
+
+        [JsiiProperty(name: "repositoryType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RepositoryType
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
@@ -139,6 +157,24 @@ namespace oci.DataOciArtifactsContainerRepositories
 
         [JsiiProperty(name: "timeLastPushed", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeLastPushed
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "upstreamSecretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UpstreamSecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "upstreamUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UpstreamUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "upstreamUsername", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UpstreamUsername
         {
             get => GetInstanceProperty<string>()!;
         }

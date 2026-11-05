@@ -39,6 +39,12 @@ namespace oci.DatascienceModelDeployment
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatascienceModelDeployment.IDatascienceModelDeploymentModelDeploymentConfigurationDetailsModelConfigurationDetailsInstanceConfigurationModelDeploymentInstanceShapeConfigDetails)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetCapacityReservationIds")]
+        public virtual void ResetCapacityReservationIds()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetInstanceShapeName")]
         public virtual void ResetInstanceShapeName()
         {
@@ -76,6 +82,13 @@ namespace oci.DatascienceModelDeployment
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "capacityReservationIdsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? CapacityReservationIdsInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "instanceShapeNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? InstanceShapeNameInput
         {
@@ -108,6 +121,13 @@ namespace oci.DatascienceModelDeployment
         public virtual string? SubnetIdInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "capacityReservationIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] CapacityReservationIds
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "instanceShapeName", typeJson: "{\"primitive\":\"string\"}")]

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.ArtifactsContainerRepository
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/artifacts_container_repository oci_artifacts_container_repository}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/artifacts_container_repository oci_artifacts_container_repository}.</summary>
     [JsiiClass(nativeType: typeof(oci.ArtifactsContainerRepository.ArtifactsContainerRepository), fullyQualifiedName: "oci.artifactsContainerRepository.ArtifactsContainerRepository", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.artifactsContainerRepository.ArtifactsContainerRepositoryConfig\"}}]")]
     public class ArtifactsContainerRepository : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/artifacts_container_repository oci_artifacts_container_repository} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/artifacts_container_repository oci_artifacts_container_repository} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public ArtifactsContainerRepository(Constructs.Construct scope, string id, oci.ArtifactsContainerRepository.IArtifactsContainerRepositoryConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.ArtifactsContainerRepository
         /// <param name="importToId">The construct id used in the generated config for the ArtifactsContainerRepository to import.</param>
         /// <param name="importFromId">The id of the existing ArtifactsContainerRepository that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the ArtifactsContainerRepository to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ArtifactsContainerRepository to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/artifacts_container_repository#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ArtifactsContainerRepository that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ArtifactsContainerRepository to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the ArtifactsContainerRepository to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/artifacts_container_repository#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing ArtifactsContainerRepository that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the ArtifactsContainerRepository to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.ArtifactsContainerRepository.ArtifactsContainerRepository), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -88,14 +88,50 @@ namespace oci.ArtifactsContainerRepository
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetIsTopLevel")]
+        public virtual void ResetIsTopLevel()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMultiRegionPeers")]
+        public virtual void ResetMultiRegionPeers()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetReadme")]
         public virtual void ResetReadme()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetRepositoryType")]
+        public virtual void ResetRepositoryType()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTimeouts")]
         public virtual void ResetTimeouts()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetUpstreamSecretId")]
+        public virtual void ResetUpstreamSecretId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetUpstreamUrl")]
+        public virtual void ResetUpstreamUrl()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetUpstreamUsername")]
+        public virtual void ResetUpstreamUsername()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -246,11 +282,35 @@ namespace oci.ArtifactsContainerRepository
             get => GetInstanceProperty<object?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "isTopLevelInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? IsTopLevelInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "multiRegionPeersInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? MultiRegionPeersInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "readmeInput", typeJson: "{\"fqn\":\"oci.artifactsContainerRepository.ArtifactsContainerRepositoryReadme\"}", isOptional: true)]
         public virtual oci.ArtifactsContainerRepository.IArtifactsContainerRepositoryReadme? ReadmeInput
         {
             get => GetInstanceProperty<oci.ArtifactsContainerRepository.IArtifactsContainerRepositoryReadme?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "repositoryTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RepositoryTypeInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         /// <remarks>
@@ -261,6 +321,27 @@ namespace oci.ArtifactsContainerRepository
         public virtual object? TimeoutsInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "upstreamSecretIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? UpstreamSecretIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "upstreamUrlInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? UpstreamUrlInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "upstreamUsernameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? UpstreamUsernameInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
@@ -356,6 +437,71 @@ namespace oci.ArtifactsContainerRepository
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "isTopLevel", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object IsTopLevel
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
+        [JsiiProperty(name: "multiRegionPeers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] MultiRegionPeers
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "repositoryType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RepositoryType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "upstreamSecretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UpstreamSecretId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "upstreamUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UpstreamUrl
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "upstreamUsername", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string UpstreamUsername
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
     }
 }

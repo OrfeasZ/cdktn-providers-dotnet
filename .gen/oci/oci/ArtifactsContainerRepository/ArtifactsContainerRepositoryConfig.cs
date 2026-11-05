@@ -9,7 +9,7 @@ namespace oci.ArtifactsContainerRepository
     [JsiiByValue(fqn: "oci.artifactsContainerRepository.ArtifactsContainerRepositoryConfig")]
     public class ArtifactsContainerRepositoryConfig : oci.ArtifactsContainerRepository.IArtifactsContainerRepositoryConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/artifacts_container_repository#compartment_id ArtifactsContainerRepository#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/artifacts_container_repository#compartment_id ArtifactsContainerRepository#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.ArtifactsContainerRepository
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/artifacts_container_repository#display_name ArtifactsContainerRepository#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/artifacts_container_repository#display_name ArtifactsContainerRepository#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -25,7 +25,7 @@ namespace oci.ArtifactsContainerRepository
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/artifacts_container_repository#defined_tags ArtifactsContainerRepository#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/artifacts_container_repository#defined_tags ArtifactsContainerRepository#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -34,7 +34,7 @@ namespace oci.ArtifactsContainerRepository
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/artifacts_container_repository#freeform_tags ArtifactsContainerRepository#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/artifacts_container_repository#freeform_tags ArtifactsContainerRepository#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -43,7 +43,7 @@ namespace oci.ArtifactsContainerRepository
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/artifacts_container_repository#id ArtifactsContainerRepository#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/artifacts_container_repository#id ArtifactsContainerRepository#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,7 +58,7 @@ namespace oci.ArtifactsContainerRepository
 
         private object? _isImmutable;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/artifacts_container_repository#is_immutable ArtifactsContainerRepository#is_immutable}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/artifacts_container_repository#is_immutable ArtifactsContainerRepository#is_immutable}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -92,7 +92,7 @@ namespace oci.ArtifactsContainerRepository
 
         private object? _isPublic;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/artifacts_container_repository#is_public ArtifactsContainerRepository#is_public}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/artifacts_container_repository#is_public ArtifactsContainerRepository#is_public}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -124,9 +124,52 @@ namespace oci.ArtifactsContainerRepository
             }
         }
 
+        private object? _isTopLevel;
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/artifacts_container_repository#is_top_level ArtifactsContainerRepository#is_top_level}.</summary>
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "isTopLevel", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public object? IsTopLevel
+        {
+            get => _isTopLevel;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _isTopLevel = value;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/artifacts_container_repository#multi_region_peers ArtifactsContainerRepository#multi_region_peers}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "multiRegionPeers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public string[]? MultiRegionPeers
+        {
+            get;
+            set;
+        }
+
         /// <summary>readme block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/artifacts_container_repository#readme ArtifactsContainerRepository#readme}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/artifacts_container_repository#readme ArtifactsContainerRepository#readme}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "readme", typeJson: "{\"fqn\":\"oci.artifactsContainerRepository.ArtifactsContainerRepositoryReadme\"}", isOptional: true)]
@@ -136,13 +179,49 @@ namespace oci.ArtifactsContainerRepository
             set;
         }
 
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/artifacts_container_repository#repository_type ArtifactsContainerRepository#repository_type}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "repositoryType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? RepositoryType
+        {
+            get;
+            set;
+        }
+
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/resources/artifacts_container_repository#timeouts ArtifactsContainerRepository#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/artifacts_container_repository#timeouts ArtifactsContainerRepository#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.artifactsContainerRepository.ArtifactsContainerRepositoryTimeouts\"}", isOptional: true)]
         public oci.ArtifactsContainerRepository.IArtifactsContainerRepositoryTimeouts? Timeouts
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/artifacts_container_repository#upstream_secret_id ArtifactsContainerRepository#upstream_secret_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "upstreamSecretId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? UpstreamSecretId
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/artifacts_container_repository#upstream_url ArtifactsContainerRepository#upstream_url}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "upstreamUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? UpstreamUrl
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/artifacts_container_repository#upstream_username ArtifactsContainerRepository#upstream_username}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "upstreamUsername", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? UpstreamUsername
         {
             get;
             set;

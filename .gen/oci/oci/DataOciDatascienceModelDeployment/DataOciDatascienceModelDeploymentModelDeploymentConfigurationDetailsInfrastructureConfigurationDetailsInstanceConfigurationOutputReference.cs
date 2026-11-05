@@ -35,6 +35,12 @@ namespace oci.DataOciDatascienceModelDeployment
         {
         }
 
+        [JsiiProperty(name: "capacityReservationIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] CapacityReservationIds
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "instanceShapeName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string InstanceShapeName
         {

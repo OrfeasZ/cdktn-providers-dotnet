@@ -4,14 +4,13 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DataOciZprConfiguration
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "oci.dataOciZprConfiguration.DataOciZprConfigurationConfig")]
     public class DataOciZprConfigurationConfig : oci.DataOciZprConfiguration.IDataOciZprConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.11.0/docs/data-sources/zpr_configuration#compartment_id DataOciZprConfiguration#compartment_id}.</summary>
-        [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
-        public string CompartmentId
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/zpr_configuration#compartment_id DataOciZprConfiguration#compartment_id}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? CompartmentId
         {
             get;
             set;
