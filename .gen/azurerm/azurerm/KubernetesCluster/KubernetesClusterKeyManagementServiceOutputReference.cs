@@ -33,10 +33,23 @@ namespace azurerm.KubernetesCluster
         {
         }
 
+        [JsiiMethod(name: "resetKeyVaultId")]
+        public virtual void ResetKeyVaultId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetKeyVaultNetworkAccess")]
         public virtual void ResetKeyVaultNetworkAccess()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "keyVaultIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? KeyVaultIdInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -51,6 +64,13 @@ namespace azurerm.KubernetesCluster
         public virtual string? KeyVaultNetworkAccessInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "keyVaultId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string KeyVaultId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "keyVaultKeyId", typeJson: "{\"primitive\":\"string\"}")]

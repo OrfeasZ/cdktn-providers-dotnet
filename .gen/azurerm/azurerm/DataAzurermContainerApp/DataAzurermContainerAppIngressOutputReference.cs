@@ -83,6 +83,12 @@ namespace azurerm.DataAzurermContainerApp
             get => GetInstanceProperty<azurerm.DataAzurermContainerApp.DataAzurermContainerAppIngressIpSecurityRestrictionList>()!;
         }
 
+        [JsiiProperty(name: "sessionAffinityEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable SessionAffinityEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "targetPort", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double TargetPort
         {

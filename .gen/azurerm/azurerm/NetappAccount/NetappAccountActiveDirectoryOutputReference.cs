@@ -33,8 +33,32 @@ namespace azurerm.NetappAccount
         {
         }
 
+        [JsiiMethod(name: "putLdapSearchScope", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.netappAccount.NetappAccountActiveDirectoryLdapSearchScope\"}}]")]
+        public virtual void PutLdapSearchScope(azurerm.NetappAccount.INetappAccountActiveDirectoryLdapSearchScope @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.NetappAccount.INetappAccountActiveDirectoryLdapSearchScope)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetAdministratorUsers")]
+        public virtual void ResetAdministratorUsers()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetAesEncryptionEnabled")]
         public virtual void ResetAesEncryptionEnabled()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetBackupUsers")]
+        public virtual void ResetBackupUsers()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDomainControllerConnectionEncryptionEnabled")]
+        public virtual void ResetDomainControllerConnectionEncryptionEnabled()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -51,8 +75,20 @@ namespace azurerm.NetappAccount
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetLdapClientPreferredServers")]
+        public virtual void ResetLdapClientPreferredServers()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetLdapOverTlsEnabled")]
         public virtual void ResetLdapOverTlsEnabled()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetLdapSearchScope")]
+        public virtual void ResetLdapSearchScope()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -75,6 +111,12 @@ namespace azurerm.NetappAccount
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSecurityUsers")]
+        public virtual void ResetSecurityUsers()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetServerRootCaCertificate")]
         public virtual void ResetServerRootCaCertificate()
         {
@@ -85,6 +127,19 @@ namespace azurerm.NetappAccount
         public virtual void ResetSiteName()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "ldapSearchScope", typeJson: "{\"fqn\":\"azurerm.netappAccount.NetappAccountActiveDirectoryLdapSearchScopeOutputReference\"}")]
+        public virtual azurerm.NetappAccount.NetappAccountActiveDirectoryLdapSearchScopeOutputReference LdapSearchScope
+        {
+            get => GetInstanceProperty<azurerm.NetappAccount.NetappAccountActiveDirectoryLdapSearchScopeOutputReference>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "administratorUsersInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? AdministratorUsersInput
+        {
+            get => GetInstanceProperty<string[]?>();
         }
 
         /// <remarks>
@@ -98,10 +153,27 @@ namespace azurerm.NetappAccount
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "backupUsersInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? BackupUsersInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "dnsServersInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? DnsServersInput
         {
             get => GetInstanceProperty<string[]?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "domainControllerConnectionEncryptionEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? DomainControllerConnectionEncryptionEnabledInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -125,6 +197,13 @@ namespace azurerm.NetappAccount
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "ldapClientPreferredServersInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? LdapClientPreferredServersInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -133,6 +212,13 @@ namespace azurerm.NetappAccount
         public virtual object? LdapOverTlsEnabledInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "ldapSearchScopeInput", typeJson: "{\"fqn\":\"azurerm.netappAccount.NetappAccountActiveDirectoryLdapSearchScope\"}", isOptional: true)]
+        public virtual azurerm.NetappAccount.INetappAccountActiveDirectoryLdapSearchScope? LdapSearchScopeInput
+        {
+            get => GetInstanceProperty<azurerm.NetappAccount.INetappAccountActiveDirectoryLdapSearchScope?>();
         }
 
         /// <remarks>
@@ -170,6 +256,13 @@ namespace azurerm.NetappAccount
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "securityUsersInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? SecurityUsersInput
+        {
+            get => GetInstanceProperty<string[]?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "serverRootCaCertificateInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ServerRootCaCertificateInput
         {
@@ -195,6 +288,13 @@ namespace azurerm.NetappAccount
         public virtual string? UsernameInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "administratorUsers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] AdministratorUsers
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
         }
 
         /// <remarks>
@@ -227,6 +327,13 @@ namespace azurerm.NetappAccount
             }
         }
 
+        [JsiiProperty(name: "backupUsers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] BackupUsers
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "dnsServers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] DnsServers
         {
@@ -241,6 +348,36 @@ namespace azurerm.NetappAccount
             set => SetInstanceProperty(value);
         }
 
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "domainControllerConnectionEncryptionEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object DomainControllerConnectionEncryptionEnabled
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
+        }
+
         [JsiiProperty(name: "kerberosAdName", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string KerberosAdName
         {
@@ -252,6 +389,13 @@ namespace azurerm.NetappAccount
         public virtual string KerberosKdcIp
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "ldapClientPreferredServers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] LdapClientPreferredServers
+        {
+            get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);
         }
 
@@ -356,6 +500,13 @@ namespace azurerm.NetappAccount
         public virtual string Password
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "securityUsers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] SecurityUsers
+        {
+            get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);
         }
 

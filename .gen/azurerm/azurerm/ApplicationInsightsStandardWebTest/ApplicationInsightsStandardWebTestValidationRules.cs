@@ -9,7 +9,7 @@ namespace azurerm.ApplicationInsightsStandardWebTest
     {
         /// <summary>content block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/resources/application_insights_standard_web_test#content ApplicationInsightsStandardWebTest#content}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/application_insights_standard_web_test#content ApplicationInsightsStandardWebTest#content}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "content", typeJson: "{\"fqn\":\"azurerm.applicationInsightsStandardWebTest.ApplicationInsightsStandardWebTestValidationRulesContent\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace azurerm.ApplicationInsightsStandardWebTest
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/resources/application_insights_standard_web_test#expected_status_code ApplicationInsightsStandardWebTest#expected_status_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/application_insights_standard_web_test#expected_status_code ApplicationInsightsStandardWebTest#expected_status_code}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "expectedStatusCode", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? ExpectedStatusCode
@@ -30,7 +30,7 @@ namespace azurerm.ApplicationInsightsStandardWebTest
 
         private object? _ignoreStatusCode;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/resources/application_insights_standard_web_test#ignore_status_code ApplicationInsightsStandardWebTest#ignore_status_code}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/application_insights_standard_web_test#ignore_status_code ApplicationInsightsStandardWebTest#ignore_status_code}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -62,7 +62,7 @@ namespace azurerm.ApplicationInsightsStandardWebTest
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/resources/application_insights_standard_web_test#ssl_cert_remaining_lifetime ApplicationInsightsStandardWebTest#ssl_cert_remaining_lifetime}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/application_insights_standard_web_test#ssl_cert_remaining_lifetime ApplicationInsightsStandardWebTest#ssl_cert_remaining_lifetime}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sslCertRemainingLifetime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? SslCertRemainingLifetime
@@ -73,7 +73,7 @@ namespace azurerm.ApplicationInsightsStandardWebTest
 
         private object? _sslCheckEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.12.0/docs/resources/application_insights_standard_web_test#ssl_check_enabled ApplicationInsightsStandardWebTest#ssl_check_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/application_insights_standard_web_test#ssl_check_enabled ApplicationInsightsStandardWebTest#ssl_check_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
