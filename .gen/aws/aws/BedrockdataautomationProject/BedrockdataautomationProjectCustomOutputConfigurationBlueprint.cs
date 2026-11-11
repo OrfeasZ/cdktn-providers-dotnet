@@ -9,7 +9,7 @@ namespace aws.BedrockdataautomationProject
     [JsiiByValue(fqn: "aws.bedrockdataautomationProject.BedrockdataautomationProjectCustomOutputConfigurationBlueprint")]
     public class BedrockdataautomationProjectCustomOutputConfigurationBlueprint : aws.BedrockdataautomationProject.IBedrockdataautomationProjectCustomOutputConfigurationBlueprint
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#blueprint_arn BedrockdataautomationProject#blueprint_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#blueprint_arn BedrockdataautomationProject#blueprint_arn}.</summary>
         [JsiiProperty(name: "blueprintArn", typeJson: "{\"primitive\":\"string\"}")]
         public string BlueprintArn
         {
@@ -17,7 +17,7 @@ namespace aws.BedrockdataautomationProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#blueprint_stage BedrockdataautomationProject#blueprint_stage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#blueprint_stage BedrockdataautomationProject#blueprint_stage}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "blueprintStage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BlueprintStage
@@ -26,7 +26,7 @@ namespace aws.BedrockdataautomationProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#blueprint_version BedrockdataautomationProject#blueprint_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#blueprint_version BedrockdataautomationProject#blueprint_version}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "blueprintVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? BlueprintVersion

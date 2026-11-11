@@ -5,7 +5,7 @@ namespace aws.DevopsagentAsset
     /// <remarks>
     /// <h1><c>aws_devopsagent_asset</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/devopsagent_asset"><c>aws_devopsagent_asset</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/devopsagent_asset"><c>aws_devopsagent_asset</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

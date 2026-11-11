@@ -7,14 +7,14 @@ namespace aws.BedrockdataautomationProject
     [JsiiInterface(nativeType: typeof(IBedrockdataautomationProjectOverrideConfigurationDocumentSensitiveDataConfiguration), fullyQualifiedName: "aws.bedrockdataautomationProject.BedrockdataautomationProjectOverrideConfigurationDocumentSensitiveDataConfiguration")]
     public interface IBedrockdataautomationProjectOverrideConfigurationDocumentSensitiveDataConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#detection_mode BedrockdataautomationProject#detection_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#detection_mode BedrockdataautomationProject#detection_mode}.</summary>
         [JsiiProperty(name: "detectionMode", typeJson: "{\"primitive\":\"string\"}")]
         string DetectionMode
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#detection_scope BedrockdataautomationProject#detection_scope}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#detection_scope BedrockdataautomationProject#detection_scope}.</summary>
         [JsiiProperty(name: "detectionScope", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? DetectionScope
@@ -27,7 +27,7 @@ namespace aws.BedrockdataautomationProject
 
         /// <summary>pii_entities_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#pii_entities_configuration BedrockdataautomationProject#pii_entities_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#pii_entities_configuration BedrockdataautomationProject#pii_entities_configuration}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockdataautomationProject.IBedrockdataautomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "piiEntitiesConfiguration", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.bedrockdataautomationProject.BedrockdataautomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -47,14 +47,14 @@ namespace aws.BedrockdataautomationProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#detection_mode BedrockdataautomationProject#detection_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#detection_mode BedrockdataautomationProject#detection_mode}.</summary>
             [JsiiProperty(name: "detectionMode", typeJson: "{\"primitive\":\"string\"}")]
             public string DetectionMode
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#detection_scope BedrockdataautomationProject#detection_scope}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#detection_scope BedrockdataautomationProject#detection_scope}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "detectionScope", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? DetectionScope
@@ -64,7 +64,7 @@ namespace aws.BedrockdataautomationProject
 
             /// <summary>pii_entities_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#pii_entities_configuration BedrockdataautomationProject#pii_entities_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#pii_entities_configuration BedrockdataautomationProject#pii_entities_configuration}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.BedrockdataautomationProject.IBedrockdataautomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration" />)[]</para>
             /// </remarks>
             [JsiiOptional]

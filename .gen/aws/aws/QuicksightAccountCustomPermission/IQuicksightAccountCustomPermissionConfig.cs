@@ -7,14 +7,14 @@ namespace aws.QuicksightAccountCustomPermission
     [JsiiInterface(nativeType: typeof(IQuicksightAccountCustomPermissionConfig), fullyQualifiedName: "aws.quicksightAccountCustomPermission.QuicksightAccountCustomPermissionConfig")]
     public interface IQuicksightAccountCustomPermissionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/quicksight_account_custom_permission#custom_permissions_name QuicksightAccountCustomPermission#custom_permissions_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/quicksight_account_custom_permission#custom_permissions_name QuicksightAccountCustomPermission#custom_permissions_name}.</summary>
         [JsiiProperty(name: "customPermissionsName", typeJson: "{\"primitive\":\"string\"}")]
         string CustomPermissionsName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/quicksight_account_custom_permission#aws_account_id QuicksightAccountCustomPermission#aws_account_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/quicksight_account_custom_permission#aws_account_id QuicksightAccountCustomPermission#aws_account_id}.</summary>
         [JsiiProperty(name: "awsAccountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AwsAccountId
@@ -27,7 +27,7 @@ namespace aws.QuicksightAccountCustomPermission
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/quicksight_account_custom_permission#region QuicksightAccountCustomPermission#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/quicksight_account_custom_permission#region QuicksightAccountCustomPermission#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -46,14 +46,14 @@ namespace aws.QuicksightAccountCustomPermission
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/quicksight_account_custom_permission#custom_permissions_name QuicksightAccountCustomPermission#custom_permissions_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/quicksight_account_custom_permission#custom_permissions_name QuicksightAccountCustomPermission#custom_permissions_name}.</summary>
             [JsiiProperty(name: "customPermissionsName", typeJson: "{\"primitive\":\"string\"}")]
             public string CustomPermissionsName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/quicksight_account_custom_permission#aws_account_id QuicksightAccountCustomPermission#aws_account_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/quicksight_account_custom_permission#aws_account_id QuicksightAccountCustomPermission#aws_account_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "awsAccountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AwsAccountId
@@ -63,7 +63,7 @@ namespace aws.QuicksightAccountCustomPermission
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/quicksight_account_custom_permission#region QuicksightAccountCustomPermission#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/quicksight_account_custom_permission#region QuicksightAccountCustomPermission#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

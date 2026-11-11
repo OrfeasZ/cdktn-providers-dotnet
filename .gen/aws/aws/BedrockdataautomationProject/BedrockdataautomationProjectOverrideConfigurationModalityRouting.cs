@@ -7,7 +7,7 @@ namespace aws.BedrockdataautomationProject
     [JsiiByValue(fqn: "aws.bedrockdataautomationProject.BedrockdataautomationProjectOverrideConfigurationModalityRouting")]
     public class BedrockdataautomationProjectOverrideConfigurationModalityRouting : aws.BedrockdataautomationProject.IBedrockdataautomationProjectOverrideConfigurationModalityRouting
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#jpeg BedrockdataautomationProject#jpeg}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#jpeg BedrockdataautomationProject#jpeg}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jpeg", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Jpeg
@@ -16,7 +16,7 @@ namespace aws.BedrockdataautomationProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#mov BedrockdataautomationProject#mov}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#mov BedrockdataautomationProject#mov}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mov", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Mov
@@ -25,7 +25,7 @@ namespace aws.BedrockdataautomationProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#mp4 BedrockdataautomationProject#mp4}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#mp4 BedrockdataautomationProject#mp4}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mp4", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Mp4
@@ -34,7 +34,7 @@ namespace aws.BedrockdataautomationProject
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#png BedrockdataautomationProject#png}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#png BedrockdataautomationProject#png}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "png", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Png

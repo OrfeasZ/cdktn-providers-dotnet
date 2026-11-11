@@ -5,7 +5,7 @@ namespace aws.CloudwatchomniOrganizationDomain
     /// <remarks>
     /// <h1><c>aws_cloudwatchomni_organization_domain</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/cloudwatchomni_organization_domain"><c>aws_cloudwatchomni_organization_domain</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/cloudwatchomni_organization_domain"><c>aws_cloudwatchomni_organization_domain</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

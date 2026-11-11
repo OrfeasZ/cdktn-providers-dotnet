@@ -9,7 +9,7 @@ namespace aws.LambdawebFunctionEndpoint
     [JsiiByValue(fqn: "aws.lambdawebFunctionEndpoint.LambdawebFunctionEndpointRevisionWeight")]
     public class LambdawebFunctionEndpointRevisionWeight : aws.LambdawebFunctionEndpoint.ILambdawebFunctionEndpointRevisionWeight
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/lambdaweb_function_endpoint#revision_id LambdawebFunctionEndpoint#revision_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambdaweb_function_endpoint#revision_id LambdawebFunctionEndpoint#revision_id}.</summary>
         [JsiiProperty(name: "revisionId", typeJson: "{\"primitive\":\"string\"}")]
         public string RevisionId
         {
@@ -17,7 +17,7 @@ namespace aws.LambdawebFunctionEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/lambdaweb_function_endpoint#weight LambdawebFunctionEndpoint#weight}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambdaweb_function_endpoint#weight LambdawebFunctionEndpoint#weight}.</summary>
         [JsiiProperty(name: "weight", typeJson: "{\"primitive\":\"number\"}")]
         public double Weight
         {

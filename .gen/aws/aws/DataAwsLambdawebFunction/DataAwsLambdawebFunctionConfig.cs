@@ -9,7 +9,7 @@ namespace aws.DataAwsLambdawebFunction
     [JsiiByValue(fqn: "aws.dataAwsLambdawebFunction.DataAwsLambdawebFunctionConfig")]
     public class DataAwsLambdawebFunctionConfig : aws.DataAwsLambdawebFunction.IDataAwsLambdawebFunctionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/data-sources/lambdaweb_function#function_name DataAwsLambdawebFunction#function_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/data-sources/lambdaweb_function#function_name DataAwsLambdawebFunction#function_name}.</summary>
         [JsiiProperty(name: "functionName", typeJson: "{\"primitive\":\"string\"}")]
         public string FunctionName
         {
@@ -19,7 +19,7 @@ namespace aws.DataAwsLambdawebFunction
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/data-sources/lambdaweb_function#region DataAwsLambdawebFunction#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/data-sources/lambdaweb_function#region DataAwsLambdawebFunction#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

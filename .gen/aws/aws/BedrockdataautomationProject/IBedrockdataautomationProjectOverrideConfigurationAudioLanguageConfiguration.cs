@@ -7,7 +7,7 @@ namespace aws.BedrockdataautomationProject
     [JsiiInterface(nativeType: typeof(IBedrockdataautomationProjectOverrideConfigurationAudioLanguageConfiguration), fullyQualifiedName: "aws.bedrockdataautomationProject.BedrockdataautomationProjectOverrideConfigurationAudioLanguageConfiguration")]
     public interface IBedrockdataautomationProjectOverrideConfigurationAudioLanguageConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#generative_output_language BedrockdataautomationProject#generative_output_language}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#generative_output_language BedrockdataautomationProject#generative_output_language}.</summary>
         [JsiiProperty(name: "generativeOutputLanguage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GenerativeOutputLanguage
@@ -18,7 +18,7 @@ namespace aws.BedrockdataautomationProject
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#identify_multiple_languages BedrockdataautomationProject#identify_multiple_languages}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#identify_multiple_languages BedrockdataautomationProject#identify_multiple_languages}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -32,7 +32,7 @@ namespace aws.BedrockdataautomationProject
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#input_languages BedrockdataautomationProject#input_languages}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#input_languages BedrockdataautomationProject#input_languages}.</summary>
         [JsiiProperty(name: "inputLanguages", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? InputLanguages
@@ -50,7 +50,7 @@ namespace aws.BedrockdataautomationProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#generative_output_language BedrockdataautomationProject#generative_output_language}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#generative_output_language BedrockdataautomationProject#generative_output_language}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "generativeOutputLanguage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GenerativeOutputLanguage
@@ -58,7 +58,7 @@ namespace aws.BedrockdataautomationProject
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#identify_multiple_languages BedrockdataautomationProject#identify_multiple_languages}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#identify_multiple_languages BedrockdataautomationProject#identify_multiple_languages}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -69,7 +69,7 @@ namespace aws.BedrockdataautomationProject
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#input_languages BedrockdataautomationProject#input_languages}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#input_languages BedrockdataautomationProject#input_languages}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "inputLanguages", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? InputLanguages

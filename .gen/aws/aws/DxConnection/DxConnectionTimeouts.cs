@@ -7,7 +7,7 @@ namespace aws.DxConnection
     [JsiiByValue(fqn: "aws.dxConnection.DxConnectionTimeouts")]
     public class DxConnectionTimeouts : aws.DxConnection.IDxConnectionTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/dx_connection#update DxConnection#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/dx_connection#update DxConnection#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

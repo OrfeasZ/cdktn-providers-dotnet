@@ -35,8 +35,8 @@ namespace aws.Wafv2WebAclRule
         {
         }
 
-        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatement" />)[]</param>
-        [JsiiMethod(name: "putStatement", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatement\"},\"kind\":\"array\"}}]}}}]")]
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementAndStatementStatement" />)[]</param>
+        [JsiiMethod(name: "putStatement", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementAndStatementStatement\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutStatement(object @value)
         {
             if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
@@ -45,15 +45,15 @@ namespace aws.Wafv2WebAclRule
                 {
                     case Io.Cdktn.IResolvable cast_2ed7d7:
                         break;
-                    case aws.Wafv2WebAclRule.IWafv2WebAclRuleStatement[] cast_2ed7d7:
+                    case aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementAndStatementStatement[] cast_2ed7d7:
                         break;
                     case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
                         // Not enough information to type-check...
                         break;
                     case null:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.Wafv2WebAclRule.IWafv2WebAclRuleStatement).FullName}[]; received null", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementAndStatementStatement).FullName}[]; received null", nameof(@value));
                     default:
-                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.Wafv2WebAclRule.IWafv2WebAclRuleStatement).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementAndStatementStatement).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
@@ -65,17 +65,17 @@ namespace aws.Wafv2WebAclRule
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiProperty(name: "statement", typeJson: "{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementList\"}")]
-        public virtual aws.Wafv2WebAclRule.Wafv2WebAclRuleStatementList Statement
+        [JsiiProperty(name: "statement", typeJson: "{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementAndStatementStatementList\"}")]
+        public virtual aws.Wafv2WebAclRule.Wafv2WebAclRuleStatementAndStatementStatementList Statement
         {
-            get => GetInstanceProperty<aws.Wafv2WebAclRule.Wafv2WebAclRuleStatementList>()!;
+            get => GetInstanceProperty<aws.Wafv2WebAclRule.Wafv2WebAclRuleStatementAndStatementStatementList>()!;
         }
 
         /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatement" />)[]</para>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.Wafv2WebAclRule.IWafv2WebAclRuleStatementAndStatementStatement" />)[]</para>
         /// </remarks>
         [JsiiOptional]
-        [JsiiProperty(name: "statementInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatement\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "statementInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.wafv2WebAclRule.Wafv2WebAclRuleStatementAndStatementStatement\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         public virtual object? StatementInput
         {
             get => GetInstanceProperty<object?>();

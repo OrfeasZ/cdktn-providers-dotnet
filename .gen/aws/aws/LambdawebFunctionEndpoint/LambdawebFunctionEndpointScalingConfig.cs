@@ -9,7 +9,7 @@ namespace aws.LambdawebFunctionEndpoint
     [JsiiByValue(fqn: "aws.lambdawebFunctionEndpoint.LambdawebFunctionEndpointScalingConfig")]
     public class LambdawebFunctionEndpointScalingConfig : aws.LambdawebFunctionEndpoint.ILambdawebFunctionEndpointScalingConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/lambdaweb_function_endpoint#max_environments LambdawebFunctionEndpoint#max_environments}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambdaweb_function_endpoint#max_environments LambdawebFunctionEndpoint#max_environments}.</summary>
         [JsiiProperty(name: "maxEnvironments", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxEnvironments
         {

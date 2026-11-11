@@ -5,7 +5,7 @@ namespace aws.LambdawebFunctionRevision
     /// <remarks>
     /// <h1><c>aws_lambdaweb_function_revision</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/lambdaweb_function_revision"><c>aws_lambdaweb_function_revision</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambdaweb_function_revision"><c>aws_lambdaweb_function_revision</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

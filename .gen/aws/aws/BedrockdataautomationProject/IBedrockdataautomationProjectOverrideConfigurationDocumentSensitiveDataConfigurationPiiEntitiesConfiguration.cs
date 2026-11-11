@@ -7,7 +7,7 @@ namespace aws.BedrockdataautomationProject
     [JsiiInterface(nativeType: typeof(IBedrockdataautomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration), fullyQualifiedName: "aws.bedrockdataautomationProject.BedrockdataautomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration")]
     public interface IBedrockdataautomationProjectOverrideConfigurationDocumentSensitiveDataConfigurationPiiEntitiesConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#pii_entity_types BedrockdataautomationProject#pii_entity_types}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#pii_entity_types BedrockdataautomationProject#pii_entity_types}.</summary>
         [JsiiProperty(name: "piiEntityTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? PiiEntityTypes
@@ -18,7 +18,7 @@ namespace aws.BedrockdataautomationProject
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#redaction_mask_mode BedrockdataautomationProject#redaction_mask_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#redaction_mask_mode BedrockdataautomationProject#redaction_mask_mode}.</summary>
         [JsiiProperty(name: "redactionMaskMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RedactionMaskMode
@@ -36,7 +36,7 @@ namespace aws.BedrockdataautomationProject
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#pii_entity_types BedrockdataautomationProject#pii_entity_types}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#pii_entity_types BedrockdataautomationProject#pii_entity_types}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "piiEntityTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? PiiEntityTypes
@@ -44,7 +44,7 @@ namespace aws.BedrockdataautomationProject
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/bedrockdataautomation_project#redaction_mask_mode BedrockdataautomationProject#redaction_mask_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrockdataautomation_project#redaction_mask_mode BedrockdataautomationProject#redaction_mask_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "redactionMaskMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RedactionMaskMode

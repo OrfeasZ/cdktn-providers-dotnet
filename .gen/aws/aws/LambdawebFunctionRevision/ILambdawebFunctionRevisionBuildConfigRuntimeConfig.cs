@@ -7,7 +7,7 @@ namespace aws.LambdawebFunctionRevision
     [JsiiInterface(nativeType: typeof(ILambdawebFunctionRevisionBuildConfigRuntimeConfig), fullyQualifiedName: "aws.lambdawebFunctionRevision.LambdawebFunctionRevisionBuildConfigRuntimeConfig")]
     public interface ILambdawebFunctionRevisionBuildConfigRuntimeConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/lambdaweb_function_revision#runtime LambdawebFunctionRevision#runtime}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambdaweb_function_revision#runtime LambdawebFunctionRevision#runtime}.</summary>
         [JsiiProperty(name: "runtime", typeJson: "{\"primitive\":\"string\"}")]
         string Runtime
         {
@@ -21,7 +21,7 @@ namespace aws.LambdawebFunctionRevision
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/lambdaweb_function_revision#runtime LambdawebFunctionRevision#runtime}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambdaweb_function_revision#runtime LambdawebFunctionRevision#runtime}.</summary>
             [JsiiProperty(name: "runtime", typeJson: "{\"primitive\":\"string\"}")]
             public string Runtime
             {

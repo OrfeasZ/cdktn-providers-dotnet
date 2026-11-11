@@ -35,6 +35,30 @@ namespace aws.SecurityhubConnectorV2
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubConnectorV2.ISecurityhubConnectorV2ConnectorProviderAzure" />)[]</param>
+        [JsiiMethod(name: "putAzure", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubConnectorV2.SecurityhubConnectorV2ConnectorProviderAzure\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutAzure(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.SecurityhubConnectorV2.ISecurityhubConnectorV2ConnectorProviderAzure[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.SecurityhubConnectorV2.ISecurityhubConnectorV2ConnectorProviderAzure).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.SecurityhubConnectorV2.ISecurityhubConnectorV2ConnectorProviderAzure).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubConnectorV2.ISecurityhubConnectorV2ConnectorProviderJiraCloud" />)[]</param>
         [JsiiMethod(name: "putJiraCloud", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubConnectorV2.SecurityhubConnectorV2ConnectorProviderJiraCloud\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutJiraCloud(object @value)
@@ -83,6 +107,12 @@ namespace aws.SecurityhubConnectorV2
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetAzure")]
+        public virtual void ResetAzure()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetJiraCloud")]
         public virtual void ResetJiraCloud()
         {
@@ -95,6 +125,12 @@ namespace aws.SecurityhubConnectorV2
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "azure", typeJson: "{\"fqn\":\"aws.securityhubConnectorV2.SecurityhubConnectorV2ConnectorProviderAzureList\"}")]
+        public virtual aws.SecurityhubConnectorV2.SecurityhubConnectorV2ConnectorProviderAzureList Azure
+        {
+            get => GetInstanceProperty<aws.SecurityhubConnectorV2.SecurityhubConnectorV2ConnectorProviderAzureList>()!;
+        }
+
         [JsiiProperty(name: "jiraCloud", typeJson: "{\"fqn\":\"aws.securityhubConnectorV2.SecurityhubConnectorV2ConnectorProviderJiraCloudList\"}")]
         public virtual aws.SecurityhubConnectorV2.SecurityhubConnectorV2ConnectorProviderJiraCloudList JiraCloud
         {
@@ -105,6 +141,16 @@ namespace aws.SecurityhubConnectorV2
         public virtual aws.SecurityhubConnectorV2.SecurityhubConnectorV2ConnectorProviderServiceNowList ServiceNow
         {
             get => GetInstanceProperty<aws.SecurityhubConnectorV2.SecurityhubConnectorV2ConnectorProviderServiceNowList>()!;
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.SecurityhubConnectorV2.ISecurityhubConnectorV2ConnectorProviderAzure" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "azureInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.securityhubConnectorV2.SecurityhubConnectorV2ConnectorProviderAzure\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? AzureInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>

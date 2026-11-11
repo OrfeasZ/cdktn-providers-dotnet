@@ -7,7 +7,7 @@ namespace aws.DxConnectionConfirmation
     [JsiiInterface(nativeType: typeof(IDxConnectionConfirmationTimeouts), fullyQualifiedName: "aws.dxConnectionConfirmation.DxConnectionConfirmationTimeouts")]
     public interface IDxConnectionConfirmationTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/dx_connection_confirmation#create DxConnectionConfirmation#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/dx_connection_confirmation#create DxConnectionConfirmation#create}.</summary>
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Create
@@ -25,7 +25,7 @@ namespace aws.DxConnectionConfirmation
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/dx_connection_confirmation#create DxConnectionConfirmation#create}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/dx_connection_confirmation#create DxConnectionConfirmation#create}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Create

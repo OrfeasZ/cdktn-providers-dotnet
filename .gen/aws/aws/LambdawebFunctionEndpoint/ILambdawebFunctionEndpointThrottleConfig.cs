@@ -7,7 +7,7 @@ namespace aws.LambdawebFunctionEndpoint
     [JsiiInterface(nativeType: typeof(ILambdawebFunctionEndpointThrottleConfig), fullyQualifiedName: "aws.lambdawebFunctionEndpoint.LambdawebFunctionEndpointThrottleConfig")]
     public interface ILambdawebFunctionEndpointThrottleConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/lambdaweb_function_endpoint#rate_limit LambdawebFunctionEndpoint#rate_limit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambdaweb_function_endpoint#rate_limit LambdawebFunctionEndpoint#rate_limit}.</summary>
         [JsiiProperty(name: "rateLimit", typeJson: "{\"primitive\":\"number\"}")]
         double RateLimit
         {
@@ -21,7 +21,7 @@ namespace aws.LambdawebFunctionEndpoint
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.72.0/docs/resources/lambdaweb_function_endpoint#rate_limit LambdawebFunctionEndpoint#rate_limit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambdaweb_function_endpoint#rate_limit LambdawebFunctionEndpoint#rate_limit}.</summary>
             [JsiiProperty(name: "rateLimit", typeJson: "{\"primitive\":\"number\"}")]
             public double RateLimit
             {
