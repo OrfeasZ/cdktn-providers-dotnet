@@ -7,35 +7,35 @@ namespace oci.TenantmanagercontrolplaneChildTenancy
     [JsiiInterface(nativeType: typeof(ITenantmanagercontrolplaneChildTenancyConfig), fullyQualifiedName: "oci.tenantmanagercontrolplaneChildTenancy.TenantmanagercontrolplaneChildTenancyConfig")]
     public interface ITenantmanagercontrolplaneChildTenancyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#admin_email TenantmanagercontrolplaneChildTenancy#admin_email}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/tenantmanagercontrolplane_child_tenancy#admin_email TenantmanagercontrolplaneChildTenancy#admin_email}.</summary>
         [JsiiProperty(name: "adminEmail", typeJson: "{\"primitive\":\"string\"}")]
         string AdminEmail
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#compartment_id TenantmanagercontrolplaneChildTenancy#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/tenantmanagercontrolplane_child_tenancy#compartment_id TenantmanagercontrolplaneChildTenancy#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#home_region TenantmanagercontrolplaneChildTenancy#home_region}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/tenantmanagercontrolplane_child_tenancy#home_region TenantmanagercontrolplaneChildTenancy#home_region}.</summary>
         [JsiiProperty(name: "homeRegion", typeJson: "{\"primitive\":\"string\"}")]
         string HomeRegion
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#tenancy_name TenantmanagercontrolplaneChildTenancy#tenancy_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/tenantmanagercontrolplane_child_tenancy#tenancy_name TenantmanagercontrolplaneChildTenancy#tenancy_name}.</summary>
         [JsiiProperty(name: "tenancyName", typeJson: "{\"primitive\":\"string\"}")]
         string TenancyName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#features TenantmanagercontrolplaneChildTenancy#features}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/tenantmanagercontrolplane_child_tenancy#features TenantmanagercontrolplaneChildTenancy#features}.</summary>
         [JsiiProperty(name: "features", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Features
@@ -46,7 +46,7 @@ namespace oci.TenantmanagercontrolplaneChildTenancy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#governance_status TenantmanagercontrolplaneChildTenancy#governance_status}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/tenantmanagercontrolplane_child_tenancy#governance_status TenantmanagercontrolplaneChildTenancy#governance_status}.</summary>
         [JsiiProperty(name: "governanceStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? GovernanceStatus
@@ -57,7 +57,7 @@ namespace oci.TenantmanagercontrolplaneChildTenancy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#id TenantmanagercontrolplaneChildTenancy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/tenantmanagercontrolplane_child_tenancy#id TenantmanagercontrolplaneChildTenancy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -72,7 +72,7 @@ namespace oci.TenantmanagercontrolplaneChildTenancy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#policy_name TenantmanagercontrolplaneChildTenancy#policy_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/tenantmanagercontrolplane_child_tenancy#policy_name TenantmanagercontrolplaneChildTenancy#policy_name}.</summary>
         [JsiiProperty(name: "policyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PolicyName
@@ -85,7 +85,7 @@ namespace oci.TenantmanagercontrolplaneChildTenancy
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#timeouts TenantmanagercontrolplaneChildTenancy#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/tenantmanagercontrolplane_child_tenancy#timeouts TenantmanagercontrolplaneChildTenancy#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.tenantmanagercontrolplaneChildTenancy.TenantmanagercontrolplaneChildTenancyTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -104,35 +104,35 @@ namespace oci.TenantmanagercontrolplaneChildTenancy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#admin_email TenantmanagercontrolplaneChildTenancy#admin_email}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/tenantmanagercontrolplane_child_tenancy#admin_email TenantmanagercontrolplaneChildTenancy#admin_email}.</summary>
             [JsiiProperty(name: "adminEmail", typeJson: "{\"primitive\":\"string\"}")]
             public string AdminEmail
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#compartment_id TenantmanagercontrolplaneChildTenancy#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/tenantmanagercontrolplane_child_tenancy#compartment_id TenantmanagercontrolplaneChildTenancy#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#home_region TenantmanagercontrolplaneChildTenancy#home_region}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/tenantmanagercontrolplane_child_tenancy#home_region TenantmanagercontrolplaneChildTenancy#home_region}.</summary>
             [JsiiProperty(name: "homeRegion", typeJson: "{\"primitive\":\"string\"}")]
             public string HomeRegion
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#tenancy_name TenantmanagercontrolplaneChildTenancy#tenancy_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/tenantmanagercontrolplane_child_tenancy#tenancy_name TenantmanagercontrolplaneChildTenancy#tenancy_name}.</summary>
             [JsiiProperty(name: "tenancyName", typeJson: "{\"primitive\":\"string\"}")]
             public string TenancyName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#features TenantmanagercontrolplaneChildTenancy#features}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/tenantmanagercontrolplane_child_tenancy#features TenantmanagercontrolplaneChildTenancy#features}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "features", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Features
@@ -140,7 +140,7 @@ namespace oci.TenantmanagercontrolplaneChildTenancy
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#governance_status TenantmanagercontrolplaneChildTenancy#governance_status}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/tenantmanagercontrolplane_child_tenancy#governance_status TenantmanagercontrolplaneChildTenancy#governance_status}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "governanceStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? GovernanceStatus
@@ -148,7 +148,7 @@ namespace oci.TenantmanagercontrolplaneChildTenancy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#id TenantmanagercontrolplaneChildTenancy#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/tenantmanagercontrolplane_child_tenancy#id TenantmanagercontrolplaneChildTenancy#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -160,7 +160,7 @@ namespace oci.TenantmanagercontrolplaneChildTenancy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#policy_name TenantmanagercontrolplaneChildTenancy#policy_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/tenantmanagercontrolplane_child_tenancy#policy_name TenantmanagercontrolplaneChildTenancy#policy_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "policyName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PolicyName
@@ -170,7 +170,7 @@ namespace oci.TenantmanagercontrolplaneChildTenancy
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/tenantmanagercontrolplane_child_tenancy#timeouts TenantmanagercontrolplaneChildTenancy#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/tenantmanagercontrolplane_child_tenancy#timeouts TenantmanagercontrolplaneChildTenancy#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.tenantmanagercontrolplaneChildTenancy.TenantmanagercontrolplaneChildTenancyTimeouts\"}", isOptional: true)]

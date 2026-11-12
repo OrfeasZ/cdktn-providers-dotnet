@@ -7,21 +7,21 @@ namespace oci.DataOciDatascienceModelArtifactSignatures
     [JsiiInterface(nativeType: typeof(IDataOciDatascienceModelArtifactSignaturesFilter), fullyQualifiedName: "oci.dataOciDatascienceModelArtifactSignatures.DataOciDatascienceModelArtifactSignaturesFilter")]
     public interface IDataOciDatascienceModelArtifactSignaturesFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signatures#name DataOciDatascienceModelArtifactSignatures#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signatures#name DataOciDatascienceModelArtifactSignatures#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signatures#values DataOciDatascienceModelArtifactSignatures#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signatures#values DataOciDatascienceModelArtifactSignatures#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] Values
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signatures#regex DataOciDatascienceModelArtifactSignatures#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signatures#regex DataOciDatascienceModelArtifactSignatures#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,21 +42,21 @@ namespace oci.DataOciDatascienceModelArtifactSignatures
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signatures#name DataOciDatascienceModelArtifactSignatures#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signatures#name DataOciDatascienceModelArtifactSignatures#name}.</summary>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signatures#values DataOciDatascienceModelArtifactSignatures#values}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signatures#values DataOciDatascienceModelArtifactSignatures#values}.</summary>
             [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] Values
             {
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signatures#regex DataOciDatascienceModelArtifactSignatures#regex}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signatures#regex DataOciDatascienceModelArtifactSignatures#regex}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

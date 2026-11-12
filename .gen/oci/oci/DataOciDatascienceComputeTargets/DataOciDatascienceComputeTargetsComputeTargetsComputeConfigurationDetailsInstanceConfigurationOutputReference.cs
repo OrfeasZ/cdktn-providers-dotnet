@@ -41,6 +41,12 @@ namespace oci.DataOciDatascienceComputeTargets
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "capacityReservationIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] CapacityReservationIds
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "instanceShape", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string InstanceShape
         {
@@ -51,6 +57,12 @@ namespace oci.DataOciDatascienceComputeTargets
         public virtual oci.DataOciDatascienceComputeTargets.DataOciDatascienceComputeTargetsComputeTargetsComputeConfigurationDetailsInstanceConfigurationInstanceShapeDetailsList InstanceShapeDetails
         {
             get => GetInstanceProperty<oci.DataOciDatascienceComputeTargets.DataOciDatascienceComputeTargetsComputeTargetsComputeConfigurationDetailsInstanceConfigurationInstanceShapeDetailsList>()!;
+        }
+
+        [JsiiProperty(name: "networkConfigurationDetails", typeJson: "{\"fqn\":\"oci.dataOciDatascienceComputeTargets.DataOciDatascienceComputeTargetsComputeTargetsComputeConfigurationDetailsInstanceConfigurationNetworkConfigurationDetailsList\"}")]
+        public virtual oci.DataOciDatascienceComputeTargets.DataOciDatascienceComputeTargetsComputeTargetsComputeConfigurationDetailsInstanceConfigurationNetworkConfigurationDetailsList NetworkConfigurationDetails
+        {
+            get => GetInstanceProperty<oci.DataOciDatascienceComputeTargets.DataOciDatascienceComputeTargetsComputeTargetsComputeConfigurationDetailsInstanceConfigurationNetworkConfigurationDetailsList>()!;
         }
 
         [JsiiOptional]

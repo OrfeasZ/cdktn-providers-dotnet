@@ -113,6 +113,12 @@ namespace oci.DataOciDatasciencePipelines
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        [JsiiProperty(name: "pipelineRunRetentionPeriodInDays", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double PipelineRunRetentionPeriodInDays
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ProjectId
         {

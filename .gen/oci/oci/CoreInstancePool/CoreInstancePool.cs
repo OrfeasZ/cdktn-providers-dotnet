@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.CoreInstancePool
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/core_instance_pool oci_core_instance_pool}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/core_instance_pool oci_core_instance_pool}.</summary>
     [JsiiClass(nativeType: typeof(oci.CoreInstancePool.CoreInstancePool), fullyQualifiedName: "oci.coreInstancePool.CoreInstancePool", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolConfig\"}}]")]
     public class CoreInstancePool : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/core_instance_pool oci_core_instance_pool} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/core_instance_pool oci_core_instance_pool} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public CoreInstancePool(Constructs.Construct scope, string id, oci.CoreInstancePool.ICoreInstancePoolConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.CoreInstancePool
         /// <param name="importToId">The construct id used in the generated config for the CoreInstancePool to import.</param>
         /// <param name="importFromId">The id of the existing CoreInstancePool that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the CoreInstancePool to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CoreInstancePool to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/core_instance_pool#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CoreInstancePool that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CoreInstancePool to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the CoreInstancePool to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/core_instance_pool#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing CoreInstancePool that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the CoreInstancePool to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.CoreInstancePool.CoreInstancePool), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -74,6 +74,12 @@ namespace oci.CoreInstancePool
                 }
             }
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putOverridePolicy", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolOverridePolicy\"}}]")]
+        public virtual void PutOverridePolicy(oci.CoreInstancePool.ICoreInstancePoolOverridePolicy @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.CoreInstancePool.ICoreInstancePoolOverridePolicy)}, new object[]{@value});
         }
 
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstancePool.ICoreInstancePoolPlacementConfigurations" />)[]</param>
@@ -154,6 +160,12 @@ namespace oci.CoreInstancePool
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetOverridePolicy")]
+        public virtual void ResetOverridePolicy()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetState")]
         public virtual void ResetState()
         {
@@ -207,6 +219,12 @@ namespace oci.CoreInstancePool
         public virtual oci.CoreInstancePool.CoreInstancePoolLoadBalancersList LoadBalancers
         {
             get => GetInstanceProperty<oci.CoreInstancePool.CoreInstancePoolLoadBalancersList>()!;
+        }
+
+        [JsiiProperty(name: "overridePolicy", typeJson: "{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolOverridePolicyOutputReference\"}")]
+        public virtual oci.CoreInstancePool.CoreInstancePoolOverridePolicyOutputReference OverridePolicy
+        {
+            get => GetInstanceProperty<oci.CoreInstancePool.CoreInstancePoolOverridePolicyOutputReference>()!;
         }
 
         [JsiiProperty(name: "placementConfigurations", typeJson: "{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolPlacementConfigurationsList\"}")]
@@ -304,6 +322,13 @@ namespace oci.CoreInstancePool
         public virtual object? LoadBalancersInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "overridePolicyInput", typeJson: "{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolOverridePolicy\"}", isOptional: true)]
+        public virtual oci.CoreInstancePool.ICoreInstancePoolOverridePolicy? OverridePolicyInput
+        {
+            get => GetInstanceProperty<oci.CoreInstancePool.ICoreInstancePoolOverridePolicy?>();
         }
 
         /// <remarks>

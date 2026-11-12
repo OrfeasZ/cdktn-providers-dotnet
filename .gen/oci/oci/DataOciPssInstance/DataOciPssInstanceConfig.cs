@@ -9,7 +9,7 @@ namespace oci.DataOciPssInstance
     [JsiiByValue(fqn: "oci.dataOciPssInstance.DataOciPssInstanceConfig")]
     public class DataOciPssInstanceConfig : oci.DataOciPssInstance.IDataOciPssInstanceConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/pss_instance#instance_id DataOciPssInstance#instance_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/pss_instance#instance_id DataOciPssInstance#instance_id}.</summary>
         [JsiiProperty(name: "instanceId", typeJson: "{\"primitive\":\"string\"}")]
         public string InstanceId
         {

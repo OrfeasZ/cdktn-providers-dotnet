@@ -39,6 +39,12 @@ namespace oci.DatascienceJob
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatascienceJob.IDatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobInfrastructureConfigurationDetailsJobShapeConfigDetails)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putNetworkConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.datascienceJob.DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobInfrastructureConfigurationDetailsNetworkConfiguration\"}}]")]
+        public virtual void PutNetworkConfiguration(oci.DatascienceJob.IDatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobInfrastructureConfigurationDetailsNetworkConfiguration @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatascienceJob.IDatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobInfrastructureConfigurationDetailsNetworkConfiguration)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putResourceConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.datascienceJob.DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobInfrastructureConfigurationDetailsResourceConfiguration\"}}]")]
         public virtual void PutResourceConfiguration(oci.DatascienceJob.IDatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobInfrastructureConfigurationDetailsResourceConfiguration @value)
         {
@@ -51,6 +57,12 @@ namespace oci.DatascienceJob
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetCapacityReservationId")]
+        public virtual void ResetCapacityReservationId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetComputeTargetId")]
         public virtual void ResetComputeTargetId()
         {
@@ -59,6 +71,12 @@ namespace oci.DatascienceJob
 
         [JsiiMethod(name: "resetJobShapeConfigDetails")]
         public virtual void ResetJobShapeConfigDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetNetworkConfiguration")]
+        public virtual void ResetNetworkConfiguration()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -87,6 +105,12 @@ namespace oci.DatascienceJob
             get => GetInstanceProperty<oci.DatascienceJob.DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobInfrastructureConfigurationDetailsJobShapeConfigDetailsOutputReference>()!;
         }
 
+        [JsiiProperty(name: "networkConfiguration", typeJson: "{\"fqn\":\"oci.datascienceJob.DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobInfrastructureConfigurationDetailsNetworkConfigurationOutputReference\"}")]
+        public virtual oci.DatascienceJob.DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobInfrastructureConfigurationDetailsNetworkConfigurationOutputReference NetworkConfiguration
+        {
+            get => GetInstanceProperty<oci.DatascienceJob.DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobInfrastructureConfigurationDetailsNetworkConfigurationOutputReference>()!;
+        }
+
         [JsiiProperty(name: "resourceConfiguration", typeJson: "{\"fqn\":\"oci.datascienceJob.DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobInfrastructureConfigurationDetailsResourceConfigurationOutputReference\"}")]
         public virtual oci.DatascienceJob.DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobInfrastructureConfigurationDetailsResourceConfigurationOutputReference ResourceConfiguration
         {
@@ -98,6 +122,13 @@ namespace oci.DatascienceJob
         public virtual double? BlockStorageSizeInGbsInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "capacityReservationIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CapacityReservationIdInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -119,6 +150,13 @@ namespace oci.DatascienceJob
         public virtual oci.DatascienceJob.IDatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobInfrastructureConfigurationDetailsJobShapeConfigDetails? JobShapeConfigDetailsInput
         {
             get => GetInstanceProperty<oci.DatascienceJob.IDatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobInfrastructureConfigurationDetailsJobShapeConfigDetails?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "networkConfigurationInput", typeJson: "{\"fqn\":\"oci.datascienceJob.DatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobInfrastructureConfigurationDetailsNetworkConfiguration\"}", isOptional: true)]
+        public virtual oci.DatascienceJob.IDatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobInfrastructureConfigurationDetailsNetworkConfiguration? NetworkConfigurationInput
+        {
+            get => GetInstanceProperty<oci.DatascienceJob.IDatascienceJobJobNodeConfigurationDetailsJobNodeGroupConfigurationDetailsListJobInfrastructureConfigurationDetailsNetworkConfiguration?>();
         }
 
         [JsiiOptional]
@@ -146,6 +184,13 @@ namespace oci.DatascienceJob
         public virtual double BlockStorageSizeInGbs
         {
             get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "capacityReservationId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CapacityReservationId
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

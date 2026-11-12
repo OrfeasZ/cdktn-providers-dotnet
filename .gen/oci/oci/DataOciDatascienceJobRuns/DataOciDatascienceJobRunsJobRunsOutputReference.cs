@@ -119,10 +119,22 @@ namespace oci.DataOciDatascienceJobRuns
             get => GetInstanceProperty<oci.DataOciDatascienceJobRuns.DataOciDatascienceJobRunsJobRunsJobNodeConfigurationOverrideDetailsList>()!;
         }
 
+        [JsiiProperty(name: "jobRunRetentionPeriodInDaysOverride", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double JobRunRetentionPeriodInDaysOverride
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "jobStorageMountConfigurationDetailsList", typeJson: "{\"fqn\":\"oci.dataOciDatascienceJobRuns.DataOciDatascienceJobRunsJobRunsJobStorageMountConfigurationDetailsListStructList\"}")]
         public virtual oci.DataOciDatascienceJobRuns.DataOciDatascienceJobRunsJobRunsJobStorageMountConfigurationDetailsListStructList JobStorageMountConfigurationDetailsList
         {
             get => GetInstanceProperty<oci.DataOciDatascienceJobRuns.DataOciDatascienceJobRunsJobRunsJobStorageMountConfigurationDetailsListStructList>()!;
+        }
+
+        [JsiiProperty(name: "jobStorageMountConfigurationOverrideDetailsList", typeJson: "{\"fqn\":\"oci.dataOciDatascienceJobRuns.DataOciDatascienceJobRunsJobRunsJobStorageMountConfigurationOverrideDetailsListStructList\"}")]
+        public virtual oci.DataOciDatascienceJobRuns.DataOciDatascienceJobRunsJobRunsJobStorageMountConfigurationOverrideDetailsListStructList JobStorageMountConfigurationOverrideDetailsList
+        {
+            get => GetInstanceProperty<oci.DataOciDatascienceJobRuns.DataOciDatascienceJobRunsJobRunsJobStorageMountConfigurationOverrideDetailsListStructList>()!;
         }
 
         [JsiiProperty(name: "lifecycleDetails", typeJson: "{\"primitive\":\"string\"}")]

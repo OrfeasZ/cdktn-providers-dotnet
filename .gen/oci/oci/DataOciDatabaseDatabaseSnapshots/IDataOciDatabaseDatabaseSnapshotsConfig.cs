@@ -7,7 +7,7 @@ namespace oci.DataOciDatabaseDatabaseSnapshots
     [JsiiInterface(nativeType: typeof(IDataOciDatabaseDatabaseSnapshotsConfig), fullyQualifiedName: "oci.dataOciDatabaseDatabaseSnapshots.DataOciDatabaseDatabaseSnapshotsConfig")]
     public interface IDataOciDatabaseDatabaseSnapshotsConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/database_database_snapshots#cluster_id DataOciDatabaseDatabaseSnapshots#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/database_database_snapshots#cluster_id DataOciDatabaseDatabaseSnapshots#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ClusterId
@@ -18,7 +18,7 @@ namespace oci.DataOciDatabaseDatabaseSnapshots
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/database_database_snapshots#compartment_id DataOciDatabaseDatabaseSnapshots#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/database_database_snapshots#compartment_id DataOciDatabaseDatabaseSnapshots#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -29,7 +29,7 @@ namespace oci.DataOciDatabaseDatabaseSnapshots
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/database_database_snapshots#database_id DataOciDatabaseDatabaseSnapshots#database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/database_database_snapshots#database_id DataOciDatabaseDatabaseSnapshots#database_id}.</summary>
         [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DatabaseId
@@ -42,7 +42,7 @@ namespace oci.DataOciDatabaseDatabaseSnapshots
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/database_database_snapshots#filter DataOciDatabaseDatabaseSnapshots#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/database_database_snapshots#filter DataOciDatabaseDatabaseSnapshots#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseDatabaseSnapshots.IDataOciDatabaseDatabaseSnapshotsFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatabaseDatabaseSnapshots.DataOciDatabaseDatabaseSnapshotsFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace oci.DataOciDatabaseDatabaseSnapshots
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/database_database_snapshots#id DataOciDatabaseDatabaseSnapshots#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/database_database_snapshots#id DataOciDatabaseDatabaseSnapshots#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -70,7 +70,7 @@ namespace oci.DataOciDatabaseDatabaseSnapshots
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/database_database_snapshots#name DataOciDatabaseDatabaseSnapshots#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/database_database_snapshots#name DataOciDatabaseDatabaseSnapshots#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Name
@@ -81,7 +81,7 @@ namespace oci.DataOciDatabaseDatabaseSnapshots
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/database_database_snapshots#state DataOciDatabaseDatabaseSnapshots#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/database_database_snapshots#state DataOciDatabaseDatabaseSnapshots#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -99,7 +99,7 @@ namespace oci.DataOciDatabaseDatabaseSnapshots
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/database_database_snapshots#cluster_id DataOciDatabaseDatabaseSnapshots#cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/database_database_snapshots#cluster_id DataOciDatabaseDatabaseSnapshots#cluster_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ClusterId
@@ -107,7 +107,7 @@ namespace oci.DataOciDatabaseDatabaseSnapshots
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/database_database_snapshots#compartment_id DataOciDatabaseDatabaseSnapshots#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/database_database_snapshots#compartment_id DataOciDatabaseDatabaseSnapshots#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -115,7 +115,7 @@ namespace oci.DataOciDatabaseDatabaseSnapshots
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/database_database_snapshots#database_id DataOciDatabaseDatabaseSnapshots#database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/database_database_snapshots#database_id DataOciDatabaseDatabaseSnapshots#database_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DatabaseId
@@ -125,7 +125,7 @@ namespace oci.DataOciDatabaseDatabaseSnapshots
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/database_database_snapshots#filter DataOciDatabaseDatabaseSnapshots#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/database_database_snapshots#filter DataOciDatabaseDatabaseSnapshots#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatabaseDatabaseSnapshots.IDataOciDatabaseDatabaseSnapshotsFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -135,7 +135,7 @@ namespace oci.DataOciDatabaseDatabaseSnapshots
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/database_database_snapshots#id DataOciDatabaseDatabaseSnapshots#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/database_database_snapshots#id DataOciDatabaseDatabaseSnapshots#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -147,7 +147,7 @@ namespace oci.DataOciDatabaseDatabaseSnapshots
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/database_database_snapshots#name DataOciDatabaseDatabaseSnapshots#name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/database_database_snapshots#name DataOciDatabaseDatabaseSnapshots#name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Name
@@ -155,7 +155,7 @@ namespace oci.DataOciDatabaseDatabaseSnapshots
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/database_database_snapshots#state DataOciDatabaseDatabaseSnapshots#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/database_database_snapshots#state DataOciDatabaseDatabaseSnapshots#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

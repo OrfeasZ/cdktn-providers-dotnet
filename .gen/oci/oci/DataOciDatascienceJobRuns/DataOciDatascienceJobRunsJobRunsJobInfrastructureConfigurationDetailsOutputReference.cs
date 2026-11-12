@@ -41,6 +41,12 @@ namespace oci.DataOciDatascienceJobRuns
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "capacityReservationId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CapacityReservationId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "computeTargetId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ComputeTargetId
         {
@@ -57,6 +63,12 @@ namespace oci.DataOciDatascienceJobRuns
         public virtual oci.DataOciDatascienceJobRuns.DataOciDatascienceJobRunsJobRunsJobInfrastructureConfigurationDetailsJobShapeConfigDetailsList JobShapeConfigDetails
         {
             get => GetInstanceProperty<oci.DataOciDatascienceJobRuns.DataOciDatascienceJobRunsJobRunsJobInfrastructureConfigurationDetailsJobShapeConfigDetailsList>()!;
+        }
+
+        [JsiiProperty(name: "networkConfiguration", typeJson: "{\"fqn\":\"oci.dataOciDatascienceJobRuns.DataOciDatascienceJobRunsJobRunsJobInfrastructureConfigurationDetailsNetworkConfigurationList\"}")]
+        public virtual oci.DataOciDatascienceJobRuns.DataOciDatascienceJobRunsJobRunsJobInfrastructureConfigurationDetailsNetworkConfigurationList NetworkConfiguration
+        {
+            get => GetInstanceProperty<oci.DataOciDatascienceJobRuns.DataOciDatascienceJobRunsJobRunsJobInfrastructureConfigurationDetailsNetworkConfigurationList>()!;
         }
 
         [JsiiProperty(name: "resourceConfiguration", typeJson: "{\"fqn\":\"oci.dataOciDatascienceJobRuns.DataOciDatascienceJobRunsJobRunsJobInfrastructureConfigurationDetailsResourceConfigurationList\"}")]

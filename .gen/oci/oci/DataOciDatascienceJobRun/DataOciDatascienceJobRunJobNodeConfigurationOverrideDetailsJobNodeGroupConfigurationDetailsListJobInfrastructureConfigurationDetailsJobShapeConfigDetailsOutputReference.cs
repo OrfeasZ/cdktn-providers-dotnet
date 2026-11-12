@@ -35,6 +35,12 @@ namespace oci.DataOciDatascienceJobRun
         {
         }
 
+        [JsiiProperty(name: "cpuBaseline", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CpuBaseline
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double MemoryInGbs
         {

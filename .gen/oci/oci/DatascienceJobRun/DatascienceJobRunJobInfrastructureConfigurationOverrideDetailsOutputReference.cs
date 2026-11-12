@@ -39,6 +39,12 @@ namespace oci.DatascienceJobRun
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatascienceJobRun.IDatascienceJobRunJobInfrastructureConfigurationOverrideDetailsJobShapeConfigDetails)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putNetworkConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.datascienceJobRun.DatascienceJobRunJobInfrastructureConfigurationOverrideDetailsNetworkConfiguration\"}}]")]
+        public virtual void PutNetworkConfiguration(oci.DatascienceJobRun.IDatascienceJobRunJobInfrastructureConfigurationOverrideDetailsNetworkConfiguration @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatascienceJobRun.IDatascienceJobRunJobInfrastructureConfigurationOverrideDetailsNetworkConfiguration)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putResourceConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.datascienceJobRun.DatascienceJobRunJobInfrastructureConfigurationOverrideDetailsResourceConfiguration\"}}]")]
         public virtual void PutResourceConfiguration(oci.DatascienceJobRun.IDatascienceJobRunJobInfrastructureConfigurationOverrideDetailsResourceConfiguration @value)
         {
@@ -51,6 +57,12 @@ namespace oci.DatascienceJobRun
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetCapacityReservationId")]
+        public virtual void ResetCapacityReservationId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetComputeTargetId")]
         public virtual void ResetComputeTargetId()
         {
@@ -59,6 +71,12 @@ namespace oci.DatascienceJobRun
 
         [JsiiMethod(name: "resetJobShapeConfigDetails")]
         public virtual void ResetJobShapeConfigDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetNetworkConfiguration")]
+        public virtual void ResetNetworkConfiguration()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -87,6 +105,12 @@ namespace oci.DatascienceJobRun
             get => GetInstanceProperty<oci.DatascienceJobRun.DatascienceJobRunJobInfrastructureConfigurationOverrideDetailsJobShapeConfigDetailsOutputReference>()!;
         }
 
+        [JsiiProperty(name: "networkConfiguration", typeJson: "{\"fqn\":\"oci.datascienceJobRun.DatascienceJobRunJobInfrastructureConfigurationOverrideDetailsNetworkConfigurationOutputReference\"}")]
+        public virtual oci.DatascienceJobRun.DatascienceJobRunJobInfrastructureConfigurationOverrideDetailsNetworkConfigurationOutputReference NetworkConfiguration
+        {
+            get => GetInstanceProperty<oci.DatascienceJobRun.DatascienceJobRunJobInfrastructureConfigurationOverrideDetailsNetworkConfigurationOutputReference>()!;
+        }
+
         [JsiiProperty(name: "resourceConfiguration", typeJson: "{\"fqn\":\"oci.datascienceJobRun.DatascienceJobRunJobInfrastructureConfigurationOverrideDetailsResourceConfigurationOutputReference\"}")]
         public virtual oci.DatascienceJobRun.DatascienceJobRunJobInfrastructureConfigurationOverrideDetailsResourceConfigurationOutputReference ResourceConfiguration
         {
@@ -98,6 +122,13 @@ namespace oci.DatascienceJobRun
         public virtual double? BlockStorageSizeInGbsInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "capacityReservationIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CapacityReservationIdInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -119,6 +150,13 @@ namespace oci.DatascienceJobRun
         public virtual oci.DatascienceJobRun.IDatascienceJobRunJobInfrastructureConfigurationOverrideDetailsJobShapeConfigDetails? JobShapeConfigDetailsInput
         {
             get => GetInstanceProperty<oci.DatascienceJobRun.IDatascienceJobRunJobInfrastructureConfigurationOverrideDetailsJobShapeConfigDetails?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "networkConfigurationInput", typeJson: "{\"fqn\":\"oci.datascienceJobRun.DatascienceJobRunJobInfrastructureConfigurationOverrideDetailsNetworkConfiguration\"}", isOptional: true)]
+        public virtual oci.DatascienceJobRun.IDatascienceJobRunJobInfrastructureConfigurationOverrideDetailsNetworkConfiguration? NetworkConfigurationInput
+        {
+            get => GetInstanceProperty<oci.DatascienceJobRun.IDatascienceJobRunJobInfrastructureConfigurationOverrideDetailsNetworkConfiguration?>();
         }
 
         [JsiiOptional]
@@ -146,6 +184,13 @@ namespace oci.DatascienceJobRun
         public virtual double BlockStorageSizeInGbs
         {
             get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "capacityReservationId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CapacityReservationId
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

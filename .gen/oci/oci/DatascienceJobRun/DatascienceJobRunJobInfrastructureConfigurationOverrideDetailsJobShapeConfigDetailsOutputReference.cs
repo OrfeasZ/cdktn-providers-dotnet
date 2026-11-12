@@ -33,6 +33,12 @@ namespace oci.DatascienceJobRun
         {
         }
 
+        [JsiiMethod(name: "resetCpuBaseline")]
+        public virtual void ResetCpuBaseline()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetMemoryInGbs")]
         public virtual void ResetMemoryInGbs()
         {
@@ -43,6 +49,13 @@ namespace oci.DatascienceJobRun
         public virtual void ResetOcpus()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "cpuBaselineInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CpuBaselineInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -57,6 +70,13 @@ namespace oci.DatascienceJobRun
         public virtual double? OcpusInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiProperty(name: "cpuBaseline", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CpuBaseline
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "memoryInGbs", typeJson: "{\"primitive\":\"number\"}")]

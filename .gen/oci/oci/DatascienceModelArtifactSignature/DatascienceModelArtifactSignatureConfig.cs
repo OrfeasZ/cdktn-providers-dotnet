@@ -9,7 +9,7 @@ namespace oci.DatascienceModelArtifactSignature
     [JsiiByValue(fqn: "oci.datascienceModelArtifactSignature.DatascienceModelArtifactSignatureConfig")]
     public class DatascienceModelArtifactSignatureConfig : oci.DatascienceModelArtifactSignature.IDatascienceModelArtifactSignatureConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_model_artifact_signature#compartment_id DatascienceModelArtifactSignature#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_model_artifact_signature#compartment_id DatascienceModelArtifactSignature#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         public string CompartmentId
         {
@@ -17,7 +17,7 @@ namespace oci.DatascienceModelArtifactSignature
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_model_artifact_signature#kms_key_id DatascienceModelArtifactSignature#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_model_artifact_signature#kms_key_id DatascienceModelArtifactSignature#kms_key_id}.</summary>
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public string KmsKeyId
         {
@@ -25,7 +25,7 @@ namespace oci.DatascienceModelArtifactSignature
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_model_artifact_signature#kms_key_version_id DatascienceModelArtifactSignature#kms_key_version_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_model_artifact_signature#kms_key_version_id DatascienceModelArtifactSignature#kms_key_version_id}.</summary>
         [JsiiProperty(name: "kmsKeyVersionId", typeJson: "{\"primitive\":\"string\"}")]
         public string KmsKeyVersionId
         {
@@ -33,7 +33,7 @@ namespace oci.DatascienceModelArtifactSignature
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_model_artifact_signature#model_id DatascienceModelArtifactSignature#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_model_artifact_signature#model_id DatascienceModelArtifactSignature#model_id}.</summary>
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelId
         {
@@ -41,7 +41,7 @@ namespace oci.DatascienceModelArtifactSignature
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_model_artifact_signature#signing_algorithm DatascienceModelArtifactSignature#signing_algorithm}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_model_artifact_signature#signing_algorithm DatascienceModelArtifactSignature#signing_algorithm}.</summary>
         [JsiiProperty(name: "signingAlgorithm", typeJson: "{\"primitive\":\"string\"}")]
         public string SigningAlgorithm
         {
@@ -49,7 +49,7 @@ namespace oci.DatascienceModelArtifactSignature
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_model_artifact_signature#defined_tags DatascienceModelArtifactSignature#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_model_artifact_signature#defined_tags DatascienceModelArtifactSignature#defined_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -58,7 +58,7 @@ namespace oci.DatascienceModelArtifactSignature
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_model_artifact_signature#display_name DatascienceModelArtifactSignature#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_model_artifact_signature#display_name DatascienceModelArtifactSignature#display_name}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DisplayName
@@ -67,7 +67,7 @@ namespace oci.DatascienceModelArtifactSignature
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_model_artifact_signature#freeform_tags DatascienceModelArtifactSignature#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_model_artifact_signature#freeform_tags DatascienceModelArtifactSignature#freeform_tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -76,7 +76,7 @@ namespace oci.DatascienceModelArtifactSignature
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_model_artifact_signature#id DatascienceModelArtifactSignature#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_model_artifact_signature#id DatascienceModelArtifactSignature#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -91,7 +91,7 @@ namespace oci.DatascienceModelArtifactSignature
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_model_artifact_signature#timeouts DatascienceModelArtifactSignature#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_model_artifact_signature#timeouts DatascienceModelArtifactSignature#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"oci.datascienceModelArtifactSignature.DatascienceModelArtifactSignatureTimeouts\"}", isOptional: true)]
@@ -101,7 +101,7 @@ namespace oci.DatascienceModelArtifactSignature
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_model_artifact_signature#verify_trigger DatascienceModelArtifactSignature#verify_trigger}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_model_artifact_signature#verify_trigger DatascienceModelArtifactSignature#verify_trigger}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "verifyTrigger", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public double? VerifyTrigger

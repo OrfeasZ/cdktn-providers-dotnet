@@ -71,6 +71,12 @@ namespace oci.DataOciDatascienceModelDeployments
             get => GetInstanceProperty<oci.DataOciDatascienceModelDeployments.DataOciDatascienceModelDeploymentsModelDeploymentsModelDeploymentConfigurationDetailsInfrastructureConfigurationDetailsModelDeploymentResourceConfigurationList>()!;
         }
 
+        [JsiiProperty(name: "networkConfiguration", typeJson: "{\"fqn\":\"oci.dataOciDatascienceModelDeployments.DataOciDatascienceModelDeploymentsModelDeploymentsModelDeploymentConfigurationDetailsInfrastructureConfigurationDetailsNetworkConfigurationList\"}")]
+        public virtual oci.DataOciDatascienceModelDeployments.DataOciDatascienceModelDeploymentsModelDeploymentsModelDeploymentConfigurationDetailsInfrastructureConfigurationDetailsNetworkConfigurationList NetworkConfiguration
+        {
+            get => GetInstanceProperty<oci.DataOciDatascienceModelDeployments.DataOciDatascienceModelDeploymentsModelDeploymentsModelDeploymentConfigurationDetailsInfrastructureConfigurationDetailsNetworkConfigurationList>()!;
+        }
+
         [JsiiProperty(name: "scalingPolicy", typeJson: "{\"fqn\":\"oci.dataOciDatascienceModelDeployments.DataOciDatascienceModelDeploymentsModelDeploymentsModelDeploymentConfigurationDetailsInfrastructureConfigurationDetailsScalingPolicyList\"}")]
         public virtual oci.DataOciDatascienceModelDeployments.DataOciDatascienceModelDeploymentsModelDeploymentsModelDeploymentConfigurationDetailsInfrastructureConfigurationDetailsScalingPolicyList ScalingPolicy
         {

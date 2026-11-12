@@ -9,7 +9,7 @@ namespace oci.DataOciDatascienceModelArtifactSignature
     [JsiiByValue(fqn: "oci.dataOciDatascienceModelArtifactSignature.DataOciDatascienceModelArtifactSignatureConfig")]
     public class DataOciDatascienceModelArtifactSignatureConfig : oci.DataOciDatascienceModelArtifactSignature.IDataOciDatascienceModelArtifactSignatureConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signature#artifact_signature_id DataOciDatascienceModelArtifactSignature#artifact_signature_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signature#artifact_signature_id DataOciDatascienceModelArtifactSignature#artifact_signature_id}.</summary>
         [JsiiProperty(name: "artifactSignatureId", typeJson: "{\"primitive\":\"string\"}")]
         public string ArtifactSignatureId
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatascienceModelArtifactSignature
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signature#model_id DataOciDatascienceModelArtifactSignature#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signature#model_id DataOciDatascienceModelArtifactSignature#model_id}.</summary>
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}")]
         public string ModelId
         {

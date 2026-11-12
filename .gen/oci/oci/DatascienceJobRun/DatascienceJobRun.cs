@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DatascienceJobRun
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_job_run oci_datascience_job_run}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_job_run oci_datascience_job_run}.</summary>
     [JsiiClass(nativeType: typeof(oci.DatascienceJobRun.DatascienceJobRun), fullyQualifiedName: "oci.datascienceJobRun.DatascienceJobRun", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.datascienceJobRun.DatascienceJobRunConfig\"}}]")]
     public class DatascienceJobRun : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_job_run oci_datascience_job_run} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_job_run oci_datascience_job_run} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DatascienceJobRun(Constructs.Construct scope, string id, oci.DatascienceJobRun.IDatascienceJobRunConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DatascienceJobRun
         /// <param name="importToId">The construct id used in the generated config for the DatascienceJobRun to import.</param>
         /// <param name="importFromId">The id of the existing DatascienceJobRun that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DatascienceJobRun to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatascienceJobRun to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_job_run#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatascienceJobRun that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatascienceJobRun to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatascienceJobRun to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_job_run#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatascienceJobRun that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatascienceJobRun to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DatascienceJobRun.DatascienceJobRun), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -74,6 +74,30 @@ namespace oci.DatascienceJobRun
         public virtual void PutJobNodeConfigurationOverrideDetails(oci.DatascienceJobRun.IDatascienceJobRunJobNodeConfigurationOverrideDetails @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatascienceJobRun.IDatascienceJobRunJobNodeConfigurationOverrideDetails)}, new object[]{@value});
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatascienceJobRun.IDatascienceJobRunJobStorageMountConfigurationOverrideDetailsListStruct" />)[]</param>
+        [JsiiMethod(name: "putJobStorageMountConfigurationOverrideDetailsList", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.datascienceJobRun.DatascienceJobRunJobStorageMountConfigurationOverrideDetailsListStruct\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutJobStorageMountConfigurationOverrideDetailsList(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case oci.DatascienceJobRun.IDatascienceJobRunJobStorageMountConfigurationOverrideDetailsListStruct[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.DatascienceJobRun.IDatascienceJobRunJobStorageMountConfigurationOverrideDetailsListStruct).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(oci.DatascienceJobRun.IDatascienceJobRunJobStorageMountConfigurationOverrideDetailsListStruct).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.datascienceJobRun.DatascienceJobRunTimeouts\"}}]")]
@@ -138,6 +162,18 @@ namespace oci.DatascienceJobRun
 
         [JsiiMethod(name: "resetJobNodeConfigurationOverrideDetails")]
         public virtual void ResetJobNodeConfigurationOverrideDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetJobRunRetentionPeriodInDaysOverride")]
+        public virtual void ResetJobRunRetentionPeriodInDaysOverride()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetJobStorageMountConfigurationOverrideDetailsList")]
+        public virtual void ResetJobStorageMountConfigurationOverrideDetailsList()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -219,6 +255,12 @@ namespace oci.DatascienceJobRun
         public virtual oci.DatascienceJobRun.DatascienceJobRunJobStorageMountConfigurationDetailsListStructList JobStorageMountConfigurationDetailsList
         {
             get => GetInstanceProperty<oci.DatascienceJobRun.DatascienceJobRunJobStorageMountConfigurationDetailsListStructList>()!;
+        }
+
+        [JsiiProperty(name: "jobStorageMountConfigurationOverrideDetailsList", typeJson: "{\"fqn\":\"oci.datascienceJobRun.DatascienceJobRunJobStorageMountConfigurationOverrideDetailsListStructList\"}")]
+        public virtual oci.DatascienceJobRun.DatascienceJobRunJobStorageMountConfigurationOverrideDetailsListStructList JobStorageMountConfigurationOverrideDetailsList
+        {
+            get => GetInstanceProperty<oci.DatascienceJobRun.DatascienceJobRunJobStorageMountConfigurationOverrideDetailsListStructList>()!;
         }
 
         [JsiiProperty(name: "lifecycleDetails", typeJson: "{\"primitive\":\"string\"}")]
@@ -357,6 +399,23 @@ namespace oci.DatascienceJobRun
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "jobRunRetentionPeriodInDaysOverrideInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? JobRunRetentionPeriodInDaysOverrideInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatascienceJobRun.IDatascienceJobRunJobStorageMountConfigurationOverrideDetailsListStruct" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "jobStorageMountConfigurationOverrideDetailsListInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.datascienceJobRun.DatascienceJobRunJobStorageMountConfigurationOverrideDetailsListStruct\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? JobStorageMountConfigurationOverrideDetailsListInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "opcParentRptUrlInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? OpcParentRptUrlInput
         {
@@ -449,6 +508,13 @@ namespace oci.DatascienceJobRun
         public virtual string JobId
         {
             get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "jobRunRetentionPeriodInDaysOverride", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double JobRunRetentionPeriodInDaysOverride
+        {
+            get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
         }
 

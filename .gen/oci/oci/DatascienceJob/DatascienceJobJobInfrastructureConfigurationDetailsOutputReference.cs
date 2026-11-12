@@ -39,6 +39,12 @@ namespace oci.DatascienceJob
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatascienceJob.IDatascienceJobJobInfrastructureConfigurationDetailsJobShapeConfigDetails)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putNetworkConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.datascienceJob.DatascienceJobJobInfrastructureConfigurationDetailsNetworkConfiguration\"}}]")]
+        public virtual void PutNetworkConfiguration(oci.DatascienceJob.IDatascienceJobJobInfrastructureConfigurationDetailsNetworkConfiguration @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatascienceJob.IDatascienceJobJobInfrastructureConfigurationDetailsNetworkConfiguration)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putResourceConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.datascienceJob.DatascienceJobJobInfrastructureConfigurationDetailsResourceConfiguration\"}}]")]
         public virtual void PutResourceConfiguration(oci.DatascienceJob.IDatascienceJobJobInfrastructureConfigurationDetailsResourceConfiguration @value)
         {
@@ -51,6 +57,12 @@ namespace oci.DatascienceJob
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetCapacityReservationId")]
+        public virtual void ResetCapacityReservationId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetComputeTargetId")]
         public virtual void ResetComputeTargetId()
         {
@@ -59,6 +71,12 @@ namespace oci.DatascienceJob
 
         [JsiiMethod(name: "resetJobShapeConfigDetails")]
         public virtual void ResetJobShapeConfigDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetNetworkConfiguration")]
+        public virtual void ResetNetworkConfiguration()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -87,6 +105,12 @@ namespace oci.DatascienceJob
             get => GetInstanceProperty<oci.DatascienceJob.DatascienceJobJobInfrastructureConfigurationDetailsJobShapeConfigDetailsOutputReference>()!;
         }
 
+        [JsiiProperty(name: "networkConfiguration", typeJson: "{\"fqn\":\"oci.datascienceJob.DatascienceJobJobInfrastructureConfigurationDetailsNetworkConfigurationOutputReference\"}")]
+        public virtual oci.DatascienceJob.DatascienceJobJobInfrastructureConfigurationDetailsNetworkConfigurationOutputReference NetworkConfiguration
+        {
+            get => GetInstanceProperty<oci.DatascienceJob.DatascienceJobJobInfrastructureConfigurationDetailsNetworkConfigurationOutputReference>()!;
+        }
+
         [JsiiProperty(name: "resourceConfiguration", typeJson: "{\"fqn\":\"oci.datascienceJob.DatascienceJobJobInfrastructureConfigurationDetailsResourceConfigurationOutputReference\"}")]
         public virtual oci.DatascienceJob.DatascienceJobJobInfrastructureConfigurationDetailsResourceConfigurationOutputReference ResourceConfiguration
         {
@@ -98,6 +122,13 @@ namespace oci.DatascienceJob
         public virtual double? BlockStorageSizeInGbsInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "capacityReservationIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CapacityReservationIdInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -119,6 +150,13 @@ namespace oci.DatascienceJob
         public virtual oci.DatascienceJob.IDatascienceJobJobInfrastructureConfigurationDetailsJobShapeConfigDetails? JobShapeConfigDetailsInput
         {
             get => GetInstanceProperty<oci.DatascienceJob.IDatascienceJobJobInfrastructureConfigurationDetailsJobShapeConfigDetails?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "networkConfigurationInput", typeJson: "{\"fqn\":\"oci.datascienceJob.DatascienceJobJobInfrastructureConfigurationDetailsNetworkConfiguration\"}", isOptional: true)]
+        public virtual oci.DatascienceJob.IDatascienceJobJobInfrastructureConfigurationDetailsNetworkConfiguration? NetworkConfigurationInput
+        {
+            get => GetInstanceProperty<oci.DatascienceJob.IDatascienceJobJobInfrastructureConfigurationDetailsNetworkConfiguration?>();
         }
 
         [JsiiOptional]
@@ -146,6 +184,13 @@ namespace oci.DatascienceJob
         public virtual double BlockStorageSizeInGbs
         {
             get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "capacityReservationId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CapacityReservationId
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

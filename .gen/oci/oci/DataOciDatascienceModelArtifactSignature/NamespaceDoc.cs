@@ -5,7 +5,7 @@ namespace oci.DataOciDatascienceModelArtifactSignature
     /// <remarks>
     /// <h1><c>data_oci_datascience_model_artifact_signature</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signature"><c>data_oci_datascience_model_artifact_signature</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signature"><c>data_oci_datascience_model_artifact_signature</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

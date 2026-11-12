@@ -7,7 +7,7 @@ namespace oci.DatabaseDatabase
     [JsiiInterface(nativeType: typeof(IDatabaseDatabaseDatabase), fullyQualifiedName: "oci.databaseDatabase.DatabaseDatabaseDatabase")]
     public interface IDatabaseDatabaseDatabase
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#admin_password DatabaseDatabase#admin_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#admin_password DatabaseDatabase#admin_password}.</summary>
         [JsiiProperty(name: "adminPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? AdminPassword
@@ -20,7 +20,7 @@ namespace oci.DatabaseDatabase
 
         /// <summary>auto_failover_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#auto_failover_configuration DatabaseDatabase#auto_failover_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#auto_failover_configuration DatabaseDatabase#auto_failover_configuration}
         /// </remarks>
         [JsiiProperty(name: "autoFailoverConfiguration", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseAutoFailoverConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -32,7 +32,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#backup_id DatabaseDatabase#backup_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#backup_id DatabaseDatabase#backup_id}.</summary>
         [JsiiProperty(name: "backupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BackupId
@@ -43,7 +43,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#backup_tde_password DatabaseDatabase#backup_tde_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#backup_tde_password DatabaseDatabase#backup_tde_password}.</summary>
         [JsiiProperty(name: "backupTdePassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? BackupTdePassword
@@ -54,7 +54,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#character_set DatabaseDatabase#character_set}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#character_set DatabaseDatabase#character_set}.</summary>
         [JsiiProperty(name: "characterSet", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CharacterSet
@@ -65,7 +65,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#database_admin_password DatabaseDatabase#database_admin_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#database_admin_password DatabaseDatabase#database_admin_password}.</summary>
         [JsiiProperty(name: "databaseAdminPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DatabaseAdminPassword
@@ -76,7 +76,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#database_id DatabaseDatabase#database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#database_id DatabaseDatabase#database_id}.</summary>
         [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DatabaseId
@@ -87,7 +87,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#database_software_image_id DatabaseDatabase#database_software_image_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#database_software_image_id DatabaseDatabase#database_software_image_id}.</summary>
         [JsiiProperty(name: "databaseSoftwareImageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DatabaseSoftwareImageId
@@ -100,7 +100,7 @@ namespace oci.DatabaseDatabase
 
         /// <summary>db_backup_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#db_backup_config DatabaseDatabase#db_backup_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#db_backup_config DatabaseDatabase#db_backup_config}
         /// </remarks>
         [JsiiProperty(name: "dbBackupConfig", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseDbBackupConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -112,7 +112,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#db_name DatabaseDatabase#db_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#db_name DatabaseDatabase#db_name}.</summary>
         [JsiiProperty(name: "dbName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DbName
@@ -123,7 +123,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#db_unique_name DatabaseDatabase#db_unique_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#db_unique_name DatabaseDatabase#db_unique_name}.</summary>
         [JsiiProperty(name: "dbUniqueName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DbUniqueName
@@ -134,7 +134,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#db_workload DatabaseDatabase#db_workload}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#db_workload DatabaseDatabase#db_workload}.</summary>
         [JsiiProperty(name: "dbWorkload", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DbWorkload
@@ -145,7 +145,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#defined_tags DatabaseDatabase#defined_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#defined_tags DatabaseDatabase#defined_tags}.</summary>
         [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -158,7 +158,7 @@ namespace oci.DatabaseDatabase
 
         /// <summary>encryption_key_location_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#encryption_key_location_details DatabaseDatabase#encryption_key_location_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#encryption_key_location_details DatabaseDatabase#encryption_key_location_details}
         /// </remarks>
         [JsiiProperty(name: "encryptionKeyLocationDetails", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseEncryptionKeyLocationDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -170,7 +170,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#freeform_tags DatabaseDatabase#freeform_tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#freeform_tags DatabaseDatabase#freeform_tags}.</summary>
         [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -181,7 +181,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#is_active_data_guard_enabled DatabaseDatabase#is_active_data_guard_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#is_active_data_guard_enabled DatabaseDatabase#is_active_data_guard_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -195,7 +195,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#is_thin_clone DatabaseDatabase#is_thin_clone}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#is_thin_clone DatabaseDatabase#is_thin_clone}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -209,7 +209,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#key_store_id DatabaseDatabase#key_store_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#key_store_id DatabaseDatabase#key_store_id}.</summary>
         [JsiiProperty(name: "keyStoreId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? KeyStoreId
@@ -220,7 +220,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#kms_key_id DatabaseDatabase#kms_key_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#kms_key_id DatabaseDatabase#kms_key_id}.</summary>
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? KmsKeyId
@@ -231,7 +231,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#kms_key_version_id DatabaseDatabase#kms_key_version_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#kms_key_version_id DatabaseDatabase#kms_key_version_id}.</summary>
         [JsiiProperty(name: "kmsKeyVersionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? KmsKeyVersionId
@@ -244,7 +244,7 @@ namespace oci.DatabaseDatabase
 
         /// <summary>managed_software_update_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#managed_software_update_details DatabaseDatabase#managed_software_update_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#managed_software_update_details DatabaseDatabase#managed_software_update_details}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseDatabase.IDatabaseDatabaseDatabaseManagedSoftwareUpdateDetails" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "managedSoftwareUpdateDetails", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseManagedSoftwareUpdateDetails\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -257,7 +257,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#ncharacter_set DatabaseDatabase#ncharacter_set}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#ncharacter_set DatabaseDatabase#ncharacter_set}.</summary>
         [JsiiProperty(name: "ncharacterSet", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? NcharacterSet
@@ -270,7 +270,7 @@ namespace oci.DatabaseDatabase
 
         /// <summary>patch_options block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#patch_options DatabaseDatabase#patch_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#patch_options DatabaseDatabase#patch_options}
         /// </remarks>
         [JsiiProperty(name: "patchOptions", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabasePatchOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -282,7 +282,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#pdb_name DatabaseDatabase#pdb_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#pdb_name DatabaseDatabase#pdb_name}.</summary>
         [JsiiProperty(name: "pdbName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PdbName
@@ -293,7 +293,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#pluggable_databases DatabaseDatabase#pluggable_databases}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#pluggable_databases DatabaseDatabase#pluggable_databases}.</summary>
         [JsiiProperty(name: "pluggableDatabases", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? PluggableDatabases
@@ -304,7 +304,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#protection_mode DatabaseDatabase#protection_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#protection_mode DatabaseDatabase#protection_mode}.</summary>
         [JsiiProperty(name: "protectionMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ProtectionMode
@@ -315,7 +315,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#recovery_appliance_vpc_password DatabaseDatabase#recovery_appliance_vpc_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#recovery_appliance_vpc_password DatabaseDatabase#recovery_appliance_vpc_password}.</summary>
         [JsiiProperty(name: "recoveryApplianceVpcPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? RecoveryApplianceVpcPassword
@@ -326,7 +326,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#sid_prefix DatabaseDatabase#sid_prefix}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#sid_prefix DatabaseDatabase#sid_prefix}.</summary>
         [JsiiProperty(name: "sidPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SidPrefix
@@ -337,7 +337,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#source_admin_password DatabaseDatabase#source_admin_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#source_admin_password DatabaseDatabase#source_admin_password}.</summary>
         [JsiiProperty(name: "sourceAdminPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceAdminPassword
@@ -348,7 +348,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#source_database_id DatabaseDatabase#source_database_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#source_database_id DatabaseDatabase#source_database_id}.</summary>
         [JsiiProperty(name: "sourceDatabaseId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceDatabaseId
@@ -361,7 +361,7 @@ namespace oci.DatabaseDatabase
 
         /// <summary>source_encryption_key_location_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#source_encryption_key_location_details DatabaseDatabase#source_encryption_key_location_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#source_encryption_key_location_details DatabaseDatabase#source_encryption_key_location_details}
         /// </remarks>
         [JsiiProperty(name: "sourceEncryptionKeyLocationDetails", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseSourceEncryptionKeyLocationDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -373,7 +373,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#source_snapshot_id DatabaseDatabase#source_snapshot_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#source_snapshot_id DatabaseDatabase#source_snapshot_id}.</summary>
         [JsiiProperty(name: "sourceSnapshotId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceSnapshotId
@@ -384,7 +384,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#source_tde_password DatabaseDatabase#source_tde_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#source_tde_password DatabaseDatabase#source_tde_password}.</summary>
         [JsiiProperty(name: "sourceTdePassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceTdePassword
@@ -395,7 +395,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#source_tde_wallet_password DatabaseDatabase#source_tde_wallet_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#source_tde_wallet_password DatabaseDatabase#source_tde_wallet_password}.</summary>
         [JsiiProperty(name: "sourceTdeWalletPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceTdeWalletPassword
@@ -408,7 +408,7 @@ namespace oci.DatabaseDatabase
 
         /// <summary>storage_size_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#storage_size_details DatabaseDatabase#storage_size_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#storage_size_details DatabaseDatabase#storage_size_details}
         /// </remarks>
         [JsiiProperty(name: "storageSizeDetails", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseStorageSizeDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -420,7 +420,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#tde_wallet_password DatabaseDatabase#tde_wallet_password}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#tde_wallet_password DatabaseDatabase#tde_wallet_password}.</summary>
         [JsiiProperty(name: "tdeWalletPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TdeWalletPassword
@@ -431,7 +431,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#time_stamp_for_point_in_time_recovery DatabaseDatabase#time_stamp_for_point_in_time_recovery}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#time_stamp_for_point_in_time_recovery DatabaseDatabase#time_stamp_for_point_in_time_recovery}.</summary>
         [JsiiProperty(name: "timeStampForPointInTimeRecovery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TimeStampForPointInTimeRecovery
@@ -442,7 +442,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#transport_type DatabaseDatabase#transport_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#transport_type DatabaseDatabase#transport_type}.</summary>
         [JsiiProperty(name: "transportType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? TransportType
@@ -453,7 +453,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#vault_id DatabaseDatabase#vault_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#vault_id DatabaseDatabase#vault_id}.</summary>
         [JsiiProperty(name: "vaultId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VaultId
@@ -464,7 +464,7 @@ namespace oci.DatabaseDatabase
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#vm_cluster_id DatabaseDatabase#vm_cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#vm_cluster_id DatabaseDatabase#vm_cluster_id}.</summary>
         [JsiiProperty(name: "vmClusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? VmClusterId
@@ -482,7 +482,7 @@ namespace oci.DatabaseDatabase
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#admin_password DatabaseDatabase#admin_password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#admin_password DatabaseDatabase#admin_password}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "adminPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? AdminPassword
@@ -492,7 +492,7 @@ namespace oci.DatabaseDatabase
 
             /// <summary>auto_failover_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#auto_failover_configuration DatabaseDatabase#auto_failover_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#auto_failover_configuration DatabaseDatabase#auto_failover_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "autoFailoverConfiguration", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseAutoFailoverConfiguration\"}", isOptional: true)]
@@ -501,7 +501,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<oci.DatabaseDatabase.IDatabaseDatabaseDatabaseAutoFailoverConfiguration?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#backup_id DatabaseDatabase#backup_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#backup_id DatabaseDatabase#backup_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "backupId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BackupId
@@ -509,7 +509,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#backup_tde_password DatabaseDatabase#backup_tde_password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#backup_tde_password DatabaseDatabase#backup_tde_password}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "backupTdePassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? BackupTdePassword
@@ -517,7 +517,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#character_set DatabaseDatabase#character_set}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#character_set DatabaseDatabase#character_set}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "characterSet", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CharacterSet
@@ -525,7 +525,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#database_admin_password DatabaseDatabase#database_admin_password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#database_admin_password DatabaseDatabase#database_admin_password}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "databaseAdminPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DatabaseAdminPassword
@@ -533,7 +533,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#database_id DatabaseDatabase#database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#database_id DatabaseDatabase#database_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "databaseId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DatabaseId
@@ -541,7 +541,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#database_software_image_id DatabaseDatabase#database_software_image_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#database_software_image_id DatabaseDatabase#database_software_image_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "databaseSoftwareImageId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DatabaseSoftwareImageId
@@ -551,7 +551,7 @@ namespace oci.DatabaseDatabase
 
             /// <summary>db_backup_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#db_backup_config DatabaseDatabase#db_backup_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#db_backup_config DatabaseDatabase#db_backup_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dbBackupConfig", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseDbBackupConfig\"}", isOptional: true)]
@@ -560,7 +560,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<oci.DatabaseDatabase.IDatabaseDatabaseDatabaseDbBackupConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#db_name DatabaseDatabase#db_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#db_name DatabaseDatabase#db_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dbName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DbName
@@ -568,7 +568,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#db_unique_name DatabaseDatabase#db_unique_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#db_unique_name DatabaseDatabase#db_unique_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dbUniqueName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DbUniqueName
@@ -576,7 +576,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#db_workload DatabaseDatabase#db_workload}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#db_workload DatabaseDatabase#db_workload}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dbWorkload", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DbWorkload
@@ -584,7 +584,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#defined_tags DatabaseDatabase#defined_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#defined_tags DatabaseDatabase#defined_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "definedTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? DefinedTags
@@ -594,7 +594,7 @@ namespace oci.DatabaseDatabase
 
             /// <summary>encryption_key_location_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#encryption_key_location_details DatabaseDatabase#encryption_key_location_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#encryption_key_location_details DatabaseDatabase#encryption_key_location_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "encryptionKeyLocationDetails", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseEncryptionKeyLocationDetails\"}", isOptional: true)]
@@ -603,7 +603,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<oci.DatabaseDatabase.IDatabaseDatabaseDatabaseEncryptionKeyLocationDetails?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#freeform_tags DatabaseDatabase#freeform_tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#freeform_tags DatabaseDatabase#freeform_tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "freeformTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? FreeformTags
@@ -611,7 +611,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#is_active_data_guard_enabled DatabaseDatabase#is_active_data_guard_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#is_active_data_guard_enabled DatabaseDatabase#is_active_data_guard_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -622,7 +622,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#is_thin_clone DatabaseDatabase#is_thin_clone}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#is_thin_clone DatabaseDatabase#is_thin_clone}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -633,7 +633,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#key_store_id DatabaseDatabase#key_store_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#key_store_id DatabaseDatabase#key_store_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "keyStoreId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? KeyStoreId
@@ -641,7 +641,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#kms_key_id DatabaseDatabase#kms_key_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#kms_key_id DatabaseDatabase#kms_key_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? KmsKeyId
@@ -649,7 +649,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#kms_key_version_id DatabaseDatabase#kms_key_version_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#kms_key_version_id DatabaseDatabase#kms_key_version_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "kmsKeyVersionId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? KmsKeyVersionId
@@ -659,7 +659,7 @@ namespace oci.DatabaseDatabase
 
             /// <summary>managed_software_update_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#managed_software_update_details DatabaseDatabase#managed_software_update_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#managed_software_update_details DatabaseDatabase#managed_software_update_details}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DatabaseDatabase.IDatabaseDatabaseDatabaseManagedSoftwareUpdateDetails" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -669,7 +669,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#ncharacter_set DatabaseDatabase#ncharacter_set}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#ncharacter_set DatabaseDatabase#ncharacter_set}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ncharacterSet", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? NcharacterSet
@@ -679,7 +679,7 @@ namespace oci.DatabaseDatabase
 
             /// <summary>patch_options block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#patch_options DatabaseDatabase#patch_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#patch_options DatabaseDatabase#patch_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "patchOptions", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabasePatchOptions\"}", isOptional: true)]
@@ -688,7 +688,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<oci.DatabaseDatabase.IDatabaseDatabaseDatabasePatchOptions?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#pdb_name DatabaseDatabase#pdb_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#pdb_name DatabaseDatabase#pdb_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "pdbName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PdbName
@@ -696,7 +696,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#pluggable_databases DatabaseDatabase#pluggable_databases}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#pluggable_databases DatabaseDatabase#pluggable_databases}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "pluggableDatabases", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? PluggableDatabases
@@ -704,7 +704,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#protection_mode DatabaseDatabase#protection_mode}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#protection_mode DatabaseDatabase#protection_mode}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "protectionMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ProtectionMode
@@ -712,7 +712,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#recovery_appliance_vpc_password DatabaseDatabase#recovery_appliance_vpc_password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#recovery_appliance_vpc_password DatabaseDatabase#recovery_appliance_vpc_password}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "recoveryApplianceVpcPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? RecoveryApplianceVpcPassword
@@ -720,7 +720,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#sid_prefix DatabaseDatabase#sid_prefix}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#sid_prefix DatabaseDatabase#sid_prefix}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sidPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SidPrefix
@@ -728,7 +728,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#source_admin_password DatabaseDatabase#source_admin_password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#source_admin_password DatabaseDatabase#source_admin_password}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceAdminPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceAdminPassword
@@ -736,7 +736,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#source_database_id DatabaseDatabase#source_database_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#source_database_id DatabaseDatabase#source_database_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceDatabaseId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceDatabaseId
@@ -746,7 +746,7 @@ namespace oci.DatabaseDatabase
 
             /// <summary>source_encryption_key_location_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#source_encryption_key_location_details DatabaseDatabase#source_encryption_key_location_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#source_encryption_key_location_details DatabaseDatabase#source_encryption_key_location_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "sourceEncryptionKeyLocationDetails", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseSourceEncryptionKeyLocationDetails\"}", isOptional: true)]
@@ -755,7 +755,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<oci.DatabaseDatabase.IDatabaseDatabaseDatabaseSourceEncryptionKeyLocationDetails?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#source_snapshot_id DatabaseDatabase#source_snapshot_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#source_snapshot_id DatabaseDatabase#source_snapshot_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceSnapshotId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceSnapshotId
@@ -763,7 +763,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#source_tde_password DatabaseDatabase#source_tde_password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#source_tde_password DatabaseDatabase#source_tde_password}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceTdePassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceTdePassword
@@ -771,7 +771,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#source_tde_wallet_password DatabaseDatabase#source_tde_wallet_password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#source_tde_wallet_password DatabaseDatabase#source_tde_wallet_password}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceTdeWalletPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceTdeWalletPassword
@@ -781,7 +781,7 @@ namespace oci.DatabaseDatabase
 
             /// <summary>storage_size_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#storage_size_details DatabaseDatabase#storage_size_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#storage_size_details DatabaseDatabase#storage_size_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "storageSizeDetails", typeJson: "{\"fqn\":\"oci.databaseDatabase.DatabaseDatabaseDatabaseStorageSizeDetails\"}", isOptional: true)]
@@ -790,7 +790,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<oci.DatabaseDatabase.IDatabaseDatabaseDatabaseStorageSizeDetails?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#tde_wallet_password DatabaseDatabase#tde_wallet_password}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#tde_wallet_password DatabaseDatabase#tde_wallet_password}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tdeWalletPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TdeWalletPassword
@@ -798,7 +798,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#time_stamp_for_point_in_time_recovery DatabaseDatabase#time_stamp_for_point_in_time_recovery}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#time_stamp_for_point_in_time_recovery DatabaseDatabase#time_stamp_for_point_in_time_recovery}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeStampForPointInTimeRecovery", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TimeStampForPointInTimeRecovery
@@ -806,7 +806,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#transport_type DatabaseDatabase#transport_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#transport_type DatabaseDatabase#transport_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "transportType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? TransportType
@@ -814,7 +814,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#vault_id DatabaseDatabase#vault_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#vault_id DatabaseDatabase#vault_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "vaultId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VaultId
@@ -822,7 +822,7 @@ namespace oci.DatabaseDatabase
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/database_database#vm_cluster_id DatabaseDatabase#vm_cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_database#vm_cluster_id DatabaseDatabase#vm_cluster_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "vmClusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? VmClusterId

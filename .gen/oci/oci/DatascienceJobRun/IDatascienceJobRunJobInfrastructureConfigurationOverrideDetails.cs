@@ -7,14 +7,14 @@ namespace oci.DatascienceJobRun
     [JsiiInterface(nativeType: typeof(IDatascienceJobRunJobInfrastructureConfigurationOverrideDetails), fullyQualifiedName: "oci.datascienceJobRun.DatascienceJobRunJobInfrastructureConfigurationOverrideDetails")]
     public interface IDatascienceJobRunJobInfrastructureConfigurationOverrideDetails
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_job_run#job_infrastructure_type DatascienceJobRun#job_infrastructure_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_job_run#job_infrastructure_type DatascienceJobRun#job_infrastructure_type}.</summary>
         [JsiiProperty(name: "jobInfrastructureType", typeJson: "{\"primitive\":\"string\"}")]
         string JobInfrastructureType
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_job_run#block_storage_size_in_gbs DatascienceJobRun#block_storage_size_in_gbs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_job_run#block_storage_size_in_gbs DatascienceJobRun#block_storage_size_in_gbs}.</summary>
         [JsiiProperty(name: "blockStorageSizeInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? BlockStorageSizeInGbs
@@ -25,7 +25,18 @@ namespace oci.DatascienceJobRun
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_job_run#compute_target_id DatascienceJobRun#compute_target_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_job_run#capacity_reservation_id DatascienceJobRun#capacity_reservation_id}.</summary>
+        [JsiiProperty(name: "capacityReservationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? CapacityReservationId
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_job_run#compute_target_id DatascienceJobRun#compute_target_id}.</summary>
         [JsiiProperty(name: "computeTargetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ComputeTargetId
@@ -38,7 +49,7 @@ namespace oci.DatascienceJobRun
 
         /// <summary>job_shape_config_details block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_job_run#job_shape_config_details DatascienceJobRun#job_shape_config_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_job_run#job_shape_config_details DatascienceJobRun#job_shape_config_details}
         /// </remarks>
         [JsiiProperty(name: "jobShapeConfigDetails", typeJson: "{\"fqn\":\"oci.datascienceJobRun.DatascienceJobRunJobInfrastructureConfigurationOverrideDetailsJobShapeConfigDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,9 +61,23 @@ namespace oci.DatascienceJobRun
             }
         }
 
+        /// <summary>network_configuration block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_job_run#network_configuration DatascienceJobRun#network_configuration}
+        /// </remarks>
+        [JsiiProperty(name: "networkConfiguration", typeJson: "{\"fqn\":\"oci.datascienceJobRun.DatascienceJobRunJobInfrastructureConfigurationOverrideDetailsNetworkConfiguration\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        oci.DatascienceJobRun.IDatascienceJobRunJobInfrastructureConfigurationOverrideDetailsNetworkConfiguration? NetworkConfiguration
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>resource_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_job_run#resource_configuration DatascienceJobRun#resource_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_job_run#resource_configuration DatascienceJobRun#resource_configuration}
         /// </remarks>
         [JsiiProperty(name: "resourceConfiguration", typeJson: "{\"fqn\":\"oci.datascienceJobRun.DatascienceJobRunJobInfrastructureConfigurationOverrideDetailsResourceConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -64,7 +89,7 @@ namespace oci.DatascienceJobRun
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_job_run#shape_name DatascienceJobRun#shape_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_job_run#shape_name DatascienceJobRun#shape_name}.</summary>
         [JsiiProperty(name: "shapeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ShapeName
@@ -75,7 +100,7 @@ namespace oci.DatascienceJobRun
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_job_run#subnet_id DatascienceJobRun#subnet_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_job_run#subnet_id DatascienceJobRun#subnet_id}.</summary>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SubnetId
@@ -93,14 +118,14 @@ namespace oci.DatascienceJobRun
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_job_run#job_infrastructure_type DatascienceJobRun#job_infrastructure_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_job_run#job_infrastructure_type DatascienceJobRun#job_infrastructure_type}.</summary>
             [JsiiProperty(name: "jobInfrastructureType", typeJson: "{\"primitive\":\"string\"}")]
             public string JobInfrastructureType
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_job_run#block_storage_size_in_gbs DatascienceJobRun#block_storage_size_in_gbs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_job_run#block_storage_size_in_gbs DatascienceJobRun#block_storage_size_in_gbs}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "blockStorageSizeInGbs", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? BlockStorageSizeInGbs
@@ -108,7 +133,15 @@ namespace oci.DatascienceJobRun
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_job_run#compute_target_id DatascienceJobRun#compute_target_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_job_run#capacity_reservation_id DatascienceJobRun#capacity_reservation_id}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "capacityReservationId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? CapacityReservationId
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_job_run#compute_target_id DatascienceJobRun#compute_target_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "computeTargetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ComputeTargetId
@@ -118,7 +151,7 @@ namespace oci.DatascienceJobRun
 
             /// <summary>job_shape_config_details block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_job_run#job_shape_config_details DatascienceJobRun#job_shape_config_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_job_run#job_shape_config_details DatascienceJobRun#job_shape_config_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "jobShapeConfigDetails", typeJson: "{\"fqn\":\"oci.datascienceJobRun.DatascienceJobRunJobInfrastructureConfigurationOverrideDetailsJobShapeConfigDetails\"}", isOptional: true)]
@@ -127,9 +160,20 @@ namespace oci.DatascienceJobRun
                 get => GetInstanceProperty<oci.DatascienceJobRun.IDatascienceJobRunJobInfrastructureConfigurationOverrideDetailsJobShapeConfigDetails?>();
             }
 
+            /// <summary>network_configuration block.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_job_run#network_configuration DatascienceJobRun#network_configuration}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "networkConfiguration", typeJson: "{\"fqn\":\"oci.datascienceJobRun.DatascienceJobRunJobInfrastructureConfigurationOverrideDetailsNetworkConfiguration\"}", isOptional: true)]
+            public oci.DatascienceJobRun.IDatascienceJobRunJobInfrastructureConfigurationOverrideDetailsNetworkConfiguration? NetworkConfiguration
+            {
+                get => GetInstanceProperty<oci.DatascienceJobRun.IDatascienceJobRunJobInfrastructureConfigurationOverrideDetailsNetworkConfiguration?>();
+            }
+
             /// <summary>resource_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_job_run#resource_configuration DatascienceJobRun#resource_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_job_run#resource_configuration DatascienceJobRun#resource_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "resourceConfiguration", typeJson: "{\"fqn\":\"oci.datascienceJobRun.DatascienceJobRunJobInfrastructureConfigurationOverrideDetailsResourceConfiguration\"}", isOptional: true)]
@@ -138,7 +182,7 @@ namespace oci.DatascienceJobRun
                 get => GetInstanceProperty<oci.DatascienceJobRun.IDatascienceJobRunJobInfrastructureConfigurationOverrideDetailsResourceConfiguration?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_job_run#shape_name DatascienceJobRun#shape_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_job_run#shape_name DatascienceJobRun#shape_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "shapeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ShapeName
@@ -146,7 +190,7 @@ namespace oci.DatascienceJobRun
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/resources/datascience_job_run#subnet_id DatascienceJobRun#subnet_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/datascience_job_run#subnet_id DatascienceJobRun#subnet_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SubnetId

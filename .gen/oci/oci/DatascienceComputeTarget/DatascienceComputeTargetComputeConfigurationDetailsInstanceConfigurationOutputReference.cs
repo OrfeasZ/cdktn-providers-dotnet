@@ -39,8 +39,20 @@ namespace oci.DatascienceComputeTarget
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatascienceComputeTarget.IDatascienceComputeTargetComputeConfigurationDetailsInstanceConfigurationInstanceShapeDetails)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putNetworkConfigurationDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.datascienceComputeTarget.DatascienceComputeTargetComputeConfigurationDetailsInstanceConfigurationNetworkConfigurationDetails\"}}]")]
+        public virtual void PutNetworkConfigurationDetails(oci.DatascienceComputeTarget.IDatascienceComputeTargetComputeConfigurationDetailsInstanceConfigurationNetworkConfigurationDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatascienceComputeTarget.IDatascienceComputeTargetComputeConfigurationDetailsInstanceConfigurationNetworkConfigurationDetails)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetBootVolumeSizeInGbs")]
         public virtual void ResetBootVolumeSizeInGbs()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCapacityReservationIds")]
+        public virtual void ResetCapacityReservationIds()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -51,10 +63,22 @@ namespace oci.DatascienceComputeTarget
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetNetworkConfigurationDetails")]
+        public virtual void ResetNetworkConfigurationDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiProperty(name: "instanceShapeDetails", typeJson: "{\"fqn\":\"oci.datascienceComputeTarget.DatascienceComputeTargetComputeConfigurationDetailsInstanceConfigurationInstanceShapeDetailsOutputReference\"}")]
         public virtual oci.DatascienceComputeTarget.DatascienceComputeTargetComputeConfigurationDetailsInstanceConfigurationInstanceShapeDetailsOutputReference InstanceShapeDetails
         {
             get => GetInstanceProperty<oci.DatascienceComputeTarget.DatascienceComputeTargetComputeConfigurationDetailsInstanceConfigurationInstanceShapeDetailsOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "networkConfigurationDetails", typeJson: "{\"fqn\":\"oci.datascienceComputeTarget.DatascienceComputeTargetComputeConfigurationDetailsInstanceConfigurationNetworkConfigurationDetailsOutputReference\"}")]
+        public virtual oci.DatascienceComputeTarget.DatascienceComputeTargetComputeConfigurationDetailsInstanceConfigurationNetworkConfigurationDetailsOutputReference NetworkConfigurationDetails
+        {
+            get => GetInstanceProperty<oci.DatascienceComputeTarget.DatascienceComputeTargetComputeConfigurationDetailsInstanceConfigurationNetworkConfigurationDetailsOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -62,6 +86,13 @@ namespace oci.DatascienceComputeTarget
         public virtual double? BootVolumeSizeInGbsInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "capacityReservationIdsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? CapacityReservationIdsInput
+        {
+            get => GetInstanceProperty<string[]?>();
         }
 
         [JsiiOptional]
@@ -78,10 +109,24 @@ namespace oci.DatascienceComputeTarget
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "networkConfigurationDetailsInput", typeJson: "{\"fqn\":\"oci.datascienceComputeTarget.DatascienceComputeTargetComputeConfigurationDetailsInstanceConfigurationNetworkConfigurationDetails\"}", isOptional: true)]
+        public virtual oci.DatascienceComputeTarget.IDatascienceComputeTargetComputeConfigurationDetailsInstanceConfigurationNetworkConfigurationDetails? NetworkConfigurationDetailsInput
+        {
+            get => GetInstanceProperty<oci.DatascienceComputeTarget.IDatascienceComputeTargetComputeConfigurationDetailsInstanceConfigurationNetworkConfigurationDetails?>();
+        }
+
         [JsiiProperty(name: "bootVolumeSizeInGbs", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double BootVolumeSizeInGbs
         {
             get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "capacityReservationIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] CapacityReservationIds
+        {
+            get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);
         }
 

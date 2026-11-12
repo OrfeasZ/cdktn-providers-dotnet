@@ -107,6 +107,12 @@ namespace oci.DataOciCoreInstancePools
             get => GetInstanceProperty<oci.DataOciCoreInstancePools.DataOciCoreInstancePoolsInstancePoolsLoadBalancersList>()!;
         }
 
+        [JsiiProperty(name: "overridePolicy", typeJson: "{\"fqn\":\"oci.dataOciCoreInstancePools.DataOciCoreInstancePoolsInstancePoolsOverridePolicyList\"}")]
+        public virtual oci.DataOciCoreInstancePools.DataOciCoreInstancePoolsInstancePoolsOverridePolicyList OverridePolicy
+        {
+            get => GetInstanceProperty<oci.DataOciCoreInstancePools.DataOciCoreInstancePoolsInstancePoolsOverridePolicyList>()!;
+        }
+
         [JsiiProperty(name: "placementConfigurations", typeJson: "{\"fqn\":\"oci.dataOciCoreInstancePools.DataOciCoreInstancePoolsInstancePoolsPlacementConfigurationsList\"}")]
         public virtual oci.DataOciCoreInstancePools.DataOciCoreInstancePoolsInstancePoolsPlacementConfigurationsList PlacementConfigurations
         {

@@ -95,6 +95,12 @@ namespace oci.DataOciCoreClusterNetworks
             get => GetInstanceProperty<oci.DataOciCoreClusterNetworks.DataOciCoreClusterNetworksClusterNetworksInstancePoolsLoadBalancersList>()!;
         }
 
+        [JsiiProperty(name: "overridePolicy", typeJson: "{\"fqn\":\"oci.dataOciCoreClusterNetworks.DataOciCoreClusterNetworksClusterNetworksInstancePoolsOverridePolicyList\"}")]
+        public virtual oci.DataOciCoreClusterNetworks.DataOciCoreClusterNetworksClusterNetworksInstancePoolsOverridePolicyList OverridePolicy
+        {
+            get => GetInstanceProperty<oci.DataOciCoreClusterNetworks.DataOciCoreClusterNetworksClusterNetworksInstancePoolsOverridePolicyList>()!;
+        }
+
         [JsiiProperty(name: "placementConfigurations", typeJson: "{\"fqn\":\"oci.dataOciCoreClusterNetworks.DataOciCoreClusterNetworksClusterNetworksInstancePoolsPlacementConfigurationsList\"}")]
         public virtual oci.DataOciCoreClusterNetworks.DataOciCoreClusterNetworksClusterNetworksInstancePoolsPlacementConfigurationsList PlacementConfigurations
         {

@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseDatabaseSnapshots
     [JsiiByValue(fqn: "oci.dataOciDatabaseDatabaseSnapshots.DataOciDatabaseDatabaseSnapshotsFilter")]
     public class DataOciDatabaseDatabaseSnapshotsFilter : oci.DataOciDatabaseDatabaseSnapshots.IDataOciDatabaseDatabaseSnapshotsFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/database_database_snapshots#name DataOciDatabaseDatabaseSnapshots#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/database_database_snapshots#name DataOciDatabaseDatabaseSnapshots#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +17,7 @@ namespace oci.DataOciDatabaseDatabaseSnapshots
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/database_database_snapshots#values DataOciDatabaseDatabaseSnapshots#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/database_database_snapshots#values DataOciDatabaseDatabaseSnapshots#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace oci.DataOciDatabaseDatabaseSnapshots
 
         private object? _regex;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/database_database_snapshots#regex DataOciDatabaseDatabaseSnapshots#regex}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/database_database_snapshots#regex DataOciDatabaseDatabaseSnapshots#regex}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

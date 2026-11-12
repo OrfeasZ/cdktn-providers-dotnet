@@ -7,21 +7,21 @@ namespace oci.DataOciGenerativeAiDedicatedAiClusterAllocatableGpus
     [JsiiInterface(nativeType: typeof(IDataOciGenerativeAiDedicatedAiClusterAllocatableGpusConfig), fullyQualifiedName: "oci.dataOciGenerativeAiDedicatedAiClusterAllocatableGpus.DataOciGenerativeAiDedicatedAiClusterAllocatableGpusConfig")]
     public interface IDataOciGenerativeAiDedicatedAiClusterAllocatableGpusConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#capacity_reservation_id DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#capacity_reservation_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#capacity_reservation_id DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#capacity_reservation_id}.</summary>
         [JsiiProperty(name: "capacityReservationId", typeJson: "{\"primitive\":\"string\"}")]
         string CapacityReservationId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#compartment_id DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#compartment_id DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#compute_shape DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#compute_shape}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#compute_shape DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#compute_shape}.</summary>
         [JsiiProperty(name: "computeShape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ComputeShape
@@ -34,7 +34,7 @@ namespace oci.DataOciGenerativeAiDedicatedAiClusterAllocatableGpus
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#filter DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#filter DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGenerativeAiDedicatedAiClusterAllocatableGpus.IDataOciGenerativeAiDedicatedAiClusterAllocatableGpusFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciGenerativeAiDedicatedAiClusterAllocatableGpus.DataOciGenerativeAiDedicatedAiClusterAllocatableGpusFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace oci.DataOciGenerativeAiDedicatedAiClusterAllocatableGpus
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#id DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#id DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -69,21 +69,21 @@ namespace oci.DataOciGenerativeAiDedicatedAiClusterAllocatableGpus
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#capacity_reservation_id DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#capacity_reservation_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#capacity_reservation_id DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#capacity_reservation_id}.</summary>
             [JsiiProperty(name: "capacityReservationId", typeJson: "{\"primitive\":\"string\"}")]
             public string CapacityReservationId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#compartment_id DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#compartment_id DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#compute_shape DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#compute_shape}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#compute_shape DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#compute_shape}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "computeShape", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ComputeShape
@@ -93,7 +93,7 @@ namespace oci.DataOciGenerativeAiDedicatedAiClusterAllocatableGpus
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#filter DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#filter DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciGenerativeAiDedicatedAiClusterAllocatableGpus.IDataOciGenerativeAiDedicatedAiClusterAllocatableGpusFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -103,7 +103,7 @@ namespace oci.DataOciGenerativeAiDedicatedAiClusterAllocatableGpus
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#id DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/generative_ai_dedicated_ai_cluster_allocatable_gpus#id DataOciGenerativeAiDedicatedAiClusterAllocatableGpus#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

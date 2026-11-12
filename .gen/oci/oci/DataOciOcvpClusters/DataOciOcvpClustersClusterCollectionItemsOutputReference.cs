@@ -131,12 +131,6 @@ namespace oci.DataOciOcvpClusters
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "initialFaultDomainHostDistribution", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string InitialFaultDomainHostDistribution
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "initialHostOcpuCount", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double InitialHostOcpuCount
         {

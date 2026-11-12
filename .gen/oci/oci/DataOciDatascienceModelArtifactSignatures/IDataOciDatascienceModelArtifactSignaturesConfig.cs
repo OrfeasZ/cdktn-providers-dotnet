@@ -7,21 +7,21 @@ namespace oci.DataOciDatascienceModelArtifactSignatures
     [JsiiInterface(nativeType: typeof(IDataOciDatascienceModelArtifactSignaturesConfig), fullyQualifiedName: "oci.dataOciDatascienceModelArtifactSignatures.DataOciDatascienceModelArtifactSignaturesConfig")]
     public interface IDataOciDatascienceModelArtifactSignaturesConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signatures#compartment_id DataOciDatascienceModelArtifactSignatures#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signatures#compartment_id DataOciDatascienceModelArtifactSignatures#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
         string CompartmentId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signatures#model_id DataOciDatascienceModelArtifactSignatures#model_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signatures#model_id DataOciDatascienceModelArtifactSignatures#model_id}.</summary>
         [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}")]
         string ModelId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signatures#digest DataOciDatascienceModelArtifactSignatures#digest}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signatures#digest DataOciDatascienceModelArtifactSignatures#digest}.</summary>
         [JsiiProperty(name: "digest", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Digest
@@ -32,7 +32,7 @@ namespace oci.DataOciDatascienceModelArtifactSignatures
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signatures#display_name DataOciDatascienceModelArtifactSignatures#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signatures#display_name DataOciDatascienceModelArtifactSignatures#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -45,7 +45,7 @@ namespace oci.DataOciDatascienceModelArtifactSignatures
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signatures#filter DataOciDatascienceModelArtifactSignatures#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signatures#filter DataOciDatascienceModelArtifactSignatures#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatascienceModelArtifactSignatures.IDataOciDatascienceModelArtifactSignaturesFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciDatascienceModelArtifactSignatures.DataOciDatascienceModelArtifactSignaturesFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace oci.DataOciDatascienceModelArtifactSignatures
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signatures#id DataOciDatascienceModelArtifactSignatures#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signatures#id DataOciDatascienceModelArtifactSignatures#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ namespace oci.DataOciDatascienceModelArtifactSignatures
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signatures#state DataOciDatascienceModelArtifactSignatures#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signatures#state DataOciDatascienceModelArtifactSignatures#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -91,21 +91,21 @@ namespace oci.DataOciDatascienceModelArtifactSignatures
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signatures#compartment_id DataOciDatascienceModelArtifactSignatures#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signatures#compartment_id DataOciDatascienceModelArtifactSignatures#compartment_id}.</summary>
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}")]
             public string CompartmentId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signatures#model_id DataOciDatascienceModelArtifactSignatures#model_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signatures#model_id DataOciDatascienceModelArtifactSignatures#model_id}.</summary>
             [JsiiProperty(name: "modelId", typeJson: "{\"primitive\":\"string\"}")]
             public string ModelId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signatures#digest DataOciDatascienceModelArtifactSignatures#digest}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signatures#digest DataOciDatascienceModelArtifactSignatures#digest}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "digest", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Digest
@@ -113,7 +113,7 @@ namespace oci.DataOciDatascienceModelArtifactSignatures
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signatures#display_name DataOciDatascienceModelArtifactSignatures#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signatures#display_name DataOciDatascienceModelArtifactSignatures#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -123,7 +123,7 @@ namespace oci.DataOciDatascienceModelArtifactSignatures
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signatures#filter DataOciDatascienceModelArtifactSignatures#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signatures#filter DataOciDatascienceModelArtifactSignatures#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciDatascienceModelArtifactSignatures.IDataOciDatascienceModelArtifactSignaturesFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -133,7 +133,7 @@ namespace oci.DataOciDatascienceModelArtifactSignatures
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signatures#id DataOciDatascienceModelArtifactSignatures#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signatures#id DataOciDatascienceModelArtifactSignatures#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -145,7 +145,7 @@ namespace oci.DataOciDatascienceModelArtifactSignatures
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/datascience_model_artifact_signatures#state DataOciDatascienceModelArtifactSignatures#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/datascience_model_artifact_signatures#state DataOciDatascienceModelArtifactSignatures#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

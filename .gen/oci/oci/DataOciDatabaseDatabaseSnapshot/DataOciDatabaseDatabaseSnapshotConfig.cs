@@ -9,7 +9,7 @@ namespace oci.DataOciDatabaseDatabaseSnapshot
     [JsiiByValue(fqn: "oci.dataOciDatabaseDatabaseSnapshot.DataOciDatabaseDatabaseSnapshotConfig")]
     public class DataOciDatabaseDatabaseSnapshotConfig : oci.DataOciDatabaseDatabaseSnapshot.IDataOciDatabaseDatabaseSnapshotConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.12.1/docs/data-sources/database_database_snapshot#database_snapshot_id DataOciDatabaseDatabaseSnapshot#database_snapshot_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/database_database_snapshot#database_snapshot_id DataOciDatabaseDatabaseSnapshot#database_snapshot_id}.</summary>
         [JsiiProperty(name: "databaseSnapshotId", typeJson: "{\"primitive\":\"string\"}")]
         public string DatabaseSnapshotId
         {

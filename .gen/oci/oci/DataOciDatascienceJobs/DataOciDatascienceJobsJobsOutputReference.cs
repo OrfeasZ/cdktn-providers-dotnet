@@ -149,6 +149,12 @@ namespace oci.DataOciDatascienceJobs
             get => GetInstanceProperty<oci.DataOciDatascienceJobs.DataOciDatascienceJobsJobsJobNodeConfigurationDetailsList>()!;
         }
 
+        [JsiiProperty(name: "jobRunRetentionPeriodInDays", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double JobRunRetentionPeriodInDays
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "jobStorageMountConfigurationDetailsList", typeJson: "{\"fqn\":\"oci.dataOciDatascienceJobs.DataOciDatascienceJobsJobsJobStorageMountConfigurationDetailsListStructList\"}")]
         public virtual oci.DataOciDatascienceJobs.DataOciDatascienceJobsJobsJobStorageMountConfigurationDetailsListStructList JobStorageMountConfigurationDetailsList
         {
