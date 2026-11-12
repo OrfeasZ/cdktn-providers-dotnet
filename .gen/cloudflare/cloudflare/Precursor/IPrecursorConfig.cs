@@ -9,7 +9,7 @@ namespace cloudflare.Precursor
     {
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/precursor#zone_id Precursor#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/precursor#zone_id Precursor#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
@@ -17,15 +17,18 @@ namespace cloudflare.Precursor
             get;
         }
 
-        /// <summary>The zone-level Precursor enforcement mode applied to requests that do not match a more specific enforcement rule.</summary>
+        /// <summary>Controls Precursor detection for the zone.</summary>
         /// <remarks>
-        /// Available values: "off", "min-friction", "max-security".
+        /// <c>off</c> disables detection,
+        /// <c>monitor</c> records detections without affecting bot scores, and <c>arm</c>
+        /// allows detections to affect bot scores.
+        /// Available values: "off", "monitor", "arm".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/precursor#default_mode Precursor#default_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/precursor#mode Precursor#mode}
         /// </remarks>
-        [JsiiProperty(name: "defaultMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? DefaultMode
+        string? Mode
         {
             get
             {
@@ -33,14 +36,29 @@ namespace cloudflare.Precursor
             }
         }
 
-        /// <summary>The ordered list of enforcement rules for the zone.</summary>
+        /// <summary>The ordered list of Precursor rules for the zone.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/precursor#enforcement_rules Precursor#enforcement_rules}
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Precursor.IPrecursorEnforcementRules" />)[]</para>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/precursor#rules Precursor#rules}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Precursor.IPrecursorRules" />)[]</para>
         /// </remarks>
-        [JsiiProperty(name: "enforcementRules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.precursor.PrecursorEnforcementRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.precursor.PrecursorRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        object? EnforcementRules
+        object? Rules
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Whether Precursor shows an interstitial when it takes action on a request.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/precursor#show_interstitial Precursor#show_interstitial}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "showInterstitial", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        object? ShowInterstitial
         {
             get
             {
@@ -57,7 +75,7 @@ namespace cloudflare.Precursor
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/precursor#zone_id Precursor#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/precursor#zone_id Precursor#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId
@@ -65,27 +83,42 @@ namespace cloudflare.Precursor
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>The zone-level Precursor enforcement mode applied to requests that do not match a more specific enforcement rule.</summary>
+            /// <summary>Controls Precursor detection for the zone.</summary>
             /// <remarks>
-            /// Available values: "off", "min-friction", "max-security".
+            /// <c>off</c> disables detection,
+            /// <c>monitor</c> records detections without affecting bot scores, and <c>arm</c>
+            /// allows detections to affect bot scores.
+            /// Available values: "off", "monitor", "arm".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/precursor#default_mode Precursor#default_mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/precursor#mode Precursor#mode}
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "defaultMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? DefaultMode
+            [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Mode
             {
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>The ordered list of enforcement rules for the zone.</summary>
+            /// <summary>The ordered list of Precursor rules for the zone.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/precursor#enforcement_rules Precursor#enforcement_rules}
-            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Precursor.IPrecursorEnforcementRules" />)[]</para>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/precursor#rules Precursor#rules}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.Precursor.IPrecursorRules" />)[]</para>
             /// </remarks>
             [JsiiOptional]
-            [JsiiProperty(name: "enforcementRules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.precursor.PrecursorEnforcementRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
-            public object? EnforcementRules
+            [JsiiProperty(name: "rules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"cloudflare.precursor.PrecursorRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+            public object? Rules
+            {
+                get => GetInstanceProperty<object?>();
+            }
+
+            /// <summary>Whether Precursor shows an interstitial when it takes action on a request.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/precursor#show_interstitial Precursor#show_interstitial}
+            /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "showInterstitial", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+            public object? ShowInterstitial
             {
                 get => GetInstanceProperty<object?>();
             }

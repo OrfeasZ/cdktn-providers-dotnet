@@ -59,6 +59,12 @@ namespace cloudflare.DataCloudflareWorkflows
             get => GetInstanceProperty<Io.Cdktn.NumberMap>()!;
         }
 
+        [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Jurisdiction
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "modifiedOn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ModifiedOn
         {

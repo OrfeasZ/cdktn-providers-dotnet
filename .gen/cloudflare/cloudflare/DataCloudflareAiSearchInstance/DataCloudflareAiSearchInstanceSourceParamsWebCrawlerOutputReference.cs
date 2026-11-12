@@ -51,12 +51,6 @@ namespace cloudflare.DataCloudflareAiSearchInstance
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "storeOptions", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAiSearchInstance.DataCloudflareAiSearchInstanceSourceParamsWebCrawlerStoreOptionsOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareAiSearchInstance.DataCloudflareAiSearchInstanceSourceParamsWebCrawlerStoreOptionsOutputReference StoreOptions
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareAiSearchInstance.DataCloudflareAiSearchInstanceSourceParamsWebCrawlerStoreOptionsOutputReference>()!;
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAiSearchInstance.DataCloudflareAiSearchInstanceSourceParamsWebCrawler\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareAiSearchInstance.IDataCloudflareAiSearchInstanceSourceParamsWebCrawler? InternalValue

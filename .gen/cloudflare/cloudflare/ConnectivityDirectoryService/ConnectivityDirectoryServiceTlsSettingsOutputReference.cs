@@ -33,6 +33,25 @@ namespace cloudflare.ConnectivityDirectoryService
         {
         }
 
+        [JsiiMethod(name: "resetCertificateAuthority")]
+        public virtual void ResetCertificateAuthority()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetClientCertificate")]
+        public virtual void ResetClientCertificate()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "certificateAuthorityInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? CertificateAuthorityInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "certVerificationModeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CertVerificationModeInput
@@ -40,8 +59,29 @@ namespace cloudflare.ConnectivityDirectoryService
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "clientCertificateInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ClientCertificateInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "certificateAuthority", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CertificateAuthority
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "certVerificationMode", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CertVerificationMode
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "clientCertificate", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ClientCertificate
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

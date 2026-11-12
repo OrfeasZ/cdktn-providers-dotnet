@@ -39,6 +39,12 @@ namespace cloudflare.DataCloudflareOrganization
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.DataCloudflareOrganization.IDataCloudflareOrganizationFilterContaining)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putMember", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.dataCloudflareOrganization.DataCloudflareOrganizationFilterMember\"}}]")]
+        public virtual void PutMember(cloudflare.DataCloudflareOrganization.IDataCloudflareOrganizationFilterMember @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.DataCloudflareOrganization.IDataCloudflareOrganizationFilterMember)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putName", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.dataCloudflareOrganization.DataCloudflareOrganizationFilterName\"}}]")]
         public virtual void PutName(cloudflare.DataCloudflareOrganization.IDataCloudflareOrganizationFilterName @value)
         {
@@ -57,14 +63,32 @@ namespace cloudflare.DataCloudflareOrganization
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetDirection")]
+        public virtual void ResetDirection()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetId")]
         public virtual void ResetId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetMember")]
+        public virtual void ResetMember()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetName")]
         public virtual void ResetName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetOrderBy")]
+        public virtual void ResetOrderBy()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -93,6 +117,12 @@ namespace cloudflare.DataCloudflareOrganization
             get => GetInstanceProperty<cloudflare.DataCloudflareOrganization.DataCloudflareOrganizationFilterContainingOutputReference>()!;
         }
 
+        [JsiiProperty(name: "member", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareOrganization.DataCloudflareOrganizationFilterMemberOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareOrganization.DataCloudflareOrganizationFilterMemberOutputReference Member
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareOrganization.DataCloudflareOrganizationFilterMemberOutputReference>()!;
+        }
+
         [JsiiProperty(name: "name", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareOrganization.DataCloudflareOrganizationFilterNameOutputReference\"}")]
         public virtual cloudflare.DataCloudflareOrganization.DataCloudflareOrganizationFilterNameOutputReference Name
         {
@@ -116,10 +146,27 @@ namespace cloudflare.DataCloudflareOrganization
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "directionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DirectionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "idInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public virtual string[]? IdInput
         {
             get => GetInstanceProperty<string[]?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.DataCloudflareOrganization.IDataCloudflareOrganizationFilterMember" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "memberInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.dataCloudflareOrganization.DataCloudflareOrganizationFilterMember\"}]}}", isOptional: true)]
+        public virtual object? MemberInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
@@ -130,6 +177,13 @@ namespace cloudflare.DataCloudflareOrganization
         public virtual object? NameInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "orderByInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? OrderByInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -156,10 +210,24 @@ namespace cloudflare.DataCloudflareOrganization
             get => GetInstanceProperty<object?>();
         }
 
+        [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Direction
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] Id
         {
             get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "orderBy", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string OrderBy
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

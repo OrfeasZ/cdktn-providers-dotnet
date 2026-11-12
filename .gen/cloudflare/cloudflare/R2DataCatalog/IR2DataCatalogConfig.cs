@@ -9,7 +9,7 @@ namespace cloudflare.R2DataCatalog
     {
         /// <summary>Use this to identify the account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/r2_data_catalog#account_id R2DataCatalog#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/r2_data_catalog#account_id R2DataCatalog#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         string AccountId
@@ -19,12 +19,26 @@ namespace cloudflare.R2DataCatalog
 
         /// <summary>Specifies the R2 bucket name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/r2_data_catalog#bucket_name R2DataCatalog#bucket_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/r2_data_catalog#bucket_name R2DataCatalog#bucket_name}
         /// </remarks>
         [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
         string BucketName
         {
             get;
+        }
+
+        /// <summary>Contains request to store catalog credentials.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/r2_data_catalog#credential R2DataCatalog#credential}
+        /// </remarks>
+        [JsiiProperty(name: "credential", typeJson: "{\"fqn\":\"cloudflare.r2DataCatalog.R2DataCatalogCredential\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        cloudflare.R2DataCatalog.IR2DataCatalogCredential? Credential
+        {
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IR2DataCatalogConfig), fullyQualifiedName: "cloudflare.r2DataCatalog.R2DataCatalogConfig")]
@@ -36,7 +50,7 @@ namespace cloudflare.R2DataCatalog
 
             /// <summary>Use this to identify the account.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/r2_data_catalog#account_id R2DataCatalog#account_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/r2_data_catalog#account_id R2DataCatalog#account_id}
             /// </remarks>
             [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountId
@@ -46,12 +60,23 @@ namespace cloudflare.R2DataCatalog
 
             /// <summary>Specifies the R2 bucket name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/r2_data_catalog#bucket_name R2DataCatalog#bucket_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/r2_data_catalog#bucket_name R2DataCatalog#bucket_name}
             /// </remarks>
             [JsiiProperty(name: "bucketName", typeJson: "{\"primitive\":\"string\"}")]
             public string BucketName
             {
                 get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Contains request to store catalog credentials.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/r2_data_catalog#credential R2DataCatalog#credential}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "credential", typeJson: "{\"fqn\":\"cloudflare.r2DataCatalog.R2DataCatalogCredential\"}", isOptional: true)]
+            public cloudflare.R2DataCatalog.IR2DataCatalogCredential? Credential
+            {
+                get => GetInstanceProperty<cloudflare.R2DataCatalog.IR2DataCatalogCredential?>();
             }
 
             /// <remarks>

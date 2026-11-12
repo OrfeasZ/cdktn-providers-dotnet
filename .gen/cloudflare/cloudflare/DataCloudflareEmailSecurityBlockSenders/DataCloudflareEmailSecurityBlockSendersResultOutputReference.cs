@@ -47,6 +47,12 @@ namespace cloudflare.DataCloudflareEmailSecurityBlockSenders
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "expiresAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ExpiresAt
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
         {

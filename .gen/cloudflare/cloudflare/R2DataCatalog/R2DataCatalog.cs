@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.R2DataCatalog
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/r2_data_catalog cloudflare_r2_data_catalog}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/r2_data_catalog cloudflare_r2_data_catalog}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.R2DataCatalog.R2DataCatalog), fullyQualifiedName: "cloudflare.r2DataCatalog.R2DataCatalog", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.r2DataCatalog.R2DataCatalogConfig\"}}]")]
     public class R2DataCatalog : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/r2_data_catalog cloudflare_r2_data_catalog} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/r2_data_catalog cloudflare_r2_data_catalog} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public R2DataCatalog(Constructs.Construct scope, string id, cloudflare.R2DataCatalog.IR2DataCatalogConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,22 @@ namespace cloudflare.R2DataCatalog
         /// <param name="importToId">The construct id used in the generated config for the R2DataCatalog to import.</param>
         /// <param name="importFromId">The id of the existing R2DataCatalog that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the R2DataCatalog to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the R2DataCatalog to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/r2_data_catalog#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing R2DataCatalog that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the R2DataCatalog to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the R2DataCatalog to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/r2_data_catalog#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing R2DataCatalog that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the R2DataCatalog to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.R2DataCatalog.R2DataCatalog), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putCredential", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.r2DataCatalog.R2DataCatalogCredential\"}}]")]
+        public virtual void PutCredential(cloudflare.R2DataCatalog.IR2DataCatalogCredential @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.R2DataCatalog.IR2DataCatalogCredential)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetCredential")]
+        public virtual void ResetCredential()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "synthesizeAttributes", returnsJson: "{\"type\":{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}}")]
@@ -71,6 +83,12 @@ namespace cloudflare.R2DataCatalog
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "credential", typeJson: "{\"fqn\":\"cloudflare.r2DataCatalog.R2DataCatalogCredentialOutputReference\"}")]
+        public virtual cloudflare.R2DataCatalog.R2DataCatalogCredentialOutputReference Credential
+        {
+            get => GetInstanceProperty<cloudflare.R2DataCatalog.R2DataCatalogCredentialOutputReference>()!;
+        }
+
         [JsiiProperty(name: "credentialStatus", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CredentialStatus
         {
@@ -79,6 +97,12 @@ namespace cloudflare.R2DataCatalog
 
         [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Jurisdiction
         {
             get => GetInstanceProperty<string>()!;
         }
@@ -113,6 +137,16 @@ namespace cloudflare.R2DataCatalog
         public virtual string? BucketNameInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.R2DataCatalog.IR2DataCatalogCredential" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "credentialInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.r2DataCatalog.R2DataCatalogCredential\"}]}}", isOptional: true)]
+        public virtual object? CredentialInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]

@@ -119,6 +119,12 @@ namespace cloudflare.DataCloudflareShares
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "tags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap Tags
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
+        }
+
         [JsiiProperty(name: "targetType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TargetType
         {

@@ -113,6 +113,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessPolicies
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "policyResolutionAccountId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PolicyResolutionAccountId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "purposeJustificationPrompt", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string PurposeJustificationPrompt
         {

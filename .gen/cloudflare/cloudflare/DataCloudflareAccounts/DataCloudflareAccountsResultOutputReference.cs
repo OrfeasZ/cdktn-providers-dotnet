@@ -47,6 +47,12 @@ namespace cloudflare.DataCloudflareAccounts
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "legacyFlags", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAccounts.DataCloudflareAccountsResultLegacyFlagsOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareAccounts.DataCloudflareAccountsResultLegacyFlagsOutputReference LegacyFlags
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareAccounts.DataCloudflareAccountsResultLegacyFlagsOutputReference>()!;
+        }
+
         [JsiiProperty(name: "managedBy", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAccounts.DataCloudflareAccountsResultManagedByOutputReference\"}")]
         public virtual cloudflare.DataCloudflareAccounts.DataCloudflareAccountsResultManagedByOutputReference ManagedBy
         {

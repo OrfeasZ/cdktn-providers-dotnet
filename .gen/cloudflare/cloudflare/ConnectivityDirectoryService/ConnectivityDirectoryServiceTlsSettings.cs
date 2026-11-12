@@ -17,10 +17,37 @@ namespace cloudflare.ConnectivityDirectoryService
         /// <description><c>"disabled"</c> — do not verify the server certificate at all</description>
         /// </list>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/connectivity_directory_service#cert_verification_mode ConnectivityDirectoryService#cert_verification_mode}
+        /// <c>disabled</c> cannot be combined with <c>certificate_authority</c>: a custom CA is
+        /// only used to verify the server certificate.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/connectivity_directory_service#cert_verification_mode ConnectivityDirectoryService#cert_verification_mode}
         /// </remarks>
         [JsiiProperty(name: "certVerificationMode", typeJson: "{\"primitive\":\"string\"}")]
         public string CertVerificationMode
+        {
+            get;
+            set;
+        }
+
+        /// <summary>UUID of the custom CA certificate or chain.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/connectivity_directory_service#certificate_authority ConnectivityDirectoryService#certificate_authority}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "certificateAuthority", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? CertificateAuthority
+        {
+            get;
+            set;
+        }
+
+        /// <summary>UUID of the mTLS client certificate and private key.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/connectivity_directory_service#client_certificate ConnectivityDirectoryService#client_certificate}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "clientCertificate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? ClientCertificate
         {
             get;
             set;

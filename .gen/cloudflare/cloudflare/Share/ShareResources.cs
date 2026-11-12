@@ -11,7 +11,7 @@ namespace cloudflare.Share
     {
         /// <summary>Resource Metadata.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/share#meta Share#meta}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/share#meta Share#meta}
         /// </remarks>
         [JsiiProperty(name: "meta", typeJson: "{\"primitive\":\"string\"}")]
         public string Meta
@@ -20,9 +20,9 @@ namespace cloudflare.Share
             set;
         }
 
-        /// <summary>Account identifier.</summary>
+        /// <summary>The account that owns the resource. Must match the `account_id` in the path.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/share#resource_account_id Share#resource_account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/share#resource_account_id Share#resource_account_id}
         /// </remarks>
         [JsiiProperty(name: "resourceAccountId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceAccountId
@@ -31,9 +31,9 @@ namespace cloudflare.Share
             set;
         }
 
-        /// <summary>Share Resource identifier.</summary>
+        /// <summary>Identifier assigned by the service that owns the shared resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/share#resource_id Share#resource_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/share#resource_id Share#resource_id}
         /// </remarks>
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceId
@@ -44,7 +44,7 @@ namespace cloudflare.Share
 
         /// <summary>Resource Type. Available values: "custom-ruleset", "gateway-policy", "gateway-destination-ip", "gateway-block-page-settings", "gateway-extended-email-matching", "idp-federation-grant", "trust-grant".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/share#resource_type Share#resource_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/share#resource_type Share#resource_type}
         /// </remarks>
         [JsiiProperty(name: "resourceType", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceType

@@ -69,6 +69,12 @@ namespace cloudflare.AiGateway
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetS14")]
+        public virtual void ResetS14()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetS2")]
         public virtual void ResetS2()
         {
@@ -148,6 +154,13 @@ namespace cloudflare.AiGateway
         [JsiiOptional]
         [JsiiProperty(name: "s13Input", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? S13Input
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "s14Input", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? S14Input
         {
             get => GetInstanceProperty<string?>();
         }
@@ -252,6 +265,13 @@ namespace cloudflare.AiGateway
 
         [JsiiProperty(name: "s13", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string S13
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "s14", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string S14
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

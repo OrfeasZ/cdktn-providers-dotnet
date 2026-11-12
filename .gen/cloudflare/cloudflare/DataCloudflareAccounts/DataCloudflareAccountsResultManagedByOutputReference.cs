@@ -45,6 +45,18 @@ namespace cloudflare.DataCloudflareAccounts
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "rootOrgId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RootOrgId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "shouldDisplayParentOrgs", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable ShouldDisplayParentOrgs
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAccounts.DataCloudflareAccountsResultManagedBy\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareAccounts.IDataCloudflareAccountsResultManagedBy? InternalValue

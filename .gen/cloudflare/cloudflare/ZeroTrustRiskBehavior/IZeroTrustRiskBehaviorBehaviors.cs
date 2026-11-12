@@ -7,7 +7,7 @@ namespace cloudflare.ZeroTrustRiskBehavior
     [JsiiInterface(nativeType: typeof(IZeroTrustRiskBehaviorBehaviors), fullyQualifiedName: "cloudflare.zeroTrustRiskBehavior.ZeroTrustRiskBehaviorBehaviors")]
     public interface IZeroTrustRiskBehaviorBehaviors
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_risk_behavior#enabled ZeroTrustRiskBehavior#enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/zero_trust_risk_behavior#enabled ZeroTrustRiskBehavior#enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -17,9 +17,9 @@ namespace cloudflare.ZeroTrustRiskBehavior
             get;
         }
 
-        /// <summary>Available values: "low", "medium", "high".</summary>
+        /// <summary>Available values: "info", "low", "medium", "high".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_risk_behavior#risk_level ZeroTrustRiskBehavior#risk_level}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/zero_trust_risk_behavior#risk_level ZeroTrustRiskBehavior#risk_level}
         /// </remarks>
         [JsiiProperty(name: "riskLevel", typeJson: "{\"primitive\":\"string\"}")]
         string RiskLevel
@@ -34,7 +34,7 @@ namespace cloudflare.ZeroTrustRiskBehavior
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_risk_behavior#enabled ZeroTrustRiskBehavior#enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/zero_trust_risk_behavior#enabled ZeroTrustRiskBehavior#enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -44,9 +44,9 @@ namespace cloudflare.ZeroTrustRiskBehavior
                 get => GetInstanceProperty<object>()!;
             }
 
-            /// <summary>Available values: "low", "medium", "high".</summary>
+            /// <summary>Available values: "info", "low", "medium", "high".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_risk_behavior#risk_level ZeroTrustRiskBehavior#risk_level}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/zero_trust_risk_behavior#risk_level ZeroTrustRiskBehavior#risk_level}
             /// </remarks>
             [JsiiProperty(name: "riskLevel", typeJson: "{\"primitive\":\"string\"}")]
             public string RiskLevel

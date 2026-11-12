@@ -39,12 +39,6 @@ namespace cloudflare.DataCloudflareAiSearchInstance
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetNamespace")]
-        public virtual void ResetNamespace()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetOrderBy")]
         public virtual void ResetOrderBy()
         {
@@ -66,13 +60,6 @@ namespace cloudflare.DataCloudflareAiSearchInstance
         [JsiiOptional]
         [JsiiProperty(name: "hostnameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? HostnameInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "namespaceInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? NamespaceInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -100,13 +87,6 @@ namespace cloudflare.DataCloudflareAiSearchInstance
 
         [JsiiProperty(name: "hostname", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Hostname
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "namespace", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Namespace
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

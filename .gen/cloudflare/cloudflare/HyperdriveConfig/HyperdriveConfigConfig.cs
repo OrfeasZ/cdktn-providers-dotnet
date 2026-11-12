@@ -11,7 +11,7 @@ namespace cloudflare.HyperdriveConfig
     {
         /// <summary>Define configurations using a unique string identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/hyperdrive_config#account_id HyperdriveConfig#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/hyperdrive_config#account_id HyperdriveConfig#account_id}
         /// </remarks>
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountId
@@ -22,7 +22,7 @@ namespace cloudflare.HyperdriveConfig
 
         /// <summary>The name of the Hyperdrive configuration. Used to identify the configuration in the Cloudflare dashboard and API.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/hyperdrive_config#name HyperdriveConfig#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/hyperdrive_config#name HyperdriveConfig#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -31,7 +31,7 @@ namespace cloudflare.HyperdriveConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/hyperdrive_config#caching HyperdriveConfig#caching}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/hyperdrive_config#caching HyperdriveConfig#caching}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "caching", typeJson: "{\"fqn\":\"cloudflare.hyperdriveConfig.HyperdriveConfigCaching\"}", isOptional: true)]
         public cloudflare.HyperdriveConfig.IHyperdriveConfigCaching? Caching
@@ -40,7 +40,12 @@ namespace cloudflare.HyperdriveConfig
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/hyperdrive_config#integration HyperdriveConfig#integration}.</summary>
+        /// <summary>Selects a PlanetScale database and provisions credentials managed by Cloudflare when creating a Hyperdrive configuration.</summary>
+        /// <remarks>
+        /// The Cloudflare account must already be linked to PlanetScale in the Hyperdrive dashboard. The selection is returned as read-only metadata and cannot be changed with replace or update operations.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/hyperdrive_config#integration HyperdriveConfig#integration}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "integration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Integration
@@ -53,7 +58,7 @@ namespace cloudflare.HyperdriveConfig
         /// <remarks>
         /// Cannot be used with VPC Service origins; TLS must be managed on the VPC Service.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/hyperdrive_config#mtls HyperdriveConfig#mtls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/hyperdrive_config#mtls HyperdriveConfig#mtls}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mtls", typeJson: "{\"fqn\":\"cloudflare.hyperdriveConfig.HyperdriveConfigMtls\"}", isOptional: true)]
@@ -65,7 +70,7 @@ namespace cloudflare.HyperdriveConfig
 
         /// <summary>Combines database connection fields with exactly one supported network location.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/hyperdrive_config#origin HyperdriveConfig#origin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/hyperdrive_config#origin HyperdriveConfig#origin}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "origin", typeJson: "{\"fqn\":\"cloudflare.hyperdriveConfig.HyperdriveConfigOrigin\"}", isOptional: true)]
@@ -82,7 +87,7 @@ namespace cloudflare.HyperdriveConfig
         /// Certain Cloudflare-managed origins may be permitted a higher limit.
         /// Contact Cloudflare if you need a higher limit.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/hyperdrive_config#origin_connection_limit HyperdriveConfig#origin_connection_limit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/hyperdrive_config#origin_connection_limit HyperdriveConfig#origin_connection_limit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "originConnectionLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

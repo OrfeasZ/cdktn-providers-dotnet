@@ -7,46 +7,66 @@ namespace cloudflare.OrganizationProfile
     [JsiiInterface(nativeType: typeof(IOrganizationProfileAConfig), fullyQualifiedName: "cloudflare.organizationProfile.OrganizationProfileAConfig")]
     public interface IOrganizationProfileAConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/organization_profile#business_address OrganizationProfileA#business_address}.</summary>
-        [JsiiProperty(name: "businessAddress", typeJson: "{\"primitive\":\"string\"}")]
-        string BusinessAddress
-        {
-            get;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/organization_profile#business_email OrganizationProfileA#business_email}.</summary>
-        [JsiiProperty(name: "businessEmail", typeJson: "{\"primitive\":\"string\"}")]
-        string BusinessEmail
-        {
-            get;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/organization_profile#business_name OrganizationProfileA#business_name}.</summary>
-        [JsiiProperty(name: "businessName", typeJson: "{\"primitive\":\"string\"}")]
-        string BusinessName
-        {
-            get;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/organization_profile#business_phone OrganizationProfileA#business_phone}.</summary>
-        [JsiiProperty(name: "businessPhone", typeJson: "{\"primitive\":\"string\"}")]
-        string BusinessPhone
-        {
-            get;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/organization_profile#external_metadata OrganizationProfileA#external_metadata}.</summary>
-        [JsiiProperty(name: "externalMetadata", typeJson: "{\"primitive\":\"string\"}")]
-        string ExternalMetadata
-        {
-            get;
-        }
-
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/organization_profile#organization_id OrganizationProfileA#organization_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/organization_profile#organization_id OrganizationProfileA#organization_id}.</summary>
         [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}")]
         string OrganizationId
         {
             get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/organization_profile#business_address OrganizationProfileA#business_address}.</summary>
+        [JsiiProperty(name: "businessAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? BusinessAddress
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/organization_profile#business_email OrganizationProfileA#business_email}.</summary>
+        [JsiiProperty(name: "businessEmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? BusinessEmail
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/organization_profile#business_name OrganizationProfileA#business_name}.</summary>
+        [JsiiProperty(name: "businessName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? BusinessName
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/organization_profile#business_phone OrganizationProfileA#business_phone}.</summary>
+        [JsiiProperty(name: "businessPhone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? BusinessPhone
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/organization_profile#external_metadata OrganizationProfileA#external_metadata}.</summary>
+        [JsiiProperty(name: "externalMetadata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? ExternalMetadata
+        {
+            get
+            {
+                return null;
+            }
         }
 
         [JsiiTypeProxy(nativeType: typeof(IOrganizationProfileAConfig), fullyQualifiedName: "cloudflare.organizationProfile.OrganizationProfileAConfig")]
@@ -56,46 +76,51 @@ namespace cloudflare.OrganizationProfile
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/organization_profile#business_address OrganizationProfileA#business_address}.</summary>
-            [JsiiProperty(name: "businessAddress", typeJson: "{\"primitive\":\"string\"}")]
-            public string BusinessAddress
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/organization_profile#business_email OrganizationProfileA#business_email}.</summary>
-            [JsiiProperty(name: "businessEmail", typeJson: "{\"primitive\":\"string\"}")]
-            public string BusinessEmail
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/organization_profile#business_name OrganizationProfileA#business_name}.</summary>
-            [JsiiProperty(name: "businessName", typeJson: "{\"primitive\":\"string\"}")]
-            public string BusinessName
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/organization_profile#business_phone OrganizationProfileA#business_phone}.</summary>
-            [JsiiProperty(name: "businessPhone", typeJson: "{\"primitive\":\"string\"}")]
-            public string BusinessPhone
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/organization_profile#external_metadata OrganizationProfileA#external_metadata}.</summary>
-            [JsiiProperty(name: "externalMetadata", typeJson: "{\"primitive\":\"string\"}")]
-            public string ExternalMetadata
-            {
-                get => GetInstanceProperty<string>()!;
-            }
-
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/organization_profile#organization_id OrganizationProfileA#organization_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/organization_profile#organization_id OrganizationProfileA#organization_id}.</summary>
             [JsiiProperty(name: "organizationId", typeJson: "{\"primitive\":\"string\"}")]
             public string OrganizationId
             {
                 get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/organization_profile#business_address OrganizationProfileA#business_address}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "businessAddress", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? BusinessAddress
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/organization_profile#business_email OrganizationProfileA#business_email}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "businessEmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? BusinessEmail
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/organization_profile#business_name OrganizationProfileA#business_name}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "businessName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? BusinessName
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/organization_profile#business_phone OrganizationProfileA#business_phone}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "businessPhone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? BusinessPhone
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/organization_profile#external_metadata OrganizationProfileA#external_metadata}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "externalMetadata", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ExternalMetadata
+            {
+                get => GetInstanceProperty<string?>();
             }
 
             /// <remarks>

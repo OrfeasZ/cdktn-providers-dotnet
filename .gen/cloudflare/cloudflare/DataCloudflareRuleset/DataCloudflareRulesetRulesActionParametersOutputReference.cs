@@ -513,6 +513,18 @@ namespace cloudflare.DataCloudflareRuleset
             get => GetInstanceProperty<cloudflare.DataCloudflareRuleset.DataCloudflareRulesetRulesActionParametersVaryOutputReference>()!;
         }
 
+        [JsiiProperty(name: "webmcpEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable WebmcpEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "webmcpPacks", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] WebmcpPacks
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareRuleset.DataCloudflareRulesetRulesActionParameters\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareRuleset.IDataCloudflareRulesetRulesActionParameters? InternalValue

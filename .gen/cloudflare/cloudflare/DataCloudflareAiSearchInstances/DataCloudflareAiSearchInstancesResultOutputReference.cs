@@ -65,6 +65,12 @@ namespace cloudflare.DataCloudflareAiSearchInstances
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "chunk", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Chunk
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "chunkOverlap", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double ChunkOverlap
         {
@@ -251,10 +257,40 @@ namespace cloudflare.DataCloudflareAiSearchInstances
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "summarization", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Summarization
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
+        [JsiiProperty(name: "summarizationModel", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SummarizationModel
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "syncInterval", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double SyncInterval
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "systemPromptAisearch", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SystemPromptAisearch
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "systemPromptIndexSummarization", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SystemPromptIndexSummarization
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "systemPromptRewriteQuery", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SystemPromptRewriteQuery
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "tokenId", typeJson: "{\"primitive\":\"string\"}")]

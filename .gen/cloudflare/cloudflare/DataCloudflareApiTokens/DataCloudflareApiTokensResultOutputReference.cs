@@ -113,6 +113,18 @@ namespace cloudflare.DataCloudflareApiTokens
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "tokenPrefix", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TokenPrefix
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "tokenSuffix", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TokenSuffix
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareApiTokens.DataCloudflareApiTokensResult\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareApiTokens.IDataCloudflareApiTokensResult? InternalValue

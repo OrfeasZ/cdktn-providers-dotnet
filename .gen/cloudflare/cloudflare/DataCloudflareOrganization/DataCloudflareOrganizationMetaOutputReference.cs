@@ -33,6 +33,12 @@ namespace cloudflare.DataCloudflareOrganization
         {
         }
 
+        [JsiiProperty(name: "areChildAccountsAccessibleByOrgMembers", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable AreChildAccountsAccessibleByOrgMembers
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "hierarchyTags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public virtual string[] HierarchyTags
         {
@@ -49,6 +55,12 @@ namespace cloudflare.DataCloudflareOrganization
         public virtual cloudflare.DataCloudflareOrganization.DataCloudflareOrganizationMetaTenantFlagsOutputReference TenantFlags
         {
             get => GetInstanceProperty<cloudflare.DataCloudflareOrganization.DataCloudflareOrganizationMetaTenantFlagsOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "tenantType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TenantType
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiOptional]

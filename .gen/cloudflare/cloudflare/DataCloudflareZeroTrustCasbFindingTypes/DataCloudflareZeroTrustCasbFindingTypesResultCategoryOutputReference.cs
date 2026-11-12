@@ -1,0 +1,62 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace cloudflare.DataCloudflareZeroTrustCasbFindingTypes
+{
+    [JsiiClass(nativeType: typeof(cloudflare.DataCloudflareZeroTrustCasbFindingTypes.DataCloudflareZeroTrustCasbFindingTypesResultCategoryOutputReference), fullyQualifiedName: "cloudflare.dataCloudflareZeroTrustCasbFindingTypes.DataCloudflareZeroTrustCasbFindingTypesResultCategoryOutputReference", parametersJson: "[{\"docs\":{\"summary\":\"The parent resource.\"},\"name\":\"terraformResource\",\"type\":{\"fqn\":\"cdktn.IInterpolatingParent\"}},{\"docs\":{\"summary\":\"The attribute on the parent resource this class is referencing.\"},\"name\":\"terraformAttribute\",\"type\":{\"primitive\":\"string\"}}]")]
+    public class DataCloudflareZeroTrustCasbFindingTypesResultCategoryOutputReference : Io.Cdktn.ComplexObject
+    {
+        /// <param name="terraformResource">The parent resource.</param>
+        /// <param name="terraformAttribute">The attribute on the parent resource this class is referencing.</param>
+        public DataCloudflareZeroTrustCasbFindingTypesResultCategoryOutputReference(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute): base(_MakeDeputyProps(terraformResource, terraformAttribute))
+        {
+        }
+
+        [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
+        private static DeputyProps _MakeDeputyProps(Io.Cdktn.IInterpolatingParent terraformResource, string terraformAttribute)
+        {
+            return new DeputyProps(new object?[]{terraformResource, terraformAttribute});
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from a Javascript-owned object reference</summary>
+        /// <param name="reference">The Javascript-owned object reference</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected DataCloudflareZeroTrustCasbFindingTypesResultCategoryOutputReference(ByRefValue reference): base(reference)
+        {
+        }
+
+        /// <summary>Used by jsii to construct an instance of this class from DeputyProps</summary>
+        /// <param name="props">The deputy props</param>
+        [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
+        protected DataCloudflareZeroTrustCasbFindingTypesResultCategoryOutputReference(DeputyProps props): base(props)
+        {
+        }
+
+        [JsiiProperty(name: "observation", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Observation
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "product", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Product
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Type
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustCasbFindingTypes.DataCloudflareZeroTrustCasbFindingTypesResultCategory\"}", isOptional: true)]
+        public virtual cloudflare.DataCloudflareZeroTrustCasbFindingTypes.IDataCloudflareZeroTrustCasbFindingTypesResultCategory? InternalValue
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustCasbFindingTypes.IDataCloudflareZeroTrustCasbFindingTypesResultCategory?>();
+            set => SetInstanceProperty(value);
+        }
+    }
+}

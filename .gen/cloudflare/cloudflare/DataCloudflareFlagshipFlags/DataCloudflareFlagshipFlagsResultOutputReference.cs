@@ -65,6 +65,12 @@ namespace cloudflare.DataCloudflareFlagshipFlags
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "metadata", typeJson: "{\"fqn\":\"cdktn.AnyMap\"}")]
+        public virtual Io.Cdktn.AnyMap Metadata
+        {
+            get => GetInstanceProperty<Io.Cdktn.AnyMap>()!;
+        }
+
         [JsiiProperty(name: "rules", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareFlagshipFlags.DataCloudflareFlagshipFlagsResultRulesList\"}")]
         public virtual cloudflare.DataCloudflareFlagshipFlags.DataCloudflareFlagshipFlagsResultRulesList Rules
         {

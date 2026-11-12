@@ -71,6 +71,18 @@ namespace cloudflare.DataCloudflareMagicTransitSiteWans
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "provisionedDownloadKbps", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double ProvisionedDownloadKbps
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "provisionedUploadKbps", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double ProvisionedUploadKbps
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "siteId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SiteId
         {

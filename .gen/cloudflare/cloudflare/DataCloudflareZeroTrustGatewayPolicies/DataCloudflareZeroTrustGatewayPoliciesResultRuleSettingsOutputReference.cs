@@ -45,12 +45,6 @@ namespace cloudflare.DataCloudflareZeroTrustGatewayPolicies
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
-        [JsiiProperty(name: "auditSsh", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustGatewayPolicies.DataCloudflareZeroTrustGatewayPoliciesResultRuleSettingsAuditSshOutputReference\"}")]
-        public virtual cloudflare.DataCloudflareZeroTrustGatewayPolicies.DataCloudflareZeroTrustGatewayPoliciesResultRuleSettingsAuditSshOutputReference AuditSsh
-        {
-            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustGatewayPolicies.DataCloudflareZeroTrustGatewayPoliciesResultRuleSettingsAuditSshOutputReference>()!;
-        }
-
         [JsiiProperty(name: "bisoAdminControls", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustGatewayPolicies.DataCloudflareZeroTrustGatewayPoliciesResultRuleSettingsBisoAdminControlsOutputReference\"}")]
         public virtual cloudflare.DataCloudflareZeroTrustGatewayPolicies.DataCloudflareZeroTrustGatewayPoliciesResultRuleSettingsBisoAdminControlsOutputReference BisoAdminControls
         {
@@ -109,6 +103,12 @@ namespace cloudflare.DataCloudflareZeroTrustGatewayPolicies
         public virtual cloudflare.DataCloudflareZeroTrustGatewayPolicies.DataCloudflareZeroTrustGatewayPoliciesResultRuleSettingsForensicCopyOutputReference ForensicCopy
         {
             get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustGatewayPolicies.DataCloudflareZeroTrustGatewayPoliciesResultRuleSettingsForensicCopyOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "forward", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustGatewayPolicies.DataCloudflareZeroTrustGatewayPoliciesResultRuleSettingsForwardOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareZeroTrustGatewayPolicies.DataCloudflareZeroTrustGatewayPoliciesResultRuleSettingsForwardOutputReference Forward
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareZeroTrustGatewayPolicies.DataCloudflareZeroTrustGatewayPoliciesResultRuleSettingsForwardOutputReference>()!;
         }
 
         [JsiiProperty(name: "ignoreCnameCategoryMatches", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]

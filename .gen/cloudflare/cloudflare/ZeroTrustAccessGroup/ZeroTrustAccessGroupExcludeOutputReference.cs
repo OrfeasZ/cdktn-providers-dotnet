@@ -185,6 +185,12 @@ namespace cloudflare.ZeroTrustAccessGroup
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeServiceToken)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putServiceTokenTag", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeServiceTokenTag\"}}]")]
+        public virtual void PutServiceTokenTag(cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeServiceTokenTag @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeServiceTokenTag)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putUserRiskScore", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeUserRiskScore\"}}]")]
         public virtual void PutUserRiskScore(cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeUserRiskScore @value)
         {
@@ -337,6 +343,12 @@ namespace cloudflare.ZeroTrustAccessGroup
 
         [JsiiMethod(name: "resetServiceToken")]
         public virtual void ResetServiceToken()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetServiceTokenTag")]
+        public virtual void ResetServiceTokenTag()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -495,6 +507,12 @@ namespace cloudflare.ZeroTrustAccessGroup
         public virtual cloudflare.ZeroTrustAccessGroup.ZeroTrustAccessGroupExcludeServiceTokenOutputReference ServiceToken
         {
             get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.ZeroTrustAccessGroupExcludeServiceTokenOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "serviceTokenTag", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeServiceTokenTagOutputReference\"}")]
+        public virtual cloudflare.ZeroTrustAccessGroup.ZeroTrustAccessGroupExcludeServiceTokenTagOutputReference ServiceTokenTag
+        {
+            get => GetInstanceProperty<cloudflare.ZeroTrustAccessGroup.ZeroTrustAccessGroupExcludeServiceTokenTagOutputReference>()!;
         }
 
         [JsiiProperty(name: "userRiskScore", typeJson: "{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeUserRiskScoreOutputReference\"}")]
@@ -749,6 +767,16 @@ namespace cloudflare.ZeroTrustAccessGroup
         [JsiiOptional]
         [JsiiProperty(name: "serviceTokenInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeServiceToken\"}]}}", isOptional: true)]
         public virtual object? ServiceTokenInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustAccessGroup.IZeroTrustAccessGroupExcludeServiceTokenTag" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "serviceTokenTagInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustAccessGroup.ZeroTrustAccessGroupExcludeServiceTokenTag\"}]}}", isOptional: true)]
+        public virtual object? ServiceTokenTagInput
         {
             get => GetInstanceProperty<object?>();
         }

@@ -7,14 +7,17 @@ namespace cloudflare.Organization
     [JsiiInterface(nativeType: typeof(IOrganizationConfig), fullyQualifiedName: "cloudflare.organization.OrganizationConfig")]
     public interface IOrganizationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/organization#name Organization#name}.</summary>
+        /// <summary>The Organization name, limited to 65 UTF-8 bytes.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/organization#name Organization#name}
+        /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/organization#parent Organization#parent}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/organization#parent Organization#parent}.</summary>
         [JsiiProperty(name: "parent", typeJson: "{\"fqn\":\"cloudflare.organization.OrganizationParent\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.Organization.IOrganizationParent? Parent
@@ -25,7 +28,24 @@ namespace cloudflare.Organization
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/organization#profile Organization#profile}.</summary>
+        /// <summary>The current parent Organization ID. A different value is rejected; this endpoint cannot move an Organization.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/organization#parent_id Organization#parent_id}
+        /// </remarks>
+        [JsiiProperty(name: "parentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? ParentId
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Optional profile fields, each limited to 1,000 UTF-8 bytes. An empty profile is ignored.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/organization#profile Organization#profile}
+        /// </remarks>
         [JsiiProperty(name: "profile", typeJson: "{\"fqn\":\"cloudflare.organization.OrganizationProfile\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         cloudflare.Organization.IOrganizationProfile? Profile
@@ -43,14 +63,17 @@ namespace cloudflare.Organization
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/organization#name Organization#name}.</summary>
+            /// <summary>The Organization name, limited to 65 UTF-8 bytes.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/organization#name Organization#name}
+            /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/organization#parent Organization#parent}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/organization#parent Organization#parent}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "parent", typeJson: "{\"fqn\":\"cloudflare.organization.OrganizationParent\"}", isOptional: true)]
             public cloudflare.Organization.IOrganizationParent? Parent
@@ -58,7 +81,21 @@ namespace cloudflare.Organization
                 get => GetInstanceProperty<cloudflare.Organization.IOrganizationParent?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/organization#profile Organization#profile}.</summary>
+            /// <summary>The current parent Organization ID. A different value is rejected; this endpoint cannot move an Organization.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/organization#parent_id Organization#parent_id}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "parentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? ParentId
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Optional profile fields, each limited to 1,000 UTF-8 bytes. An empty profile is ignored.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/organization#profile Organization#profile}
+            /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "profile", typeJson: "{\"fqn\":\"cloudflare.organization.OrganizationProfile\"}", isOptional: true)]
             public cloudflare.Organization.IOrganizationProfile? Profile

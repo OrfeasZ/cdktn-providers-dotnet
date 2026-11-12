@@ -7,9 +7,9 @@ namespace cloudflare.AccountDnsSettings
     [JsiiByValue(fqn: "cloudflare.accountDnsSettings.AccountDnsSettingsZoneDefaultsNameservers")]
     public class AccountDnsSettingsZoneDefaultsNameservers : cloudflare.AccountDnsSettings.IAccountDnsSettingsZoneDefaultsNameservers
     {
-        /// <summary>Nameserver type Available values: "cloudflare.standard", "cloudflare.standard.random", "custom.account", "custom.tenant".</summary>
+        /// <summary>Nameserver type Available values: "cloudflare.standard", "cloudflare.advanced", "cloudflare.standard.random", "custom.account", "custom.tenant".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/account_dns_settings#type AccountDnsSettings#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/account_dns_settings#type AccountDnsSettings#type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

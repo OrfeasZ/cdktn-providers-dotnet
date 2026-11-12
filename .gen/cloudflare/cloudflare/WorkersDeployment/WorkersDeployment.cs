@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.WorkersDeployment
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/workers_deployment cloudflare_workers_deployment}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/workers_deployment cloudflare_workers_deployment}.</summary>
     [JsiiClass(nativeType: typeof(cloudflare.WorkersDeployment.WorkersDeployment), fullyQualifiedName: "cloudflare.workersDeployment.WorkersDeployment", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"cloudflare.workersDeployment.WorkersDeploymentConfig\"}}]")]
     public class WorkersDeployment : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/workers_deployment cloudflare_workers_deployment} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/workers_deployment cloudflare_workers_deployment} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public WorkersDeployment(Constructs.Construct scope, string id, cloudflare.WorkersDeployment.IWorkersDeploymentConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace cloudflare.WorkersDeployment
         /// <param name="importToId">The construct id used in the generated config for the WorkersDeployment to import.</param>
         /// <param name="importFromId">The id of the existing WorkersDeployment that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the WorkersDeployment to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the WorkersDeployment to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/workers_deployment#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing WorkersDeployment that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the WorkersDeployment to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the WorkersDeployment to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/workers_deployment#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing WorkersDeployment that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the WorkersDeployment to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(cloudflare.WorkersDeployment.WorkersDeployment), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -50,6 +50,12 @@ namespace cloudflare.WorkersDeployment
         public virtual void PutAnnotations(cloudflare.WorkersDeployment.IWorkersDeploymentAnnotations @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.WorkersDeployment.IWorkersDeploymentAnnotations)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putCodeUpdateStrategy", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.workersDeployment.WorkersDeploymentCodeUpdateStrategy\"}}]")]
+        public virtual void PutCodeUpdateStrategy(cloudflare.WorkersDeployment.IWorkersDeploymentCodeUpdateStrategy @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.WorkersDeployment.IWorkersDeploymentCodeUpdateStrategy)}, new object[]{@value});
         }
 
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.WorkersDeployment.IWorkersDeploymentVersions" />)[]</param>
@@ -78,6 +84,12 @@ namespace cloudflare.WorkersDeployment
 
         [JsiiMethod(name: "resetAnnotations")]
         public virtual void ResetAnnotations()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCodeUpdateStrategy")]
+        public virtual void ResetCodeUpdateStrategy()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -119,6 +131,12 @@ namespace cloudflare.WorkersDeployment
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "codeUpdateStrategy", typeJson: "{\"fqn\":\"cloudflare.workersDeployment.WorkersDeploymentCodeUpdateStrategyOutputReference\"}")]
+        public virtual cloudflare.WorkersDeployment.WorkersDeploymentCodeUpdateStrategyOutputReference CodeUpdateStrategy
+        {
+            get => GetInstanceProperty<cloudflare.WorkersDeployment.WorkersDeploymentCodeUpdateStrategyOutputReference>()!;
+        }
+
         [JsiiProperty(name: "createdOn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CreatedOn
         {
@@ -156,6 +174,16 @@ namespace cloudflare.WorkersDeployment
         [JsiiOptional]
         [JsiiProperty(name: "annotationsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workersDeployment.WorkersDeploymentAnnotations\"}]}}", isOptional: true)]
         public virtual object? AnnotationsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.WorkersDeployment.IWorkersDeploymentCodeUpdateStrategy" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "codeUpdateStrategyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.workersDeployment.WorkersDeploymentCodeUpdateStrategy\"}]}}", isOptional: true)]
+        public virtual object? CodeUpdateStrategyInput
         {
             get => GetInstanceProperty<object?>();
         }

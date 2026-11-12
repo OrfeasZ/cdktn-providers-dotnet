@@ -83,6 +83,12 @@ namespace cloudflare.DataCloudflareMagicTransitSiteLans
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "remoteSubnets", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareMagicTransitSiteLans.DataCloudflareMagicTransitSiteLansResultRemoteSubnetsList\"}")]
+        public virtual cloudflare.DataCloudflareMagicTransitSiteLans.DataCloudflareMagicTransitSiteLansResultRemoteSubnetsList RemoteSubnets
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareMagicTransitSiteLans.DataCloudflareMagicTransitSiteLansResultRemoteSubnetsList>()!;
+        }
+
         [JsiiProperty(name: "routedSubnets", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareMagicTransitSiteLans.DataCloudflareMagicTransitSiteLansResultRoutedSubnetsList\"}")]
         public virtual cloudflare.DataCloudflareMagicTransitSiteLans.DataCloudflareMagicTransitSiteLansResultRoutedSubnetsList RoutedSubnets
         {

@@ -9,7 +9,7 @@ namespace cloudflare.PagesProject
     {
         /// <summary>Available values: "plain_text", "secret_text".</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#type PagesProject#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/pages_project#type PagesProject#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -17,9 +17,11 @@ namespace cloudflare.PagesProject
             get;
         }
 
-        /// <summary>Environment variable value.</summary>
+        /// <summary>For `type: plain_text`: Environment variable value.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#value PagesProject#value}
+        /// For <c>type: secret_text</c>: Secret value.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/pages_project#value PagesProject#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
@@ -36,7 +38,7 @@ namespace cloudflare.PagesProject
 
             /// <summary>Available values: "plain_text", "secret_text".</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#type PagesProject#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/pages_project#type PagesProject#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -44,9 +46,11 @@ namespace cloudflare.PagesProject
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Environment variable value.</summary>
+            /// <summary>For `type: plain_text`: Environment variable value.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/pages_project#value PagesProject#value}
+            /// For <c>type: secret_text</c>: Secret value.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/pages_project#value PagesProject#value}
             /// </remarks>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value

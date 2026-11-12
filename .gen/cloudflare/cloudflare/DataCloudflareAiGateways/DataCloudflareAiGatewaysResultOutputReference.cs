@@ -77,6 +77,18 @@ namespace cloudflare.DataCloudflareAiGateways
             get => GetInstanceProperty<cloudflare.DataCloudflareAiGateways.DataCloudflareAiGatewaysResultDlpOutputReference>()!;
         }
 
+        [JsiiProperty(name: "fedrampLevel", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string FedrampLevel
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "fedrampMode", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string FedrampMode
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "guardrails", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareAiGateways.DataCloudflareAiGatewaysResultGuardrailsOutputReference\"}")]
         public virtual cloudflare.DataCloudflareAiGateways.DataCloudflareAiGatewaysResultGuardrailsOutputReference Guardrails
         {

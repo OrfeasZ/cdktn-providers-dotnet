@@ -45,20 +45,8 @@ namespace cloudflare.DataCloudflareCustomHostname
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "customCertificate", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string CustomCertificate
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "customCsrId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CustomCsrId
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
-        [JsiiProperty(name: "customKey", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string CustomKey
         {
             get => GetInstanceProperty<string>()!;
         }

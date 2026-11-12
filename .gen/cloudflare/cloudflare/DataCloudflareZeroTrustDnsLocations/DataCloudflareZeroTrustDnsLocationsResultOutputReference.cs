@@ -47,6 +47,12 @@ namespace cloudflare.DataCloudflareZeroTrustDnsLocations
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "dns64Enabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Dns64Enabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "dnsDestinationIpsId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string DnsDestinationIpsId
         {

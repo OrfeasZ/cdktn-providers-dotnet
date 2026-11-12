@@ -47,6 +47,12 @@ namespace cloudflare.DataCloudflareWorkersDeployments
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "codeUpdateStrategy", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareWorkersDeployments.DataCloudflareWorkersDeploymentsResultDeploymentsCodeUpdateStrategyOutputReference\"}")]
+        public virtual cloudflare.DataCloudflareWorkersDeployments.DataCloudflareWorkersDeploymentsResultDeploymentsCodeUpdateStrategyOutputReference CodeUpdateStrategy
+        {
+            get => GetInstanceProperty<cloudflare.DataCloudflareWorkersDeployments.DataCloudflareWorkersDeploymentsResultDeploymentsCodeUpdateStrategyOutputReference>()!;
+        }
+
         [JsiiProperty(name: "createdOn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CreatedOn
         {

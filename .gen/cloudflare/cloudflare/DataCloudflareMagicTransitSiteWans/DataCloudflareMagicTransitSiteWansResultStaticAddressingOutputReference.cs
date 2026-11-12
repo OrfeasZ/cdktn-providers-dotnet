@@ -51,6 +51,12 @@ namespace cloudflare.DataCloudflareMagicTransitSiteWans
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "secondaryGatewayAddress", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SecondaryGatewayAddress
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareMagicTransitSiteWans.DataCloudflareMagicTransitSiteWansResultStaticAddressing\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareMagicTransitSiteWans.IDataCloudflareMagicTransitSiteWansResultStaticAddressing? InternalValue

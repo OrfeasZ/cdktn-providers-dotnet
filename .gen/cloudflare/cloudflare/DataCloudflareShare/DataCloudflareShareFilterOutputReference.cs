@@ -39,6 +39,12 @@ namespace cloudflare.DataCloudflareShare
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetIncludeTagsFrom")]
+        public virtual void ResetIncludeTagsFrom()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetKind")]
         public virtual void ResetKind()
         {
@@ -78,6 +84,13 @@ namespace cloudflare.DataCloudflareShare
         [JsiiOptional]
         [JsiiProperty(name: "directionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? DirectionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "includeTagsFromInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? IncludeTagsFromInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -126,6 +139,13 @@ namespace cloudflare.DataCloudflareShare
 
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Direction
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "includeTagsFrom", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string IncludeTagsFrom
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

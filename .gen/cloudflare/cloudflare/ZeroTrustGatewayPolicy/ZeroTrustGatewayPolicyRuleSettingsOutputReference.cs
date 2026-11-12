@@ -33,12 +33,6 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         {
         }
 
-        [JsiiMethod(name: "putAuditSsh", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsAuditSsh\"}}]")]
-        public virtual void PutAuditSsh(cloudflare.ZeroTrustGatewayPolicy.IZeroTrustGatewayPolicyRuleSettingsAuditSsh @value)
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustGatewayPolicy.IZeroTrustGatewayPolicyRuleSettingsAuditSsh)}, new object[]{@value});
-        }
-
         [JsiiMethod(name: "putBisoAdminControls", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsBisoAdminControls\"}}]")]
         public virtual void PutBisoAdminControls(cloudflare.ZeroTrustGatewayPolicy.IZeroTrustGatewayPolicyRuleSettingsBisoAdminControls @value)
         {
@@ -73,6 +67,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         public virtual void PutForensicCopy(cloudflare.ZeroTrustGatewayPolicy.IZeroTrustGatewayPolicyRuleSettingsForensicCopy @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustGatewayPolicy.IZeroTrustGatewayPolicyRuleSettingsForensicCopy)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putForward", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsForward\"}}]")]
+        public virtual void PutForward(cloudflare.ZeroTrustGatewayPolicy.IZeroTrustGatewayPolicyRuleSettingsForward @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(cloudflare.ZeroTrustGatewayPolicy.IZeroTrustGatewayPolicyRuleSettingsForward)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putL4Override", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsL4Override\"}}]")]
@@ -125,12 +125,6 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         [JsiiMethod(name: "resetAllowChildBypass")]
         public virtual void ResetAllowChildBypass()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetAuditSsh")]
-        public virtual void ResetAuditSsh()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -191,6 +185,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
 
         [JsiiMethod(name: "resetForensicCopy")]
         public virtual void ResetForensicCopy()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetForward")]
+        public virtual void ResetForward()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -285,12 +285,6 @@ namespace cloudflare.ZeroTrustGatewayPolicy
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiProperty(name: "auditSsh", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsAuditSshOutputReference\"}")]
-        public virtual cloudflare.ZeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsAuditSshOutputReference AuditSsh
-        {
-            get => GetInstanceProperty<cloudflare.ZeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsAuditSshOutputReference>()!;
-        }
-
         [JsiiProperty(name: "bisoAdminControls", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsBisoAdminControlsOutputReference\"}")]
         public virtual cloudflare.ZeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsBisoAdminControlsOutputReference BisoAdminControls
         {
@@ -325,6 +319,12 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         public virtual cloudflare.ZeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsForensicCopyOutputReference ForensicCopy
         {
             get => GetInstanceProperty<cloudflare.ZeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsForensicCopyOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "forward", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsForwardOutputReference\"}")]
+        public virtual cloudflare.ZeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsForwardOutputReference Forward
+        {
+            get => GetInstanceProperty<cloudflare.ZeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsForwardOutputReference>()!;
         }
 
         [JsiiProperty(name: "l4Override", typeJson: "{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsL4OverrideOutputReference\"}")]
@@ -385,16 +385,6 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         [JsiiOptional]
         [JsiiProperty(name: "allowChildBypassInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
         public virtual object? AllowChildBypassInput
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
-        /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustGatewayPolicy.IZeroTrustGatewayPolicyRuleSettingsAuditSsh" /></para>
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "auditSshInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsAuditSsh\"}]}}", isOptional: true)]
-        public virtual object? AuditSshInput
         {
             get => GetInstanceProperty<object?>();
         }
@@ -489,6 +479,16 @@ namespace cloudflare.ZeroTrustGatewayPolicy
         [JsiiOptional]
         [JsiiProperty(name: "forensicCopyInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsForensicCopy\"}]}}", isOptional: true)]
         public virtual object? ForensicCopyInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.ZeroTrustGatewayPolicy.IZeroTrustGatewayPolicyRuleSettingsForward" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "forwardInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"cloudflare.zeroTrustGatewayPolicy.ZeroTrustGatewayPolicyRuleSettingsForward\"}]}}", isOptional: true)]
+        public virtual object? ForwardInput
         {
             get => GetInstanceProperty<object?>();
         }

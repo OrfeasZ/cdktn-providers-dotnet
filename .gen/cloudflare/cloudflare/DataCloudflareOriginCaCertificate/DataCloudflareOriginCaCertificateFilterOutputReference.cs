@@ -33,51 +33,11 @@ namespace cloudflare.DataCloudflareOriginCaCertificate
         {
         }
 
-        [JsiiMethod(name: "resetLimit")]
-        public virtual void ResetLimit()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiMethod(name: "resetOffset")]
-        public virtual void ResetOffset()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "limitInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public virtual double? LimitInput
-        {
-            get => GetInstanceProperty<double?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "offsetInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
-        public virtual double? OffsetInput
-        {
-            get => GetInstanceProperty<double?>();
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "zoneIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ZoneIdInput
         {
             get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double Limit
-        {
-            get => GetInstanceProperty<double>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "offset", typeJson: "{\"primitive\":\"number\"}")]
-        public virtual double Offset
-        {
-            get => GetInstanceProperty<double>()!;
-            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]

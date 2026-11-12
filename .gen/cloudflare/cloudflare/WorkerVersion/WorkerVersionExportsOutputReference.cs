@@ -46,6 +46,12 @@ namespace cloudflare.WorkerVersion
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetContainer")]
+        public virtual void ResetContainer()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetRenamedTo")]
         public virtual void ResetRenamedTo()
         {
@@ -93,6 +99,13 @@ namespace cloudflare.WorkerVersion
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "containerInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ContainerInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "renamedToInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? RenamedToInput
         {
@@ -132,6 +145,13 @@ namespace cloudflare.WorkerVersion
         public virtual string? TypeInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "container", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Container
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "renamedTo", typeJson: "{\"primitive\":\"string\"}")]

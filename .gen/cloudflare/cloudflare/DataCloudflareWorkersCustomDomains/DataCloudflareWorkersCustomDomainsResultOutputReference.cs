@@ -41,6 +41,12 @@ namespace cloudflare.DataCloudflareWorkersCustomDomains
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "enabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable Enabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "environment", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Environment
         {
@@ -57,6 +63,12 @@ namespace cloudflare.DataCloudflareWorkersCustomDomains
         public virtual string Id
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "previewsEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable PreviewsEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiProperty(name: "service", typeJson: "{\"primitive\":\"string\"}")]

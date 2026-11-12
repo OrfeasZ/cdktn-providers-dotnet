@@ -113,6 +113,12 @@ namespace cloudflare.DataCloudflareZeroTrustDlpPredefinedProfile
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "validatorIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] ValidatorIds
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "variant", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustDlpPredefinedProfile.DataCloudflareZeroTrustDlpPredefinedProfileEntriesVariantOutputReference\"}")]
         public virtual cloudflare.DataCloudflareZeroTrustDlpPredefinedProfile.DataCloudflareZeroTrustDlpPredefinedProfileEntriesVariantOutputReference Variant
         {

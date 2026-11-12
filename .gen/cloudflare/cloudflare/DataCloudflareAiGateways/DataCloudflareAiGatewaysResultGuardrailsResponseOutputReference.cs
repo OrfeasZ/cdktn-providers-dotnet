@@ -69,6 +69,12 @@ namespace cloudflare.DataCloudflareAiGateways
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "s14", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string S14
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "s2", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string S2
         {

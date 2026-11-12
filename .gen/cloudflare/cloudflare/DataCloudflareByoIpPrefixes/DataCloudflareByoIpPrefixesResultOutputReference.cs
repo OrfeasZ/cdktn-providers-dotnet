@@ -65,6 +65,18 @@ namespace cloudflare.DataCloudflareByoIpPrefixes
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "asnOwnershipValidationState", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AsnOwnershipValidationState
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "aspaValidationState", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string AspaValidationState
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "cidr", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Cidr
         {

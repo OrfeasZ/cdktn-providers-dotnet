@@ -13,7 +13,7 @@ namespace cloudflare.AiSearchInstance
         /// <remarks>
         /// Each entry specifies a metadata field and an optional direction. Direction defaults to 'asc' for numeric/datetime fields and 'exists' for text/boolean fields. Fields must match 'timestamp' or a defined custom_metadata field.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/ai_search_instance#boost_by AiSearchInstance#boost_by}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/ai_search_instance#boost_by AiSearchInstance#boost_by}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="cloudflare.AiSearchInstance.IAiSearchInstanceRetrievalOptionsBoostBy" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -44,12 +44,12 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        /// <summary>Controls which documents are candidates for BM25 scoring.</summary>
+        /// <summary>Controls which documents become candidates for BM25 scoring.</summary>
         /// <remarks>
-        /// 'and' restricts candidates to documents containing all query terms; 'or' includes any document containing at least one term, ranked by BM25 relevance. When omitted on an update, the existing stored value is preserved; when never set, search falls back to 'and'.
+        /// 'and' restricts candidates to documents containing all query terms; 'or' includes any document containing at least one term and ranks results according to BM25 relevance. When omitted on an update, the existing stored value stays unchanged; when never set, search falls back to 'and'.
         /// Available values: "and", "or".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/ai_search_instance#keyword_match_mode AiSearchInstance#keyword_match_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/ai_search_instance#keyword_match_mode AiSearchInstance#keyword_match_mode}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "keywordMatchMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

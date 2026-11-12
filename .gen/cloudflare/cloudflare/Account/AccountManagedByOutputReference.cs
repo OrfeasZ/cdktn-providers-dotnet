@@ -45,6 +45,18 @@ namespace cloudflare.Account
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "rootOrgId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RootOrgId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "shouldDisplayParentOrgs", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable ShouldDisplayParentOrgs
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="cloudflare.Account.IAccountManagedBy" /></para>
         /// </remarks>

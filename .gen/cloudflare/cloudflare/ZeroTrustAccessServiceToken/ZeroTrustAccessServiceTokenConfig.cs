@@ -11,7 +11,7 @@ namespace cloudflare.ZeroTrustAccessServiceToken
     {
         /// <summary>The name of the service token.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_access_service_token#name ZeroTrustAccessServiceToken#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/zero_trust_access_service_token#name ZeroTrustAccessServiceToken#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace cloudflare.ZeroTrustAccessServiceToken
 
         /// <summary>The Account ID to use for this endpoint. Mutually exclusive with the Zone ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_access_service_token#account_id ZeroTrustAccessServiceToken#account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/zero_trust_access_service_token#account_id ZeroTrustAccessServiceToken#account_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,9 +34,9 @@ namespace cloudflare.ZeroTrustAccessServiceToken
 
         /// <summary>A version number identifying the current `client_secret` associated with the service token.</summary>
         /// <remarks>
-        /// Incrementing it triggers a rotation; the previous secret will still be accepted until the time indicated by <c>previous_client_secret_expires_at</c>.
+        /// Incrementing it triggers a rotation; the previous secret will still be accepted until the time indicated by <c>previous_client_secret_expires_at</c>. If the service token was reported as leaked, <c>previous_client_secret_expires_at</c> is not required, may not be in the future, and the previous secret is discarded immediately.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_access_service_token#client_secret_version ZeroTrustAccessServiceToken#client_secret_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/zero_trust_access_service_token#client_secret_version ZeroTrustAccessServiceToken#client_secret_version}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientSecretVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace cloudflare.ZeroTrustAccessServiceToken
         /// <remarks>
         /// Must be in the format <c>300ms</c> or <c>2h45m</c>, or the special value <c>forever</c> for non-expiring tokens. Valid time units are: ns, us (or µs), ms, s, m, h. The default is 1 year in hours (8760h).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_access_service_token#duration ZeroTrustAccessServiceToken#duration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/zero_trust_access_service_token#duration ZeroTrustAccessServiceToken#duration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "duration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -64,9 +64,9 @@ namespace cloudflare.ZeroTrustAccessServiceToken
 
         /// <summary>Whether the service token is enabled.</summary>
         /// <remarks>
-        /// A disabled service token cannot be used to authenticate; both its current and previous <c>client_secret</c> stop being accepted, but the token itself is preserved and can be re-enabled at any time. Defaults to enabled when omitted on create.
+        /// A disabled service token cannot be used to authenticate; both its current and previous <c>client_secret</c> stop being accepted, but the token itself is preserved and can be re-enabled. A service token reported as leaked is disabled automatically and cannot be re-enabled until its secret is rotated; attempting to do so returns a 409. Defaults to enabled when omitted on create.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_access_service_token#enabled ZeroTrustAccessServiceToken#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/zero_trust_access_service_token#enabled ZeroTrustAccessServiceToken#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -99,9 +99,9 @@ namespace cloudflare.ZeroTrustAccessServiceToken
 
         /// <summary>The expiration of the previous `client_secret`.</summary>
         /// <remarks>
-        /// This can be modified at any point after a rotation. For example, you may extend it further into the future if you need more time to update services with the new secret; or move it into the past to immediately invalidate the previous token in case of compromise.
+        /// This can be modified at any point after a rotation. For example, you may extend it further into the future if you need more time to update services with the new secret; or move it into the past to immediately invalidate the previous token in case of compromise. Rotating a service token that was reported as leaked discards the previous secret entirely, so no grace period can be set.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_access_service_token#previous_client_secret_expires_at ZeroTrustAccessServiceToken#previous_client_secret_expires_at}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/zero_trust_access_service_token#previous_client_secret_expires_at ZeroTrustAccessServiceToken#previous_client_secret_expires_at}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "previousClientSecretExpiresAt", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -111,9 +111,21 @@ namespace cloudflare.ZeroTrustAccessServiceToken
             set;
         }
 
+        /// <summary>Tags associated with the service token, as key-value pairs. On update, replaces all existing tags.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/zero_trust_access_service_token#tags ZeroTrustAccessServiceToken#tags}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
+        public System.Collections.Generic.IDictionary<string, string>? Tags
+        {
+            get;
+            set;
+        }
+
         /// <summary>The Zone ID to use for this endpoint. Mutually exclusive with the Account ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zero_trust_access_service_token#zone_id ZeroTrustAccessServiceToken#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/zero_trust_access_service_token#zone_id ZeroTrustAccessServiceToken#zone_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -119,6 +119,12 @@ namespace cloudflare.DataCloudflareZeroTrustDlpIntegrationEntries
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "validatorIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] ValidatorIds
+        {
+            get => GetInstanceProperty<string[]>()!;
+        }
+
         [JsiiProperty(name: "variant", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareZeroTrustDlpIntegrationEntries.DataCloudflareZeroTrustDlpIntegrationEntriesResultVariantOutputReference\"}")]
         public virtual cloudflare.DataCloudflareZeroTrustDlpIntegrationEntries.DataCloudflareZeroTrustDlpIntegrationEntriesResultVariantOutputReference Variant
         {

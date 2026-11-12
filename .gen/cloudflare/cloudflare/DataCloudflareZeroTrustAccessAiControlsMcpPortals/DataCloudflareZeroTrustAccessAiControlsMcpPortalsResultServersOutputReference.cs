@@ -149,6 +149,12 @@ namespace cloudflare.DataCloudflareZeroTrustAccessAiControlsMcpPortals
             get => GetInstanceProperty<Io.Cdktn.StringMapList>()!;
         }
 
+        [JsiiProperty(name: "registeredAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RegisteredAt
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "secureWebGateway", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable SecureWebGateway
         {

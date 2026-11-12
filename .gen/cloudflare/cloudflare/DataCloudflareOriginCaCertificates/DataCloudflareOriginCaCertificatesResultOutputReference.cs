@@ -77,6 +77,12 @@ namespace cloudflare.DataCloudflareOriginCaCertificates
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "revokedAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RevokedAt
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"cloudflare.dataCloudflareOriginCaCertificates.DataCloudflareOriginCaCertificatesResult\"}", isOptional: true)]
         public virtual cloudflare.DataCloudflareOriginCaCertificates.IDataCloudflareOriginCaCertificatesResult? InternalValue

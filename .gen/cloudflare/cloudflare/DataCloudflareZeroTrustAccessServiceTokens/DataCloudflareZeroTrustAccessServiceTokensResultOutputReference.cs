@@ -65,10 +65,34 @@ namespace cloudflare.DataCloudflareZeroTrustAccessServiceTokens
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "leakReportedAt", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LeakReportedAt
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "leakReporter", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LeakReporter
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "leakReportUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string LeakReportUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "tags", typeJson: "{\"fqn\":\"cdktn.StringMap\"}")]
+        public virtual Io.Cdktn.StringMap Tags
+        {
+            get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
         [JsiiOptional]

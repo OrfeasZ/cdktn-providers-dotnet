@@ -33,6 +33,36 @@ namespace cloudflare.Organization
         {
         }
 
+        [JsiiMethod(name: "resetBusinessAddress")]
+        public virtual void ResetBusinessAddress()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetBusinessEmail")]
+        public virtual void ResetBusinessEmail()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetBusinessName")]
+        public virtual void ResetBusinessName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetBusinessPhone")]
+        public virtual void ResetBusinessPhone()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetExternalMetadata")]
+        public virtual void ResetExternalMetadata()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "businessAddressInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? BusinessAddressInput

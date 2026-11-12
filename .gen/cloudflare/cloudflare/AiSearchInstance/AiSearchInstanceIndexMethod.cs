@@ -4,20 +4,19 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace cloudflare.AiSearchInstance
 {
-    #pragma warning disable CS8618
-
     [JsiiByValue(fqn: "cloudflare.aiSearchInstance.AiSearchInstanceIndexMethod")]
     public class AiSearchInstanceIndexMethod : cloudflare.AiSearchInstance.IAiSearchInstanceIndexMethod
     {
-        private object _keyword;
+        private object? _keyword;
 
         /// <summary>Enable keyword (BM25) storage backend.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/ai_search_instance#keyword AiSearchInstance#keyword}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/ai_search_instance#keyword AiSearchInstance#keyword}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
-        [JsiiProperty(name: "keyword", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public object Keyword
+        [JsiiOptional]
+        [JsiiProperty(name: "keyword", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public object? Keyword
         {
             get => _keyword;
             set
@@ -34,7 +33,7 @@ namespace cloudflare.AiSearchInstance
                             // Not enough information to type-check...
                             break;
                         case null:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                            break;
                         default:
                             throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
                     }
@@ -43,15 +42,16 @@ namespace cloudflare.AiSearchInstance
             }
         }
 
-        private object _vector;
+        private object? _vector;
 
         /// <summary>Enable vector (embedding) storage backend.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/ai_search_instance#vector AiSearchInstance#vector}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/ai_search_instance#vector AiSearchInstance#vector}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
-        [JsiiProperty(name: "vector", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
-        public object Vector
+        [JsiiOptional]
+        [JsiiProperty(name: "vector", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public object? Vector
         {
             get => _vector;
             set
@@ -68,7 +68,7 @@ namespace cloudflare.AiSearchInstance
                             // Not enough information to type-check...
                             break;
                         case null:
-                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                            break;
                         default:
                             throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
                     }

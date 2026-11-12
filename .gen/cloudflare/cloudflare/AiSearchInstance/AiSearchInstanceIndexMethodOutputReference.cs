@@ -33,6 +33,18 @@ namespace cloudflare.AiSearchInstance
         {
         }
 
+        [JsiiMethod(name: "resetKeyword")]
+        public virtual void ResetKeyword()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetVector")]
+        public virtual void ResetVector()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

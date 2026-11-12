@@ -35,6 +35,12 @@ namespace cloudflare.DataCloudflareAiSearchInstances
         {
         }
 
+        [JsiiProperty(name: "dataType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string DataType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Direction
         {

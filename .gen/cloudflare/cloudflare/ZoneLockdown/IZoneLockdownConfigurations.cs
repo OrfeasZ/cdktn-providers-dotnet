@@ -7,12 +7,14 @@ namespace cloudflare.ZoneLockdown
     [JsiiInterface(nativeType: typeof(IZoneLockdownConfigurations), fullyQualifiedName: "cloudflare.zoneLockdown.ZoneLockdownConfigurations")]
     public interface IZoneLockdownConfigurations
     {
-        /// <summary>The configuration target.</summary>
+        /// <summary>For `target: ip`: The configuration target.</summary>
         /// <remarks>
         /// You must set the target to <c>ip</c> when specifying an IP address in the Zone Lockdown rule.
+        ///
+        /// For <c>target: ip_range</c>: The configuration target. You must set the target to <c>ip_range</c> when specifying an IP address range in the Zone Lockdown rule.
         /// Available values: "ip", "ip_range".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zone_lockdown#target ZoneLockdown#target}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/zone_lockdown#target ZoneLockdown#target}
         /// </remarks>
         [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -24,9 +26,13 @@ namespace cloudflare.ZoneLockdown
             }
         }
 
-        /// <summary>The IP address to match. This address will be compared to the IP address of incoming requests.</summary>
+        /// <summary>For `target: ip`: The IP address to match.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zone_lockdown#value ZoneLockdown#value}
+        /// This address will be compared to the IP address of incoming requests.
+        ///
+        /// For <c>target: ip_range</c>: The IP address range to match. You can only use prefix lengths <c>/16</c> and <c>/24</c>.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/zone_lockdown#value ZoneLockdown#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,12 +51,14 @@ namespace cloudflare.ZoneLockdown
             {
             }
 
-            /// <summary>The configuration target.</summary>
+            /// <summary>For `target: ip`: The configuration target.</summary>
             /// <remarks>
             /// You must set the target to <c>ip</c> when specifying an IP address in the Zone Lockdown rule.
+            ///
+            /// For <c>target: ip_range</c>: The configuration target. You must set the target to <c>ip_range</c> when specifying an IP address range in the Zone Lockdown rule.
             /// Available values: "ip", "ip_range".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zone_lockdown#target ZoneLockdown#target}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/zone_lockdown#target ZoneLockdown#target}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "target", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -59,9 +67,13 @@ namespace cloudflare.ZoneLockdown
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>The IP address to match. This address will be compared to the IP address of incoming requests.</summary>
+            /// <summary>For `target: ip`: The IP address to match.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/zone_lockdown#value ZoneLockdown#value}
+            /// This address will be compared to the IP address of incoming requests.
+            ///
+            /// For <c>target: ip_range</c>: The IP address range to match. You can only use prefix lengths <c>/16</c> and <c>/24</c>.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/zone_lockdown#value ZoneLockdown#value}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

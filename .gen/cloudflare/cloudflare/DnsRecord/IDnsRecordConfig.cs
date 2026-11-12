@@ -9,7 +9,7 @@ namespace cloudflare.DnsRecord
     {
         /// <summary>DNS record name (or @ for the zone apex) in Punycode.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#name DnsRecord#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#name DnsRecord#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -21,7 +21,7 @@ namespace cloudflare.DnsRecord
         /// <remarks>
         /// Setting to 1 means 'automatic'. Value must be between 60 and 86400, with the minimum reduced to 30 for Enterprise zones.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#ttl DnsRecord#ttl}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#ttl DnsRecord#ttl}
         /// </remarks>
         [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}")]
         double Ttl
@@ -33,7 +33,7 @@ namespace cloudflare.DnsRecord
         /// <remarks>
         /// Available values: "A", "AAAA", "CNAME", "MX", "NS", "OPENPGPKEY", "PTR", "TXT", "CAA", "CERT", "DNSKEY", "DS", "HTTPS", "LOC", "NAPTR", "SMIMEA", "SRV", "SSHFP", "SVCB", "TLSA", "URI".
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#type DnsRecord#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#type DnsRecord#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -43,7 +43,7 @@ namespace cloudflare.DnsRecord
 
         /// <summary>Identifier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#zone_id DnsRecord#zone_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#zone_id DnsRecord#zone_id}
         /// </remarks>
         [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
         string ZoneId
@@ -53,7 +53,7 @@ namespace cloudflare.DnsRecord
 
         /// <summary>Comments or notes about the DNS record. This field has no effect on DNS responses.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#comment DnsRecord#comment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#comment DnsRecord#comment}
         /// </remarks>
         [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -67,7 +67,7 @@ namespace cloudflare.DnsRecord
 
         /// <summary>A valid IPv4 address.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#content DnsRecord#content}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#content DnsRecord#content}
         /// </remarks>
         [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -79,9 +79,33 @@ namespace cloudflare.DnsRecord
             }
         }
 
-        /// <summary>Components of a MX record.</summary>
+        /// <summary>For `type: CAA`: Components of a CAA record.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#data DnsRecord#data}
+        /// For <c>type: CERT</c>: Components of a CERT record.
+        ///
+        /// For <c>type: DNSKEY</c>: Components of a DNSKEY record.
+        ///
+        /// For <c>type: DS</c>: Components of a DS record.
+        ///
+        /// For <c>type: HTTPS</c>: Components of a HTTPS record.
+        ///
+        /// For <c>type: LOC</c>: Components of a LOC record.
+        ///
+        /// For <c>type: NAPTR</c>: Components of a NAPTR record.
+        ///
+        /// For <c>type: SMIMEA</c>: Components of a SMIMEA record.
+        ///
+        /// For <c>type: SRV</c>: Components of a SRV record.
+        ///
+        /// For <c>type: SSHFP</c>: Components of a SSHFP record.
+        ///
+        /// For <c>type: SVCB</c>: Components of a SVCB record.
+        ///
+        /// For <c>type: TLSA</c>: Components of a TLSA record.
+        ///
+        /// For <c>type: URI</c>: Components of a URI record.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#data DnsRecord#data}
         /// </remarks>
         [JsiiProperty(name: "data", typeJson: "{\"fqn\":\"cloudflare.dnsRecord.DnsRecordData\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -95,7 +119,7 @@ namespace cloudflare.DnsRecord
 
         /// <summary>Whether to include shadow metadata in the `meta` field of each record in the response. See [Shadowed records](https://developers.cloudflare.com/dns/manage-dns-records/reference/shadowed-records).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#include_shadow_metadata DnsRecord#include_shadow_metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#include_shadow_metadata DnsRecord#include_shadow_metadata}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "includeShadowMetadata", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -110,7 +134,7 @@ namespace cloudflare.DnsRecord
 
         /// <summary>Required for MX, SRV and URI records; unused by other record types. Records with lower priorities are preferred.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#priority DnsRecord#priority}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#priority DnsRecord#priority}
         /// </remarks>
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -122,9 +146,9 @@ namespace cloudflare.DnsRecord
             }
         }
 
-        /// <summary>Enables private network routing to the origin.</summary>
+        /// <summary>For `type: A` or `type: AAAA`: Enables private network routing to the origin.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#private_routing DnsRecord#private_routing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#private_routing DnsRecord#private_routing}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "privateRouting", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -139,7 +163,7 @@ namespace cloudflare.DnsRecord
 
         /// <summary>Whether the record is receiving the performance and security benefits of Cloudflare.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#proxied DnsRecord#proxied}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#proxied DnsRecord#proxied}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "proxied", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -154,7 +178,7 @@ namespace cloudflare.DnsRecord
 
         /// <summary>Settings for the DNS record.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#settings DnsRecord#settings}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#settings DnsRecord#settings}
         /// </remarks>
         [JsiiProperty(name: "settings", typeJson: "{\"fqn\":\"cloudflare.dnsRecord.DnsRecordSettings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -168,7 +192,7 @@ namespace cloudflare.DnsRecord
 
         /// <summary>Custom tags for the DNS record. This field has no effect on DNS responses.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#tags DnsRecord#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#tags DnsRecord#tags}
         /// </remarks>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -189,7 +213,7 @@ namespace cloudflare.DnsRecord
 
             /// <summary>DNS record name (or @ for the zone apex) in Punycode.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#name DnsRecord#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#name DnsRecord#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -201,7 +225,7 @@ namespace cloudflare.DnsRecord
             /// <remarks>
             /// Setting to 1 means 'automatic'. Value must be between 60 and 86400, with the minimum reduced to 30 for Enterprise zones.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#ttl DnsRecord#ttl}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#ttl DnsRecord#ttl}
             /// </remarks>
             [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"number\"}")]
             public double Ttl
@@ -213,7 +237,7 @@ namespace cloudflare.DnsRecord
             /// <remarks>
             /// Available values: "A", "AAAA", "CNAME", "MX", "NS", "OPENPGPKEY", "PTR", "TXT", "CAA", "CERT", "DNSKEY", "DS", "HTTPS", "LOC", "NAPTR", "SMIMEA", "SRV", "SSHFP", "SVCB", "TLSA", "URI".
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#type DnsRecord#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#type DnsRecord#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -223,7 +247,7 @@ namespace cloudflare.DnsRecord
 
             /// <summary>Identifier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#zone_id DnsRecord#zone_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#zone_id DnsRecord#zone_id}
             /// </remarks>
             [JsiiProperty(name: "zoneId", typeJson: "{\"primitive\":\"string\"}")]
             public string ZoneId
@@ -233,7 +257,7 @@ namespace cloudflare.DnsRecord
 
             /// <summary>Comments or notes about the DNS record. This field has no effect on DNS responses.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#comment DnsRecord#comment}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#comment DnsRecord#comment}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -244,7 +268,7 @@ namespace cloudflare.DnsRecord
 
             /// <summary>A valid IPv4 address.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#content DnsRecord#content}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#content DnsRecord#content}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "content", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -253,9 +277,33 @@ namespace cloudflare.DnsRecord
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Components of a MX record.</summary>
+            /// <summary>For `type: CAA`: Components of a CAA record.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#data DnsRecord#data}
+            /// For <c>type: CERT</c>: Components of a CERT record.
+            ///
+            /// For <c>type: DNSKEY</c>: Components of a DNSKEY record.
+            ///
+            /// For <c>type: DS</c>: Components of a DS record.
+            ///
+            /// For <c>type: HTTPS</c>: Components of a HTTPS record.
+            ///
+            /// For <c>type: LOC</c>: Components of a LOC record.
+            ///
+            /// For <c>type: NAPTR</c>: Components of a NAPTR record.
+            ///
+            /// For <c>type: SMIMEA</c>: Components of a SMIMEA record.
+            ///
+            /// For <c>type: SRV</c>: Components of a SRV record.
+            ///
+            /// For <c>type: SSHFP</c>: Components of a SSHFP record.
+            ///
+            /// For <c>type: SVCB</c>: Components of a SVCB record.
+            ///
+            /// For <c>type: TLSA</c>: Components of a TLSA record.
+            ///
+            /// For <c>type: URI</c>: Components of a URI record.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#data DnsRecord#data}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "data", typeJson: "{\"fqn\":\"cloudflare.dnsRecord.DnsRecordData\"}", isOptional: true)]
@@ -266,7 +314,7 @@ namespace cloudflare.DnsRecord
 
             /// <summary>Whether to include shadow metadata in the `meta` field of each record in the response. See [Shadowed records](https://developers.cloudflare.com/dns/manage-dns-records/reference/shadowed-records).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#include_shadow_metadata DnsRecord#include_shadow_metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#include_shadow_metadata DnsRecord#include_shadow_metadata}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -278,7 +326,7 @@ namespace cloudflare.DnsRecord
 
             /// <summary>Required for MX, SRV and URI records; unused by other record types. Records with lower priorities are preferred.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#priority DnsRecord#priority}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#priority DnsRecord#priority}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -287,9 +335,9 @@ namespace cloudflare.DnsRecord
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Enables private network routing to the origin.</summary>
+            /// <summary>For `type: A` or `type: AAAA`: Enables private network routing to the origin.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#private_routing DnsRecord#private_routing}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#private_routing DnsRecord#private_routing}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -301,7 +349,7 @@ namespace cloudflare.DnsRecord
 
             /// <summary>Whether the record is receiving the performance and security benefits of Cloudflare.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#proxied DnsRecord#proxied}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#proxied DnsRecord#proxied}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -313,7 +361,7 @@ namespace cloudflare.DnsRecord
 
             /// <summary>Settings for the DNS record.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#settings DnsRecord#settings}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#settings DnsRecord#settings}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "settings", typeJson: "{\"fqn\":\"cloudflare.dnsRecord.DnsRecordSettings\"}", isOptional: true)]
@@ -324,7 +372,7 @@ namespace cloudflare.DnsRecord
 
             /// <summary>Custom tags for the DNS record. This field has no effect on DNS responses.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.28.1/docs/resources/dns_record#tags DnsRecord#tags}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudflare/cloudflare/5.29.0/docs/resources/dns_record#tags DnsRecord#tags}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

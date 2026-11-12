@@ -39,6 +39,12 @@ namespace cloudflare.MagicTransitSiteWan
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSecondaryGatewayAddress")]
+        public virtual void ResetSecondaryGatewayAddress()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "addressInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? AddressInput
@@ -60,6 +66,13 @@ namespace cloudflare.MagicTransitSiteWan
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "secondaryGatewayAddressInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SecondaryGatewayAddressInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "address", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Address
         {
@@ -76,6 +89,13 @@ namespace cloudflare.MagicTransitSiteWan
 
         [JsiiProperty(name: "secondaryAddress", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SecondaryAddress
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "secondaryGatewayAddress", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SecondaryGatewayAddress
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

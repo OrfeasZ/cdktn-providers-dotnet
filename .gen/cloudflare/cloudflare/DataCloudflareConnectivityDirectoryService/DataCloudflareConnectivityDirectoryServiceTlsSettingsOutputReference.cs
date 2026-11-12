@@ -33,8 +33,20 @@ namespace cloudflare.DataCloudflareConnectivityDirectoryService
         {
         }
 
+        [JsiiProperty(name: "certificateAuthority", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string CertificateAuthority
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "certVerificationMode", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CertVerificationMode
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "clientCertificate", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ClientCertificate
         {
             get => GetInstanceProperty<string>()!;
         }
