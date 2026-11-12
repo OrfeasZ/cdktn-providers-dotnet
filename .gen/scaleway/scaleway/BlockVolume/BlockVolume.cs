@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace scaleway.BlockVolume
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.91.0/docs/resources/block_volume scaleway_block_volume}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.0/docs/resources/block_volume scaleway_block_volume}.</summary>
     [JsiiClass(nativeType: typeof(scaleway.BlockVolume.BlockVolume), fullyQualifiedName: "scaleway.blockVolume.BlockVolume", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"scaleway.blockVolume.BlockVolumeConfig\"}}]")]
     public class BlockVolume : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.91.0/docs/resources/block_volume scaleway_block_volume} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.0/docs/resources/block_volume scaleway_block_volume} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public BlockVolume(Constructs.Construct scope, string id, scaleway.BlockVolume.IBlockVolumeConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,22 +40,10 @@ namespace scaleway.BlockVolume
         /// <param name="importToId">The construct id used in the generated config for the BlockVolume to import.</param>
         /// <param name="importFromId">The id of the existing BlockVolume that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the BlockVolume to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the BlockVolume to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.91.0/docs/resources/block_volume#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing BlockVolume that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the BlockVolume to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the BlockVolume to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.0/docs/resources/block_volume#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing BlockVolume that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the BlockVolume to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.BlockVolume.BlockVolume), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
-        }
-
-        [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"scaleway.blockVolume.BlockVolumeTimeouts\"}}]")]
-        public virtual void PutTimeouts(scaleway.BlockVolume.IBlockVolumeTimeouts @value)
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{typeof(scaleway.BlockVolume.IBlockVolumeTimeouts)}, new object[]{@value});
-        }
-
-        [JsiiMethod(name: "resetId")]
-        public virtual void ResetId()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetInstanceVolumeId")]
@@ -94,12 +82,6 @@ namespace scaleway.BlockVolume
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
-        [JsiiMethod(name: "resetTimeouts")]
-        public virtual void ResetTimeouts()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
-        }
-
         [JsiiMethod(name: "resetZone")]
         public virtual void ResetZone()
         {
@@ -125,23 +107,16 @@ namespace scaleway.BlockVolume
         }
         = GetStaticProperty<string>(typeof(scaleway.BlockVolume.BlockVolume))!;
 
-        [JsiiProperty(name: "srn", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Srn
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
         {
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.blockVolume.BlockVolumeTimeoutsOutputReference\"}")]
-        public virtual scaleway.BlockVolume.BlockVolumeTimeoutsOutputReference Timeouts
+        [JsiiProperty(name: "srn", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Srn
         {
-            get => GetInstanceProperty<scaleway.BlockVolume.BlockVolumeTimeoutsOutputReference>()!;
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "idInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? IdInput
-        {
-            get => GetInstanceProperty<string?>();
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiOptional]
@@ -193,28 +168,11 @@ namespace scaleway.BlockVolume
             get => GetInstanceProperty<string[]?>();
         }
 
-        /// <remarks>
-        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="scaleway.BlockVolume.IBlockVolumeTimeouts" /></para>
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "timeoutsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"scaleway.blockVolume.BlockVolumeTimeouts\"}]}}", isOptional: true)]
-        public virtual object? TimeoutsInput
-        {
-            get => GetInstanceProperty<object?>();
-        }
-
         [JsiiOptional]
         [JsiiProperty(name: "zoneInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? ZoneInput
         {
             get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Id
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "instanceVolumeId", typeJson: "{\"primitive\":\"string\"}")]
