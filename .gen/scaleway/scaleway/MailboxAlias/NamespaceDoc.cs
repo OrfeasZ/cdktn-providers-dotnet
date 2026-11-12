@@ -5,7 +5,7 @@ namespace scaleway.MailboxAlias
     /// <remarks>
     /// <h1><c>scaleway_mailbox_alias</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.92.0/docs/resources/mailbox_alias"><c>scaleway_mailbox_alias</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/mailbox_alias"><c>scaleway_mailbox_alias</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

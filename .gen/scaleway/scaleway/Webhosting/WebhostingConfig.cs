@@ -11,7 +11,7 @@ namespace scaleway.Webhosting
     {
         /// <summary>The domain name of the hosting.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.0/docs/resources/webhosting#domain Webhosting#domain}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/webhosting#domain Webhosting#domain}
         /// </remarks>
         [JsiiProperty(name: "domain", typeJson: "{\"primitive\":\"string\"}")]
         public string Domain
@@ -22,7 +22,7 @@ namespace scaleway.Webhosting
 
         /// <summary>Contact email of the client for the hosting.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.0/docs/resources/webhosting#email Webhosting#email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/webhosting#email Webhosting#email}
         /// </remarks>
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
         public string Email
@@ -33,7 +33,7 @@ namespace scaleway.Webhosting
 
         /// <summary>The ID of the selected offer for the hosting.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.0/docs/resources/webhosting#offer_id Webhosting#offer_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/webhosting#offer_id Webhosting#offer_id}
         /// </remarks>
         [JsiiProperty(name: "offerId", typeJson: "{\"primitive\":\"string\"}")]
         public string OfferId
@@ -44,7 +44,7 @@ namespace scaleway.Webhosting
 
         /// <summary>IDs of the selected options for the hosting.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.0/docs/resources/webhosting#option_ids Webhosting#option_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/webhosting#option_ids Webhosting#option_ids}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "optionIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace scaleway.Webhosting
 
         /// <summary>The project ID the hosting belongs to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.0/docs/resources/webhosting#project_id Webhosting#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/webhosting#project_id Webhosting#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace scaleway.Webhosting
 
         /// <summary>The region of the hosting.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.0/docs/resources/webhosting#region Webhosting#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/webhosting#region Webhosting#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace scaleway.Webhosting
 
         /// <summary>The tags of the hosting.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.0/docs/resources/webhosting#tags Webhosting#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/webhosting#tags Webhosting#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

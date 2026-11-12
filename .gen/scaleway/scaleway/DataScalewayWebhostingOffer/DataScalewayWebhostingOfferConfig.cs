@@ -9,7 +9,7 @@ namespace scaleway.DataScalewayWebhostingOffer
     {
         /// <summary>Name of the control panel (Cpanel or Plesk).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.0/docs/data-sources/webhosting_offer#control_panel DataScalewayWebhostingOffer#control_panel}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/data-sources/webhosting_offer#control_panel DataScalewayWebhostingOffer#control_panel}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "controlPanel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace scaleway.DataScalewayWebhostingOffer
 
         /// <summary>Exact name of the desired offer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.0/docs/data-sources/webhosting_offer#name DataScalewayWebhostingOffer#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/data-sources/webhosting_offer#name DataScalewayWebhostingOffer#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace scaleway.DataScalewayWebhostingOffer
 
         /// <summary>ID of the desired offer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.0/docs/data-sources/webhosting_offer#offer_id DataScalewayWebhostingOffer#offer_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/data-sources/webhosting_offer#offer_id DataScalewayWebhostingOffer#offer_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "offerId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace scaleway.DataScalewayWebhostingOffer
 
         /// <summary>The region of the offer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.0/docs/data-sources/webhosting_offer#region DataScalewayWebhostingOffer#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/data-sources/webhosting_offer#region DataScalewayWebhostingOffer#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
