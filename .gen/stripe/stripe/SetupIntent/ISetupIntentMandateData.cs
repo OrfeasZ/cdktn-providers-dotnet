@@ -9,7 +9,7 @@ namespace stripe.SetupIntent
     {
         /// <summary>This hash contains details about the customer acceptance of the Mandate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#customer_acceptance SetupIntent#customer_acceptance}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#customer_acceptance SetupIntent#customer_acceptance}
         /// </remarks>
         [JsiiProperty(name: "customerAcceptance", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentMandateDataCustomerAcceptance\"}")]
         stripe.SetupIntent.ISetupIntentMandateDataCustomerAcceptance CustomerAcceptance
@@ -26,7 +26,7 @@ namespace stripe.SetupIntent
 
             /// <summary>This hash contains details about the customer acceptance of the Mandate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#customer_acceptance SetupIntent#customer_acceptance}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#customer_acceptance SetupIntent#customer_acceptance}
             /// </remarks>
             [JsiiProperty(name: "customerAcceptance", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentMandateDataCustomerAcceptance\"}")]
             public stripe.SetupIntent.ISetupIntentMandateDataCustomerAcceptance CustomerAcceptance

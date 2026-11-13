@@ -9,7 +9,7 @@ namespace stripe.Subscription
     {
         /// <summary>Specifies the end of billing period.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#bill_until Subscription#bill_until}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#bill_until Subscription#bill_until}
         /// </remarks>
         [JsiiProperty(name: "billUntil", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionBillingSchedulesBillUntil\"}")]
         stripe.Subscription.ISubscriptionBillingSchedulesBillUntil BillUntil
@@ -19,7 +19,7 @@ namespace stripe.Subscription
 
         /// <summary>Specifies which subscription items the billing schedule applies to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#applies_to Subscription#applies_to}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#applies_to Subscription#applies_to}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Subscription.ISubscriptionBillingSchedulesAppliesTo" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "appliesTo", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.subscription.SubscriptionBillingSchedulesAppliesTo\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace stripe.Subscription
 
         /// <summary>Unique identifier for the billing schedule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#key Subscription#key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#key Subscription#key}
         /// </remarks>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -55,7 +55,7 @@ namespace stripe.Subscription
 
             /// <summary>Specifies the end of billing period.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#bill_until Subscription#bill_until}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#bill_until Subscription#bill_until}
             /// </remarks>
             [JsiiProperty(name: "billUntil", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionBillingSchedulesBillUntil\"}")]
             public stripe.Subscription.ISubscriptionBillingSchedulesBillUntil BillUntil
@@ -65,7 +65,7 @@ namespace stripe.Subscription
 
             /// <summary>Specifies which subscription items the billing schedule applies to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#applies_to Subscription#applies_to}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#applies_to Subscription#applies_to}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Subscription.ISubscriptionBillingSchedulesAppliesTo" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -77,7 +77,7 @@ namespace stripe.Subscription
 
             /// <summary>Unique identifier for the billing schedule.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#key Subscription#key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#key Subscription#key}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

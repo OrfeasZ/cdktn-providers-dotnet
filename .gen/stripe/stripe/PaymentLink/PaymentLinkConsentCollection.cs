@@ -9,7 +9,7 @@ namespace stripe.PaymentLink
     {
         /// <summary>Settings related to the payment method reuse text shown in the Checkout UI.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#payment_method_reuse_agreement PaymentLink#payment_method_reuse_agreement}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#payment_method_reuse_agreement PaymentLink#payment_method_reuse_agreement}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "paymentMethodReuseAgreement", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkConsentCollectionPaymentMethodReuseAgreement\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace stripe.PaymentLink
 
         /// <summary>If set to `auto`, enables the collection of customer consent for promotional communications.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#promotions PaymentLink#promotions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#promotions PaymentLink#promotions}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "promotions", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -35,7 +35,7 @@ namespace stripe.PaymentLink
         /// <remarks>
         /// If set to <c>none</c>, customers won't be shown a checkbox to accept the terms of service.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#terms_of_service PaymentLink#terms_of_service}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#terms_of_service PaymentLink#terms_of_service}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "termsOfService", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

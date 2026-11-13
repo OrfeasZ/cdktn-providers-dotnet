@@ -9,7 +9,7 @@ namespace stripe.PaymentIntent
     {
         /// <summary>Two-letter ISO code representing the country the bank account is located in.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#country PaymentIntent#country}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#country PaymentIntent#country}
         /// </remarks>
         [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}")]
         string Country
@@ -26,7 +26,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Two-letter ISO code representing the country the bank account is located in.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#country PaymentIntent#country}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#country PaymentIntent#country}
             /// </remarks>
             [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}")]
             public string Country

@@ -9,7 +9,7 @@ namespace stripe.PaymentLink
     {
         /// <summary>The connected account receiving the transfer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#destination PaymentLink#destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#destination PaymentLink#destination}
         /// </remarks>
         [JsiiProperty(name: "destination", typeJson: "{\"primitive\":\"string\"}")]
         string Destination
@@ -21,7 +21,7 @@ namespace stripe.PaymentLink
         /// <remarks>
         /// By default, the entire amount is transferred to the destination.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#amount PaymentLink#amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#amount PaymentLink#amount}
         /// </remarks>
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,7 +42,7 @@ namespace stripe.PaymentLink
 
             /// <summary>The connected account receiving the transfer.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#destination PaymentLink#destination}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#destination PaymentLink#destination}
             /// </remarks>
             [JsiiProperty(name: "destination", typeJson: "{\"primitive\":\"string\"}")]
             public string Destination
@@ -54,7 +54,7 @@ namespace stripe.PaymentLink
             /// <remarks>
             /// By default, the entire amount is transferred to the destination.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#amount PaymentLink#amount}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#amount PaymentLink#amount}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

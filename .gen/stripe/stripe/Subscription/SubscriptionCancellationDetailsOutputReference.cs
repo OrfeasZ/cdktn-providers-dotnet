@@ -45,6 +45,12 @@ namespace stripe.Subscription
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetFeedbackOption")]
+        public virtual void ResetFeedbackOption()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiProperty(name: "reason", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Reason
         {
@@ -65,6 +71,13 @@ namespace stripe.Subscription
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "feedbackOptionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? FeedbackOptionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Comment
         {
@@ -74,6 +87,13 @@ namespace stripe.Subscription
 
         [JsiiProperty(name: "feedback", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Feedback
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "feedbackOption", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string FeedbackOption
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

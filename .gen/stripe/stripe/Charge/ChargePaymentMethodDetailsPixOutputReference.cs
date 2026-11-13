@@ -39,6 +39,12 @@ namespace stripe.Charge
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "fingerprint", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Fingerprint
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "mandate", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Mandate
         {

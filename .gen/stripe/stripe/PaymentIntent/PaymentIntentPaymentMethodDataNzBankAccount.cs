@@ -11,7 +11,7 @@ namespace stripe.PaymentIntent
     {
         /// <summary>The account number for the bank account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#account_number PaymentIntent#account_number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#account_number PaymentIntent#account_number}
         /// </remarks>
         [JsiiProperty(name: "accountNumber", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountNumber
@@ -22,7 +22,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>The numeric code for the bank account's bank.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#bank_code PaymentIntent#bank_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#bank_code PaymentIntent#bank_code}
         /// </remarks>
         [JsiiProperty(name: "bankCode", typeJson: "{\"primitive\":\"string\"}")]
         public string BankCode
@@ -33,7 +33,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>The numeric code for the bank account's bank branch.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#branch_code PaymentIntent#branch_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#branch_code PaymentIntent#branch_code}
         /// </remarks>
         [JsiiProperty(name: "branchCode", typeJson: "{\"primitive\":\"string\"}")]
         public string BranchCode
@@ -44,7 +44,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>The suffix of the bank account number.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#suffix PaymentIntent#suffix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#suffix PaymentIntent#suffix}
         /// </remarks>
         [JsiiProperty(name: "suffix", typeJson: "{\"primitive\":\"string\"}")]
         public string Suffix
@@ -57,7 +57,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// Only required if the account holder name is different from the name of the authorized signatory collected in the PaymentMethod’s billing details.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#account_holder_name PaymentIntent#account_holder_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#account_holder_name PaymentIntent#account_holder_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountHolderName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace stripe.PaymentIntent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#reference PaymentIntent#reference}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#reference PaymentIntent#reference}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "reference", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Reference

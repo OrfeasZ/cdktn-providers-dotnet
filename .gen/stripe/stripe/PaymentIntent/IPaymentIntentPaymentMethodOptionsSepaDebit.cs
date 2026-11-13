@@ -7,7 +7,7 @@ namespace stripe.PaymentIntent
     [JsiiInterface(nativeType: typeof(IPaymentIntentPaymentMethodOptionsSepaDebit), fullyQualifiedName: "stripe.paymentIntent.PaymentIntentPaymentMethodOptionsSepaDebit")]
     public interface IPaymentIntentPaymentMethodOptionsSepaDebit
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#mandate_options PaymentIntent#mandate_options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#mandate_options PaymentIntent#mandate_options}.</summary>
         [JsiiProperty(name: "mandateOptions", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsSepaDebitMandateOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsSepaDebitMandateOptions? MandateOptions
@@ -26,7 +26,7 @@ namespace stripe.PaymentIntent
         ///
         /// When processing card payments, Stripe uses <c>setup_future_usage</c> to help you comply with regional legislation and network rules, such as <a href="/strong-customer-authentication">SCA</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
         /// </remarks>
         [JsiiProperty(name: "setupFutureUsage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,7 +42,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// The date must be a string in YYYY-MM-DD format. The date must be in the future and between 3 and 15 calendar days from now.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#target_date PaymentIntent#target_date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#target_date PaymentIntent#target_date}
         /// </remarks>
         [JsiiProperty(name: "targetDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace stripe.PaymentIntent
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#mandate_options PaymentIntent#mandate_options}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#mandate_options PaymentIntent#mandate_options}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mandateOptions", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsSepaDebitMandateOptions\"}", isOptional: true)]
             public stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsSepaDebitMandateOptions? MandateOptions
@@ -77,7 +77,7 @@ namespace stripe.PaymentIntent
             ///
             /// When processing card payments, Stripe uses <c>setup_future_usage</c> to help you comply with regional legislation and network rules, such as <a href="/strong-customer-authentication">SCA</a>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "setupFutureUsage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -90,7 +90,7 @@ namespace stripe.PaymentIntent
             /// <remarks>
             /// The date must be a string in YYYY-MM-DD format. The date must be in the future and between 3 and 15 calendar days from now.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#target_date PaymentIntent#target_date}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#target_date PaymentIntent#target_date}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "targetDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

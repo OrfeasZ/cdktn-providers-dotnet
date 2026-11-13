@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace stripe.Product
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product stripe_product}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/product stripe_product}.</summary>
     [JsiiClass(nativeType: typeof(stripe.Product.Product), fullyQualifiedName: "stripe.product.Product", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"stripe.product.ProductConfig\"}}]")]
     public class Product : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product stripe_product} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/product stripe_product} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public Product(Constructs.Construct scope, string id, stripe.Product.IProductConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace stripe.Product
         /// <param name="importToId">The construct id used in the generated config for the Product to import.</param>
         /// <param name="importFromId">The id of the existing Product that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the Product to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Product to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Product that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Product to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Product to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/product#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Product that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Product to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(stripe.Product.Product), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -118,6 +118,12 @@ namespace stripe.Product
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putTaxDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.product.ProductTaxDetails\"}}]")]
+        public virtual void PutTaxDetails(stripe.Product.IProductTaxDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Product.IProductTaxDetails)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetActive")]
         public virtual void ResetActive()
         {
@@ -132,6 +138,12 @@ namespace stripe.Product
 
         [JsiiMethod(name: "resetDescription")]
         public virtual void ResetDescription()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetId")]
+        public virtual void ResetId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -174,6 +186,12 @@ namespace stripe.Product
 
         [JsiiMethod(name: "resetTaxCode")]
         public virtual void ResetTaxCode()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTaxDetails")]
+        public virtual void ResetTaxDetails()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -233,12 +251,6 @@ namespace stripe.Product
             get => GetInstanceProperty<stripe.Product.ProductDefaultPriceDataList>()!;
         }
 
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Id
-        {
-            get => GetInstanceProperty<string>()!;
-        }
-
         [JsiiProperty(name: "livemode", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable Livemode
         {
@@ -261,6 +273,12 @@ namespace stripe.Product
         public virtual stripe.Product.ProductPackageDimensionsList PackageDimensions
         {
             get => GetInstanceProperty<stripe.Product.ProductPackageDimensionsList>()!;
+        }
+
+        [JsiiProperty(name: "taxDetails", typeJson: "{\"fqn\":\"stripe.product.ProductTaxDetailsOutputReference\"}")]
+        public virtual stripe.Product.ProductTaxDetailsOutputReference TaxDetails
+        {
+            get => GetInstanceProperty<stripe.Product.ProductTaxDetailsOutputReference>()!;
         }
 
         [JsiiProperty(name: "updated", typeJson: "{\"primitive\":\"number\"}")]
@@ -292,6 +310,13 @@ namespace stripe.Product
         [JsiiOptional]
         [JsiiProperty(name: "descriptionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? DescriptionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "idInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? IdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -361,6 +386,16 @@ namespace stripe.Product
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.Product.IProductTaxDetails" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "taxDetailsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.product.ProductTaxDetails\"}]}}", isOptional: true)]
+        public virtual object? TaxDetailsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "typeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? TypeInput
@@ -414,6 +449,13 @@ namespace stripe.Product
 
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Description
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

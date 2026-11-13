@@ -11,7 +11,7 @@ namespace stripe.ShippingRate
     {
         /// <summary>A non-negative integer in cents representing how much to charge.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#amount ShippingRate#amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/shipping_rate#amount ShippingRate#amount}
         /// </remarks>
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}")]
         public double Amount
@@ -22,7 +22,7 @@ namespace stripe.ShippingRate
 
         /// <summary>Key for this entry.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#key ShippingRate#key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/shipping_rate#key ShippingRate#key}
         /// </remarks>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
@@ -33,7 +33,7 @@ namespace stripe.ShippingRate
 
         /// <summary>Specifies whether the rate is considered inclusive of taxes or exclusive of taxes. One of `inclusive`, `exclusive`, or `unspecified`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/shipping_rate#tax_behavior ShippingRate#tax_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/shipping_rate#tax_behavior ShippingRate#tax_behavior}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taxBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace stripe.TreasuryFinancialAccount
     {
         /// <summary>Toggle settings for enabling/disabling the ABA address feature.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/treasury_financial_account#aba TreasuryFinancialAccount#aba}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/treasury_financial_account#aba TreasuryFinancialAccount#aba}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "aba", typeJson: "{\"fqn\":\"stripe.treasuryFinancialAccount.TreasuryFinancialAccountFeaturesFinancialAddressesAba\"}", isOptional: true)]

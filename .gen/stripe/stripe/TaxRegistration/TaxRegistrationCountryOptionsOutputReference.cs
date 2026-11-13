@@ -135,6 +135,12 @@ namespace stripe.TaxRegistration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.TaxRegistration.ITaxRegistrationCountryOptionsBs)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putBw", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsBw\"}}]")]
+        public virtual void PutBw(stripe.TaxRegistration.ITaxRegistrationCountryOptionsBw @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.TaxRegistration.ITaxRegistrationCountryOptionsBw)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putBy", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsBy\"}}]")]
         public virtual void PutBy(stripe.TaxRegistration.ITaxRegistrationCountryOptionsBy @value)
         {
@@ -157,6 +163,12 @@ namespace stripe.TaxRegistration
         public virtual void PutCh(stripe.TaxRegistration.ITaxRegistrationCountryOptionsCh @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.TaxRegistration.ITaxRegistrationCountryOptionsCh)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putCi", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsCi\"}}]")]
+        public virtual void PutCi(stripe.TaxRegistration.ITaxRegistrationCountryOptionsCi @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.TaxRegistration.ITaxRegistrationCountryOptionsCi)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putCl", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsCl\"}}]")]
@@ -265,6 +277,12 @@ namespace stripe.TaxRegistration
         public virtual void PutGe(stripe.TaxRegistration.ITaxRegistrationCountryOptionsGe @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.TaxRegistration.ITaxRegistrationCountryOptionsGe)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putGh", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsGh\"}}]")]
+        public virtual void PutGh(stripe.TaxRegistration.ITaxRegistrationCountryOptionsGh @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.TaxRegistration.ITaxRegistrationCountryOptionsGh)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putGn", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsGn\"}}]")]
@@ -415,6 +433,12 @@ namespace stripe.TaxRegistration
         public virtual void PutMt(stripe.TaxRegistration.ITaxRegistrationCountryOptionsMt @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.TaxRegistration.ITaxRegistrationCountryOptionsMt)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putMu", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsMu\"}}]")]
+        public virtual void PutMu(stripe.TaxRegistration.ITaxRegistrationCountryOptionsMu @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.TaxRegistration.ITaxRegistrationCountryOptionsMu)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putMx", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsMx\"}}]")]
@@ -735,6 +759,12 @@ namespace stripe.TaxRegistration
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetBw")]
+        public virtual void ResetBw()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetBy")]
         public virtual void ResetBy()
         {
@@ -755,6 +785,12 @@ namespace stripe.TaxRegistration
 
         [JsiiMethod(name: "resetCh")]
         public virtual void ResetCh()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCi")]
+        public virtual void ResetCi()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -863,6 +899,12 @@ namespace stripe.TaxRegistration
 
         [JsiiMethod(name: "resetGe")]
         public virtual void ResetGe()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetGh")]
+        public virtual void ResetGh()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -1013,6 +1055,12 @@ namespace stripe.TaxRegistration
 
         [JsiiMethod(name: "resetMt")]
         public virtual void ResetMt()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMu")]
+        public virtual void ResetMu()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -1335,6 +1383,12 @@ namespace stripe.TaxRegistration
             get => GetInstanceProperty<stripe.TaxRegistration.TaxRegistrationCountryOptionsBsOutputReference>()!;
         }
 
+        [JsiiProperty(name: "bw", typeJson: "{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsBwOutputReference\"}")]
+        public virtual stripe.TaxRegistration.TaxRegistrationCountryOptionsBwOutputReference Bw
+        {
+            get => GetInstanceProperty<stripe.TaxRegistration.TaxRegistrationCountryOptionsBwOutputReference>()!;
+        }
+
         [JsiiProperty(name: "by", typeJson: "{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsByOutputReference\"}")]
         public virtual stripe.TaxRegistration.TaxRegistrationCountryOptionsByOutputReference By
         {
@@ -1357,6 +1411,12 @@ namespace stripe.TaxRegistration
         public virtual stripe.TaxRegistration.TaxRegistrationCountryOptionsChOutputReference Ch
         {
             get => GetInstanceProperty<stripe.TaxRegistration.TaxRegistrationCountryOptionsChOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "ci", typeJson: "{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsCiOutputReference\"}")]
+        public virtual stripe.TaxRegistration.TaxRegistrationCountryOptionsCiOutputReference Ci
+        {
+            get => GetInstanceProperty<stripe.TaxRegistration.TaxRegistrationCountryOptionsCiOutputReference>()!;
         }
 
         [JsiiProperty(name: "cl", typeJson: "{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsClOutputReference\"}")]
@@ -1465,6 +1525,12 @@ namespace stripe.TaxRegistration
         public virtual stripe.TaxRegistration.TaxRegistrationCountryOptionsGeOutputReference Ge
         {
             get => GetInstanceProperty<stripe.TaxRegistration.TaxRegistrationCountryOptionsGeOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "gh", typeJson: "{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsGhOutputReference\"}")]
+        public virtual stripe.TaxRegistration.TaxRegistrationCountryOptionsGhOutputReference Gh
+        {
+            get => GetInstanceProperty<stripe.TaxRegistration.TaxRegistrationCountryOptionsGhOutputReference>()!;
         }
 
         [JsiiProperty(name: "gn", typeJson: "{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsGnOutputReference\"}")]
@@ -1621,6 +1687,12 @@ namespace stripe.TaxRegistration
         public virtual stripe.TaxRegistration.TaxRegistrationCountryOptionsMtOutputReference Mt
         {
             get => GetInstanceProperty<stripe.TaxRegistration.TaxRegistrationCountryOptionsMtOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "mu", typeJson: "{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsMuOutputReference\"}")]
+        public virtual stripe.TaxRegistration.TaxRegistrationCountryOptionsMuOutputReference Mu
+        {
+            get => GetInstanceProperty<stripe.TaxRegistration.TaxRegistrationCountryOptionsMuOutputReference>()!;
         }
 
         [JsiiProperty(name: "mx", typeJson: "{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsMxOutputReference\"}")]
@@ -2010,6 +2082,16 @@ namespace stripe.TaxRegistration
         }
 
         /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.TaxRegistration.ITaxRegistrationCountryOptionsBw" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "bwInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsBw\"}]}}", isOptional: true)]
+        public virtual object? BwInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.TaxRegistration.ITaxRegistrationCountryOptionsBy" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -2045,6 +2127,16 @@ namespace stripe.TaxRegistration
         [JsiiOptional]
         [JsiiProperty(name: "chInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsCh\"}]}}", isOptional: true)]
         public virtual object? ChInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.TaxRegistration.ITaxRegistrationCountryOptionsCi" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "ciInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsCi\"}]}}", isOptional: true)]
+        public virtual object? CiInput
         {
             get => GetInstanceProperty<object?>();
         }
@@ -2225,6 +2317,16 @@ namespace stripe.TaxRegistration
         [JsiiOptional]
         [JsiiProperty(name: "geInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsGe\"}]}}", isOptional: true)]
         public virtual object? GeInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.TaxRegistration.ITaxRegistrationCountryOptionsGh" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "ghInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsGh\"}]}}", isOptional: true)]
+        public virtual object? GhInput
         {
             get => GetInstanceProperty<object?>();
         }
@@ -2475,6 +2577,16 @@ namespace stripe.TaxRegistration
         [JsiiOptional]
         [JsiiProperty(name: "mtInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsMt\"}]}}", isOptional: true)]
         public virtual object? MtInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.TaxRegistration.ITaxRegistrationCountryOptionsMu" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "muInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsMu\"}]}}", isOptional: true)]
+        public virtual object? MuInput
         {
             get => GetInstanceProperty<object?>();
         }

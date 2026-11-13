@@ -11,7 +11,7 @@ namespace stripe.SetupIntent
         /// <remarks>
         /// You can use a value across your customer base, or segment based on customer type, country, etc.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#average_amount SetupIntent#average_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#average_amount SetupIntent#average_amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "averageAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -25,7 +25,7 @@ namespace stripe.SetupIntent
         /// <remarks>
         /// You can use a value across your customer base, or segment based on customer type, country, etc.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#maximum_amount SetupIntent#maximum_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#maximum_amount SetupIntent#maximum_amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maximumAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace stripe.SetupIntent
         /// <remarks>
         /// You can use a value across your customer base, or segment based on customer type, country, etc.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#minimum_amount SetupIntent#minimum_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#minimum_amount SetupIntent#minimum_amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minimumAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace stripe.SetupIntent
 
         /// <summary>Interval at which the customer is making purchases.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#purchase_interval SetupIntent#purchase_interval}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#purchase_interval SetupIntent#purchase_interval}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "purchaseInterval", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -63,7 +63,7 @@ namespace stripe.SetupIntent
 
         /// <summary>The number of `purchase_interval` between charges.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#purchase_interval_count SetupIntent#purchase_interval_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#purchase_interval_count SetupIntent#purchase_interval_count}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "purchaseIntervalCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

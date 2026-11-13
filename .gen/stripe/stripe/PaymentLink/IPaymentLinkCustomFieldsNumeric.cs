@@ -9,7 +9,7 @@ namespace stripe.PaymentLink
     {
         /// <summary>The value that pre-fills the field on the payment page.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#default_value PaymentLink#default_value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#default_value PaymentLink#default_value}
         /// </remarks>
         [JsiiProperty(name: "defaultValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace stripe.PaymentLink
 
         /// <summary>The maximum character length constraint for the customer's input.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#maximum_length PaymentLink#maximum_length}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#maximum_length PaymentLink#maximum_length}
         /// </remarks>
         [JsiiProperty(name: "maximumLength", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace stripe.PaymentLink
 
         /// <summary>The minimum character length requirement for the customer's input.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#minimum_length PaymentLink#minimum_length}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#minimum_length PaymentLink#minimum_length}
         /// </remarks>
         [JsiiProperty(name: "minimumLength", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace stripe.PaymentLink
 
             /// <summary>The value that pre-fills the field on the payment page.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#default_value PaymentLink#default_value}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#default_value PaymentLink#default_value}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "defaultValue", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace stripe.PaymentLink
 
             /// <summary>The maximum character length constraint for the customer's input.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#maximum_length PaymentLink#maximum_length}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#maximum_length PaymentLink#maximum_length}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maximumLength", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace stripe.PaymentLink
 
             /// <summary>The minimum character length requirement for the customer's input.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#minimum_length PaymentLink#minimum_length}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#minimum_length PaymentLink#minimum_length}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "minimumLength", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

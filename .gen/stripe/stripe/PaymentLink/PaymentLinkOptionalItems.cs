@@ -9,7 +9,7 @@ namespace stripe.PaymentLink
     [JsiiByValue(fqn: "stripe.paymentLink.PaymentLinkOptionalItems")]
     public class PaymentLinkOptionalItems : stripe.PaymentLink.IPaymentLinkOptionalItems
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#price PaymentLink#price}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#price PaymentLink#price}.</summary>
         [JsiiProperty(name: "price", typeJson: "{\"primitive\":\"string\"}")]
         public string Price
         {
@@ -17,7 +17,7 @@ namespace stripe.PaymentLink
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#quantity PaymentLink#quantity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#quantity PaymentLink#quantity}.</summary>
         [JsiiProperty(name: "quantity", typeJson: "{\"primitive\":\"number\"}")]
         public double Quantity
         {
@@ -25,7 +25,7 @@ namespace stripe.PaymentLink
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#adjustable_quantity PaymentLink#adjustable_quantity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#adjustable_quantity PaymentLink#adjustable_quantity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "adjustableQuantity", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkOptionalItemsAdjustableQuantity\"}", isOptional: true)]
         public stripe.PaymentLink.IPaymentLinkOptionalItemsAdjustableQuantity? AdjustableQuantity

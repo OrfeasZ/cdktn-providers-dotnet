@@ -7,9 +7,9 @@ namespace stripe.TaxRegistration
     [JsiiInterface(nativeType: typeof(ITaxRegistrationCountryOptionsEs), fullyQualifiedName: "stripe.taxRegistration.TaxRegistrationCountryOptionsEs")]
     public interface ITaxRegistrationCountryOptionsEs
     {
-        /// <summary>Type of registration in an EU country.</summary>
+        /// <summary>Type of registration in ES.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_registration#type TaxRegistration#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/tax_registration#type TaxRegistration#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -17,7 +17,7 @@ namespace stripe.TaxRegistration
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_registration#standard TaxRegistration#standard}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/tax_registration#standard TaxRegistration#standard}.</summary>
         [JsiiProperty(name: "standard", typeJson: "{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsEsStandard\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.TaxRegistration.ITaxRegistrationCountryOptionsEsStandard? Standard
@@ -35,9 +35,9 @@ namespace stripe.TaxRegistration
             {
             }
 
-            /// <summary>Type of registration in an EU country.</summary>
+            /// <summary>Type of registration in ES.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_registration#type TaxRegistration#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/tax_registration#type TaxRegistration#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -45,7 +45,7 @@ namespace stripe.TaxRegistration
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_registration#standard TaxRegistration#standard}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/tax_registration#standard TaxRegistration#standard}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "standard", typeJson: "{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsEsStandard\"}", isOptional: true)]
             public stripe.TaxRegistration.ITaxRegistrationCountryOptionsEsStandard? Standard

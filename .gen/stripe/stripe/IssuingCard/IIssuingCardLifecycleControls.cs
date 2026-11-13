@@ -7,7 +7,7 @@ namespace stripe.IssuingCard
     [JsiiInterface(nativeType: typeof(IIssuingCardLifecycleControls), fullyQualifiedName: "stripe.issuingCard.IssuingCardLifecycleControls")]
     public interface IIssuingCardLifecycleControls
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#cancel_after IssuingCard#cancel_after}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#cancel_after IssuingCard#cancel_after}.</summary>
         [JsiiProperty(name: "cancelAfter", typeJson: "{\"fqn\":\"stripe.issuingCard.IssuingCardLifecycleControlsCancelAfter\"}")]
         stripe.IssuingCard.IIssuingCardLifecycleControlsCancelAfter CancelAfter
         {
@@ -21,7 +21,7 @@ namespace stripe.IssuingCard
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#cancel_after IssuingCard#cancel_after}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#cancel_after IssuingCard#cancel_after}.</summary>
             [JsiiProperty(name: "cancelAfter", typeJson: "{\"fqn\":\"stripe.issuingCard.IssuingCardLifecycleControlsCancelAfter\"}")]
             public stripe.IssuingCard.IIssuingCardLifecycleControlsCancelAfter CancelAfter
             {

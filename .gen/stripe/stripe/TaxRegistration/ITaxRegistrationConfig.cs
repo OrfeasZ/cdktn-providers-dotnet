@@ -9,7 +9,7 @@ namespace stripe.TaxRegistration
     {
         /// <summary>Time at which the registration becomes active. Measured in seconds since the Unix epoch.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_registration#active_from TaxRegistration#active_from}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/tax_registration#active_from TaxRegistration#active_from}
         /// </remarks>
         [JsiiProperty(name: "activeFrom", typeJson: "{\"primitive\":\"number\"}")]
         double ActiveFrom
@@ -19,7 +19,7 @@ namespace stripe.TaxRegistration
 
         /// <summary>Two-letter country code ([ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_registration#country TaxRegistration#country}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/tax_registration#country TaxRegistration#country}
         /// </remarks>
         [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}")]
         string Country
@@ -27,7 +27,7 @@ namespace stripe.TaxRegistration
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_registration#country_options TaxRegistration#country_options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/tax_registration#country_options TaxRegistration#country_options}.</summary>
         [JsiiProperty(name: "countryOptions", typeJson: "{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptions\"}")]
         stripe.TaxRegistration.ITaxRegistrationCountryOptions CountryOptions
         {
@@ -38,7 +38,7 @@ namespace stripe.TaxRegistration
         /// <remarks>
         /// If not set, the registration will be active indefinitely. Measured in seconds since the Unix epoch.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_registration#expires_at TaxRegistration#expires_at}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/tax_registration#expires_at TaxRegistration#expires_at}
         /// </remarks>
         [JsiiProperty(name: "expiresAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace stripe.TaxRegistration
 
             /// <summary>Time at which the registration becomes active. Measured in seconds since the Unix epoch.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_registration#active_from TaxRegistration#active_from}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/tax_registration#active_from TaxRegistration#active_from}
             /// </remarks>
             [JsiiProperty(name: "activeFrom", typeJson: "{\"primitive\":\"number\"}")]
             public double ActiveFrom
@@ -69,7 +69,7 @@ namespace stripe.TaxRegistration
 
             /// <summary>Two-letter country code ([ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_registration#country TaxRegistration#country}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/tax_registration#country TaxRegistration#country}
             /// </remarks>
             [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}")]
             public string Country
@@ -77,7 +77,7 @@ namespace stripe.TaxRegistration
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_registration#country_options TaxRegistration#country_options}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/tax_registration#country_options TaxRegistration#country_options}.</summary>
             [JsiiProperty(name: "countryOptions", typeJson: "{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptions\"}")]
             public stripe.TaxRegistration.ITaxRegistrationCountryOptions CountryOptions
             {
@@ -88,7 +88,7 @@ namespace stripe.TaxRegistration
             /// <remarks>
             /// If not set, the registration will be active indefinitely. Measured in seconds since the Unix epoch.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_registration#expires_at TaxRegistration#expires_at}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/tax_registration#expires_at TaxRegistration#expires_at}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "expiresAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace stripe.TaxRegistration
     {
         /// <summary>Place of supply scheme used in an EU standard registration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_registration#place_of_supply_scheme TaxRegistration#place_of_supply_scheme}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/tax_registration#place_of_supply_scheme TaxRegistration#place_of_supply_scheme}
         /// </remarks>
         [JsiiProperty(name: "placeOfSupplyScheme", typeJson: "{\"primitive\":\"string\"}")]
         public string PlaceOfSupplyScheme

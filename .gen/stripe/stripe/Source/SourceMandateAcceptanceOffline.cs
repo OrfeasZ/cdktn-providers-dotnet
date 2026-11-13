@@ -11,7 +11,7 @@ namespace stripe.Source
     {
         /// <summary>An email to contact you with if a copy of the mandate is requested, required if `type` is `offline`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/source#contact_email Source#contact_email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/source#contact_email Source#contact_email}
         /// </remarks>
         [JsiiProperty(name: "contactEmail", typeJson: "{\"primitive\":\"string\"}")]
         public string ContactEmail

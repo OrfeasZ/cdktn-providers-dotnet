@@ -11,7 +11,7 @@ namespace stripe.Charge
         /// <remarks>
         /// A positive integer representing how much to charge in the <a href="https://docs.stripe.com/currencies#zero-decimal">smallest currency unit</a> (e.g., 100 cents to charge $1.00 or 100 to charge ¥100, a zero-decimal currency). The minimum amount is $0.50 US or <a href="https://docs.stripe.com/currencies#minimum-and-maximum-charge-amounts">equivalent in charge currency</a>. The amount value supports up to eight digits (e.g., a value of 99999999 for a USD charge of $999,999.99).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#amount Charge#amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#amount Charge#amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace stripe.Charge
 
         /// <summary>The application fee (if any) for the charge. [See the Connect documentation](https://docs.stripe.com/connect/direct-charges#collect-fees) for details.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#application_fee Charge#application_fee}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#application_fee Charge#application_fee}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "applicationFee", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -35,7 +35,7 @@ namespace stripe.Charge
 
         /// <summary>The amount of the application fee (if any) requested for the charge. [See the Connect documentation](https://docs.stripe.com/connect/direct-charges#collect-fees) for details.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#application_fee_amount Charge#application_fee_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#application_fee_amount Charge#application_fee_amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "applicationFeeAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -49,9 +49,9 @@ namespace stripe.Charge
 
         /// <summary>Whether to immediately capture the charge.</summary>
         /// <remarks>
-        /// Defaults to <c>true</c>. When <c>false</c>, the charge issues an authorization (or pre-authorization), and will need to be <a href="https://api.stripe.com#capture_charge">captured</a> later. Uncaptured charges expire after a set number of days (7 by default). For more information, see the <a href="https://docs.stripe.com/charges/placing-a-hold">authorizing charges and settling later</a> documentation.
+        /// Defaults to <c>true</c>. When <c>false</c>, the charge issues an authorization (or pre-authorization), and will need to be <a href="https://docs.stripe.com/api#capture_charge">captured</a> later. Uncaptured charges expire after a set number of days (7 by default). For more information, see the <a href="https://docs.stripe.com/charges/placing-a-hold">authorizing charges and settling later</a> documentation.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#capture Charge#capture}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#capture Charge#capture}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -84,7 +84,7 @@ namespace stripe.Charge
 
         /// <summary>Three-letter [ISO currency code](https://www.iso.org/iso-4217-currency-codes.html), in lowercase. Must be a [supported currency](https://stripe.com/docs/currencies).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#currency Charge#currency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#currency Charge#currency}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace stripe.Charge
 
         /// <summary>ID of the customer this charge is for if one exists.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#customer Charge#customer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#customer Charge#customer}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -108,7 +108,7 @@ namespace stripe.Charge
 
         /// <summary>An arbitrary string attached to the object. Often useful for displaying to users.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#description Charge#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#description Charge#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -118,7 +118,7 @@ namespace stripe.Charge
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#destination Charge#destination}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#destination Charge#destination}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "destination", typeJson: "{\"fqn\":\"stripe.charge.ChargeDestination\"}", isOptional: true)]
         public stripe.Charge.IChargeDestination? Destination
@@ -129,7 +129,7 @@ namespace stripe.Charge
 
         /// <summary>Information on fraud assessments for the charge.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#fraud_details Charge#fraud_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#fraud_details Charge#fraud_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fraudDetails", typeJson: "{\"fqn\":\"stripe.charge.ChargeFraudDetails\"}", isOptional: true)]
@@ -141,7 +141,7 @@ namespace stripe.Charge
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#metadata Charge#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#metadata Charge#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -155,7 +155,7 @@ namespace stripe.Charge
         /// <remarks>
         /// See the <a href="https://docs.stripe.com/connect/separate-charges-and-transfers">Connect documentation</a> for details.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#on_behalf_of Charge#on_behalf_of}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#on_behalf_of Charge#on_behalf_of}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "onBehalfOf", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -167,7 +167,7 @@ namespace stripe.Charge
 
         /// <summary>Options to configure Radar. See [Radar Session](https://docs.stripe.com/radar/radar-session) for more information.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#radar_options Charge#radar_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#radar_options Charge#radar_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "radarOptions", typeJson: "{\"fqn\":\"stripe.charge.ChargeRadarOptions\"}", isOptional: true)]
@@ -179,7 +179,7 @@ namespace stripe.Charge
 
         /// <summary>This is the email address that the receipt for this charge was sent to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#receipt_email Charge#receipt_email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#receipt_email Charge#receipt_email}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "receiptEmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -191,7 +191,7 @@ namespace stripe.Charge
 
         /// <summary>Shipping information for the charge.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#shipping Charge#shipping}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#shipping Charge#shipping}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shipping", typeJson: "{\"fqn\":\"stripe.charge.ChargeShipping\"}", isOptional: true)]
@@ -205,7 +205,7 @@ namespace stripe.Charge
         /// <remarks>
         /// It contains the Source, Card, or BankAccount object used for the charge. For details about the payment method used for this charge, refer to <c>payment_method</c> or <c>payment_method_details</c> instead.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#source Charge#source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#source Charge#source}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -221,7 +221,7 @@ namespace stripe.Charge
         ///
         /// For a card charge, this value is ignored unless you don't specify a <c>statement_descriptor_suffix</c>, in which case this value is used as the suffix.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#statement_descriptor Charge#statement_descriptor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#statement_descriptor Charge#statement_descriptor}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "statementDescriptor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -235,7 +235,7 @@ namespace stripe.Charge
         /// <remarks>
         /// Concatenated to the account's <a href="https://docs.stripe.com/get-started/account/statement-descriptors#static">statement descriptor prefix</a> to form the complete statement descriptor that appears on the customer's statement. If the account has no prefix value, the suffix is concatenated to the account's statement descriptor.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#statement_descriptor_suffix Charge#statement_descriptor_suffix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#statement_descriptor_suffix Charge#statement_descriptor_suffix}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "statementDescriptorSuffix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -249,7 +249,7 @@ namespace stripe.Charge
         /// <remarks>
         /// <a href="https://docs.stripe.com/connect/destination-charges">See the Connect documentation</a> for details.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#transfer_data Charge#transfer_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#transfer_data Charge#transfer_data}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transferData", typeJson: "{\"fqn\":\"stripe.charge.ChargeTransferData\"}", isOptional: true)]
@@ -261,7 +261,7 @@ namespace stripe.Charge
 
         /// <summary>A string that identifies this transaction as part of a group. See the [Connect documentation](https://docs.stripe.com/connect/separate-charges-and-transfers#transfer-options) for details.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#transfer_group Charge#transfer_group}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#transfer_group Charge#transfer_group}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transferGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

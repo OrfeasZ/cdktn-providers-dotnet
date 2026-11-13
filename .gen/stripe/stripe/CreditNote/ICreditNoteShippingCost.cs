@@ -9,7 +9,7 @@ namespace stripe.CreditNote
     {
         /// <summary>The ID of the ShippingRate for this invoice.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/credit_note#shipping_rate CreditNote#shipping_rate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/credit_note#shipping_rate CreditNote#shipping_rate}
         /// </remarks>
         [JsiiProperty(name: "shippingRate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace stripe.CreditNote
 
             /// <summary>The ID of the ShippingRate for this invoice.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/credit_note#shipping_rate CreditNote#shipping_rate}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/credit_note#shipping_rate CreditNote#shipping_rate}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "shippingRate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

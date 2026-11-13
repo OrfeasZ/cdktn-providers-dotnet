@@ -11,7 +11,7 @@ namespace stripe.Invoice
     {
         /// <summary>The desired country code of the bank account information. Permitted values include: `DE`, `FR`, `IE`, or `NL`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#country Invoice#country}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#country Invoice#country}
         /// </remarks>
         [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}")]
         public string Country

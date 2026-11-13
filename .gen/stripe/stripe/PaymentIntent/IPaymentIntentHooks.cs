@@ -7,7 +7,7 @@ namespace stripe.PaymentIntent
     [JsiiInterface(nativeType: typeof(IPaymentIntentHooks), fullyQualifiedName: "stripe.paymentIntent.PaymentIntentHooks")]
     public interface IPaymentIntentHooks
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#inputs PaymentIntent#inputs}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#inputs PaymentIntent#inputs}.</summary>
         [JsiiProperty(name: "inputs", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentHooksInputs\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentIntent.IPaymentIntentHooksInputs? Inputs
@@ -25,7 +25,7 @@ namespace stripe.PaymentIntent
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#inputs PaymentIntent#inputs}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#inputs PaymentIntent#inputs}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "inputs", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentHooksInputs\"}", isOptional: true)]
             public stripe.PaymentIntent.IPaymentIntentHooksInputs? Inputs

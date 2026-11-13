@@ -11,7 +11,7 @@ namespace stripe.Subscription
     {
         /// <summary>Describes how the billing schedule will determine the end date. Either `duration` or `timestamp`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#type Subscription#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#type Subscription#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -22,7 +22,7 @@ namespace stripe.Subscription
 
         /// <summary>Specifies the billing period.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#duration Subscription#duration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#duration Subscription#duration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "duration", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionBillingSchedulesBillUntilDuration\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace stripe.Subscription
 
         /// <summary>If specified, the billing schedule will apply until the specified timestamp.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#timestamp Subscription#timestamp}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#timestamp Subscription#timestamp}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timestamp", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

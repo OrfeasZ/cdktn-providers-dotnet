@@ -11,7 +11,7 @@ namespace stripe.Invoice
     {
         /// <summary>ID of an existing, connected Stripe account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#destination Invoice#destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#destination Invoice#destination}
         /// </remarks>
         [JsiiProperty(name: "destination", typeJson: "{\"primitive\":\"string\"}")]
         public string Destination
@@ -24,7 +24,7 @@ namespace stripe.Invoice
         /// <remarks>
         /// If no amount is set, the full amount is transferred.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#amount Invoice#amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#amount Invoice#amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

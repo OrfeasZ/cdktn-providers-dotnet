@@ -11,7 +11,7 @@ namespace stripe.PaymentLink
         /// <remarks>
         /// Must be unique to this field, alphanumeric, and up to 200 characters.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#key PaymentLink#key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#key PaymentLink#key}
         /// </remarks>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         string Key
@@ -19,7 +19,7 @@ namespace stripe.PaymentLink
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#label PaymentLink#label}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#label PaymentLink#label}.</summary>
         [JsiiProperty(name: "label", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkCustomFieldsLabel\"}")]
         stripe.PaymentLink.IPaymentLinkCustomFieldsLabel Label
         {
@@ -28,7 +28,7 @@ namespace stripe.PaymentLink
 
         /// <summary>The type of the field.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#type PaymentLink#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#type PaymentLink#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -36,7 +36,7 @@ namespace stripe.PaymentLink
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#dropdown PaymentLink#dropdown}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#dropdown PaymentLink#dropdown}.</summary>
         [JsiiProperty(name: "dropdown", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkCustomFieldsDropdown\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentLink.IPaymentLinkCustomFieldsDropdown? Dropdown
@@ -47,7 +47,7 @@ namespace stripe.PaymentLink
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#numeric PaymentLink#numeric}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#numeric PaymentLink#numeric}.</summary>
         [JsiiProperty(name: "numeric", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkCustomFieldsNumeric\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentLink.IPaymentLinkCustomFieldsNumeric? Numeric
@@ -60,7 +60,7 @@ namespace stripe.PaymentLink
 
         /// <summary>Whether the customer is required to complete the field before completing the Checkout Session. Defaults to `false`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#optional PaymentLink#optional}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#optional PaymentLink#optional}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "optional", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -73,7 +73,7 @@ namespace stripe.PaymentLink
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#text PaymentLink#text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#text PaymentLink#text}.</summary>
         [JsiiProperty(name: "text", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkCustomFieldsText\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentLink.IPaymentLinkCustomFieldsText? Text
@@ -95,7 +95,7 @@ namespace stripe.PaymentLink
             /// <remarks>
             /// Must be unique to this field, alphanumeric, and up to 200 characters.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#key PaymentLink#key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#key PaymentLink#key}
             /// </remarks>
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
             public string Key
@@ -103,7 +103,7 @@ namespace stripe.PaymentLink
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#label PaymentLink#label}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#label PaymentLink#label}.</summary>
             [JsiiProperty(name: "label", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkCustomFieldsLabel\"}")]
             public stripe.PaymentLink.IPaymentLinkCustomFieldsLabel Label
             {
@@ -112,7 +112,7 @@ namespace stripe.PaymentLink
 
             /// <summary>The type of the field.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#type PaymentLink#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#type PaymentLink#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -120,7 +120,7 @@ namespace stripe.PaymentLink
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#dropdown PaymentLink#dropdown}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#dropdown PaymentLink#dropdown}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "dropdown", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkCustomFieldsDropdown\"}", isOptional: true)]
             public stripe.PaymentLink.IPaymentLinkCustomFieldsDropdown? Dropdown
@@ -128,7 +128,7 @@ namespace stripe.PaymentLink
                 get => GetInstanceProperty<stripe.PaymentLink.IPaymentLinkCustomFieldsDropdown?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#numeric PaymentLink#numeric}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#numeric PaymentLink#numeric}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "numeric", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkCustomFieldsNumeric\"}", isOptional: true)]
             public stripe.PaymentLink.IPaymentLinkCustomFieldsNumeric? Numeric
@@ -138,7 +138,7 @@ namespace stripe.PaymentLink
 
             /// <summary>Whether the customer is required to complete the field before completing the Checkout Session. Defaults to `false`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#optional PaymentLink#optional}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#optional PaymentLink#optional}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -148,7 +148,7 @@ namespace stripe.PaymentLink
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#text PaymentLink#text}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#text PaymentLink#text}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "text", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkCustomFieldsText\"}", isOptional: true)]
             public stripe.PaymentLink.IPaymentLinkCustomFieldsText? Text

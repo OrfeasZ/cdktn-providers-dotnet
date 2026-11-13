@@ -9,7 +9,7 @@ namespace stripe.SubscriptionItem
     {
         /// <summary>The `subscription` this `subscription_item` belongs to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#subscription SubscriptionItem#subscription}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#subscription SubscriptionItem#subscription}
         /// </remarks>
         [JsiiProperty(name: "subscription", typeJson: "{\"primitive\":\"string\"}")]
         string Subscription
@@ -19,7 +19,7 @@ namespace stripe.SubscriptionItem
 
         /// <summary>Define thresholds at which an invoice will be sent, and the related subscription advanced to a new billing period.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#billing_thresholds SubscriptionItem#billing_thresholds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#billing_thresholds SubscriptionItem#billing_thresholds}
         /// </remarks>
         [JsiiProperty(name: "billingThresholds", typeJson: "{\"fqn\":\"stripe.subscriptionItem.SubscriptionItemBillingThresholds\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -31,11 +31,25 @@ namespace stripe.SubscriptionItem
             }
         }
 
+        /// <summary>The current trial that is applied to this subscription item.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#current_trial SubscriptionItem#current_trial}
+        /// </remarks>
+        [JsiiProperty(name: "currentTrial", typeJson: "{\"fqn\":\"stripe.subscriptionItem.SubscriptionItemCurrentTrial\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        stripe.SubscriptionItem.ISubscriptionItemCurrentTrial? CurrentTrial
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>The discounts applied to the subscription item.</summary>
         /// <remarks>
         /// Subscription item discounts are applied before subscription discounts. Use <c>expand[]=discounts</c> to expand each discount.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#discounts SubscriptionItem#discounts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#discounts SubscriptionItem#discounts}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.SubscriptionItem.ISubscriptionItemDiscounts" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "discounts", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.subscriptionItem.SubscriptionItemDiscounts\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -50,7 +64,7 @@ namespace stripe.SubscriptionItem
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#metadata SubscriptionItem#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#metadata SubscriptionItem#metadata}
         /// </remarks>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -64,7 +78,7 @@ namespace stripe.SubscriptionItem
 
         /// <summary>Controls how Stripe handles payment when a subscription update requires payment and `collection_method=charge_automatically`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#payment_behavior SubscriptionItem#payment_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#payment_behavior SubscriptionItem#payment_behavior}
         /// </remarks>
         [JsiiProperty(name: "paymentBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -76,16 +90,16 @@ namespace stripe.SubscriptionItem
             }
         }
 
-        /// <summary>You can now model subscriptions more flexibly using the [Prices API](https://api.stripe.com#prices). It replaces the Plans API and is backwards compatible to simplify your migration.</summary>
+        /// <summary>You can now model subscriptions more flexibly using the [Prices API](https://docs.stripe.com/api#prices). It replaces the Plans API and is backwards compatible to simplify your migration.</summary>
         /// <remarks>
         /// Plans define the base price, currency, and billing cycle for recurring purchases of products.
-        /// <a href="https://api.stripe.com#products">Products</a> help you track inventory or provisioning, and plans help you track pricing. Different physical goods or levels of service should be represented by products, and pricing options should be represented by plans. This approach lets you change prices without having to change your provisioning scheme.
+        /// <a href="https://docs.stripe.com/api#products">Products</a> help you track inventory or provisioning, and plans help you track pricing. Different physical goods or levels of service should be represented by products, and pricing options should be represented by plans. This approach lets you change prices without having to change your provisioning scheme.
         ///
         /// For example, you might have a single "gold" product that has plans for $10/month, $100/year, €9/month, and €90/year.
         ///
         /// Related guides: <a href="https://docs.stripe.com/billing/subscriptions/set-up-subscription">Set up a subscription</a> and more about <a href="https://docs.stripe.com/products-prices/overview">products and prices</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#plan SubscriptionItem#plan}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#plan SubscriptionItem#plan}
         /// </remarks>
         [JsiiProperty(name: "plan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -99,13 +113,13 @@ namespace stripe.SubscriptionItem
 
         /// <summary>Prices define the unit cost, currency, and (optional) billing cycle for both recurring and one-time purchases of products.</summary>
         /// <remarks>
-        /// <a href="https://api.stripe.com#products">Products</a> help you track inventory or provisioning, and prices help you track payment terms. Different physical goods or levels of service should be represented by products, and pricing options should be represented by prices. This approach lets you change prices without having to change your provisioning scheme.
+        /// <a href="https://docs.stripe.com/api#products">Products</a> help you track inventory or provisioning, and prices help you track payment terms. Different physical goods or levels of service should be represented by products, and pricing options should be represented by prices. This approach lets you change prices without having to change your provisioning scheme.
         ///
         /// For example, you might have a single "gold" product that has prices for $10/month, $100/year, and €9 once.
         ///
         /// Related guides: <a href="https://docs.stripe.com/billing/subscriptions/set-up-subscription">Set up a subscription</a>, <a href="https://docs.stripe.com/billing/invoices/create">create an invoice</a>, and more about <a href="https://docs.stripe.com/products-prices/overview">products and prices</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#price SubscriptionItem#price}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#price SubscriptionItem#price}
         /// </remarks>
         [JsiiProperty(name: "price", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -119,7 +133,7 @@ namespace stripe.SubscriptionItem
 
         /// <summary>Data used to generate a new [Price](https://docs.stripe.com/api/prices) object inline.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#price_data SubscriptionItem#price_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#price_data SubscriptionItem#price_data}
         /// </remarks>
         [JsiiProperty(name: "priceData", typeJson: "{\"fqn\":\"stripe.subscriptionItem.SubscriptionItemPriceData\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -133,7 +147,7 @@ namespace stripe.SubscriptionItem
 
         /// <summary>Determines how to handle [prorations](https://docs.stripe.com/billing/subscriptions/prorations) when the billing cycle changes (e.g., when switching plans, resetting `billing_cycle_anchor=now`, or starting a trial), or if an item's `quantity` changes. The default value is `create_prorations`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#proration_behavior SubscriptionItem#proration_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#proration_behavior SubscriptionItem#proration_behavior}
         /// </remarks>
         [JsiiProperty(name: "prorationBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -149,7 +163,7 @@ namespace stripe.SubscriptionItem
         /// <remarks>
         /// This can be used to apply the same proration that was previewed with the <a href="/api/invoices/create_preview">upcoming invoice</a> endpoint.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#proration_date SubscriptionItem#proration_date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#proration_date SubscriptionItem#proration_date}
         /// </remarks>
         [JsiiProperty(name: "prorationDate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -163,7 +177,7 @@ namespace stripe.SubscriptionItem
 
         /// <summary>The [quantity](https://docs.stripe.com/subscriptions/quantities) of the plan to which the customer should be subscribed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#quantity SubscriptionItem#quantity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#quantity SubscriptionItem#quantity}
         /// </remarks>
         [JsiiProperty(name: "quantity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -179,7 +193,7 @@ namespace stripe.SubscriptionItem
         /// <remarks>
         /// When set, the <c>default_tax_rates</c> on the subscription do not apply to this <c>subscription_item</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#tax_rates SubscriptionItem#tax_rates}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#tax_rates SubscriptionItem#tax_rates}
         /// </remarks>
         [JsiiProperty(name: "taxRates", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -200,7 +214,7 @@ namespace stripe.SubscriptionItem
 
             /// <summary>The `subscription` this `subscription_item` belongs to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#subscription SubscriptionItem#subscription}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#subscription SubscriptionItem#subscription}
             /// </remarks>
             [JsiiProperty(name: "subscription", typeJson: "{\"primitive\":\"string\"}")]
             public string Subscription
@@ -210,7 +224,7 @@ namespace stripe.SubscriptionItem
 
             /// <summary>Define thresholds at which an invoice will be sent, and the related subscription advanced to a new billing period.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#billing_thresholds SubscriptionItem#billing_thresholds}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#billing_thresholds SubscriptionItem#billing_thresholds}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "billingThresholds", typeJson: "{\"fqn\":\"stripe.subscriptionItem.SubscriptionItemBillingThresholds\"}", isOptional: true)]
@@ -219,11 +233,22 @@ namespace stripe.SubscriptionItem
                 get => GetInstanceProperty<stripe.SubscriptionItem.ISubscriptionItemBillingThresholds?>();
             }
 
+            /// <summary>The current trial that is applied to this subscription item.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#current_trial SubscriptionItem#current_trial}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "currentTrial", typeJson: "{\"fqn\":\"stripe.subscriptionItem.SubscriptionItemCurrentTrial\"}", isOptional: true)]
+            public stripe.SubscriptionItem.ISubscriptionItemCurrentTrial? CurrentTrial
+            {
+                get => GetInstanceProperty<stripe.SubscriptionItem.ISubscriptionItemCurrentTrial?>();
+            }
+
             /// <summary>The discounts applied to the subscription item.</summary>
             /// <remarks>
             /// Subscription item discounts are applied before subscription discounts. Use <c>expand[]=discounts</c> to expand each discount.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#discounts SubscriptionItem#discounts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#discounts SubscriptionItem#discounts}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.SubscriptionItem.ISubscriptionItemDiscounts" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -235,7 +260,7 @@ namespace stripe.SubscriptionItem
 
             /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#metadata SubscriptionItem#metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#metadata SubscriptionItem#metadata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -246,7 +271,7 @@ namespace stripe.SubscriptionItem
 
             /// <summary>Controls how Stripe handles payment when a subscription update requires payment and `collection_method=charge_automatically`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#payment_behavior SubscriptionItem#payment_behavior}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#payment_behavior SubscriptionItem#payment_behavior}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "paymentBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -255,16 +280,16 @@ namespace stripe.SubscriptionItem
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>You can now model subscriptions more flexibly using the [Prices API](https://api.stripe.com#prices). It replaces the Plans API and is backwards compatible to simplify your migration.</summary>
+            /// <summary>You can now model subscriptions more flexibly using the [Prices API](https://docs.stripe.com/api#prices). It replaces the Plans API and is backwards compatible to simplify your migration.</summary>
             /// <remarks>
             /// Plans define the base price, currency, and billing cycle for recurring purchases of products.
-            /// <a href="https://api.stripe.com#products">Products</a> help you track inventory or provisioning, and plans help you track pricing. Different physical goods or levels of service should be represented by products, and pricing options should be represented by plans. This approach lets you change prices without having to change your provisioning scheme.
+            /// <a href="https://docs.stripe.com/api#products">Products</a> help you track inventory or provisioning, and plans help you track pricing. Different physical goods or levels of service should be represented by products, and pricing options should be represented by plans. This approach lets you change prices without having to change your provisioning scheme.
             ///
             /// For example, you might have a single "gold" product that has plans for $10/month, $100/year, €9/month, and €90/year.
             ///
             /// Related guides: <a href="https://docs.stripe.com/billing/subscriptions/set-up-subscription">Set up a subscription</a> and more about <a href="https://docs.stripe.com/products-prices/overview">products and prices</a>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#plan SubscriptionItem#plan}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#plan SubscriptionItem#plan}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "plan", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -275,13 +300,13 @@ namespace stripe.SubscriptionItem
 
             /// <summary>Prices define the unit cost, currency, and (optional) billing cycle for both recurring and one-time purchases of products.</summary>
             /// <remarks>
-            /// <a href="https://api.stripe.com#products">Products</a> help you track inventory or provisioning, and prices help you track payment terms. Different physical goods or levels of service should be represented by products, and pricing options should be represented by prices. This approach lets you change prices without having to change your provisioning scheme.
+            /// <a href="https://docs.stripe.com/api#products">Products</a> help you track inventory or provisioning, and prices help you track payment terms. Different physical goods or levels of service should be represented by products, and pricing options should be represented by prices. This approach lets you change prices without having to change your provisioning scheme.
             ///
             /// For example, you might have a single "gold" product that has prices for $10/month, $100/year, and €9 once.
             ///
             /// Related guides: <a href="https://docs.stripe.com/billing/subscriptions/set-up-subscription">Set up a subscription</a>, <a href="https://docs.stripe.com/billing/invoices/create">create an invoice</a>, and more about <a href="https://docs.stripe.com/products-prices/overview">products and prices</a>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#price SubscriptionItem#price}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#price SubscriptionItem#price}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "price", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -292,7 +317,7 @@ namespace stripe.SubscriptionItem
 
             /// <summary>Data used to generate a new [Price](https://docs.stripe.com/api/prices) object inline.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#price_data SubscriptionItem#price_data}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#price_data SubscriptionItem#price_data}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "priceData", typeJson: "{\"fqn\":\"stripe.subscriptionItem.SubscriptionItemPriceData\"}", isOptional: true)]
@@ -303,7 +328,7 @@ namespace stripe.SubscriptionItem
 
             /// <summary>Determines how to handle [prorations](https://docs.stripe.com/billing/subscriptions/prorations) when the billing cycle changes (e.g., when switching plans, resetting `billing_cycle_anchor=now`, or starting a trial), or if an item's `quantity` changes. The default value is `create_prorations`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#proration_behavior SubscriptionItem#proration_behavior}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#proration_behavior SubscriptionItem#proration_behavior}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "prorationBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -316,7 +341,7 @@ namespace stripe.SubscriptionItem
             /// <remarks>
             /// This can be used to apply the same proration that was previewed with the <a href="/api/invoices/create_preview">upcoming invoice</a> endpoint.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#proration_date SubscriptionItem#proration_date}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#proration_date SubscriptionItem#proration_date}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "prorationDate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -327,7 +352,7 @@ namespace stripe.SubscriptionItem
 
             /// <summary>The [quantity](https://docs.stripe.com/subscriptions/quantities) of the plan to which the customer should be subscribed.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#quantity SubscriptionItem#quantity}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#quantity SubscriptionItem#quantity}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "quantity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -340,7 +365,7 @@ namespace stripe.SubscriptionItem
             /// <remarks>
             /// When set, the <c>default_tax_rates</c> on the subscription do not apply to this <c>subscription_item</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#tax_rates SubscriptionItem#tax_rates}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#tax_rates SubscriptionItem#tax_rates}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "taxRates", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

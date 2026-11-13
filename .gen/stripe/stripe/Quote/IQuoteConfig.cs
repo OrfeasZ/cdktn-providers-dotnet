@@ -11,7 +11,7 @@ namespace stripe.Quote
         /// <remarks>
         /// Only applicable if there are no line items with recurring prices on the quote.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#application_fee_amount Quote#application_fee_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#application_fee_amount Quote#application_fee_amount}
         /// </remarks>
         [JsiiProperty(name: "applicationFeeAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -27,7 +27,7 @@ namespace stripe.Quote
         /// <remarks>
         /// This represents the percentage of the subscription invoice total that will be transferred to the application owner's Stripe account. Only applicable if there are line items with recurring prices on the quote.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#application_fee_percent Quote#application_fee_percent}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#application_fee_percent Quote#application_fee_percent}
         /// </remarks>
         [JsiiProperty(name: "applicationFeePercent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -39,7 +39,7 @@ namespace stripe.Quote
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#automatic_tax Quote#automatic_tax}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#automatic_tax Quote#automatic_tax}.</summary>
         [JsiiProperty(name: "automaticTax", typeJson: "{\"fqn\":\"stripe.quote.QuoteAutomaticTax\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.Quote.IQuoteAutomaticTax? AutomaticTax
@@ -54,7 +54,7 @@ namespace stripe.Quote
         /// <remarks>
         /// When charging automatically, Stripe will attempt to pay invoices at the end of the subscription cycle or on finalization using the default payment method attached to the subscription or customer. When sending an invoice, Stripe will email your customer an invoice with payment instructions and mark the subscription as <c>active</c>. Defaults to <c>charge_automatically</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#collection_method Quote#collection_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#collection_method Quote#collection_method}
         /// </remarks>
         [JsiiProperty(name: "collectionMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -70,7 +70,7 @@ namespace stripe.Quote
         /// <remarks>
         /// A customer is required to finalize the quote. Once specified, you can't change it.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#customer Quote#customer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#customer Quote#customer}
         /// </remarks>
         [JsiiProperty(name: "customer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -86,7 +86,7 @@ namespace stripe.Quote
         /// <remarks>
         /// A customer or account is required to finalize the quote. Once specified, you can't change it.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#customer_account Quote#customer_account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#customer_account Quote#customer_account}
         /// </remarks>
         [JsiiProperty(name: "customerAccount", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -100,7 +100,7 @@ namespace stripe.Quote
 
         /// <summary>The tax rates applied to this quote.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#default_tax_rates Quote#default_tax_rates}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#default_tax_rates Quote#default_tax_rates}
         /// </remarks>
         [JsiiProperty(name: "defaultTaxRates", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -114,7 +114,7 @@ namespace stripe.Quote
 
         /// <summary>A description that will be displayed on the quote PDF.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#description Quote#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#description Quote#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -128,7 +128,7 @@ namespace stripe.Quote
 
         /// <summary>The discounts applied to this quote.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#discounts Quote#discounts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#discounts Quote#discounts}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Quote.IQuoteDiscounts" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "discounts", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.quote.QuoteDiscounts\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -145,7 +145,7 @@ namespace stripe.Quote
         /// <remarks>
         /// Measured in seconds since the Unix epoch.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#expires_at Quote#expires_at}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#expires_at Quote#expires_at}
         /// </remarks>
         [JsiiProperty(name: "expiresAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -159,7 +159,7 @@ namespace stripe.Quote
 
         /// <summary>A footer that will be displayed on the quote PDF.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#footer Quote#footer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#footer Quote#footer}
         /// </remarks>
         [JsiiProperty(name: "footer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -173,7 +173,7 @@ namespace stripe.Quote
 
         /// <summary>Details of the quote that was cloned. See the [cloning documentation](https://docs.stripe.com/quotes/clone) for more details.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#from_quote Quote#from_quote}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#from_quote Quote#from_quote}
         /// </remarks>
         [JsiiProperty(name: "fromQuote", typeJson: "{\"fqn\":\"stripe.quote.QuoteFromQuote\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -187,7 +187,7 @@ namespace stripe.Quote
 
         /// <summary>A header that will be displayed on the quote PDF.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#header Quote#header}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#header Quote#header}
         /// </remarks>
         [JsiiProperty(name: "header", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -199,7 +199,7 @@ namespace stripe.Quote
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#invoice_settings Quote#invoice_settings}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#invoice_settings Quote#invoice_settings}.</summary>
         [JsiiProperty(name: "invoiceSettings", typeJson: "{\"fqn\":\"stripe.quote.QuoteInvoiceSettings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.Quote.IQuoteInvoiceSettings? InvoiceSettings
@@ -212,7 +212,7 @@ namespace stripe.Quote
 
         /// <summary>A list of items the customer is being quoted for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#line_items Quote#line_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#line_items Quote#line_items}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Quote.IQuoteLineItems" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "lineItems", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.quote.QuoteLineItems\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -227,7 +227,7 @@ namespace stripe.Quote
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#metadata Quote#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#metadata Quote#metadata}
         /// </remarks>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -241,7 +241,7 @@ namespace stripe.Quote
 
         /// <summary>The account on behalf of which to charge. See the [Connect documentation](https://support.stripe.com/questions/sending-invoices-on-behalf-of-connected-accounts) for details.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#on_behalf_of Quote#on_behalf_of}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#on_behalf_of Quote#on_behalf_of}
         /// </remarks>
         [JsiiProperty(name: "onBehalfOf", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -253,7 +253,7 @@ namespace stripe.Quote
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#subscription_data Quote#subscription_data}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#subscription_data Quote#subscription_data}.</summary>
         [JsiiProperty(name: "subscriptionData", typeJson: "{\"fqn\":\"stripe.quote.QuoteSubscriptionData\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.Quote.IQuoteSubscriptionData? SubscriptionData
@@ -266,7 +266,7 @@ namespace stripe.Quote
 
         /// <summary>ID of the test clock this quote belongs to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#test_clock Quote#test_clock}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#test_clock Quote#test_clock}
         /// </remarks>
         [JsiiProperty(name: "testClock", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -280,7 +280,7 @@ namespace stripe.Quote
 
         /// <summary>The account (if any) the payments will be attributed to for tax reporting, and where funds from each payment will be transferred to for each of the invoices.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#transfer_data Quote#transfer_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#transfer_data Quote#transfer_data}
         /// </remarks>
         [JsiiProperty(name: "transferData", typeJson: "{\"fqn\":\"stripe.quote.QuoteTransferData\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -303,7 +303,7 @@ namespace stripe.Quote
             /// <remarks>
             /// Only applicable if there are no line items with recurring prices on the quote.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#application_fee_amount Quote#application_fee_amount}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#application_fee_amount Quote#application_fee_amount}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "applicationFeeAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -316,7 +316,7 @@ namespace stripe.Quote
             /// <remarks>
             /// This represents the percentage of the subscription invoice total that will be transferred to the application owner's Stripe account. Only applicable if there are line items with recurring prices on the quote.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#application_fee_percent Quote#application_fee_percent}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#application_fee_percent Quote#application_fee_percent}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "applicationFeePercent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -325,7 +325,7 @@ namespace stripe.Quote
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#automatic_tax Quote#automatic_tax}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#automatic_tax Quote#automatic_tax}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "automaticTax", typeJson: "{\"fqn\":\"stripe.quote.QuoteAutomaticTax\"}", isOptional: true)]
             public stripe.Quote.IQuoteAutomaticTax? AutomaticTax
@@ -337,7 +337,7 @@ namespace stripe.Quote
             /// <remarks>
             /// When charging automatically, Stripe will attempt to pay invoices at the end of the subscription cycle or on finalization using the default payment method attached to the subscription or customer. When sending an invoice, Stripe will email your customer an invoice with payment instructions and mark the subscription as <c>active</c>. Defaults to <c>charge_automatically</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#collection_method Quote#collection_method}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#collection_method Quote#collection_method}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "collectionMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -350,7 +350,7 @@ namespace stripe.Quote
             /// <remarks>
             /// A customer is required to finalize the quote. Once specified, you can't change it.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#customer Quote#customer}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#customer Quote#customer}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "customer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -363,7 +363,7 @@ namespace stripe.Quote
             /// <remarks>
             /// A customer or account is required to finalize the quote. Once specified, you can't change it.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#customer_account Quote#customer_account}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#customer_account Quote#customer_account}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "customerAccount", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -374,7 +374,7 @@ namespace stripe.Quote
 
             /// <summary>The tax rates applied to this quote.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#default_tax_rates Quote#default_tax_rates}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#default_tax_rates Quote#default_tax_rates}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "defaultTaxRates", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -385,7 +385,7 @@ namespace stripe.Quote
 
             /// <summary>A description that will be displayed on the quote PDF.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#description Quote#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#description Quote#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -396,7 +396,7 @@ namespace stripe.Quote
 
             /// <summary>The discounts applied to this quote.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#discounts Quote#discounts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#discounts Quote#discounts}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Quote.IQuoteDiscounts" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -410,7 +410,7 @@ namespace stripe.Quote
             /// <remarks>
             /// Measured in seconds since the Unix epoch.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#expires_at Quote#expires_at}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#expires_at Quote#expires_at}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "expiresAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -421,7 +421,7 @@ namespace stripe.Quote
 
             /// <summary>A footer that will be displayed on the quote PDF.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#footer Quote#footer}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#footer Quote#footer}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "footer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -432,7 +432,7 @@ namespace stripe.Quote
 
             /// <summary>Details of the quote that was cloned. See the [cloning documentation](https://docs.stripe.com/quotes/clone) for more details.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#from_quote Quote#from_quote}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#from_quote Quote#from_quote}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fromQuote", typeJson: "{\"fqn\":\"stripe.quote.QuoteFromQuote\"}", isOptional: true)]
@@ -443,7 +443,7 @@ namespace stripe.Quote
 
             /// <summary>A header that will be displayed on the quote PDF.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#header Quote#header}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#header Quote#header}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "header", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -452,7 +452,7 @@ namespace stripe.Quote
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#invoice_settings Quote#invoice_settings}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#invoice_settings Quote#invoice_settings}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "invoiceSettings", typeJson: "{\"fqn\":\"stripe.quote.QuoteInvoiceSettings\"}", isOptional: true)]
             public stripe.Quote.IQuoteInvoiceSettings? InvoiceSettings
@@ -462,7 +462,7 @@ namespace stripe.Quote
 
             /// <summary>A list of items the customer is being quoted for.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#line_items Quote#line_items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#line_items Quote#line_items}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Quote.IQuoteLineItems" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -474,7 +474,7 @@ namespace stripe.Quote
 
             /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#metadata Quote#metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#metadata Quote#metadata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -485,7 +485,7 @@ namespace stripe.Quote
 
             /// <summary>The account on behalf of which to charge. See the [Connect documentation](https://support.stripe.com/questions/sending-invoices-on-behalf-of-connected-accounts) for details.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#on_behalf_of Quote#on_behalf_of}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#on_behalf_of Quote#on_behalf_of}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "onBehalfOf", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -494,7 +494,7 @@ namespace stripe.Quote
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#subscription_data Quote#subscription_data}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#subscription_data Quote#subscription_data}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "subscriptionData", typeJson: "{\"fqn\":\"stripe.quote.QuoteSubscriptionData\"}", isOptional: true)]
             public stripe.Quote.IQuoteSubscriptionData? SubscriptionData
@@ -504,7 +504,7 @@ namespace stripe.Quote
 
             /// <summary>ID of the test clock this quote belongs to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#test_clock Quote#test_clock}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#test_clock Quote#test_clock}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "testClock", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -515,7 +515,7 @@ namespace stripe.Quote
 
             /// <summary>The account (if any) the payments will be attributed to for tax reporting, and where funds from each payment will be transferred to for each of the invoices.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#transfer_data Quote#transfer_data}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#transfer_data Quote#transfer_data}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "transferData", typeJson: "{\"fqn\":\"stripe.quote.QuoteTransferData\"}", isOptional: true)]

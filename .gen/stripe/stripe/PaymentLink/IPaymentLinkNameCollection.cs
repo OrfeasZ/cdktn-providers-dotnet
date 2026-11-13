@@ -7,7 +7,7 @@ namespace stripe.PaymentLink
     [JsiiInterface(nativeType: typeof(IPaymentLinkNameCollection), fullyQualifiedName: "stripe.paymentLink.PaymentLinkNameCollection")]
     public interface IPaymentLinkNameCollection
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#business PaymentLink#business}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#business PaymentLink#business}.</summary>
         [JsiiProperty(name: "business", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkNameCollectionBusiness\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentLink.IPaymentLinkNameCollectionBusiness? Business
@@ -18,7 +18,7 @@ namespace stripe.PaymentLink
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#individual PaymentLink#individual}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#individual PaymentLink#individual}.</summary>
         [JsiiProperty(name: "individual", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkNameCollectionIndividual\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentLink.IPaymentLinkNameCollectionIndividual? Individual
@@ -36,7 +36,7 @@ namespace stripe.PaymentLink
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#business PaymentLink#business}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#business PaymentLink#business}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "business", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkNameCollectionBusiness\"}", isOptional: true)]
             public stripe.PaymentLink.IPaymentLinkNameCollectionBusiness? Business
@@ -44,7 +44,7 @@ namespace stripe.PaymentLink
                 get => GetInstanceProperty<stripe.PaymentLink.IPaymentLinkNameCollectionBusiness?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#individual PaymentLink#individual}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#individual PaymentLink#individual}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "individual", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkNameCollectionIndividual\"}", isOptional: true)]
             public stripe.PaymentLink.IPaymentLinkNameCollectionIndividual? Individual

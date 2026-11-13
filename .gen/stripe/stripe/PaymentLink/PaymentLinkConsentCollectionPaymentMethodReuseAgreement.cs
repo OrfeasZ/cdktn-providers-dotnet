@@ -15,7 +15,7 @@ namespace stripe.PaymentLink
         ///
         /// When set to <c>hidden</c>, the payment method reuse agreement text will always be hidden in the UI.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#position PaymentLink#position}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#position PaymentLink#position}
         /// </remarks>
         [JsiiProperty(name: "position", typeJson: "{\"primitive\":\"string\"}")]
         public string Position

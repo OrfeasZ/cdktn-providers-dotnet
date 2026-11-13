@@ -9,7 +9,7 @@ namespace stripe.Person
     {
         /// <summary>A document showing address, either a passport, local ID card, or utility bill from a well-known utility company.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#additional_document Person#additional_document}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#additional_document Person#additional_document}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "additionalDocument", typeJson: "{\"fqn\":\"stripe.person.PersonVerificationAdditionalDocument\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace stripe.Person
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#document Person#document}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#document Person#document}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "document", typeJson: "{\"fqn\":\"stripe.person.PersonVerificationDocument\"}", isOptional: true)]
         public stripe.Person.IPersonVerificationDocument? Document

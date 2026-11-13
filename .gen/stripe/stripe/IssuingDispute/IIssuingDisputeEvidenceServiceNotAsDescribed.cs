@@ -9,7 +9,7 @@ namespace stripe.IssuingDispute
     {
         /// <summary>(ID of a [file upload](https://stripe.com/docs/guides/file-upload)) Additional documentation supporting the dispute.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_dispute#additional_documentation IssuingDispute#additional_documentation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_dispute#additional_documentation IssuingDispute#additional_documentation}
         /// </remarks>
         [JsiiProperty(name: "additionalDocumentation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace stripe.IssuingDispute
 
         /// <summary>Date when order was canceled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_dispute#canceled_at IssuingDispute#canceled_at}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_dispute#canceled_at IssuingDispute#canceled_at}
         /// </remarks>
         [JsiiProperty(name: "canceledAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace stripe.IssuingDispute
 
         /// <summary>Reason for canceling the order.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_dispute#cancellation_reason IssuingDispute#cancellation_reason}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_dispute#cancellation_reason IssuingDispute#cancellation_reason}
         /// </remarks>
         [JsiiProperty(name: "cancellationReason", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace stripe.IssuingDispute
 
         /// <summary>Explanation of why the cardholder is disputing this transaction.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_dispute#explanation IssuingDispute#explanation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_dispute#explanation IssuingDispute#explanation}
         /// </remarks>
         [JsiiProperty(name: "explanation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -65,7 +65,7 @@ namespace stripe.IssuingDispute
 
         /// <summary>Date when the product was received.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_dispute#received_at IssuingDispute#received_at}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_dispute#received_at IssuingDispute#received_at}
         /// </remarks>
         [JsiiProperty(name: "receivedAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -86,7 +86,7 @@ namespace stripe.IssuingDispute
 
             /// <summary>(ID of a [file upload](https://stripe.com/docs/guides/file-upload)) Additional documentation supporting the dispute.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_dispute#additional_documentation IssuingDispute#additional_documentation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_dispute#additional_documentation IssuingDispute#additional_documentation}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "additionalDocumentation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace stripe.IssuingDispute
 
             /// <summary>Date when order was canceled.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_dispute#canceled_at IssuingDispute#canceled_at}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_dispute#canceled_at IssuingDispute#canceled_at}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "canceledAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -108,7 +108,7 @@ namespace stripe.IssuingDispute
 
             /// <summary>Reason for canceling the order.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_dispute#cancellation_reason IssuingDispute#cancellation_reason}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_dispute#cancellation_reason IssuingDispute#cancellation_reason}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cancellationReason", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -119,7 +119,7 @@ namespace stripe.IssuingDispute
 
             /// <summary>Explanation of why the cardholder is disputing this transaction.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_dispute#explanation IssuingDispute#explanation}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_dispute#explanation IssuingDispute#explanation}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "explanation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -130,7 +130,7 @@ namespace stripe.IssuingDispute
 
             /// <summary>Date when the product was received.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_dispute#received_at IssuingDispute#received_at}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_dispute#received_at IssuingDispute#received_at}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "receivedAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

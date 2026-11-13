@@ -9,7 +9,7 @@ namespace stripe.PromotionCode
     {
         /// <summary>Whether the promotion code is currently active. A promotion code is only active if the coupon is also valid.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#active PromotionCode#active}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/promotion_code#active PromotionCode#active}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "active", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -26,7 +26,7 @@ namespace stripe.PromotionCode
         /// <remarks>
         /// Regardless of case, this code must be unique across all active promotion codes for each customer. Valid characters are lower case letters (a-z), upper case letters (A-Z), digits (0-9), and dashes (-).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#code PromotionCode#code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/promotion_code#code PromotionCode#code}
         /// </remarks>
         [JsiiProperty(name: "code", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace stripe.PromotionCode
 
         /// <summary>The customer who can use this promotion code.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#customer PromotionCode#customer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/promotion_code#customer PromotionCode#customer}
         /// </remarks>
         [JsiiProperty(name: "customer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +54,7 @@ namespace stripe.PromotionCode
 
         /// <summary>The account representing the customer who can use this promotion code.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#customer_account PromotionCode#customer_account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/promotion_code#customer_account PromotionCode#customer_account}
         /// </remarks>
         [JsiiProperty(name: "customerAccount", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,7 +68,7 @@ namespace stripe.PromotionCode
 
         /// <summary>Date at which the promotion code can no longer be redeemed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#expires_at PromotionCode#expires_at}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/promotion_code#expires_at PromotionCode#expires_at}
         /// </remarks>
         [JsiiProperty(name: "expiresAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -82,7 +82,7 @@ namespace stripe.PromotionCode
 
         /// <summary>Maximum number of times this promotion code can be redeemed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#max_redemptions PromotionCode#max_redemptions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/promotion_code#max_redemptions PromotionCode#max_redemptions}
         /// </remarks>
         [JsiiProperty(name: "maxRedemptions", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -96,7 +96,7 @@ namespace stripe.PromotionCode
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#metadata PromotionCode#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/promotion_code#metadata PromotionCode#metadata}
         /// </remarks>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -110,7 +110,7 @@ namespace stripe.PromotionCode
 
         /// <summary>promotion block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#promotion PromotionCode#promotion}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/promotion_code#promotion PromotionCode#promotion}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.PromotionCode.IPromotionCodePromotion" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "promotion", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.promotionCode.PromotionCodePromotion\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -125,7 +125,7 @@ namespace stripe.PromotionCode
 
         /// <summary>restrictions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#restrictions PromotionCode#restrictions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/promotion_code#restrictions PromotionCode#restrictions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.PromotionCode.IPromotionCodeRestrictions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "restrictions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.promotionCode.PromotionCodeRestrictions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -147,7 +147,7 @@ namespace stripe.PromotionCode
 
             /// <summary>Whether the promotion code is currently active. A promotion code is only active if the coupon is also valid.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#active PromotionCode#active}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/promotion_code#active PromotionCode#active}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -161,7 +161,7 @@ namespace stripe.PromotionCode
             /// <remarks>
             /// Regardless of case, this code must be unique across all active promotion codes for each customer. Valid characters are lower case letters (a-z), upper case letters (A-Z), digits (0-9), and dashes (-).
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#code PromotionCode#code}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/promotion_code#code PromotionCode#code}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "code", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -172,7 +172,7 @@ namespace stripe.PromotionCode
 
             /// <summary>The customer who can use this promotion code.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#customer PromotionCode#customer}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/promotion_code#customer PromotionCode#customer}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "customer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -183,7 +183,7 @@ namespace stripe.PromotionCode
 
             /// <summary>The account representing the customer who can use this promotion code.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#customer_account PromotionCode#customer_account}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/promotion_code#customer_account PromotionCode#customer_account}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "customerAccount", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -194,7 +194,7 @@ namespace stripe.PromotionCode
 
             /// <summary>Date at which the promotion code can no longer be redeemed.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#expires_at PromotionCode#expires_at}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/promotion_code#expires_at PromotionCode#expires_at}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "expiresAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -205,7 +205,7 @@ namespace stripe.PromotionCode
 
             /// <summary>Maximum number of times this promotion code can be redeemed.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#max_redemptions PromotionCode#max_redemptions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/promotion_code#max_redemptions PromotionCode#max_redemptions}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maxRedemptions", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -216,7 +216,7 @@ namespace stripe.PromotionCode
 
             /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#metadata PromotionCode#metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/promotion_code#metadata PromotionCode#metadata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -227,7 +227,7 @@ namespace stripe.PromotionCode
 
             /// <summary>promotion block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#promotion PromotionCode#promotion}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/promotion_code#promotion PromotionCode#promotion}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.PromotionCode.IPromotionCodePromotion" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -239,7 +239,7 @@ namespace stripe.PromotionCode
 
             /// <summary>restrictions block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/promotion_code#restrictions PromotionCode#restrictions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/promotion_code#restrictions PromotionCode#restrictions}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.PromotionCode.IPromotionCodeRestrictions" />)[]</para>
             /// </remarks>
             [JsiiOptional]

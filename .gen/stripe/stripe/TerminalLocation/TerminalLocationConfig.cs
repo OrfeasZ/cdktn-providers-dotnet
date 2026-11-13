@@ -7,7 +7,7 @@ namespace stripe.TerminalLocation
     [JsiiByValue(fqn: "stripe.terminalLocation.TerminalLocationConfig")]
     public class TerminalLocationConfig : stripe.TerminalLocation.ITerminalLocationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_location#address TerminalLocation#address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_location#address TerminalLocation#address}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "address", typeJson: "{\"fqn\":\"stripe.terminalLocation.TerminalLocationAddress\"}", isOptional: true)]
         public stripe.TerminalLocation.ITerminalLocationAddress? Address
@@ -16,7 +16,7 @@ namespace stripe.TerminalLocation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_location#address_kana TerminalLocation#address_kana}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_location#address_kana TerminalLocation#address_kana}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "addressKana", typeJson: "{\"fqn\":\"stripe.terminalLocation.TerminalLocationAddressKana\"}", isOptional: true)]
         public stripe.TerminalLocation.ITerminalLocationAddressKana? AddressKana
@@ -27,7 +27,7 @@ namespace stripe.TerminalLocation
 
         /// <summary>The ID of a configuration that will be used to customize all readers in this location.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_location#configuration_overrides TerminalLocation#configuration_overrides}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_location#configuration_overrides TerminalLocation#configuration_overrides}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "configurationOverrides", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace stripe.TerminalLocation
 
         /// <summary>The display name of the location.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_location#display_name TerminalLocation#display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_location#display_name TerminalLocation#display_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace stripe.TerminalLocation
 
         /// <summary>The Kana variation of the display name of the location.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_location#display_name_kana TerminalLocation#display_name_kana}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_location#display_name_kana TerminalLocation#display_name_kana}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "displayNameKana", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -63,7 +63,7 @@ namespace stripe.TerminalLocation
 
         /// <summary>The Kanji variation of the display name of the location.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_location#display_name_kanji TerminalLocation#display_name_kanji}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_location#display_name_kanji TerminalLocation#display_name_kanji}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "displayNameKanji", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace stripe.TerminalLocation
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_location#metadata TerminalLocation#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_location#metadata TerminalLocation#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -87,7 +87,7 @@ namespace stripe.TerminalLocation
 
         /// <summary>The phone number of the location.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_location#phone TerminalLocation#phone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_location#phone TerminalLocation#phone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "phone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

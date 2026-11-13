@@ -7,7 +7,7 @@ namespace stripe.Invoice
     [JsiiByValue(fqn: "stripe.invoice.InvoicePaymentSettingsPaymentMethodOptionsUsBankAccountFinancialConnections")]
     public class InvoicePaymentSettingsPaymentMethodOptionsUsBankAccountFinancialConnections : stripe.Invoice.IInvoicePaymentSettingsPaymentMethodOptionsUsBankAccountFinancialConnections
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#filters Invoice#filters}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#filters Invoice#filters}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "filters", typeJson: "{\"fqn\":\"stripe.invoice.InvoicePaymentSettingsPaymentMethodOptionsUsBankAccountFinancialConnectionsFilters\"}", isOptional: true)]
         public stripe.Invoice.IInvoicePaymentSettingsPaymentMethodOptionsUsBankAccountFinancialConnectionsFilters? Filters
@@ -18,7 +18,7 @@ namespace stripe.Invoice
 
         /// <summary>The list of permissions to request. The `payment_method` permission must be included.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#permissions Invoice#permissions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#permissions Invoice#permissions}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "permissions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -30,7 +30,7 @@ namespace stripe.Invoice
 
         /// <summary>Data features requested to be retrieved upon account creation.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#prefetch Invoice#prefetch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#prefetch Invoice#prefetch}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "prefetch", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

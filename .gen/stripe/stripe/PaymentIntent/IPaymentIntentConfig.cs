@@ -11,7 +11,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// A positive integer representing how much to charge in the <a href="https://docs.stripe.com/currencies#zero-decimal">smallest currency unit</a> (e.g., 100 cents to charge $1.00 or 100 to charge ¥100, a zero-decimal currency). The minimum amount is $0.50 US or <a href="https://docs.stripe.com/currencies#minimum-and-maximum-charge-amounts">equivalent in charge currency</a>. The amount value supports up to eight digits (e.g., a value of 99999999 for a USD charge of $999,999.99).
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#amount PaymentIntent#amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#amount PaymentIntent#amount}
         /// </remarks>
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}")]
         double Amount
@@ -21,7 +21,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Three-letter [ISO currency code](https://www.iso.org/iso-4217-currency-codes.html), in lowercase. Must be a [supported currency](https://stripe.com/docs/currencies).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#currency PaymentIntent#currency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#currency PaymentIntent#currency}
         /// </remarks>
         [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}")]
         string Currency
@@ -33,7 +33,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// The amount of the application fee collected will be capped at the total amount captured. For more information, see the PaymentIntents <a href="https://docs.stripe.com/payments/connected-accounts">use case for connected accounts</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#application_fee_amount PaymentIntent#application_fee_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#application_fee_amount PaymentIntent#application_fee_amount}
         /// </remarks>
         [JsiiProperty(name: "applicationFeeAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -47,7 +47,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Settings to configure compatible payment methods from the [Stripe Dashboard](https://dashboard.stripe.com/settings/payment_methods).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#automatic_payment_methods PaymentIntent#automatic_payment_methods}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#automatic_payment_methods PaymentIntent#automatic_payment_methods}
         /// </remarks>
         [JsiiProperty(name: "automaticPaymentMethods", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentAutomaticPaymentMethods\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Controls when the funds will be captured from the customer's account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#capture_method PaymentIntent#capture_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#capture_method PaymentIntent#capture_method}
         /// </remarks>
         [JsiiProperty(name: "captureMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -75,7 +75,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Set to `true` to attempt to [confirm this PaymentIntent](https://docs.stripe.com/api/payment_intents/confirm) immediately. This parameter defaults to `false`. When creating and confirming a PaymentIntent at the same time, you can also provide the parameters available in the [Confirm API](https://docs.stripe.com/api/payment_intents/confirm).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#confirm PaymentIntent#confirm}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#confirm PaymentIntent#confirm}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "confirm", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -90,7 +90,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Describes whether we can confirm this PaymentIntent automatically, or if it requires customer action to confirm the payment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#confirmation_method PaymentIntent#confirmation_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#confirmation_method PaymentIntent#confirmation_method}
         /// </remarks>
         [JsiiProperty(name: "confirmationMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -106,7 +106,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// If the provided ConfirmationToken contains properties that are also being provided in this request, such as <c>payment_method</c>, then the values in this request will take precedence.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#confirmation_token PaymentIntent#confirmation_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#confirmation_token PaymentIntent#confirmation_token}
         /// </remarks>
         [JsiiProperty(name: "confirmationToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -122,9 +122,9 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// Payment methods attached to other Customers cannot be used with this PaymentIntent.
         ///
-        /// If <a href="https://api.stripe.com#payment_intent_object-setup_future_usage">setup_future_usage</a> is set and this PaymentIntent's payment method is not <c>card_present</c>, then the payment method attaches to the Customer after the PaymentIntent has been confirmed and any required actions from the user are complete. If the payment method is <c>card_present</c> and isn't a digital wallet, then a <a href="https://docs.stripe.com/api/charges/object#charge_object-payment_method_details-card_present-generated_card">generated_card</a> payment method representing the card is created and attached to the Customer instead.
+        /// If <a href="https://docs.stripe.com/api#payment_intent_object-setup_future_usage">setup_future_usage</a> is set and this PaymentIntent's payment method is not <c>card_present</c>, then the payment method attaches to the Customer after the PaymentIntent has been confirmed and any required actions from the user are complete. If the payment method is <c>card_present</c> and isn't a digital wallet, then a <a href="https://docs.stripe.com/api/charges/object#charge_object-payment_method_details-card_present-generated_card">generated_card</a> payment method representing the card is created and attached to the Customer instead.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#customer PaymentIntent#customer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#customer PaymentIntent#customer}
         /// </remarks>
         [JsiiProperty(name: "customer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -138,7 +138,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>An arbitrary string attached to the object. Often useful for displaying to users.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#description PaymentIntent#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#description PaymentIntent#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -154,7 +154,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// Use this parameter for simpler integrations that don't handle customer actions, such as <a href="https://docs.stripe.com/payments/save-card-without-authentication">saving cards without authentication</a>. This parameter can only be used with <a href="https://docs.stripe.com/api/payment_intents/create#create_payment_intent-confirm"><c>confirm=true</c></a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#error_on_requires_action PaymentIntent#error_on_requires_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#error_on_requires_action PaymentIntent#error_on_requires_action}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "errorOnRequiresAction", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -169,7 +169,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>The list of payment method types to exclude from use with this payment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#excluded_payment_method_types PaymentIntent#excluded_payment_method_types}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#excluded_payment_method_types PaymentIntent#excluded_payment_method_types}
         /// </remarks>
         [JsiiProperty(name: "excludedPaymentMethodTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -181,7 +181,7 @@ namespace stripe.PaymentIntent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#hooks PaymentIntent#hooks}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#hooks PaymentIntent#hooks}.</summary>
         [JsiiProperty(name: "hooks", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentHooks\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentIntent.IPaymentIntentHooks? Hooks
@@ -194,7 +194,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>ID of the mandate that's used for this payment. This parameter can only be used with [`confirm=true`](https://docs.stripe.com/api/payment_intents/create#create_payment_intent-confirm).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#mandate PaymentIntent#mandate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#mandate PaymentIntent#mandate}
         /// </remarks>
         [JsiiProperty(name: "mandate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -208,7 +208,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>This hash contains details about the Mandate to create. This parameter can only be used with [`confirm=true`](https://docs.stripe.com/api/payment_intents/create#create_payment_intent-confirm).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#mandate_data PaymentIntent#mandate_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#mandate_data PaymentIntent#mandate_data}
         /// </remarks>
         [JsiiProperty(name: "mandateData", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentMandateData\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -222,7 +222,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format. Learn more about [storing information in metadata](https://docs.stripe.com/payments/payment-intents/creating-payment-intents#storing-information-in-metadata).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#metadata PaymentIntent#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#metadata PaymentIntent#metadata}
         /// </remarks>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -238,7 +238,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// See the PaymentIntents <a href="/payments/connected-accounts">use case for connected accounts</a> for details.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#on_behalf_of PaymentIntent#on_behalf_of}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#on_behalf_of PaymentIntent#on_behalf_of}
         /// </remarks>
         [JsiiProperty(name: "onBehalfOf", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -250,7 +250,7 @@ namespace stripe.PaymentIntent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#payment_details PaymentIntent#payment_details}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#payment_details PaymentIntent#payment_details}.</summary>
         [JsiiProperty(name: "paymentDetails", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentIntent.IPaymentIntentPaymentDetails? PaymentDetails
@@ -263,7 +263,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>ID of the payment method used in this PaymentIntent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#payment_method PaymentIntent#payment_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#payment_method PaymentIntent#payment_method}
         /// </remarks>
         [JsiiProperty(name: "paymentMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -277,7 +277,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>The ID of the [payment method configuration](https://docs.stripe.com/api/payment_method_configurations) to use with this PaymentIntent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#payment_method_configuration PaymentIntent#payment_method_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#payment_method_configuration PaymentIntent#payment_method_configuration}
         /// </remarks>
         [JsiiProperty(name: "paymentMethodConfiguration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -295,7 +295,7 @@ namespace stripe.PaymentIntent
         /// in the <a href="https://docs.stripe.com/api/payment_intents/object#payment_intent_object-payment_method">payment_method</a>
         /// property on the PaymentIntent.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#payment_method_data PaymentIntent#payment_method_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#payment_method_data PaymentIntent#payment_method_data}
         /// </remarks>
         [JsiiProperty(name: "paymentMethodData", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodData\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -309,7 +309,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Payment-method-specific configuration for this PaymentIntent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#payment_method_options PaymentIntent#payment_method_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#payment_method_options PaymentIntent#payment_method_options}
         /// </remarks>
         [JsiiProperty(name: "paymentMethodOptions", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -323,7 +323,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Options to configure Radar. Learn more about [Radar Sessions](https://docs.stripe.com/radar/radar-session).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#radar_options PaymentIntent#radar_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#radar_options PaymentIntent#radar_options}
         /// </remarks>
         [JsiiProperty(name: "radarOptions", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentRadarOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -339,7 +339,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// If <c>receipt_email</c> is specified for a payment in live mode, a receipt will be sent regardless of your <a href="https://dashboard.stripe.com/account/emails">email settings</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#receipt_email PaymentIntent#receipt_email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#receipt_email PaymentIntent#receipt_email}
         /// </remarks>
         [JsiiProperty(name: "receiptEmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -355,7 +355,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// If you'd prefer to redirect to a mobile application, you can alternatively supply an application URI scheme. This parameter can only be used with <a href="https://docs.stripe.com/api/payment_intents/create#create_payment_intent-confirm"><c>confirm=true</c></a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#return_url PaymentIntent#return_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#return_url PaymentIntent#return_url}
         /// </remarks>
         [JsiiProperty(name: "returnUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -375,7 +375,7 @@ namespace stripe.PaymentIntent
         ///
         /// When processing card payments, Stripe uses <c>setup_future_usage</c> to help you comply with regional legislation and network rules, such as <a href="/strong-customer-authentication">SCA</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
         /// </remarks>
         [JsiiProperty(name: "setupFutureUsage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -389,7 +389,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Shipping information for this PaymentIntent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#shipping PaymentIntent#shipping}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#shipping PaymentIntent#shipping}
         /// </remarks>
         [JsiiProperty(name: "shipping", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentShipping\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -407,7 +407,7 @@ namespace stripe.PaymentIntent
         ///
         /// Setting this value for a card charge returns an error. For card charges, set the <a href="https://docs.stripe.com/get-started/account/statement-descriptors#dynamic">statement_descriptor_suffix</a> instead.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#statement_descriptor PaymentIntent#statement_descriptor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#statement_descriptor PaymentIntent#statement_descriptor}
         /// </remarks>
         [JsiiProperty(name: "statementDescriptor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -423,7 +423,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// Concatenated to the account's <a href="https://docs.stripe.com/get-started/account/statement-descriptors#static">statement descriptor prefix</a> to form the complete statement descriptor that appears on the customer's statement.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#statement_descriptor_suffix PaymentIntent#statement_descriptor_suffix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#statement_descriptor_suffix PaymentIntent#statement_descriptor_suffix}
         /// </remarks>
         [JsiiProperty(name: "statementDescriptorSuffix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -439,7 +439,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// Learn more about the <a href="https://docs.stripe.com/payments/connected-accounts">use case for connected accounts</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#transfer_data PaymentIntent#transfer_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#transfer_data PaymentIntent#transfer_data}
         /// </remarks>
         [JsiiProperty(name: "transferData", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentTransferData\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -455,7 +455,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// Learn more about the <a href="https://docs.stripe.com/connect/separate-charges-and-transfers">use case for connected accounts</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#transfer_group PaymentIntent#transfer_group}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#transfer_group PaymentIntent#transfer_group}
         /// </remarks>
         [JsiiProperty(name: "transferGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -469,7 +469,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Set to `true` when confirming server-side and using Stripe.js, iOS, or Android client-side SDKs to handle the next actions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#use_stripe_sdk PaymentIntent#use_stripe_sdk}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#use_stripe_sdk PaymentIntent#use_stripe_sdk}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "useStripeSdk", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -493,7 +493,7 @@ namespace stripe.PaymentIntent
             /// <remarks>
             /// A positive integer representing how much to charge in the <a href="https://docs.stripe.com/currencies#zero-decimal">smallest currency unit</a> (e.g., 100 cents to charge $1.00 or 100 to charge ¥100, a zero-decimal currency). The minimum amount is $0.50 US or <a href="https://docs.stripe.com/currencies#minimum-and-maximum-charge-amounts">equivalent in charge currency</a>. The amount value supports up to eight digits (e.g., a value of 99999999 for a USD charge of $999,999.99).
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#amount PaymentIntent#amount}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#amount PaymentIntent#amount}
             /// </remarks>
             [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}")]
             public double Amount
@@ -503,7 +503,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Three-letter [ISO currency code](https://www.iso.org/iso-4217-currency-codes.html), in lowercase. Must be a [supported currency](https://stripe.com/docs/currencies).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#currency PaymentIntent#currency}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#currency PaymentIntent#currency}
             /// </remarks>
             [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}")]
             public string Currency
@@ -515,7 +515,7 @@ namespace stripe.PaymentIntent
             /// <remarks>
             /// The amount of the application fee collected will be capped at the total amount captured. For more information, see the PaymentIntents <a href="https://docs.stripe.com/payments/connected-accounts">use case for connected accounts</a>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#application_fee_amount PaymentIntent#application_fee_amount}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#application_fee_amount PaymentIntent#application_fee_amount}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "applicationFeeAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -526,7 +526,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Settings to configure compatible payment methods from the [Stripe Dashboard](https://dashboard.stripe.com/settings/payment_methods).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#automatic_payment_methods PaymentIntent#automatic_payment_methods}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#automatic_payment_methods PaymentIntent#automatic_payment_methods}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "automaticPaymentMethods", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentAutomaticPaymentMethods\"}", isOptional: true)]
@@ -537,7 +537,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Controls when the funds will be captured from the customer's account.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#capture_method PaymentIntent#capture_method}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#capture_method PaymentIntent#capture_method}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "captureMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -548,7 +548,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Set to `true` to attempt to [confirm this PaymentIntent](https://docs.stripe.com/api/payment_intents/confirm) immediately. This parameter defaults to `false`. When creating and confirming a PaymentIntent at the same time, you can also provide the parameters available in the [Confirm API](https://docs.stripe.com/api/payment_intents/confirm).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#confirm PaymentIntent#confirm}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#confirm PaymentIntent#confirm}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -560,7 +560,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Describes whether we can confirm this PaymentIntent automatically, or if it requires customer action to confirm the payment.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#confirmation_method PaymentIntent#confirmation_method}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#confirmation_method PaymentIntent#confirmation_method}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "confirmationMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -573,7 +573,7 @@ namespace stripe.PaymentIntent
             /// <remarks>
             /// If the provided ConfirmationToken contains properties that are also being provided in this request, such as <c>payment_method</c>, then the values in this request will take precedence.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#confirmation_token PaymentIntent#confirmation_token}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#confirmation_token PaymentIntent#confirmation_token}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "confirmationToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -586,9 +586,9 @@ namespace stripe.PaymentIntent
             /// <remarks>
             /// Payment methods attached to other Customers cannot be used with this PaymentIntent.
             ///
-            /// If <a href="https://api.stripe.com#payment_intent_object-setup_future_usage">setup_future_usage</a> is set and this PaymentIntent's payment method is not <c>card_present</c>, then the payment method attaches to the Customer after the PaymentIntent has been confirmed and any required actions from the user are complete. If the payment method is <c>card_present</c> and isn't a digital wallet, then a <a href="https://docs.stripe.com/api/charges/object#charge_object-payment_method_details-card_present-generated_card">generated_card</a> payment method representing the card is created and attached to the Customer instead.
+            /// If <a href="https://docs.stripe.com/api#payment_intent_object-setup_future_usage">setup_future_usage</a> is set and this PaymentIntent's payment method is not <c>card_present</c>, then the payment method attaches to the Customer after the PaymentIntent has been confirmed and any required actions from the user are complete. If the payment method is <c>card_present</c> and isn't a digital wallet, then a <a href="https://docs.stripe.com/api/charges/object#charge_object-payment_method_details-card_present-generated_card">generated_card</a> payment method representing the card is created and attached to the Customer instead.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#customer PaymentIntent#customer}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#customer PaymentIntent#customer}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "customer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -599,7 +599,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>An arbitrary string attached to the object. Often useful for displaying to users.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#description PaymentIntent#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#description PaymentIntent#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -612,7 +612,7 @@ namespace stripe.PaymentIntent
             /// <remarks>
             /// Use this parameter for simpler integrations that don't handle customer actions, such as <a href="https://docs.stripe.com/payments/save-card-without-authentication">saving cards without authentication</a>. This parameter can only be used with <a href="https://docs.stripe.com/api/payment_intents/create#create_payment_intent-confirm"><c>confirm=true</c></a>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#error_on_requires_action PaymentIntent#error_on_requires_action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#error_on_requires_action PaymentIntent#error_on_requires_action}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -624,7 +624,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>The list of payment method types to exclude from use with this payment.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#excluded_payment_method_types PaymentIntent#excluded_payment_method_types}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#excluded_payment_method_types PaymentIntent#excluded_payment_method_types}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "excludedPaymentMethodTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -633,7 +633,7 @@ namespace stripe.PaymentIntent
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#hooks PaymentIntent#hooks}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#hooks PaymentIntent#hooks}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hooks", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentHooks\"}", isOptional: true)]
             public stripe.PaymentIntent.IPaymentIntentHooks? Hooks
@@ -643,7 +643,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>ID of the mandate that's used for this payment. This parameter can only be used with [`confirm=true`](https://docs.stripe.com/api/payment_intents/create#create_payment_intent-confirm).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#mandate PaymentIntent#mandate}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#mandate PaymentIntent#mandate}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mandate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -654,7 +654,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>This hash contains details about the Mandate to create. This parameter can only be used with [`confirm=true`](https://docs.stripe.com/api/payment_intents/create#create_payment_intent-confirm).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#mandate_data PaymentIntent#mandate_data}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#mandate_data PaymentIntent#mandate_data}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "mandateData", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentMandateData\"}", isOptional: true)]
@@ -665,7 +665,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format. Learn more about [storing information in metadata](https://docs.stripe.com/payments/payment-intents/creating-payment-intents#storing-information-in-metadata).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#metadata PaymentIntent#metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#metadata PaymentIntent#metadata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -678,7 +678,7 @@ namespace stripe.PaymentIntent
             /// <remarks>
             /// See the PaymentIntents <a href="/payments/connected-accounts">use case for connected accounts</a> for details.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#on_behalf_of PaymentIntent#on_behalf_of}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#on_behalf_of PaymentIntent#on_behalf_of}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "onBehalfOf", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -687,7 +687,7 @@ namespace stripe.PaymentIntent
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#payment_details PaymentIntent#payment_details}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#payment_details PaymentIntent#payment_details}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "paymentDetails", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentDetails\"}", isOptional: true)]
             public stripe.PaymentIntent.IPaymentIntentPaymentDetails? PaymentDetails
@@ -697,7 +697,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>ID of the payment method used in this PaymentIntent.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#payment_method PaymentIntent#payment_method}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#payment_method PaymentIntent#payment_method}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "paymentMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -708,7 +708,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>The ID of the [payment method configuration](https://docs.stripe.com/api/payment_method_configurations) to use with this PaymentIntent.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#payment_method_configuration PaymentIntent#payment_method_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#payment_method_configuration PaymentIntent#payment_method_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "paymentMethodConfiguration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -723,7 +723,7 @@ namespace stripe.PaymentIntent
             /// in the <a href="https://docs.stripe.com/api/payment_intents/object#payment_intent_object-payment_method">payment_method</a>
             /// property on the PaymentIntent.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#payment_method_data PaymentIntent#payment_method_data}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#payment_method_data PaymentIntent#payment_method_data}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "paymentMethodData", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodData\"}", isOptional: true)]
@@ -734,7 +734,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Payment-method-specific configuration for this PaymentIntent.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#payment_method_options PaymentIntent#payment_method_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#payment_method_options PaymentIntent#payment_method_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "paymentMethodOptions", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptions\"}", isOptional: true)]
@@ -745,7 +745,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Options to configure Radar. Learn more about [Radar Sessions](https://docs.stripe.com/radar/radar-session).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#radar_options PaymentIntent#radar_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#radar_options PaymentIntent#radar_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "radarOptions", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentRadarOptions\"}", isOptional: true)]
@@ -758,7 +758,7 @@ namespace stripe.PaymentIntent
             /// <remarks>
             /// If <c>receipt_email</c> is specified for a payment in live mode, a receipt will be sent regardless of your <a href="https://dashboard.stripe.com/account/emails">email settings</a>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#receipt_email PaymentIntent#receipt_email}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#receipt_email PaymentIntent#receipt_email}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "receiptEmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -771,7 +771,7 @@ namespace stripe.PaymentIntent
             /// <remarks>
             /// If you'd prefer to redirect to a mobile application, you can alternatively supply an application URI scheme. This parameter can only be used with <a href="https://docs.stripe.com/api/payment_intents/create#create_payment_intent-confirm"><c>confirm=true</c></a>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#return_url PaymentIntent#return_url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#return_url PaymentIntent#return_url}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "returnUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -788,7 +788,7 @@ namespace stripe.PaymentIntent
             ///
             /// When processing card payments, Stripe uses <c>setup_future_usage</c> to help you comply with regional legislation and network rules, such as <a href="/strong-customer-authentication">SCA</a>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "setupFutureUsage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -799,7 +799,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Shipping information for this PaymentIntent.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#shipping PaymentIntent#shipping}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#shipping PaymentIntent#shipping}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "shipping", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentShipping\"}", isOptional: true)]
@@ -814,7 +814,7 @@ namespace stripe.PaymentIntent
             ///
             /// Setting this value for a card charge returns an error. For card charges, set the <a href="https://docs.stripe.com/get-started/account/statement-descriptors#dynamic">statement_descriptor_suffix</a> instead.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#statement_descriptor PaymentIntent#statement_descriptor}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#statement_descriptor PaymentIntent#statement_descriptor}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "statementDescriptor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -827,7 +827,7 @@ namespace stripe.PaymentIntent
             /// <remarks>
             /// Concatenated to the account's <a href="https://docs.stripe.com/get-started/account/statement-descriptors#static">statement descriptor prefix</a> to form the complete statement descriptor that appears on the customer's statement.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#statement_descriptor_suffix PaymentIntent#statement_descriptor_suffix}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#statement_descriptor_suffix PaymentIntent#statement_descriptor_suffix}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "statementDescriptorSuffix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -840,7 +840,7 @@ namespace stripe.PaymentIntent
             /// <remarks>
             /// Learn more about the <a href="https://docs.stripe.com/payments/connected-accounts">use case for connected accounts</a>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#transfer_data PaymentIntent#transfer_data}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#transfer_data PaymentIntent#transfer_data}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "transferData", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentTransferData\"}", isOptional: true)]
@@ -853,7 +853,7 @@ namespace stripe.PaymentIntent
             /// <remarks>
             /// Learn more about the <a href="https://docs.stripe.com/connect/separate-charges-and-transfers">use case for connected accounts</a>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#transfer_group PaymentIntent#transfer_group}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#transfer_group PaymentIntent#transfer_group}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "transferGroup", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -864,7 +864,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Set to `true` when confirming server-side and using Stripe.js, iOS, or Android client-side SDKs to handle the next actions.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#use_stripe_sdk PaymentIntent#use_stripe_sdk}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#use_stripe_sdk PaymentIntent#use_stripe_sdk}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

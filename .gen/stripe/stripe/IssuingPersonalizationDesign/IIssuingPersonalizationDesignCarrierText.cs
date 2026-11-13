@@ -9,7 +9,7 @@ namespace stripe.IssuingPersonalizationDesign
     {
         /// <summary>The footer body text of the carrier letter.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_personalization_design#footer_body IssuingPersonalizationDesign#footer_body}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_personalization_design#footer_body IssuingPersonalizationDesign#footer_body}
         /// </remarks>
         [JsiiProperty(name: "footerBody", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace stripe.IssuingPersonalizationDesign
 
         /// <summary>The footer title text of the carrier letter.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_personalization_design#footer_title IssuingPersonalizationDesign#footer_title}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_personalization_design#footer_title IssuingPersonalizationDesign#footer_title}
         /// </remarks>
         [JsiiProperty(name: "footerTitle", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace stripe.IssuingPersonalizationDesign
 
         /// <summary>The header body text of the carrier letter.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_personalization_design#header_body IssuingPersonalizationDesign#header_body}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_personalization_design#header_body IssuingPersonalizationDesign#header_body}
         /// </remarks>
         [JsiiProperty(name: "headerBody", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace stripe.IssuingPersonalizationDesign
 
         /// <summary>The header title text of the carrier letter.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_personalization_design#header_title IssuingPersonalizationDesign#header_title}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_personalization_design#header_title IssuingPersonalizationDesign#header_title}
         /// </remarks>
         [JsiiProperty(name: "headerTitle", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,7 +72,7 @@ namespace stripe.IssuingPersonalizationDesign
 
             /// <summary>The footer body text of the carrier letter.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_personalization_design#footer_body IssuingPersonalizationDesign#footer_body}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_personalization_design#footer_body IssuingPersonalizationDesign#footer_body}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "footerBody", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace stripe.IssuingPersonalizationDesign
 
             /// <summary>The footer title text of the carrier letter.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_personalization_design#footer_title IssuingPersonalizationDesign#footer_title}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_personalization_design#footer_title IssuingPersonalizationDesign#footer_title}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "footerTitle", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace stripe.IssuingPersonalizationDesign
 
             /// <summary>The header body text of the carrier letter.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_personalization_design#header_body IssuingPersonalizationDesign#header_body}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_personalization_design#header_body IssuingPersonalizationDesign#header_body}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "headerBody", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace stripe.IssuingPersonalizationDesign
 
             /// <summary>The header title text of the carrier letter.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_personalization_design#header_title IssuingPersonalizationDesign#header_title}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_personalization_design#header_title IssuingPersonalizationDesign#header_title}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "headerTitle", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

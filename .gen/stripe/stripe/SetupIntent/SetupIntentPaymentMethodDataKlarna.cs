@@ -9,7 +9,7 @@ namespace stripe.SetupIntent
     {
         /// <summary>Customer's date of birth.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#dob SetupIntent#dob}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#dob SetupIntent#dob}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dob", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodDataKlarnaDob\"}", isOptional: true)]

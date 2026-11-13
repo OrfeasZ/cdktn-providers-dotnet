@@ -33,6 +33,12 @@ namespace stripe.PaymentLink
         {
         }
 
+        [JsiiMethod(name: "putTaxDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.paymentLink.PaymentLinkLineItemsPriceDataProductDataTaxDetails\"}}]")]
+        public virtual void PutTaxDetails(stripe.PaymentLink.IPaymentLinkLineItemsPriceDataProductDataTaxDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.PaymentLink.IPaymentLinkLineItemsPriceDataProductDataTaxDetails)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetDescription")]
         public virtual void ResetDescription()
         {
@@ -57,10 +63,22 @@ namespace stripe.PaymentLink
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTaxDetails")]
+        public virtual void ResetTaxDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetUnitLabel")]
         public virtual void ResetUnitLabel()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "taxDetails", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkLineItemsPriceDataProductDataTaxDetailsOutputReference\"}")]
+        public virtual stripe.PaymentLink.PaymentLinkLineItemsPriceDataProductDataTaxDetailsOutputReference TaxDetails
+        {
+            get => GetInstanceProperty<stripe.PaymentLink.PaymentLinkLineItemsPriceDataProductDataTaxDetailsOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -96,6 +114,16 @@ namespace stripe.PaymentLink
         public virtual string? TaxCodeInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.PaymentLink.IPaymentLinkLineItemsPriceDataProductDataTaxDetails" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "taxDetailsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.paymentLink.PaymentLinkLineItemsPriceDataProductDataTaxDetails\"}]}}", isOptional: true)]
+        public virtual object? TaxDetailsInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

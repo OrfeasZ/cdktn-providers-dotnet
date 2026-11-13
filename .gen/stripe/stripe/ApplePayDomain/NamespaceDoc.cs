@@ -5,7 +5,7 @@ namespace stripe.ApplePayDomain
     /// <remarks>
     /// <h1><c>stripe_apple_pay_domain</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/apple_pay_domain"><c>stripe_apple_pay_domain</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/apple_pay_domain"><c>stripe_apple_pay_domain</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

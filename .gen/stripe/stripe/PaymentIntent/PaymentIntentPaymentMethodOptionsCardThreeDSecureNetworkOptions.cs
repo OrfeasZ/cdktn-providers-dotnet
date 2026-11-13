@@ -9,7 +9,7 @@ namespace stripe.PaymentIntent
     {
         /// <summary>Cartes Bancaires-specific 3DS fields.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#cartes_bancaires PaymentIntent#cartes_bancaires}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#cartes_bancaires PaymentIntent#cartes_bancaires}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cartesBancaires", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsCardThreeDSecureNetworkOptionsCartesBancaires\"}", isOptional: true)]

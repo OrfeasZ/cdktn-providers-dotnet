@@ -11,7 +11,7 @@ namespace stripe.ClimateOrder
     {
         /// <summary>Publicly displayable name for the end beneficiary of carbon removal.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/climate_order#public_name ClimateOrder#public_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/climate_order#public_name ClimateOrder#public_name}
         /// </remarks>
         [JsiiProperty(name: "publicName", typeJson: "{\"primitive\":\"string\"}")]
         public string PublicName

@@ -9,7 +9,7 @@ namespace stripe.Customer
     {
         /// <summary>The configuration for how funds that land in the customer cash balance are reconciled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#reconciliation_mode Customer#reconciliation_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/customer#reconciliation_mode Customer#reconciliation_mode}
         /// </remarks>
         [JsiiProperty(name: "reconciliationMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace stripe.Customer
 
             /// <summary>The configuration for how funds that land in the customer cash balance are reconciled.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer#reconciliation_mode Customer#reconciliation_mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/customer#reconciliation_mode Customer#reconciliation_mode}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "reconciliationMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

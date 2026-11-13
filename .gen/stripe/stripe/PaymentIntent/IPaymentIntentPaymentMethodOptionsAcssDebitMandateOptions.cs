@@ -9,7 +9,7 @@ namespace stripe.PaymentIntent
     {
         /// <summary>A URL for custom mandate text.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#custom_mandate_url PaymentIntent#custom_mandate_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#custom_mandate_url PaymentIntent#custom_mandate_url}
         /// </remarks>
         [JsiiProperty(name: "customMandateUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Description of the interval. Only required if the 'payment_schedule' parameter is 'interval' or 'combined'.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#interval_description PaymentIntent#interval_description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#interval_description PaymentIntent#interval_description}
         /// </remarks>
         [JsiiProperty(name: "intervalDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Payment schedule for the mandate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#payment_schedule PaymentIntent#payment_schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#payment_schedule PaymentIntent#payment_schedule}
         /// </remarks>
         [JsiiProperty(name: "paymentSchedule", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Transaction type of the mandate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#transaction_type PaymentIntent#transaction_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#transaction_type PaymentIntent#transaction_type}
         /// </remarks>
         [JsiiProperty(name: "transactionType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,7 +72,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>A URL for custom mandate text.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#custom_mandate_url PaymentIntent#custom_mandate_url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#custom_mandate_url PaymentIntent#custom_mandate_url}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "customMandateUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Description of the interval. Only required if the 'payment_schedule' parameter is 'interval' or 'combined'.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#interval_description PaymentIntent#interval_description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#interval_description PaymentIntent#interval_description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "intervalDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Payment schedule for the mandate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#payment_schedule PaymentIntent#payment_schedule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#payment_schedule PaymentIntent#payment_schedule}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "paymentSchedule", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Transaction type of the mandate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#transaction_type PaymentIntent#transaction_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#transaction_type PaymentIntent#transaction_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "transactionType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

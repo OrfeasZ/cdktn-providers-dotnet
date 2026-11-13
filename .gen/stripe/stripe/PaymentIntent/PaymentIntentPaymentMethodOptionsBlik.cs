@@ -9,11 +9,20 @@ namespace stripe.PaymentIntent
     {
         /// <summary>The 6-digit BLIK code that a customer has generated using their banking application. Can only be set on confirmation.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#code PaymentIntent#code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#code PaymentIntent#code}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "code", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Code
+        {
+            get;
+            set;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#mandate_options PaymentIntent#mandate_options}.</summary>
+        [JsiiOptional]
+        [JsiiProperty(name: "mandateOptions", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsBlikMandateOptions\"}", isOptional: true)]
+        public stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsBlikMandateOptions? MandateOptions
         {
             get;
             set;
@@ -27,7 +36,7 @@ namespace stripe.PaymentIntent
         ///
         /// When processing card payments, Stripe uses <c>setup_future_usage</c> to help you comply with regional legislation and network rules, such as <a href="/strong-customer-authentication">SCA</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "setupFutureUsage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

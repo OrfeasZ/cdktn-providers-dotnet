@@ -11,7 +11,7 @@ namespace stripe.SubscriptionSchedule
     {
         /// <summary>Three-letter [ISO currency code](https://www.iso.org/iso-4217-currency-codes.html), in lowercase. Must be a [supported currency](https://stripe.com/docs/currencies).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#currency SubscriptionSchedule#currency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#currency SubscriptionSchedule#currency}
         /// </remarks>
         [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}")]
         public string Currency
@@ -22,7 +22,7 @@ namespace stripe.SubscriptionSchedule
 
         /// <summary>The ID of the [Product](https://docs.stripe.com/api/products) that this [Price](https://docs.stripe.com/api/prices) will belong to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#product SubscriptionSchedule#product}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#product SubscriptionSchedule#product}
         /// </remarks>
         [JsiiProperty(name: "product", typeJson: "{\"primitive\":\"string\"}")]
         public string Product
@@ -33,7 +33,7 @@ namespace stripe.SubscriptionSchedule
 
         /// <summary>Only required if a [default tax behavior](https://docs.stripe.com/tax/products-prices-tax-categories-tax-behavior#setting-a-default-tax-behavior-(recommended)) was not provided in the Stripe Tax settings. Specifies whether the price is considered inclusive of taxes or exclusive of taxes. One of `inclusive`, `exclusive`, or `unspecified`. Once specified as either `inclusive` or `exclusive`, it cannot be changed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#tax_behavior SubscriptionSchedule#tax_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#tax_behavior SubscriptionSchedule#tax_behavior}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taxBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace stripe.SubscriptionSchedule
 
         /// <summary>A positive integer in cents (or local equivalent) (or 0 for a free price) representing how much to charge or a negative integer representing the amount to credit to the customer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#unit_amount SubscriptionSchedule#unit_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#unit_amount SubscriptionSchedule#unit_amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "unitAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace stripe.SubscriptionSchedule
         /// <remarks>
         /// Only one of <c>unit_amount</c> and <c>unit_amount_decimal</c> can be set.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#unit_amount_decimal SubscriptionSchedule#unit_amount_decimal}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#unit_amount_decimal SubscriptionSchedule#unit_amount_decimal}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "unitAmountDecimal", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

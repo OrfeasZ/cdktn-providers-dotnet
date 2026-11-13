@@ -11,7 +11,7 @@ namespace stripe.IssuingCard
         /// <remarks>
         /// The count includes penny authorizations, but doesn't include non-payment actions, such as authorization advice.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#payment_count IssuingCard#payment_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#payment_count IssuingCard#payment_count}
         /// </remarks>
         [JsiiProperty(name: "paymentCount", typeJson: "{\"primitive\":\"number\"}")]
         double PaymentCount
@@ -30,7 +30,7 @@ namespace stripe.IssuingCard
             /// <remarks>
             /// The count includes penny authorizations, but doesn't include non-payment actions, such as authorization advice.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#payment_count IssuingCard#payment_count}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#payment_count IssuingCard#payment_count}
             /// </remarks>
             [JsiiProperty(name: "paymentCount", typeJson: "{\"primitive\":\"number\"}")]
             public double PaymentCount

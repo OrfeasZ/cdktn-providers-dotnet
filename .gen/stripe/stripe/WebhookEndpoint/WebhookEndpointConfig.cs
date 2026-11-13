@@ -13,7 +13,7 @@ namespace stripe.WebhookEndpoint
         /// <remarks>
         /// <c>['*']</c> indicates that all events are enabled, except those that require explicit selection.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/webhook_endpoint#enabled_events WebhookEndpoint#enabled_events}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/webhook_endpoint#enabled_events WebhookEndpoint#enabled_events}
         /// </remarks>
         [JsiiProperty(name: "enabledEvents", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] EnabledEvents
@@ -24,7 +24,7 @@ namespace stripe.WebhookEndpoint
 
         /// <summary>The URL of the webhook endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/webhook_endpoint#url WebhookEndpoint#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/webhook_endpoint#url WebhookEndpoint#url}
         /// </remarks>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         public string Url
@@ -33,9 +33,11 @@ namespace stripe.WebhookEndpoint
             set;
         }
 
-        /// <summary>The API version events are rendered as for this webhook endpoint.</summary>
+        /// <summary>The API version that events are rendered as for this webhook endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/webhook_endpoint#api_version WebhookEndpoint#api_version}
+        /// You can't change this value after you create the endpoint.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/webhook_endpoint#api_version WebhookEndpoint#api_version}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "apiVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -49,7 +51,7 @@ namespace stripe.WebhookEndpoint
 
         /// <summary>Whether this endpoint should receive events from connected accounts (`true`), or from your account (`false`). Defaults to `false`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/webhook_endpoint#connect WebhookEndpoint#connect}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/webhook_endpoint#connect WebhookEndpoint#connect}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -82,7 +84,7 @@ namespace stripe.WebhookEndpoint
 
         /// <summary>An optional description of what the webhook is used for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/webhook_endpoint#description WebhookEndpoint#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/webhook_endpoint#description WebhookEndpoint#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -94,7 +96,7 @@ namespace stripe.WebhookEndpoint
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/webhook_endpoint#metadata WebhookEndpoint#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/webhook_endpoint#metadata WebhookEndpoint#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]

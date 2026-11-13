@@ -11,7 +11,7 @@ namespace stripe.SetupIntent
     {
         /// <summary>Two-letter ISO code representing the country the bank account is located in.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#country SetupIntent#country}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#country SetupIntent#country}
         /// </remarks>
         [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}")]
         public string Country

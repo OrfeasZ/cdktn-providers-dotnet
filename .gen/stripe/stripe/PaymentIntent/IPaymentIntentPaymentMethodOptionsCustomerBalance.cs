@@ -7,7 +7,7 @@ namespace stripe.PaymentIntent
     [JsiiInterface(nativeType: typeof(IPaymentIntentPaymentMethodOptionsCustomerBalance), fullyQualifiedName: "stripe.paymentIntent.PaymentIntentPaymentMethodOptionsCustomerBalance")]
     public interface IPaymentIntentPaymentMethodOptionsCustomerBalance
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#bank_transfer PaymentIntent#bank_transfer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#bank_transfer PaymentIntent#bank_transfer}.</summary>
         [JsiiProperty(name: "bankTransfer", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsCustomerBalanceBankTransfer\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsCustomerBalanceBankTransfer? BankTransfer
@@ -22,7 +22,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// Permitted values include: <c>bank_transfer</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#funding_type PaymentIntent#funding_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#funding_type PaymentIntent#funding_type}
         /// </remarks>
         [JsiiProperty(name: "fundingType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -42,7 +42,7 @@ namespace stripe.PaymentIntent
         ///
         /// When processing card payments, Stripe uses <c>setup_future_usage</c> to help you comply with regional legislation and network rules, such as <a href="/strong-customer-authentication">SCA</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
         /// </remarks>
         [JsiiProperty(name: "setupFutureUsage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace stripe.PaymentIntent
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#bank_transfer PaymentIntent#bank_transfer}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#bank_transfer PaymentIntent#bank_transfer}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bankTransfer", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsCustomerBalanceBankTransfer\"}", isOptional: true)]
             public stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsCustomerBalanceBankTransfer? BankTransfer
@@ -73,7 +73,7 @@ namespace stripe.PaymentIntent
             /// <remarks>
             /// Permitted values include: <c>bank_transfer</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#funding_type PaymentIntent#funding_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#funding_type PaymentIntent#funding_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fundingType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -90,7 +90,7 @@ namespace stripe.PaymentIntent
             ///
             /// When processing card payments, Stripe uses <c>setup_future_usage</c> to help you comply with regional legislation and network rules, such as <a href="/strong-customer-authentication">SCA</a>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "setupFutureUsage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

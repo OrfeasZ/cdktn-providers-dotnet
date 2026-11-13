@@ -9,7 +9,7 @@ namespace stripe.PaymentLink
     {
         /// <summary>Set to true if the quantity can be adjusted to any non-negative integer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#enabled PaymentLink#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#enabled PaymentLink#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -20,7 +20,7 @@ namespace stripe.PaymentLink
 
         /// <summary>The maximum quantity of this item the customer can purchase. By default this value is 99.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#maximum PaymentLink#maximum}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#maximum PaymentLink#maximum}
         /// </remarks>
         [JsiiProperty(name: "maximum", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -36,7 +36,7 @@ namespace stripe.PaymentLink
         /// <remarks>
         /// Because this item is optional, the customer will always be able to remove it from their order, even if the <c>minimum</c> configured here is greater than 0. By default this value is 0.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#minimum PaymentLink#minimum}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#minimum PaymentLink#minimum}
         /// </remarks>
         [JsiiProperty(name: "minimum", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,7 +57,7 @@ namespace stripe.PaymentLink
 
             /// <summary>Set to true if the quantity can be adjusted to any non-negative integer.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#enabled PaymentLink#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#enabled PaymentLink#enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -68,7 +68,7 @@ namespace stripe.PaymentLink
 
             /// <summary>The maximum quantity of this item the customer can purchase. By default this value is 99.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#maximum PaymentLink#maximum}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#maximum PaymentLink#maximum}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "maximum", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -81,7 +81,7 @@ namespace stripe.PaymentLink
             /// <remarks>
             /// Because this item is optional, the customer will always be able to remove it from their order, even if the <c>minimum</c> configured here is greater than 0. By default this value is 0.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#minimum PaymentLink#minimum}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#minimum PaymentLink#minimum}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "minimum", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

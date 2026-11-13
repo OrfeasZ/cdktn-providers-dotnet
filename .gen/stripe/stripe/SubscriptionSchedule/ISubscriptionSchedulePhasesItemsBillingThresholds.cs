@@ -9,7 +9,7 @@ namespace stripe.SubscriptionSchedule
     {
         /// <summary>Usage threshold that triggers the subscription to create an invoice.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#usage_gte SubscriptionSchedule#usage_gte}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#usage_gte SubscriptionSchedule#usage_gte}
         /// </remarks>
         [JsiiProperty(name: "usageGte", typeJson: "{\"primitive\":\"number\"}")]
         double UsageGte
@@ -26,7 +26,7 @@ namespace stripe.SubscriptionSchedule
 
             /// <summary>Usage threshold that triggers the subscription to create an invoice.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#usage_gte SubscriptionSchedule#usage_gte}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#usage_gte SubscriptionSchedule#usage_gte}
             /// </remarks>
             [JsiiProperty(name: "usageGte", typeJson: "{\"primitive\":\"number\"}")]
             public double UsageGte

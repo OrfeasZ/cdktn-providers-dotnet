@@ -11,7 +11,7 @@ namespace stripe.Quote
 
         /// <summary>The discounts applied to this line item.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#discounts Quote#discounts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#discounts Quote#discounts}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Quote.IQuoteLineItemsDiscounts" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -44,7 +44,7 @@ namespace stripe.Quote
 
         /// <summary>The ID of the price object. One of `price` or `price_data` is required.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#price Quote#price}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#price Quote#price}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "price", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace stripe.Quote
 
         /// <summary>Data used to generate a new [Price](https://docs.stripe.com/api/prices) object inline. One of `price` or `price_data` is required.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#price_data Quote#price_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#price_data Quote#price_data}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "priceData", typeJson: "{\"fqn\":\"stripe.quote.QuoteLineItemsPriceData\"}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace stripe.Quote
 
         /// <summary>The quantity of the line item.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#quantity Quote#quantity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#quantity Quote#quantity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "quantity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace stripe.Quote
         /// <remarks>
         /// When set, the <c>default_tax_rates</c> on the quote do not apply to this line item.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#tax_rates Quote#tax_rates}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#tax_rates Quote#tax_rates}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taxRates", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

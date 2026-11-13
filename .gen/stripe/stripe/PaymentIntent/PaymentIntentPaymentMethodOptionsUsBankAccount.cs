@@ -7,7 +7,7 @@ namespace stripe.PaymentIntent
     [JsiiByValue(fqn: "stripe.paymentIntent.PaymentIntentPaymentMethodOptionsUsBankAccount")]
     public class PaymentIntentPaymentMethodOptionsUsBankAccount : stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsUsBankAccount
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#financial_connections PaymentIntent#financial_connections}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#financial_connections PaymentIntent#financial_connections}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "financialConnections", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsUsBankAccountFinancialConnections\"}", isOptional: true)]
         public stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsUsBankAccountFinancialConnections? FinancialConnections
@@ -16,7 +16,7 @@ namespace stripe.PaymentIntent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#mandate_options PaymentIntent#mandate_options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#mandate_options PaymentIntent#mandate_options}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mandateOptions", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsUsBankAccountMandateOptions\"}", isOptional: true)]
         public stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsUsBankAccountMandateOptions? MandateOptions
@@ -27,7 +27,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Additional fields for network related functions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#networks PaymentIntent#networks}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#networks PaymentIntent#networks}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networks", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsUsBankAccountNetworks\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace stripe.PaymentIntent
         ///
         /// When processing card payments, Stripe uses <c>setup_future_usage</c> to help you comply with regional legislation and network rules, such as <a href="/strong-customer-authentication">SCA</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "setupFutureUsage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// The date must be a string in YYYY-MM-DD format. The date must be in the future and between 3 and 15 calendar days from now.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#target_date PaymentIntent#target_date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#target_date PaymentIntent#target_date}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "targetDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -71,7 +71,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>The purpose of the transaction.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#transaction_purpose PaymentIntent#transaction_purpose}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#transaction_purpose PaymentIntent#transaction_purpose}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transactionPurpose", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Bank account verification method. The default value is `automatic`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#verification_method PaymentIntent#verification_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#verification_method PaymentIntent#verification_method}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "verificationMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -39,6 +39,12 @@ namespace stripe.Subscription
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "cancelAtPeriodEnd", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable CancelAtPeriodEnd
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "discount", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Discount
         {

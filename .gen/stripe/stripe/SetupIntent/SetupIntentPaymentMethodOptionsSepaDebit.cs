@@ -7,7 +7,7 @@ namespace stripe.SetupIntent
     [JsiiByValue(fqn: "stripe.setupIntent.SetupIntentPaymentMethodOptionsSepaDebit")]
     public class SetupIntentPaymentMethodOptionsSepaDebit : stripe.SetupIntent.ISetupIntentPaymentMethodOptionsSepaDebit
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#mandate_options SetupIntent#mandate_options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#mandate_options SetupIntent#mandate_options}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mandateOptions", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodOptionsSepaDebitMandateOptions\"}", isOptional: true)]
         public stripe.SetupIntent.ISetupIntentPaymentMethodOptionsSepaDebitMandateOptions? MandateOptions

@@ -11,7 +11,7 @@ namespace stripe.PaymentIntent
     {
         /// <summary>The account number for the bank account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#account_number PaymentIntent#account_number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#account_number PaymentIntent#account_number}
         /// </remarks>
         [JsiiProperty(name: "accountNumber", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountNumber
@@ -22,7 +22,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Bank-State-Branch number of the bank account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#bsb_number PaymentIntent#bsb_number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#bsb_number PaymentIntent#bsb_number}
         /// </remarks>
         [JsiiProperty(name: "bsbNumber", typeJson: "{\"primitive\":\"string\"}")]
         public string BsbNumber

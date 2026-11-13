@@ -11,7 +11,7 @@ namespace stripe.InvoiceItem
     {
         /// <summary>The end of the period, which must be greater than or equal to the start. This value is inclusive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#end InvoiceItem#end}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#end InvoiceItem#end}
         /// </remarks>
         [JsiiProperty(name: "end", typeJson: "{\"primitive\":\"number\"}")]
         public double End
@@ -22,7 +22,7 @@ namespace stripe.InvoiceItem
 
         /// <summary>The start of the period. This value is inclusive.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#start InvoiceItem#start}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#start InvoiceItem#start}
         /// </remarks>
         [JsiiProperty(name: "start", typeJson: "{\"primitive\":\"number\"}")]
         public double Start

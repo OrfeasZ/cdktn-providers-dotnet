@@ -45,6 +45,12 @@ namespace stripe.SetupIntent
             InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.SetupIntent.ISetupIntentPaymentMethodOptionsBacsDebit)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putBlik", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodOptionsBlik\"}}]")]
+        public virtual void PutBlik(stripe.SetupIntent.ISetupIntentPaymentMethodOptionsBlik @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.SetupIntent.ISetupIntentPaymentMethodOptionsBlik)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putCard", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodOptionsCard\"}}]")]
         public virtual void PutCard(stripe.SetupIntent.ISetupIntentPaymentMethodOptionsCard @value)
         {
@@ -107,6 +113,12 @@ namespace stripe.SetupIntent
 
         [JsiiMethod(name: "resetBacsDebit")]
         public virtual void ResetBacsDebit()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetBlik")]
+        public virtual void ResetBlik()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -175,6 +187,12 @@ namespace stripe.SetupIntent
         public virtual stripe.SetupIntent.SetupIntentPaymentMethodOptionsBacsDebitOutputReference BacsDebit
         {
             get => GetInstanceProperty<stripe.SetupIntent.SetupIntentPaymentMethodOptionsBacsDebitOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "blik", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodOptionsBlikOutputReference\"}")]
+        public virtual stripe.SetupIntent.SetupIntentPaymentMethodOptionsBlikOutputReference Blik
+        {
+            get => GetInstanceProperty<stripe.SetupIntent.SetupIntentPaymentMethodOptionsBlikOutputReference>()!;
         }
 
         [JsiiProperty(name: "card", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodOptionsCardOutputReference\"}")]
@@ -247,6 +265,16 @@ namespace stripe.SetupIntent
         [JsiiOptional]
         [JsiiProperty(name: "bacsDebitInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodOptionsBacsDebit\"}]}}", isOptional: true)]
         public virtual object? BacsDebitInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.SetupIntent.ISetupIntentPaymentMethodOptionsBlik" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "blikInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodOptionsBlik\"}]}}", isOptional: true)]
+        public virtual object? BlikInput
         {
             get => GetInstanceProperty<object?>();
         }

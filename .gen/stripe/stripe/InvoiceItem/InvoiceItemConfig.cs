@@ -9,7 +9,7 @@ namespace stripe.InvoiceItem
     {
         /// <summary>Amount (in the `currency` specified) of the invoice item. This should always be equal to `unit_amount * quantity`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#amount InvoiceItem#amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#amount InvoiceItem#amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace stripe.InvoiceItem
 
         /// <summary>Three-letter [ISO currency code](https://www.iso.org/iso-4217-currency-codes.html), in lowercase. Must be a [supported currency](https://stripe.com/docs/currencies).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#currency InvoiceItem#currency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#currency InvoiceItem#currency}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace stripe.InvoiceItem
 
         /// <summary>The ID of the customer to bill for this invoice item.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#customer InvoiceItem#customer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#customer InvoiceItem#customer}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace stripe.InvoiceItem
 
         /// <summary>An arbitrary string attached to the object. Often useful for displaying to users.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#description InvoiceItem#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#description InvoiceItem#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace stripe.InvoiceItem
 
         /// <summary>If true, discounts will apply to this invoice item. Always false for prorations.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#discountable InvoiceItem#discountable}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#discountable InvoiceItem#discountable}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -96,7 +96,7 @@ namespace stripe.InvoiceItem
         /// <remarks>
         /// Item discounts are applied before invoice discounts. Use <c>expand[]=discounts</c> to expand each discount.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#discounts InvoiceItem#discounts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#discounts InvoiceItem#discounts}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.InvoiceItem.IInvoiceItemDiscounts" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -129,7 +129,7 @@ namespace stripe.InvoiceItem
 
         /// <summary>The ID of the invoice this invoice item belongs to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#invoice InvoiceItem#invoice}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#invoice InvoiceItem#invoice}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "invoice", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -139,9 +139,46 @@ namespace stripe.InvoiceItem
             set;
         }
 
+        private object? _invoicingRules;
+
+        /// <summary>The rules that control when this invoice item is eligible for invoicing.</summary>
+        /// <remarks>
+        /// All rules must be satisfied for the item to be invoiced.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#invoicing_rules InvoiceItem#invoicing_rules}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.InvoiceItem.IInvoiceItemInvoicingRules" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "invoicingRules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.invoiceItem.InvoiceItemInvoicingRules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? InvoicingRules
+        {
+            get => _invoicingRules;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case stripe.InvoiceItem.IInvoiceItemInvoicingRules[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.InvoiceItem.IInvoiceItemInvoicingRules).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _invoicingRules = value;
+            }
+        }
+
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#metadata InvoiceItem#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#metadata InvoiceItem#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -151,7 +188,7 @@ namespace stripe.InvoiceItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#period InvoiceItem#period}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#period InvoiceItem#period}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "period", typeJson: "{\"fqn\":\"stripe.invoiceItem.InvoiceItemPeriod\"}", isOptional: true)]
         public stripe.InvoiceItem.IInvoiceItemPeriod? Period
@@ -162,7 +199,7 @@ namespace stripe.InvoiceItem
 
         /// <summary>Data used to generate a new [Price](https://docs.stripe.com/api/prices) object inline.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#price_data InvoiceItem#price_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#price_data InvoiceItem#price_data}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "priceData", typeJson: "{\"fqn\":\"stripe.invoiceItem.InvoiceItemPriceData\"}", isOptional: true)]
@@ -174,7 +211,7 @@ namespace stripe.InvoiceItem
 
         /// <summary>The pricing information of the invoice item.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#pricing InvoiceItem#pricing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#pricing InvoiceItem#pricing}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pricing", typeJson: "{\"fqn\":\"stripe.invoiceItem.InvoiceItemPricing\"}", isOptional: true)]
@@ -188,7 +225,7 @@ namespace stripe.InvoiceItem
         /// <remarks>
         /// For the item's full-precision decimal quantity, use <c>quantity_decimal</c>. This field will be deprecated in favor of <c>quantity_decimal</c> in a future version. If the invoice item is a proration, the quantity of the subscription that the proration was computed for.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#quantity InvoiceItem#quantity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#quantity InvoiceItem#quantity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "quantity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -200,7 +237,7 @@ namespace stripe.InvoiceItem
 
         /// <summary>Non-negative decimal with at most 12 decimal places. The quantity of units for the invoice item.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#quantity_decimal InvoiceItem#quantity_decimal}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#quantity_decimal InvoiceItem#quantity_decimal}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "quantityDecimal", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -214,7 +251,7 @@ namespace stripe.InvoiceItem
         /// <remarks>
         /// When left blank, the invoice item is added to the next upcoming scheduled invoice. When set, scheduled invoices for subscriptions other than the specified subscription will ignore the invoice item. Use this when you want to express that an invoice item has been accrued within the context of a particular subscription.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#subscription InvoiceItem#subscription}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#subscription InvoiceItem#subscription}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "subscription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -226,7 +263,7 @@ namespace stripe.InvoiceItem
 
         /// <summary>Only required if a [default tax behavior](https://docs.stripe.com/tax/products-prices-tax-categories-tax-behavior#setting-a-default-tax-behavior-(recommended)) was not provided in the Stripe Tax settings. Specifies whether the price is considered inclusive of taxes or exclusive of taxes. One of `inclusive`, `exclusive`, or `unspecified`. Once specified as either `inclusive` or `exclusive`, it cannot be changed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#tax_behavior InvoiceItem#tax_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#tax_behavior InvoiceItem#tax_behavior}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taxBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -238,7 +275,7 @@ namespace stripe.InvoiceItem
 
         /// <summary>A [tax code](https://docs.stripe.com/tax/tax-categories) ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#tax_code InvoiceItem#tax_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#tax_code InvoiceItem#tax_code}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taxCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -252,7 +289,7 @@ namespace stripe.InvoiceItem
         /// <remarks>
         /// When set, the <c>default_tax_rates</c> on the invoice do not apply to this invoice item.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#tax_rates InvoiceItem#tax_rates}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#tax_rates InvoiceItem#tax_rates}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taxRates", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -266,7 +303,7 @@ namespace stripe.InvoiceItem
         /// <remarks>
         /// This <c>unit_amount_decimal</c> will be multiplied by the quantity to get the full amount. Passing in a negative <c>unit_amount_decimal</c> will reduce the <c>amount_due</c> on the invoice. Accepts at most 12 decimal places.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#unit_amount_decimal InvoiceItem#unit_amount_decimal}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#unit_amount_decimal InvoiceItem#unit_amount_decimal}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "unitAmountDecimal", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

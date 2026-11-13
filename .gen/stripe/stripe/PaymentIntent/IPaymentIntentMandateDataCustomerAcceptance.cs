@@ -9,7 +9,7 @@ namespace stripe.PaymentIntent
     {
         /// <summary>The type of customer acceptance information included with the Mandate. One of `online` or `offline`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#type PaymentIntent#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#type PaymentIntent#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -19,7 +19,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>The time at which the customer accepted the Mandate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#accepted_at PaymentIntent#accepted_at}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#accepted_at PaymentIntent#accepted_at}
         /// </remarks>
         [JsiiProperty(name: "acceptedAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +33,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>If this is a Mandate accepted online, this hash contains details about the online acceptance.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#online PaymentIntent#online}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#online PaymentIntent#online}
         /// </remarks>
         [JsiiProperty(name: "online", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentMandateDataCustomerAcceptanceOnline\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +54,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>The type of customer acceptance information included with the Mandate. One of `online` or `offline`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#type PaymentIntent#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#type PaymentIntent#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -64,7 +64,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>The time at which the customer accepted the Mandate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#accepted_at PaymentIntent#accepted_at}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#accepted_at PaymentIntent#accepted_at}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "acceptedAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>If this is a Mandate accepted online, this hash contains details about the online acceptance.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#online PaymentIntent#online}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#online PaymentIntent#online}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "online", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentMandateDataCustomerAcceptanceOnline\"}", isOptional: true)]

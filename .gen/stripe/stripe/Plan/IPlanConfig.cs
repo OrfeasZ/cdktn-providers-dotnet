@@ -9,7 +9,7 @@ namespace stripe.Plan
     {
         /// <summary>Three-letter [ISO currency code](https://www.iso.org/iso-4217-currency-codes.html), in lowercase. Must be a [supported currency](https://stripe.com/docs/currencies).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#currency Plan#currency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#currency Plan#currency}
         /// </remarks>
         [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}")]
         string Currency
@@ -19,7 +19,7 @@ namespace stripe.Plan
 
         /// <summary>The frequency at which a subscription is billed. One of `day`, `week`, `month` or `year`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#interval Plan#interval}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#interval Plan#interval}
         /// </remarks>
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
         string Interval
@@ -29,7 +29,7 @@ namespace stripe.Plan
 
         /// <summary>Whether the plan can be used for new purchases.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#active Plan#active}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#active Plan#active}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "active", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace stripe.Plan
         /// <remarks>
         /// Only set if <c>billing_scheme=per_unit</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#amount Plan#amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#amount Plan#amount}
         /// </remarks>
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -62,7 +62,7 @@ namespace stripe.Plan
         /// <remarks>
         /// Only set if <c>billing_scheme=per_unit</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#amount_decimal Plan#amount_decimal}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#amount_decimal Plan#amount_decimal}
         /// </remarks>
         [JsiiProperty(name: "amountDecimal", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,7 +78,7 @@ namespace stripe.Plan
         /// <remarks>
         /// Either <c>per_unit</c> or <c>tiered</c>. <c>per_unit</c> indicates that the fixed amount (specified in <c>amount</c>) will be charged per unit in <c>quantity</c> (for plans with <c>usage_type=licensed</c>), or per unit of total usage (for plans with <c>usage_type=metered</c>). <c>tiered</c> indicates that the unit pricing will be computed using a tiering strategy as defined using the <c>tiers</c> and <c>tiers_mode</c> attributes.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#billing_scheme Plan#billing_scheme}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#billing_scheme Plan#billing_scheme}
         /// </remarks>
         [JsiiProperty(name: "billingScheme", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -90,11 +90,28 @@ namespace stripe.Plan
             }
         }
 
+        /// <summary>Unique identifier for the object.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#id Plan#id}
+        ///
+        /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+        /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+        /// </remarks>
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? Id
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>The number of intervals (specified in the `interval` attribute) between subscription billings.</summary>
         /// <remarks>
         /// For example, <c>interval=month</c> and <c>interval_count=3</c> bills every 3 months.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#interval_count Plan#interval_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#interval_count Plan#interval_count}
         /// </remarks>
         [JsiiProperty(name: "intervalCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -108,7 +125,7 @@ namespace stripe.Plan
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#metadata Plan#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#metadata Plan#metadata}
         /// </remarks>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -122,7 +139,7 @@ namespace stripe.Plan
 
         /// <summary>The meter tracking the usage of a metered price.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#meter Plan#meter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#meter Plan#meter}
         /// </remarks>
         [JsiiProperty(name: "meter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -136,7 +153,7 @@ namespace stripe.Plan
 
         /// <summary>A brief description of the plan, hidden from customers.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#nickname Plan#nickname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#nickname Plan#nickname}
         /// </remarks>
         [JsiiProperty(name: "nickname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -150,7 +167,7 @@ namespace stripe.Plan
 
         /// <summary>The product whose pricing this plan determines.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#product Plan#product}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#product Plan#product}
         /// </remarks>
         [JsiiProperty(name: "product", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -166,7 +183,7 @@ namespace stripe.Plan
         /// <remarks>
         /// This parameter requires <c>billing_scheme</c> to be set to <c>tiered</c>. See also the documentation for <c>billing_scheme</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#tiers Plan#tiers}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#tiers Plan#tiers}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Plan.IPlanTiers" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "tiers", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.plan.PlanTiers\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -183,7 +200,7 @@ namespace stripe.Plan
         /// <remarks>
         /// In <c>volume</c>-based tiering, the maximum quantity within a period determines the per unit price. In <c>graduated</c> tiering, pricing can change as the quantity grows.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#tiers_mode Plan#tiers_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#tiers_mode Plan#tiers_mode}
         /// </remarks>
         [JsiiProperty(name: "tiersMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -199,7 +216,7 @@ namespace stripe.Plan
         /// <remarks>
         /// Cannot be combined with <c>tiers</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#transform_usage Plan#transform_usage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#transform_usage Plan#transform_usage}
         /// </remarks>
         [JsiiProperty(name: "transformUsage", typeJson: "{\"fqn\":\"stripe.plan.PlanTransformUsage\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -213,7 +230,7 @@ namespace stripe.Plan
 
         /// <summary>Default number of trial days when subscribing a customer to this plan using [`trial_from_plan=true`](https://docs.stripe.com/api#create_subscription-trial_from_plan).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#trial_period_days Plan#trial_period_days}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#trial_period_days Plan#trial_period_days}
         /// </remarks>
         [JsiiProperty(name: "trialPeriodDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -229,7 +246,7 @@ namespace stripe.Plan
         /// <remarks>
         /// Can be either <c>metered</c> or <c>licensed</c>. <c>licensed</c> automatically bills the <c>quantity</c> set when adding it to a subscription. <c>metered</c> aggregates the total usage based on usage records. Defaults to <c>licensed</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#usage_type Plan#usage_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#usage_type Plan#usage_type}
         /// </remarks>
         [JsiiProperty(name: "usageType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -250,7 +267,7 @@ namespace stripe.Plan
 
             /// <summary>Three-letter [ISO currency code](https://www.iso.org/iso-4217-currency-codes.html), in lowercase. Must be a [supported currency](https://stripe.com/docs/currencies).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#currency Plan#currency}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#currency Plan#currency}
             /// </remarks>
             [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}")]
             public string Currency
@@ -260,7 +277,7 @@ namespace stripe.Plan
 
             /// <summary>The frequency at which a subscription is billed. One of `day`, `week`, `month` or `year`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#interval Plan#interval}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#interval Plan#interval}
             /// </remarks>
             [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
             public string Interval
@@ -270,7 +287,7 @@ namespace stripe.Plan
 
             /// <summary>Whether the plan can be used for new purchases.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#active Plan#active}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#active Plan#active}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -284,7 +301,7 @@ namespace stripe.Plan
             /// <remarks>
             /// Only set if <c>billing_scheme=per_unit</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#amount Plan#amount}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#amount Plan#amount}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -297,7 +314,7 @@ namespace stripe.Plan
             /// <remarks>
             /// Only set if <c>billing_scheme=per_unit</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#amount_decimal Plan#amount_decimal}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#amount_decimal Plan#amount_decimal}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "amountDecimal", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -310,7 +327,7 @@ namespace stripe.Plan
             /// <remarks>
             /// Either <c>per_unit</c> or <c>tiered</c>. <c>per_unit</c> indicates that the fixed amount (specified in <c>amount</c>) will be charged per unit in <c>quantity</c> (for plans with <c>usage_type=licensed</c>), or per unit of total usage (for plans with <c>usage_type=metered</c>). <c>tiered</c> indicates that the unit pricing will be computed using a tiering strategy as defined using the <c>tiers</c> and <c>tiers_mode</c> attributes.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#billing_scheme Plan#billing_scheme}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#billing_scheme Plan#billing_scheme}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "billingScheme", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -319,11 +336,25 @@ namespace stripe.Plan
                 get => GetInstanceProperty<string?>();
             }
 
+            /// <summary>Unique identifier for the object.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#id Plan#id}
+            ///
+            /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+            /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? Id
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
             /// <summary>The number of intervals (specified in the `interval` attribute) between subscription billings.</summary>
             /// <remarks>
             /// For example, <c>interval=month</c> and <c>interval_count=3</c> bills every 3 months.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#interval_count Plan#interval_count}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#interval_count Plan#interval_count}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "intervalCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -334,7 +365,7 @@ namespace stripe.Plan
 
             /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#metadata Plan#metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#metadata Plan#metadata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -345,7 +376,7 @@ namespace stripe.Plan
 
             /// <summary>The meter tracking the usage of a metered price.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#meter Plan#meter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#meter Plan#meter}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "meter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -356,7 +387,7 @@ namespace stripe.Plan
 
             /// <summary>A brief description of the plan, hidden from customers.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#nickname Plan#nickname}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#nickname Plan#nickname}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "nickname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -367,7 +398,7 @@ namespace stripe.Plan
 
             /// <summary>The product whose pricing this plan determines.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#product Plan#product}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#product Plan#product}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "product", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -380,7 +411,7 @@ namespace stripe.Plan
             /// <remarks>
             /// This parameter requires <c>billing_scheme</c> to be set to <c>tiered</c>. See also the documentation for <c>billing_scheme</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#tiers Plan#tiers}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#tiers Plan#tiers}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Plan.IPlanTiers" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -394,7 +425,7 @@ namespace stripe.Plan
             /// <remarks>
             /// In <c>volume</c>-based tiering, the maximum quantity within a period determines the per unit price. In <c>graduated</c> tiering, pricing can change as the quantity grows.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#tiers_mode Plan#tiers_mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#tiers_mode Plan#tiers_mode}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tiersMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -407,7 +438,7 @@ namespace stripe.Plan
             /// <remarks>
             /// Cannot be combined with <c>tiers</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#transform_usage Plan#transform_usage}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#transform_usage Plan#transform_usage}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "transformUsage", typeJson: "{\"fqn\":\"stripe.plan.PlanTransformUsage\"}", isOptional: true)]
@@ -418,7 +449,7 @@ namespace stripe.Plan
 
             /// <summary>Default number of trial days when subscribing a customer to this plan using [`trial_from_plan=true`](https://docs.stripe.com/api#create_subscription-trial_from_plan).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#trial_period_days Plan#trial_period_days}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#trial_period_days Plan#trial_period_days}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "trialPeriodDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -431,7 +462,7 @@ namespace stripe.Plan
             /// <remarks>
             /// Can be either <c>metered</c> or <c>licensed</c>. <c>licensed</c> automatically bills the <c>quantity</c> set when adding it to a subscription. <c>metered</c> aggregates the total usage based on usage records. Defaults to <c>licensed</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/plan#usage_type Plan#usage_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/plan#usage_type Plan#usage_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "usageType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

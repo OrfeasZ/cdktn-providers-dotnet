@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace stripe.PaymentMethodConfiguration
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method_configuration stripe_payment_method_configuration}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method_configuration stripe_payment_method_configuration}.</summary>
     [JsiiClass(nativeType: typeof(stripe.PaymentMethodConfiguration.PaymentMethodConfiguration), fullyQualifiedName: "stripe.paymentMethodConfiguration.PaymentMethodConfiguration", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"stripe.paymentMethodConfiguration.PaymentMethodConfigurationConfig\"}}]")]
     public class PaymentMethodConfiguration : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method_configuration stripe_payment_method_configuration} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method_configuration stripe_payment_method_configuration} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public PaymentMethodConfiguration(Constructs.Construct scope, string id, stripe.PaymentMethodConfiguration.IPaymentMethodConfigurationConfig? config = null): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace stripe.PaymentMethodConfiguration
         /// <param name="importToId">The construct id used in the generated config for the PaymentMethodConfiguration to import.</param>
         /// <param name="importFromId">The id of the existing PaymentMethodConfiguration that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the PaymentMethodConfiguration to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the PaymentMethodConfiguration to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method_configuration#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing PaymentMethodConfiguration that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the PaymentMethodConfiguration to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the PaymentMethodConfiguration to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method_configuration#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing PaymentMethodConfiguration that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the PaymentMethodConfiguration to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(stripe.PaymentMethodConfiguration.PaymentMethodConfiguration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -304,6 +304,12 @@ namespace stripe.PaymentMethodConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.PaymentMethodConfiguration.IPaymentMethodConfigurationPaypal)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putPaypay", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.paymentMethodConfiguration.PaymentMethodConfigurationPaypay\"}}]")]
+        public virtual void PutPaypay(stripe.PaymentMethodConfiguration.IPaymentMethodConfigurationPaypay @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.PaymentMethodConfiguration.IPaymentMethodConfigurationPaypay)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putPayto", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.paymentMethodConfiguration.PaymentMethodConfigurationPayto\"}}]")]
         public virtual void PutPayto(stripe.PaymentMethodConfiguration.IPaymentMethodConfigurationPayto @value)
         {
@@ -350,6 +356,12 @@ namespace stripe.PaymentMethodConfiguration
         public virtual void PutSepaDebit(stripe.PaymentMethodConfiguration.IPaymentMethodConfigurationSepaDebit @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.PaymentMethodConfiguration.IPaymentMethodConfigurationSepaDebit)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putSequra", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.paymentMethodConfiguration.PaymentMethodConfigurationSequra\"}}]")]
+        public virtual void PutSequra(stripe.PaymentMethodConfiguration.IPaymentMethodConfigurationSequra @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.PaymentMethodConfiguration.IPaymentMethodConfigurationSequra)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putSofort", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.paymentMethodConfiguration.PaymentMethodConfigurationSofort\"}}]")]
@@ -676,6 +688,12 @@ namespace stripe.PaymentMethodConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetPaypay")]
+        public virtual void ResetPaypay()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetPayto")]
         public virtual void ResetPayto()
         {
@@ -720,6 +738,12 @@ namespace stripe.PaymentMethodConfiguration
 
         [JsiiMethod(name: "resetSepaDebit")]
         public virtual void ResetSepaDebit()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSequra")]
+        public virtual void ResetSequra()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -1079,6 +1103,12 @@ namespace stripe.PaymentMethodConfiguration
             get => GetInstanceProperty<stripe.PaymentMethodConfiguration.PaymentMethodConfigurationPaypalOutputReference>()!;
         }
 
+        [JsiiProperty(name: "paypay", typeJson: "{\"fqn\":\"stripe.paymentMethodConfiguration.PaymentMethodConfigurationPaypayOutputReference\"}")]
+        public virtual stripe.PaymentMethodConfiguration.PaymentMethodConfigurationPaypayOutputReference Paypay
+        {
+            get => GetInstanceProperty<stripe.PaymentMethodConfiguration.PaymentMethodConfigurationPaypayOutputReference>()!;
+        }
+
         [JsiiProperty(name: "payto", typeJson: "{\"fqn\":\"stripe.paymentMethodConfiguration.PaymentMethodConfigurationPaytoOutputReference\"}")]
         public virtual stripe.PaymentMethodConfiguration.PaymentMethodConfigurationPaytoOutputReference Payto
         {
@@ -1125,6 +1155,12 @@ namespace stripe.PaymentMethodConfiguration
         public virtual stripe.PaymentMethodConfiguration.PaymentMethodConfigurationSepaDebitOutputReference SepaDebit
         {
             get => GetInstanceProperty<stripe.PaymentMethodConfiguration.PaymentMethodConfigurationSepaDebitOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "sequra", typeJson: "{\"fqn\":\"stripe.paymentMethodConfiguration.PaymentMethodConfigurationSequraOutputReference\"}")]
+        public virtual stripe.PaymentMethodConfiguration.PaymentMethodConfigurationSequraOutputReference Sequra
+        {
+            get => GetInstanceProperty<stripe.PaymentMethodConfiguration.PaymentMethodConfigurationSequraOutputReference>()!;
         }
 
         [JsiiProperty(name: "sofort", typeJson: "{\"fqn\":\"stripe.paymentMethodConfiguration.PaymentMethodConfigurationSofortOutputReference\"}")]
@@ -1630,6 +1666,16 @@ namespace stripe.PaymentMethodConfiguration
         }
 
         /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.PaymentMethodConfiguration.IPaymentMethodConfigurationPaypay" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "paypayInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.paymentMethodConfiguration.PaymentMethodConfigurationPaypay\"}]}}", isOptional: true)]
+        public virtual object? PaypayInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.PaymentMethodConfiguration.IPaymentMethodConfigurationPayto" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -1705,6 +1751,16 @@ namespace stripe.PaymentMethodConfiguration
         [JsiiOptional]
         [JsiiProperty(name: "sepaDebitInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.paymentMethodConfiguration.PaymentMethodConfigurationSepaDebit\"}]}}", isOptional: true)]
         public virtual object? SepaDebitInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.PaymentMethodConfiguration.IPaymentMethodConfigurationSequra" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "sequraInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.paymentMethodConfiguration.PaymentMethodConfigurationSequra\"}]}}", isOptional: true)]
+        public virtual object? SequraInput
         {
             get => GetInstanceProperty<object?>();
         }

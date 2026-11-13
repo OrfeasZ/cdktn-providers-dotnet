@@ -13,7 +13,7 @@ namespace stripe.BillingPortalConfiguration
 
         /// <summary>Whether the feature is enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#enabled BillingPortalConfiguration#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#enabled BillingPortalConfiguration#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -43,7 +43,7 @@ namespace stripe.BillingPortalConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#cancellation_reason BillingPortalConfiguration#cancellation_reason}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#cancellation_reason BillingPortalConfiguration#cancellation_reason}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cancellationReason", typeJson: "{\"fqn\":\"stripe.billingPortalConfiguration.BillingPortalConfigurationFeaturesSubscriptionCancelCancellationReason\"}", isOptional: true)]
         public stripe.BillingPortalConfiguration.IBillingPortalConfigurationFeaturesSubscriptionCancelCancellationReason? CancellationReason
@@ -54,7 +54,7 @@ namespace stripe.BillingPortalConfiguration
 
         /// <summary>Whether to cancel subscriptions immediately or at the end of the billing period.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#mode BillingPortalConfiguration#mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#mode BillingPortalConfiguration#mode}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -66,7 +66,7 @@ namespace stripe.BillingPortalConfiguration
 
         /// <summary>Whether to create prorations when canceling subscriptions. Possible values are `none` and `create_prorations`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#proration_behavior BillingPortalConfiguration#proration_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#proration_behavior BillingPortalConfiguration#proration_behavior}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "prorationBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

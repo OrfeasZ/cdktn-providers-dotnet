@@ -9,7 +9,7 @@ namespace stripe.BillingPortalConfiguration
     {
         /// <summary>The messaging shown to customers in the portal.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#headline BillingPortalConfiguration#headline}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#headline BillingPortalConfiguration#headline}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "headline", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace stripe.BillingPortalConfiguration
 
         /// <summary>A link to the business’s publicly available privacy policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#privacy_policy_url BillingPortalConfiguration#privacy_policy_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#privacy_policy_url BillingPortalConfiguration#privacy_policy_url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "privacyPolicyUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace stripe.BillingPortalConfiguration
 
         /// <summary>A link to the business’s publicly available terms of service.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#terms_of_service_url BillingPortalConfiguration#terms_of_service_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#terms_of_service_url BillingPortalConfiguration#terms_of_service_url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "termsOfServiceUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

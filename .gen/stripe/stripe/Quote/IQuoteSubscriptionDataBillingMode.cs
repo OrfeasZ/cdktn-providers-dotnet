@@ -9,7 +9,7 @@ namespace stripe.Quote
     {
         /// <summary>Controls how prorations and invoices for subscriptions are calculated and orchestrated.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#type Quote#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#type Quote#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -17,7 +17,7 @@ namespace stripe.Quote
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#flexible Quote#flexible}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#flexible Quote#flexible}.</summary>
         [JsiiProperty(name: "flexible", typeJson: "{\"fqn\":\"stripe.quote.QuoteSubscriptionDataBillingModeFlexible\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.Quote.IQuoteSubscriptionDataBillingModeFlexible? Flexible
@@ -37,7 +37,7 @@ namespace stripe.Quote
 
             /// <summary>Controls how prorations and invoices for subscriptions are calculated and orchestrated.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#type Quote#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#type Quote#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -45,7 +45,7 @@ namespace stripe.Quote
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#flexible Quote#flexible}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#flexible Quote#flexible}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "flexible", typeJson: "{\"fqn\":\"stripe.quote.QuoteSubscriptionDataBillingModeFlexible\"}", isOptional: true)]
             public stripe.Quote.IQuoteSubscriptionDataBillingModeFlexible? Flexible

@@ -39,6 +39,12 @@ namespace stripe.PaymentIntent
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSetupFutureUsage")]
+        public virtual void ResetSetupFutureUsage()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "captureMethodInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CaptureMethodInput
@@ -46,8 +52,22 @@ namespace stripe.PaymentIntent
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiOptional]
+        [JsiiProperty(name: "setupFutureUsageInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SetupFutureUsageInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "captureMethod", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CaptureMethod
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "setupFutureUsage", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SetupFutureUsage
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

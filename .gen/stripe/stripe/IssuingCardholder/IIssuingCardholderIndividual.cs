@@ -9,7 +9,7 @@ namespace stripe.IssuingCardholder
     {
         /// <summary>Information related to the card_issuing program for this cardholder.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#card_issuing IssuingCardholder#card_issuing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#card_issuing IssuingCardholder#card_issuing}
         /// </remarks>
         [JsiiProperty(name: "cardIssuing", typeJson: "{\"fqn\":\"stripe.issuingCardholder.IssuingCardholderIndividualCardIssuing\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace stripe.IssuingCardholder
 
         /// <summary>The date of birth of this cardholder.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#dob IssuingCardholder#dob}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#dob IssuingCardholder#dob}
         /// </remarks>
         [JsiiProperty(name: "dob", typeJson: "{\"fqn\":\"stripe.issuingCardholder.IssuingCardholderIndividualDob\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -39,7 +39,7 @@ namespace stripe.IssuingCardholder
         /// <remarks>
         /// Required before activating Cards. This field cannot contain any numbers, special characters (except periods, commas, hyphens, spaces and apostrophes) or non-latin letters.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#first_name IssuingCardholder#first_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#first_name IssuingCardholder#first_name}
         /// </remarks>
         [JsiiProperty(name: "firstName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -55,7 +55,7 @@ namespace stripe.IssuingCardholder
         /// <remarks>
         /// Required before activating Cards. This field cannot contain any numbers, special characters (except periods, commas, hyphens, spaces and apostrophes) or non-latin letters.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#last_name IssuingCardholder#last_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#last_name IssuingCardholder#last_name}
         /// </remarks>
         [JsiiProperty(name: "lastName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -69,7 +69,7 @@ namespace stripe.IssuingCardholder
 
         /// <summary>Government-issued ID document for this cardholder.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#verification IssuingCardholder#verification}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#verification IssuingCardholder#verification}
         /// </remarks>
         [JsiiProperty(name: "verification", typeJson: "{\"fqn\":\"stripe.issuingCardholder.IssuingCardholderIndividualVerification\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -90,7 +90,7 @@ namespace stripe.IssuingCardholder
 
             /// <summary>Information related to the card_issuing program for this cardholder.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#card_issuing IssuingCardholder#card_issuing}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#card_issuing IssuingCardholder#card_issuing}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cardIssuing", typeJson: "{\"fqn\":\"stripe.issuingCardholder.IssuingCardholderIndividualCardIssuing\"}", isOptional: true)]
@@ -101,7 +101,7 @@ namespace stripe.IssuingCardholder
 
             /// <summary>The date of birth of this cardholder.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#dob IssuingCardholder#dob}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#dob IssuingCardholder#dob}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dob", typeJson: "{\"fqn\":\"stripe.issuingCardholder.IssuingCardholderIndividualDob\"}", isOptional: true)]
@@ -114,7 +114,7 @@ namespace stripe.IssuingCardholder
             /// <remarks>
             /// Required before activating Cards. This field cannot contain any numbers, special characters (except periods, commas, hyphens, spaces and apostrophes) or non-latin letters.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#first_name IssuingCardholder#first_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#first_name IssuingCardholder#first_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "firstName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -127,7 +127,7 @@ namespace stripe.IssuingCardholder
             /// <remarks>
             /// Required before activating Cards. This field cannot contain any numbers, special characters (except periods, commas, hyphens, spaces and apostrophes) or non-latin letters.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#last_name IssuingCardholder#last_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#last_name IssuingCardholder#last_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lastName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -138,7 +138,7 @@ namespace stripe.IssuingCardholder
 
             /// <summary>Government-issued ID document for this cardholder.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#verification IssuingCardholder#verification}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#verification IssuingCardholder#verification}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "verification", typeJson: "{\"fqn\":\"stripe.issuingCardholder.IssuingCardholderIndividualVerification\"}", isOptional: true)]

@@ -321,6 +321,12 @@ namespace stripe.Charge
             get => GetInstanceProperty<stripe.Charge.ChargePaymentMethodDetailsSepaDebitOutputReference>()!;
         }
 
+        [JsiiProperty(name: "sequra", typeJson: "{\"fqn\":\"stripe.charge.ChargePaymentMethodDetailsSequraOutputReference\"}")]
+        public virtual stripe.Charge.ChargePaymentMethodDetailsSequraOutputReference Sequra
+        {
+            get => GetInstanceProperty<stripe.Charge.ChargePaymentMethodDetailsSequraOutputReference>()!;
+        }
+
         [JsiiProperty(name: "sofort", typeJson: "{\"fqn\":\"stripe.charge.ChargePaymentMethodDetailsSofortOutputReference\"}")]
         public virtual stripe.Charge.ChargePaymentMethodDetailsSofortOutputReference Sofort
         {

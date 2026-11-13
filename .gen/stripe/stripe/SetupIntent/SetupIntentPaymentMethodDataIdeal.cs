@@ -9,7 +9,7 @@ namespace stripe.SetupIntent
     {
         /// <summary>The customer's bank. Only use this parameter for existing customers. Don't use it for new customers.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#bank SetupIntent#bank}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#bank SetupIntent#bank}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bank", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

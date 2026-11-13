@@ -9,7 +9,7 @@ namespace stripe.PaymentMethodDomain
     {
         /// <summary>The domain name that this payment method domain object represents.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method_domain#domain_name PaymentMethodDomain#domain_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method_domain#domain_name PaymentMethodDomain#domain_name}
         /// </remarks>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         string DomainName
@@ -21,7 +21,7 @@ namespace stripe.PaymentMethodDomain
         /// <remarks>
         /// If the domain is not enabled, payment methods that require a payment method domain will not appear in Elements.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method_domain#enabled PaymentMethodDomain#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method_domain#enabled PaymentMethodDomain#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace stripe.PaymentMethodDomain
 
             /// <summary>The domain name that this payment method domain object represents.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method_domain#domain_name PaymentMethodDomain#domain_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method_domain#domain_name PaymentMethodDomain#domain_name}
             /// </remarks>
             [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
             public string DomainName
@@ -55,7 +55,7 @@ namespace stripe.PaymentMethodDomain
             /// <remarks>
             /// If the domain is not enabled, payment methods that require a payment method domain will not appear in Elements.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method_domain#enabled PaymentMethodDomain#enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method_domain#enabled PaymentMethodDomain#enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

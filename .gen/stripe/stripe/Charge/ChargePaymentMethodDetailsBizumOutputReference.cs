@@ -33,6 +33,12 @@ namespace stripe.Charge
         {
         }
 
+        [JsiiProperty(name: "buyerId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BuyerId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "transactionId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TransactionId
         {

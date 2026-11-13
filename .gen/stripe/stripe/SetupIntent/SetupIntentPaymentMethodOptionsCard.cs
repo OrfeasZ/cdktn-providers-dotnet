@@ -9,7 +9,7 @@ namespace stripe.SetupIntent
     {
         /// <summary>Configuration options for setting up an eMandate for cards issued in India.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#mandate_options SetupIntent#mandate_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#mandate_options SetupIntent#mandate_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mandateOptions", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodOptionsCardMandateOptions\"}", isOptional: true)]
@@ -26,7 +26,7 @@ namespace stripe.SetupIntent
         /// This
         /// parameter can only be provided during confirmation.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#moto SetupIntent#moto}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#moto SetupIntent#moto}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -61,7 +61,7 @@ namespace stripe.SetupIntent
         /// <remarks>
         /// Depends on the available networks of the card attached to the setup intent. Can be only set confirm-time.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#network SetupIntent#network}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#network SetupIntent#network}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "network", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -73,7 +73,7 @@ namespace stripe.SetupIntent
 
         /// <summary>We strongly recommend that you rely on our SCA Engine to automatically prompt your customers for authentication based on risk level and [other requirements](https://docs.stripe.com/strong-customer-authentication). However, if you wish to request 3D Secure based on logic from your own fraud engine, provide this option. If not provided, this value defaults to `automatic`. Read our guide on [manually requesting 3D Secure](https://docs.stripe.com/payments/3d-secure/authentication-flow#manual-three-ds) for more information on how this configuration interacts with Radar and our SCA Engine.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#request_three_d_secure SetupIntent#request_three_d_secure}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#request_three_d_secure SetupIntent#request_three_d_secure}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "requestThreeDSecure", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -83,9 +83,21 @@ namespace stripe.SetupIntent
             set;
         }
 
+        /// <summary>Set to indicate the future transaction type usage for the card being set up.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#setup_credential_usage SetupIntent#setup_credential_usage}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "setupCredentialUsage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? SetupCredentialUsage
+        {
+            get;
+            set;
+        }
+
         /// <summary>If 3D Secure authentication was performed with a third-party provider, the authentication details to use for this setup.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#three_d_secure SetupIntent#three_d_secure}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#three_d_secure SetupIntent#three_d_secure}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "threeDSecure", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodOptionsCardThreeDSecure\"}", isOptional: true)]

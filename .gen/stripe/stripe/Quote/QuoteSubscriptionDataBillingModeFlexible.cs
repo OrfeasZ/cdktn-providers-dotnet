@@ -9,7 +9,7 @@ namespace stripe.Quote
     {
         /// <summary>Controls how invoices and invoice items display proration amounts and discount amounts.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#proration_discounts Quote#proration_discounts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#proration_discounts Quote#proration_discounts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "prorationDiscounts", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

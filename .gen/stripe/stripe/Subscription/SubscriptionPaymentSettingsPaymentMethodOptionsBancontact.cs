@@ -9,7 +9,7 @@ namespace stripe.Subscription
     {
         /// <summary>Preferred language of the Bancontact authorization page that the customer is redirected to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#preferred_language Subscription#preferred_language}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#preferred_language Subscription#preferred_language}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "preferredLanguage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

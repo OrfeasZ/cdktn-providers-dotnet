@@ -11,7 +11,7 @@ namespace stripe.IssuingPersonalizationDesign
         /// <remarks>
         /// A connected account uses the Connect platform's default design if no personalization design is set as the default design.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_personalization_design#is_default IssuingPersonalizationDesign#is_default}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_personalization_design#is_default IssuingPersonalizationDesign#is_default}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "isDefault", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -31,7 +31,7 @@ namespace stripe.IssuingPersonalizationDesign
             /// <remarks>
             /// A connected account uses the Connect platform's default design if no personalization design is set as the default design.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_personalization_design#is_default IssuingPersonalizationDesign#is_default}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_personalization_design#is_default IssuingPersonalizationDesign#is_default}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiProperty(name: "isDefault", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]

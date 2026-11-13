@@ -11,7 +11,7 @@ namespace stripe.PaymentLink
     {
         /// <summary>Three-letter [ISO currency code](https://www.iso.org/iso-4217-currency-codes.html), in lowercase. Must be a [supported currency](https://stripe.com/docs/currencies).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#currency PaymentLink#currency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#currency PaymentLink#currency}
         /// </remarks>
         [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}")]
         public string Currency
@@ -22,7 +22,7 @@ namespace stripe.PaymentLink
 
         /// <summary>The ID of the [Product](https://docs.stripe.com/api/products) that this [Price](https://docs.stripe.com/api/prices) will belong to. One of `product` or `product_data` is required.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#product PaymentLink#product}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#product PaymentLink#product}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "product", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace stripe.PaymentLink
 
         /// <summary>Data used to generate a new [Product](https://docs.stripe.com/api/products) object inline. One of `product` or `product_data` is required.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#product_data PaymentLink#product_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#product_data PaymentLink#product_data}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "productData", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkLineItemsPriceDataProductData\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace stripe.PaymentLink
 
         /// <summary>The recurring components of a price such as `interval` and `interval_count`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#recurring PaymentLink#recurring}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#recurring PaymentLink#recurring}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "recurring", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkLineItemsPriceDataRecurring\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace stripe.PaymentLink
 
         /// <summary>Only required if a [default tax behavior](https://docs.stripe.com/tax/products-prices-tax-categories-tax-behavior#setting-a-default-tax-behavior-(recommended)) was not provided in the Stripe Tax settings. Specifies whether the price is considered inclusive of taxes or exclusive of taxes. One of `inclusive`, `exclusive`, or `unspecified`. Once specified as either `inclusive` or `exclusive`, it cannot be changed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#tax_behavior PaymentLink#tax_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#tax_behavior PaymentLink#tax_behavior}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taxBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -72,7 +72,7 @@ namespace stripe.PaymentLink
         /// <remarks>
         /// One of <c>unit_amount</c> or <c>unit_amount_decimal</c> is required.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#unit_amount PaymentLink#unit_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#unit_amount PaymentLink#unit_amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "unitAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -86,7 +86,7 @@ namespace stripe.PaymentLink
         /// <remarks>
         /// Only one of <c>unit_amount</c> and <c>unit_amount_decimal</c> can be set.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#unit_amount_decimal PaymentLink#unit_amount_decimal}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#unit_amount_decimal PaymentLink#unit_amount_decimal}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "unitAmountDecimal", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

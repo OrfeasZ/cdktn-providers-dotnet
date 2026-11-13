@@ -9,7 +9,7 @@ namespace stripe.InvoiceItem
     {
         /// <summary>The ID of the price this item is associated with.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#price InvoiceItem#price}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#price InvoiceItem#price}
         /// </remarks>
         [JsiiProperty(name: "price", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace stripe.InvoiceItem
 
         /// <summary>The ID of the product this item is associated with.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#product InvoiceItem#product}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#product InvoiceItem#product}
         /// </remarks>
         [JsiiProperty(name: "product", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace stripe.InvoiceItem
 
             /// <summary>The ID of the price this item is associated with.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#price InvoiceItem#price}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#price InvoiceItem#price}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "price", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace stripe.InvoiceItem
 
             /// <summary>The ID of the product this item is associated with.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#product InvoiceItem#product}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#product InvoiceItem#product}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "product", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

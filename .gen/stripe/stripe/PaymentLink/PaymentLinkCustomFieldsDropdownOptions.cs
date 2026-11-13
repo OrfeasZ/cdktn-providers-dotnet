@@ -11,7 +11,7 @@ namespace stripe.PaymentLink
     {
         /// <summary>The label for the option, displayed to the customer. Up to 100 characters.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#label PaymentLink#label}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#label PaymentLink#label}
         /// </remarks>
         [JsiiProperty(name: "label", typeJson: "{\"primitive\":\"string\"}")]
         public string Label
@@ -24,7 +24,7 @@ namespace stripe.PaymentLink
         /// <remarks>
         /// Must be unique to this option, alphanumeric, and up to 100 characters.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#value PaymentLink#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#value PaymentLink#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value

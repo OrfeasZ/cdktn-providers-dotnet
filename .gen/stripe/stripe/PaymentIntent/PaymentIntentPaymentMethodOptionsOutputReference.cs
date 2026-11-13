@@ -297,10 +297,22 @@ namespace stripe.PaymentIntent
             InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsSepaDebit)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putSequra", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsSequra\"}}]")]
+        public virtual void PutSequra(stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsSequra @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsSequra)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putSofort", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsSofort\"}}]")]
         public virtual void PutSofort(stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsSofort @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsSofort)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putSunbit", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsSunbit\"}}]")]
+        public virtual void PutSunbit(stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsSunbit @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsSunbit)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putSwish", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsSwish\"}}]")]
@@ -603,8 +615,20 @@ namespace stripe.PaymentIntent
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSequra")]
+        public virtual void ResetSequra()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSofort")]
         public virtual void ResetSofort()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSunbit")]
+        public virtual void ResetSunbit()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -909,10 +933,22 @@ namespace stripe.PaymentIntent
             get => GetInstanceProperty<stripe.PaymentIntent.PaymentIntentPaymentMethodOptionsSepaDebitOutputReference>()!;
         }
 
+        [JsiiProperty(name: "sequra", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsSequraOutputReference\"}")]
+        public virtual stripe.PaymentIntent.PaymentIntentPaymentMethodOptionsSequraOutputReference Sequra
+        {
+            get => GetInstanceProperty<stripe.PaymentIntent.PaymentIntentPaymentMethodOptionsSequraOutputReference>()!;
+        }
+
         [JsiiProperty(name: "sofort", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsSofortOutputReference\"}")]
         public virtual stripe.PaymentIntent.PaymentIntentPaymentMethodOptionsSofortOutputReference Sofort
         {
             get => GetInstanceProperty<stripe.PaymentIntent.PaymentIntentPaymentMethodOptionsSofortOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "sunbit", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsSunbitOutputReference\"}")]
+        public virtual stripe.PaymentIntent.PaymentIntentPaymentMethodOptionsSunbitOutputReference Sunbit
+        {
+            get => GetInstanceProperty<stripe.PaymentIntent.PaymentIntentPaymentMethodOptionsSunbitOutputReference>()!;
         }
 
         [JsiiProperty(name: "swish", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsSwishOutputReference\"}")]
@@ -1392,11 +1428,31 @@ namespace stripe.PaymentIntent
         }
 
         /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsSequra" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "sequraInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsSequra\"}]}}", isOptional: true)]
+        public virtual object? SequraInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsSofort" /></para>
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sofortInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsSofort\"}]}}", isOptional: true)]
         public virtual object? SofortInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsSunbit" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "sunbitInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsSunbit\"}]}}", isOptional: true)]
+        public virtual object? SunbitInput
         {
             get => GetInstanceProperty<object?>();
         }

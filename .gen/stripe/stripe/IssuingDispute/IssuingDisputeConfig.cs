@@ -9,7 +9,7 @@ namespace stripe.IssuingDispute
     {
         /// <summary>Disputed amount in the card's currency and in the [smallest currency unit](https://docs.stripe.com/currencies#zero-decimal). Usually the amount of the `transaction`, but can differ (usually because of currency fluctuation).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_dispute#amount IssuingDispute#amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_dispute#amount IssuingDispute#amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace stripe.IssuingDispute
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_dispute#evidence IssuingDispute#evidence}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_dispute#evidence IssuingDispute#evidence}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "evidence", typeJson: "{\"fqn\":\"stripe.issuingDispute.IssuingDisputeEvidence\"}", isOptional: true)]
         public stripe.IssuingDispute.IIssuingDisputeEvidence? Evidence
@@ -30,7 +30,7 @@ namespace stripe.IssuingDispute
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_dispute#metadata IssuingDispute#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_dispute#metadata IssuingDispute#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -42,7 +42,7 @@ namespace stripe.IssuingDispute
 
         /// <summary>The transaction being disputed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_dispute#transaction IssuingDispute#transaction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_dispute#transaction IssuingDispute#transaction}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transaction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -54,7 +54,7 @@ namespace stripe.IssuingDispute
 
         /// <summary>[Treasury](https://docs.stripe.com/api/treasury) details related to this dispute if it was created on a [FinancialAccount](https://docs.stripe.com/api/treasury/financial_accounts).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_dispute#treasury IssuingDispute#treasury}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_dispute#treasury IssuingDispute#treasury}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "treasury", typeJson: "{\"fqn\":\"stripe.issuingDispute.IssuingDisputeTreasury\"}", isOptional: true)]

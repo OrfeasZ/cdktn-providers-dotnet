@@ -9,7 +9,7 @@ namespace stripe.IssuingCardholder
     {
         /// <summary>The Unix timestamp marking when the cardholder accepted the Authorized User Terms.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#date IssuingCardholder#date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#date IssuingCardholder#date}
         /// </remarks>
         [JsiiProperty(name: "date", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace stripe.IssuingCardholder
 
         /// <summary>The IP address from which the cardholder accepted the Authorized User Terms.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#ip IssuingCardholder#ip}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#ip IssuingCardholder#ip}
         /// </remarks>
         [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace stripe.IssuingCardholder
 
         /// <summary>The user agent of the browser from which the cardholder accepted the Authorized User Terms.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#user_agent IssuingCardholder#user_agent}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#user_agent IssuingCardholder#user_agent}
         /// </remarks>
         [JsiiProperty(name: "userAgent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace stripe.IssuingCardholder
 
             /// <summary>The Unix timestamp marking when the cardholder accepted the Authorized User Terms.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#date IssuingCardholder#date}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#date IssuingCardholder#date}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "date", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace stripe.IssuingCardholder
 
             /// <summary>The IP address from which the cardholder accepted the Authorized User Terms.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#ip IssuingCardholder#ip}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#ip IssuingCardholder#ip}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ip", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace stripe.IssuingCardholder
 
             /// <summary>The user agent of the browser from which the cardholder accepted the Authorized User Terms.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#user_agent IssuingCardholder#user_agent}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#user_agent IssuingCardholder#user_agent}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "userAgent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

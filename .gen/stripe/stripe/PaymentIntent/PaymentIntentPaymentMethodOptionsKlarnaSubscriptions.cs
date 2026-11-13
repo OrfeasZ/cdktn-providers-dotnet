@@ -11,7 +11,7 @@ namespace stripe.PaymentIntent
     {
         /// <summary>Unit of time between subscription charges.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#interval PaymentIntent#interval}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#interval PaymentIntent#interval}
         /// </remarks>
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
         public string Interval
@@ -22,7 +22,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>A non-customer-facing reference to correlate subscription charges in the Klarna app. Use a value that persists across subscription charges.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#reference PaymentIntent#reference}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#reference PaymentIntent#reference}
         /// </remarks>
         [JsiiProperty(name: "reference", typeJson: "{\"primitive\":\"string\"}")]
         public string Reference
@@ -35,7 +35,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// For example, <c>interval=month</c> and <c>interval_count=3</c> charges every 3 months.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#interval_count PaymentIntent#interval_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#interval_count PaymentIntent#interval_count}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "intervalCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Name for subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#name PaymentIntent#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#name PaymentIntent#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Describes the upcoming charge for this subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#next_billing PaymentIntent#next_billing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#next_billing PaymentIntent#next_billing}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nextBilling", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsKlarnaSubscriptionsNextBilling\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace stripe.BillingPortalConfiguration
     [JsiiByValue(fqn: "stripe.billingPortalConfiguration.BillingPortalConfigurationConfig")]
     public class BillingPortalConfigurationConfig : stripe.BillingPortalConfiguration.IBillingPortalConfigurationConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#features BillingPortalConfiguration#features}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#features BillingPortalConfiguration#features}.</summary>
         [JsiiProperty(name: "features", typeJson: "{\"fqn\":\"stripe.billingPortalConfiguration.BillingPortalConfigurationFeatures\"}")]
         public stripe.BillingPortalConfiguration.IBillingPortalConfigurationFeatures Features
         {
@@ -21,7 +21,7 @@ namespace stripe.BillingPortalConfiguration
 
         /// <summary>Whether the configuration is active and can be used to create portal sessions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#active BillingPortalConfiguration#active}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#active BillingPortalConfiguration#active}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -52,7 +52,7 @@ namespace stripe.BillingPortalConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#business_profile BillingPortalConfiguration#business_profile}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#business_profile BillingPortalConfiguration#business_profile}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "businessProfile", typeJson: "{\"fqn\":\"stripe.billingPortalConfiguration.BillingPortalConfigurationBusinessProfile\"}", isOptional: true)]
         public stripe.BillingPortalConfiguration.IBillingPortalConfigurationBusinessProfile? BusinessProfile
@@ -63,9 +63,9 @@ namespace stripe.BillingPortalConfiguration
 
         /// <summary>The default URL to redirect customers to when they click on the portal's link to return to your website.</summary>
         /// <remarks>
-        /// This can be <a href="https://docs.stripe.com/api/customer_portal/sessions/create#create_portal_session-return_url">overriden</a> when creating the session.
+        /// This can be <a href="https://docs.stripe.com/api/customer_portal/sessions/create#create_portal_session-return_url">overridden</a> when creating the session.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#default_return_url BillingPortalConfiguration#default_return_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#default_return_url BillingPortalConfiguration#default_return_url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultReturnUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace stripe.BillingPortalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#login_page BillingPortalConfiguration#login_page}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#login_page BillingPortalConfiguration#login_page}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "loginPage", typeJson: "{\"fqn\":\"stripe.billingPortalConfiguration.BillingPortalConfigurationLoginPage\"}", isOptional: true)]
         public stripe.BillingPortalConfiguration.IBillingPortalConfigurationLoginPage? LoginPage
@@ -86,7 +86,7 @@ namespace stripe.BillingPortalConfiguration
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#metadata BillingPortalConfiguration#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#metadata BillingPortalConfiguration#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -98,7 +98,7 @@ namespace stripe.BillingPortalConfiguration
 
         /// <summary>The name of the configuration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#name BillingPortalConfiguration#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#name BillingPortalConfiguration#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

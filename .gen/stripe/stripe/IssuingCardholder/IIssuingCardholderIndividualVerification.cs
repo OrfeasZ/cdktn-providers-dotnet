@@ -9,7 +9,7 @@ namespace stripe.IssuingCardholder
     {
         /// <summary>An identifying document, either a passport or local ID card.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#document IssuingCardholder#document}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#document IssuingCardholder#document}
         /// </remarks>
         [JsiiProperty(name: "document", typeJson: "{\"fqn\":\"stripe.issuingCardholder.IssuingCardholderIndividualVerificationDocument\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace stripe.IssuingCardholder
 
             /// <summary>An identifying document, either a passport or local ID card.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#document IssuingCardholder#document}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#document IssuingCardholder#document}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "document", typeJson: "{\"fqn\":\"stripe.issuingCardholder.IssuingCardholderIndividualVerificationDocument\"}", isOptional: true)]

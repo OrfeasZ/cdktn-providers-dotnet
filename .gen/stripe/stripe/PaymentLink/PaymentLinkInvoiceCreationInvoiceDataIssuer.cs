@@ -11,7 +11,7 @@ namespace stripe.PaymentLink
     {
         /// <summary>Type of the account referenced.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#type PaymentLink#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#type PaymentLink#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -22,7 +22,7 @@ namespace stripe.PaymentLink
 
         /// <summary>The connected account being referenced when `type` is `account`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#account PaymentLink#account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#account PaymentLink#account}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "account", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

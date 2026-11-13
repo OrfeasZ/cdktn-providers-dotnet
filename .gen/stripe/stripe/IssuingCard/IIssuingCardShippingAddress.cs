@@ -9,7 +9,7 @@ namespace stripe.IssuingCard
     {
         /// <summary>City, district, suburb, town, or village.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#city IssuingCard#city}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#city IssuingCard#city}
         /// </remarks>
         [JsiiProperty(name: "city", typeJson: "{\"primitive\":\"string\"}")]
         string City
@@ -19,7 +19,7 @@ namespace stripe.IssuingCard
 
         /// <summary>Two-letter country code ([ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#country IssuingCard#country}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#country IssuingCard#country}
         /// </remarks>
         [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}")]
         string Country
@@ -29,7 +29,7 @@ namespace stripe.IssuingCard
 
         /// <summary>Address line 1, such as the street, PO Box, or company name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#line1 IssuingCard#line1}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#line1 IssuingCard#line1}
         /// </remarks>
         [JsiiProperty(name: "line1", typeJson: "{\"primitive\":\"string\"}")]
         string Line1
@@ -39,7 +39,7 @@ namespace stripe.IssuingCard
 
         /// <summary>ZIP or postal code.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#postal_code IssuingCard#postal_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#postal_code IssuingCard#postal_code}
         /// </remarks>
         [JsiiProperty(name: "postalCode", typeJson: "{\"primitive\":\"string\"}")]
         string PostalCode
@@ -49,7 +49,7 @@ namespace stripe.IssuingCard
 
         /// <summary>Address line 2, such as the apartment, suite, unit, or building.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#line2 IssuingCard#line2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#line2 IssuingCard#line2}
         /// </remarks>
         [JsiiProperty(name: "line2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -63,7 +63,7 @@ namespace stripe.IssuingCard
 
         /// <summary>State, county, province, or region ([ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2)).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#state IssuingCard#state}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#state IssuingCard#state}
         /// </remarks>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -84,7 +84,7 @@ namespace stripe.IssuingCard
 
             /// <summary>City, district, suburb, town, or village.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#city IssuingCard#city}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#city IssuingCard#city}
             /// </remarks>
             [JsiiProperty(name: "city", typeJson: "{\"primitive\":\"string\"}")]
             public string City
@@ -94,7 +94,7 @@ namespace stripe.IssuingCard
 
             /// <summary>Two-letter country code ([ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#country IssuingCard#country}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#country IssuingCard#country}
             /// </remarks>
             [JsiiProperty(name: "country", typeJson: "{\"primitive\":\"string\"}")]
             public string Country
@@ -104,7 +104,7 @@ namespace stripe.IssuingCard
 
             /// <summary>Address line 1, such as the street, PO Box, or company name.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#line1 IssuingCard#line1}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#line1 IssuingCard#line1}
             /// </remarks>
             [JsiiProperty(name: "line1", typeJson: "{\"primitive\":\"string\"}")]
             public string Line1
@@ -114,7 +114,7 @@ namespace stripe.IssuingCard
 
             /// <summary>ZIP or postal code.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#postal_code IssuingCard#postal_code}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#postal_code IssuingCard#postal_code}
             /// </remarks>
             [JsiiProperty(name: "postalCode", typeJson: "{\"primitive\":\"string\"}")]
             public string PostalCode
@@ -124,7 +124,7 @@ namespace stripe.IssuingCard
 
             /// <summary>Address line 2, such as the apartment, suite, unit, or building.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#line2 IssuingCard#line2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#line2 IssuingCard#line2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "line2", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -135,7 +135,7 @@ namespace stripe.IssuingCard
 
             /// <summary>State, county, province, or region ([ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2)).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#state IssuingCard#state}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#state IssuingCard#state}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

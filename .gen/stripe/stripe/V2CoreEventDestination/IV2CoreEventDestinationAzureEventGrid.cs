@@ -7,9 +7,9 @@ namespace stripe.V2CoreEventDestination
     [JsiiInterface(nativeType: typeof(IV2CoreEventDestinationAzureEventGrid), fullyQualifiedName: "stripe.v2CoreEventDestination.V2CoreEventDestinationAzureEventGrid")]
     public interface IV2CoreEventDestinationAzureEventGrid
     {
-        /// <summary>The Azure region.</summary>
+        /// <summary>The Azure region where the partner topic is located.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#azure_region V2CoreEventDestination#azure_region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#azure_region V2CoreEventDestination#azure_region}
         /// </remarks>
         [JsiiProperty(name: "azureRegion", typeJson: "{\"primitive\":\"string\"}")]
         string AzureRegion
@@ -17,9 +17,9 @@ namespace stripe.V2CoreEventDestination
             get;
         }
 
-        /// <summary>The name of the Azure resource group.</summary>
+        /// <summary>The Azure resource group containing the partner topic.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#azure_resource_group_name V2CoreEventDestination#azure_resource_group_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#azure_resource_group_name V2CoreEventDestination#azure_resource_group_name}
         /// </remarks>
         [JsiiProperty(name: "azureResourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         string AzureResourceGroupName
@@ -27,9 +27,9 @@ namespace stripe.V2CoreEventDestination
             get;
         }
 
-        /// <summary>The Azure subscription ID.</summary>
+        /// <summary>The Azure subscription containing the resource group and partner topic.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#azure_subscription_id V2CoreEventDestination#azure_subscription_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#azure_subscription_id V2CoreEventDestination#azure_subscription_id}
         /// </remarks>
         [JsiiProperty(name: "azureSubscriptionId", typeJson: "{\"primitive\":\"string\"}")]
         string AzureSubscriptionId
@@ -44,9 +44,9 @@ namespace stripe.V2CoreEventDestination
             {
             }
 
-            /// <summary>The Azure region.</summary>
+            /// <summary>The Azure region where the partner topic is located.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#azure_region V2CoreEventDestination#azure_region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#azure_region V2CoreEventDestination#azure_region}
             /// </remarks>
             [JsiiProperty(name: "azureRegion", typeJson: "{\"primitive\":\"string\"}")]
             public string AzureRegion
@@ -54,9 +54,9 @@ namespace stripe.V2CoreEventDestination
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>The name of the Azure resource group.</summary>
+            /// <summary>The Azure resource group containing the partner topic.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#azure_resource_group_name V2CoreEventDestination#azure_resource_group_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#azure_resource_group_name V2CoreEventDestination#azure_resource_group_name}
             /// </remarks>
             [JsiiProperty(name: "azureResourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
             public string AzureResourceGroupName
@@ -64,9 +64,9 @@ namespace stripe.V2CoreEventDestination
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>The Azure subscription ID.</summary>
+            /// <summary>The Azure subscription containing the resource group and partner topic.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#azure_subscription_id V2CoreEventDestination#azure_subscription_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#azure_subscription_id V2CoreEventDestination#azure_subscription_id}
             /// </remarks>
             [JsiiProperty(name: "azureSubscriptionId", typeJson: "{\"primitive\":\"string\"}")]
             public string AzureSubscriptionId

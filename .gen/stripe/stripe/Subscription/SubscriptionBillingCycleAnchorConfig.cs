@@ -11,7 +11,7 @@ namespace stripe.Subscription
     {
         /// <summary>The day of the month of the billing_cycle_anchor.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#day_of_month Subscription#day_of_month}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#day_of_month Subscription#day_of_month}
         /// </remarks>
         [JsiiProperty(name: "dayOfMonth", typeJson: "{\"primitive\":\"number\"}")]
         public double DayOfMonth
@@ -22,7 +22,7 @@ namespace stripe.Subscription
 
         /// <summary>The hour of the day of the billing_cycle_anchor.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#hour Subscription#hour}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#hour Subscription#hour}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hour", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace stripe.Subscription
 
         /// <summary>The minute of the hour of the billing_cycle_anchor.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#minute Subscription#minute}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#minute Subscription#minute}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minute", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -46,7 +46,7 @@ namespace stripe.Subscription
 
         /// <summary>The month to start full cycle billing periods.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#month Subscription#month}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#month Subscription#month}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "month", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -58,7 +58,7 @@ namespace stripe.Subscription
 
         /// <summary>The second of the minute of the billing_cycle_anchor.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#second Subscription#second}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#second Subscription#second}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "second", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace stripe.PaymentLink
     {
         /// <summary>Restrictions to apply to the card payment method. For example, you can block specific card brands.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#restrictions PaymentLink#restrictions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#restrictions PaymentLink#restrictions}
         /// </remarks>
         [JsiiProperty(name: "restrictions", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkPaymentMethodOptionsCardRestrictions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace stripe.PaymentLink
 
             /// <summary>Restrictions to apply to the card payment method. For example, you can block specific card brands.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#restrictions PaymentLink#restrictions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#restrictions PaymentLink#restrictions}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "restrictions", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkPaymentMethodOptionsCardRestrictions\"}", isOptional: true)]

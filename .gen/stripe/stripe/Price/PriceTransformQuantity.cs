@@ -11,7 +11,7 @@ namespace stripe.Price
     {
         /// <summary>Divide usage by this number.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#divide_by Price#divide_by}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/price#divide_by Price#divide_by}
         /// </remarks>
         [JsiiProperty(name: "divideBy", typeJson: "{\"primitive\":\"number\"}")]
         public double DivideBy
@@ -22,7 +22,7 @@ namespace stripe.Price
 
         /// <summary>After division, either round the result `up` or `down`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#round Price#round}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/price#round Price#round}
         /// </remarks>
         [JsiiProperty(name: "round", typeJson: "{\"primitive\":\"string\"}")]
         public string Round

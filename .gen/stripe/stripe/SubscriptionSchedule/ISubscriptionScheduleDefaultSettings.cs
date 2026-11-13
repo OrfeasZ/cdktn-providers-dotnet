@@ -11,7 +11,7 @@ namespace stripe.SubscriptionSchedule
         /// <remarks>
         /// This represents the percentage of the subscription invoice total that will be transferred to the application owner's Stripe account during this phase of the schedule.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#application_fee_percent SubscriptionSchedule#application_fee_percent}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#application_fee_percent SubscriptionSchedule#application_fee_percent}
         /// </remarks>
         [JsiiProperty(name: "applicationFeePercent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace stripe.SubscriptionSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#automatic_tax SubscriptionSchedule#automatic_tax}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#automatic_tax SubscriptionSchedule#automatic_tax}.</summary>
         [JsiiProperty(name: "automaticTax", typeJson: "{\"fqn\":\"stripe.subscriptionSchedule.SubscriptionScheduleDefaultSettingsAutomaticTax\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.SubscriptionSchedule.ISubscriptionScheduleDefaultSettingsAutomaticTax? AutomaticTax
@@ -38,7 +38,7 @@ namespace stripe.SubscriptionSchedule
         /// <remarks>
         /// If <c>phase_start</c> then billing cycle anchor of the subscription is set to the start of the phase when entering the phase. If <c>automatic</c> then the billing cycle anchor is automatically modified as needed when entering the phase. For more information, see the billing cycle <a href="https://docs.stripe.com/billing/subscriptions/billing-cycle">documentation</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#billing_cycle_anchor SubscriptionSchedule#billing_cycle_anchor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#billing_cycle_anchor SubscriptionSchedule#billing_cycle_anchor}
         /// </remarks>
         [JsiiProperty(name: "billingCycleAnchor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,7 +52,7 @@ namespace stripe.SubscriptionSchedule
 
         /// <summary>Define thresholds at which an invoice will be sent, and the subscription advanced to a new billing period.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#billing_thresholds SubscriptionSchedule#billing_thresholds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#billing_thresholds SubscriptionSchedule#billing_thresholds}
         /// </remarks>
         [JsiiProperty(name: "billingThresholds", typeJson: "{\"fqn\":\"stripe.subscriptionSchedule.SubscriptionScheduleDefaultSettingsBillingThresholds\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,7 +68,7 @@ namespace stripe.SubscriptionSchedule
         /// <remarks>
         /// When charging automatically, Stripe will attempt to pay the underlying subscription at the end of each billing cycle using the default source attached to the customer. When sending an invoice, Stripe will email your customer an invoice with payment instructions and mark the subscription as <c>active</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#collection_method SubscriptionSchedule#collection_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#collection_method SubscriptionSchedule#collection_method}
         /// </remarks>
         [JsiiProperty(name: "collectionMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -84,7 +84,7 @@ namespace stripe.SubscriptionSchedule
         /// <remarks>
         /// If not set, invoices will use the default payment method in the customer's invoice settings.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#default_payment_method SubscriptionSchedule#default_payment_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#default_payment_method SubscriptionSchedule#default_payment_method}
         /// </remarks>
         [JsiiProperty(name: "defaultPaymentMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -100,7 +100,7 @@ namespace stripe.SubscriptionSchedule
         /// <remarks>
         /// Use this field to optionally store an explanation of the subscription for rendering in Stripe surfaces and certain local payment methods UIs.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#description SubscriptionSchedule#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#description SubscriptionSchedule#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -112,7 +112,7 @@ namespace stripe.SubscriptionSchedule
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#invoice_settings SubscriptionSchedule#invoice_settings}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#invoice_settings SubscriptionSchedule#invoice_settings}.</summary>
         [JsiiProperty(name: "invoiceSettings", typeJson: "{\"fqn\":\"stripe.subscriptionSchedule.SubscriptionScheduleDefaultSettingsInvoiceSettings\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.SubscriptionSchedule.ISubscriptionScheduleDefaultSettingsInvoiceSettings? InvoiceSettings
@@ -127,7 +127,7 @@ namespace stripe.SubscriptionSchedule
         /// <remarks>
         /// See the Connect documentation for details.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#on_behalf_of SubscriptionSchedule#on_behalf_of}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#on_behalf_of SubscriptionSchedule#on_behalf_of}
         /// </remarks>
         [JsiiProperty(name: "onBehalfOf", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -141,7 +141,7 @@ namespace stripe.SubscriptionSchedule
 
         /// <summary>The account (if any) the associated subscription's payments will be attributed to for tax reporting, and where funds from each payment will be transferred to for each of the subscription's invoices.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#transfer_data SubscriptionSchedule#transfer_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#transfer_data SubscriptionSchedule#transfer_data}
         /// </remarks>
         [JsiiProperty(name: "transferData", typeJson: "{\"fqn\":\"stripe.subscriptionSchedule.SubscriptionScheduleDefaultSettingsTransferData\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -164,7 +164,7 @@ namespace stripe.SubscriptionSchedule
             /// <remarks>
             /// This represents the percentage of the subscription invoice total that will be transferred to the application owner's Stripe account during this phase of the schedule.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#application_fee_percent SubscriptionSchedule#application_fee_percent}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#application_fee_percent SubscriptionSchedule#application_fee_percent}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "applicationFeePercent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -173,7 +173,7 @@ namespace stripe.SubscriptionSchedule
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#automatic_tax SubscriptionSchedule#automatic_tax}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#automatic_tax SubscriptionSchedule#automatic_tax}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "automaticTax", typeJson: "{\"fqn\":\"stripe.subscriptionSchedule.SubscriptionScheduleDefaultSettingsAutomaticTax\"}", isOptional: true)]
             public stripe.SubscriptionSchedule.ISubscriptionScheduleDefaultSettingsAutomaticTax? AutomaticTax
@@ -185,7 +185,7 @@ namespace stripe.SubscriptionSchedule
             /// <remarks>
             /// If <c>phase_start</c> then billing cycle anchor of the subscription is set to the start of the phase when entering the phase. If <c>automatic</c> then the billing cycle anchor is automatically modified as needed when entering the phase. For more information, see the billing cycle <a href="https://docs.stripe.com/billing/subscriptions/billing-cycle">documentation</a>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#billing_cycle_anchor SubscriptionSchedule#billing_cycle_anchor}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#billing_cycle_anchor SubscriptionSchedule#billing_cycle_anchor}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "billingCycleAnchor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -196,7 +196,7 @@ namespace stripe.SubscriptionSchedule
 
             /// <summary>Define thresholds at which an invoice will be sent, and the subscription advanced to a new billing period.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#billing_thresholds SubscriptionSchedule#billing_thresholds}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#billing_thresholds SubscriptionSchedule#billing_thresholds}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "billingThresholds", typeJson: "{\"fqn\":\"stripe.subscriptionSchedule.SubscriptionScheduleDefaultSettingsBillingThresholds\"}", isOptional: true)]
@@ -209,7 +209,7 @@ namespace stripe.SubscriptionSchedule
             /// <remarks>
             /// When charging automatically, Stripe will attempt to pay the underlying subscription at the end of each billing cycle using the default source attached to the customer. When sending an invoice, Stripe will email your customer an invoice with payment instructions and mark the subscription as <c>active</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#collection_method SubscriptionSchedule#collection_method}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#collection_method SubscriptionSchedule#collection_method}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "collectionMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -222,7 +222,7 @@ namespace stripe.SubscriptionSchedule
             /// <remarks>
             /// If not set, invoices will use the default payment method in the customer's invoice settings.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#default_payment_method SubscriptionSchedule#default_payment_method}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#default_payment_method SubscriptionSchedule#default_payment_method}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "defaultPaymentMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -235,7 +235,7 @@ namespace stripe.SubscriptionSchedule
             /// <remarks>
             /// Use this field to optionally store an explanation of the subscription for rendering in Stripe surfaces and certain local payment methods UIs.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#description SubscriptionSchedule#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#description SubscriptionSchedule#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -244,7 +244,7 @@ namespace stripe.SubscriptionSchedule
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#invoice_settings SubscriptionSchedule#invoice_settings}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#invoice_settings SubscriptionSchedule#invoice_settings}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "invoiceSettings", typeJson: "{\"fqn\":\"stripe.subscriptionSchedule.SubscriptionScheduleDefaultSettingsInvoiceSettings\"}", isOptional: true)]
             public stripe.SubscriptionSchedule.ISubscriptionScheduleDefaultSettingsInvoiceSettings? InvoiceSettings
@@ -256,7 +256,7 @@ namespace stripe.SubscriptionSchedule
             /// <remarks>
             /// See the Connect documentation for details.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#on_behalf_of SubscriptionSchedule#on_behalf_of}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#on_behalf_of SubscriptionSchedule#on_behalf_of}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "onBehalfOf", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -267,7 +267,7 @@ namespace stripe.SubscriptionSchedule
 
             /// <summary>The account (if any) the associated subscription's payments will be attributed to for tax reporting, and where funds from each payment will be transferred to for each of the subscription's invoices.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#transfer_data SubscriptionSchedule#transfer_data}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#transfer_data SubscriptionSchedule#transfer_data}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "transferData", typeJson: "{\"fqn\":\"stripe.subscriptionSchedule.SubscriptionScheduleDefaultSettingsTransferData\"}", isOptional: true)]

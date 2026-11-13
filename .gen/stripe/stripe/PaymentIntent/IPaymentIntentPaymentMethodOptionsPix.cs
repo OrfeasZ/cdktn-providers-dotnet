@@ -9,7 +9,7 @@ namespace stripe.PaymentIntent
     {
         /// <summary>Determines if the amount includes the IOF tax.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#amount_includes_iof PaymentIntent#amount_includes_iof}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#amount_includes_iof PaymentIntent#amount_includes_iof}
         /// </remarks>
         [JsiiProperty(name: "amountIncludesIof", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,9 +21,11 @@ namespace stripe.PaymentIntent
             }
         }
 
-        /// <summary>The number of seconds (between 10 and 1209600) after which Pix payment will expire.</summary>
+        /// <summary>The number of seconds after PaymentIntent confirmation when the Pix expires (between 60 and 1209600, inclusive).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#expires_after_seconds PaymentIntent#expires_after_seconds}
+        /// If neither expiration option is supplied, defaults to 14400 seconds (4 hours). Mutually exclusive with <c>expires_at</c>.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#expires_after_seconds PaymentIntent#expires_after_seconds}
         /// </remarks>
         [JsiiProperty(name: "expiresAfterSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,9 +37,11 @@ namespace stripe.PaymentIntent
             }
         }
 
-        /// <summary>The timestamp at which the Pix expires.</summary>
+        /// <summary>The absolute Unix timestamp at which the Pix expires.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#expires_at PaymentIntent#expires_at}
+        /// When supplied as an input, it must be between 60 and 1209600 seconds from the current time at validation, inclusive. If neither expiration option is supplied, the Pix expires 14400 seconds (4 hours) after PaymentIntent confirmation. Mutually exclusive with <c>expires_after_seconds</c>.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#expires_at PaymentIntent#expires_at}
         /// </remarks>
         [JsiiProperty(name: "expiresAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -49,7 +53,7 @@ namespace stripe.PaymentIntent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#mandate_options PaymentIntent#mandate_options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#mandate_options PaymentIntent#mandate_options}.</summary>
         [JsiiProperty(name: "mandateOptions", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsPixMandateOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsPixMandateOptions? MandateOptions
@@ -68,7 +72,7 @@ namespace stripe.PaymentIntent
         ///
         /// When processing card payments, Stripe uses <c>setup_future_usage</c> to help you comply with regional legislation and network rules, such as <a href="/strong-customer-authentication">SCA</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
         /// </remarks>
         [JsiiProperty(name: "setupFutureUsage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -89,7 +93,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Determines if the amount includes the IOF tax.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#amount_includes_iof PaymentIntent#amount_includes_iof}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#amount_includes_iof PaymentIntent#amount_includes_iof}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "amountIncludesIof", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -98,9 +102,11 @@ namespace stripe.PaymentIntent
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>The number of seconds (between 10 and 1209600) after which Pix payment will expire.</summary>
+            /// <summary>The number of seconds after PaymentIntent confirmation when the Pix expires (between 60 and 1209600, inclusive).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#expires_after_seconds PaymentIntent#expires_after_seconds}
+            /// If neither expiration option is supplied, defaults to 14400 seconds (4 hours). Mutually exclusive with <c>expires_at</c>.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#expires_after_seconds PaymentIntent#expires_after_seconds}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "expiresAfterSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -109,9 +115,11 @@ namespace stripe.PaymentIntent
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>The timestamp at which the Pix expires.</summary>
+            /// <summary>The absolute Unix timestamp at which the Pix expires.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#expires_at PaymentIntent#expires_at}
+            /// When supplied as an input, it must be between 60 and 1209600 seconds from the current time at validation, inclusive. If neither expiration option is supplied, the Pix expires 14400 seconds (4 hours) after PaymentIntent confirmation. Mutually exclusive with <c>expires_after_seconds</c>.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#expires_at PaymentIntent#expires_at}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "expiresAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -120,7 +128,7 @@ namespace stripe.PaymentIntent
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#mandate_options PaymentIntent#mandate_options}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#mandate_options PaymentIntent#mandate_options}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mandateOptions", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsPixMandateOptions\"}", isOptional: true)]
             public stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsPixMandateOptions? MandateOptions
@@ -136,7 +144,7 @@ namespace stripe.PaymentIntent
             ///
             /// When processing card payments, Stripe uses <c>setup_future_usage</c> to help you comply with regional legislation and network rules, such as <a href="/strong-customer-authentication">SCA</a>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "setupFutureUsage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

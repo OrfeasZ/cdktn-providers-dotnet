@@ -11,7 +11,7 @@ namespace stripe.SubscriptionSchedule
     {
         /// <summary>Controls how prorations and invoices for subscriptions are calculated and orchestrated.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#type SubscriptionSchedule#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#type SubscriptionSchedule#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -22,7 +22,7 @@ namespace stripe.SubscriptionSchedule
 
         /// <summary>Configure behavior for flexible billing mode.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#flexible SubscriptionSchedule#flexible}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#flexible SubscriptionSchedule#flexible}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "flexible", typeJson: "{\"fqn\":\"stripe.subscriptionSchedule.SubscriptionScheduleBillingModeFlexible\"}", isOptional: true)]

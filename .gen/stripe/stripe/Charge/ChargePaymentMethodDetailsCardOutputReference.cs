@@ -75,6 +75,12 @@ namespace stripe.Charge
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "electronicCommerceIndicator", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ElectronicCommerceIndicator
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "expMonth", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double ExpMonth
         {
@@ -183,10 +189,28 @@ namespace stripe.Charge
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "setupCredentialUsage", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SetupCredentialUsage
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "storedCredentialUsage", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string StoredCredentialUsage
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "threeDSecure", typeJson: "{\"fqn\":\"stripe.charge.ChargePaymentMethodDetailsCardThreeDSecureOutputReference\"}")]
         public virtual stripe.Charge.ChargePaymentMethodDetailsCardThreeDSecureOutputReference ThreeDSecure
         {
             get => GetInstanceProperty<stripe.Charge.ChargePaymentMethodDetailsCardThreeDSecureOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "transactionLinkId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TransactionLinkId
+        {
+            get => GetInstanceProperty<string>()!;
         }
 
         [JsiiProperty(name: "wallet", typeJson: "{\"fqn\":\"stripe.charge.ChargePaymentMethodDetailsCardWalletOutputReference\"}")]

@@ -9,7 +9,7 @@ namespace stripe.PaymentIntent
     {
         /// <summary>An optional 10 to 11 digit numeric-only string determining the confirmation code at applicable convenience stores.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#confirmation_number PaymentIntent#confirmation_number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#confirmation_number PaymentIntent#confirmation_number}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "confirmationNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// For example, if a PaymentIntent is confirmed with Konbini and <c>expires_after_days</c> set to 2 on Monday JST, the instructions will expire on Wednesday 23:59:59 JST.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#expires_after_days PaymentIntent#expires_after_days}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#expires_after_days PaymentIntent#expires_after_days}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "expiresAfterDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -35,7 +35,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>The timestamp at which the Konbini payment instructions will expire. Only one of `expires_after_days` or `expires_at` may be set.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#expires_at PaymentIntent#expires_at}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#expires_at PaymentIntent#expires_at}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "expiresAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>A product descriptor of up to 22 characters, which will appear to customers at the convenience store.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#product_description PaymentIntent#product_description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#product_description PaymentIntent#product_description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "productDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -65,7 +65,7 @@ namespace stripe.PaymentIntent
         ///
         /// When processing card payments, Stripe uses <c>setup_future_usage</c> to help you comply with regional legislation and network rules, such as <a href="/strong-customer-authentication">SCA</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "setupFutureUsage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

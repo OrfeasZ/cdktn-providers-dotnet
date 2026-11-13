@@ -9,7 +9,7 @@ namespace stripe.Invoice
     {
         /// <summary>The upper bound of the estimated range. If empty, represents no upper bound i.e., infinite.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#maximum Invoice#maximum}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#maximum Invoice#maximum}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maximum", typeJson: "{\"fqn\":\"stripe.invoice.InvoiceShippingCostShippingRateDataDeliveryEstimateMaximum\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace stripe.Invoice
 
         /// <summary>The lower bound of the estimated range. If empty, represents no lower bound.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#minimum Invoice#minimum}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#minimum Invoice#minimum}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minimum", typeJson: "{\"fqn\":\"stripe.invoice.InvoiceShippingCostShippingRateDataDeliveryEstimateMinimum\"}", isOptional: true)]

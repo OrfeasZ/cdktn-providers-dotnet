@@ -33,14 +33,56 @@ namespace stripe.Quote
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Quote.IQuoteInvoiceSettingsCustomFields" />)[]</param>
+        [JsiiMethod(name: "putCustomFields", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.quote.QuoteInvoiceSettingsCustomFields\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutCustomFields(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.Quote.IQuoteInvoiceSettingsCustomFields[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Quote.IQuoteInvoiceSettingsCustomFields).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Quote.IQuoteInvoiceSettingsCustomFields).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putIssuer", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.quote.QuoteInvoiceSettingsIssuer\"}}]")]
         public virtual void PutIssuer(stripe.Quote.IQuoteInvoiceSettingsIssuer @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Quote.IQuoteInvoiceSettingsIssuer)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetCustomFields")]
+        public virtual void ResetCustomFields()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDaysUntilDue")]
         public virtual void ResetDaysUntilDue()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDescription")]
+        public virtual void ResetDescription()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetFooter")]
+        public virtual void ResetFooter()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -51,10 +93,26 @@ namespace stripe.Quote
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "customFields", typeJson: "{\"fqn\":\"stripe.quote.QuoteInvoiceSettingsCustomFieldsList\"}")]
+        public virtual stripe.Quote.QuoteInvoiceSettingsCustomFieldsList CustomFields
+        {
+            get => GetInstanceProperty<stripe.Quote.QuoteInvoiceSettingsCustomFieldsList>()!;
+        }
+
         [JsiiProperty(name: "issuer", typeJson: "{\"fqn\":\"stripe.quote.QuoteInvoiceSettingsIssuerOutputReference\"}")]
         public virtual stripe.Quote.QuoteInvoiceSettingsIssuerOutputReference Issuer
         {
             get => GetInstanceProperty<stripe.Quote.QuoteInvoiceSettingsIssuerOutputReference>()!;
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Quote.IQuoteInvoiceSettingsCustomFields" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "customFieldsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.quote.QuoteInvoiceSettingsCustomFields\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? CustomFieldsInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]
@@ -62,6 +120,20 @@ namespace stripe.Quote
         public virtual double? DaysUntilDueInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "descriptionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DescriptionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "footerInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? FooterInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         /// <remarks>
@@ -78,6 +150,20 @@ namespace stripe.Quote
         public virtual double DaysUntilDue
         {
             get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Description
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "footer", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Footer
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

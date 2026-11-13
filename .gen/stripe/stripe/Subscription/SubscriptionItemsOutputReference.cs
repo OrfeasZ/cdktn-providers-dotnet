@@ -41,6 +41,12 @@ namespace stripe.Subscription
             InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Subscription.ISubscriptionItemsBillingThresholds)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putCurrentTrial", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.subscription.SubscriptionItemsCurrentTrial\"}}]")]
+        public virtual void PutCurrentTrial(stripe.Subscription.ISubscriptionItemsCurrentTrial @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Subscription.ISubscriptionItemsCurrentTrial)}, new object[]{@value});
+        }
+
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Subscription.ISubscriptionItemsDiscounts" />)[]</param>
         [JsiiMethod(name: "putDiscounts", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.subscription.SubscriptionItemsDiscounts\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutDiscounts(object @value)
@@ -73,6 +79,12 @@ namespace stripe.Subscription
 
         [JsiiMethod(name: "resetBillingThresholds")]
         public virtual void ResetBillingThresholds()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCurrentTrial")]
+        public virtual void ResetCurrentTrial()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -119,6 +131,12 @@ namespace stripe.Subscription
             get => GetInstanceProperty<stripe.Subscription.SubscriptionItemsBillingThresholdsOutputReference>()!;
         }
 
+        [JsiiProperty(name: "currentTrial", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionItemsCurrentTrialOutputReference\"}")]
+        public virtual stripe.Subscription.SubscriptionItemsCurrentTrialOutputReference CurrentTrial
+        {
+            get => GetInstanceProperty<stripe.Subscription.SubscriptionItemsCurrentTrialOutputReference>()!;
+        }
+
         [JsiiProperty(name: "discounts", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionItemsDiscountsList\"}")]
         public virtual stripe.Subscription.SubscriptionItemsDiscountsList Discounts
         {
@@ -143,6 +161,16 @@ namespace stripe.Subscription
         [JsiiOptional]
         [JsiiProperty(name: "billingThresholdsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.subscription.SubscriptionItemsBillingThresholds\"}]}}", isOptional: true)]
         public virtual object? BillingThresholdsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.Subscription.ISubscriptionItemsCurrentTrial" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "currentTrialInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.subscription.SubscriptionItemsCurrentTrial\"}]}}", isOptional: true)]
+        public virtual object? CurrentTrialInput
         {
             get => GetInstanceProperty<object?>();
         }

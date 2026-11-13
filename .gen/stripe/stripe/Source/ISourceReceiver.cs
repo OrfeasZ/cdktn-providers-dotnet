@@ -9,7 +9,7 @@ namespace stripe.Source
     {
         /// <summary>Type of refund attribute method, one of `email`, `manual`, or `none`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/source#refund_attributes_method Source#refund_attributes_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/source#refund_attributes_method Source#refund_attributes_method}
         /// </remarks>
         [JsiiProperty(name: "refundAttributesMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace stripe.Source
 
             /// <summary>Type of refund attribute method, one of `email`, `manual`, or `none`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/source#refund_attributes_method Source#refund_attributes_method}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/source#refund_attributes_method Source#refund_attributes_method}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "refundAttributesMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

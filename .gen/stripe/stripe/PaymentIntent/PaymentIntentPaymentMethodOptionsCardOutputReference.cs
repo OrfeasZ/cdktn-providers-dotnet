@@ -123,6 +123,12 @@ namespace stripe.PaymentIntent
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSetupCredentialUsage")]
+        public virtual void ResetSetupCredentialUsage()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSetupFutureUsage")]
         public virtual void ResetSetupFutureUsage()
         {
@@ -137,6 +143,12 @@ namespace stripe.PaymentIntent
 
         [JsiiMethod(name: "resetStatementDescriptorSuffixKanji")]
         public virtual void ResetStatementDescriptorSuffixKanji()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetStoredCredentialUsage")]
+        public virtual void ResetStoredCredentialUsage()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -262,6 +274,13 @@ namespace stripe.PaymentIntent
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "setupCredentialUsageInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SetupCredentialUsageInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "setupFutureUsageInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? SetupFutureUsageInput
         {
@@ -278,6 +297,13 @@ namespace stripe.PaymentIntent
         [JsiiOptional]
         [JsiiProperty(name: "statementDescriptorSuffixKanjiInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? StatementDescriptorSuffixKanjiInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "storedCredentialUsageInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? StoredCredentialUsageInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -408,6 +434,13 @@ namespace stripe.PaymentIntent
             }
         }
 
+        [JsiiProperty(name: "setupCredentialUsage", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SetupCredentialUsage
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "setupFutureUsage", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SetupFutureUsage
         {
@@ -424,6 +457,13 @@ namespace stripe.PaymentIntent
 
         [JsiiProperty(name: "statementDescriptorSuffixKanji", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string StatementDescriptorSuffixKanji
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "storedCredentialUsage", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string StoredCredentialUsage
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

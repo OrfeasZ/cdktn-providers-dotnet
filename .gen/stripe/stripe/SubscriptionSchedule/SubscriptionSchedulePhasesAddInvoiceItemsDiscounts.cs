@@ -9,7 +9,7 @@ namespace stripe.SubscriptionSchedule
     {
         /// <summary>ID of the coupon to create a new discount for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#coupon SubscriptionSchedule#coupon}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#coupon SubscriptionSchedule#coupon}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "coupon", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace stripe.SubscriptionSchedule
 
         /// <summary>ID of an existing discount on the object (or one of its ancestors) to reuse.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#discount SubscriptionSchedule#discount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#discount SubscriptionSchedule#discount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "discount", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace stripe.SubscriptionSchedule
 
         /// <summary>ID of the promotion code to create a new discount for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#promotion_code SubscriptionSchedule#promotion_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#promotion_code SubscriptionSchedule#promotion_code}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "promotionCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

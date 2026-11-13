@@ -9,7 +9,7 @@ namespace stripe.TerminalConfiguration
     {
         /// <summary>A File ID representing an image to display on the reader.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#splashscreen TerminalConfiguration#splashscreen}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#splashscreen TerminalConfiguration#splashscreen}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "splashscreen", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

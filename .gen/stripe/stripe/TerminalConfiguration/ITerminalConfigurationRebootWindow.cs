@@ -11,7 +11,7 @@ namespace stripe.TerminalConfiguration
         /// <remarks>
         /// The value must be different than the start_hour.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#end_hour TerminalConfiguration#end_hour}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#end_hour TerminalConfiguration#end_hour}
         /// </remarks>
         [JsiiProperty(name: "endHour", typeJson: "{\"primitive\":\"number\"}")]
         double EndHour
@@ -21,7 +21,7 @@ namespace stripe.TerminalConfiguration
 
         /// <summary>Integer between 0 to 23 that represents the start hour of the reboot time window.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#start_hour TerminalConfiguration#start_hour}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#start_hour TerminalConfiguration#start_hour}
         /// </remarks>
         [JsiiProperty(name: "startHour", typeJson: "{\"primitive\":\"number\"}")]
         double StartHour
@@ -40,7 +40,7 @@ namespace stripe.TerminalConfiguration
             /// <remarks>
             /// The value must be different than the start_hour.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#end_hour TerminalConfiguration#end_hour}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#end_hour TerminalConfiguration#end_hour}
             /// </remarks>
             [JsiiProperty(name: "endHour", typeJson: "{\"primitive\":\"number\"}")]
             public double EndHour
@@ -50,7 +50,7 @@ namespace stripe.TerminalConfiguration
 
             /// <summary>Integer between 0 to 23 that represents the start hour of the reboot time window.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#start_hour TerminalConfiguration#start_hour}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#start_hour TerminalConfiguration#start_hour}
             /// </remarks>
             [JsiiProperty(name: "startHour", typeJson: "{\"primitive\":\"number\"}")]
             public double StartHour

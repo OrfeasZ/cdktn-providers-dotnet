@@ -9,7 +9,7 @@ namespace stripe.BillingAlert
     {
         /// <summary>The value at which this alert will trigger.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_alert#gte BillingAlert#gte}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_alert#gte BillingAlert#gte}
         /// </remarks>
         [JsiiProperty(name: "gte", typeJson: "{\"primitive\":\"number\"}")]
         double Gte
@@ -19,7 +19,7 @@ namespace stripe.BillingAlert
 
         /// <summary>The [Billing Meter](/api/billing/meter) ID whose usage is monitored.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_alert#meter BillingAlert#meter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_alert#meter BillingAlert#meter}
         /// </remarks>
         [JsiiProperty(name: "meter", typeJson: "{\"primitive\":\"string\"}")]
         string Meter
@@ -29,7 +29,7 @@ namespace stripe.BillingAlert
 
         /// <summary>Defines how the alert will behave.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_alert#recurrence BillingAlert#recurrence}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_alert#recurrence BillingAlert#recurrence}
         /// </remarks>
         [JsiiProperty(name: "recurrence", typeJson: "{\"primitive\":\"string\"}")]
         string Recurrence
@@ -41,7 +41,7 @@ namespace stripe.BillingAlert
         /// <remarks>
         /// You can only specify up to one filter at this time.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_alert#filters BillingAlert#filters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_alert#filters BillingAlert#filters}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingAlert.IBillingAlertUsageThresholdFilters" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filters", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.billingAlert.BillingAlertUsageThresholdFilters\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -63,7 +63,7 @@ namespace stripe.BillingAlert
 
             /// <summary>The value at which this alert will trigger.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_alert#gte BillingAlert#gte}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_alert#gte BillingAlert#gte}
             /// </remarks>
             [JsiiProperty(name: "gte", typeJson: "{\"primitive\":\"number\"}")]
             public double Gte
@@ -73,7 +73,7 @@ namespace stripe.BillingAlert
 
             /// <summary>The [Billing Meter](/api/billing/meter) ID whose usage is monitored.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_alert#meter BillingAlert#meter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_alert#meter BillingAlert#meter}
             /// </remarks>
             [JsiiProperty(name: "meter", typeJson: "{\"primitive\":\"string\"}")]
             public string Meter
@@ -83,7 +83,7 @@ namespace stripe.BillingAlert
 
             /// <summary>Defines how the alert will behave.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_alert#recurrence BillingAlert#recurrence}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_alert#recurrence BillingAlert#recurrence}
             /// </remarks>
             [JsiiProperty(name: "recurrence", typeJson: "{\"primitive\":\"string\"}")]
             public string Recurrence
@@ -95,7 +95,7 @@ namespace stripe.BillingAlert
             /// <remarks>
             /// You can only specify up to one filter at this time.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_alert#filters BillingAlert#filters}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_alert#filters BillingAlert#filters}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingAlert.IBillingAlertUsageThresholdFilters" />)[]</para>
             /// </remarks>
             [JsiiOptional]

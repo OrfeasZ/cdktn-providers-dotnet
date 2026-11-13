@@ -9,7 +9,7 @@ namespace stripe.TreasuryFinancialAccount
     {
         /// <summary>Toggle settings for enabling/disabling an inbound ACH specific feature.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/treasury_financial_account#ach TreasuryFinancialAccount#ach}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/treasury_financial_account#ach TreasuryFinancialAccount#ach}
         /// </remarks>
         [JsiiProperty(name: "ach", typeJson: "{\"fqn\":\"stripe.treasuryFinancialAccount.TreasuryFinancialAccountFeaturesInboundTransfersAch\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace stripe.TreasuryFinancialAccount
 
             /// <summary>Toggle settings for enabling/disabling an inbound ACH specific feature.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/treasury_financial_account#ach TreasuryFinancialAccount#ach}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/treasury_financial_account#ach TreasuryFinancialAccount#ach}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ach", typeJson: "{\"fqn\":\"stripe.treasuryFinancialAccount.TreasuryFinancialAccountFeaturesInboundTransfersAch\"}", isOptional: true)]

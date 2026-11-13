@@ -11,7 +11,7 @@ namespace stripe.Quote
     {
         /// <summary>Type of the account referenced.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#type Quote#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#type Quote#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -22,7 +22,7 @@ namespace stripe.Quote
 
         /// <summary>The connected account being referenced when `type` is `account`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#account Quote#account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#account Quote#account}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "account", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

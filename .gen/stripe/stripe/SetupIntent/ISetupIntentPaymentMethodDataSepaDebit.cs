@@ -9,7 +9,7 @@ namespace stripe.SetupIntent
     {
         /// <summary>IBAN of the bank account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#iban SetupIntent#iban}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#iban SetupIntent#iban}
         /// </remarks>
         [JsiiProperty(name: "iban", typeJson: "{\"primitive\":\"string\"}")]
         string Iban
@@ -26,7 +26,7 @@ namespace stripe.SetupIntent
 
             /// <summary>IBAN of the bank account.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#iban SetupIntent#iban}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#iban SetupIntent#iban}
             /// </remarks>
             [JsiiProperty(name: "iban", typeJson: "{\"primitive\":\"string\"}")]
             public string Iban

@@ -33,6 +33,30 @@ namespace stripe.SubscriptionSchedule
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.SubscriptionSchedule.ISubscriptionScheduleDefaultSettingsInvoiceSettingsCustomFields" />)[]</param>
+        [JsiiMethod(name: "putCustomFields", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.subscriptionSchedule.SubscriptionScheduleDefaultSettingsInvoiceSettingsCustomFields\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutCustomFields(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.SubscriptionSchedule.ISubscriptionScheduleDefaultSettingsInvoiceSettingsCustomFields[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.SubscriptionSchedule.ISubscriptionScheduleDefaultSettingsInvoiceSettingsCustomFields).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.SubscriptionSchedule.ISubscriptionScheduleDefaultSettingsInvoiceSettingsCustomFields).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putIssuer", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.subscriptionSchedule.SubscriptionScheduleDefaultSettingsInvoiceSettingsIssuer\"}}]")]
         public virtual void PutIssuer(stripe.SubscriptionSchedule.ISubscriptionScheduleDefaultSettingsInvoiceSettingsIssuer @value)
         {
@@ -45,8 +69,26 @@ namespace stripe.SubscriptionSchedule
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetCustomFields")]
+        public virtual void ResetCustomFields()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetDaysUntilDue")]
         public virtual void ResetDaysUntilDue()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDescription")]
+        public virtual void ResetDescription()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetFooter")]
+        public virtual void ResetFooter()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -55,6 +97,12 @@ namespace stripe.SubscriptionSchedule
         public virtual void ResetIssuer()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "customFields", typeJson: "{\"fqn\":\"stripe.subscriptionSchedule.SubscriptionScheduleDefaultSettingsInvoiceSettingsCustomFieldsList\"}")]
+        public virtual stripe.SubscriptionSchedule.SubscriptionScheduleDefaultSettingsInvoiceSettingsCustomFieldsList CustomFields
+        {
+            get => GetInstanceProperty<stripe.SubscriptionSchedule.SubscriptionScheduleDefaultSettingsInvoiceSettingsCustomFieldsList>()!;
         }
 
         [JsiiProperty(name: "issuer", typeJson: "{\"fqn\":\"stripe.subscriptionSchedule.SubscriptionScheduleDefaultSettingsInvoiceSettingsIssuerOutputReference\"}")]
@@ -70,11 +118,35 @@ namespace stripe.SubscriptionSchedule
             get => GetInstanceProperty<string[]?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.SubscriptionSchedule.ISubscriptionScheduleDefaultSettingsInvoiceSettingsCustomFields" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "customFieldsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.subscriptionSchedule.SubscriptionScheduleDefaultSettingsInvoiceSettingsCustomFields\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? CustomFieldsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "daysUntilDueInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? DaysUntilDueInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "descriptionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DescriptionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "footerInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? FooterInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         /// <remarks>
@@ -98,6 +170,20 @@ namespace stripe.SubscriptionSchedule
         public virtual double DaysUntilDue
         {
             get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Description
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "footer", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Footer
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

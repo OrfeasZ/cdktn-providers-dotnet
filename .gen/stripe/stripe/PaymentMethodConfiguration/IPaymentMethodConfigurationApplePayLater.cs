@@ -9,7 +9,7 @@ namespace stripe.PaymentMethodConfiguration
     {
         /// <summary>Whether or not the payment method should be displayed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method_configuration#display_preference PaymentMethodConfiguration#display_preference}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method_configuration#display_preference PaymentMethodConfiguration#display_preference}
         /// </remarks>
         [JsiiProperty(name: "displayPreference", typeJson: "{\"fqn\":\"stripe.paymentMethodConfiguration.PaymentMethodConfigurationApplePayLaterDisplayPreference\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace stripe.PaymentMethodConfiguration
 
             /// <summary>Whether or not the payment method should be displayed.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method_configuration#display_preference PaymentMethodConfiguration#display_preference}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method_configuration#display_preference PaymentMethodConfiguration#display_preference}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "displayPreference", typeJson: "{\"fqn\":\"stripe.paymentMethodConfiguration.PaymentMethodConfigurationApplePayLaterDisplayPreference\"}", isOptional: true)]

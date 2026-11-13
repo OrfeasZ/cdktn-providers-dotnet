@@ -9,7 +9,7 @@ namespace stripe.IssuingDispute
     {
         /// <summary>(ID of a [file upload](https://stripe.com/docs/guides/file-upload)) Additional documentation supporting the dispute.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_dispute#additional_documentation IssuingDispute#additional_documentation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_dispute#additional_documentation IssuingDispute#additional_documentation}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "additionalDocumentation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace stripe.IssuingDispute
 
         /// <summary>Explanation of why the cardholder is disputing this transaction.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_dispute#explanation IssuingDispute#explanation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_dispute#explanation IssuingDispute#explanation}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "explanation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace stripe.IssuingDispute
 
         /// <summary>Date when the product was received.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_dispute#received_at IssuingDispute#received_at}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_dispute#received_at IssuingDispute#received_at}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "receivedAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace stripe.IssuingDispute
 
         /// <summary>Description of the cardholder's attempt to return the product.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_dispute#return_description IssuingDispute#return_description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_dispute#return_description IssuingDispute#return_description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "returnDescription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace stripe.IssuingDispute
 
         /// <summary>Date when the product was returned or attempted to be returned.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_dispute#returned_at IssuingDispute#returned_at}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_dispute#returned_at IssuingDispute#returned_at}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "returnedAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace stripe.IssuingDispute
 
         /// <summary>Result of cardholder's attempt to return the product.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_dispute#return_status IssuingDispute#return_status}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_dispute#return_status IssuingDispute#return_status}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "returnStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

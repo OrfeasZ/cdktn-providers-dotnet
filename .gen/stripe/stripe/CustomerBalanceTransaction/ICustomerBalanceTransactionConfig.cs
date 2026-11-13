@@ -11,7 +11,7 @@ namespace stripe.CustomerBalanceTransaction
         /// <remarks>
         /// A negative value is a credit for the customer's balance, and a positive value is a debit to the customer's <c>balance</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer_balance_transaction#amount CustomerBalanceTransaction#amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/customer_balance_transaction#amount CustomerBalanceTransaction#amount}
         /// </remarks>
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}")]
         double Amount
@@ -21,7 +21,7 @@ namespace stripe.CustomerBalanceTransaction
 
         /// <summary>Three-letter [ISO currency code](https://www.iso.org/iso-4217-currency-codes.html), in lowercase. Must be a [supported currency](https://stripe.com/docs/currencies).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer_balance_transaction#currency CustomerBalanceTransaction#currency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/customer_balance_transaction#currency CustomerBalanceTransaction#currency}
         /// </remarks>
         [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}")]
         string Currency
@@ -31,7 +31,7 @@ namespace stripe.CustomerBalanceTransaction
 
         /// <summary>The ID of the customer the transaction belongs to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer_balance_transaction#customer CustomerBalanceTransaction#customer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/customer_balance_transaction#customer CustomerBalanceTransaction#customer}
         /// </remarks>
         [JsiiProperty(name: "customer", typeJson: "{\"primitive\":\"string\"}")]
         string Customer
@@ -41,7 +41,7 @@ namespace stripe.CustomerBalanceTransaction
 
         /// <summary>An arbitrary string attached to the object. Often useful for displaying to users.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer_balance_transaction#description CustomerBalanceTransaction#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/customer_balance_transaction#description CustomerBalanceTransaction#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -55,7 +55,7 @@ namespace stripe.CustomerBalanceTransaction
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer_balance_transaction#metadata CustomerBalanceTransaction#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/customer_balance_transaction#metadata CustomerBalanceTransaction#metadata}
         /// </remarks>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,7 +78,7 @@ namespace stripe.CustomerBalanceTransaction
             /// <remarks>
             /// A negative value is a credit for the customer's balance, and a positive value is a debit to the customer's <c>balance</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer_balance_transaction#amount CustomerBalanceTransaction#amount}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/customer_balance_transaction#amount CustomerBalanceTransaction#amount}
             /// </remarks>
             [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}")]
             public double Amount
@@ -88,7 +88,7 @@ namespace stripe.CustomerBalanceTransaction
 
             /// <summary>Three-letter [ISO currency code](https://www.iso.org/iso-4217-currency-codes.html), in lowercase. Must be a [supported currency](https://stripe.com/docs/currencies).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer_balance_transaction#currency CustomerBalanceTransaction#currency}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/customer_balance_transaction#currency CustomerBalanceTransaction#currency}
             /// </remarks>
             [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}")]
             public string Currency
@@ -98,7 +98,7 @@ namespace stripe.CustomerBalanceTransaction
 
             /// <summary>The ID of the customer the transaction belongs to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer_balance_transaction#customer CustomerBalanceTransaction#customer}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/customer_balance_transaction#customer CustomerBalanceTransaction#customer}
             /// </remarks>
             [JsiiProperty(name: "customer", typeJson: "{\"primitive\":\"string\"}")]
             public string Customer
@@ -108,7 +108,7 @@ namespace stripe.CustomerBalanceTransaction
 
             /// <summary>An arbitrary string attached to the object. Often useful for displaying to users.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer_balance_transaction#description CustomerBalanceTransaction#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/customer_balance_transaction#description CustomerBalanceTransaction#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -119,7 +119,7 @@ namespace stripe.CustomerBalanceTransaction
 
             /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/customer_balance_transaction#metadata CustomerBalanceTransaction#metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/customer_balance_transaction#metadata CustomerBalanceTransaction#metadata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]

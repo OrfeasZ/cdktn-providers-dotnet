@@ -13,7 +13,7 @@ namespace stripe.IssuingCardholder
         /// <remarks>
         /// This amount is in the card's currency and in the <a href="https://docs.stripe.com/currencies#zero-decimal">smallest currency unit</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#amount IssuingCardholder#amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#amount IssuingCardholder#amount}
         /// </remarks>
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}")]
         public double Amount
@@ -24,7 +24,7 @@ namespace stripe.IssuingCardholder
 
         /// <summary>Interval (or event) to which the amount applies.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#interval IssuingCardholder#interval}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#interval IssuingCardholder#interval}
         /// </remarks>
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
         public string Interval
@@ -35,7 +35,7 @@ namespace stripe.IssuingCardholder
 
         /// <summary>Array of strings containing [categories](https://docs.stripe.com/api#issuing_authorization_object-merchant_data-category) this limit applies to. Omitting this field will apply the limit to all categories.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#categories IssuingCardholder#categories}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#categories IssuingCardholder#categories}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "categories", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace stripe.Person
     {
         /// <summary>Details on the legal guardian's acceptance of the main Stripe service agreement.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#account Person#account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#account Person#account}
         /// </remarks>
         [JsiiProperty(name: "account", typeJson: "{\"fqn\":\"stripe.person.PersonAdditionalTosAcceptancesAccount\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace stripe.Person
 
             /// <summary>Details on the legal guardian's acceptance of the main Stripe service agreement.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#account Person#account}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#account Person#account}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "account", typeJson: "{\"fqn\":\"stripe.person.PersonAdditionalTosAcceptancesAccount\"}", isOptional: true)]

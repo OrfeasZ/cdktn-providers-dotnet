@@ -9,7 +9,7 @@ namespace stripe.Invoice
     {
         /// <summary>The ID of the ShippingRate for this invoice.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#shipping_rate Invoice#shipping_rate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#shipping_rate Invoice#shipping_rate}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shippingRate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace stripe.Invoice
 
         /// <summary>Parameters to create a new ad-hoc shipping rate for this order.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#shipping_rate_data Invoice#shipping_rate_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#shipping_rate_data Invoice#shipping_rate_data}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shippingRateData", typeJson: "{\"fqn\":\"stripe.invoice.InvoiceShippingCostShippingRateData\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace stripe.PaymentLink
     {
         /// <summary>The maximum number of checkout sessions that can be completed for the `completed_sessions` restriction to be met.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#limit PaymentLink#limit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#limit PaymentLink#limit}
         /// </remarks>
         [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}")]
         double Limit
@@ -26,7 +26,7 @@ namespace stripe.PaymentLink
 
             /// <summary>The maximum number of checkout sessions that can be completed for the `completed_sessions` restriction to be met.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#limit PaymentLink#limit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#limit PaymentLink#limit}
             /// </remarks>
             [JsiiProperty(name: "limit", typeJson: "{\"primitive\":\"number\"}")]
             public double Limit

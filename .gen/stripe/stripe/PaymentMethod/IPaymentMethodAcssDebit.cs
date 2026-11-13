@@ -9,7 +9,7 @@ namespace stripe.PaymentMethod
     {
         /// <summary>Customer's bank account number.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#account_number PaymentMethod#account_number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#account_number PaymentMethod#account_number}
         /// </remarks>
         [JsiiProperty(name: "accountNumber", typeJson: "{\"primitive\":\"string\"}")]
         string AccountNumber
@@ -19,7 +19,7 @@ namespace stripe.PaymentMethod
 
         /// <summary>Institution number of the bank account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#institution_number PaymentMethod#institution_number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#institution_number PaymentMethod#institution_number}
         /// </remarks>
         [JsiiProperty(name: "institutionNumber", typeJson: "{\"primitive\":\"string\"}")]
         string InstitutionNumber
@@ -29,7 +29,7 @@ namespace stripe.PaymentMethod
 
         /// <summary>Transit number of the bank account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#transit_number PaymentMethod#transit_number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#transit_number PaymentMethod#transit_number}
         /// </remarks>
         [JsiiProperty(name: "transitNumber", typeJson: "{\"primitive\":\"string\"}")]
         string TransitNumber
@@ -46,7 +46,7 @@ namespace stripe.PaymentMethod
 
             /// <summary>Customer's bank account number.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#account_number PaymentMethod#account_number}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#account_number PaymentMethod#account_number}
             /// </remarks>
             [JsiiProperty(name: "accountNumber", typeJson: "{\"primitive\":\"string\"}")]
             public string AccountNumber
@@ -56,7 +56,7 @@ namespace stripe.PaymentMethod
 
             /// <summary>Institution number of the bank account.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#institution_number PaymentMethod#institution_number}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#institution_number PaymentMethod#institution_number}
             /// </remarks>
             [JsiiProperty(name: "institutionNumber", typeJson: "{\"primitive\":\"string\"}")]
             public string InstitutionNumber
@@ -66,7 +66,7 @@ namespace stripe.PaymentMethod
 
             /// <summary>Transit number of the bank account.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#transit_number PaymentMethod#transit_number}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#transit_number PaymentMethod#transit_number}
             /// </remarks>
             [JsiiProperty(name: "transitNumber", typeJson: "{\"primitive\":\"string\"}")]
             public string TransitNumber

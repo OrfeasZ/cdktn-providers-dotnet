@@ -11,7 +11,7 @@ namespace stripe.IssuingPersonalizationDesign
     {
         /// <summary>The physical bundle object belonging to this personalization design.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_personalization_design#physical_bundle IssuingPersonalizationDesign#physical_bundle}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_personalization_design#physical_bundle IssuingPersonalizationDesign#physical_bundle}
         /// </remarks>
         [JsiiProperty(name: "physicalBundle", typeJson: "{\"primitive\":\"string\"}")]
         public string PhysicalBundle
@@ -24,7 +24,7 @@ namespace stripe.IssuingPersonalizationDesign
         /// <remarks>
         /// Must have a <c>purpose</c> value of <c>issuing_logo</c>. Image must be in PNG format with dimensions of 1000px by 200px. It must be a binary (black and white) image containing a black logo on a white background. We don't accept grayscale.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_personalization_design#card_logo IssuingPersonalizationDesign#card_logo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_personalization_design#card_logo IssuingPersonalizationDesign#card_logo}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cardLogo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace stripe.IssuingPersonalizationDesign
 
         /// <summary>Hash containing carrier text, for use with physical bundles that support carrier text.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_personalization_design#carrier_text IssuingPersonalizationDesign#carrier_text}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_personalization_design#carrier_text IssuingPersonalizationDesign#carrier_text}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "carrierText", typeJson: "{\"fqn\":\"stripe.issuingPersonalizationDesign.IssuingPersonalizationDesignCarrierText\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace stripe.IssuingPersonalizationDesign
         /// <remarks>
         /// This may be up to 200 characters.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_personalization_design#lookup_key IssuingPersonalizationDesign#lookup_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_personalization_design#lookup_key IssuingPersonalizationDesign#lookup_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "lookupKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -62,7 +62,7 @@ namespace stripe.IssuingPersonalizationDesign
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_personalization_design#metadata IssuingPersonalizationDesign#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_personalization_design#metadata IssuingPersonalizationDesign#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -74,7 +74,7 @@ namespace stripe.IssuingPersonalizationDesign
 
         /// <summary>Friendly display name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_personalization_design#name IssuingPersonalizationDesign#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_personalization_design#name IssuingPersonalizationDesign#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -84,7 +84,7 @@ namespace stripe.IssuingPersonalizationDesign
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_personalization_design#preferences IssuingPersonalizationDesign#preferences}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_personalization_design#preferences IssuingPersonalizationDesign#preferences}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "preferences", typeJson: "{\"fqn\":\"stripe.issuingPersonalizationDesign.IssuingPersonalizationDesignPreferences\"}", isOptional: true)]
         public stripe.IssuingPersonalizationDesign.IIssuingPersonalizationDesignPreferences? Preferences
@@ -97,7 +97,7 @@ namespace stripe.IssuingPersonalizationDesign
 
         /// <summary>If set to true, will atomically remove the lookup key from the existing personalization design, and assign it to this personalization design.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_personalization_design#transfer_lookup_key IssuingPersonalizationDesign#transfer_lookup_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_personalization_design#transfer_lookup_key IssuingPersonalizationDesign#transfer_lookup_key}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

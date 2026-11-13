@@ -9,7 +9,7 @@ namespace stripe.Source
     {
         /// <summary>The URL you provide to redirect the customer to after they authenticated their payment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/source#return_url Source#return_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/source#return_url Source#return_url}
         /// </remarks>
         [JsiiProperty(name: "returnUrl", typeJson: "{\"primitive\":\"string\"}")]
         string ReturnUrl
@@ -26,7 +26,7 @@ namespace stripe.Source
 
             /// <summary>The URL you provide to redirect the customer to after they authenticated their payment.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/source#return_url Source#return_url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/source#return_url Source#return_url}
             /// </remarks>
             [JsiiProperty(name: "returnUrl", typeJson: "{\"primitive\":\"string\"}")]
             public string ReturnUrl

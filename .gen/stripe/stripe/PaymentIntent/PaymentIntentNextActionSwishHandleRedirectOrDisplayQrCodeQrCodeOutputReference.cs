@@ -39,6 +39,12 @@ namespace stripe.PaymentIntent
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "expiresAt", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double ExpiresAt
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "imageUrlPng", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ImageUrlPng
         {

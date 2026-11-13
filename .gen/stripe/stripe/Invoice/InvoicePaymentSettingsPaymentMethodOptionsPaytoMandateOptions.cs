@@ -11,7 +11,7 @@ namespace stripe.Invoice
         /// <remarks>
         /// If you don't specify a maximum, then there is no limit.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#amount Invoice#amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#amount Invoice#amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace stripe.Invoice
 
         /// <summary>The purpose for which payments are made. Has a default value based on your merchant category code.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#purpose Invoice#purpose}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#purpose Invoice#purpose}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "purpose", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

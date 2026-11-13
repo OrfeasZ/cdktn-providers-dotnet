@@ -11,7 +11,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// Must be at most 12 characters long. Must consist of only uppercase letters, numbers, spaces, or the following special characters: '/', '_', '-', '&amp;', '.'. Cannot begin with 'STRIPE'.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#reference_prefix PaymentIntent#reference_prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#reference_prefix PaymentIntent#reference_prefix}
         /// </remarks>
         [JsiiProperty(name: "referencePrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -34,7 +34,7 @@ namespace stripe.PaymentIntent
             /// <remarks>
             /// Must be at most 12 characters long. Must consist of only uppercase letters, numbers, spaces, or the following special characters: '/', '_', '-', '&amp;', '.'. Cannot begin with 'STRIPE'.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#reference_prefix PaymentIntent#reference_prefix}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#reference_prefix PaymentIntent#reference_prefix}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "referencePrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

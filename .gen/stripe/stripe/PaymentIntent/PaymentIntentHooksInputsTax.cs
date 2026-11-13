@@ -11,7 +11,7 @@ namespace stripe.PaymentIntent
     {
         /// <summary>The [TaxCalculation](https://docs.stripe.com/api/tax/calculations) id.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#calculation PaymentIntent#calculation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#calculation PaymentIntent#calculation}
         /// </remarks>
         [JsiiProperty(name: "calculation", typeJson: "{\"primitive\":\"string\"}")]
         public string Calculation

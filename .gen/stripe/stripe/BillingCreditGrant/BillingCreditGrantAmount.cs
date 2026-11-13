@@ -11,7 +11,7 @@ namespace stripe.BillingCreditGrant
     {
         /// <summary>The type of this amount. We currently only support `monetary` billing credits.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_credit_grant#type BillingCreditGrant#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_credit_grant#type BillingCreditGrant#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -22,7 +22,7 @@ namespace stripe.BillingCreditGrant
 
         /// <summary>The monetary amount.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_credit_grant#monetary BillingCreditGrant#monetary}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_credit_grant#monetary BillingCreditGrant#monetary}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "monetary", typeJson: "{\"fqn\":\"stripe.billingCreditGrant.BillingCreditGrantAmountMonetary\"}", isOptional: true)]

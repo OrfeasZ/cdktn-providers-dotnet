@@ -9,7 +9,7 @@ namespace stripe.Person
     {
         /// <summary>The persons ethnicity details.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#ethnicity_details Person#ethnicity_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#ethnicity_details Person#ethnicity_details}
         /// </remarks>
         [JsiiProperty(name: "ethnicityDetails", typeJson: "{\"fqn\":\"stripe.person.PersonUsCfpbDataEthnicityDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace stripe.Person
 
         /// <summary>The persons race details.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#race_details Person#race_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#race_details Person#race_details}
         /// </remarks>
         [JsiiProperty(name: "raceDetails", typeJson: "{\"fqn\":\"stripe.person.PersonUsCfpbDataRaceDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace stripe.Person
 
         /// <summary>The persons self-identified gender.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#self_identified_gender Person#self_identified_gender}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#self_identified_gender Person#self_identified_gender}
         /// </remarks>
         [JsiiProperty(name: "selfIdentifiedGender", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace stripe.Person
 
             /// <summary>The persons ethnicity details.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#ethnicity_details Person#ethnicity_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#ethnicity_details Person#ethnicity_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ethnicityDetails", typeJson: "{\"fqn\":\"stripe.person.PersonUsCfpbDataEthnicityDetails\"}", isOptional: true)]
@@ -69,7 +69,7 @@ namespace stripe.Person
 
             /// <summary>The persons race details.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#race_details Person#race_details}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#race_details Person#race_details}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "raceDetails", typeJson: "{\"fqn\":\"stripe.person.PersonUsCfpbDataRaceDetails\"}", isOptional: true)]
@@ -80,7 +80,7 @@ namespace stripe.Person
 
             /// <summary>The persons self-identified gender.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#self_identified_gender Person#self_identified_gender}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#self_identified_gender Person#self_identified_gender}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "selfIdentifiedGender", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -11,7 +11,7 @@ namespace stripe.ClimateOrder
     {
         /// <summary>Unique ID for the Climate `Product` this order is purchasing.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/climate_order#product ClimateOrder#product}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/climate_order#product ClimateOrder#product}
         /// </remarks>
         [JsiiProperty(name: "product", typeJson: "{\"primitive\":\"string\"}")]
         public string Product
@@ -22,7 +22,7 @@ namespace stripe.ClimateOrder
 
         /// <summary>Requested amount of carbon removal units. Either this or `metric_tons` must be specified.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/climate_order#amount ClimateOrder#amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/climate_order#amount ClimateOrder#amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -32,7 +32,7 @@ namespace stripe.ClimateOrder
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/climate_order#beneficiary ClimateOrder#beneficiary}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/climate_order#beneficiary ClimateOrder#beneficiary}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "beneficiary", typeJson: "{\"fqn\":\"stripe.climateOrder.ClimateOrderBeneficiary\"}", isOptional: true)]
         public stripe.ClimateOrder.IClimateOrderBeneficiary? Beneficiary
@@ -43,7 +43,7 @@ namespace stripe.ClimateOrder
 
         /// <summary>Three-letter [ISO currency code](https://www.iso.org/iso-4217-currency-codes.html), in lowercase, representing the currency for this order.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/climate_order#currency ClimateOrder#currency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/climate_order#currency ClimateOrder#currency}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace stripe.ClimateOrder
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/climate_order#metadata ClimateOrder#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/climate_order#metadata ClimateOrder#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace stripe.ClimateOrder
 
         /// <summary>Quantity of carbon removal that is included in this order.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/climate_order#metric_tons ClimateOrder#metric_tons}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/climate_order#metric_tons ClimateOrder#metric_tons}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metricTons", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

@@ -13,7 +13,7 @@ namespace stripe.SetupIntent
         /// <remarks>
         /// An additional hash is included on the PaymentMethod with a name matching this value. It contains additional information specific to the PaymentMethod type.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#type SetupIntent#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#type SetupIntent#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -24,7 +24,7 @@ namespace stripe.SetupIntent
 
         /// <summary>If this is an `acss_debit` PaymentMethod, this hash contains details about the ACSS Debit payment method.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#acss_debit SetupIntent#acss_debit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#acss_debit SetupIntent#acss_debit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "acssDebit", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodDataAcssDebit\"}", isOptional: true)]
@@ -38,7 +38,7 @@ namespace stripe.SetupIntent
         /// <remarks>
         /// Stripe products such as Checkout and Elements use this field to determine whether a payment method can be shown as a saved payment method in a checkout flow. The field defaults to <c>unspecified</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#allow_redisplay SetupIntent#allow_redisplay}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#allow_redisplay SetupIntent#allow_redisplay}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allowRedisplay", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -50,7 +50,7 @@ namespace stripe.SetupIntent
 
         /// <summary>If this is an `au_becs_debit` PaymentMethod, this hash contains details about the bank account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#au_becs_debit SetupIntent#au_becs_debit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#au_becs_debit SetupIntent#au_becs_debit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "auBecsDebit", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodDataAuBecsDebit\"}", isOptional: true)]
@@ -62,7 +62,7 @@ namespace stripe.SetupIntent
 
         /// <summary>If this is a `bacs_debit` PaymentMethod, this hash contains details about the Bacs Direct Debit bank account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#bacs_debit SetupIntent#bacs_debit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#bacs_debit SetupIntent#bacs_debit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bacsDebit", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodDataBacsDebit\"}", isOptional: true)]
@@ -74,7 +74,7 @@ namespace stripe.SetupIntent
 
         /// <summary>Billing information associated with the PaymentMethod that may be used or required by particular types of payment methods.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#billing_details SetupIntent#billing_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#billing_details SetupIntent#billing_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "billingDetails", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodDataBillingDetails\"}", isOptional: true)]
@@ -86,7 +86,7 @@ namespace stripe.SetupIntent
 
         /// <summary>If this is a `boleto` PaymentMethod, this hash contains details about the Boleto payment method.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#boleto SetupIntent#boleto}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#boleto SetupIntent#boleto}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "boleto", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodDataBoleto\"}", isOptional: true)]
@@ -98,7 +98,7 @@ namespace stripe.SetupIntent
 
         /// <summary>If this is an `eps` PaymentMethod, this hash contains details about the EPS payment method.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#eps SetupIntent#eps}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#eps SetupIntent#eps}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eps", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodDataEps\"}", isOptional: true)]
@@ -110,7 +110,7 @@ namespace stripe.SetupIntent
 
         /// <summary>If this is an `fpx` PaymentMethod, this hash contains details about the FPX payment method.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#fpx SetupIntent#fpx}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#fpx SetupIntent#fpx}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fpx", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodDataFpx\"}", isOptional: true)]
@@ -122,7 +122,7 @@ namespace stripe.SetupIntent
 
         /// <summary>If this is an `ideal` PaymentMethod, this hash contains details about the iDEAL payment method.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#ideal SetupIntent#ideal}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#ideal SetupIntent#ideal}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ideal", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodDataIdeal\"}", isOptional: true)]
@@ -134,7 +134,7 @@ namespace stripe.SetupIntent
 
         /// <summary>If this is a `klarna` PaymentMethod, this hash contains details about the Klarna payment method.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#klarna SetupIntent#klarna}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#klarna SetupIntent#klarna}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "klarna", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodDataKlarna\"}", isOptional: true)]
@@ -146,7 +146,7 @@ namespace stripe.SetupIntent
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format. Individual keys can be unset by posting an empty value to them. All keys can be unset by posting an empty value to `metadata`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#metadata SetupIntent#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#metadata SetupIntent#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -158,7 +158,7 @@ namespace stripe.SetupIntent
 
         /// <summary>If this is a `naver_pay` PaymentMethod, this hash contains details about the Naver Pay payment method.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#naver_pay SetupIntent#naver_pay}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#naver_pay SetupIntent#naver_pay}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "naverPay", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodDataNaverPay\"}", isOptional: true)]
@@ -170,7 +170,7 @@ namespace stripe.SetupIntent
 
         /// <summary>If this is an nz_bank_account PaymentMethod, this hash contains details about the nz_bank_account payment method.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#nz_bank_account SetupIntent#nz_bank_account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#nz_bank_account SetupIntent#nz_bank_account}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nzBankAccount", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodDataNzBankAccount\"}", isOptional: true)]
@@ -182,7 +182,7 @@ namespace stripe.SetupIntent
 
         /// <summary>If this is a `p24` PaymentMethod, this hash contains details about the P24 payment method.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#p24 SetupIntent#p24}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#p24 SetupIntent#p24}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "p24", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodDataP24\"}", isOptional: true)]
@@ -194,7 +194,7 @@ namespace stripe.SetupIntent
 
         /// <summary>If this is a `payto` PaymentMethod, this hash contains details about the PayTo payment method.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#payto SetupIntent#payto}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#payto SetupIntent#payto}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "payto", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodDataPayto\"}", isOptional: true)]
@@ -206,7 +206,7 @@ namespace stripe.SetupIntent
 
         /// <summary>Options to configure Radar. See [Radar Session](https://docs.stripe.com/radar/radar-session) for more information.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#radar_options SetupIntent#radar_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#radar_options SetupIntent#radar_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "radarOptions", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodDataRadarOptions\"}", isOptional: true)]
@@ -218,7 +218,7 @@ namespace stripe.SetupIntent
 
         /// <summary>If this is a `sepa_debit` PaymentMethod, this hash contains details about the SEPA debit bank account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#sepa_debit SetupIntent#sepa_debit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#sepa_debit SetupIntent#sepa_debit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sepaDebit", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodDataSepaDebit\"}", isOptional: true)]
@@ -230,7 +230,7 @@ namespace stripe.SetupIntent
 
         /// <summary>If this is a `sofort` PaymentMethod, this hash contains details about the SOFORT payment method.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#sofort SetupIntent#sofort}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#sofort SetupIntent#sofort}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sofort", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodDataSofort\"}", isOptional: true)]
@@ -242,7 +242,7 @@ namespace stripe.SetupIntent
 
         /// <summary>If this is a `upi` PaymentMethod, this hash contains details about the UPI payment method.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#upi SetupIntent#upi}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#upi SetupIntent#upi}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "upi", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodDataUpi\"}", isOptional: true)]
@@ -254,7 +254,7 @@ namespace stripe.SetupIntent
 
         /// <summary>If this is an `us_bank_account` PaymentMethod, this hash contains details about the US bank account payment method.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#us_bank_account SetupIntent#us_bank_account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#us_bank_account SetupIntent#us_bank_account}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "usBankAccount", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodDataUsBankAccount\"}", isOptional: true)]

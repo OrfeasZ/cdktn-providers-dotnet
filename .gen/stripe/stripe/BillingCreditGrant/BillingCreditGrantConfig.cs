@@ -9,7 +9,7 @@ namespace stripe.BillingCreditGrant
     [JsiiByValue(fqn: "stripe.billingCreditGrant.BillingCreditGrantConfig")]
     public class BillingCreditGrantConfig : stripe.BillingCreditGrant.IBillingCreditGrantConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_credit_grant#amount BillingCreditGrant#amount}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_credit_grant#amount BillingCreditGrant#amount}.</summary>
         [JsiiProperty(name: "amount", typeJson: "{\"fqn\":\"stripe.billingCreditGrant.BillingCreditGrantAmount\"}")]
         public stripe.BillingCreditGrant.IBillingCreditGrantAmount Amount
         {
@@ -17,7 +17,7 @@ namespace stripe.BillingCreditGrant
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_credit_grant#applicability_config BillingCreditGrant#applicability_config}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_credit_grant#applicability_config BillingCreditGrant#applicability_config}.</summary>
         [JsiiProperty(name: "applicabilityConfig", typeJson: "{\"fqn\":\"stripe.billingCreditGrant.BillingCreditGrantApplicabilityConfig\"}")]
         public stripe.BillingCreditGrant.IBillingCreditGrantApplicabilityConfig ApplicabilityConfig
         {
@@ -27,7 +27,7 @@ namespace stripe.BillingCreditGrant
 
         /// <summary>The category of this credit grant. This is for tracking purposes and isn't displayed to the customer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_credit_grant#category BillingCreditGrant#category}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_credit_grant#category BillingCreditGrant#category}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "category", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace stripe.BillingCreditGrant
 
         /// <summary>ID of the customer receiving the billing credits.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_credit_grant#customer BillingCreditGrant#customer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_credit_grant#customer BillingCreditGrant#customer}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace stripe.BillingCreditGrant
 
         /// <summary>ID of the account representing the customer receiving the billing credits.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_credit_grant#customer_account BillingCreditGrant#customer_account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_credit_grant#customer_account BillingCreditGrant#customer_account}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customerAccount", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -63,7 +63,7 @@ namespace stripe.BillingCreditGrant
 
         /// <summary>The time when the billing credits become effective-when they're eligible for use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_credit_grant#effective_at BillingCreditGrant#effective_at}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_credit_grant#effective_at BillingCreditGrant#effective_at}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "effectiveAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace stripe.BillingCreditGrant
 
         /// <summary>The time when the billing credits expire. If not present, the billing credits don't expire.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_credit_grant#expires_at BillingCreditGrant#expires_at}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_credit_grant#expires_at BillingCreditGrant#expires_at}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "expiresAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -87,7 +87,7 @@ namespace stripe.BillingCreditGrant
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_credit_grant#metadata BillingCreditGrant#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_credit_grant#metadata BillingCreditGrant#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -99,7 +99,7 @@ namespace stripe.BillingCreditGrant
 
         /// <summary>A descriptive name shown in dashboard.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_credit_grant#name BillingCreditGrant#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_credit_grant#name BillingCreditGrant#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -111,7 +111,7 @@ namespace stripe.BillingCreditGrant
 
         /// <summary>The priority for applying this credit grant. The highest priority is 0 and the lowest is 100.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_credit_grant#priority BillingCreditGrant#priority}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_credit_grant#priority BillingCreditGrant#priority}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "priority", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

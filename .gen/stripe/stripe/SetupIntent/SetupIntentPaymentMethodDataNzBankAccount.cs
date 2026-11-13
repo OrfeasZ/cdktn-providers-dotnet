@@ -11,7 +11,7 @@ namespace stripe.SetupIntent
     {
         /// <summary>The account number for the bank account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#account_number SetupIntent#account_number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#account_number SetupIntent#account_number}
         /// </remarks>
         [JsiiProperty(name: "accountNumber", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountNumber
@@ -22,7 +22,7 @@ namespace stripe.SetupIntent
 
         /// <summary>The numeric code for the bank account's bank.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#bank_code SetupIntent#bank_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#bank_code SetupIntent#bank_code}
         /// </remarks>
         [JsiiProperty(name: "bankCode", typeJson: "{\"primitive\":\"string\"}")]
         public string BankCode
@@ -33,7 +33,7 @@ namespace stripe.SetupIntent
 
         /// <summary>The numeric code for the bank account's bank branch.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#branch_code SetupIntent#branch_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#branch_code SetupIntent#branch_code}
         /// </remarks>
         [JsiiProperty(name: "branchCode", typeJson: "{\"primitive\":\"string\"}")]
         public string BranchCode
@@ -44,7 +44,7 @@ namespace stripe.SetupIntent
 
         /// <summary>The suffix of the bank account number.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#suffix SetupIntent#suffix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#suffix SetupIntent#suffix}
         /// </remarks>
         [JsiiProperty(name: "suffix", typeJson: "{\"primitive\":\"string\"}")]
         public string Suffix
@@ -57,7 +57,7 @@ namespace stripe.SetupIntent
         /// <remarks>
         /// Only required if the account holder name is different from the name of the authorized signatory collected in the PaymentMethod’s billing details.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#account_holder_name SetupIntent#account_holder_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#account_holder_name SetupIntent#account_holder_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountHolderName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -67,7 +67,7 @@ namespace stripe.SetupIntent
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#reference SetupIntent#reference}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#reference SetupIntent#reference}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "reference", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Reference

@@ -9,7 +9,7 @@ namespace stripe.SetupIntent
     {
         /// <summary>Mandate collection method.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#collection_method SetupIntent#collection_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#collection_method SetupIntent#collection_method}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "collectionMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

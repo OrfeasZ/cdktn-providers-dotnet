@@ -9,7 +9,7 @@ namespace stripe.InvoiceItem
     {
         /// <summary>The ID of the price object.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#price InvoiceItem#price}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#price InvoiceItem#price}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "price", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,7 +19,7 @@ namespace stripe.InvoiceItem
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#price_details InvoiceItem#price_details}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#price_details InvoiceItem#price_details}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "priceDetails", typeJson: "{\"fqn\":\"stripe.invoiceItem.InvoiceItemPricingPriceDetails\"}", isOptional: true)]
         public stripe.InvoiceItem.IInvoiceItemPricingPriceDetails? PriceDetails
@@ -30,7 +30,7 @@ namespace stripe.InvoiceItem
 
         /// <summary>The type of the pricing details.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#type InvoiceItem#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#type InvoiceItem#type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -42,7 +42,7 @@ namespace stripe.InvoiceItem
 
         /// <summary>The unit amount (in the `currency` specified) of the item which contains a decimal value with at most 12 decimal places.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice_item#unit_amount_decimal InvoiceItem#unit_amount_decimal}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice_item#unit_amount_decimal InvoiceItem#unit_amount_decimal}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "unitAmountDecimal", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

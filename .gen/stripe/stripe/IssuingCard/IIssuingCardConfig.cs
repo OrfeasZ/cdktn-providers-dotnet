@@ -9,7 +9,7 @@ namespace stripe.IssuingCard
     {
         /// <summary>Three-letter [ISO currency code](https://www.iso.org/iso-4217-currency-codes.html), in lowercase. Supported currencies are `usd` in the US, `eur` in the EU, and `gbp` in the UK.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#currency IssuingCard#currency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#currency IssuingCard#currency}
         /// </remarks>
         [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}")]
         string Currency
@@ -19,7 +19,7 @@ namespace stripe.IssuingCard
 
         /// <summary>The type of the card.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#type IssuingCard#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#type IssuingCard#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -31,7 +31,7 @@ namespace stripe.IssuingCard
         /// <remarks>
         /// Related guide: <a href="https://docs.stripe.com/issuing/cards/virtual/issue-cards#create-cardholder">How to create a cardholder</a>
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#cardholder IssuingCard#cardholder}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#cardholder IssuingCard#cardholder}
         /// </remarks>
         [JsiiProperty(name: "cardholder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace stripe.IssuingCard
 
         /// <summary>The expiration month of the card.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#exp_month IssuingCard#exp_month}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#exp_month IssuingCard#exp_month}
         /// </remarks>
         [JsiiProperty(name: "expMonth", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -59,7 +59,7 @@ namespace stripe.IssuingCard
 
         /// <summary>The expiration year of the card.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#exp_year IssuingCard#exp_year}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#exp_year IssuingCard#exp_year}
         /// </remarks>
         [JsiiProperty(name: "expYear", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -73,7 +73,7 @@ namespace stripe.IssuingCard
 
         /// <summary>The financial account this card is attached to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#financial_account IssuingCard#financial_account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#financial_account IssuingCard#financial_account}
         /// </remarks>
         [JsiiProperty(name: "financialAccount", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -87,7 +87,7 @@ namespace stripe.IssuingCard
 
         /// <summary>Rules that control the lifecycle of this card, such as automatic cancellation. Refer to our [documentation](/issuing/controls/lifecycle-controls) for more details.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#lifecycle_controls IssuingCard#lifecycle_controls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#lifecycle_controls IssuingCard#lifecycle_controls}
         /// </remarks>
         [JsiiProperty(name: "lifecycleControls", typeJson: "{\"fqn\":\"stripe.issuingCard.IssuingCardLifecycleControls\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -101,7 +101,7 @@ namespace stripe.IssuingCard
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#metadata IssuingCard#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#metadata IssuingCard#metadata}
         /// </remarks>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -115,7 +115,7 @@ namespace stripe.IssuingCard
 
         /// <summary>The personalization design object belonging to this card.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#personalization_design IssuingCard#personalization_design}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#personalization_design IssuingCard#personalization_design}
         /// </remarks>
         [JsiiProperty(name: "personalizationDesign", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -129,7 +129,7 @@ namespace stripe.IssuingCard
 
         /// <summary>The desired PIN for this card.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#pin IssuingCard#pin}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#pin IssuingCard#pin}
         /// </remarks>
         [JsiiProperty(name: "pin", typeJson: "{\"fqn\":\"stripe.issuingCard.IssuingCardPin\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -143,7 +143,7 @@ namespace stripe.IssuingCard
 
         /// <summary>The card this card replaces, if any.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#replacement_for IssuingCard#replacement_for}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#replacement_for IssuingCard#replacement_for}
         /// </remarks>
         [JsiiProperty(name: "replacementFor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -157,7 +157,7 @@ namespace stripe.IssuingCard
 
         /// <summary>The reason why the previous card needed to be replaced.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#replacement_reason IssuingCard#replacement_reason}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#replacement_reason IssuingCard#replacement_reason}
         /// </remarks>
         [JsiiProperty(name: "replacementReason", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -171,7 +171,7 @@ namespace stripe.IssuingCard
 
         /// <summary>Where and how the card will be shipped.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#shipping IssuingCard#shipping}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#shipping IssuingCard#shipping}
         /// </remarks>
         [JsiiProperty(name: "shipping", typeJson: "{\"fqn\":\"stripe.issuingCard.IssuingCardShipping\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -183,7 +183,7 @@ namespace stripe.IssuingCard
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#spending_controls IssuingCard#spending_controls}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#spending_controls IssuingCard#spending_controls}.</summary>
         [JsiiProperty(name: "spendingControls", typeJson: "{\"fqn\":\"stripe.issuingCard.IssuingCardSpendingControls\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.IssuingCard.IIssuingCardSpendingControls? SpendingControls
@@ -198,7 +198,7 @@ namespace stripe.IssuingCard
         /// <remarks>
         /// May be blocked from activating cards depending on past-due Cardholder requirements. Defaults to <c>inactive</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#status IssuingCard#status}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#status IssuingCard#status}
         /// </remarks>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -219,7 +219,7 @@ namespace stripe.IssuingCard
 
             /// <summary>Three-letter [ISO currency code](https://www.iso.org/iso-4217-currency-codes.html), in lowercase. Supported currencies are `usd` in the US, `eur` in the EU, and `gbp` in the UK.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#currency IssuingCard#currency}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#currency IssuingCard#currency}
             /// </remarks>
             [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}")]
             public string Currency
@@ -229,7 +229,7 @@ namespace stripe.IssuingCard
 
             /// <summary>The type of the card.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#type IssuingCard#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#type IssuingCard#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -241,7 +241,7 @@ namespace stripe.IssuingCard
             /// <remarks>
             /// Related guide: <a href="https://docs.stripe.com/issuing/cards/virtual/issue-cards#create-cardholder">How to create a cardholder</a>
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#cardholder IssuingCard#cardholder}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#cardholder IssuingCard#cardholder}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cardholder", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -252,7 +252,7 @@ namespace stripe.IssuingCard
 
             /// <summary>The expiration month of the card.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#exp_month IssuingCard#exp_month}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#exp_month IssuingCard#exp_month}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "expMonth", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -263,7 +263,7 @@ namespace stripe.IssuingCard
 
             /// <summary>The expiration year of the card.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#exp_year IssuingCard#exp_year}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#exp_year IssuingCard#exp_year}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "expYear", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -274,7 +274,7 @@ namespace stripe.IssuingCard
 
             /// <summary>The financial account this card is attached to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#financial_account IssuingCard#financial_account}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#financial_account IssuingCard#financial_account}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "financialAccount", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -285,7 +285,7 @@ namespace stripe.IssuingCard
 
             /// <summary>Rules that control the lifecycle of this card, such as automatic cancellation. Refer to our [documentation](/issuing/controls/lifecycle-controls) for more details.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#lifecycle_controls IssuingCard#lifecycle_controls}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#lifecycle_controls IssuingCard#lifecycle_controls}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "lifecycleControls", typeJson: "{\"fqn\":\"stripe.issuingCard.IssuingCardLifecycleControls\"}", isOptional: true)]
@@ -296,7 +296,7 @@ namespace stripe.IssuingCard
 
             /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#metadata IssuingCard#metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#metadata IssuingCard#metadata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -307,7 +307,7 @@ namespace stripe.IssuingCard
 
             /// <summary>The personalization design object belonging to this card.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#personalization_design IssuingCard#personalization_design}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#personalization_design IssuingCard#personalization_design}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "personalizationDesign", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -318,7 +318,7 @@ namespace stripe.IssuingCard
 
             /// <summary>The desired PIN for this card.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#pin IssuingCard#pin}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#pin IssuingCard#pin}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pin", typeJson: "{\"fqn\":\"stripe.issuingCard.IssuingCardPin\"}", isOptional: true)]
@@ -329,7 +329,7 @@ namespace stripe.IssuingCard
 
             /// <summary>The card this card replaces, if any.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#replacement_for IssuingCard#replacement_for}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#replacement_for IssuingCard#replacement_for}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "replacementFor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -340,7 +340,7 @@ namespace stripe.IssuingCard
 
             /// <summary>The reason why the previous card needed to be replaced.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#replacement_reason IssuingCard#replacement_reason}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#replacement_reason IssuingCard#replacement_reason}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "replacementReason", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -351,7 +351,7 @@ namespace stripe.IssuingCard
 
             /// <summary>Where and how the card will be shipped.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#shipping IssuingCard#shipping}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#shipping IssuingCard#shipping}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "shipping", typeJson: "{\"fqn\":\"stripe.issuingCard.IssuingCardShipping\"}", isOptional: true)]
@@ -360,7 +360,7 @@ namespace stripe.IssuingCard
                 get => GetInstanceProperty<stripe.IssuingCard.IIssuingCardShipping?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#spending_controls IssuingCard#spending_controls}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#spending_controls IssuingCard#spending_controls}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "spendingControls", typeJson: "{\"fqn\":\"stripe.issuingCard.IssuingCardSpendingControls\"}", isOptional: true)]
             public stripe.IssuingCard.IIssuingCardSpendingControls? SpendingControls
@@ -372,7 +372,7 @@ namespace stripe.IssuingCard
             /// <remarks>
             /// May be blocked from activating cards depending on past-due Cardholder requirements. Defaults to <c>inactive</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#status IssuingCard#status}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#status IssuingCard#status}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

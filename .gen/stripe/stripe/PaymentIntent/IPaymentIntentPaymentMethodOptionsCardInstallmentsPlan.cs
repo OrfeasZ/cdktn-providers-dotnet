@@ -9,7 +9,7 @@ namespace stripe.PaymentIntent
     {
         /// <summary>Type of installment plan, one of `fixed_count`, `bonus`, or `revolving`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#type PaymentIntent#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#type PaymentIntent#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -19,7 +19,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>For `fixed_count` installment plans, this is the number of installment payments your customer will make to their credit card.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#count PaymentIntent#count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#count PaymentIntent#count}
         /// </remarks>
         [JsiiProperty(name: "count", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// One of <c>month</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#interval PaymentIntent#interval}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#interval PaymentIntent#interval}
         /// </remarks>
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -56,7 +56,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Type of installment plan, one of `fixed_count`, `bonus`, or `revolving`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#type PaymentIntent#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#type PaymentIntent#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -66,7 +66,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>For `fixed_count` installment plans, this is the number of installment payments your customer will make to their credit card.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#count PaymentIntent#count}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#count PaymentIntent#count}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "count", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -79,7 +79,7 @@ namespace stripe.PaymentIntent
             /// <remarks>
             /// One of <c>month</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#interval PaymentIntent#interval}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#interval PaymentIntent#interval}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

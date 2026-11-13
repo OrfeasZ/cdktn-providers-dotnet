@@ -11,7 +11,7 @@ namespace stripe.Product
     {
         /// <summary>The product's name, meant to be displayable to the customer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#name Product#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/product#name Product#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -24,7 +24,7 @@ namespace stripe.Product
 
         /// <summary>Whether the product is currently available for purchase.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#active Product#active}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/product#active Product#active}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -59,7 +59,7 @@ namespace stripe.Product
 
         /// <summary>default_price_data block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#default_price_data Product#default_price_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/product#default_price_data Product#default_price_data}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Product.IProductDefaultPriceData" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -94,7 +94,7 @@ namespace stripe.Product
         /// <remarks>
         /// Use this field to optionally store a long form explanation of the product being sold for your own rendering purposes.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#description Product#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/product#description Product#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -104,9 +104,24 @@ namespace stripe.Product
             set;
         }
 
+        /// <summary>Unique identifier for the object.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/product#id Product#id}
+        ///
+        /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+        /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? Id
+        {
+            get;
+            set;
+        }
+
         /// <summary>A list of up to 8 URLs of images for this product, meant to be displayable to the customer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#images Product#images}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/product#images Product#images}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "images", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -120,7 +135,7 @@ namespace stripe.Product
 
         /// <summary>marketing_features block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#marketing_features Product#marketing_features}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/product#marketing_features Product#marketing_features}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Product.IProductMarketingFeatures" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -153,7 +168,7 @@ namespace stripe.Product
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#metadata Product#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/product#metadata Product#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -167,7 +182,7 @@ namespace stripe.Product
 
         /// <summary>package_dimensions block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#package_dimensions Product#package_dimensions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/product#package_dimensions Product#package_dimensions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Product.IProductPackageDimensions" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -202,7 +217,7 @@ namespace stripe.Product
 
         /// <summary>Whether this product is shipped (i.e., physical goods).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#shippable Product#shippable}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/product#shippable Product#shippable}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -237,7 +252,7 @@ namespace stripe.Product
         /// <remarks>
         /// In the case that multiple products are billed at once, the first statement descriptor will be used. Only used for subscription payments.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#statement_descriptor Product#statement_descriptor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/product#statement_descriptor Product#statement_descriptor}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "statementDescriptor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -249,7 +264,7 @@ namespace stripe.Product
 
         /// <summary>A [tax code](https://docs.stripe.com/tax/tax-categories) ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#tax_code Product#tax_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/product#tax_code Product#tax_code}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taxCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -259,11 +274,23 @@ namespace stripe.Product
             set;
         }
 
+        /// <summary>Tax details for this product, including the [tax code](/tax/tax-codes) and an optional performance location.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/product#tax_details Product#tax_details}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "taxDetails", typeJson: "{\"fqn\":\"stripe.product.ProductTaxDetails\"}", isOptional: true)]
+        public stripe.Product.IProductTaxDetails? TaxDetails
+        {
+            get;
+            set;
+        }
+
         /// <summary>The type of the product.</summary>
         /// <remarks>
         /// The product is either of type <c>good</c>, which is eligible for use with Orders and SKUs, or <c>service</c>, which is eligible for use with Subscriptions and Plans.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#type Product#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/product#type Product#type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -277,7 +304,7 @@ namespace stripe.Product
         /// <remarks>
         /// When set, this will be included in customers' receipts, invoices, Checkout, and the customer portal.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#unit_label Product#unit_label}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/product#unit_label Product#unit_label}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "unitLabel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -289,7 +316,7 @@ namespace stripe.Product
 
         /// <summary>A URL of a publicly-accessible webpage for this product.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product#url Product#url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/product#url Product#url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

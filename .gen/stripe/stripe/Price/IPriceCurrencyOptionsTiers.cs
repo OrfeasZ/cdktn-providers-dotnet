@@ -9,7 +9,7 @@ namespace stripe.Price
     {
         /// <summary>Up to and including to this quantity will be contained in the tier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#up_to Price#up_to}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/price#up_to Price#up_to}
         /// </remarks>
         [JsiiProperty(name: "upTo", typeJson: "{\"primitive\":\"string\"}")]
         string UpTo
@@ -19,7 +19,7 @@ namespace stripe.Price
 
         /// <summary>Price for the entire tier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#flat_amount Price#flat_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/price#flat_amount Price#flat_amount}
         /// </remarks>
         [JsiiProperty(name: "flatAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +33,7 @@ namespace stripe.Price
 
         /// <summary>Same as `flat_amount`, but contains a decimal value with at most 12 decimal places.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#flat_amount_decimal Price#flat_amount_decimal}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/price#flat_amount_decimal Price#flat_amount_decimal}
         /// </remarks>
         [JsiiProperty(name: "flatAmountDecimal", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -47,7 +47,7 @@ namespace stripe.Price
 
         /// <summary>Per unit price for units relevant to the tier.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#unit_amount Price#unit_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/price#unit_amount Price#unit_amount}
         /// </remarks>
         [JsiiProperty(name: "unitAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace stripe.Price
 
         /// <summary>Same as `unit_amount`, but contains a decimal value with at most 12 decimal places.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#unit_amount_decimal Price#unit_amount_decimal}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/price#unit_amount_decimal Price#unit_amount_decimal}
         /// </remarks>
         [JsiiProperty(name: "unitAmountDecimal", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -82,7 +82,7 @@ namespace stripe.Price
 
             /// <summary>Up to and including to this quantity will be contained in the tier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#up_to Price#up_to}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/price#up_to Price#up_to}
             /// </remarks>
             [JsiiProperty(name: "upTo", typeJson: "{\"primitive\":\"string\"}")]
             public string UpTo
@@ -92,7 +92,7 @@ namespace stripe.Price
 
             /// <summary>Price for the entire tier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#flat_amount Price#flat_amount}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/price#flat_amount Price#flat_amount}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "flatAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -103,7 +103,7 @@ namespace stripe.Price
 
             /// <summary>Same as `flat_amount`, but contains a decimal value with at most 12 decimal places.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#flat_amount_decimal Price#flat_amount_decimal}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/price#flat_amount_decimal Price#flat_amount_decimal}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "flatAmountDecimal", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -114,7 +114,7 @@ namespace stripe.Price
 
             /// <summary>Per unit price for units relevant to the tier.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#unit_amount Price#unit_amount}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/price#unit_amount Price#unit_amount}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "unitAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -125,7 +125,7 @@ namespace stripe.Price
 
             /// <summary>Same as `unit_amount`, but contains a decimal value with at most 12 decimal places.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/price#unit_amount_decimal Price#unit_amount_decimal}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/price#unit_amount_decimal Price#unit_amount_decimal}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "unitAmountDecimal", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

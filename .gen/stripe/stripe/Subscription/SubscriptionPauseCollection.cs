@@ -9,7 +9,7 @@ namespace stripe.Subscription
     {
         /// <summary>The payment collection behavior for this subscription while paused.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#behavior Subscription#behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#behavior Subscription#behavior}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "behavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace stripe.Subscription
 
         /// <summary>The time after which the subscription will resume collecting payments.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#resumes_at Subscription#resumes_at}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#resumes_at Subscription#resumes_at}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resumesAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

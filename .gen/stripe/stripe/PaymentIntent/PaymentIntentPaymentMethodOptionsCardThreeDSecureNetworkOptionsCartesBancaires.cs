@@ -11,7 +11,7 @@ namespace stripe.PaymentIntent
     {
         /// <summary>The cryptogram calculation algorithm used by the card Issuer's ACS to calculate the Authentication cryptogram. Also known as `cavvAlgorithm`. messageExtension: CB-AVALGO.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#cb_avalgo PaymentIntent#cb_avalgo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#cb_avalgo PaymentIntent#cb_avalgo}
         /// </remarks>
         [JsiiProperty(name: "cbAvalgo", typeJson: "{\"primitive\":\"string\"}")]
         public string CbAvalgo
@@ -26,7 +26,7 @@ namespace stripe.PaymentIntent
         /// This is a 3 byte bitmap (low significant byte first and most significant
         /// bit first) that has been Base64 encoded
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#cb_exemption PaymentIntent#cb_exemption}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#cb_exemption PaymentIntent#cb_exemption}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cbExemption", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -38,7 +38,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>The risk score returned from Cartes Bancaires in the ARes. message extension: CB-SCORE; numeric value 0-99.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#cb_score PaymentIntent#cb_score}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#cb_score PaymentIntent#cb_score}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cbScore", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

@@ -7,7 +7,7 @@ namespace stripe.ApplePayDomain
     [JsiiInterface(nativeType: typeof(IApplePayDomainConfig), fullyQualifiedName: "stripe.applePayDomain.ApplePayDomainConfig")]
     public interface IApplePayDomainConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/apple_pay_domain#domain_name ApplePayDomain#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/apple_pay_domain#domain_name ApplePayDomain#domain_name}.</summary>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         string DomainName
         {
@@ -21,7 +21,7 @@ namespace stripe.ApplePayDomain
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/apple_pay_domain#domain_name ApplePayDomain#domain_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/apple_pay_domain#domain_name ApplePayDomain#domain_name}.</summary>
             [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
             public string DomainName
             {

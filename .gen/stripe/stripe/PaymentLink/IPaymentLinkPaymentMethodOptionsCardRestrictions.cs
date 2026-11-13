@@ -11,7 +11,7 @@ namespace stripe.PaymentLink
         /// <remarks>
         /// If a customer enters or selects a card belonging to a blocked brand, they can't complete the payment.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#brands_blocked PaymentLink#brands_blocked}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#brands_blocked PaymentLink#brands_blocked}
         /// </remarks>
         [JsiiProperty(name: "brandsBlocked", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -34,7 +34,7 @@ namespace stripe.PaymentLink
             /// <remarks>
             /// If a customer enters or selects a card belonging to a blocked brand, they can't complete the payment.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#brands_blocked PaymentLink#brands_blocked}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#brands_blocked PaymentLink#brands_blocked}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "brandsBlocked", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

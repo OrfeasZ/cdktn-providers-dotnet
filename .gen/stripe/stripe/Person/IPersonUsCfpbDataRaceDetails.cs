@@ -9,7 +9,7 @@ namespace stripe.Person
     {
         /// <summary>The persons race.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#race Person#race}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#race Person#race}
         /// </remarks>
         [JsiiProperty(name: "race", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace stripe.Person
 
         /// <summary>Please specify your race, when other is selected.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#race_other Person#race_other}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#race_other Person#race_other}
         /// </remarks>
         [JsiiProperty(name: "raceOther", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace stripe.Person
 
             /// <summary>The persons race.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#race Person#race}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#race Person#race}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "race", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace stripe.Person
 
             /// <summary>Please specify your race, when other is selected.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#race_other Person#race_other}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#race_other Person#race_other}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "raceOther", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

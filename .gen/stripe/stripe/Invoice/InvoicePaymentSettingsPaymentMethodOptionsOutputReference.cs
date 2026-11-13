@@ -45,6 +45,12 @@ namespace stripe.Invoice
             InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Invoice.IInvoicePaymentSettingsPaymentMethodOptionsBancontact)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putBillie", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.invoice.InvoicePaymentSettingsPaymentMethodOptionsBillie\"}}]")]
+        public virtual void PutBillie(stripe.Invoice.IInvoicePaymentSettingsPaymentMethodOptionsBillie @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Invoice.IInvoicePaymentSettingsPaymentMethodOptionsBillie)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putCard", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.invoice.InvoicePaymentSettingsPaymentMethodOptionsCard\"}}]")]
         public virtual void PutCard(stripe.Invoice.IInvoicePaymentSettingsPaymentMethodOptionsCard @value)
         {
@@ -89,6 +95,12 @@ namespace stripe.Invoice
 
         [JsiiMethod(name: "resetBancontact")]
         public virtual void ResetBancontact()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetBillie")]
+        public virtual void ResetBillie()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -139,6 +151,12 @@ namespace stripe.Invoice
         public virtual stripe.Invoice.InvoicePaymentSettingsPaymentMethodOptionsBancontactOutputReference Bancontact
         {
             get => GetInstanceProperty<stripe.Invoice.InvoicePaymentSettingsPaymentMethodOptionsBancontactOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "billie", typeJson: "{\"fqn\":\"stripe.invoice.InvoicePaymentSettingsPaymentMethodOptionsBillieOutputReference\"}")]
+        public virtual stripe.Invoice.InvoicePaymentSettingsPaymentMethodOptionsBillieOutputReference Billie
+        {
+            get => GetInstanceProperty<stripe.Invoice.InvoicePaymentSettingsPaymentMethodOptionsBillieOutputReference>()!;
         }
 
         [JsiiProperty(name: "card", typeJson: "{\"fqn\":\"stripe.invoice.InvoicePaymentSettingsPaymentMethodOptionsCardOutputReference\"}")]
@@ -193,6 +211,16 @@ namespace stripe.Invoice
         [JsiiOptional]
         [JsiiProperty(name: "bancontactInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.invoice.InvoicePaymentSettingsPaymentMethodOptionsBancontact\"}]}}", isOptional: true)]
         public virtual object? BancontactInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.Invoice.IInvoicePaymentSettingsPaymentMethodOptionsBillie" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "billieInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.invoice.InvoicePaymentSettingsPaymentMethodOptionsBillie\"}]}}", isOptional: true)]
+        public virtual object? BillieInput
         {
             get => GetInstanceProperty<object?>();
         }

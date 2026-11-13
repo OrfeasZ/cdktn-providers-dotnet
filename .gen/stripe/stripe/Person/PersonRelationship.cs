@@ -11,7 +11,7 @@ namespace stripe.Person
 
         /// <summary>Whether the person is the authorizer of the account's representative.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#authorizer Person#authorizer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#authorizer Person#authorizer}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -48,7 +48,7 @@ namespace stripe.Person
         /// <remarks>
         /// Directors are typically members of the governing board of the company, or responsible for ensuring the company meets its regulatory obligations.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#director Person#director}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#director Person#director}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -83,7 +83,7 @@ namespace stripe.Person
 
         /// <summary>Whether the person has significant responsibility to control, manage, or direct the organization.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#executive Person#executive}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#executive Person#executive}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -118,7 +118,7 @@ namespace stripe.Person
 
         /// <summary>Whether the person is the legal guardian of the account's representative.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#legal_guardian Person#legal_guardian}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#legal_guardian Person#legal_guardian}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -153,7 +153,7 @@ namespace stripe.Person
 
         /// <summary>Whether the person is an owner of the account’s legal entity.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#owner Person#owner}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#owner Person#owner}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -186,7 +186,7 @@ namespace stripe.Person
 
         /// <summary>The percent owned by the person of the account's legal entity.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#percent_ownership Person#percent_ownership}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#percent_ownership Person#percent_ownership}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "percentOwnership", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -202,7 +202,7 @@ namespace stripe.Person
         /// <remarks>
         /// This is the person nominated by the business to provide information about themselves, and general information about the account. There can only be one representative at any given time. At the time the account is created, this person should be set to the person responsible for opening the account.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#representative Person#representative}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#representative Person#representative}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -235,7 +235,7 @@ namespace stripe.Person
 
         /// <summary>The person's title (e.g., CEO, Support Engineer).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#title Person#title}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#title Person#title}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

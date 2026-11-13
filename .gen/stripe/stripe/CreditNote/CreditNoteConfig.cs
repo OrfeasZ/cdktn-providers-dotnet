@@ -11,7 +11,7 @@ namespace stripe.CreditNote
     {
         /// <summary>ID of the invoice.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/credit_note#invoice CreditNote#invoice}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/credit_note#invoice CreditNote#invoice}
         /// </remarks>
         [JsiiProperty(name: "invoice", typeJson: "{\"primitive\":\"string\"}")]
         public string Invoice
@@ -22,7 +22,7 @@ namespace stripe.CreditNote
 
         /// <summary>The integer amount in cents (or local equivalent) representing the total amount of the credit note, including tax.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/credit_note#amount CreditNote#amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/credit_note#amount CreditNote#amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace stripe.CreditNote
 
         /// <summary>The integer amount in cents (or local equivalent) representing the amount to credit the customer's balance, which will be automatically applied to their next invoice.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/credit_note#credit_amount CreditNote#credit_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/credit_note#credit_amount CreditNote#credit_amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "creditAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -48,7 +48,7 @@ namespace stripe.CreditNote
         /// <remarks>
         /// Same as <c>created</c> unless overwritten. When defined, this value replaces the system-generated 'Date of issue' printed on the credit note PDF.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/credit_note#effective_at CreditNote#effective_at}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/credit_note#effective_at CreditNote#effective_at}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "effectiveAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -60,7 +60,7 @@ namespace stripe.CreditNote
 
         /// <summary>Type of email to send to the customer, one of `credit_note` or `none` and the default is `credit_note`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/credit_note#email_type CreditNote#email_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/credit_note#email_type CreditNote#email_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "emailType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -72,7 +72,7 @@ namespace stripe.CreditNote
 
         /// <summary>Customer-facing text that appears on the credit note PDF.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/credit_note#memo CreditNote#memo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/credit_note#memo CreditNote#memo}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "memo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -84,7 +84,7 @@ namespace stripe.CreditNote
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/credit_note#metadata CreditNote#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/credit_note#metadata CreditNote#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -96,7 +96,7 @@ namespace stripe.CreditNote
 
         /// <summary>Amount that was credited outside of Stripe.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/credit_note#out_of_band_amount CreditNote#out_of_band_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/credit_note#out_of_band_amount CreditNote#out_of_band_amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "outOfBandAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -108,7 +108,7 @@ namespace stripe.CreditNote
 
         /// <summary>Reason for issuing this credit note, one of `duplicate`, `fraudulent`, `order_change`, or `product_unsatisfactory`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/credit_note#reason CreditNote#reason}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/credit_note#reason CreditNote#reason}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "reason", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -122,7 +122,7 @@ namespace stripe.CreditNote
         /// <remarks>
         /// If set, a refund will be created for the charge associated with the invoice.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/credit_note#refund_amount CreditNote#refund_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/credit_note#refund_amount CreditNote#refund_amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "refundAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -136,7 +136,7 @@ namespace stripe.CreditNote
 
         /// <summary>Refunds related to this credit note.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/credit_note#refunds CreditNote#refunds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/credit_note#refunds CreditNote#refunds}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.CreditNote.ICreditNoteRefunds" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -169,7 +169,7 @@ namespace stripe.CreditNote
 
         /// <summary>The details of the cost of shipping, including the ShippingRate applied to the invoice.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/credit_note#shipping_cost CreditNote#shipping_cost}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/credit_note#shipping_cost CreditNote#shipping_cost}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shippingCost", typeJson: "{\"fqn\":\"stripe.creditNote.CreditNoteShippingCost\"}", isOptional: true)]

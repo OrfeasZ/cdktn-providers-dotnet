@@ -7,7 +7,7 @@ namespace stripe.PaymentMethodConfiguration
     [JsiiInterface(nativeType: typeof(IPaymentMethodConfigurationBacsDebit), fullyQualifiedName: "stripe.paymentMethodConfiguration.PaymentMethodConfigurationBacsDebit")]
     public interface IPaymentMethodConfigurationBacsDebit
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method_configuration#display_preference PaymentMethodConfiguration#display_preference}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method_configuration#display_preference PaymentMethodConfiguration#display_preference}.</summary>
         [JsiiProperty(name: "displayPreference", typeJson: "{\"fqn\":\"stripe.paymentMethodConfiguration.PaymentMethodConfigurationBacsDebitDisplayPreference\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethodConfiguration.IPaymentMethodConfigurationBacsDebitDisplayPreference? DisplayPreference
@@ -25,7 +25,7 @@ namespace stripe.PaymentMethodConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method_configuration#display_preference PaymentMethodConfiguration#display_preference}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method_configuration#display_preference PaymentMethodConfiguration#display_preference}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayPreference", typeJson: "{\"fqn\":\"stripe.paymentMethodConfiguration.PaymentMethodConfigurationBacsDebitDisplayPreference\"}", isOptional: true)]
             public stripe.PaymentMethodConfiguration.IPaymentMethodConfigurationBacsDebitDisplayPreference? DisplayPreference

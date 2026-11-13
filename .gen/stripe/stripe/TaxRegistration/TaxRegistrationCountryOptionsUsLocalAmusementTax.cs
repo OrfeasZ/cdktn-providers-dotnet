@@ -11,7 +11,7 @@ namespace stripe.TaxRegistration
     {
         /// <summary>A [FIPS code](https://www.census.gov/library/reference/code-lists/ansi.html) representing the local jurisdiction.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_registration#jurisdiction TaxRegistration#jurisdiction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/tax_registration#jurisdiction TaxRegistration#jurisdiction}
         /// </remarks>
         [JsiiProperty(name: "jurisdiction", typeJson: "{\"primitive\":\"string\"}")]
         public string Jurisdiction

@@ -9,7 +9,7 @@ namespace stripe.Invoice
     {
         /// <summary>The account tax IDs associated with the invoice. Only editable when the invoice is a draft.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#account_tax_ids Invoice#account_tax_ids}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#account_tax_ids Invoice#account_tax_ids}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountTaxIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace stripe.Invoice
         /// <remarks>
         /// The request must be made with an OAuth key or the Stripe-Account header in order to take an application fee. For more information, see the application fees <a href="https://docs.stripe.com/billing/invoices/connect#collecting-fees">documentation</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#application_fee_amount Invoice#application_fee_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#application_fee_amount Invoice#application_fee_amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "applicationFeeAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -37,7 +37,7 @@ namespace stripe.Invoice
 
         /// <summary>Controls whether Stripe performs [automatic collection](https://docs.stripe.com/invoicing/integration/automatic-advancement-collection) of the invoice. If `false`, the invoice's state doesn't automatically advance without an explicit action.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#auto_advance Invoice#auto_advance}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#auto_advance Invoice#auto_advance}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -72,7 +72,7 @@ namespace stripe.Invoice
         /// <remarks>
         /// The field will be <c>null</c> if the invoice is not scheduled to finalize in the future. If the invoice is not in the draft state, this field will always be <c>null</c> - see <c>finalized_at</c> for the time when an already-finalized invoice was finalized.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#automatically_finalizes_at Invoice#automatically_finalizes_at}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#automatically_finalizes_at Invoice#automatically_finalizes_at}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "automaticallyFinalizesAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace stripe.Invoice
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#automatic_tax Invoice#automatic_tax}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#automatic_tax Invoice#automatic_tax}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "automaticTax", typeJson: "{\"fqn\":\"stripe.invoice.InvoiceAutomaticTax\"}", isOptional: true)]
         public stripe.Invoice.IInvoiceAutomaticTax? AutomaticTax
@@ -95,7 +95,7 @@ namespace stripe.Invoice
         /// <remarks>
         /// When charging automatically, Stripe will attempt to pay this invoice using the default source attached to the customer. When sending an invoice, Stripe will email this invoice to the customer with payment instructions.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#collection_method Invoice#collection_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#collection_method Invoice#collection_method}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "collectionMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace stripe.Invoice
 
         /// <summary>Three-letter [ISO currency code](https://www.iso.org/iso-4217-currency-codes.html), in lowercase. Must be a [supported currency](https://stripe.com/docs/currencies).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#currency Invoice#currency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#currency Invoice#currency}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -119,7 +119,7 @@ namespace stripe.Invoice
 
         /// <summary>The ID of the customer to bill.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#customer Invoice#customer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#customer Invoice#customer}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -131,7 +131,7 @@ namespace stripe.Invoice
 
         /// <summary>The ID of the account representing the customer to bill.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#customer_account Invoice#customer_account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#customer_account Invoice#customer_account}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customerAccount", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -145,7 +145,7 @@ namespace stripe.Invoice
 
         /// <summary>Custom fields displayed on the invoice.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#custom_fields Invoice#custom_fields}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#custom_fields Invoice#custom_fields}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Invoice.IInvoiceCustomFields" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -180,7 +180,7 @@ namespace stripe.Invoice
         /// <remarks>
         /// Valid only for invoices where <c>collection_method=send_invoice</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#days_until_due Invoice#days_until_due}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#days_until_due Invoice#days_until_due}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "daysUntilDue", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -194,7 +194,7 @@ namespace stripe.Invoice
         /// <remarks>
         /// It must belong to the customer associated with the invoice. If not set, defaults to the subscription's default payment method, if any, or to the default payment method in the customer's invoice settings.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#default_payment_method Invoice#default_payment_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#default_payment_method Invoice#default_payment_method}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultPaymentMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -208,7 +208,7 @@ namespace stripe.Invoice
         /// <remarks>
         /// It must belong to the customer associated with the invoice and be in a chargeable state. If not set, defaults to the subscription's default source, if any, or to the customer's default source.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#default_source Invoice#default_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#default_source Invoice#default_source}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultSource", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -220,7 +220,7 @@ namespace stripe.Invoice
 
         /// <summary>The tax rates applied to this invoice, if any.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#default_tax_rates Invoice#default_tax_rates}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#default_tax_rates Invoice#default_tax_rates}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultTaxRates", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -232,7 +232,7 @@ namespace stripe.Invoice
 
         /// <summary>An arbitrary string attached to the object. Often useful for displaying to users. Referenced as 'memo' in the Dashboard.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#description Invoice#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#description Invoice#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -248,7 +248,7 @@ namespace stripe.Invoice
         /// <remarks>
         /// Line item discounts are applied before invoice discounts. Use <c>expand[]=discounts</c> to expand each discount.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#discounts Invoice#discounts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#discounts Invoice#discounts}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Invoice.IInvoiceDiscounts" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -281,7 +281,7 @@ namespace stripe.Invoice
 
         /// <summary>The date on which payment for this invoice is due. This value will be `null` for invoices where `collection_method=charge_automatically`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#due_date Invoice#due_date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#due_date Invoice#due_date}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dueDate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -295,7 +295,7 @@ namespace stripe.Invoice
         /// <remarks>
         /// Same as <c>finalized_at</c> unless overwritten. When defined, this value replaces the system-generated 'Date of issue' printed on the invoice PDF and receipt.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#effective_at Invoice#effective_at}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#effective_at Invoice#effective_at}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "effectiveAt", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -307,7 +307,7 @@ namespace stripe.Invoice
 
         /// <summary>Footer displayed on the invoice.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#footer Invoice#footer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#footer Invoice#footer}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "footer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -319,7 +319,7 @@ namespace stripe.Invoice
 
         /// <summary>Details of the invoice that was cloned. See the [revision documentation](https://docs.stripe.com/invoicing/invoice-revisions) for more details.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#from_invoice Invoice#from_invoice}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#from_invoice Invoice#from_invoice}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fromInvoice", typeJson: "{\"fqn\":\"stripe.invoice.InvoiceFromInvoice\"}", isOptional: true)]
@@ -329,7 +329,7 @@ namespace stripe.Invoice
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#issuer Invoice#issuer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#issuer Invoice#issuer}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "issuer", typeJson: "{\"fqn\":\"stripe.invoice.InvoiceIssuer\"}", isOptional: true)]
         public stripe.Invoice.IInvoiceIssuer? Issuer
@@ -340,7 +340,7 @@ namespace stripe.Invoice
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#metadata Invoice#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#metadata Invoice#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -354,7 +354,7 @@ namespace stripe.Invoice
         /// <remarks>
         /// This starts with the customer's unique invoice_prefix if it is specified.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#number Invoice#number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#number Invoice#number}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "number", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -368,7 +368,7 @@ namespace stripe.Invoice
         /// <remarks>
         /// If set, the invoice will be presented with the branding and support information of the specified account. See the <a href="https://docs.stripe.com/billing/invoices/connect">Invoices with Connect</a> documentation for details.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#on_behalf_of Invoice#on_behalf_of}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#on_behalf_of Invoice#on_behalf_of}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "onBehalfOf", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -378,7 +378,7 @@ namespace stripe.Invoice
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#payment_settings Invoice#payment_settings}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#payment_settings Invoice#payment_settings}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "paymentSettings", typeJson: "{\"fqn\":\"stripe.invoice.InvoicePaymentSettings\"}", isOptional: true)]
         public stripe.Invoice.IInvoicePaymentSettings? PaymentSettings
@@ -389,7 +389,7 @@ namespace stripe.Invoice
 
         /// <summary>How to handle pending invoice items on invoice creation. Defaults to `exclude` if the parameter is omitted.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#pending_invoice_items_behavior Invoice#pending_invoice_items_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#pending_invoice_items_behavior Invoice#pending_invoice_items_behavior}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pendingInvoiceItemsBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -399,9 +399,9 @@ namespace stripe.Invoice
             set;
         }
 
-        /// <summary>The rendering-related settings that control how the invoice is displayed on customer-facing surfaces such as PDF and Hosted Invoice Page.</summary>
+        /// <summary>The rendering-related settings that control how invoices render in customer-facing interfaces such as the PDF or hosted invoice page.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#rendering Invoice#rendering}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#rendering Invoice#rendering}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "rendering", typeJson: "{\"fqn\":\"stripe.invoice.InvoiceRendering\"}", isOptional: true)]
@@ -413,7 +413,7 @@ namespace stripe.Invoice
 
         /// <summary>The details of the cost of shipping, including the ShippingRate applied on the invoice.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#shipping_cost Invoice#shipping_cost}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#shipping_cost Invoice#shipping_cost}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shippingCost", typeJson: "{\"fqn\":\"stripe.invoice.InvoiceShippingCost\"}", isOptional: true)]
@@ -427,7 +427,7 @@ namespace stripe.Invoice
         /// <remarks>
         /// The Invoice PDF will use the <c>shipping_details</c> value if it is set, otherwise the PDF will render the shipping address from the customer.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#shipping_details Invoice#shipping_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#shipping_details Invoice#shipping_details}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shippingDetails", typeJson: "{\"fqn\":\"stripe.invoice.InvoiceShippingDetails\"}", isOptional: true)]
@@ -439,7 +439,7 @@ namespace stripe.Invoice
 
         /// <summary>Extra information about an invoice for the customer's credit card statement.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#statement_descriptor Invoice#statement_descriptor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#statement_descriptor Invoice#statement_descriptor}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "statementDescriptor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -449,7 +449,7 @@ namespace stripe.Invoice
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#subscription Invoice#subscription}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#subscription Invoice#subscription}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "subscription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Subscription
@@ -460,7 +460,7 @@ namespace stripe.Invoice
 
         /// <summary>If specified, the funds from the invoice will be transferred to the destination and the ID of the resulting transfer will be found on the invoice's charge.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#transfer_data Invoice#transfer_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#transfer_data Invoice#transfer_data}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transferData", typeJson: "{\"fqn\":\"stripe.invoice.InvoiceTransferData\"}", isOptional: true)]

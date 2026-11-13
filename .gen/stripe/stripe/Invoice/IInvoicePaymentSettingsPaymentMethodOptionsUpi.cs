@@ -7,7 +7,7 @@ namespace stripe.Invoice
     [JsiiInterface(nativeType: typeof(IInvoicePaymentSettingsPaymentMethodOptionsUpi), fullyQualifiedName: "stripe.invoice.InvoicePaymentSettingsPaymentMethodOptionsUpi")]
     public interface IInvoicePaymentSettingsPaymentMethodOptionsUpi
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#mandate_options Invoice#mandate_options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#mandate_options Invoice#mandate_options}.</summary>
         [JsiiProperty(name: "mandateOptions", typeJson: "{\"fqn\":\"stripe.invoice.InvoicePaymentSettingsPaymentMethodOptionsUpiMandateOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.Invoice.IInvoicePaymentSettingsPaymentMethodOptionsUpiMandateOptions? MandateOptions
@@ -25,7 +25,7 @@ namespace stripe.Invoice
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#mandate_options Invoice#mandate_options}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#mandate_options Invoice#mandate_options}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mandateOptions", typeJson: "{\"fqn\":\"stripe.invoice.InvoicePaymentSettingsPaymentMethodOptionsUpiMandateOptions\"}", isOptional: true)]
             public stripe.Invoice.IInvoicePaymentSettingsPaymentMethodOptionsUpiMandateOptions? MandateOptions

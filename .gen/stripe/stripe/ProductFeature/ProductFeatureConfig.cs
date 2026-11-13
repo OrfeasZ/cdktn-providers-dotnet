@@ -13,7 +13,7 @@ namespace stripe.ProductFeature
         /// <remarks>
         /// Features can be assigned to products, and when those products are purchased, Stripe will create an entitlement to the feature for the purchasing customer.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product_feature#entitlement_feature ProductFeature#entitlement_feature}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/product_feature#entitlement_feature ProductFeature#entitlement_feature}
         /// </remarks>
         [JsiiProperty(name: "entitlementFeature", typeJson: "{\"primitive\":\"string\"}")]
         public string EntitlementFeature
@@ -22,7 +22,10 @@ namespace stripe.ProductFeature
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/product_feature#product ProductFeature#product}.</summary>
+        /// <summary>Unique identifier for the object.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/product_feature#product ProductFeature#product}
+        /// </remarks>
         [JsiiProperty(name: "product", typeJson: "{\"primitive\":\"string\"}")]
         public string Product
         {

@@ -9,7 +9,7 @@ namespace stripe.Source
     {
         /// <summary>List of items constituting the order.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/source#items Source#items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/source#items Source#items}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Source.ISourceSourceOrderItems" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "items", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.source.SourceSourceOrderItems\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -22,7 +22,7 @@ namespace stripe.Source
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/source#shipping Source#shipping}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/source#shipping Source#shipping}.</summary>
         [JsiiProperty(name: "shipping", typeJson: "{\"fqn\":\"stripe.source.SourceSourceOrderShipping\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.Source.ISourceSourceOrderShipping? Shipping
@@ -42,7 +42,7 @@ namespace stripe.Source
 
             /// <summary>List of items constituting the order.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/source#items Source#items}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/source#items Source#items}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Source.ISourceSourceOrderItems" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -52,7 +52,7 @@ namespace stripe.Source
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/source#shipping Source#shipping}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/source#shipping Source#shipping}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "shipping", typeJson: "{\"fqn\":\"stripe.source.SourceSourceOrderShipping\"}", isOptional: true)]
             public stripe.Source.ISourceSourceOrderShipping? Shipping

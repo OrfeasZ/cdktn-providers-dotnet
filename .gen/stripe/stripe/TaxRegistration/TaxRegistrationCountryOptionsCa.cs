@@ -11,7 +11,7 @@ namespace stripe.TaxRegistration
     {
         /// <summary>Type of registration in Canada.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_registration#type TaxRegistration#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/tax_registration#type TaxRegistration#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -20,7 +20,7 @@ namespace stripe.TaxRegistration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_registration#province_standard TaxRegistration#province_standard}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/tax_registration#province_standard TaxRegistration#province_standard}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "provinceStandard", typeJson: "{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsCaProvinceStandard\"}", isOptional: true)]
         public stripe.TaxRegistration.ITaxRegistrationCountryOptionsCaProvinceStandard? ProvinceStandard

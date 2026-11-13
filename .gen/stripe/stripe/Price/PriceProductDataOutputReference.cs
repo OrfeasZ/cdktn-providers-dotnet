@@ -35,6 +35,12 @@ namespace stripe.Price
         {
         }
 
+        [JsiiMethod(name: "putTaxDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.price.PriceProductDataTaxDetails\"}}]")]
+        public virtual void PutTaxDetails(stripe.Price.IPriceProductDataTaxDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Price.IPriceProductDataTaxDetails)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetActive")]
         public virtual void ResetActive()
         {
@@ -65,10 +71,22 @@ namespace stripe.Price
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetTaxDetails")]
+        public virtual void ResetTaxDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetUnitLabel")]
         public virtual void ResetUnitLabel()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "taxDetails", typeJson: "{\"fqn\":\"stripe.price.PriceProductDataTaxDetailsOutputReference\"}")]
+        public virtual stripe.Price.PriceProductDataTaxDetailsOutputReference TaxDetails
+        {
+            get => GetInstanceProperty<stripe.Price.PriceProductDataTaxDetailsOutputReference>()!;
         }
 
         /// <remarks>
@@ -114,6 +132,16 @@ namespace stripe.Price
         public virtual string? TaxCodeInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.Price.IPriceProductDataTaxDetails" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "taxDetailsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.price.PriceProductDataTaxDetails\"}]}}", isOptional: true)]
+        public virtual object? TaxDetailsInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

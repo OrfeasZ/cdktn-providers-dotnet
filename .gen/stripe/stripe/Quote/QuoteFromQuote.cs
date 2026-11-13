@@ -11,7 +11,7 @@ namespace stripe.Quote
     {
         /// <summary>The quote that was cloned.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#quote Quote#quote}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#quote Quote#quote}
         /// </remarks>
         [JsiiProperty(name: "quote", typeJson: "{\"primitive\":\"string\"}")]
         public string Quote
@@ -24,7 +24,7 @@ namespace stripe.Quote
 
         /// <summary>Whether this quote is a revision of a different quote.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#is_revision Quote#is_revision}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#is_revision Quote#is_revision}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

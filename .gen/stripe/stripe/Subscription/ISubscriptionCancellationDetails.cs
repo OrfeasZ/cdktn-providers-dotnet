@@ -9,7 +9,7 @@ namespace stripe.Subscription
     {
         /// <summary>Additional comments about why the user canceled the subscription, if the subscription was canceled explicitly by the user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#comment Subscription#comment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#comment Subscription#comment}
         /// </remarks>
         [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,11 +23,25 @@ namespace stripe.Subscription
 
         /// <summary>The customer submitted reason for why they canceled, if the subscription was canceled explicitly by the user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#feedback Subscription#feedback}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#feedback Subscription#feedback}
         /// </remarks>
         [JsiiProperty(name: "feedback", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Feedback
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Customized feedback options that provide deeper insight into why the subscription was canceled, if the subscription was canceled explicitly by the user.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#feedback_option Subscription#feedback_option}
+        /// </remarks>
+        [JsiiProperty(name: "feedbackOption", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? FeedbackOption
         {
             get
             {
@@ -44,7 +58,7 @@ namespace stripe.Subscription
 
             /// <summary>Additional comments about why the user canceled the subscription, if the subscription was canceled explicitly by the user.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#comment Subscription#comment}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#comment Subscription#comment}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "comment", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -55,11 +69,22 @@ namespace stripe.Subscription
 
             /// <summary>The customer submitted reason for why they canceled, if the subscription was canceled explicitly by the user.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#feedback Subscription#feedback}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#feedback Subscription#feedback}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "feedback", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Feedback
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
+            /// <summary>Customized feedback options that provide deeper insight into why the subscription was canceled, if the subscription was canceled explicitly by the user.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#feedback_option Subscription#feedback_option}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "feedbackOption", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? FeedbackOption
             {
                 get => GetInstanceProperty<string?>();
             }

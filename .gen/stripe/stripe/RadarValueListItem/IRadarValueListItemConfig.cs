@@ -9,7 +9,7 @@ namespace stripe.RadarValueListItem
     {
         /// <summary>The value of the item.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/radar_value_list_item#value RadarValueListItem#value}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/radar_value_list_item#value RadarValueListItem#value}
         /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         string Value
@@ -19,7 +19,7 @@ namespace stripe.RadarValueListItem
 
         /// <summary>The identifier of the value list this item belongs to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/radar_value_list_item#value_list RadarValueListItem#value_list}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/radar_value_list_item#value_list RadarValueListItem#value_list}
         /// </remarks>
         [JsiiProperty(name: "valueList", typeJson: "{\"primitive\":\"string\"}")]
         string ValueList
@@ -36,7 +36,7 @@ namespace stripe.RadarValueListItem
 
             /// <summary>The value of the item.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/radar_value_list_item#value RadarValueListItem#value}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/radar_value_list_item#value RadarValueListItem#value}
             /// </remarks>
             [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
             public string Value
@@ -46,7 +46,7 @@ namespace stripe.RadarValueListItem
 
             /// <summary>The identifier of the value list this item belongs to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/radar_value_list_item#value_list RadarValueListItem#value_list}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/radar_value_list_item#value_list RadarValueListItem#value_list}
             /// </remarks>
             [JsiiProperty(name: "valueList", typeJson: "{\"primitive\":\"string\"}")]
             public string ValueList

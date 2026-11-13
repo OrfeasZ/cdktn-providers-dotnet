@@ -11,7 +11,7 @@ namespace stripe.PaymentIntent
     {
         /// <summary>The customer's bank.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#bank PaymentIntent#bank}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#bank PaymentIntent#bank}
         /// </remarks>
         [JsiiProperty(name: "bank", typeJson: "{\"primitive\":\"string\"}")]
         public string Bank
@@ -22,7 +22,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Account holder type for FPX transaction.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#account_holder_type PaymentIntent#account_holder_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#account_holder_type PaymentIntent#account_holder_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "accountHolderType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

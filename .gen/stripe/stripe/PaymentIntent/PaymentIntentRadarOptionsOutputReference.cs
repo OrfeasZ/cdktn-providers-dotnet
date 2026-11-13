@@ -33,6 +33,12 @@ namespace stripe.PaymentIntent
         {
         }
 
+        [JsiiMethod(name: "resetReferrer")]
+        public virtual void ResetReferrer()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSession")]
         public virtual void ResetSession()
         {
@@ -40,10 +46,24 @@ namespace stripe.PaymentIntent
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "referrerInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ReferrerInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "sessionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? SessionInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "referrer", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Referrer
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "session", typeJson: "{\"primitive\":\"string\"}")]

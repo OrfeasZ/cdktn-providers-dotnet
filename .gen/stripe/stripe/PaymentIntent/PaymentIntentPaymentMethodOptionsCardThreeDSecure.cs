@@ -15,7 +15,7 @@ namespace stripe.PaymentIntent
         /// (Most 3D Secure providers will return the base64-encoded version, which
         /// is what you should specify here.)
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#cryptogram PaymentIntent#cryptogram}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#cryptogram PaymentIntent#cryptogram}
         /// </remarks>
         [JsiiProperty(name: "cryptogram", typeJson: "{\"primitive\":\"string\"}")]
         public string Cryptogram
@@ -26,7 +26,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>For 3D Secure 1, the XID. For 3D Secure 2, the Directory Server Transaction ID (dsTransID).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#transaction_id PaymentIntent#transaction_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#transaction_id PaymentIntent#transaction_id}
         /// </remarks>
         [JsiiProperty(name: "transactionId", typeJson: "{\"primitive\":\"string\"}")]
         public string TransactionId
@@ -37,7 +37,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>The version of 3D Secure that was performed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#version PaymentIntent#version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#version PaymentIntent#version}
         /// </remarks>
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}")]
         public string Version
@@ -48,7 +48,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>The `transStatus` returned from the card Issuer’s ACS in the ARes.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#ares_trans_status PaymentIntent#ares_trans_status}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#ares_trans_status PaymentIntent#ares_trans_status}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "aresTransStatus", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -60,7 +60,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>The Electronic Commerce Indicator (ECI) is returned by your 3D Secure provider and indicates what degree of authentication was performed.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#electronic_commerce_indicator PaymentIntent#electronic_commerce_indicator}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#electronic_commerce_indicator PaymentIntent#electronic_commerce_indicator}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "electronicCommerceIndicator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -72,7 +72,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>The exemption requested via 3DS and accepted by the issuer at authentication time.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#exemption_indicator PaymentIntent#exemption_indicator}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#exemption_indicator PaymentIntent#exemption_indicator}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "exemptionIndicator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -84,7 +84,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Network specific 3DS fields. Network specific arguments require an explicit card brand choice. The parameter `payment_method_options.card.network`` must be populated accordingly.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#network_options PaymentIntent#network_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#network_options PaymentIntent#network_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "networkOptions", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsCardThreeDSecureNetworkOptions\"}", isOptional: true)]
@@ -98,7 +98,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// A string containing 2 digits from 01-99.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#requestor_challenge_indicator PaymentIntent#requestor_challenge_indicator}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#requestor_challenge_indicator PaymentIntent#requestor_challenge_indicator}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "requestorChallengeIndicator", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

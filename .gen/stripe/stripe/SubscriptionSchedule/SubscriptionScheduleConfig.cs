@@ -9,7 +9,7 @@ namespace stripe.SubscriptionSchedule
     {
         /// <summary>The billing mode of the subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#billing_mode SubscriptionSchedule#billing_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#billing_mode SubscriptionSchedule#billing_mode}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "billingMode", typeJson: "{\"fqn\":\"stripe.subscriptionSchedule.SubscriptionScheduleBillingMode\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace stripe.SubscriptionSchedule
 
         /// <summary>ID of the customer who owns the subscription schedule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#customer SubscriptionSchedule#customer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#customer SubscriptionSchedule#customer}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace stripe.SubscriptionSchedule
 
         /// <summary>ID of the account who owns the subscription schedule.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#customer_account SubscriptionSchedule#customer_account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#customer_account SubscriptionSchedule#customer_account}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customerAccount", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -43,7 +43,7 @@ namespace stripe.SubscriptionSchedule
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#default_settings SubscriptionSchedule#default_settings}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#default_settings SubscriptionSchedule#default_settings}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "defaultSettings", typeJson: "{\"fqn\":\"stripe.subscriptionSchedule.SubscriptionScheduleDefaultSettings\"}", isOptional: true)]
         public stripe.SubscriptionSchedule.ISubscriptionScheduleDefaultSettings? DefaultSettings
@@ -56,7 +56,7 @@ namespace stripe.SubscriptionSchedule
         /// <remarks>
         /// Possible values are <c>release</c> or <c>cancel</c> with the default being <c>release</c>. <c>release</c> will end the subscription schedule and keep the underlying subscription running. <c>cancel</c> will end the subscription schedule and cancel the underlying subscription.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#end_behavior SubscriptionSchedule#end_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#end_behavior SubscriptionSchedule#end_behavior}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "endBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +70,7 @@ namespace stripe.SubscriptionSchedule
         /// <remarks>
         /// If this parameter is set, a subscription schedule will be created using the subscription's item(s), set to auto-renew using the subscription's interval. When using this parameter, other parameters (such as phase values) cannot be set. To create a subscription schedule with other modifications, we recommend making two separate API calls.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#from_subscription SubscriptionSchedule#from_subscription}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#from_subscription SubscriptionSchedule#from_subscription}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fromSubscription", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace stripe.SubscriptionSchedule
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#metadata SubscriptionSchedule#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#metadata SubscriptionSchedule#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -92,11 +92,46 @@ namespace stripe.SubscriptionSchedule
             set;
         }
 
+        private object? _pauseSchedules;
+
+        /// <summary>The pause schedules for this subscription schedule.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#pause_schedules SubscriptionSchedule#pause_schedules}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.SubscriptionSchedule.ISubscriptionSchedulePauseSchedules" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "pauseSchedules", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.subscriptionSchedule.SubscriptionSchedulePauseSchedules\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public object? PauseSchedules
+        {
+            get => _pauseSchedules;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case stripe.SubscriptionSchedule.ISubscriptionSchedulePauseSchedules[] cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.SubscriptionSchedule.ISubscriptionSchedulePauseSchedules).FullName}[]; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _pauseSchedules = value;
+            }
+        }
+
         private object? _phases;
 
         /// <summary>Configuration for the subscription schedule's phases.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#phases SubscriptionSchedule#phases}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#phases SubscriptionSchedule#phases}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.SubscriptionSchedule.ISubscriptionSchedulePhases" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -129,9 +164,9 @@ namespace stripe.SubscriptionSchedule
 
         /// <summary>When the subscription schedule starts.</summary>
         /// <remarks>
-        /// We recommend using <c>now</c> so that it starts the subscription immediately. You can also use a Unix timestamp to backdate the subscription so that it starts on a past date, or set a future date for the subscription to start on.
+        /// We recommend using <c>now</c> so that it starts the subscription immediately, and to avoid unexpected behavior due to request delays or clock skew resulting in a slightly backdated or postdated start. You can also use a Unix timestamp to backdate the subscription so that it starts on a past date, or set a future date for the subscription to start on.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_schedule#start_date SubscriptionSchedule#start_date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_schedule#start_date SubscriptionSchedule#start_date}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "startDate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

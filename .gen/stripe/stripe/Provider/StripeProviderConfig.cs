@@ -9,7 +9,7 @@ namespace stripe.Provider
     {
         /// <summary>Alias name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs#alias StripeProvider#alias}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs#alias StripeProvider#alias}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace stripe.Provider
 
         /// <summary>Stripe API key. Can also be set via the STRIPE_API_KEY environment variable.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs#api_key StripeProvider#api_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs#api_key StripeProvider#api_key}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace stripe.Provider
 
         /// <summary>Connected account context for Connect-scoped requests. Can also be set via the STRIPE_ACCOUNT environment variable.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs#stripe_account StripeProvider#stripe_account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs#stripe_account StripeProvider#stripe_account}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "stripeAccount", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

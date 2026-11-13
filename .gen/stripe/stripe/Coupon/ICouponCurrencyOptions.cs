@@ -9,7 +9,7 @@ namespace stripe.Coupon
     {
         /// <summary>Amount (in the `currency` specified) that will be taken off the subtotal of any invoices for this customer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#amount_off Coupon#amount_off}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/coupon#amount_off Coupon#amount_off}
         /// </remarks>
         [JsiiProperty(name: "amountOff", typeJson: "{\"primitive\":\"number\"}")]
         double AmountOff
@@ -19,7 +19,7 @@ namespace stripe.Coupon
 
         /// <summary>Key for this entry.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#key Coupon#key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/coupon#key Coupon#key}
         /// </remarks>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         string Key
@@ -36,7 +36,7 @@ namespace stripe.Coupon
 
             /// <summary>Amount (in the `currency` specified) that will be taken off the subtotal of any invoices for this customer.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#amount_off Coupon#amount_off}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/coupon#amount_off Coupon#amount_off}
             /// </remarks>
             [JsiiProperty(name: "amountOff", typeJson: "{\"primitive\":\"number\"}")]
             public double AmountOff
@@ -46,7 +46,7 @@ namespace stripe.Coupon
 
             /// <summary>Key for this entry.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/coupon#key Coupon#key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/coupon#key Coupon#key}
             /// </remarks>
             [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
             public string Key

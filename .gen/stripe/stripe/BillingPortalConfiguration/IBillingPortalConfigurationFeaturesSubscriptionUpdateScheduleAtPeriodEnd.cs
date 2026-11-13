@@ -11,7 +11,7 @@ namespace stripe.BillingPortalConfiguration
         /// <remarks>
         /// When any condition is true, an update will be scheduled at the end of the current period.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#conditions BillingPortalConfiguration#conditions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#conditions BillingPortalConfiguration#conditions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingPortalConfiguration.IBillingPortalConfigurationFeaturesSubscriptionUpdateScheduleAtPeriodEndConditions" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "conditions", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.billingPortalConfiguration.BillingPortalConfigurationFeaturesSubscriptionUpdateScheduleAtPeriodEndConditions\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -35,7 +35,7 @@ namespace stripe.BillingPortalConfiguration
             /// <remarks>
             /// When any condition is true, an update will be scheduled at the end of the current period.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#conditions BillingPortalConfiguration#conditions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#conditions BillingPortalConfiguration#conditions}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingPortalConfiguration.IBillingPortalConfigurationFeaturesSubscriptionUpdateScheduleAtPeriodEndConditions" />)[]</para>
             /// </remarks>
             [JsiiOptional]

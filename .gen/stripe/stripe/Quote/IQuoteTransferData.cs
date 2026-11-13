@@ -9,7 +9,7 @@ namespace stripe.Quote
     {
         /// <summary>The account where funds from the payment will be transferred to upon payment success.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#destination Quote#destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#destination Quote#destination}
         /// </remarks>
         [JsiiProperty(name: "destination", typeJson: "{\"primitive\":\"string\"}")]
         string Destination
@@ -21,7 +21,7 @@ namespace stripe.Quote
         /// <remarks>
         /// By default, the entire amount is transferred to the destination.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#amount Quote#amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#amount Quote#amount}
         /// </remarks>
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace stripe.Quote
         /// <remarks>
         /// This represents the percentage of the subscription invoice total that will be transferred to the destination account. By default, the entire amount will be transferred to the destination.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#amount_percent Quote#amount_percent}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#amount_percent Quote#amount_percent}
         /// </remarks>
         [JsiiProperty(name: "amountPercent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,7 +58,7 @@ namespace stripe.Quote
 
             /// <summary>The account where funds from the payment will be transferred to upon payment success.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#destination Quote#destination}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#destination Quote#destination}
             /// </remarks>
             [JsiiProperty(name: "destination", typeJson: "{\"primitive\":\"string\"}")]
             public string Destination
@@ -70,7 +70,7 @@ namespace stripe.Quote
             /// <remarks>
             /// By default, the entire amount is transferred to the destination.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#amount Quote#amount}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#amount Quote#amount}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace stripe.Quote
             /// <remarks>
             /// This represents the percentage of the subscription invoice total that will be transferred to the destination account. By default, the entire amount will be transferred to the destination.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/quote#amount_percent Quote#amount_percent}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/quote#amount_percent Quote#amount_percent}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "amountPercent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

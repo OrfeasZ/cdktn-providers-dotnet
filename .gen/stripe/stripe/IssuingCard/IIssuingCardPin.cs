@@ -9,7 +9,7 @@ namespace stripe.IssuingCard
     {
         /// <summary>The card's desired new PIN, encrypted under Stripe's public key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#encrypted_number IssuingCard#encrypted_number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#encrypted_number IssuingCard#encrypted_number}
         /// </remarks>
         [JsiiProperty(name: "encryptedNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace stripe.IssuingCard
 
             /// <summary>The card's desired new PIN, encrypted under Stripe's public key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_card#encrypted_number IssuingCard#encrypted_number}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_card#encrypted_number IssuingCard#encrypted_number}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "encryptedNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

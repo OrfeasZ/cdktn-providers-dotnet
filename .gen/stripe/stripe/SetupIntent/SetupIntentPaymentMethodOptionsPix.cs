@@ -7,7 +7,7 @@ namespace stripe.SetupIntent
     [JsiiByValue(fqn: "stripe.setupIntent.SetupIntentPaymentMethodOptionsPix")]
     public class SetupIntentPaymentMethodOptionsPix : stripe.SetupIntent.ISetupIntentPaymentMethodOptionsPix
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#mandate_options SetupIntent#mandate_options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#mandate_options SetupIntent#mandate_options}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mandateOptions", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodOptionsPixMandateOptions\"}", isOptional: true)]
         public stripe.SetupIntent.ISetupIntentPaymentMethodOptionsPixMandateOptions? MandateOptions

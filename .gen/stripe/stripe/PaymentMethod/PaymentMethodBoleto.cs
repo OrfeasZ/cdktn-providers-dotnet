@@ -11,7 +11,7 @@ namespace stripe.PaymentMethod
     {
         /// <summary>Uniquely identifies the customer tax id (CNPJ or CPF).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#tax_id PaymentMethod#tax_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#tax_id PaymentMethod#tax_id}
         /// </remarks>
         [JsiiProperty(name: "taxId", typeJson: "{\"primitive\":\"string\"}")]
         public string TaxId

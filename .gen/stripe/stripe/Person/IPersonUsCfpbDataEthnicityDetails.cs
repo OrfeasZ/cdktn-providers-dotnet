@@ -9,7 +9,7 @@ namespace stripe.Person
     {
         /// <summary>The persons ethnicity.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#ethnicity Person#ethnicity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#ethnicity Person#ethnicity}
         /// </remarks>
         [JsiiProperty(name: "ethnicity", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace stripe.Person
 
         /// <summary>Please specify your origin, when other is selected.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#ethnicity_other Person#ethnicity_other}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#ethnicity_other Person#ethnicity_other}
         /// </remarks>
         [JsiiProperty(name: "ethnicityOther", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace stripe.Person
 
             /// <summary>The persons ethnicity.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#ethnicity Person#ethnicity}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#ethnicity Person#ethnicity}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ethnicity", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace stripe.Person
 
             /// <summary>Please specify your origin, when other is selected.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#ethnicity_other Person#ethnicity_other}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#ethnicity_other Person#ethnicity_other}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ethnicityOther", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

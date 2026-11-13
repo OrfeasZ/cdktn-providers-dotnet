@@ -7,7 +7,7 @@ namespace stripe.IssuingCardholder
     [JsiiInterface(nativeType: typeof(IIssuingCardholderBilling), fullyQualifiedName: "stripe.issuingCardholder.IssuingCardholderBilling")]
     public interface IIssuingCardholderBilling
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#address IssuingCardholder#address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#address IssuingCardholder#address}.</summary>
         [JsiiProperty(name: "address", typeJson: "{\"fqn\":\"stripe.issuingCardholder.IssuingCardholderBillingAddress\"}")]
         stripe.IssuingCardholder.IIssuingCardholderBillingAddress Address
         {
@@ -21,7 +21,7 @@ namespace stripe.IssuingCardholder
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#address IssuingCardholder#address}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#address IssuingCardholder#address}.</summary>
             [JsiiProperty(name: "address", typeJson: "{\"fqn\":\"stripe.issuingCardholder.IssuingCardholderBillingAddress\"}")]
             public stripe.IssuingCardholder.IIssuingCardholderBillingAddress Address
             {

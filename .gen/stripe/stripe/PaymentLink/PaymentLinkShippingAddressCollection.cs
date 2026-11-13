@@ -13,7 +13,7 @@ namespace stripe.PaymentLink
         /// <remarks>
         /// Unsupported country codes: <c>AS, CX, CC, CU, HM, IR, KP, MH, FM, NF, MP, PW, SD, SY, UM, VI</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#allowed_countries PaymentLink#allowed_countries}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#allowed_countries PaymentLink#allowed_countries}
         /// </remarks>
         [JsiiProperty(name: "allowedCountries", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] AllowedCountries

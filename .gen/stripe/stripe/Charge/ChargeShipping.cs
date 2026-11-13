@@ -9,7 +9,7 @@ namespace stripe.Charge
     [JsiiByValue(fqn: "stripe.charge.ChargeShipping")]
     public class ChargeShipping : stripe.Charge.IChargeShipping
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#address Charge#address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#address Charge#address}.</summary>
         [JsiiProperty(name: "address", typeJson: "{\"fqn\":\"stripe.charge.ChargeShippingAddress\"}")]
         public stripe.Charge.IChargeShippingAddress Address
         {
@@ -19,7 +19,7 @@ namespace stripe.Charge
 
         /// <summary>Recipient name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#name Charge#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#name Charge#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -30,7 +30,7 @@ namespace stripe.Charge
 
         /// <summary>The delivery service that shipped a physical product, such as Fedex, UPS, USPS, etc.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#carrier Charge#carrier}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#carrier Charge#carrier}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "carrier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -42,7 +42,7 @@ namespace stripe.Charge
 
         /// <summary>Recipient phone (including extension).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#phone Charge#phone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#phone Charge#phone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "phone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -56,7 +56,7 @@ namespace stripe.Charge
         /// <remarks>
         /// If multiple tracking numbers were generated for this purchase, please separate them with commas.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#tracking_number Charge#tracking_number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#tracking_number Charge#tracking_number}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "trackingNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

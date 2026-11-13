@@ -7,13 +7,27 @@ namespace stripe.SetupIntent
     [JsiiByValue(fqn: "stripe.setupIntent.SetupIntentConfig")]
     public class SetupIntentConfig : stripe.SetupIntent.ISetupIntentConfig
     {
+        /// <summary>The list of payment method types to allow for this SetupIntent.</summary>
+        /// <remarks>
+        /// Stripe will only use methods in this list when determining the payment methods to offer.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#allowed_payment_method_types SetupIntent#allowed_payment_method_types}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "allowedPaymentMethodTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public string[]? AllowedPaymentMethodTypes
+        {
+            get;
+            set;
+        }
+
         private object? _attachToSelf;
 
         /// <summary>If present, the SetupIntent's payment method will be attached to the in-context Stripe Account.</summary>
         /// <remarks>
         /// It can only be used for this Stripe Account’s own money movement flows like InboundTransfer and OutboundTransfers. It cannot be set to true when setting up a PaymentMethod for a Customer, and defaults to false when attaching a PaymentMethod to a Customer.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#attach_to_self SetupIntent#attach_to_self}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#attach_to_self SetupIntent#attach_to_self}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +60,7 @@ namespace stripe.SetupIntent
 
         /// <summary>Settings for dynamic payment methods compatible with this Setup Intent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#automatic_payment_methods SetupIntent#automatic_payment_methods}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#automatic_payment_methods SetupIntent#automatic_payment_methods}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "automaticPaymentMethods", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentAutomaticPaymentMethods\"}", isOptional: true)]
@@ -62,7 +76,7 @@ namespace stripe.SetupIntent
         /// <remarks>
         /// This parameter defaults to <c>false</c>. If a card is the attached payment method, you can provide a <c>return_url</c> in case further authentication is necessary.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#confirm SetupIntent#confirm}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#confirm SetupIntent#confirm}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -97,7 +111,7 @@ namespace stripe.SetupIntent
         /// <remarks>
         /// If the provided ConfirmationToken contains properties that are also being provided in this request, such as <c>payment_method</c>, then the values in this request will take precedence.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#confirmation_token SetupIntent#confirmation_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#confirmation_token SetupIntent#confirmation_token}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "confirmationToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -111,7 +125,7 @@ namespace stripe.SetupIntent
         /// <remarks>
         /// If present, the SetupIntent's payment method will be attached to the Customer on successful setup. Payment methods attached to other Customers cannot be used with this SetupIntent.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#customer SetupIntent#customer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#customer SetupIntent#customer}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -125,7 +139,7 @@ namespace stripe.SetupIntent
         /// <remarks>
         /// If present, the SetupIntent's payment method will be attached to the Account on successful setup. Payment methods attached to other Accounts cannot be used with this SetupIntent.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#customer_account SetupIntent#customer_account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#customer_account SetupIntent#customer_account}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customerAccount", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -137,7 +151,7 @@ namespace stripe.SetupIntent
 
         /// <summary>An arbitrary string attached to the object. Often useful for displaying to users.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#description SetupIntent#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#description SetupIntent#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -149,7 +163,7 @@ namespace stripe.SetupIntent
 
         /// <summary>Payment method types that are excluded from this SetupIntent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#excluded_payment_method_types SetupIntent#excluded_payment_method_types}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#excluded_payment_method_types SetupIntent#excluded_payment_method_types}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "excludedPaymentMethodTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -163,7 +177,7 @@ namespace stripe.SetupIntent
         /// <remarks>
         /// Include <c>inbound</c> if you intend to use the payment method as the origin to pull funds from. Include <c>outbound</c> if you intend to use the payment method as the destination to send funds to. You can include both if you intend to use the payment method for both purposes.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#flow_directions SetupIntent#flow_directions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#flow_directions SetupIntent#flow_directions}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "flowDirections", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -175,7 +189,7 @@ namespace stripe.SetupIntent
 
         /// <summary>This hash contains details about the mandate to create. This parameter can only be used with [`confirm=true`](https://docs.stripe.com/api/setup_intents/create#create_setup_intent-confirm).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#mandate_data SetupIntent#mandate_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#mandate_data SetupIntent#mandate_data}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "mandateData", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentMandateData\"}", isOptional: true)]
@@ -187,7 +201,7 @@ namespace stripe.SetupIntent
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#metadata SetupIntent#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#metadata SetupIntent#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -199,7 +213,7 @@ namespace stripe.SetupIntent
 
         /// <summary>The account (if any) for which the setup is intended.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#on_behalf_of SetupIntent#on_behalf_of}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#on_behalf_of SetupIntent#on_behalf_of}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "onBehalfOf", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -213,7 +227,7 @@ namespace stripe.SetupIntent
         /// <remarks>
         /// If the payment method is <c>card_present</c> and isn't a digital wallet, then the <a href="https://docs.stripe.com/api/setup_attempts/object#setup_attempt_object-payment_method_details-card_present-generated_card">generated_card</a> associated with the <c>latest_attempt</c> is attached to the Customer instead.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#payment_method SetupIntent#payment_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#payment_method SetupIntent#payment_method}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "paymentMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -225,7 +239,7 @@ namespace stripe.SetupIntent
 
         /// <summary>The ID of the [payment method configuration](https://docs.stripe.com/api/payment_method_configurations) to use with this SetupIntent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#payment_method_configuration SetupIntent#payment_method_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#payment_method_configuration SetupIntent#payment_method_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "paymentMethodConfiguration", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -237,7 +251,7 @@ namespace stripe.SetupIntent
 
         /// <summary>When included, this hash creates a PaymentMethod that is set as the [`payment_method`](https://docs.stripe.com/api/setup_intents/object#setup_intent_object-payment_method) value in the SetupIntent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#payment_method_data SetupIntent#payment_method_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#payment_method_data SetupIntent#payment_method_data}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "paymentMethodData", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodData\"}", isOptional: true)]
@@ -249,7 +263,7 @@ namespace stripe.SetupIntent
 
         /// <summary>Payment method-specific configuration for this SetupIntent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#payment_method_options SetupIntent#payment_method_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#payment_method_options SetupIntent#payment_method_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "paymentMethodOptions", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodOptions\"}", isOptional: true)]
@@ -259,23 +273,11 @@ namespace stripe.SetupIntent
             set;
         }
 
-        /// <summary>The list of payment method types (e.g. card) that this SetupIntent is allowed to set up. A list of valid payment method types can be found [here](https://docs.stripe.com/api/payment_methods/object#payment_method_object-type).</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#payment_method_types SetupIntent#payment_method_types}
-        /// </remarks>
-        [JsiiOptional]
-        [JsiiProperty(name: "paymentMethodTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
-        public string[]? PaymentMethodTypes
-        {
-            get;
-            set;
-        }
-
         /// <summary>The URL to redirect your customer back to after they authenticate or cancel their payment on the payment method's app or site.</summary>
         /// <remarks>
         /// To redirect to a mobile application, you can alternatively supply an application URI scheme. This parameter can only be used with <a href="https://docs.stripe.com/api/setup_intents/create#create_setup_intent-confirm"><c>confirm=true</c></a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#return_url SetupIntent#return_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#return_url SetupIntent#return_url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "returnUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -289,7 +291,7 @@ namespace stripe.SetupIntent
         /// <remarks>
         /// Single-use mandates are only valid for the following payment methods: <c>acss_debit</c>, <c>alipay</c>, <c>au_becs_debit</c>, <c>bacs_debit</c>, <c>bancontact</c>, <c>boleto</c>, <c>ideal</c>, <c>link</c>, <c>sepa_debit</c>, and <c>us_bank_account</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#single_use SetupIntent#single_use}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#single_use SetupIntent#single_use}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "singleUse", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentSingleUse\"}", isOptional: true)]
@@ -303,7 +305,7 @@ namespace stripe.SetupIntent
         /// <remarks>
         /// Use <c>on_session</c> if you intend to only reuse the payment method when the customer is in your checkout flow. Use <c>off_session</c> if your customer may or may not be in your checkout flow. If not provided, this value defaults to <c>off_session</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#usage SetupIntent#usage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#usage SetupIntent#usage}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "usage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -317,7 +319,7 @@ namespace stripe.SetupIntent
 
         /// <summary>Set to `true` when confirming server-side and using Stripe.js, iOS, or Android client-side SDKs to handle the next actions.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#use_stripe_sdk SetupIntent#use_stripe_sdk}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#use_stripe_sdk SetupIntent#use_stripe_sdk}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

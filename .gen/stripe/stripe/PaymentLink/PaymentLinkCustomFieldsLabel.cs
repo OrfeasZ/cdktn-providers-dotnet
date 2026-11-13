@@ -9,9 +9,9 @@ namespace stripe.PaymentLink
     [JsiiByValue(fqn: "stripe.paymentLink.PaymentLinkCustomFieldsLabel")]
     public class PaymentLinkCustomFieldsLabel : stripe.PaymentLink.IPaymentLinkCustomFieldsLabel
     {
-        /// <summary>Custom text for the label, displayed to the customer. Up to 50 characters.</summary>
+        /// <summary>Custom text for the label, displayed to the customer. Up to 100 characters.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#custom PaymentLink#custom}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#custom PaymentLink#custom}
         /// </remarks>
         [JsiiProperty(name: "custom", typeJson: "{\"primitive\":\"string\"}")]
         public string Custom
@@ -22,7 +22,7 @@ namespace stripe.PaymentLink
 
         /// <summary>The type of the label.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#type PaymentLink#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#type PaymentLink#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type

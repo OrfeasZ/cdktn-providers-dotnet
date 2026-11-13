@@ -9,7 +9,7 @@ namespace stripe.TreasuryFinancialAccount
     {
         /// <summary>The currencies the FinancialAccount can hold a balance in. Three-letter [ISO currency code](https://www.iso.org/iso-4217-currency-codes.html), in lowercase.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/treasury_financial_account#supported_currencies TreasuryFinancialAccount#supported_currencies}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/treasury_financial_account#supported_currencies TreasuryFinancialAccount#supported_currencies}
         /// </remarks>
         [JsiiProperty(name: "supportedCurrencies", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] SupportedCurrencies
@@ -21,7 +21,7 @@ namespace stripe.TreasuryFinancialAccount
         /// <remarks>
         /// Stripe or the platform can control Features via the requested field.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/treasury_financial_account#features TreasuryFinancialAccount#features}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/treasury_financial_account#features TreasuryFinancialAccount#features}
         /// </remarks>
         [JsiiProperty(name: "features", typeJson: "{\"fqn\":\"stripe.treasuryFinancialAccount.TreasuryFinancialAccountFeatures\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,7 +35,7 @@ namespace stripe.TreasuryFinancialAccount
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/treasury_financial_account#metadata TreasuryFinancialAccount#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/treasury_financial_account#metadata TreasuryFinancialAccount#metadata}
         /// </remarks>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -49,7 +49,7 @@ namespace stripe.TreasuryFinancialAccount
 
         /// <summary>The nickname for the FinancialAccount.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/treasury_financial_account#nickname TreasuryFinancialAccount#nickname}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/treasury_financial_account#nickname TreasuryFinancialAccount#nickname}
         /// </remarks>
         [JsiiProperty(name: "nickname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -63,7 +63,7 @@ namespace stripe.TreasuryFinancialAccount
 
         /// <summary>The set of functionalities that the platform can restrict on the FinancialAccount.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/treasury_financial_account#platform_restrictions TreasuryFinancialAccount#platform_restrictions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/treasury_financial_account#platform_restrictions TreasuryFinancialAccount#platform_restrictions}
         /// </remarks>
         [JsiiProperty(name: "platformRestrictions", typeJson: "{\"fqn\":\"stripe.treasuryFinancialAccount.TreasuryFinancialAccountPlatformRestrictions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -84,7 +84,7 @@ namespace stripe.TreasuryFinancialAccount
 
             /// <summary>The currencies the FinancialAccount can hold a balance in. Three-letter [ISO currency code](https://www.iso.org/iso-4217-currency-codes.html), in lowercase.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/treasury_financial_account#supported_currencies TreasuryFinancialAccount#supported_currencies}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/treasury_financial_account#supported_currencies TreasuryFinancialAccount#supported_currencies}
             /// </remarks>
             [JsiiProperty(name: "supportedCurrencies", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] SupportedCurrencies
@@ -96,7 +96,7 @@ namespace stripe.TreasuryFinancialAccount
             /// <remarks>
             /// Stripe or the platform can control Features via the requested field.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/treasury_financial_account#features TreasuryFinancialAccount#features}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/treasury_financial_account#features TreasuryFinancialAccount#features}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "features", typeJson: "{\"fqn\":\"stripe.treasuryFinancialAccount.TreasuryFinancialAccountFeatures\"}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace stripe.TreasuryFinancialAccount
 
             /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/treasury_financial_account#metadata TreasuryFinancialAccount#metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/treasury_financial_account#metadata TreasuryFinancialAccount#metadata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -118,7 +118,7 @@ namespace stripe.TreasuryFinancialAccount
 
             /// <summary>The nickname for the FinancialAccount.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/treasury_financial_account#nickname TreasuryFinancialAccount#nickname}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/treasury_financial_account#nickname TreasuryFinancialAccount#nickname}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "nickname", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -129,7 +129,7 @@ namespace stripe.TreasuryFinancialAccount
 
             /// <summary>The set of functionalities that the platform can restrict on the FinancialAccount.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/treasury_financial_account#platform_restrictions TreasuryFinancialAccount#platform_restrictions}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/treasury_financial_account#platform_restrictions TreasuryFinancialAccount#platform_restrictions}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "platformRestrictions", typeJson: "{\"fqn\":\"stripe.treasuryFinancialAccount.TreasuryFinancialAccountPlatformRestrictions\"}", isOptional: true)]

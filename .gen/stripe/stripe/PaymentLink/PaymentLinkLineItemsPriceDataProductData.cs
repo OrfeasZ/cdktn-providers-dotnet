@@ -11,7 +11,7 @@ namespace stripe.PaymentLink
     {
         /// <summary>The product's name, meant to be displayable to the customer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#name PaymentLink#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#name PaymentLink#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -24,7 +24,7 @@ namespace stripe.PaymentLink
         /// <remarks>
         /// Use this field to optionally store a long form explanation of the product being sold for your own rendering purposes.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#description PaymentLink#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#description PaymentLink#description}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -36,7 +36,7 @@ namespace stripe.PaymentLink
 
         /// <summary>A list of up to 8 URLs of images for this product, meant to be displayable to the customer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#images PaymentLink#images}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#images PaymentLink#images}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "images", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -48,7 +48,7 @@ namespace stripe.PaymentLink
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format. Individual keys can be unset by posting an empty value to them. All keys can be unset by posting an empty value to `metadata`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#metadata PaymentLink#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#metadata PaymentLink#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -60,7 +60,7 @@ namespace stripe.PaymentLink
 
         /// <summary>A [tax code](https://docs.stripe.com/tax/tax-categories) ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#tax_code PaymentLink#tax_code}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#tax_code PaymentLink#tax_code}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "taxCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,11 +70,23 @@ namespace stripe.PaymentLink
             set;
         }
 
+        /// <summary>Tax details for this product, including the [tax code](/tax/tax-codes) and an optional performance location.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#tax_details PaymentLink#tax_details}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "taxDetails", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkLineItemsPriceDataProductDataTaxDetails\"}", isOptional: true)]
+        public stripe.PaymentLink.IPaymentLinkLineItemsPriceDataProductDataTaxDetails? TaxDetails
+        {
+            get;
+            set;
+        }
+
         /// <summary>A label that represents units of this product.</summary>
         /// <remarks>
         /// When set, this will be included in customers' receipts, invoices, Checkout, and the customer portal.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#unit_label PaymentLink#unit_label}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#unit_label PaymentLink#unit_label}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "unitLabel", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

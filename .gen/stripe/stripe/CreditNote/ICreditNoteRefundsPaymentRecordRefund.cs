@@ -9,7 +9,7 @@ namespace stripe.CreditNote
     {
         /// <summary>ID of the payment record.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/credit_note#payment_record CreditNote#payment_record}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/credit_note#payment_record CreditNote#payment_record}
         /// </remarks>
         [JsiiProperty(name: "paymentRecord", typeJson: "{\"primitive\":\"string\"}")]
         string PaymentRecord
@@ -19,7 +19,7 @@ namespace stripe.CreditNote
 
         /// <summary>ID of the refund group.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/credit_note#refund_group CreditNote#refund_group}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/credit_note#refund_group CreditNote#refund_group}
         /// </remarks>
         [JsiiProperty(name: "refundGroup", typeJson: "{\"primitive\":\"string\"}")]
         string RefundGroup
@@ -36,7 +36,7 @@ namespace stripe.CreditNote
 
             /// <summary>ID of the payment record.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/credit_note#payment_record CreditNote#payment_record}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/credit_note#payment_record CreditNote#payment_record}
             /// </remarks>
             [JsiiProperty(name: "paymentRecord", typeJson: "{\"primitive\":\"string\"}")]
             public string PaymentRecord
@@ -46,7 +46,7 @@ namespace stripe.CreditNote
 
             /// <summary>ID of the refund group.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/credit_note#refund_group CreditNote#refund_group}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/credit_note#refund_group CreditNote#refund_group}
             /// </remarks>
             [JsiiProperty(name: "refundGroup", typeJson: "{\"primitive\":\"string\"}")]
             public string RefundGroup

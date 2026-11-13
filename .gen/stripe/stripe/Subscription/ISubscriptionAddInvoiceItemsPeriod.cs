@@ -9,7 +9,7 @@ namespace stripe.Subscription
     {
         /// <summary>End of the invoice item period.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#end Subscription#end}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#end Subscription#end}
         /// </remarks>
         [JsiiProperty(name: "end", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionAddInvoiceItemsPeriodEnd\"}")]
         stripe.Subscription.ISubscriptionAddInvoiceItemsPeriodEnd End
@@ -19,7 +19,7 @@ namespace stripe.Subscription
 
         /// <summary>Start of the invoice item period.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#start Subscription#start}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#start Subscription#start}
         /// </remarks>
         [JsiiProperty(name: "start", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionAddInvoiceItemsPeriodStart\"}")]
         stripe.Subscription.ISubscriptionAddInvoiceItemsPeriodStart Start
@@ -36,7 +36,7 @@ namespace stripe.Subscription
 
             /// <summary>End of the invoice item period.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#end Subscription#end}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#end Subscription#end}
             /// </remarks>
             [JsiiProperty(name: "end", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionAddInvoiceItemsPeriodEnd\"}")]
             public stripe.Subscription.ISubscriptionAddInvoiceItemsPeriodEnd End
@@ -46,7 +46,7 @@ namespace stripe.Subscription
 
             /// <summary>Start of the invoice item period.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#start Subscription#start}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#start Subscription#start}
             /// </remarks>
             [JsiiProperty(name: "start", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionAddInvoiceItemsPeriodStart\"}")]
             public stripe.Subscription.ISubscriptionAddInvoiceItemsPeriodStart Start

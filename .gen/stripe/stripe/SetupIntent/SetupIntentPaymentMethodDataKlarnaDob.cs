@@ -11,7 +11,7 @@ namespace stripe.SetupIntent
     {
         /// <summary>The day of birth, between 1 and 31.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#day SetupIntent#day}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#day SetupIntent#day}
         /// </remarks>
         [JsiiProperty(name: "day", typeJson: "{\"primitive\":\"number\"}")]
         public double Day
@@ -22,7 +22,7 @@ namespace stripe.SetupIntent
 
         /// <summary>The month of birth, between 1 and 12.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#month SetupIntent#month}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#month SetupIntent#month}
         /// </remarks>
         [JsiiProperty(name: "month", typeJson: "{\"primitive\":\"number\"}")]
         public double Month
@@ -33,7 +33,7 @@ namespace stripe.SetupIntent
 
         /// <summary>The four-digit year of birth.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#year SetupIntent#year}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#year SetupIntent#year}
         /// </remarks>
         [JsiiProperty(name: "year", typeJson: "{\"primitive\":\"number\"}")]
         public double Year

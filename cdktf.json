@@ -12,7 +12,7 @@
     "hetznercloud/hcloud@1.70.2",
     "kislerdm/neon@0.18.0",
     "scaleway/scaleway@2.92.1",
-    "stripe/stripe@0.3.0",
+    "stripe/stripe@0.3.1",
     "hashicorp/null@3.3.2",
     "tailscale/tailscale@0.29.3",
     "dmacvicar/libvirt@0.9.9",

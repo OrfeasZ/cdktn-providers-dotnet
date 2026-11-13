@@ -11,7 +11,7 @@ namespace stripe.PaymentMethod
     {
         /// <summary>The day of birth, between 1 and 31.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#day PaymentMethod#day}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#day PaymentMethod#day}
         /// </remarks>
         [JsiiProperty(name: "day", typeJson: "{\"primitive\":\"number\"}")]
         public double Day
@@ -22,7 +22,7 @@ namespace stripe.PaymentMethod
 
         /// <summary>The month of birth, between 1 and 12.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#month PaymentMethod#month}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#month PaymentMethod#month}
         /// </remarks>
         [JsiiProperty(name: "month", typeJson: "{\"primitive\":\"number\"}")]
         public double Month
@@ -33,7 +33,7 @@ namespace stripe.PaymentMethod
 
         /// <summary>The four-digit year of birth.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#year PaymentMethod#year}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#year PaymentMethod#year}
         /// </remarks>
         [JsiiProperty(name: "year", typeJson: "{\"primitive\":\"number\"}")]
         public double Year

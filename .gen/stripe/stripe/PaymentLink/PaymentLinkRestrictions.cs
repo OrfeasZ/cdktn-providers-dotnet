@@ -9,7 +9,7 @@ namespace stripe.PaymentLink
     [JsiiByValue(fqn: "stripe.paymentLink.PaymentLinkRestrictions")]
     public class PaymentLinkRestrictions : stripe.PaymentLink.IPaymentLinkRestrictions
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#completed_sessions PaymentLink#completed_sessions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#completed_sessions PaymentLink#completed_sessions}.</summary>
         [JsiiProperty(name: "completedSessions", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkRestrictionsCompletedSessions\"}")]
         public stripe.PaymentLink.IPaymentLinkRestrictionsCompletedSessions CompletedSessions
         {

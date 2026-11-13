@@ -9,7 +9,7 @@ namespace stripe.Invoice
     {
         /// <summary>How line-item prices and amounts will be displayed with respect to tax on invoice PDFs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#amount_tax_display Invoice#amount_tax_display}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#amount_tax_display Invoice#amount_tax_display}
         /// </remarks>
         [JsiiProperty(name: "amountTaxDisplay", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace stripe.Invoice
 
         /// <summary>Invoice pdf rendering options.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#pdf Invoice#pdf}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#pdf Invoice#pdf}
         /// </remarks>
         [JsiiProperty(name: "pdf", typeJson: "{\"fqn\":\"stripe.invoice.InvoiceRenderingPdf\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -37,7 +37,7 @@ namespace stripe.Invoice
 
         /// <summary>ID of the rendering template that the invoice is formatted by.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#template Invoice#template}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#template Invoice#template}
         /// </remarks>
         [JsiiProperty(name: "template", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace stripe.Invoice
 
         /// <summary>Version of the rendering template that the invoice is using.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#template_version Invoice#template_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#template_version Invoice#template_version}
         /// </remarks>
         [JsiiProperty(name: "templateVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,7 +72,7 @@ namespace stripe.Invoice
 
             /// <summary>How line-item prices and amounts will be displayed with respect to tax on invoice PDFs.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#amount_tax_display Invoice#amount_tax_display}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#amount_tax_display Invoice#amount_tax_display}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "amountTaxDisplay", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -83,7 +83,7 @@ namespace stripe.Invoice
 
             /// <summary>Invoice pdf rendering options.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#pdf Invoice#pdf}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#pdf Invoice#pdf}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pdf", typeJson: "{\"fqn\":\"stripe.invoice.InvoiceRenderingPdf\"}", isOptional: true)]
@@ -94,7 +94,7 @@ namespace stripe.Invoice
 
             /// <summary>ID of the rendering template that the invoice is formatted by.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#template Invoice#template}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#template Invoice#template}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "template", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -105,7 +105,7 @@ namespace stripe.Invoice
 
             /// <summary>Version of the rendering template that the invoice is using.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#template_version Invoice#template_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#template_version Invoice#template_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "templateVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

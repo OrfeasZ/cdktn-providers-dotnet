@@ -9,7 +9,7 @@ namespace stripe.Charge
     {
         /// <summary>Assessments reported by you. If set, possible values of are `safe` and `fraudulent`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#user_report Charge#user_report}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#user_report Charge#user_report}
         /// </remarks>
         [JsiiProperty(name: "userReport", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace stripe.Charge
 
             /// <summary>Assessments reported by you. If set, possible values of are `safe` and `fraudulent`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/charge#user_report Charge#user_report}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/charge#user_report Charge#user_report}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "userReport", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

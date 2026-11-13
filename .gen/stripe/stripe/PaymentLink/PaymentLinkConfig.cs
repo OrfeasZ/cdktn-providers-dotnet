@@ -13,7 +13,7 @@ namespace stripe.PaymentLink
 
         /// <summary>The line items representing what is being sold.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#line_items PaymentLink#line_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#line_items PaymentLink#line_items}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.PaymentLink.IPaymentLinkLineItems" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "lineItems", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.paymentLink.PaymentLinkLineItems\"},\"kind\":\"array\"}}]}}")]
@@ -49,7 +49,7 @@ namespace stripe.PaymentLink
         /// <remarks>
         /// If <c>false</c>, customers visiting the URL will be shown a page saying that the link has been deactivated.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#active PaymentLink#active}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#active PaymentLink#active}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -80,7 +80,7 @@ namespace stripe.PaymentLink
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#after_completion PaymentLink#after_completion}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#after_completion PaymentLink#after_completion}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "afterCompletion", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkAfterCompletion\"}", isOptional: true)]
         public stripe.PaymentLink.IPaymentLinkAfterCompletion? AfterCompletion
@@ -93,7 +93,7 @@ namespace stripe.PaymentLink
 
         /// <summary>Whether user redeemable promotion codes are enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#allow_promotion_codes PaymentLink#allow_promotion_codes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#allow_promotion_codes PaymentLink#allow_promotion_codes}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -126,7 +126,7 @@ namespace stripe.PaymentLink
 
         /// <summary>The amount of the application fee (if any) that will be requested to be applied to the payment and transferred to the application owner's Stripe account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#application_fee_amount PaymentLink#application_fee_amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#application_fee_amount PaymentLink#application_fee_amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "applicationFeeAmount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -138,7 +138,7 @@ namespace stripe.PaymentLink
 
         /// <summary>This represents the percentage of the subscription invoice total that will be transferred to the application owner's Stripe account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#application_fee_percent PaymentLink#application_fee_percent}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#application_fee_percent PaymentLink#application_fee_percent}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "applicationFeePercent", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -148,7 +148,7 @@ namespace stripe.PaymentLink
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#automatic_tax PaymentLink#automatic_tax}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#automatic_tax PaymentLink#automatic_tax}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "automaticTax", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkAutomaticTax\"}", isOptional: true)]
         public stripe.PaymentLink.IPaymentLinkAutomaticTax? AutomaticTax
@@ -159,7 +159,7 @@ namespace stripe.PaymentLink
 
         /// <summary>Configuration for collecting the customer's billing address. Defaults to `auto`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#billing_address_collection PaymentLink#billing_address_collection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#billing_address_collection PaymentLink#billing_address_collection}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "billingAddressCollection", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -171,7 +171,7 @@ namespace stripe.PaymentLink
 
         /// <summary>When set, provides configuration to gather active consent from customers.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#consent_collection PaymentLink#consent_collection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#consent_collection PaymentLink#consent_collection}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "consentCollection", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkConsentCollection\"}", isOptional: true)]
@@ -183,7 +183,7 @@ namespace stripe.PaymentLink
 
         /// <summary>Three-letter [ISO currency code](https://www.iso.org/iso-4217-currency-codes.html), in lowercase. Must be a [supported currency](https://stripe.com/docs/currencies).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#currency PaymentLink#currency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#currency PaymentLink#currency}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -195,7 +195,7 @@ namespace stripe.PaymentLink
 
         /// <summary>Configuration for Customer creation during checkout.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#customer_creation PaymentLink#customer_creation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#customer_creation PaymentLink#customer_creation}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customerCreation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -209,9 +209,9 @@ namespace stripe.PaymentLink
 
         /// <summary>Collect additional information from your customer using custom fields.</summary>
         /// <remarks>
-        /// Up to 3 fields are supported. You can't set this parameter if <c>ui_mode</c> is <c>custom</c>.
+        /// Up to 3 fields are supported. You can't set this parameter if <c>ui_mode</c> is <c>elements</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#custom_fields PaymentLink#custom_fields}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#custom_fields PaymentLink#custom_fields}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.PaymentLink.IPaymentLinkCustomFields" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -242,7 +242,7 @@ namespace stripe.PaymentLink
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#custom_text PaymentLink#custom_text}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#custom_text PaymentLink#custom_text}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "customText", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkCustomText\"}", isOptional: true)]
         public stripe.PaymentLink.IPaymentLinkCustomText? CustomText
@@ -253,7 +253,7 @@ namespace stripe.PaymentLink
 
         /// <summary>The custom message to be displayed to a customer when a payment link is no longer active.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#inactive_message PaymentLink#inactive_message}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#inactive_message PaymentLink#inactive_message}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "inactiveMessage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -265,7 +265,7 @@ namespace stripe.PaymentLink
 
         /// <summary>Configuration for creating invoice for payment mode payment links.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#invoice_creation PaymentLink#invoice_creation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#invoice_creation PaymentLink#invoice_creation}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "invoiceCreation", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkInvoiceCreation\"}", isOptional: true)]
@@ -277,7 +277,7 @@ namespace stripe.PaymentLink
 
         /// <summary>Settings for Managed Payments for this Payment Link and resulting [CheckoutSessions](/api/checkout/sessions/object), [PaymentIntents](/api/payment_intents/object), [Invoices](/api/invoices/object), and [Subscriptions](/api/subscriptions/object).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#managed_payments PaymentLink#managed_payments}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#managed_payments PaymentLink#managed_payments}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "managedPayments", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkManagedPayments\"}", isOptional: true)]
@@ -289,7 +289,7 @@ namespace stripe.PaymentLink
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#metadata PaymentLink#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#metadata PaymentLink#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -299,7 +299,7 @@ namespace stripe.PaymentLink
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#name_collection PaymentLink#name_collection}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#name_collection PaymentLink#name_collection}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nameCollection", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkNameCollection\"}", isOptional: true)]
         public stripe.PaymentLink.IPaymentLinkNameCollection? NameCollection
@@ -310,7 +310,7 @@ namespace stripe.PaymentLink
 
         /// <summary>The account on behalf of which to charge. See the [Connect documentation](https://support.stripe.com/questions/sending-invoices-on-behalf-of-connected-accounts) for details.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#on_behalf_of PaymentLink#on_behalf_of}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#on_behalf_of PaymentLink#on_behalf_of}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "onBehalfOf", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -324,7 +324,7 @@ namespace stripe.PaymentLink
 
         /// <summary>The optional items presented to the customer at checkout.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#optional_items PaymentLink#optional_items}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#optional_items PaymentLink#optional_items}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.PaymentLink.IPaymentLinkOptionalItems" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -357,7 +357,7 @@ namespace stripe.PaymentLink
 
         /// <summary>Indicates the parameters to be passed to PaymentIntent creation during checkout.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#payment_intent_data PaymentLink#payment_intent_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#payment_intent_data PaymentLink#payment_intent_data}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "paymentIntentData", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkPaymentIntentData\"}", isOptional: true)]
@@ -369,7 +369,7 @@ namespace stripe.PaymentLink
 
         /// <summary>Configuration for collecting a payment method during checkout. Defaults to `always`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#payment_method_collection PaymentLink#payment_method_collection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#payment_method_collection PaymentLink#payment_method_collection}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "paymentMethodCollection", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -381,7 +381,7 @@ namespace stripe.PaymentLink
 
         /// <summary>Payment-method-specific configuration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#payment_method_options PaymentLink#payment_method_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#payment_method_options PaymentLink#payment_method_options}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "paymentMethodOptions", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkPaymentMethodOptions\"}", isOptional: true)]
@@ -395,7 +395,7 @@ namespace stripe.PaymentLink
         /// <remarks>
         /// When <c>null</c>, Stripe will dynamically show relevant payment methods you've enabled in your <a href="https://dashboard.stripe.com/settings/payment_methods">payment method settings</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#payment_method_types PaymentLink#payment_method_types}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#payment_method_types PaymentLink#payment_method_types}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "paymentMethodTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -405,7 +405,7 @@ namespace stripe.PaymentLink
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#phone_number_collection PaymentLink#phone_number_collection}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#phone_number_collection PaymentLink#phone_number_collection}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "phoneNumberCollection", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkPhoneNumberCollection\"}", isOptional: true)]
         public stripe.PaymentLink.IPaymentLinkPhoneNumberCollection? PhoneNumberCollection
@@ -416,7 +416,7 @@ namespace stripe.PaymentLink
 
         /// <summary>Settings that restrict the usage of a payment link.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#restrictions PaymentLink#restrictions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#restrictions PaymentLink#restrictions}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "restrictions", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkRestrictions\"}", isOptional: true)]
@@ -428,7 +428,7 @@ namespace stripe.PaymentLink
 
         /// <summary>Configuration for collecting the customer's shipping address.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#shipping_address_collection PaymentLink#shipping_address_collection}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#shipping_address_collection PaymentLink#shipping_address_collection}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "shippingAddressCollection", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkShippingAddressCollection\"}", isOptional: true)]
@@ -442,7 +442,7 @@ namespace stripe.PaymentLink
 
         /// <summary>The shipping rate options applied to the session.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#shipping_options PaymentLink#shipping_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#shipping_options PaymentLink#shipping_options}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.PaymentLink.IPaymentLinkShippingOptions" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -475,7 +475,7 @@ namespace stripe.PaymentLink
 
         /// <summary>Indicates the type of transaction being performed which customizes relevant text on the page, such as the submit button.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#submit_type PaymentLink#submit_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#submit_type PaymentLink#submit_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "submitType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -489,7 +489,7 @@ namespace stripe.PaymentLink
         /// <remarks>
         /// There must be at least one line item with a recurring price to use <c>subscription_data</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#subscription_data PaymentLink#subscription_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#subscription_data PaymentLink#subscription_data}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "subscriptionData", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkSubscriptionData\"}", isOptional: true)]
@@ -499,7 +499,7 @@ namespace stripe.PaymentLink
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#tax_id_collection PaymentLink#tax_id_collection}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#tax_id_collection PaymentLink#tax_id_collection}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "taxIdCollection", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkTaxIdCollection\"}", isOptional: true)]
         public stripe.PaymentLink.IPaymentLinkTaxIdCollection? TaxIdCollection
@@ -510,7 +510,7 @@ namespace stripe.PaymentLink
 
         /// <summary>The account (if any) the payments will be attributed to for tax reporting, and where funds from each payment will be transferred to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#transfer_data PaymentLink#transfer_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#transfer_data PaymentLink#transfer_data}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transferData", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkTransferData\"}", isOptional: true)]

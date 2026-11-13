@@ -13,7 +13,7 @@ namespace stripe.BillingPortalConfiguration
 
         /// <summary>If true, the quantity can be adjusted to any non-negative integer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#enabled BillingPortalConfiguration#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#enabled BillingPortalConfiguration#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -45,7 +45,7 @@ namespace stripe.BillingPortalConfiguration
 
         /// <summary>The maximum quantity that can be set for the product.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#maximum BillingPortalConfiguration#maximum}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#maximum BillingPortalConfiguration#maximum}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "maximum", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -57,7 +57,7 @@ namespace stripe.BillingPortalConfiguration
 
         /// <summary>The minimum quantity that can be set for the product.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#minimum BillingPortalConfiguration#minimum}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#minimum BillingPortalConfiguration#minimum}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minimum", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

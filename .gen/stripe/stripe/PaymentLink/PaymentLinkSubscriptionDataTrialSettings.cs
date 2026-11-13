@@ -11,7 +11,7 @@ namespace stripe.PaymentLink
     {
         /// <summary>Defines how a subscription behaves when a free trial ends.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#end_behavior PaymentLink#end_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#end_behavior PaymentLink#end_behavior}
         /// </remarks>
         [JsiiProperty(name: "endBehavior", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkSubscriptionDataTrialSettingsEndBehavior\"}")]
         public stripe.PaymentLink.IPaymentLinkSubscriptionDataTrialSettingsEndBehavior EndBehavior

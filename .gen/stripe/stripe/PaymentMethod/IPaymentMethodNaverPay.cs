@@ -9,7 +9,7 @@ namespace stripe.PaymentMethod
     {
         /// <summary>Whether to fund this transaction with Naver Pay points or a card.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#funding PaymentMethod#funding}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#funding PaymentMethod#funding}
         /// </remarks>
         [JsiiProperty(name: "funding", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace stripe.PaymentMethod
 
             /// <summary>Whether to fund this transaction with Naver Pay points or a card.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#funding PaymentMethod#funding}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#funding PaymentMethod#funding}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "funding", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

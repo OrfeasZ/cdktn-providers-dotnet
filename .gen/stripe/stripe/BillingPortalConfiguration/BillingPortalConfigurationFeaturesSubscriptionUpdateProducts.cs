@@ -11,7 +11,7 @@ namespace stripe.BillingPortalConfiguration
     {
         /// <summary>The list of price IDs which, when subscribed to, a subscription can be updated.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#prices BillingPortalConfiguration#prices}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#prices BillingPortalConfiguration#prices}
         /// </remarks>
         [JsiiProperty(name: "prices", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Prices
@@ -22,7 +22,7 @@ namespace stripe.BillingPortalConfiguration
 
         /// <summary>The product ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#product BillingPortalConfiguration#product}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#product BillingPortalConfiguration#product}
         /// </remarks>
         [JsiiProperty(name: "product", typeJson: "{\"primitive\":\"string\"}")]
         public string Product
@@ -31,7 +31,7 @@ namespace stripe.BillingPortalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#adjustable_quantity BillingPortalConfiguration#adjustable_quantity}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#adjustable_quantity BillingPortalConfiguration#adjustable_quantity}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "adjustableQuantity", typeJson: "{\"fqn\":\"stripe.billingPortalConfiguration.BillingPortalConfigurationFeaturesSubscriptionUpdateProductsAdjustableQuantity\"}", isOptional: true)]
         public stripe.BillingPortalConfiguration.IBillingPortalConfigurationFeaturesSubscriptionUpdateProductsAdjustableQuantity? AdjustableQuantity

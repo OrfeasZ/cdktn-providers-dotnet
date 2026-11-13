@@ -11,7 +11,7 @@ namespace stripe.SetupIntent
     {
         /// <summary>Customer's bank account number.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#account_number SetupIntent#account_number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#account_number SetupIntent#account_number}
         /// </remarks>
         [JsiiProperty(name: "accountNumber", typeJson: "{\"primitive\":\"string\"}")]
         public string AccountNumber
@@ -22,7 +22,7 @@ namespace stripe.SetupIntent
 
         /// <summary>Institution number of the customer's bank.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#institution_number SetupIntent#institution_number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#institution_number SetupIntent#institution_number}
         /// </remarks>
         [JsiiProperty(name: "institutionNumber", typeJson: "{\"primitive\":\"string\"}")]
         public string InstitutionNumber
@@ -33,7 +33,7 @@ namespace stripe.SetupIntent
 
         /// <summary>Transit number of the customer's bank.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#transit_number SetupIntent#transit_number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#transit_number SetupIntent#transit_number}
         /// </remarks>
         [JsiiProperty(name: "transitNumber", typeJson: "{\"primitive\":\"string\"}")]
         public string TransitNumber

@@ -11,7 +11,7 @@ namespace stripe.File
         /// <remarks>
         /// Make sure that the specifications follow RFC 2388, which defines file transfers for the <c>multipart/form-data</c> protocol.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/file#file File#file}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/file#file File#file}
         /// </remarks>
         [JsiiProperty(name: "file", typeJson: "{\"primitive\":\"string\"}")]
         string File
@@ -21,7 +21,7 @@ namespace stripe.File
 
         /// <summary>The [purpose](https://docs.stripe.com/file-upload#uploading-a-file) of the uploaded file.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/file#purpose File#purpose}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/file#purpose File#purpose}
         /// </remarks>
         [JsiiProperty(name: "purpose", typeJson: "{\"primitive\":\"string\"}")]
         string Purpose
@@ -29,9 +29,9 @@ namespace stripe.File
             get;
         }
 
-        /// <summary>Optional parameters that automatically create a [file link](https://api.stripe.com#file_links) for the newly created file.</summary>
+        /// <summary>Optional parameters that automatically create a [file link](https://docs.stripe.com/api#file_links) for the newly created file.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/file#file_link_data File#file_link_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/file#file_link_data File#file_link_data}
         /// </remarks>
         [JsiiProperty(name: "fileLinkData", typeJson: "{\"fqn\":\"stripe.file.FileFileLinkData\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +54,7 @@ namespace stripe.File
             /// <remarks>
             /// Make sure that the specifications follow RFC 2388, which defines file transfers for the <c>multipart/form-data</c> protocol.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/file#file File#file}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/file#file File#file}
             /// </remarks>
             [JsiiProperty(name: "file", typeJson: "{\"primitive\":\"string\"}")]
             public string File
@@ -64,7 +64,7 @@ namespace stripe.File
 
             /// <summary>The [purpose](https://docs.stripe.com/file-upload#uploading-a-file) of the uploaded file.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/file#purpose File#purpose}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/file#purpose File#purpose}
             /// </remarks>
             [JsiiProperty(name: "purpose", typeJson: "{\"primitive\":\"string\"}")]
             public string Purpose
@@ -72,9 +72,9 @@ namespace stripe.File
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Optional parameters that automatically create a [file link](https://api.stripe.com#file_links) for the newly created file.</summary>
+            /// <summary>Optional parameters that automatically create a [file link](https://docs.stripe.com/api#file_links) for the newly created file.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/file#file_link_data File#file_link_data}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/file#file_link_data File#file_link_data}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fileLinkData", typeJson: "{\"fqn\":\"stripe.file.FileFileLinkData\"}", isOptional: true)]

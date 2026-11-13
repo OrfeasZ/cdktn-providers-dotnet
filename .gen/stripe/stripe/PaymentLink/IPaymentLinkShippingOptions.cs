@@ -9,7 +9,7 @@ namespace stripe.PaymentLink
     {
         /// <summary>The ID of the Shipping Rate to use for this shipping option.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#shipping_rate PaymentLink#shipping_rate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#shipping_rate PaymentLink#shipping_rate}
         /// </remarks>
         [JsiiProperty(name: "shippingRate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace stripe.PaymentLink
 
             /// <summary>The ID of the Shipping Rate to use for this shipping option.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#shipping_rate PaymentLink#shipping_rate}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#shipping_rate PaymentLink#shipping_rate}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "shippingRate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

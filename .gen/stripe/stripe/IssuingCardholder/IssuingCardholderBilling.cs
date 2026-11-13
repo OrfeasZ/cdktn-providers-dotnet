@@ -9,7 +9,7 @@ namespace stripe.IssuingCardholder
     [JsiiByValue(fqn: "stripe.issuingCardholder.IssuingCardholderBilling")]
     public class IssuingCardholderBilling : stripe.IssuingCardholder.IIssuingCardholderBilling
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#address IssuingCardholder#address}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#address IssuingCardholder#address}.</summary>
         [JsiiProperty(name: "address", typeJson: "{\"fqn\":\"stripe.issuingCardholder.IssuingCardholderBillingAddress\"}")]
         public stripe.IssuingCardholder.IIssuingCardholderBillingAddress Address
         {

@@ -57,6 +57,12 @@ namespace stripe.IssuingCard
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetBusinessName")]
+        public virtual void ResetBusinessName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetCustoms")]
         public virtual void ResetCustoms()
         {
@@ -111,8 +117,20 @@ namespace stripe.IssuingCard
             get => GetInstanceProperty<stripe.IssuingCard.IssuingCardShippingCustomsOutputReference>()!;
         }
 
+        [JsiiProperty(name: "deliveredAt", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double DeliveredAt
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "eta", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double Eta
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "shippedAt", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double ShippedAt
         {
             get => GetInstanceProperty<double>()!;
         }
@@ -150,6 +168,13 @@ namespace stripe.IssuingCard
         public virtual object? AddressValidationInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "businessNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? BusinessNameInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         /// <remarks>
@@ -198,6 +223,13 @@ namespace stripe.IssuingCard
         public virtual string? TypeInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "businessName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BusinessName
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]

@@ -9,7 +9,7 @@ namespace stripe.TerminalConfiguration
     {
         /// <summary>Password for connecting to the WiFi network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#password TerminalConfiguration#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#password TerminalConfiguration#password}
         /// </remarks>
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
         string Password
@@ -19,7 +19,7 @@ namespace stripe.TerminalConfiguration
 
         /// <summary>Name of the WiFi network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#ssid TerminalConfiguration#ssid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#ssid TerminalConfiguration#ssid}
         /// </remarks>
         [JsiiProperty(name: "ssid", typeJson: "{\"primitive\":\"string\"}")]
         string Ssid
@@ -29,7 +29,7 @@ namespace stripe.TerminalConfiguration
 
         /// <summary>Username for connecting to the WiFi network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#username TerminalConfiguration#username}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#username TerminalConfiguration#username}
         /// </remarks>
         [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
         string Username
@@ -39,7 +39,7 @@ namespace stripe.TerminalConfiguration
 
         /// <summary>A File ID representing a PEM file containing the server certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#ca_certificate_file TerminalConfiguration#ca_certificate_file}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#ca_certificate_file TerminalConfiguration#ca_certificate_file}
         /// </remarks>
         [JsiiProperty(name: "caCertificateFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -60,7 +60,7 @@ namespace stripe.TerminalConfiguration
 
             /// <summary>Password for connecting to the WiFi network.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#password TerminalConfiguration#password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#password TerminalConfiguration#password}
             /// </remarks>
             [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}")]
             public string Password
@@ -70,7 +70,7 @@ namespace stripe.TerminalConfiguration
 
             /// <summary>Name of the WiFi network.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#ssid TerminalConfiguration#ssid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#ssid TerminalConfiguration#ssid}
             /// </remarks>
             [JsiiProperty(name: "ssid", typeJson: "{\"primitive\":\"string\"}")]
             public string Ssid
@@ -80,7 +80,7 @@ namespace stripe.TerminalConfiguration
 
             /// <summary>Username for connecting to the WiFi network.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#username TerminalConfiguration#username}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#username TerminalConfiguration#username}
             /// </remarks>
             [JsiiProperty(name: "username", typeJson: "{\"primitive\":\"string\"}")]
             public string Username
@@ -90,7 +90,7 @@ namespace stripe.TerminalConfiguration
 
             /// <summary>A File ID representing a PEM file containing the server certificate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#ca_certificate_file TerminalConfiguration#ca_certificate_file}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#ca_certificate_file TerminalConfiguration#ca_certificate_file}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "caCertificateFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

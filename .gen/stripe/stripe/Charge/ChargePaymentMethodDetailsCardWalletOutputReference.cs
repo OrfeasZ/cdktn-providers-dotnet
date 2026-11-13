@@ -39,6 +39,12 @@ namespace stripe.Charge
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "link", typeJson: "{\"fqn\":\"stripe.charge.ChargePaymentMethodDetailsCardWalletLinkOutputReference\"}")]
+        public virtual stripe.Charge.ChargePaymentMethodDetailsCardWalletLinkOutputReference Link
+        {
+            get => GetInstanceProperty<stripe.Charge.ChargePaymentMethodDetailsCardWalletLinkOutputReference>()!;
+        }
+
         [JsiiProperty(name: "masterpass", typeJson: "{\"fqn\":\"stripe.charge.ChargePaymentMethodDetailsCardWalletMasterpassOutputReference\"}")]
         public virtual stripe.Charge.ChargePaymentMethodDetailsCardWalletMasterpassOutputReference Masterpass
         {

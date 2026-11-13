@@ -7,7 +7,7 @@ namespace stripe.TerminalConfiguration
     [JsiiByValue(fqn: "stripe.terminalConfiguration.TerminalConfigurationTipping")]
     public class TerminalConfigurationTipping : stripe.TerminalConfiguration.ITerminalConfigurationTipping
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#aed TerminalConfiguration#aed}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#aed TerminalConfiguration#aed}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "aed", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingAed\"}", isOptional: true)]
         public stripe.TerminalConfiguration.ITerminalConfigurationTippingAed? Aed
@@ -16,7 +16,7 @@ namespace stripe.TerminalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#aud TerminalConfiguration#aud}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#aud TerminalConfiguration#aud}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "aud", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingAud\"}", isOptional: true)]
         public stripe.TerminalConfiguration.ITerminalConfigurationTippingAud? Aud
@@ -25,7 +25,7 @@ namespace stripe.TerminalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#cad TerminalConfiguration#cad}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#cad TerminalConfiguration#cad}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "cad", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingCad\"}", isOptional: true)]
         public stripe.TerminalConfiguration.ITerminalConfigurationTippingCad? Cad
@@ -34,7 +34,7 @@ namespace stripe.TerminalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#chf TerminalConfiguration#chf}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#chf TerminalConfiguration#chf}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "chf", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingChf\"}", isOptional: true)]
         public stripe.TerminalConfiguration.ITerminalConfigurationTippingChf? Chf
@@ -43,7 +43,7 @@ namespace stripe.TerminalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#czk TerminalConfiguration#czk}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#czk TerminalConfiguration#czk}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "czk", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingCzk\"}", isOptional: true)]
         public stripe.TerminalConfiguration.ITerminalConfigurationTippingCzk? Czk
@@ -52,7 +52,7 @@ namespace stripe.TerminalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#dkk TerminalConfiguration#dkk}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#dkk TerminalConfiguration#dkk}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "dkk", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingDkk\"}", isOptional: true)]
         public stripe.TerminalConfiguration.ITerminalConfigurationTippingDkk? Dkk
@@ -61,7 +61,7 @@ namespace stripe.TerminalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#eur TerminalConfiguration#eur}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#eur TerminalConfiguration#eur}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "eur", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingEur\"}", isOptional: true)]
         public stripe.TerminalConfiguration.ITerminalConfigurationTippingEur? Eur
@@ -70,7 +70,7 @@ namespace stripe.TerminalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#gbp TerminalConfiguration#gbp}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#gbp TerminalConfiguration#gbp}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "gbp", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingGbp\"}", isOptional: true)]
         public stripe.TerminalConfiguration.ITerminalConfigurationTippingGbp? Gbp
@@ -79,7 +79,7 @@ namespace stripe.TerminalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#gip TerminalConfiguration#gip}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#gip TerminalConfiguration#gip}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "gip", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingGip\"}", isOptional: true)]
         public stripe.TerminalConfiguration.ITerminalConfigurationTippingGip? Gip
@@ -88,7 +88,7 @@ namespace stripe.TerminalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#hkd TerminalConfiguration#hkd}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#hkd TerminalConfiguration#hkd}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "hkd", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingHkd\"}", isOptional: true)]
         public stripe.TerminalConfiguration.ITerminalConfigurationTippingHkd? Hkd
@@ -97,7 +97,7 @@ namespace stripe.TerminalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#huf TerminalConfiguration#huf}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#huf TerminalConfiguration#huf}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "huf", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingHuf\"}", isOptional: true)]
         public stripe.TerminalConfiguration.ITerminalConfigurationTippingHuf? Huf
@@ -106,7 +106,7 @@ namespace stripe.TerminalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#jpy TerminalConfiguration#jpy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#jpy TerminalConfiguration#jpy}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "jpy", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingJpy\"}", isOptional: true)]
         public stripe.TerminalConfiguration.ITerminalConfigurationTippingJpy? Jpy
@@ -115,7 +115,7 @@ namespace stripe.TerminalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#mxn TerminalConfiguration#mxn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#mxn TerminalConfiguration#mxn}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "mxn", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingMxn\"}", isOptional: true)]
         public stripe.TerminalConfiguration.ITerminalConfigurationTippingMxn? Mxn
@@ -124,7 +124,7 @@ namespace stripe.TerminalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#myr TerminalConfiguration#myr}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#myr TerminalConfiguration#myr}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "myr", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingMyr\"}", isOptional: true)]
         public stripe.TerminalConfiguration.ITerminalConfigurationTippingMyr? Myr
@@ -133,7 +133,7 @@ namespace stripe.TerminalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#nok TerminalConfiguration#nok}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#nok TerminalConfiguration#nok}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nok", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingNok\"}", isOptional: true)]
         public stripe.TerminalConfiguration.ITerminalConfigurationTippingNok? Nok
@@ -142,7 +142,7 @@ namespace stripe.TerminalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#nzd TerminalConfiguration#nzd}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#nzd TerminalConfiguration#nzd}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "nzd", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingNzd\"}", isOptional: true)]
         public stripe.TerminalConfiguration.ITerminalConfigurationTippingNzd? Nzd
@@ -151,7 +151,7 @@ namespace stripe.TerminalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#pln TerminalConfiguration#pln}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#pln TerminalConfiguration#pln}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "pln", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingPln\"}", isOptional: true)]
         public stripe.TerminalConfiguration.ITerminalConfigurationTippingPln? Pln
@@ -160,7 +160,7 @@ namespace stripe.TerminalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#ron TerminalConfiguration#ron}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#ron TerminalConfiguration#ron}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ron", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingRon\"}", isOptional: true)]
         public stripe.TerminalConfiguration.ITerminalConfigurationTippingRon? Ron
@@ -169,7 +169,7 @@ namespace stripe.TerminalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#sek TerminalConfiguration#sek}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#sek TerminalConfiguration#sek}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sek", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingSek\"}", isOptional: true)]
         public stripe.TerminalConfiguration.ITerminalConfigurationTippingSek? Sek
@@ -178,7 +178,7 @@ namespace stripe.TerminalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#sgd TerminalConfiguration#sgd}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#sgd TerminalConfiguration#sgd}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "sgd", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingSgd\"}", isOptional: true)]
         public stripe.TerminalConfiguration.ITerminalConfigurationTippingSgd? Sgd
@@ -187,7 +187,7 @@ namespace stripe.TerminalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#usd TerminalConfiguration#usd}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#usd TerminalConfiguration#usd}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "usd", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingUsd\"}", isOptional: true)]
         public stripe.TerminalConfiguration.ITerminalConfigurationTippingUsd? Usd

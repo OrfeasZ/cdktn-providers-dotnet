@@ -9,7 +9,7 @@ namespace stripe.TerminalConfiguration
     {
         /// <summary>Security type of the WiFi network. The hash with the corresponding name contains the credentials for this security type.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#type TerminalConfiguration#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#type TerminalConfiguration#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -17,7 +17,7 @@ namespace stripe.TerminalConfiguration
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#enterprise_eap_peap TerminalConfiguration#enterprise_eap_peap}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#enterprise_eap_peap TerminalConfiguration#enterprise_eap_peap}.</summary>
         [JsiiProperty(name: "enterpriseEapPeap", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationWifiEnterpriseEapPeap\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.TerminalConfiguration.ITerminalConfigurationWifiEnterpriseEapPeap? EnterpriseEapPeap
@@ -28,7 +28,7 @@ namespace stripe.TerminalConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#enterprise_eap_tls TerminalConfiguration#enterprise_eap_tls}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#enterprise_eap_tls TerminalConfiguration#enterprise_eap_tls}.</summary>
         [JsiiProperty(name: "enterpriseEapTls", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationWifiEnterpriseEapTls\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.TerminalConfiguration.ITerminalConfigurationWifiEnterpriseEapTls? EnterpriseEapTls
@@ -39,7 +39,7 @@ namespace stripe.TerminalConfiguration
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#personal_psk TerminalConfiguration#personal_psk}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#personal_psk TerminalConfiguration#personal_psk}.</summary>
         [JsiiProperty(name: "personalPsk", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationWifiPersonalPsk\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.TerminalConfiguration.ITerminalConfigurationWifiPersonalPsk? PersonalPsk
@@ -59,7 +59,7 @@ namespace stripe.TerminalConfiguration
 
             /// <summary>Security type of the WiFi network. The hash with the corresponding name contains the credentials for this security type.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#type TerminalConfiguration#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#type TerminalConfiguration#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -67,7 +67,7 @@ namespace stripe.TerminalConfiguration
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#enterprise_eap_peap TerminalConfiguration#enterprise_eap_peap}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#enterprise_eap_peap TerminalConfiguration#enterprise_eap_peap}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "enterpriseEapPeap", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationWifiEnterpriseEapPeap\"}", isOptional: true)]
             public stripe.TerminalConfiguration.ITerminalConfigurationWifiEnterpriseEapPeap? EnterpriseEapPeap
@@ -75,7 +75,7 @@ namespace stripe.TerminalConfiguration
                 get => GetInstanceProperty<stripe.TerminalConfiguration.ITerminalConfigurationWifiEnterpriseEapPeap?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#enterprise_eap_tls TerminalConfiguration#enterprise_eap_tls}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#enterprise_eap_tls TerminalConfiguration#enterprise_eap_tls}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "enterpriseEapTls", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationWifiEnterpriseEapTls\"}", isOptional: true)]
             public stripe.TerminalConfiguration.ITerminalConfigurationWifiEnterpriseEapTls? EnterpriseEapTls
@@ -83,7 +83,7 @@ namespace stripe.TerminalConfiguration
                 get => GetInstanceProperty<stripe.TerminalConfiguration.ITerminalConfigurationWifiEnterpriseEapTls?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#personal_psk TerminalConfiguration#personal_psk}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#personal_psk TerminalConfiguration#personal_psk}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "personalPsk", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationWifiPersonalPsk\"}", isOptional: true)]
             public stripe.TerminalConfiguration.ITerminalConfigurationWifiPersonalPsk? PersonalPsk

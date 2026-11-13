@@ -9,7 +9,7 @@ namespace stripe.TreasuryFinancialAccount
     {
         /// <summary>Restricts all inbound money movement.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/treasury_financial_account#inbound_flows TreasuryFinancialAccount#inbound_flows}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/treasury_financial_account#inbound_flows TreasuryFinancialAccount#inbound_flows}
         /// </remarks>
         [JsiiProperty(name: "inboundFlows", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace stripe.TreasuryFinancialAccount
 
         /// <summary>Restricts all outbound money movement.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/treasury_financial_account#outbound_flows TreasuryFinancialAccount#outbound_flows}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/treasury_financial_account#outbound_flows TreasuryFinancialAccount#outbound_flows}
         /// </remarks>
         [JsiiProperty(name: "outboundFlows", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +44,7 @@ namespace stripe.TreasuryFinancialAccount
 
             /// <summary>Restricts all inbound money movement.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/treasury_financial_account#inbound_flows TreasuryFinancialAccount#inbound_flows}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/treasury_financial_account#inbound_flows TreasuryFinancialAccount#inbound_flows}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "inboundFlows", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace stripe.TreasuryFinancialAccount
 
             /// <summary>Restricts all outbound money movement.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/treasury_financial_account#outbound_flows TreasuryFinancialAccount#outbound_flows}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/treasury_financial_account#outbound_flows TreasuryFinancialAccount#outbound_flows}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "outboundFlows", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

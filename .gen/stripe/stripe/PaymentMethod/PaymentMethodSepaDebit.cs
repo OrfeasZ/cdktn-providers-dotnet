@@ -11,7 +11,7 @@ namespace stripe.PaymentMethod
     {
         /// <summary>IBAN of the bank account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#iban PaymentMethod#iban}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#iban PaymentMethod#iban}
         /// </remarks>
         [JsiiProperty(name: "iban", typeJson: "{\"primitive\":\"string\"}")]
         public string Iban

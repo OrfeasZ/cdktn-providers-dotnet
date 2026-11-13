@@ -9,7 +9,7 @@ namespace stripe.Invoice
     {
         /// <summary>Determines if the amount includes the IOF tax.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#amount_includes_iof Invoice#amount_includes_iof}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#amount_includes_iof Invoice#amount_includes_iof}
         /// </remarks>
         [JsiiProperty(name: "amountIncludesIof", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,9 +21,11 @@ namespace stripe.Invoice
             }
         }
 
-        /// <summary>The number of seconds (between 10 and 1209600) after which Pix payment will expire. Defaults to 86400 seconds.</summary>
+        /// <summary>The number of seconds after PaymentIntent confirmation when the Pix expires (between 60 and 1209600, inclusive).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#expires_after_seconds Invoice#expires_after_seconds}
+        /// If unspecified, defaults to 14400 seconds (4 hours).
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#expires_after_seconds Invoice#expires_after_seconds}
         /// </remarks>
         [JsiiProperty(name: "expiresAfterSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -44,7 +46,7 @@ namespace stripe.Invoice
 
             /// <summary>Determines if the amount includes the IOF tax.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#amount_includes_iof Invoice#amount_includes_iof}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#amount_includes_iof Invoice#amount_includes_iof}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "amountIncludesIof", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -53,9 +55,11 @@ namespace stripe.Invoice
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>The number of seconds (between 10 and 1209600) after which Pix payment will expire. Defaults to 86400 seconds.</summary>
+            /// <summary>The number of seconds after PaymentIntent confirmation when the Pix expires (between 60 and 1209600, inclusive).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#expires_after_seconds Invoice#expires_after_seconds}
+            /// If unspecified, defaults to 14400 seconds (4 hours).
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#expires_after_seconds Invoice#expires_after_seconds}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "expiresAfterSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

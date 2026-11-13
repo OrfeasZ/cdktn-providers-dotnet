@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace stripe.SubscriptionItem
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item stripe_subscription_item}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item stripe_subscription_item}.</summary>
     [JsiiClass(nativeType: typeof(stripe.SubscriptionItem.SubscriptionItem), fullyQualifiedName: "stripe.subscriptionItem.SubscriptionItem", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"stripe.subscriptionItem.SubscriptionItemConfig\"}}]")]
     public class SubscriptionItem : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item stripe_subscription_item} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item stripe_subscription_item} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public SubscriptionItem(Constructs.Construct scope, string id, stripe.SubscriptionItem.ISubscriptionItemConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace stripe.SubscriptionItem
         /// <param name="importToId">The construct id used in the generated config for the SubscriptionItem to import.</param>
         /// <param name="importFromId">The id of the existing SubscriptionItem that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the SubscriptionItem to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the SubscriptionItem to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription_item#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing SubscriptionItem that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the SubscriptionItem to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the SubscriptionItem to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription_item#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing SubscriptionItem that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the SubscriptionItem to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(stripe.SubscriptionItem.SubscriptionItem), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -50,6 +50,12 @@ namespace stripe.SubscriptionItem
         public virtual void PutBillingThresholds(stripe.SubscriptionItem.ISubscriptionItemBillingThresholds @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.SubscriptionItem.ISubscriptionItemBillingThresholds)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putCurrentTrial", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.subscriptionItem.SubscriptionItemCurrentTrial\"}}]")]
+        public virtual void PutCurrentTrial(stripe.SubscriptionItem.ISubscriptionItemCurrentTrial @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.SubscriptionItem.ISubscriptionItemCurrentTrial)}, new object[]{@value});
         }
 
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.SubscriptionItem.ISubscriptionItemDiscounts" />)[]</param>
@@ -84,6 +90,12 @@ namespace stripe.SubscriptionItem
 
         [JsiiMethod(name: "resetBillingThresholds")]
         public virtual void ResetBillingThresholds()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCurrentTrial")]
+        public virtual void ResetCurrentTrial()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -197,6 +209,12 @@ namespace stripe.SubscriptionItem
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "currentTrial", typeJson: "{\"fqn\":\"stripe.subscriptionItem.SubscriptionItemCurrentTrialOutputReference\"}")]
+        public virtual stripe.SubscriptionItem.SubscriptionItemCurrentTrialOutputReference CurrentTrial
+        {
+            get => GetInstanceProperty<stripe.SubscriptionItem.SubscriptionItemCurrentTrialOutputReference>()!;
+        }
+
         [JsiiProperty(name: "discounts", typeJson: "{\"fqn\":\"stripe.subscriptionItem.SubscriptionItemDiscountsList\"}")]
         public virtual stripe.SubscriptionItem.SubscriptionItemDiscountsList Discounts
         {
@@ -227,6 +245,16 @@ namespace stripe.SubscriptionItem
         [JsiiOptional]
         [JsiiProperty(name: "billingThresholdsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.subscriptionItem.SubscriptionItemBillingThresholds\"}]}}", isOptional: true)]
         public virtual object? BillingThresholdsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.SubscriptionItem.ISubscriptionItemCurrentTrial" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "currentTrialInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.subscriptionItem.SubscriptionItemCurrentTrial\"}]}}", isOptional: true)]
+        public virtual object? CurrentTrialInput
         {
             get => GetInstanceProperty<object?>();
         }

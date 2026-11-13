@@ -11,7 +11,7 @@ namespace stripe.BillingCreditGrant
         /// <remarks>
         /// We currently only support <c>metered</c> prices. This refers to prices that have a <a href="https://docs.stripe.com/api/billing/meter">Billing Meter</a> attached to them. Cannot be used in combination with <c>price_type</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_credit_grant#prices BillingCreditGrant#prices}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_credit_grant#prices BillingCreditGrant#prices}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingCreditGrant.IBillingCreditGrantApplicabilityConfigScopePrices" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "prices", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.billingCreditGrant.BillingCreditGrantApplicabilityConfigScopePrices\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -28,7 +28,7 @@ namespace stripe.BillingCreditGrant
         /// <remarks>
         /// We currently only support the <c>metered</c> price type. This refers to prices that have a <a href="https://docs.stripe.com/api/billing/meter">Billing Meter</a> attached to them. Cannot be used in combination with <c>prices</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_credit_grant#price_type BillingCreditGrant#price_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_credit_grant#price_type BillingCreditGrant#price_type}
         /// </remarks>
         [JsiiProperty(name: "priceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -51,7 +51,7 @@ namespace stripe.BillingCreditGrant
             /// <remarks>
             /// We currently only support <c>metered</c> prices. This refers to prices that have a <a href="https://docs.stripe.com/api/billing/meter">Billing Meter</a> attached to them. Cannot be used in combination with <c>price_type</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_credit_grant#prices BillingCreditGrant#prices}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_credit_grant#prices BillingCreditGrant#prices}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingCreditGrant.IBillingCreditGrantApplicabilityConfigScopePrices" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -65,7 +65,7 @@ namespace stripe.BillingCreditGrant
             /// <remarks>
             /// We currently only support the <c>metered</c> price type. This refers to prices that have a <a href="https://docs.stripe.com/api/billing/meter">Billing Meter</a> attached to them. Cannot be used in combination with <c>prices</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_credit_grant#price_type BillingCreditGrant#price_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_credit_grant#price_type BillingCreditGrant#price_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "priceType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

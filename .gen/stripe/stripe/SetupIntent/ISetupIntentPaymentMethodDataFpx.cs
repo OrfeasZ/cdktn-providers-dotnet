@@ -9,7 +9,7 @@ namespace stripe.SetupIntent
     {
         /// <summary>The customer's bank.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#bank SetupIntent#bank}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#bank SetupIntent#bank}
         /// </remarks>
         [JsiiProperty(name: "bank", typeJson: "{\"primitive\":\"string\"}")]
         string Bank
@@ -19,7 +19,7 @@ namespace stripe.SetupIntent
 
         /// <summary>Account holder type for FPX transaction.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#account_holder_type SetupIntent#account_holder_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#account_holder_type SetupIntent#account_holder_type}
         /// </remarks>
         [JsiiProperty(name: "accountHolderType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace stripe.SetupIntent
 
             /// <summary>The customer's bank.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#bank SetupIntent#bank}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#bank SetupIntent#bank}
             /// </remarks>
             [JsiiProperty(name: "bank", typeJson: "{\"primitive\":\"string\"}")]
             public string Bank
@@ -50,7 +50,7 @@ namespace stripe.SetupIntent
 
             /// <summary>Account holder type for FPX transaction.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#account_holder_type SetupIntent#account_holder_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#account_holder_type SetupIntent#account_holder_type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "accountHolderType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

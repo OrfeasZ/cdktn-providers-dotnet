@@ -13,7 +13,7 @@ namespace stripe.TreasuryFinancialAccount
 
         /// <summary>Whether the FinancialAccount should have the Feature.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/treasury_financial_account#requested TreasuryFinancialAccount#requested}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/treasury_financial_account#requested TreasuryFinancialAccount#requested}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "requested", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -45,7 +45,7 @@ namespace stripe.TreasuryFinancialAccount
 
         /// <summary>Whether the Feature is operational.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/treasury_financial_account#status TreasuryFinancialAccount#status}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/treasury_financial_account#status TreasuryFinancialAccount#status}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -59,7 +59,7 @@ namespace stripe.TreasuryFinancialAccount
 
         /// <summary>Additional details; includes at least one entry when the status is not `active`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/treasury_financial_account#status_details TreasuryFinancialAccount#status_details}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/treasury_financial_account#status_details TreasuryFinancialAccount#status_details}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.TreasuryFinancialAccount.ITreasuryFinancialAccountFeaturesFinancialAddressesAbaStatusDetails" />)[]</para>
         /// </remarks>
         [JsiiOptional]

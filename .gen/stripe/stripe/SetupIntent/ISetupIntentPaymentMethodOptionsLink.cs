@@ -9,7 +9,7 @@ namespace stripe.SetupIntent
     {
         /// <summary>[Deprecated] This is a legacy parameter that no longer has any function.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#persistent_token SetupIntent#persistent_token}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#persistent_token SetupIntent#persistent_token}
         /// </remarks>
         [JsiiProperty(name: "persistentToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace stripe.SetupIntent
 
             /// <summary>[Deprecated] This is a legacy parameter that no longer has any function.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#persistent_token SetupIntent#persistent_token}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#persistent_token SetupIntent#persistent_token}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "persistentToken", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

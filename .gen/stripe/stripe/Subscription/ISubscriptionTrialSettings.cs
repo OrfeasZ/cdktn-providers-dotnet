@@ -9,7 +9,7 @@ namespace stripe.Subscription
     {
         /// <summary>Defines how a subscription behaves when a trial ends.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#end_behavior Subscription#end_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#end_behavior Subscription#end_behavior}
         /// </remarks>
         [JsiiProperty(name: "endBehavior", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionTrialSettingsEndBehavior\"}")]
         stripe.Subscription.ISubscriptionTrialSettingsEndBehavior EndBehavior
@@ -26,7 +26,7 @@ namespace stripe.Subscription
 
             /// <summary>Defines how a subscription behaves when a trial ends.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#end_behavior Subscription#end_behavior}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#end_behavior Subscription#end_behavior}
             /// </remarks>
             [JsiiProperty(name: "endBehavior", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionTrialSettingsEndBehavior\"}")]
             public stripe.Subscription.ISubscriptionTrialSettingsEndBehavior EndBehavior

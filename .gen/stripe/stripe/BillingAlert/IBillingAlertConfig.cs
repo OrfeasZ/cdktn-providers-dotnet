@@ -9,7 +9,7 @@ namespace stripe.BillingAlert
     {
         /// <summary>Defines the type of the alert.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_alert#alert_type BillingAlert#alert_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_alert#alert_type BillingAlert#alert_type}
         /// </remarks>
         [JsiiProperty(name: "alertType", typeJson: "{\"primitive\":\"string\"}")]
         string AlertType
@@ -19,7 +19,7 @@ namespace stripe.BillingAlert
 
         /// <summary>Title of the alert.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_alert#title BillingAlert#title}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_alert#title BillingAlert#title}
         /// </remarks>
         [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}")]
         string Title
@@ -29,7 +29,7 @@ namespace stripe.BillingAlert
 
         /// <summary>Encapsulates configuration of the alert to monitor usage on a specific [Billing Meter](https://docs.stripe.com/api/billing/meter).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_alert#usage_threshold BillingAlert#usage_threshold}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_alert#usage_threshold BillingAlert#usage_threshold}
         /// </remarks>
         [JsiiProperty(name: "usageThreshold", typeJson: "{\"fqn\":\"stripe.billingAlert.BillingAlertUsageThreshold\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,7 +50,7 @@ namespace stripe.BillingAlert
 
             /// <summary>Defines the type of the alert.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_alert#alert_type BillingAlert#alert_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_alert#alert_type BillingAlert#alert_type}
             /// </remarks>
             [JsiiProperty(name: "alertType", typeJson: "{\"primitive\":\"string\"}")]
             public string AlertType
@@ -60,7 +60,7 @@ namespace stripe.BillingAlert
 
             /// <summary>Title of the alert.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_alert#title BillingAlert#title}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_alert#title BillingAlert#title}
             /// </remarks>
             [JsiiProperty(name: "title", typeJson: "{\"primitive\":\"string\"}")]
             public string Title
@@ -70,7 +70,7 @@ namespace stripe.BillingAlert
 
             /// <summary>Encapsulates configuration of the alert to monitor usage on a specific [Billing Meter](https://docs.stripe.com/api/billing/meter).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_alert#usage_threshold BillingAlert#usage_threshold}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_alert#usage_threshold BillingAlert#usage_threshold}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "usageThreshold", typeJson: "{\"fqn\":\"stripe.billingAlert.BillingAlertUsageThreshold\"}", isOptional: true)]

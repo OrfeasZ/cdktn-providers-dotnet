@@ -7,7 +7,7 @@ namespace stripe.PaymentIntent
     [JsiiInterface(nativeType: typeof(IPaymentIntentHooksInputs), fullyQualifiedName: "stripe.paymentIntent.PaymentIntentHooksInputs")]
     public interface IPaymentIntentHooksInputs
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#tax PaymentIntent#tax}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#tax PaymentIntent#tax}.</summary>
         [JsiiProperty(name: "tax", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentHooksInputsTax\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentIntent.IPaymentIntentHooksInputsTax? Tax
@@ -25,7 +25,7 @@ namespace stripe.PaymentIntent
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#tax PaymentIntent#tax}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#tax PaymentIntent#tax}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tax", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentHooksInputsTax\"}", isOptional: true)]
             public stripe.PaymentIntent.IPaymentIntentHooksInputsTax? Tax

@@ -9,7 +9,7 @@ namespace stripe.IssuingCardholder
     {
         /// <summary>The day of birth, between 1 and 31.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#day IssuingCardholder#day}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#day IssuingCardholder#day}
         /// </remarks>
         [JsiiProperty(name: "day", typeJson: "{\"primitive\":\"number\"}")]
         double Day
@@ -19,7 +19,7 @@ namespace stripe.IssuingCardholder
 
         /// <summary>The month of birth, between 1 and 12.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#month IssuingCardholder#month}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#month IssuingCardholder#month}
         /// </remarks>
         [JsiiProperty(name: "month", typeJson: "{\"primitive\":\"number\"}")]
         double Month
@@ -29,7 +29,7 @@ namespace stripe.IssuingCardholder
 
         /// <summary>The four-digit year of birth.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#year IssuingCardholder#year}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#year IssuingCardholder#year}
         /// </remarks>
         [JsiiProperty(name: "year", typeJson: "{\"primitive\":\"number\"}")]
         double Year
@@ -46,7 +46,7 @@ namespace stripe.IssuingCardholder
 
             /// <summary>The day of birth, between 1 and 31.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#day IssuingCardholder#day}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#day IssuingCardholder#day}
             /// </remarks>
             [JsiiProperty(name: "day", typeJson: "{\"primitive\":\"number\"}")]
             public double Day
@@ -56,7 +56,7 @@ namespace stripe.IssuingCardholder
 
             /// <summary>The month of birth, between 1 and 12.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#month IssuingCardholder#month}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#month IssuingCardholder#month}
             /// </remarks>
             [JsiiProperty(name: "month", typeJson: "{\"primitive\":\"number\"}")]
             public double Month
@@ -66,7 +66,7 @@ namespace stripe.IssuingCardholder
 
             /// <summary>The four-digit year of birth.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#year IssuingCardholder#year}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#year IssuingCardholder#year}
             /// </remarks>
             [JsiiProperty(name: "year", typeJson: "{\"primitive\":\"number\"}")]
             public double Year

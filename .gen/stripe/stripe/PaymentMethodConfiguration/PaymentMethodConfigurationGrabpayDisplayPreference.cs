@@ -9,7 +9,7 @@ namespace stripe.PaymentMethodConfiguration
     {
         /// <summary>The account's display preference.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method_configuration#preference PaymentMethodConfiguration#preference}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method_configuration#preference PaymentMethodConfiguration#preference}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "preference", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

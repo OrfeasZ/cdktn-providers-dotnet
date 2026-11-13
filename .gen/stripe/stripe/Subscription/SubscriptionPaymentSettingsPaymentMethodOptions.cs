@@ -9,7 +9,7 @@ namespace stripe.Subscription
     {
         /// <summary>This sub-hash contains details about the Canadian pre-authorized debit payment method options to pass to invoices created by the subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#acss_debit Subscription#acss_debit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#acss_debit Subscription#acss_debit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "acssDebit", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsAcssDebit\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace stripe.Subscription
 
         /// <summary>This sub-hash contains details about the Bancontact payment method options to pass to invoices created by the subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#bancontact Subscription#bancontact}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#bancontact Subscription#bancontact}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bancontact", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsBancontact\"}", isOptional: true)]
@@ -31,9 +31,33 @@ namespace stripe.Subscription
             set;
         }
 
+        /// <summary>This sub-hash contains details about the Billie payment method options to pass to invoices created by the subscription.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#billie Subscription#billie}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "billie", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsBillie\"}", isOptional: true)]
+        public stripe.Subscription.ISubscriptionPaymentSettingsPaymentMethodOptionsBillie? Billie
+        {
+            get;
+            set;
+        }
+
+        /// <summary>This sub-hash contains details about the Blik payment method options to pass to invoices created by the subscription.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#blik Subscription#blik}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "blik", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsBlik\"}", isOptional: true)]
+        public stripe.Subscription.ISubscriptionPaymentSettingsPaymentMethodOptionsBlik? Blik
+        {
+            get;
+            set;
+        }
+
         /// <summary>This sub-hash contains details about the Card payment method options to pass to invoices created by the subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#card Subscription#card}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#card Subscription#card}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "card", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsCard\"}", isOptional: true)]
@@ -45,7 +69,7 @@ namespace stripe.Subscription
 
         /// <summary>This sub-hash contains details about the Bank transfer payment method options to pass to invoices created by the subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#customer_balance Subscription#customer_balance}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#customer_balance Subscription#customer_balance}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customerBalance", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsCustomerBalance\"}", isOptional: true)]
@@ -57,7 +81,7 @@ namespace stripe.Subscription
 
         /// <summary>This sub-hash contains details about the PayTo payment method options to pass to invoices created by the subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#payto Subscription#payto}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#payto Subscription#payto}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "payto", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsPayto\"}", isOptional: true)]
@@ -69,7 +93,7 @@ namespace stripe.Subscription
 
         /// <summary>This sub-hash contains details about the Pix payment method options to pass to invoices created by the subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#pix Subscription#pix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#pix Subscription#pix}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pix", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsPix\"}", isOptional: true)]
@@ -81,7 +105,7 @@ namespace stripe.Subscription
 
         /// <summary>This sub-hash contains details about the UPI payment method options to pass to invoices created by the subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#upi Subscription#upi}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#upi Subscription#upi}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "upi", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsUpi\"}", isOptional: true)]
@@ -93,7 +117,7 @@ namespace stripe.Subscription
 
         /// <summary>This sub-hash contains details about the ACH direct debit payment method options to pass to invoices created by the subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#us_bank_account Subscription#us_bank_account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#us_bank_account Subscription#us_bank_account}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "usBankAccount", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsUsBankAccount\"}", isOptional: true)]

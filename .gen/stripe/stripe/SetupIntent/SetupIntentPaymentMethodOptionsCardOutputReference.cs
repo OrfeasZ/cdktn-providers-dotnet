@@ -69,6 +69,12 @@ namespace stripe.SetupIntent
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSetupCredentialUsage")]
+        public virtual void ResetSetupCredentialUsage()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetThreeDSecure")]
         public virtual void ResetThreeDSecure()
         {
@@ -117,6 +123,13 @@ namespace stripe.SetupIntent
         [JsiiOptional]
         [JsiiProperty(name: "requestThreeDSecureInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? RequestThreeDSecureInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "setupCredentialUsageInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SetupCredentialUsageInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -170,6 +183,13 @@ namespace stripe.SetupIntent
 
         [JsiiProperty(name: "requestThreeDSecure", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string RequestThreeDSecure
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "setupCredentialUsage", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SetupCredentialUsage
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

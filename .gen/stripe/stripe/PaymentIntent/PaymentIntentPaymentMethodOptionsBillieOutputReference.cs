@@ -33,10 +33,34 @@ namespace stripe.PaymentIntent
         {
         }
 
+        [JsiiMethod(name: "putCompanyDetails", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsBillieCompanyDetails\"}}]")]
+        public virtual void PutCompanyDetails(stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsBillieCompanyDetails @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsBillieCompanyDetails)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetCaptureMethod")]
         public virtual void ResetCaptureMethod()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCompanyDetails")]
+        public virtual void ResetCompanyDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetReference")]
+        public virtual void ResetReference()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "companyDetails", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsBillieCompanyDetailsOutputReference\"}")]
+        public virtual stripe.PaymentIntent.PaymentIntentPaymentMethodOptionsBillieCompanyDetailsOutputReference CompanyDetails
+        {
+            get => GetInstanceProperty<stripe.PaymentIntent.PaymentIntentPaymentMethodOptionsBillieCompanyDetailsOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -46,8 +70,32 @@ namespace stripe.PaymentIntent
             get => GetInstanceProperty<string?>();
         }
 
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsBillieCompanyDetails" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "companyDetailsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsBillieCompanyDetails\"}]}}", isOptional: true)]
+        public virtual object? CompanyDetailsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "referenceInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? ReferenceInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiProperty(name: "captureMethod", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CaptureMethod
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "reference", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Reference
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

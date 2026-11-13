@@ -7,7 +7,7 @@ namespace stripe.PaymentMethodConfiguration
     [JsiiInterface(nativeType: typeof(IPaymentMethodConfigurationUsBankAccount), fullyQualifiedName: "stripe.paymentMethodConfiguration.PaymentMethodConfigurationUsBankAccount")]
     public interface IPaymentMethodConfigurationUsBankAccount
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method_configuration#display_preference PaymentMethodConfiguration#display_preference}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method_configuration#display_preference PaymentMethodConfiguration#display_preference}.</summary>
         [JsiiProperty(name: "displayPreference", typeJson: "{\"fqn\":\"stripe.paymentMethodConfiguration.PaymentMethodConfigurationUsBankAccountDisplayPreference\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethodConfiguration.IPaymentMethodConfigurationUsBankAccountDisplayPreference? DisplayPreference
@@ -25,7 +25,7 @@ namespace stripe.PaymentMethodConfiguration
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method_configuration#display_preference PaymentMethodConfiguration#display_preference}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method_configuration#display_preference PaymentMethodConfiguration#display_preference}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayPreference", typeJson: "{\"fqn\":\"stripe.paymentMethodConfiguration.PaymentMethodConfigurationUsBankAccountDisplayPreference\"}", isOptional: true)]
             public stripe.PaymentMethodConfiguration.IPaymentMethodConfigurationUsBankAccountDisplayPreference? DisplayPreference

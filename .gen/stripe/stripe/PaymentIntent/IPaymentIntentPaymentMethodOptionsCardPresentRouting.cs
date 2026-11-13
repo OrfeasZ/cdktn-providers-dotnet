@@ -9,7 +9,7 @@ namespace stripe.PaymentIntent
     {
         /// <summary>Requested routing priority.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#requested_priority PaymentIntent#requested_priority}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#requested_priority PaymentIntent#requested_priority}
         /// </remarks>
         [JsiiProperty(name: "requestedPriority", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -30,7 +30,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Requested routing priority.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#requested_priority PaymentIntent#requested_priority}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#requested_priority PaymentIntent#requested_priority}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "requestedPriority", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -39,6 +39,12 @@ namespace stripe.Charge
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "fundingSourceGroup", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string FundingSourceGroup
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "internalValue", typeJson: "{\"fqn\":\"stripe.charge.ChargePaymentMethodDetailsLink\"}", isOptional: true)]
         public virtual stripe.Charge.IChargePaymentMethodDetailsLink? InternalValue

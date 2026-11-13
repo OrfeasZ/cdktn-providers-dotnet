@@ -9,7 +9,7 @@ namespace stripe.BillingAlert
     [JsiiByValue(fqn: "stripe.billingAlert.BillingAlertUsageThresholdFilters")]
     public class BillingAlertUsageThresholdFilters : stripe.BillingAlert.IBillingAlertUsageThresholdFilters
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_alert#type BillingAlert#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_alert#type BillingAlert#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
         {
@@ -19,7 +19,7 @@ namespace stripe.BillingAlert
 
         /// <summary>Limit the scope of the alert to this customer ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_alert#customer BillingAlert#customer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_alert#customer BillingAlert#customer}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

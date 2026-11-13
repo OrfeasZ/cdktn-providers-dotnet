@@ -9,7 +9,7 @@ namespace stripe.PaymentLink
     {
         /// <summary>The specified behavior after the purchase is complete.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#type PaymentLink#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#type PaymentLink#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -17,7 +17,7 @@ namespace stripe.PaymentLink
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#hosted_confirmation PaymentLink#hosted_confirmation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#hosted_confirmation PaymentLink#hosted_confirmation}.</summary>
         [JsiiProperty(name: "hostedConfirmation", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkAfterCompletionHostedConfirmation\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentLink.IPaymentLinkAfterCompletionHostedConfirmation? HostedConfirmation
@@ -28,7 +28,7 @@ namespace stripe.PaymentLink
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#redirect PaymentLink#redirect}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#redirect PaymentLink#redirect}.</summary>
         [JsiiProperty(name: "redirect", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkAfterCompletionRedirect\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentLink.IPaymentLinkAfterCompletionRedirect? Redirect
@@ -48,7 +48,7 @@ namespace stripe.PaymentLink
 
             /// <summary>The specified behavior after the purchase is complete.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#type PaymentLink#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#type PaymentLink#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -56,7 +56,7 @@ namespace stripe.PaymentLink
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#hosted_confirmation PaymentLink#hosted_confirmation}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#hosted_confirmation PaymentLink#hosted_confirmation}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "hostedConfirmation", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkAfterCompletionHostedConfirmation\"}", isOptional: true)]
             public stripe.PaymentLink.IPaymentLinkAfterCompletionHostedConfirmation? HostedConfirmation
@@ -64,7 +64,7 @@ namespace stripe.PaymentLink
                 get => GetInstanceProperty<stripe.PaymentLink.IPaymentLinkAfterCompletionHostedConfirmation?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_link#redirect PaymentLink#redirect}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_link#redirect PaymentLink#redirect}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "redirect", typeJson: "{\"fqn\":\"stripe.paymentLink.PaymentLinkAfterCompletionRedirect\"}", isOptional: true)]
             public stripe.PaymentLink.IPaymentLinkAfterCompletionRedirect? Redirect

@@ -7,7 +7,7 @@ namespace stripe.Subscription
     [JsiiInterface(nativeType: typeof(ISubscriptionPaymentSettingsPaymentMethodOptionsPayto), fullyQualifiedName: "stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsPayto")]
     public interface ISubscriptionPaymentSettingsPaymentMethodOptionsPayto
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#mandate_options Subscription#mandate_options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#mandate_options Subscription#mandate_options}.</summary>
         [JsiiProperty(name: "mandateOptions", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsPaytoMandateOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.Subscription.ISubscriptionPaymentSettingsPaymentMethodOptionsPaytoMandateOptions? MandateOptions
@@ -25,7 +25,7 @@ namespace stripe.Subscription
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#mandate_options Subscription#mandate_options}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#mandate_options Subscription#mandate_options}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mandateOptions", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsPaytoMandateOptions\"}", isOptional: true)]
             public stripe.Subscription.ISubscriptionPaymentSettingsPaymentMethodOptionsPaytoMandateOptions? MandateOptions

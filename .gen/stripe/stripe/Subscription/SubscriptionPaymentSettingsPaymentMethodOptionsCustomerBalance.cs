@@ -7,7 +7,7 @@ namespace stripe.Subscription
     [JsiiByValue(fqn: "stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsCustomerBalance")]
     public class SubscriptionPaymentSettingsPaymentMethodOptionsCustomerBalance : stripe.Subscription.ISubscriptionPaymentSettingsPaymentMethodOptionsCustomerBalance
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#bank_transfer Subscription#bank_transfer}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#bank_transfer Subscription#bank_transfer}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "bankTransfer", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsCustomerBalanceBankTransfer\"}", isOptional: true)]
         public stripe.Subscription.ISubscriptionPaymentSettingsPaymentMethodOptionsCustomerBalanceBankTransfer? BankTransfer
@@ -20,7 +20,7 @@ namespace stripe.Subscription
         /// <remarks>
         /// Permitted values include: <c>bank_transfer</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#funding_type Subscription#funding_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#funding_type Subscription#funding_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "fundingType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

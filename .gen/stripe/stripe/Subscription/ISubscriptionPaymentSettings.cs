@@ -9,7 +9,7 @@ namespace stripe.Subscription
     {
         /// <summary>Payment-method-specific configuration to provide to invoices created by the subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#payment_method_options Subscription#payment_method_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#payment_method_options Subscription#payment_method_options}
         /// </remarks>
         [JsiiProperty(name: "paymentMethodOptions", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -25,7 +25,7 @@ namespace stripe.Subscription
         /// <remarks>
         /// If not set, Stripe attempts to automatically determine the types to use by looking at the invoice’s default payment method, the subscription’s default payment method, the customer’s default payment method, and your <a href="https://dashboard.stripe.com/settings/billing/invoice">invoice template settings</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#payment_method_types Subscription#payment_method_types}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#payment_method_types Subscription#payment_method_types}
         /// </remarks>
         [JsiiProperty(name: "paymentMethodTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -39,7 +39,7 @@ namespace stripe.Subscription
 
         /// <summary>Configure whether Stripe updates `subscription.default_payment_method` when payment succeeds. Defaults to `off`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#save_default_payment_method Subscription#save_default_payment_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#save_default_payment_method Subscription#save_default_payment_method}
         /// </remarks>
         [JsiiProperty(name: "saveDefaultPaymentMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -60,7 +60,7 @@ namespace stripe.Subscription
 
             /// <summary>Payment-method-specific configuration to provide to invoices created by the subscription.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#payment_method_options Subscription#payment_method_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#payment_method_options Subscription#payment_method_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "paymentMethodOptions", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptions\"}", isOptional: true)]
@@ -73,7 +73,7 @@ namespace stripe.Subscription
             /// <remarks>
             /// If not set, Stripe attempts to automatically determine the types to use by looking at the invoice’s default payment method, the subscription’s default payment method, the customer’s default payment method, and your <a href="https://dashboard.stripe.com/settings/billing/invoice">invoice template settings</a>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#payment_method_types Subscription#payment_method_types}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#payment_method_types Subscription#payment_method_types}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "paymentMethodTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -84,7 +84,7 @@ namespace stripe.Subscription
 
             /// <summary>Configure whether Stripe updates `subscription.default_payment_method` when payment succeeds. Defaults to `off`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#save_default_payment_method Subscription#save_default_payment_method}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#save_default_payment_method Subscription#save_default_payment_method}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "saveDefaultPaymentMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -33,6 +33,12 @@ namespace stripe.BillingPortalConfiguration
         {
         }
 
+        [JsiiMethod(name: "resetFeedbackOptions")]
+        public virtual void ResetFeedbackOptions()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -41,6 +47,13 @@ namespace stripe.BillingPortalConfiguration
         public virtual object? EnabledInput
         {
             get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "feedbackOptionsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
+        public virtual string[]? FeedbackOptionsInput
+        {
+            get => GetInstanceProperty<string[]?>();
         }
 
         [JsiiOptional]
@@ -78,6 +91,13 @@ namespace stripe.BillingPortalConfiguration
                 }
                 SetInstanceProperty(value);
             }
+        }
+
+        [JsiiProperty(name: "feedbackOptions", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] FeedbackOptions
+        {
+            get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "options", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]

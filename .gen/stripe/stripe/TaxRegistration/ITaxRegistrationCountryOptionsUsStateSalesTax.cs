@@ -9,7 +9,7 @@ namespace stripe.TaxRegistration
     {
         /// <summary>Elections for the state sales tax registration.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_registration#elections TaxRegistration#elections}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/tax_registration#elections TaxRegistration#elections}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.TaxRegistration.ITaxRegistrationCountryOptionsUsStateSalesTaxElections" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "elections", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsUsStateSalesTaxElections\"},\"kind\":\"array\"}}]}}")]
@@ -27,7 +27,7 @@ namespace stripe.TaxRegistration
 
             /// <summary>Elections for the state sales tax registration.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_registration#elections TaxRegistration#elections}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/tax_registration#elections TaxRegistration#elections}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.TaxRegistration.ITaxRegistrationCountryOptionsUsStateSalesTaxElections" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "elections", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.taxRegistration.TaxRegistrationCountryOptionsUsStateSalesTaxElections\"},\"kind\":\"array\"}}]}}")]

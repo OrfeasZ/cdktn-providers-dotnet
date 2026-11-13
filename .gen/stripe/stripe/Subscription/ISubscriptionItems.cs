@@ -11,7 +11,7 @@ namespace stripe.Subscription
         /// <remarks>
         /// Pass an empty string to remove previously-defined thresholds.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#billing_thresholds Subscription#billing_thresholds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#billing_thresholds Subscription#billing_thresholds}
         /// </remarks>
         [JsiiProperty(name: "billingThresholds", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionItemsBillingThresholds\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,9 +23,23 @@ namespace stripe.Subscription
             }
         }
 
+        /// <summary>The trial offer to apply to this subscription item.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#current_trial Subscription#current_trial}
+        /// </remarks>
+        [JsiiProperty(name: "currentTrial", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionItemsCurrentTrial\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        stripe.Subscription.ISubscriptionItemsCurrentTrial? CurrentTrial
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>The coupons to redeem into discounts for the subscription item.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#discounts Subscription#discounts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#discounts Subscription#discounts}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Subscription.ISubscriptionItemsDiscounts" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "discounts", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.subscription.SubscriptionItemsDiscounts\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -40,7 +54,7 @@ namespace stripe.Subscription
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format. Individual keys can be unset by posting an empty value to them. All keys can be unset by posting an empty value to `metadata`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#metadata Subscription#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#metadata Subscription#metadata}
         /// </remarks>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +68,7 @@ namespace stripe.Subscription
 
         /// <summary>The ID of the price object.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#price Subscription#price}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#price Subscription#price}
         /// </remarks>
         [JsiiProperty(name: "price", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,7 +82,7 @@ namespace stripe.Subscription
 
         /// <summary>Data used to generate a new [Price](https://docs.stripe.com/api/prices) object inline.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#price_data Subscription#price_data}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#price_data Subscription#price_data}
         /// </remarks>
         [JsiiProperty(name: "priceData", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionItemsPriceData\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -82,7 +96,7 @@ namespace stripe.Subscription
 
         /// <summary>Quantity for this item.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#quantity Subscription#quantity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#quantity Subscription#quantity}
         /// </remarks>
         [JsiiProperty(name: "quantity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -96,7 +110,7 @@ namespace stripe.Subscription
 
         /// <summary>A list of [Tax Rate](https://docs.stripe.com/api/tax_rates) ids. These Tax Rates will override the [`default_tax_rates`](https://docs.stripe.com/api/subscriptions/create#create_subscription-default_tax_rates) on the Subscription. When updating, pass an empty string to remove previously-defined tax rates.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#tax_rates Subscription#tax_rates}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#tax_rates Subscription#tax_rates}
         /// </remarks>
         [JsiiProperty(name: "taxRates", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -119,7 +133,7 @@ namespace stripe.Subscription
             /// <remarks>
             /// Pass an empty string to remove previously-defined thresholds.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#billing_thresholds Subscription#billing_thresholds}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#billing_thresholds Subscription#billing_thresholds}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "billingThresholds", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionItemsBillingThresholds\"}", isOptional: true)]
@@ -128,9 +142,20 @@ namespace stripe.Subscription
                 get => GetInstanceProperty<stripe.Subscription.ISubscriptionItemsBillingThresholds?>();
             }
 
+            /// <summary>The trial offer to apply to this subscription item.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#current_trial Subscription#current_trial}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "currentTrial", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionItemsCurrentTrial\"}", isOptional: true)]
+            public stripe.Subscription.ISubscriptionItemsCurrentTrial? CurrentTrial
+            {
+                get => GetInstanceProperty<stripe.Subscription.ISubscriptionItemsCurrentTrial?>();
+            }
+
             /// <summary>The coupons to redeem into discounts for the subscription item.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#discounts Subscription#discounts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#discounts Subscription#discounts}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Subscription.ISubscriptionItemsDiscounts" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -142,7 +167,7 @@ namespace stripe.Subscription
 
             /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format. Individual keys can be unset by posting an empty value to them. All keys can be unset by posting an empty value to `metadata`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#metadata Subscription#metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#metadata Subscription#metadata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -153,7 +178,7 @@ namespace stripe.Subscription
 
             /// <summary>The ID of the price object.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#price Subscription#price}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#price Subscription#price}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "price", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -164,7 +189,7 @@ namespace stripe.Subscription
 
             /// <summary>Data used to generate a new [Price](https://docs.stripe.com/api/prices) object inline.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#price_data Subscription#price_data}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#price_data Subscription#price_data}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "priceData", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionItemsPriceData\"}", isOptional: true)]
@@ -175,7 +200,7 @@ namespace stripe.Subscription
 
             /// <summary>Quantity for this item.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#quantity Subscription#quantity}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#quantity Subscription#quantity}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "quantity", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -186,7 +211,7 @@ namespace stripe.Subscription
 
             /// <summary>A list of [Tax Rate](https://docs.stripe.com/api/tax_rates) ids. These Tax Rates will override the [`default_tax_rates`](https://docs.stripe.com/api/subscriptions/create#create_subscription-default_tax_rates) on the Subscription. When updating, pass an empty string to remove previously-defined tax rates.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#tax_rates Subscription#tax_rates}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#tax_rates Subscription#tax_rates}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "taxRates", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

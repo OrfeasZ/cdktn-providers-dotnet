@@ -7,9 +7,9 @@ namespace stripe.Person
     [JsiiByValue(fqn: "stripe.person.PersonVerificationAdditionalDocument")]
     public class PersonVerificationAdditionalDocument : stripe.Person.IPersonVerificationAdditionalDocument
     {
-        /// <summary>The back of an ID returned by a [file upload](https://api.stripe.com#create_file) with a `purpose` value of `identity_document`.</summary>
+        /// <summary>The back of an ID returned by a [file upload](https://docs.stripe.com/api#create_file) with a `purpose` value of `identity_document`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#back Person#back}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#back Person#back}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "back", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -19,9 +19,9 @@ namespace stripe.Person
             set;
         }
 
-        /// <summary>The front of an ID returned by a [file upload](https://api.stripe.com#create_file) with a `purpose` value of `identity_document`.</summary>
+        /// <summary>The front of an ID returned by a [file upload](https://docs.stripe.com/api#create_file) with a `purpose` value of `identity_document`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#front Person#front}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#front Person#front}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "front", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

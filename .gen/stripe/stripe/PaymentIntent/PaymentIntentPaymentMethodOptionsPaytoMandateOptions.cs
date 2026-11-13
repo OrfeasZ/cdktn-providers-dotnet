@@ -9,7 +9,7 @@ namespace stripe.PaymentIntent
     {
         /// <summary>Amount that will be collected. It is required when `amount_type` is `fixed`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#amount PaymentIntent#amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#amount PaymentIntent#amount}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -23,7 +23,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// The amount charged must be exact or up to the value of <c>amount</c> param for <c>fixed</c> or <c>maximum</c> type respectively. Defaults to <c>maximum</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#amount_type PaymentIntent#amount_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#amount_type PaymentIntent#amount_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "amountType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -35,7 +35,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Date, in YYYY-MM-DD format, after which payments will not be collected. Defaults to no end date.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#end_date PaymentIntent#end_date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#end_date PaymentIntent#end_date}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "endDate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>The periodicity at which payments will be collected. Defaults to `adhoc`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#payment_schedule PaymentIntent#payment_schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#payment_schedule PaymentIntent#payment_schedule}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "paymentSchedule", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// Defaults to 1 except for when <c>payment_schedule</c> is <c>adhoc</c>. In that case, it defaults to no limit.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#payments_per_period PaymentIntent#payments_per_period}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#payments_per_period PaymentIntent#payments_per_period}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "paymentsPerPeriod", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -73,7 +73,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>The purpose for which payments are made. Has a default value based on your merchant category code.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#purpose PaymentIntent#purpose}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#purpose PaymentIntent#purpose}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "purpose", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

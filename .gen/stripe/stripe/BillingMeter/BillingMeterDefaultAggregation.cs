@@ -11,7 +11,7 @@ namespace stripe.BillingMeter
     {
         /// <summary>Specifies how events are aggregated.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_meter#formula BillingMeter#formula}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_meter#formula BillingMeter#formula}
         /// </remarks>
         [JsiiProperty(name: "formula", typeJson: "{\"primitive\":\"string\"}")]
         public string Formula

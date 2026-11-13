@@ -9,7 +9,7 @@ namespace stripe.PaymentIntent
     {
         /// <summary>Amount to be charged for future payments, specified in the presentment currency.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#amount PaymentIntent#amount}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#amount PaymentIntent#amount}
         /// </remarks>
         [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}")]
         double Amount
@@ -21,7 +21,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// If <c>fixed</c>, the <c>amount</c> param refers to the exact amount to be charged in future payments. If <c>maximum</c>, the amount charged can be up to the value passed for the <c>amount</c> param.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#amount_type PaymentIntent#amount_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#amount_type PaymentIntent#amount_type}
         /// </remarks>
         [JsiiProperty(name: "amountType", typeJson: "{\"primitive\":\"string\"}")]
         string AmountType
@@ -31,7 +31,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Specifies payment frequency. One of `day`, `week`, `month`, `year`, or `sporadic`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#interval PaymentIntent#interval}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#interval PaymentIntent#interval}
         /// </remarks>
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
         string Interval
@@ -41,7 +41,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Unique identifier for the mandate or subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#reference PaymentIntent#reference}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#reference PaymentIntent#reference}
         /// </remarks>
         [JsiiProperty(name: "reference", typeJson: "{\"primitive\":\"string\"}")]
         string Reference
@@ -51,7 +51,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Start date of the mandate or subscription. Start date should not be lesser than yesterday.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#start_date PaymentIntent#start_date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#start_date PaymentIntent#start_date}
         /// </remarks>
         [JsiiProperty(name: "startDate", typeJson: "{\"primitive\":\"number\"}")]
         double StartDate
@@ -61,7 +61,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>A description of the mandate or subscription that is meant to be displayed to the customer.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#description PaymentIntent#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#description PaymentIntent#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -77,7 +77,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// If not provided, the mandate will be active until canceled. If provided, end date should be after start date.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#end_date PaymentIntent#end_date}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#end_date PaymentIntent#end_date}
         /// </remarks>
         [JsiiProperty(name: "endDate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -93,7 +93,7 @@ namespace stripe.PaymentIntent
         /// <remarks>
         /// For example, <c>interval=month</c> and <c>interval_count=3</c> indicates one payment every three months. Maximum of one year interval allowed (1 year, 12 months, or 52 weeks). This parameter is optional when <c>interval=sporadic</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#interval_count PaymentIntent#interval_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#interval_count PaymentIntent#interval_count}
         /// </remarks>
         [JsiiProperty(name: "intervalCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -107,7 +107,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Specifies the type of mandates supported. Possible values are `india`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#supported_types PaymentIntent#supported_types}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#supported_types PaymentIntent#supported_types}
         /// </remarks>
         [JsiiProperty(name: "supportedTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -128,7 +128,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Amount to be charged for future payments, specified in the presentment currency.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#amount PaymentIntent#amount}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#amount PaymentIntent#amount}
             /// </remarks>
             [JsiiProperty(name: "amount", typeJson: "{\"primitive\":\"number\"}")]
             public double Amount
@@ -140,7 +140,7 @@ namespace stripe.PaymentIntent
             /// <remarks>
             /// If <c>fixed</c>, the <c>amount</c> param refers to the exact amount to be charged in future payments. If <c>maximum</c>, the amount charged can be up to the value passed for the <c>amount</c> param.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#amount_type PaymentIntent#amount_type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#amount_type PaymentIntent#amount_type}
             /// </remarks>
             [JsiiProperty(name: "amountType", typeJson: "{\"primitive\":\"string\"}")]
             public string AmountType
@@ -150,7 +150,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Specifies payment frequency. One of `day`, `week`, `month`, `year`, or `sporadic`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#interval PaymentIntent#interval}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#interval PaymentIntent#interval}
             /// </remarks>
             [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
             public string Interval
@@ -160,7 +160,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Unique identifier for the mandate or subscription.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#reference PaymentIntent#reference}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#reference PaymentIntent#reference}
             /// </remarks>
             [JsiiProperty(name: "reference", typeJson: "{\"primitive\":\"string\"}")]
             public string Reference
@@ -170,7 +170,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Start date of the mandate or subscription. Start date should not be lesser than yesterday.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#start_date PaymentIntent#start_date}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#start_date PaymentIntent#start_date}
             /// </remarks>
             [JsiiProperty(name: "startDate", typeJson: "{\"primitive\":\"number\"}")]
             public double StartDate
@@ -180,7 +180,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>A description of the mandate or subscription that is meant to be displayed to the customer.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#description PaymentIntent#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#description PaymentIntent#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -193,7 +193,7 @@ namespace stripe.PaymentIntent
             /// <remarks>
             /// If not provided, the mandate will be active until canceled. If provided, end date should be after start date.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#end_date PaymentIntent#end_date}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#end_date PaymentIntent#end_date}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "endDate", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -206,7 +206,7 @@ namespace stripe.PaymentIntent
             /// <remarks>
             /// For example, <c>interval=month</c> and <c>interval_count=3</c> indicates one payment every three months. Maximum of one year interval allowed (1 year, 12 months, or 52 weeks). This parameter is optional when <c>interval=sporadic</c>.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#interval_count PaymentIntent#interval_count}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#interval_count PaymentIntent#interval_count}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "intervalCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -217,7 +217,7 @@ namespace stripe.PaymentIntent
 
             /// <summary>Specifies the type of mandates supported. Possible values are `india`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#supported_types PaymentIntent#supported_types}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#supported_types PaymentIntent#supported_types}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "supportedTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace stripe.PaymentMethod
     {
         /// <summary>The customer's date of birth, if provided.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#dob PaymentMethod#dob}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#dob PaymentMethod#dob}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "dob", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodKlarnaDob\"}", isOptional: true)]

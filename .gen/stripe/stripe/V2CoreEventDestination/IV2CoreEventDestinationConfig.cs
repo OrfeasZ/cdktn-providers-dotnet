@@ -7,9 +7,9 @@ namespace stripe.V2CoreEventDestination
     [JsiiInterface(nativeType: typeof(IV2CoreEventDestinationConfig), fullyQualifiedName: "stripe.v2CoreEventDestination.V2CoreEventDestinationConfig")]
     public interface IV2CoreEventDestinationConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>The list of events to enable for this endpoint.</summary>
+        /// <summary>The list of event types enabled for delivery to this destination.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#enabled_events V2CoreEventDestination#enabled_events}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#enabled_events V2CoreEventDestination#enabled_events}
         /// </remarks>
         [JsiiProperty(name: "enabledEvents", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         string[] EnabledEvents
@@ -17,9 +17,9 @@ namespace stripe.V2CoreEventDestination
             get;
         }
 
-        /// <summary>Payload type of events being subscribed to.</summary>
+        /// <summary>Whether to deliver as snapshot or thin events.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#event_payload V2CoreEventDestination#event_payload}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#event_payload V2CoreEventDestination#event_payload}
         /// </remarks>
         [JsiiProperty(name: "eventPayload", typeJson: "{\"primitive\":\"string\"}")]
         string EventPayload
@@ -27,9 +27,9 @@ namespace stripe.V2CoreEventDestination
             get;
         }
 
-        /// <summary>Event destination name.</summary>
+        /// <summary>A user-defined label for identifying the destination in Stripe.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#name V2CoreEventDestination#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#name V2CoreEventDestination#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -37,9 +37,9 @@ namespace stripe.V2CoreEventDestination
             get;
         }
 
-        /// <summary>Event destination type.</summary>
+        /// <summary>The delivery transport. Chosen when the destination is created and cannot be changed by update.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#type V2CoreEventDestination#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#type V2CoreEventDestination#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         string Type
@@ -49,7 +49,7 @@ namespace stripe.V2CoreEventDestination
 
         /// <summary>amazon_eventbridge block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#amazon_eventbridge V2CoreEventDestination#amazon_eventbridge}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#amazon_eventbridge V2CoreEventDestination#amazon_eventbridge}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.V2CoreEventDestination.IV2CoreEventDestinationAmazonEventbridge" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "amazonEventbridge", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.v2CoreEventDestination.V2CoreEventDestinationAmazonEventbridge\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -62,9 +62,9 @@ namespace stripe.V2CoreEventDestination
             }
         }
 
-        /// <summary>Azure Event Grid configuration.</summary>
+        /// <summary>Configuration for delivering events through an Azure Event Grid partner topic.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#azure_event_grid V2CoreEventDestination#azure_event_grid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#azure_event_grid V2CoreEventDestination#azure_event_grid}
         /// </remarks>
         [JsiiProperty(name: "azureEventGrid", typeJson: "{\"fqn\":\"stripe.v2CoreEventDestination.V2CoreEventDestinationAzureEventGrid\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -76,9 +76,9 @@ namespace stripe.V2CoreEventDestination
             }
         }
 
-        /// <summary>An optional description of what the event destination is used for.</summary>
+        /// <summary>An optional user-defined description of the destination's purpose.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#description V2CoreEventDestination#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#description V2CoreEventDestination#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -97,7 +97,7 @@ namespace stripe.V2CoreEventDestination
         /// <c>@organization_members</c>: Receive events from accounts directly linked to the organization.
         /// <c>@organization_members/@accounts</c>: Receive events from all accounts connected to any platform accounts in the organization.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#events_from V2CoreEventDestination#events_from}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#events_from V2CoreEventDestination#events_from}
         /// </remarks>
         [JsiiProperty(name: "eventsFrom", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -109,9 +109,11 @@ namespace stripe.V2CoreEventDestination
             }
         }
 
-        /// <summary>Additional fields to include in the response.</summary>
+        /// <summary>Include normally redacted webhook fields in the create response.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#include V2CoreEventDestination#include}
+        /// Public API clients must include <c>webhook_endpoint.signing_secret</c> to receive the signing secret.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#include V2CoreEventDestination#include}
         /// </remarks>
         [JsiiProperty(name: "include", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -123,9 +125,9 @@ namespace stripe.V2CoreEventDestination
             }
         }
 
-        /// <summary>Metadata.</summary>
+        /// <summary>User-defined key/value data for the destination; it has no effect on event matching or delivery.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#metadata V2CoreEventDestination#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#metadata V2CoreEventDestination#metadata}
         /// </remarks>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -137,9 +139,11 @@ namespace stripe.V2CoreEventDestination
             }
         }
 
-        /// <summary>If using the snapshot event payload, the API version events are rendered as.</summary>
+        /// <summary>For snapshot events only, the Stripe API version used to render event objects.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#snapshot_api_version V2CoreEventDestination#snapshot_api_version}
+        /// You can't change this value after you create the event destination. Thin events are not pinned to an API version.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#snapshot_api_version V2CoreEventDestination#snapshot_api_version}
         /// </remarks>
         [JsiiProperty(name: "snapshotApiVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -153,7 +157,7 @@ namespace stripe.V2CoreEventDestination
 
         /// <summary>webhook_endpoint block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#webhook_endpoint V2CoreEventDestination#webhook_endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#webhook_endpoint V2CoreEventDestination#webhook_endpoint}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.V2CoreEventDestination.IV2CoreEventDestinationWebhookEndpoint" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "webhookEndpoint", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.v2CoreEventDestination.V2CoreEventDestinationWebhookEndpoint\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -173,9 +177,9 @@ namespace stripe.V2CoreEventDestination
             {
             }
 
-            /// <summary>The list of events to enable for this endpoint.</summary>
+            /// <summary>The list of event types enabled for delivery to this destination.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#enabled_events V2CoreEventDestination#enabled_events}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#enabled_events V2CoreEventDestination#enabled_events}
             /// </remarks>
             [JsiiProperty(name: "enabledEvents", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
             public string[] EnabledEvents
@@ -183,9 +187,9 @@ namespace stripe.V2CoreEventDestination
                 get => GetInstanceProperty<string[]>()!;
             }
 
-            /// <summary>Payload type of events being subscribed to.</summary>
+            /// <summary>Whether to deliver as snapshot or thin events.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#event_payload V2CoreEventDestination#event_payload}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#event_payload V2CoreEventDestination#event_payload}
             /// </remarks>
             [JsiiProperty(name: "eventPayload", typeJson: "{\"primitive\":\"string\"}")]
             public string EventPayload
@@ -193,9 +197,9 @@ namespace stripe.V2CoreEventDestination
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Event destination name.</summary>
+            /// <summary>A user-defined label for identifying the destination in Stripe.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#name V2CoreEventDestination#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#name V2CoreEventDestination#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -203,9 +207,9 @@ namespace stripe.V2CoreEventDestination
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Event destination type.</summary>
+            /// <summary>The delivery transport. Chosen when the destination is created and cannot be changed by update.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#type V2CoreEventDestination#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#type V2CoreEventDestination#type}
             /// </remarks>
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
             public string Type
@@ -215,7 +219,7 @@ namespace stripe.V2CoreEventDestination
 
             /// <summary>amazon_eventbridge block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#amazon_eventbridge V2CoreEventDestination#amazon_eventbridge}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#amazon_eventbridge V2CoreEventDestination#amazon_eventbridge}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.V2CoreEventDestination.IV2CoreEventDestinationAmazonEventbridge" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -225,9 +229,9 @@ namespace stripe.V2CoreEventDestination
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Azure Event Grid configuration.</summary>
+            /// <summary>Configuration for delivering events through an Azure Event Grid partner topic.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#azure_event_grid V2CoreEventDestination#azure_event_grid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#azure_event_grid V2CoreEventDestination#azure_event_grid}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "azureEventGrid", typeJson: "{\"fqn\":\"stripe.v2CoreEventDestination.V2CoreEventDestinationAzureEventGrid\"}", isOptional: true)]
@@ -236,9 +240,9 @@ namespace stripe.V2CoreEventDestination
                 get => GetInstanceProperty<stripe.V2CoreEventDestination.IV2CoreEventDestinationAzureEventGrid?>();
             }
 
-            /// <summary>An optional description of what the event destination is used for.</summary>
+            /// <summary>An optional user-defined description of the destination's purpose.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#description V2CoreEventDestination#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#description V2CoreEventDestination#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -254,7 +258,7 @@ namespace stripe.V2CoreEventDestination
             /// <c>@organization_members</c>: Receive events from accounts directly linked to the organization.
             /// <c>@organization_members/@accounts</c>: Receive events from all accounts connected to any platform accounts in the organization.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#events_from V2CoreEventDestination#events_from}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#events_from V2CoreEventDestination#events_from}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "eventsFrom", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -263,9 +267,11 @@ namespace stripe.V2CoreEventDestination
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Additional fields to include in the response.</summary>
+            /// <summary>Include normally redacted webhook fields in the create response.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#include V2CoreEventDestination#include}
+            /// Public API clients must include <c>webhook_endpoint.signing_secret</c> to receive the signing secret.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#include V2CoreEventDestination#include}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "include", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -274,9 +280,9 @@ namespace stripe.V2CoreEventDestination
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Metadata.</summary>
+            /// <summary>User-defined key/value data for the destination; it has no effect on event matching or delivery.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#metadata V2CoreEventDestination#metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#metadata V2CoreEventDestination#metadata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -285,9 +291,11 @@ namespace stripe.V2CoreEventDestination
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>If using the snapshot event payload, the API version events are rendered as.</summary>
+            /// <summary>For snapshot events only, the Stripe API version used to render event objects.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#snapshot_api_version V2CoreEventDestination#snapshot_api_version}
+            /// You can't change this value after you create the event destination. Thin events are not pinned to an API version.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#snapshot_api_version V2CoreEventDestination#snapshot_api_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "snapshotApiVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -298,7 +306,7 @@ namespace stripe.V2CoreEventDestination
 
             /// <summary>webhook_endpoint block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#webhook_endpoint V2CoreEventDestination#webhook_endpoint}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#webhook_endpoint V2CoreEventDestination#webhook_endpoint}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.V2CoreEventDestination.IV2CoreEventDestinationWebhookEndpoint" />)[]</para>
             /// </remarks>
             [JsiiOptional]

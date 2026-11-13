@@ -11,7 +11,7 @@ namespace stripe.Subscription
     {
         /// <summary>Specifies billing duration. Either `day`, `week`, `month` or `year`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#interval Subscription#interval}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#interval Subscription#interval}
         /// </remarks>
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
         public string Interval
@@ -22,7 +22,7 @@ namespace stripe.Subscription
 
         /// <summary>The multiplier applied to the interval.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#interval_count Subscription#interval_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#interval_count Subscription#interval_count}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "intervalCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

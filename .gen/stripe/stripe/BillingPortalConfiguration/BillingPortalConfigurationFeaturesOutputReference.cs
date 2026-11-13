@@ -57,6 +57,12 @@ namespace stripe.BillingPortalConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.BillingPortalConfiguration.IBillingPortalConfigurationFeaturesSubscriptionCancel)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putSubscriptionPause", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.billingPortalConfiguration.BillingPortalConfigurationFeaturesSubscriptionPause\"}}]")]
+        public virtual void PutSubscriptionPause(stripe.BillingPortalConfiguration.IBillingPortalConfigurationFeaturesSubscriptionPause @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.BillingPortalConfiguration.IBillingPortalConfigurationFeaturesSubscriptionPause)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putSubscriptionUpdate", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.billingPortalConfiguration.BillingPortalConfigurationFeaturesSubscriptionUpdate\"}}]")]
         public virtual void PutSubscriptionUpdate(stripe.BillingPortalConfiguration.IBillingPortalConfigurationFeaturesSubscriptionUpdate @value)
         {
@@ -83,6 +89,12 @@ namespace stripe.BillingPortalConfiguration
 
         [JsiiMethod(name: "resetSubscriptionCancel")]
         public virtual void ResetSubscriptionCancel()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSubscriptionPause")]
+        public virtual void ResetSubscriptionPause()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -115,6 +127,12 @@ namespace stripe.BillingPortalConfiguration
         public virtual stripe.BillingPortalConfiguration.BillingPortalConfigurationFeaturesSubscriptionCancelOutputReference SubscriptionCancel
         {
             get => GetInstanceProperty<stripe.BillingPortalConfiguration.BillingPortalConfigurationFeaturesSubscriptionCancelOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "subscriptionPause", typeJson: "{\"fqn\":\"stripe.billingPortalConfiguration.BillingPortalConfigurationFeaturesSubscriptionPauseOutputReference\"}")]
+        public virtual stripe.BillingPortalConfiguration.BillingPortalConfigurationFeaturesSubscriptionPauseOutputReference SubscriptionPause
+        {
+            get => GetInstanceProperty<stripe.BillingPortalConfiguration.BillingPortalConfigurationFeaturesSubscriptionPauseOutputReference>()!;
         }
 
         [JsiiProperty(name: "subscriptionUpdate", typeJson: "{\"fqn\":\"stripe.billingPortalConfiguration.BillingPortalConfigurationFeaturesSubscriptionUpdateOutputReference\"}")]
@@ -159,6 +177,16 @@ namespace stripe.BillingPortalConfiguration
         [JsiiOptional]
         [JsiiProperty(name: "subscriptionCancelInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.billingPortalConfiguration.BillingPortalConfigurationFeaturesSubscriptionCancel\"}]}}", isOptional: true)]
         public virtual object? SubscriptionCancelInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.BillingPortalConfiguration.IBillingPortalConfigurationFeaturesSubscriptionPause" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "subscriptionPauseInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.billingPortalConfiguration.BillingPortalConfigurationFeaturesSubscriptionPause\"}]}}", isOptional: true)]
+        public virtual object? SubscriptionPauseInput
         {
             get => GetInstanceProperty<object?>();
         }

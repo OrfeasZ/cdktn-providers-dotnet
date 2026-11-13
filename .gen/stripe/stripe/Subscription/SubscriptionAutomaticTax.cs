@@ -13,7 +13,7 @@ namespace stripe.Subscription
 
         /// <summary>Whether Stripe automatically computes tax on this subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#enabled Subscription#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#enabled Subscription#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -47,7 +47,7 @@ namespace stripe.Subscription
         /// <remarks>
         /// If set, the business address and tax registrations required to perform the tax calculation are loaded from this account. The tax transaction is returned in the report of the connected account.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/subscription#liability Subscription#liability}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/subscription#liability Subscription#liability}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "liability", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionAutomaticTaxLiability\"}", isOptional: true)]

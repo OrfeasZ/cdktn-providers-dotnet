@@ -7,7 +7,7 @@ namespace stripe.PaymentMethod
     [JsiiInterface(nativeType: typeof(IPaymentMethodConfig), fullyQualifiedName: "stripe.paymentMethod.PaymentMethodConfig")]
     public interface IPaymentMethodConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#acss_debit PaymentMethod#acss_debit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#acss_debit PaymentMethod#acss_debit}.</summary>
         [JsiiProperty(name: "acssDebit", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodAcssDebit\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodAcssDebit? AcssDebit
@@ -22,7 +22,7 @@ namespace stripe.PaymentMethod
         /// <remarks>
         /// Stripe products such as Checkout and Elements use this field to determine whether a payment method can be shown as a saved payment method in a checkout flow. The field defaults to “unspecified”.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#allow_redisplay PaymentMethod#allow_redisplay}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#allow_redisplay PaymentMethod#allow_redisplay}
         /// </remarks>
         [JsiiProperty(name: "allowRedisplay", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -34,7 +34,7 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#au_becs_debit PaymentMethod#au_becs_debit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#au_becs_debit PaymentMethod#au_becs_debit}.</summary>
         [JsiiProperty(name: "auBecsDebit", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodAuBecsDebit\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodAuBecsDebit? AuBecsDebit
@@ -45,7 +45,7 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#bacs_debit PaymentMethod#bacs_debit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#bacs_debit PaymentMethod#bacs_debit}.</summary>
         [JsiiProperty(name: "bacsDebit", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodBacsDebit\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodBacsDebit? BacsDebit
@@ -56,7 +56,7 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#billing_details PaymentMethod#billing_details}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#billing_details PaymentMethod#billing_details}.</summary>
         [JsiiProperty(name: "billingDetails", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodBillingDetails\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodBillingDetails? BillingDetails
@@ -67,7 +67,29 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#boleto PaymentMethod#boleto}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#bizum PaymentMethod#bizum}.</summary>
+        [JsiiProperty(name: "bizum", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodBizum\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        stripe.PaymentMethod.IPaymentMethodBizum? Bizum
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#blik PaymentMethod#blik}.</summary>
+        [JsiiProperty(name: "blik", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodBlik\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        stripe.PaymentMethod.IPaymentMethodBlik? Blik
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#boleto PaymentMethod#boleto}.</summary>
         [JsiiProperty(name: "boleto", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodBoleto\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodBoleto? Boleto
@@ -78,7 +100,7 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#card PaymentMethod#card}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#card PaymentMethod#card}.</summary>
         [JsiiProperty(name: "card", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodCard\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodCard? Card
@@ -89,7 +111,7 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#cashapp PaymentMethod#cashapp}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#cashapp PaymentMethod#cashapp}.</summary>
         [JsiiProperty(name: "cashapp", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodCashapp\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodCashapp? Cashapp
@@ -104,7 +126,7 @@ namespace stripe.PaymentMethod
         /// <remarks>
         /// This will not be set when the PaymentMethod has not been saved to a Customer.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#customer PaymentMethod#customer}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#customer PaymentMethod#customer}
         /// </remarks>
         [JsiiProperty(name: "customer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -116,7 +138,7 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#eps PaymentMethod#eps}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#eps PaymentMethod#eps}.</summary>
         [JsiiProperty(name: "eps", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodEps\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodEps? Eps
@@ -127,7 +149,7 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#fpx PaymentMethod#fpx}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#fpx PaymentMethod#fpx}.</summary>
         [JsiiProperty(name: "fpx", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodFpx\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodFpx? Fpx
@@ -138,7 +160,7 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#ideal PaymentMethod#ideal}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#ideal PaymentMethod#ideal}.</summary>
         [JsiiProperty(name: "ideal", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodIdeal\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodIdeal? Ideal
@@ -149,7 +171,7 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#interac_present PaymentMethod#interac_present}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#interac_present PaymentMethod#interac_present}.</summary>
         [JsiiProperty(name: "interacPresent", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodInteracPresent\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodInteracPresent? InteracPresent
@@ -160,7 +182,7 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#klarna PaymentMethod#klarna}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#klarna PaymentMethod#klarna}.</summary>
         [JsiiProperty(name: "klarna", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodKlarna\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodKlarna? Klarna
@@ -171,7 +193,7 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#kr_card PaymentMethod#kr_card}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#kr_card PaymentMethod#kr_card}.</summary>
         [JsiiProperty(name: "krCard", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodKrCard\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodKrCard? KrCard
@@ -182,7 +204,7 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#link PaymentMethod#link}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#link PaymentMethod#link}.</summary>
         [JsiiProperty(name: "link", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodLink\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodLink? Link
@@ -195,7 +217,7 @@ namespace stripe.PaymentMethod
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#metadata PaymentMethod#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#metadata PaymentMethod#metadata}
         /// </remarks>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -207,7 +229,7 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#naver_pay PaymentMethod#naver_pay}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#naver_pay PaymentMethod#naver_pay}.</summary>
         [JsiiProperty(name: "naverPay", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodNaverPay\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodNaverPay? NaverPay
@@ -218,7 +240,7 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#nz_bank_account PaymentMethod#nz_bank_account}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#nz_bank_account PaymentMethod#nz_bank_account}.</summary>
         [JsiiProperty(name: "nzBankAccount", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodNzBankAccount\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodNzBankAccount? NzBankAccount
@@ -229,7 +251,7 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#p24 PaymentMethod#p24}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#p24 PaymentMethod#p24}.</summary>
         [JsiiProperty(name: "p24", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodP24\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodP24? P24
@@ -242,7 +264,7 @@ namespace stripe.PaymentMethod
 
         /// <summary>The PaymentMethod to share.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#payment_method PaymentMethod#payment_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#payment_method PaymentMethod#payment_method}
         /// </remarks>
         [JsiiProperty(name: "paymentMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -254,7 +276,7 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#paypal PaymentMethod#paypal}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#paypal PaymentMethod#paypal}.</summary>
         [JsiiProperty(name: "paypal", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodPaypal\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodPaypal? Paypal
@@ -265,7 +287,7 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#payto PaymentMethod#payto}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#payto PaymentMethod#payto}.</summary>
         [JsiiProperty(name: "payto", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodPayto\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodPayto? Payto
@@ -276,9 +298,20 @@ namespace stripe.PaymentMethod
             }
         }
 
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#pix PaymentMethod#pix}.</summary>
+        [JsiiProperty(name: "pix", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodPix\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        stripe.PaymentMethod.IPaymentMethodPix? Pix
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>Options to configure Radar. See [Radar Session](https://docs.stripe.com/radar/radar-session) for more information.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#radar_options PaymentMethod#radar_options}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#radar_options PaymentMethod#radar_options}
         /// </remarks>
         [JsiiProperty(name: "radarOptions", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodRadarOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -290,7 +323,7 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#sepa_debit PaymentMethod#sepa_debit}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#sepa_debit PaymentMethod#sepa_debit}.</summary>
         [JsiiProperty(name: "sepaDebit", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodSepaDebit\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodSepaDebit? SepaDebit
@@ -301,7 +334,7 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#sofort PaymentMethod#sofort}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#sofort PaymentMethod#sofort}.</summary>
         [JsiiProperty(name: "sofort", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodSofort\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodSofort? Sofort
@@ -316,7 +349,7 @@ namespace stripe.PaymentMethod
         /// <remarks>
         /// An additional hash is included on the PaymentMethod with a name matching this value. It contains additional information specific to the PaymentMethod type.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#type PaymentMethod#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#type PaymentMethod#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -328,7 +361,7 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#upi PaymentMethod#upi}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#upi PaymentMethod#upi}.</summary>
         [JsiiProperty(name: "upi", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodUpi\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodUpi? Upi
@@ -339,7 +372,7 @@ namespace stripe.PaymentMethod
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#us_bank_account PaymentMethod#us_bank_account}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#us_bank_account PaymentMethod#us_bank_account}.</summary>
         [JsiiProperty(name: "usBankAccount", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodUsBankAccount\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.PaymentMethod.IPaymentMethodUsBankAccount? UsBankAccount
@@ -357,7 +390,7 @@ namespace stripe.PaymentMethod
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#acss_debit PaymentMethod#acss_debit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#acss_debit PaymentMethod#acss_debit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "acssDebit", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodAcssDebit\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodAcssDebit? AcssDebit
@@ -369,7 +402,7 @@ namespace stripe.PaymentMethod
             /// <remarks>
             /// Stripe products such as Checkout and Elements use this field to determine whether a payment method can be shown as a saved payment method in a checkout flow. The field defaults to “unspecified”.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#allow_redisplay PaymentMethod#allow_redisplay}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#allow_redisplay PaymentMethod#allow_redisplay}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "allowRedisplay", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -378,7 +411,7 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#au_becs_debit PaymentMethod#au_becs_debit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#au_becs_debit PaymentMethod#au_becs_debit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "auBecsDebit", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodAuBecsDebit\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodAuBecsDebit? AuBecsDebit
@@ -386,7 +419,7 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<stripe.PaymentMethod.IPaymentMethodAuBecsDebit?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#bacs_debit PaymentMethod#bacs_debit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#bacs_debit PaymentMethod#bacs_debit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "bacsDebit", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodBacsDebit\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodBacsDebit? BacsDebit
@@ -394,7 +427,7 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<stripe.PaymentMethod.IPaymentMethodBacsDebit?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#billing_details PaymentMethod#billing_details}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#billing_details PaymentMethod#billing_details}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "billingDetails", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodBillingDetails\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodBillingDetails? BillingDetails
@@ -402,7 +435,23 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<stripe.PaymentMethod.IPaymentMethodBillingDetails?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#boleto PaymentMethod#boleto}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#bizum PaymentMethod#bizum}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "bizum", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodBizum\"}", isOptional: true)]
+            public stripe.PaymentMethod.IPaymentMethodBizum? Bizum
+            {
+                get => GetInstanceProperty<stripe.PaymentMethod.IPaymentMethodBizum?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#blik PaymentMethod#blik}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "blik", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodBlik\"}", isOptional: true)]
+            public stripe.PaymentMethod.IPaymentMethodBlik? Blik
+            {
+                get => GetInstanceProperty<stripe.PaymentMethod.IPaymentMethodBlik?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#boleto PaymentMethod#boleto}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "boleto", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodBoleto\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodBoleto? Boleto
@@ -410,7 +459,7 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<stripe.PaymentMethod.IPaymentMethodBoleto?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#card PaymentMethod#card}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#card PaymentMethod#card}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "card", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodCard\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodCard? Card
@@ -418,7 +467,7 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<stripe.PaymentMethod.IPaymentMethodCard?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#cashapp PaymentMethod#cashapp}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#cashapp PaymentMethod#cashapp}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "cashapp", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodCashapp\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodCashapp? Cashapp
@@ -430,7 +479,7 @@ namespace stripe.PaymentMethod
             /// <remarks>
             /// This will not be set when the PaymentMethod has not been saved to a Customer.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#customer PaymentMethod#customer}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#customer PaymentMethod#customer}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "customer", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -439,7 +488,7 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#eps PaymentMethod#eps}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#eps PaymentMethod#eps}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "eps", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodEps\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodEps? Eps
@@ -447,7 +496,7 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<stripe.PaymentMethod.IPaymentMethodEps?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#fpx PaymentMethod#fpx}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#fpx PaymentMethod#fpx}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "fpx", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodFpx\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodFpx? Fpx
@@ -455,7 +504,7 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<stripe.PaymentMethod.IPaymentMethodFpx?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#ideal PaymentMethod#ideal}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#ideal PaymentMethod#ideal}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ideal", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodIdeal\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodIdeal? Ideal
@@ -463,7 +512,7 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<stripe.PaymentMethod.IPaymentMethodIdeal?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#interac_present PaymentMethod#interac_present}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#interac_present PaymentMethod#interac_present}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "interacPresent", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodInteracPresent\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodInteracPresent? InteracPresent
@@ -471,7 +520,7 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<stripe.PaymentMethod.IPaymentMethodInteracPresent?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#klarna PaymentMethod#klarna}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#klarna PaymentMethod#klarna}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "klarna", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodKlarna\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodKlarna? Klarna
@@ -479,7 +528,7 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<stripe.PaymentMethod.IPaymentMethodKlarna?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#kr_card PaymentMethod#kr_card}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#kr_card PaymentMethod#kr_card}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "krCard", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodKrCard\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodKrCard? KrCard
@@ -487,7 +536,7 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<stripe.PaymentMethod.IPaymentMethodKrCard?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#link PaymentMethod#link}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#link PaymentMethod#link}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "link", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodLink\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodLink? Link
@@ -497,7 +546,7 @@ namespace stripe.PaymentMethod
 
             /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#metadata PaymentMethod#metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#metadata PaymentMethod#metadata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -506,7 +555,7 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#naver_pay PaymentMethod#naver_pay}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#naver_pay PaymentMethod#naver_pay}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "naverPay", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodNaverPay\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodNaverPay? NaverPay
@@ -514,7 +563,7 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<stripe.PaymentMethod.IPaymentMethodNaverPay?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#nz_bank_account PaymentMethod#nz_bank_account}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#nz_bank_account PaymentMethod#nz_bank_account}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "nzBankAccount", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodNzBankAccount\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodNzBankAccount? NzBankAccount
@@ -522,7 +571,7 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<stripe.PaymentMethod.IPaymentMethodNzBankAccount?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#p24 PaymentMethod#p24}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#p24 PaymentMethod#p24}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "p24", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodP24\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodP24? P24
@@ -532,7 +581,7 @@ namespace stripe.PaymentMethod
 
             /// <summary>The PaymentMethod to share.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#payment_method PaymentMethod#payment_method}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#payment_method PaymentMethod#payment_method}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "paymentMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -541,7 +590,7 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#paypal PaymentMethod#paypal}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#paypal PaymentMethod#paypal}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "paypal", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodPaypal\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodPaypal? Paypal
@@ -549,7 +598,7 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<stripe.PaymentMethod.IPaymentMethodPaypal?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#payto PaymentMethod#payto}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#payto PaymentMethod#payto}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "payto", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodPayto\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodPayto? Payto
@@ -557,9 +606,17 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<stripe.PaymentMethod.IPaymentMethodPayto?>();
             }
 
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#pix PaymentMethod#pix}.</summary>
+            [JsiiOptional]
+            [JsiiProperty(name: "pix", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodPix\"}", isOptional: true)]
+            public stripe.PaymentMethod.IPaymentMethodPix? Pix
+            {
+                get => GetInstanceProperty<stripe.PaymentMethod.IPaymentMethodPix?>();
+            }
+
             /// <summary>Options to configure Radar. See [Radar Session](https://docs.stripe.com/radar/radar-session) for more information.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#radar_options PaymentMethod#radar_options}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#radar_options PaymentMethod#radar_options}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "radarOptions", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodRadarOptions\"}", isOptional: true)]
@@ -568,7 +625,7 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<stripe.PaymentMethod.IPaymentMethodRadarOptions?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#sepa_debit PaymentMethod#sepa_debit}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#sepa_debit PaymentMethod#sepa_debit}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sepaDebit", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodSepaDebit\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodSepaDebit? SepaDebit
@@ -576,7 +633,7 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<stripe.PaymentMethod.IPaymentMethodSepaDebit?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#sofort PaymentMethod#sofort}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#sofort PaymentMethod#sofort}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sofort", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodSofort\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodSofort? Sofort
@@ -588,7 +645,7 @@ namespace stripe.PaymentMethod
             /// <remarks>
             /// An additional hash is included on the PaymentMethod with a name matching this value. It contains additional information specific to the PaymentMethod type.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#type PaymentMethod#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#type PaymentMethod#type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -597,7 +654,7 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#upi PaymentMethod#upi}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#upi PaymentMethod#upi}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "upi", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodUpi\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodUpi? Upi
@@ -605,7 +662,7 @@ namespace stripe.PaymentMethod
                 get => GetInstanceProperty<stripe.PaymentMethod.IPaymentMethodUpi?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_method#us_bank_account PaymentMethod#us_bank_account}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_method#us_bank_account PaymentMethod#us_bank_account}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "usBankAccount", typeJson: "{\"fqn\":\"stripe.paymentMethod.PaymentMethodUsBankAccount\"}", isOptional: true)]
             public stripe.PaymentMethod.IPaymentMethodUsBankAccount? UsBankAccount

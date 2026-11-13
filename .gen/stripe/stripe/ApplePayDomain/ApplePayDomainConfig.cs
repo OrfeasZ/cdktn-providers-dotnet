@@ -9,7 +9,7 @@ namespace stripe.ApplePayDomain
     [JsiiByValue(fqn: "stripe.applePayDomain.ApplePayDomainConfig")]
     public class ApplePayDomainConfig : stripe.ApplePayDomain.IApplePayDomainConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/apple_pay_domain#domain_name ApplePayDomain#domain_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/apple_pay_domain#domain_name ApplePayDomain#domain_name}.</summary>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainName
         {

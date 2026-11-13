@@ -7,7 +7,7 @@ namespace stripe.IssuingCardholder
     [JsiiInterface(nativeType: typeof(IIssuingCardholderConfig), fullyQualifiedName: "stripe.issuingCardholder.IssuingCardholderConfig")]
     public interface IIssuingCardholderConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#billing IssuingCardholder#billing}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#billing IssuingCardholder#billing}.</summary>
         [JsiiProperty(name: "billing", typeJson: "{\"fqn\":\"stripe.issuingCardholder.IssuingCardholderBilling\"}")]
         stripe.IssuingCardholder.IIssuingCardholderBilling Billing
         {
@@ -16,7 +16,7 @@ namespace stripe.IssuingCardholder
 
         /// <summary>The cardholder's name. This will be printed on cards issued to them.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#name IssuingCardholder#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#name IssuingCardholder#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         string Name
@@ -26,7 +26,7 @@ namespace stripe.IssuingCardholder
 
         /// <summary>Additional information about a `company` cardholder.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#company IssuingCardholder#company}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#company IssuingCardholder#company}
         /// </remarks>
         [JsiiProperty(name: "company", typeJson: "{\"fqn\":\"stripe.issuingCardholder.IssuingCardholderCompany\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace stripe.IssuingCardholder
 
         /// <summary>The cardholder's email address.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#email IssuingCardholder#email}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#email IssuingCardholder#email}
         /// </remarks>
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -54,7 +54,7 @@ namespace stripe.IssuingCardholder
 
         /// <summary>Additional information about an `individual` cardholder.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#individual IssuingCardholder#individual}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#individual IssuingCardholder#individual}
         /// </remarks>
         [JsiiProperty(name: "individual", typeJson: "{\"fqn\":\"stripe.issuingCardholder.IssuingCardholderIndividual\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,7 +68,7 @@ namespace stripe.IssuingCardholder
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#metadata IssuingCardholder#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#metadata IssuingCardholder#metadata}
         /// </remarks>
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -84,7 +84,7 @@ namespace stripe.IssuingCardholder
         /// <remarks>
         /// This is required for all cardholders who will be creating EU cards. See the <a href="https://docs.stripe.com/issuing/3d-secure#when-is-3d-secure-applied">3D Secure documentation</a> for more details.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#phone_number IssuingCardholder#phone_number}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#phone_number IssuingCardholder#phone_number}
         /// </remarks>
         [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -98,10 +98,10 @@ namespace stripe.IssuingCardholder
 
         /// <summary>The cardholder’s preferred locales (languages), ordered by preference.</summary>
         /// <remarks>
-        /// Locales can be <c>da</c>, <c>de</c>, <c>en</c>, <c>es</c>, <c>fr</c>, <c>it</c>, <c>pl</c>, or <c>sv</c>.
+        /// Locales can be <c>de</c>, <c>en</c>, <c>es</c>, <c>fr</c>, or <c>it</c>.
         /// This changes the language of the <a href="https://docs.stripe.com/issuing/3d-secure">3D Secure flow</a> and one-time password messages sent to the cardholder.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#preferred_locales IssuingCardholder#preferred_locales}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#preferred_locales IssuingCardholder#preferred_locales}
         /// </remarks>
         [JsiiProperty(name: "preferredLocales", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -115,7 +115,7 @@ namespace stripe.IssuingCardholder
 
         /// <summary>Rules that control spending across this cardholder's cards. Refer to our [documentation](https://docs.stripe.com/issuing/controls/spending-controls) for more details.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#spending_controls IssuingCardholder#spending_controls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#spending_controls IssuingCardholder#spending_controls}
         /// </remarks>
         [JsiiProperty(name: "spendingControls", typeJson: "{\"fqn\":\"stripe.issuingCardholder.IssuingCardholderSpendingControls\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -129,7 +129,7 @@ namespace stripe.IssuingCardholder
 
         /// <summary>Specifies whether to permit authorizations on this cardholder's cards.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#status IssuingCardholder#status}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#status IssuingCardholder#status}
         /// </remarks>
         [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -143,7 +143,7 @@ namespace stripe.IssuingCardholder
 
         /// <summary>One of `individual` or `company`. See [Choose a cardholder type](https://docs.stripe.com/issuing/other/choose-cardholder) for more details.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#type IssuingCardholder#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#type IssuingCardholder#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -162,7 +162,7 @@ namespace stripe.IssuingCardholder
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#billing IssuingCardholder#billing}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#billing IssuingCardholder#billing}.</summary>
             [JsiiProperty(name: "billing", typeJson: "{\"fqn\":\"stripe.issuingCardholder.IssuingCardholderBilling\"}")]
             public stripe.IssuingCardholder.IIssuingCardholderBilling Billing
             {
@@ -171,7 +171,7 @@ namespace stripe.IssuingCardholder
 
             /// <summary>The cardholder's name. This will be printed on cards issued to them.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#name IssuingCardholder#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#name IssuingCardholder#name}
             /// </remarks>
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
             public string Name
@@ -181,7 +181,7 @@ namespace stripe.IssuingCardholder
 
             /// <summary>Additional information about a `company` cardholder.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#company IssuingCardholder#company}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#company IssuingCardholder#company}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "company", typeJson: "{\"fqn\":\"stripe.issuingCardholder.IssuingCardholderCompany\"}", isOptional: true)]
@@ -192,7 +192,7 @@ namespace stripe.IssuingCardholder
 
             /// <summary>The cardholder's email address.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#email IssuingCardholder#email}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#email IssuingCardholder#email}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -203,7 +203,7 @@ namespace stripe.IssuingCardholder
 
             /// <summary>Additional information about an `individual` cardholder.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#individual IssuingCardholder#individual}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#individual IssuingCardholder#individual}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "individual", typeJson: "{\"fqn\":\"stripe.issuingCardholder.IssuingCardholderIndividual\"}", isOptional: true)]
@@ -214,7 +214,7 @@ namespace stripe.IssuingCardholder
 
             /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#metadata IssuingCardholder#metadata}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#metadata IssuingCardholder#metadata}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -227,7 +227,7 @@ namespace stripe.IssuingCardholder
             /// <remarks>
             /// This is required for all cardholders who will be creating EU cards. See the <a href="https://docs.stripe.com/issuing/3d-secure#when-is-3d-secure-applied">3D Secure documentation</a> for more details.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#phone_number IssuingCardholder#phone_number}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#phone_number IssuingCardholder#phone_number}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "phoneNumber", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -238,10 +238,10 @@ namespace stripe.IssuingCardholder
 
             /// <summary>The cardholder’s preferred locales (languages), ordered by preference.</summary>
             /// <remarks>
-            /// Locales can be <c>da</c>, <c>de</c>, <c>en</c>, <c>es</c>, <c>fr</c>, <c>it</c>, <c>pl</c>, or <c>sv</c>.
+            /// Locales can be <c>de</c>, <c>en</c>, <c>es</c>, <c>fr</c>, or <c>it</c>.
             /// This changes the language of the <a href="https://docs.stripe.com/issuing/3d-secure">3D Secure flow</a> and one-time password messages sent to the cardholder.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#preferred_locales IssuingCardholder#preferred_locales}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#preferred_locales IssuingCardholder#preferred_locales}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "preferredLocales", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -252,7 +252,7 @@ namespace stripe.IssuingCardholder
 
             /// <summary>Rules that control spending across this cardholder's cards. Refer to our [documentation](https://docs.stripe.com/issuing/controls/spending-controls) for more details.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#spending_controls IssuingCardholder#spending_controls}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#spending_controls IssuingCardholder#spending_controls}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "spendingControls", typeJson: "{\"fqn\":\"stripe.issuingCardholder.IssuingCardholderSpendingControls\"}", isOptional: true)]
@@ -263,7 +263,7 @@ namespace stripe.IssuingCardholder
 
             /// <summary>Specifies whether to permit authorizations on this cardholder's cards.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#status IssuingCardholder#status}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#status IssuingCardholder#status}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -274,7 +274,7 @@ namespace stripe.IssuingCardholder
 
             /// <summary>One of `individual` or `company`. See [Choose a cardholder type](https://docs.stripe.com/issuing/other/choose-cardholder) for more details.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/issuing_cardholder#type IssuingCardholder#type}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/issuing_cardholder#type IssuingCardholder#type}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

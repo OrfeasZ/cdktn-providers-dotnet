@@ -9,7 +9,7 @@ namespace stripe.Invoice
     {
         /// <summary>If paying by `acss_debit`, this sub-hash contains details about the Canadian pre-authorized debit payment method options to pass to the invoice’s PaymentIntent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#acss_debit Invoice#acss_debit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#acss_debit Invoice#acss_debit}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "acssDebit", typeJson: "{\"fqn\":\"stripe.invoice.InvoicePaymentSettingsPaymentMethodOptionsAcssDebit\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace stripe.Invoice
 
         /// <summary>If paying by `bancontact`, this sub-hash contains details about the Bancontact payment method options to pass to the invoice’s PaymentIntent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#bancontact Invoice#bancontact}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#bancontact Invoice#bancontact}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bancontact", typeJson: "{\"fqn\":\"stripe.invoice.InvoicePaymentSettingsPaymentMethodOptionsBancontact\"}", isOptional: true)]
@@ -31,9 +31,21 @@ namespace stripe.Invoice
             set;
         }
 
+        /// <summary>If paying by `billie`, this sub-hash contains details about the Billie payment method options to pass to the invoice’s PaymentIntent.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#billie Invoice#billie}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "billie", typeJson: "{\"fqn\":\"stripe.invoice.InvoicePaymentSettingsPaymentMethodOptionsBillie\"}", isOptional: true)]
+        public stripe.Invoice.IInvoicePaymentSettingsPaymentMethodOptionsBillie? Billie
+        {
+            get;
+            set;
+        }
+
         /// <summary>If paying by `card`, this sub-hash contains details about the Card payment method options to pass to the invoice’s PaymentIntent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#card Invoice#card}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#card Invoice#card}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "card", typeJson: "{\"fqn\":\"stripe.invoice.InvoicePaymentSettingsPaymentMethodOptionsCard\"}", isOptional: true)]
@@ -45,7 +57,7 @@ namespace stripe.Invoice
 
         /// <summary>If paying by `customer_balance`, this sub-hash contains details about the Bank transfer payment method options to pass to the invoice’s PaymentIntent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#customer_balance Invoice#customer_balance}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#customer_balance Invoice#customer_balance}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "customerBalance", typeJson: "{\"fqn\":\"stripe.invoice.InvoicePaymentSettingsPaymentMethodOptionsCustomerBalance\"}", isOptional: true)]
@@ -57,7 +69,7 @@ namespace stripe.Invoice
 
         /// <summary>If paying by `payto`, this sub-hash contains details about the PayTo payment method options to pass to the invoice’s PaymentIntent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#payto Invoice#payto}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#payto Invoice#payto}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "payto", typeJson: "{\"fqn\":\"stripe.invoice.InvoicePaymentSettingsPaymentMethodOptionsPayto\"}", isOptional: true)]
@@ -69,7 +81,7 @@ namespace stripe.Invoice
 
         /// <summary>If paying by `pix`, this sub-hash contains details about the Pix payment method options to pass to the invoice’s PaymentIntent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#pix Invoice#pix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#pix Invoice#pix}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pix", typeJson: "{\"fqn\":\"stripe.invoice.InvoicePaymentSettingsPaymentMethodOptionsPix\"}", isOptional: true)]
@@ -81,7 +93,7 @@ namespace stripe.Invoice
 
         /// <summary>If paying by `upi`, this sub-hash contains details about the UPI payment method options to pass to the invoice’s PaymentIntent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#upi Invoice#upi}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#upi Invoice#upi}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "upi", typeJson: "{\"fqn\":\"stripe.invoice.InvoicePaymentSettingsPaymentMethodOptionsUpi\"}", isOptional: true)]
@@ -93,7 +105,7 @@ namespace stripe.Invoice
 
         /// <summary>If paying by `us_bank_account`, this sub-hash contains details about the ACH direct debit payment method options to pass to the invoice’s PaymentIntent.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#us_bank_account Invoice#us_bank_account}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#us_bank_account Invoice#us_bank_account}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "usBankAccount", typeJson: "{\"fqn\":\"stripe.invoice.InvoicePaymentSettingsPaymentMethodOptionsUsBankAccount\"}", isOptional: true)]

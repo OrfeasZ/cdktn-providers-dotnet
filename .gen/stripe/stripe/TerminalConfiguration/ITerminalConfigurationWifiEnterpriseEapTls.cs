@@ -9,7 +9,7 @@ namespace stripe.TerminalConfiguration
     {
         /// <summary>A File ID representing a PEM file containing the client certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#client_certificate_file TerminalConfiguration#client_certificate_file}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#client_certificate_file TerminalConfiguration#client_certificate_file}
         /// </remarks>
         [JsiiProperty(name: "clientCertificateFile", typeJson: "{\"primitive\":\"string\"}")]
         string ClientCertificateFile
@@ -19,7 +19,7 @@ namespace stripe.TerminalConfiguration
 
         /// <summary>A File ID representing a PEM file containing the client RSA private key.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#private_key_file TerminalConfiguration#private_key_file}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#private_key_file TerminalConfiguration#private_key_file}
         /// </remarks>
         [JsiiProperty(name: "privateKeyFile", typeJson: "{\"primitive\":\"string\"}")]
         string PrivateKeyFile
@@ -29,7 +29,7 @@ namespace stripe.TerminalConfiguration
 
         /// <summary>Name of the WiFi network.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#ssid TerminalConfiguration#ssid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#ssid TerminalConfiguration#ssid}
         /// </remarks>
         [JsiiProperty(name: "ssid", typeJson: "{\"primitive\":\"string\"}")]
         string Ssid
@@ -39,7 +39,7 @@ namespace stripe.TerminalConfiguration
 
         /// <summary>A File ID representing a PEM file containing the server certificate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#ca_certificate_file TerminalConfiguration#ca_certificate_file}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#ca_certificate_file TerminalConfiguration#ca_certificate_file}
         /// </remarks>
         [JsiiProperty(name: "caCertificateFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -53,7 +53,7 @@ namespace stripe.TerminalConfiguration
 
         /// <summary>Password for the private key file.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#private_key_file_password TerminalConfiguration#private_key_file_password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#private_key_file_password TerminalConfiguration#private_key_file_password}
         /// </remarks>
         [JsiiProperty(name: "privateKeyFilePassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -74,7 +74,7 @@ namespace stripe.TerminalConfiguration
 
             /// <summary>A File ID representing a PEM file containing the client certificate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#client_certificate_file TerminalConfiguration#client_certificate_file}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#client_certificate_file TerminalConfiguration#client_certificate_file}
             /// </remarks>
             [JsiiProperty(name: "clientCertificateFile", typeJson: "{\"primitive\":\"string\"}")]
             public string ClientCertificateFile
@@ -84,7 +84,7 @@ namespace stripe.TerminalConfiguration
 
             /// <summary>A File ID representing a PEM file containing the client RSA private key.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#private_key_file TerminalConfiguration#private_key_file}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#private_key_file TerminalConfiguration#private_key_file}
             /// </remarks>
             [JsiiProperty(name: "privateKeyFile", typeJson: "{\"primitive\":\"string\"}")]
             public string PrivateKeyFile
@@ -94,7 +94,7 @@ namespace stripe.TerminalConfiguration
 
             /// <summary>Name of the WiFi network.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#ssid TerminalConfiguration#ssid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#ssid TerminalConfiguration#ssid}
             /// </remarks>
             [JsiiProperty(name: "ssid", typeJson: "{\"primitive\":\"string\"}")]
             public string Ssid
@@ -104,7 +104,7 @@ namespace stripe.TerminalConfiguration
 
             /// <summary>A File ID representing a PEM file containing the server certificate.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#ca_certificate_file TerminalConfiguration#ca_certificate_file}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#ca_certificate_file TerminalConfiguration#ca_certificate_file}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "caCertificateFile", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -115,7 +115,7 @@ namespace stripe.TerminalConfiguration
 
             /// <summary>Password for the private key file.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#private_key_file_password TerminalConfiguration#private_key_file_password}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#private_key_file_password TerminalConfiguration#private_key_file_password}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "privateKeyFilePassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

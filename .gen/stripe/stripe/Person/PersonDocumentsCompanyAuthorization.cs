@@ -7,9 +7,9 @@ namespace stripe.Person
     [JsiiByValue(fqn: "stripe.person.PersonDocumentsCompanyAuthorization")]
     public class PersonDocumentsCompanyAuthorization : stripe.Person.IPersonDocumentsCompanyAuthorization
     {
-        /// <summary>One or more document ids returned by a [file upload](https://api.stripe.com#create_file) with a `purpose` value of `account_requirement`.</summary>
+        /// <summary>One or more document ids returned by a [file upload](https://docs.stripe.com/api#create_file) with a `purpose` value of `account_requirement`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/person#files Person#files}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/person#files Person#files}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "files", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]

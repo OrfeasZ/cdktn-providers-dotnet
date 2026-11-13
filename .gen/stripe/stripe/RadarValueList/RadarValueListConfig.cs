@@ -11,7 +11,7 @@ namespace stripe.RadarValueList
     {
         /// <summary>The name of the value list for use in rules.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/radar_value_list#alias RadarValueList#alias}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/radar_value_list#alias RadarValueList#alias}
         /// </remarks>
         [JsiiProperty(name: "alias", typeJson: "{\"primitive\":\"string\"}")]
         public string Alias
@@ -22,7 +22,7 @@ namespace stripe.RadarValueList
 
         /// <summary>The name of the value list.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/radar_value_list#name RadarValueList#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/radar_value_list#name RadarValueList#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -35,7 +35,7 @@ namespace stripe.RadarValueList
         /// <remarks>
         /// One of <c>card_fingerprint</c>, <c>card_bin</c>, <c>crypto_fingerprint</c>, <c>email</c>, <c>ip_address</c>, <c>country</c>, <c>string</c>, <c>case_sensitive_string</c>, <c>customer_id</c>, <c>account</c>, <c>sepa_debit_fingerprint</c>, or <c>us_bank_account_fingerprint</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/radar_value_list#item_type RadarValueList#item_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/radar_value_list#item_type RadarValueList#item_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "itemType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace stripe.RadarValueList
 
         /// <summary>Set of [key-value pairs](https://docs.stripe.com/api/metadata) that you can attach to an object. This can be useful for storing additional information about the object in a structured format.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/radar_value_list#metadata RadarValueList#metadata}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/radar_value_list#metadata RadarValueList#metadata}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "metadata", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]

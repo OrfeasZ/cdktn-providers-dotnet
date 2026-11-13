@@ -11,7 +11,7 @@ namespace stripe.Invoice
         /// <remarks>
         /// Options include a4, letter, and auto. If set to auto, page size will be switched to a4 or letter based on customer locale.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#page_size Invoice#page_size}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#page_size Invoice#page_size}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "pageSize", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

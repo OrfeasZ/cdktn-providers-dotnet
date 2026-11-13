@@ -9,9 +9,11 @@ namespace stripe.V2CoreEventDestination
     [JsiiByValue(fqn: "stripe.v2CoreEventDestination.V2CoreEventDestinationWebhookEndpoint")]
     public class V2CoreEventDestinationWebhookEndpoint : stripe.V2CoreEventDestination.IV2CoreEventDestinationWebhookEndpoint
     {
-        /// <summary>The URL of the webhook endpoint, includable.</summary>
+        /// <summary>The URL where Stripe sends matching events.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#url V2CoreEventDestination#url}
+        /// Live mode requires HTTPS; sandbox mode also supports HTTP. Returned only when explicitly included.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#url V2CoreEventDestination#url}
         /// </remarks>
         [JsiiProperty(name: "url", typeJson: "{\"primitive\":\"string\"}")]
         public string Url

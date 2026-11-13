@@ -9,9 +9,9 @@ namespace stripe.V2CoreEventDestination
     [JsiiByValue(fqn: "stripe.v2CoreEventDestination.V2CoreEventDestinationAmazonEventbridge")]
     public class V2CoreEventDestinationAmazonEventbridge : stripe.V2CoreEventDestination.IV2CoreEventDestinationAmazonEventbridge
     {
-        /// <summary>The AWS account ID.</summary>
+        /// <summary>The AWS account ID that owns the event bus receiving events.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#aws_account_id V2CoreEventDestination#aws_account_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#aws_account_id V2CoreEventDestination#aws_account_id}
         /// </remarks>
         [JsiiProperty(name: "awsAccountId", typeJson: "{\"primitive\":\"string\"}")]
         public string AwsAccountId
@@ -20,9 +20,9 @@ namespace stripe.V2CoreEventDestination
             set;
         }
 
-        /// <summary>The region of the AWS event source.</summary>
+        /// <summary>The AWS region where Stripe creates the partner event source.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/v2_core_event_destination#aws_region V2CoreEventDestination#aws_region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/v2_core_event_destination#aws_region V2CoreEventDestination#aws_region}
         /// </remarks>
         [JsiiProperty(name: "awsRegion", typeJson: "{\"primitive\":\"string\"}")]
         public string AwsRegion

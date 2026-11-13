@@ -9,7 +9,7 @@ namespace stripe.Invoice
     {
         /// <summary>Transaction type of the mandate.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#transaction_type Invoice#transaction_type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#transaction_type Invoice#transaction_type}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "transactionType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

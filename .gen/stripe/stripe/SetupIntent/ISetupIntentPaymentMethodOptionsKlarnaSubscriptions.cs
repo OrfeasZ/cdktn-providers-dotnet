@@ -9,7 +9,7 @@ namespace stripe.SetupIntent
     {
         /// <summary>Unit of time between subscription charges.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#interval SetupIntent#interval}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#interval SetupIntent#interval}
         /// </remarks>
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
         string Interval
@@ -19,7 +19,7 @@ namespace stripe.SetupIntent
 
         /// <summary>Describes the upcoming charge for this subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#next_billing SetupIntent#next_billing}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#next_billing SetupIntent#next_billing}
         /// </remarks>
         [JsiiProperty(name: "nextBilling", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodOptionsKlarnaSubscriptionsNextBilling\"}")]
         stripe.SetupIntent.ISetupIntentPaymentMethodOptionsKlarnaSubscriptionsNextBilling NextBilling
@@ -29,7 +29,7 @@ namespace stripe.SetupIntent
 
         /// <summary>A non-customer-facing reference to correlate subscription charges in the Klarna app. Use a value that persists across subscription charges.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#reference SetupIntent#reference}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#reference SetupIntent#reference}
         /// </remarks>
         [JsiiProperty(name: "reference", typeJson: "{\"primitive\":\"string\"}")]
         string Reference
@@ -41,7 +41,7 @@ namespace stripe.SetupIntent
         /// <remarks>
         /// For example, <c>interval=month</c> and <c>interval_count=3</c> charges every 3 months.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#interval_count SetupIntent#interval_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#interval_count SetupIntent#interval_count}
         /// </remarks>
         [JsiiProperty(name: "intervalCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -55,7 +55,7 @@ namespace stripe.SetupIntent
 
         /// <summary>Name for subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#name SetupIntent#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#name SetupIntent#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -76,7 +76,7 @@ namespace stripe.SetupIntent
 
             /// <summary>Unit of time between subscription charges.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#interval SetupIntent#interval}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#interval SetupIntent#interval}
             /// </remarks>
             [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}")]
             public string Interval
@@ -86,7 +86,7 @@ namespace stripe.SetupIntent
 
             /// <summary>Describes the upcoming charge for this subscription.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#next_billing SetupIntent#next_billing}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#next_billing SetupIntent#next_billing}
             /// </remarks>
             [JsiiProperty(name: "nextBilling", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodOptionsKlarnaSubscriptionsNextBilling\"}")]
             public stripe.SetupIntent.ISetupIntentPaymentMethodOptionsKlarnaSubscriptionsNextBilling NextBilling
@@ -96,7 +96,7 @@ namespace stripe.SetupIntent
 
             /// <summary>A non-customer-facing reference to correlate subscription charges in the Klarna app. Use a value that persists across subscription charges.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#reference SetupIntent#reference}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#reference SetupIntent#reference}
             /// </remarks>
             [JsiiProperty(name: "reference", typeJson: "{\"primitive\":\"string\"}")]
             public string Reference
@@ -108,7 +108,7 @@ namespace stripe.SetupIntent
             /// <remarks>
             /// For example, <c>interval=month</c> and <c>interval_count=3</c> charges every 3 months.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#interval_count SetupIntent#interval_count}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#interval_count SetupIntent#interval_count}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "intervalCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -119,7 +119,7 @@ namespace stripe.SetupIntent
 
             /// <summary>Name for subscription.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#name SetupIntent#name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#name SetupIntent#name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -9,7 +9,7 @@ namespace stripe.SetupIntent
     {
         /// <summary>The currency of the setup intent. Three letter ISO currency code.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#currency SetupIntent#currency}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#currency SetupIntent#currency}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "currency", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace stripe.SetupIntent
 
         /// <summary>On-demand details if setting up a payment method for on-demand payments.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#on_demand SetupIntent#on_demand}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#on_demand SetupIntent#on_demand}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "onDemand", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodOptionsKlarnaOnDemand\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace stripe.SetupIntent
 
         /// <summary>Preferred locale of the Klarna checkout page that the customer is redirected to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#preferred_locale SetupIntent#preferred_locale}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#preferred_locale SetupIntent#preferred_locale}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "preferredLocale", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace stripe.SetupIntent
 
         /// <summary>Subscription details if setting up or charging a subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#subscriptions SetupIntent#subscriptions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#subscriptions SetupIntent#subscriptions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.SetupIntent.ISetupIntentPaymentMethodOptionsKlarnaSubscriptions" />)[]</para>
         /// </remarks>
         [JsiiOptional]

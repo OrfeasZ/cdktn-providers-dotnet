@@ -13,7 +13,7 @@ namespace stripe.BillingPortalConfiguration
 
         /// <summary>Whether the feature is enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#enabled BillingPortalConfiguration#enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#enabled BillingPortalConfiguration#enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
@@ -47,7 +47,7 @@ namespace stripe.BillingPortalConfiguration
         /// <remarks>
         /// Valid values are <c>now</c> or <c>unchanged</c>, and the default value is <c>unchanged</c>. Setting the value to <c>now</c> resets the subscription's billing cycle anchor to the current time (in UTC). For more information, see the billing cycle <a href="https://docs.stripe.com/billing/subscriptions/billing-cycle">documentation</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#billing_cycle_anchor BillingPortalConfiguration#billing_cycle_anchor}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#billing_cycle_anchor BillingPortalConfiguration#billing_cycle_anchor}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "billingCycleAnchor", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -61,7 +61,7 @@ namespace stripe.BillingPortalConfiguration
         /// <remarks>
         /// When empty, subscriptions are not updateable.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#default_allowed_updates BillingPortalConfiguration#default_allowed_updates}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#default_allowed_updates BillingPortalConfiguration#default_allowed_updates}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultAllowedUpdates", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -75,7 +75,7 @@ namespace stripe.BillingPortalConfiguration
 
         /// <summary>The list of up to 10 products that support subscription updates.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#products BillingPortalConfiguration#products}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#products BillingPortalConfiguration#products}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.BillingPortalConfiguration.IBillingPortalConfigurationFeaturesSubscriptionUpdateProducts" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -110,7 +110,7 @@ namespace stripe.BillingPortalConfiguration
         /// <remarks>
         /// Valid values are <c>none</c>, <c>create_prorations</c>, and <c>always_invoice</c>. Defaults to a value of <c>none</c> if you don't set it during creation.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#proration_behavior BillingPortalConfiguration#proration_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#proration_behavior BillingPortalConfiguration#proration_behavior}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "prorationBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -120,7 +120,7 @@ namespace stripe.BillingPortalConfiguration
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#schedule_at_period_end BillingPortalConfiguration#schedule_at_period_end}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#schedule_at_period_end BillingPortalConfiguration#schedule_at_period_end}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scheduleAtPeriodEnd", typeJson: "{\"fqn\":\"stripe.billingPortalConfiguration.BillingPortalConfigurationFeaturesSubscriptionUpdateScheduleAtPeriodEnd\"}", isOptional: true)]
         public stripe.BillingPortalConfiguration.IBillingPortalConfigurationFeaturesSubscriptionUpdateScheduleAtPeriodEnd? ScheduleAtPeriodEnd
@@ -133,7 +133,7 @@ namespace stripe.BillingPortalConfiguration
         /// <remarks>
         /// Valid values are <c>end_trial</c> and <c>continue_trial</c>. Defaults to a value of <c>end_trial</c> if you don't set it during creation.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/billing_portal_configuration#trial_update_behavior BillingPortalConfiguration#trial_update_behavior}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/billing_portal_configuration#trial_update_behavior BillingPortalConfiguration#trial_update_behavior}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "trialUpdateBehavior", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

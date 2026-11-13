@@ -9,7 +9,7 @@ namespace stripe.PaymentIntent
     {
         /// <summary>Controls when the funds will be captured from the customer's account.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#capture_method PaymentIntent#capture_method}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#capture_method PaymentIntent#capture_method}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "captureMethod", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>On-demand details if setting up or charging an on-demand payment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#on_demand PaymentIntent#on_demand}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#on_demand PaymentIntent#on_demand}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "onDemand", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsKlarnaOnDemand\"}", isOptional: true)]
@@ -33,7 +33,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Preferred locale of the Klarna checkout page that the customer is redirected to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#preferred_locale PaymentIntent#preferred_locale}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#preferred_locale PaymentIntent#preferred_locale}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "preferredLocale", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace stripe.PaymentIntent
         ///
         /// When processing card payments, Stripe uses <c>setup_future_usage</c> to help you comply with regional legislation and network rules, such as <a href="/strong-customer-authentication">SCA</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#setup_future_usage PaymentIntent#setup_future_usage}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "setupFutureUsage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -65,7 +65,7 @@ namespace stripe.PaymentIntent
 
         /// <summary>Subscription details if setting up or charging a subscription.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/payment_intent#subscriptions PaymentIntent#subscriptions}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/payment_intent#subscriptions PaymentIntent#subscriptions}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsKlarnaSubscriptions" />)[]</para>
         /// </remarks>
         [JsiiOptional]

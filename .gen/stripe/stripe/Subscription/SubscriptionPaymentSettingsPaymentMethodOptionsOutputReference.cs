@@ -45,6 +45,18 @@ namespace stripe.Subscription
             InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Subscription.ISubscriptionPaymentSettingsPaymentMethodOptionsBancontact)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putBillie", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsBillie\"}}]")]
+        public virtual void PutBillie(stripe.Subscription.ISubscriptionPaymentSettingsPaymentMethodOptionsBillie @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Subscription.ISubscriptionPaymentSettingsPaymentMethodOptionsBillie)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putBlik", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsBlik\"}}]")]
+        public virtual void PutBlik(stripe.Subscription.ISubscriptionPaymentSettingsPaymentMethodOptionsBlik @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.Subscription.ISubscriptionPaymentSettingsPaymentMethodOptionsBlik)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putCard", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsCard\"}}]")]
         public virtual void PutCard(stripe.Subscription.ISubscriptionPaymentSettingsPaymentMethodOptionsCard @value)
         {
@@ -89,6 +101,18 @@ namespace stripe.Subscription
 
         [JsiiMethod(name: "resetBancontact")]
         public virtual void ResetBancontact()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetBillie")]
+        public virtual void ResetBillie()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetBlik")]
+        public virtual void ResetBlik()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -139,6 +163,18 @@ namespace stripe.Subscription
         public virtual stripe.Subscription.SubscriptionPaymentSettingsPaymentMethodOptionsBancontactOutputReference Bancontact
         {
             get => GetInstanceProperty<stripe.Subscription.SubscriptionPaymentSettingsPaymentMethodOptionsBancontactOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "billie", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsBillieOutputReference\"}")]
+        public virtual stripe.Subscription.SubscriptionPaymentSettingsPaymentMethodOptionsBillieOutputReference Billie
+        {
+            get => GetInstanceProperty<stripe.Subscription.SubscriptionPaymentSettingsPaymentMethodOptionsBillieOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "blik", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsBlikOutputReference\"}")]
+        public virtual stripe.Subscription.SubscriptionPaymentSettingsPaymentMethodOptionsBlikOutputReference Blik
+        {
+            get => GetInstanceProperty<stripe.Subscription.SubscriptionPaymentSettingsPaymentMethodOptionsBlikOutputReference>()!;
         }
 
         [JsiiProperty(name: "card", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsCardOutputReference\"}")]
@@ -193,6 +229,26 @@ namespace stripe.Subscription
         [JsiiOptional]
         [JsiiProperty(name: "bancontactInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsBancontact\"}]}}", isOptional: true)]
         public virtual object? BancontactInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.Subscription.ISubscriptionPaymentSettingsPaymentMethodOptionsBillie" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "billieInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsBillie\"}]}}", isOptional: true)]
+        public virtual object? BillieInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.Subscription.ISubscriptionPaymentSettingsPaymentMethodOptionsBlik" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "blikInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.subscription.SubscriptionPaymentSettingsPaymentMethodOptionsBlik\"}]}}", isOptional: true)]
+        public virtual object? BlikInput
         {
             get => GetInstanceProperty<object?>();
         }

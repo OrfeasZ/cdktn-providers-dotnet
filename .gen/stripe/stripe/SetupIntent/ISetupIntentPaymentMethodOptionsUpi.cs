@@ -7,7 +7,7 @@ namespace stripe.SetupIntent
     [JsiiInterface(nativeType: typeof(ISetupIntentPaymentMethodOptionsUpi), fullyQualifiedName: "stripe.setupIntent.SetupIntentPaymentMethodOptionsUpi")]
     public interface ISetupIntentPaymentMethodOptionsUpi
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#mandate_options SetupIntent#mandate_options}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#mandate_options SetupIntent#mandate_options}.</summary>
         [JsiiProperty(name: "mandateOptions", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodOptionsUpiMandateOptions\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         stripe.SetupIntent.ISetupIntentPaymentMethodOptionsUpiMandateOptions? MandateOptions
@@ -18,7 +18,7 @@ namespace stripe.SetupIntent
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#setup_future_usage SetupIntent#setup_future_usage}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#setup_future_usage SetupIntent#setup_future_usage}.</summary>
         [JsiiProperty(name: "setupFutureUsage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SetupFutureUsage
@@ -36,7 +36,7 @@ namespace stripe.SetupIntent
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#mandate_options SetupIntent#mandate_options}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#mandate_options SetupIntent#mandate_options}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "mandateOptions", typeJson: "{\"fqn\":\"stripe.setupIntent.SetupIntentPaymentMethodOptionsUpiMandateOptions\"}", isOptional: true)]
             public stripe.SetupIntent.ISetupIntentPaymentMethodOptionsUpiMandateOptions? MandateOptions
@@ -44,7 +44,7 @@ namespace stripe.SetupIntent
                 get => GetInstanceProperty<stripe.SetupIntent.ISetupIntentPaymentMethodOptionsUpiMandateOptions?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/setup_intent#setup_future_usage SetupIntent#setup_future_usage}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/setup_intent#setup_future_usage SetupIntent#setup_future_usage}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "setupFutureUsage", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SetupFutureUsage

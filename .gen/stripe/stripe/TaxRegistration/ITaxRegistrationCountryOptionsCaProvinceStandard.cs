@@ -9,7 +9,7 @@ namespace stripe.TaxRegistration
     {
         /// <summary>Two-letter CA province code ([ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2)).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_registration#province TaxRegistration#province}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/tax_registration#province TaxRegistration#province}
         /// </remarks>
         [JsiiProperty(name: "province", typeJson: "{\"primitive\":\"string\"}")]
         string Province
@@ -26,7 +26,7 @@ namespace stripe.TaxRegistration
 
             /// <summary>Two-letter CA province code ([ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2)).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/tax_registration#province TaxRegistration#province}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/tax_registration#province TaxRegistration#province}
             /// </remarks>
             [JsiiProperty(name: "province", typeJson: "{\"primitive\":\"string\"}")]
             public string Province

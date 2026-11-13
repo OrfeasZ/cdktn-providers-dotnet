@@ -33,6 +33,30 @@ namespace stripe.Subscription
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Subscription.ISubscriptionInvoiceSettingsCustomFields" />)[]</param>
+        [JsiiMethod(name: "putCustomFields", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.subscription.SubscriptionInvoiceSettingsCustomFields\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutCustomFields(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case stripe.Subscription.ISubscriptionInvoiceSettingsCustomFields[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Subscription.ISubscriptionInvoiceSettingsCustomFields).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(stripe.Subscription.ISubscriptionInvoiceSettingsCustomFields).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putIssuer", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.subscription.SubscriptionInvoiceSettingsIssuer\"}}]")]
         public virtual void PutIssuer(stripe.Subscription.ISubscriptionInvoiceSettingsIssuer @value)
         {
@@ -45,10 +69,34 @@ namespace stripe.Subscription
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetCustomFields")]
+        public virtual void ResetCustomFields()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDescription")]
+        public virtual void ResetDescription()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetFooter")]
+        public virtual void ResetFooter()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetIssuer")]
         public virtual void ResetIssuer()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiProperty(name: "customFields", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionInvoiceSettingsCustomFieldsList\"}")]
+        public virtual stripe.Subscription.SubscriptionInvoiceSettingsCustomFieldsList CustomFields
+        {
+            get => GetInstanceProperty<stripe.Subscription.SubscriptionInvoiceSettingsCustomFieldsList>()!;
         }
 
         [JsiiProperty(name: "issuer", typeJson: "{\"fqn\":\"stripe.subscription.SubscriptionInvoiceSettingsIssuerOutputReference\"}")]
@@ -65,6 +113,30 @@ namespace stripe.Subscription
         }
 
         /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="stripe.Subscription.ISubscriptionInvoiceSettingsCustomFields" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "customFieldsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"stripe.subscription.SubscriptionInvoiceSettingsCustomFields\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? CustomFieldsInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "descriptionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? DescriptionInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "footerInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? FooterInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.Subscription.ISubscriptionInvoiceSettingsIssuer" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -78,6 +150,20 @@ namespace stripe.Subscription
         public virtual string[] AccountTaxIds
         {
             get => GetInstanceProperty<string[]>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Description
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "footer", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Footer
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace stripe.TerminalConfiguration
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration stripe_terminal_configuration}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration stripe_terminal_configuration}.</summary>
     [JsiiClass(nativeType: typeof(stripe.TerminalConfiguration.TerminalConfiguration), fullyQualifiedName: "stripe.terminalConfiguration.TerminalConfiguration", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationConfig\"}}]")]
     public class TerminalConfiguration : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration stripe_terminal_configuration} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration stripe_terminal_configuration} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public TerminalConfiguration(Constructs.Construct scope, string id, stripe.TerminalConfiguration.ITerminalConfigurationConfig? config = null): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace stripe.TerminalConfiguration
         /// <param name="importToId">The construct id used in the generated config for the TerminalConfiguration to import.</param>
         /// <param name="importFromId">The id of the existing TerminalConfiguration that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the TerminalConfiguration to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the TerminalConfiguration to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/terminal_configuration#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing TerminalConfiguration that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the TerminalConfiguration to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the TerminalConfiguration to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/terminal_configuration#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing TerminalConfiguration that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the TerminalConfiguration to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(stripe.TerminalConfiguration.TerminalConfiguration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -70,6 +70,12 @@ namespace stripe.TerminalConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.TerminalConfiguration.ITerminalConfigurationOffline)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putReaderSecurity", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationReaderSecurity\"}}]")]
+        public virtual void PutReaderSecurity(stripe.TerminalConfiguration.ITerminalConfigurationReaderSecurity @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.TerminalConfiguration.ITerminalConfigurationReaderSecurity)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putRebootWindow", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationRebootWindow\"}}]")]
         public virtual void PutRebootWindow(stripe.TerminalConfiguration.ITerminalConfigurationRebootWindow @value)
         {
@@ -86,6 +92,12 @@ namespace stripe.TerminalConfiguration
         public virtual void PutStripeS710(stripe.TerminalConfiguration.ITerminalConfigurationStripeS710 @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.TerminalConfiguration.ITerminalConfigurationStripeS710)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putStripeT600", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationStripeT600\"}}]")]
+        public virtual void PutStripeT600(stripe.TerminalConfiguration.ITerminalConfigurationStripeT600 @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.TerminalConfiguration.ITerminalConfigurationStripeT600)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTipping", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTipping\"}}]")]
@@ -160,6 +172,12 @@ namespace stripe.TerminalConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetReaderSecurity")]
+        public virtual void ResetReaderSecurity()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetRebootWindow")]
         public virtual void ResetRebootWindow()
         {
@@ -174,6 +192,12 @@ namespace stripe.TerminalConfiguration
 
         [JsiiMethod(name: "resetStripeS710")]
         public virtual void ResetStripeS710()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetStripeT600")]
+        public virtual void ResetStripeT600()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -287,6 +311,12 @@ namespace stripe.TerminalConfiguration
             get => GetInstanceProperty<stripe.TerminalConfiguration.TerminalConfigurationOfflineOutputReference>()!;
         }
 
+        [JsiiProperty(name: "readerSecurity", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationReaderSecurityOutputReference\"}")]
+        public virtual stripe.TerminalConfiguration.TerminalConfigurationReaderSecurityOutputReference ReaderSecurity
+        {
+            get => GetInstanceProperty<stripe.TerminalConfiguration.TerminalConfigurationReaderSecurityOutputReference>()!;
+        }
+
         [JsiiProperty(name: "rebootWindow", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationRebootWindowOutputReference\"}")]
         public virtual stripe.TerminalConfiguration.TerminalConfigurationRebootWindowOutputReference RebootWindow
         {
@@ -303,6 +333,12 @@ namespace stripe.TerminalConfiguration
         public virtual stripe.TerminalConfiguration.TerminalConfigurationStripeS710OutputReference StripeS710
         {
             get => GetInstanceProperty<stripe.TerminalConfiguration.TerminalConfigurationStripeS710OutputReference>()!;
+        }
+
+        [JsiiProperty(name: "stripeT600", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationStripeT600OutputReference\"}")]
+        public virtual stripe.TerminalConfiguration.TerminalConfigurationStripeT600OutputReference StripeT600
+        {
+            get => GetInstanceProperty<stripe.TerminalConfiguration.TerminalConfigurationStripeT600OutputReference>()!;
         }
 
         [JsiiProperty(name: "tipping", typeJson: "{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationTippingOutputReference\"}")]
@@ -395,6 +431,16 @@ namespace stripe.TerminalConfiguration
         }
 
         /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.TerminalConfiguration.ITerminalConfigurationReaderSecurity" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "readerSecurityInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationReaderSecurity\"}]}}", isOptional: true)]
+        public virtual object? ReaderSecurityInput
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.TerminalConfiguration.ITerminalConfigurationRebootWindow" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -420,6 +466,16 @@ namespace stripe.TerminalConfiguration
         [JsiiOptional]
         [JsiiProperty(name: "stripeS710Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationStripeS710\"}]}}", isOptional: true)]
         public virtual object? StripeS710Input
+        {
+            get => GetInstanceProperty<object?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.TerminalConfiguration.ITerminalConfigurationStripeT600" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "stripeT600Input", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.terminalConfiguration.TerminalConfigurationStripeT600\"}]}}", isOptional: true)]
+        public virtual object? StripeT600Input
         {
             get => GetInstanceProperty<object?>();
         }

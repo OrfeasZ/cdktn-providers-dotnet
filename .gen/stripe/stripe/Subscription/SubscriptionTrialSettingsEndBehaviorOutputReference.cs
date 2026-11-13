@@ -33,11 +33,37 @@ namespace stripe.Subscription
         {
         }
 
+        [JsiiMethod(name: "resetBillingCycleAnchor")]
+        public virtual void ResetBillingCycleAnchor()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMissingPaymentMethod")]
+        public virtual void ResetMissingPaymentMethod()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "billingCycleAnchorInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? BillingCycleAnchorInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "missingPaymentMethodInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? MissingPaymentMethodInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiProperty(name: "billingCycleAnchor", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string BillingCycleAnchor
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
         }
 
         [JsiiProperty(name: "missingPaymentMethod", typeJson: "{\"primitive\":\"string\"}")]

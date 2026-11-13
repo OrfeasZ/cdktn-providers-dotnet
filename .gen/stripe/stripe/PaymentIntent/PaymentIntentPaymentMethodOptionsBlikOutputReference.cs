@@ -33,8 +33,20 @@ namespace stripe.PaymentIntent
         {
         }
 
+        [JsiiMethod(name: "putMandateOptions", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsBlikMandateOptions\"}}]")]
+        public virtual void PutMandateOptions(stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsBlikMandateOptions @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsBlikMandateOptions)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetCode")]
         public virtual void ResetCode()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetMandateOptions")]
+        public virtual void ResetMandateOptions()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -45,11 +57,27 @@ namespace stripe.PaymentIntent
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "mandateOptions", typeJson: "{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsBlikMandateOptionsOutputReference\"}")]
+        public virtual stripe.PaymentIntent.PaymentIntentPaymentMethodOptionsBlikMandateOptionsOutputReference MandateOptions
+        {
+            get => GetInstanceProperty<stripe.PaymentIntent.PaymentIntentPaymentMethodOptionsBlikMandateOptionsOutputReference>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "codeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? CodeInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or <see cref="stripe.PaymentIntent.IPaymentIntentPaymentMethodOptionsBlikMandateOptions" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "mandateOptionsInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"fqn\":\"stripe.paymentIntent.PaymentIntentPaymentMethodOptionsBlikMandateOptions\"}]}}", isOptional: true)]
+        public virtual object? MandateOptionsInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         [JsiiOptional]

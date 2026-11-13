@@ -11,7 +11,7 @@ namespace stripe.Invoice
     {
         /// <summary>Type of installment plan, one of `fixed_count`, `bonus`, or `revolving`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#type Invoice#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#type Invoice#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -24,7 +24,7 @@ namespace stripe.Invoice
         /// <remarks>
         /// It represents the number of installment payments your customer will make to their credit card.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#count Invoice#count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#count Invoice#count}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "count", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -39,7 +39,7 @@ namespace stripe.Invoice
         /// It represents the interval between installment payments your customer will make to their credit card.
         /// One of <c>month</c>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.0/docs/resources/invoice#interval Invoice#interval}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/stripe/stripe/0.3.1/docs/resources/invoice#interval Invoice#interval}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "interval", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
