@@ -41,6 +41,18 @@ namespace azurerm.EventgridPartnerConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetPartnerName")]
+        public virtual void ResetPartnerName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetPartnerRegistrationId")]
+        public virtual void ResetPartnerRegistrationId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "authorizationExpirationTimeInUtcInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? AuthorizationExpirationTimeInUtcInput

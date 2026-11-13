@@ -5,7 +5,7 @@ namespace azurerm.DataProtectionBackupInstanceCosmosdbAccount
     /// <remarks>
     /// <h1><c>azurerm_data_protection_backup_instance_cosmosdb_account</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.13.0/docs/resources/data_protection_backup_instance_cosmosdb_account"><c>azurerm_data_protection_backup_instance_cosmosdb_account</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/data_protection_backup_instance_cosmosdb_account"><c>azurerm_data_protection_backup_instance_cosmosdb_account</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

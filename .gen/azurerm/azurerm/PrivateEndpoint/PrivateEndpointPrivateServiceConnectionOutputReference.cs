@@ -57,8 +57,26 @@ namespace azurerm.PrivateEndpoint
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "actionRequired", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ActionRequired
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Description
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "privateIpAddress", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string PrivateIpAddress
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "status", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Status
         {
             get => GetInstanceProperty<string>()!;
         }

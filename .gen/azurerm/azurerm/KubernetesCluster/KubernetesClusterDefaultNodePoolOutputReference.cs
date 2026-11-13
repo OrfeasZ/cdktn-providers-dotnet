@@ -51,6 +51,12 @@ namespace azurerm.KubernetesCluster
             InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.KubernetesCluster.IKubernetesClusterDefaultNodePoolNodeNetworkProfile)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putSecurity", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolSecurity\"}}]")]
+        public virtual void PutSecurity(azurerm.KubernetesCluster.IKubernetesClusterDefaultNodePoolSecurity @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(azurerm.KubernetesCluster.IKubernetesClusterDefaultNodePoolSecurity)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putUpgradeSettings", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolUpgradeSettings\"}}]")]
         public virtual void PutUpgradeSettings(azurerm.KubernetesCluster.IKubernetesClusterDefaultNodePoolUpgradeSettings @value)
         {
@@ -213,6 +219,12 @@ namespace azurerm.KubernetesCluster
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSecurity")]
+        public virtual void ResetSecurity()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetSnapshotId")]
         public virtual void ResetSnapshotId()
         {
@@ -289,6 +301,12 @@ namespace azurerm.KubernetesCluster
         public virtual azurerm.KubernetesCluster.KubernetesClusterDefaultNodePoolNodeNetworkProfileOutputReference NodeNetworkProfile
         {
             get => GetInstanceProperty<azurerm.KubernetesCluster.KubernetesClusterDefaultNodePoolNodeNetworkProfileOutputReference>()!;
+        }
+
+        [JsiiProperty(name: "security", typeJson: "{\"fqn\":\"azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolSecurityOutputReference\"}")]
+        public virtual azurerm.KubernetesCluster.KubernetesClusterDefaultNodePoolSecurityOutputReference Security
+        {
+            get => GetInstanceProperty<azurerm.KubernetesCluster.KubernetesClusterDefaultNodePoolSecurityOutputReference>()!;
         }
 
         [JsiiProperty(name: "upgradeSettings", typeJson: "{\"fqn\":\"azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolUpgradeSettingsOutputReference\"}")]
@@ -499,6 +517,13 @@ namespace azurerm.KubernetesCluster
         public virtual string? ScaleDownModeInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "securityInput", typeJson: "{\"fqn\":\"azurerm.kubernetesCluster.KubernetesClusterDefaultNodePoolSecurity\"}", isOptional: true)]
+        public virtual azurerm.KubernetesCluster.IKubernetesClusterDefaultNodePoolSecurity? SecurityInput
+        {
+            get => GetInstanceProperty<azurerm.KubernetesCluster.IKubernetesClusterDefaultNodePoolSecurity?>();
         }
 
         [JsiiOptional]
