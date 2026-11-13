@@ -9,7 +9,7 @@ namespace tailscale.TailnetSettings
     {
         /// <summary>Link to your external ACL definition or management system. Must be a valid URL.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#acls_external_link TailnetSettings#acls_external_link}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#acls_external_link TailnetSettings#acls_external_link}
         /// </remarks>
         [JsiiProperty(name: "aclsExternalLink", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -23,7 +23,7 @@ namespace tailscale.TailnetSettings
 
         /// <summary>Prevent users from editing policies in the admin console to avoid conflicts with external management workflows like GitOps or Terraform.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#acls_externally_managed_on TailnetSettings#acls_externally_managed_on}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#acls_externally_managed_on TailnetSettings#acls_externally_managed_on}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "aclsExternallyManagedOn", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -38,7 +38,7 @@ namespace tailscale.TailnetSettings
 
         /// <summary>Whether device approval is enabled for the tailnet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#devices_approval_on TailnetSettings#devices_approval_on}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#devices_approval_on TailnetSettings#devices_approval_on}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "devicesApprovalOn", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -53,7 +53,7 @@ namespace tailscale.TailnetSettings
 
         /// <summary>Whether auto updates are enabled for devices that belong to this tailnet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#devices_auto_updates_on TailnetSettings#devices_auto_updates_on}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#devices_auto_updates_on TailnetSettings#devices_auto_updates_on}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "devicesAutoUpdatesOn", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -68,7 +68,7 @@ namespace tailscale.TailnetSettings
 
         /// <summary>The key expiry duration for devices on this tailnet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#devices_key_duration_days TailnetSettings#devices_key_duration_days}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#devices_key_duration_days TailnetSettings#devices_key_duration_days}
         /// </remarks>
         [JsiiProperty(name: "devicesKeyDurationDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -82,7 +82,7 @@ namespace tailscale.TailnetSettings
 
         /// <summary>Whether provisioning of HTTPS certificates is enabled for the tailnet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#https_enabled TailnetSettings#https_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#https_enabled TailnetSettings#https_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "httpsEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -97,7 +97,7 @@ namespace tailscale.TailnetSettings
 
         /// <summary>Whether network flow logs are enabled for the tailnet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#network_flow_logging_on TailnetSettings#network_flow_logging_on}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#network_flow_logging_on TailnetSettings#network_flow_logging_on}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "networkFlowLoggingOn", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -112,7 +112,7 @@ namespace tailscale.TailnetSettings
 
         /// <summary>Whether identity collection is enabled for device posture integrations for the tailnet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#posture_identity_collection_on TailnetSettings#posture_identity_collection_on}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#posture_identity_collection_on TailnetSettings#posture_identity_collection_on}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "postureIdentityCollectionOn", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -127,7 +127,9 @@ namespace tailscale.TailnetSettings
 
         /// <summary>Whether regional routing is enabled for the tailnet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#regional_routing_on TailnetSettings#regional_routing_on}
+        /// This is a deprecated view of <c>route_selection</c>, and is equivalent to <c>route_selection = "regional-routing"</c>. Setting both <c>regional_routing_on</c> and <c>route_selection</c> in the same configuration is an error.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#regional_routing_on TailnetSettings#regional_routing_on}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "regionalRoutingOn", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -140,9 +142,25 @@ namespace tailscale.TailnetSettings
             }
         }
 
+        /// <summary>The route selection algorithm in use by the tailnet.</summary>
+        /// <remarks>
+        /// Supersedes the deprecated <c>regional_routing_on</c>; setting both in the same configuration is an error.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#route_selection TailnetSettings#route_selection}
+        /// </remarks>
+        [JsiiProperty(name: "routeSelection", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        string? RouteSelection
+        {
+            get
+            {
+                return null;
+            }
+        }
+
         /// <summary>Whether user approval is enabled for this tailnet.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#users_approval_on TailnetSettings#users_approval_on}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#users_approval_on TailnetSettings#users_approval_on}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "usersApprovalOn", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -157,7 +175,7 @@ namespace tailscale.TailnetSettings
 
         /// <summary>Which user roles are allowed to join external tailnets.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#users_role_allowed_to_join_external_tailnet TailnetSettings#users_role_allowed_to_join_external_tailnet}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#users_role_allowed_to_join_external_tailnet TailnetSettings#users_role_allowed_to_join_external_tailnet}
         /// </remarks>
         [JsiiProperty(name: "usersRoleAllowedToJoinExternalTailnet", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -178,7 +196,7 @@ namespace tailscale.TailnetSettings
 
             /// <summary>Link to your external ACL definition or management system. Must be a valid URL.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#acls_external_link TailnetSettings#acls_external_link}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#acls_external_link TailnetSettings#acls_external_link}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "aclsExternalLink", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -189,7 +207,7 @@ namespace tailscale.TailnetSettings
 
             /// <summary>Prevent users from editing policies in the admin console to avoid conflicts with external management workflows like GitOps or Terraform.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#acls_externally_managed_on TailnetSettings#acls_externally_managed_on}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#acls_externally_managed_on TailnetSettings#acls_externally_managed_on}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -201,7 +219,7 @@ namespace tailscale.TailnetSettings
 
             /// <summary>Whether device approval is enabled for the tailnet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#devices_approval_on TailnetSettings#devices_approval_on}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#devices_approval_on TailnetSettings#devices_approval_on}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -213,7 +231,7 @@ namespace tailscale.TailnetSettings
 
             /// <summary>Whether auto updates are enabled for devices that belong to this tailnet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#devices_auto_updates_on TailnetSettings#devices_auto_updates_on}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#devices_auto_updates_on TailnetSettings#devices_auto_updates_on}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -225,7 +243,7 @@ namespace tailscale.TailnetSettings
 
             /// <summary>The key expiry duration for devices on this tailnet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#devices_key_duration_days TailnetSettings#devices_key_duration_days}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#devices_key_duration_days TailnetSettings#devices_key_duration_days}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "devicesKeyDurationDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -236,7 +254,7 @@ namespace tailscale.TailnetSettings
 
             /// <summary>Whether provisioning of HTTPS certificates is enabled for the tailnet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#https_enabled TailnetSettings#https_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#https_enabled TailnetSettings#https_enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -248,7 +266,7 @@ namespace tailscale.TailnetSettings
 
             /// <summary>Whether network flow logs are enabled for the tailnet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#network_flow_logging_on TailnetSettings#network_flow_logging_on}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#network_flow_logging_on TailnetSettings#network_flow_logging_on}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -260,7 +278,7 @@ namespace tailscale.TailnetSettings
 
             /// <summary>Whether identity collection is enabled for device posture integrations for the tailnet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#posture_identity_collection_on TailnetSettings#posture_identity_collection_on}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#posture_identity_collection_on TailnetSettings#posture_identity_collection_on}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -272,7 +290,9 @@ namespace tailscale.TailnetSettings
 
             /// <summary>Whether regional routing is enabled for the tailnet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#regional_routing_on TailnetSettings#regional_routing_on}
+            /// This is a deprecated view of <c>route_selection</c>, and is equivalent to <c>route_selection = "regional-routing"</c>. Setting both <c>regional_routing_on</c> and <c>route_selection</c> in the same configuration is an error.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#regional_routing_on TailnetSettings#regional_routing_on}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -282,9 +302,22 @@ namespace tailscale.TailnetSettings
                 get => GetInstanceProperty<object?>();
             }
 
+            /// <summary>The route selection algorithm in use by the tailnet.</summary>
+            /// <remarks>
+            /// Supersedes the deprecated <c>regional_routing_on</c>; setting both in the same configuration is an error.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#route_selection TailnetSettings#route_selection}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "routeSelection", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+            public string? RouteSelection
+            {
+                get => GetInstanceProperty<string?>();
+            }
+
             /// <summary>Whether user approval is enabled for this tailnet.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#users_approval_on TailnetSettings#users_approval_on}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#users_approval_on TailnetSettings#users_approval_on}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -296,7 +329,7 @@ namespace tailscale.TailnetSettings
 
             /// <summary>Which user roles are allowed to join external tailnets.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.29.3/docs/resources/tailnet_settings#users_role_allowed_to_join_external_tailnet TailnetSettings#users_role_allowed_to_join_external_tailnet}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tailscale/tailscale/0.30.0/docs/resources/tailnet_settings#users_role_allowed_to_join_external_tailnet TailnetSettings#users_role_allowed_to_join_external_tailnet}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "usersRoleAllowedToJoinExternalTailnet", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
