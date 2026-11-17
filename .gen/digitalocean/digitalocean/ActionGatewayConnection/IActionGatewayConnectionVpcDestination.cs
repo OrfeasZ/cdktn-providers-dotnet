@@ -9,7 +9,7 @@ namespace digitalocean.ActionGatewayConnection
     {
         /// <summary>Host name or IP address that resolves only to private addresses.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.107.0/docs/resources/action_gateway_connection#host ActionGatewayConnection#host}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_connection#host ActionGatewayConnection#host}
         /// </remarks>
         [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
         string Host
@@ -19,7 +19,7 @@ namespace digitalocean.ActionGatewayConnection
 
         /// <summary>Destination port.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.107.0/docs/resources/action_gateway_connection#port ActionGatewayConnection#port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_connection#port ActionGatewayConnection#port}
         /// </remarks>
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
         double Port
@@ -29,7 +29,7 @@ namespace digitalocean.ActionGatewayConnection
 
         /// <summary>CIDR ranges that every address the host resolves to must fall within.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.107.0/docs/resources/action_gateway_connection#allowed_ip_cidrs ActionGatewayConnection#allowed_ip_cidrs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_connection#allowed_ip_cidrs ActionGatewayConnection#allowed_ip_cidrs}
         /// </remarks>
         [JsiiProperty(name: "allowedIpCidrs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,7 +50,7 @@ namespace digitalocean.ActionGatewayConnection
 
             /// <summary>Host name or IP address that resolves only to private addresses.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.107.0/docs/resources/action_gateway_connection#host ActionGatewayConnection#host}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_connection#host ActionGatewayConnection#host}
             /// </remarks>
             [JsiiProperty(name: "host", typeJson: "{\"primitive\":\"string\"}")]
             public string Host
@@ -60,7 +60,7 @@ namespace digitalocean.ActionGatewayConnection
 
             /// <summary>Destination port.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.107.0/docs/resources/action_gateway_connection#port ActionGatewayConnection#port}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_connection#port ActionGatewayConnection#port}
             /// </remarks>
             [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}")]
             public double Port
@@ -70,7 +70,7 @@ namespace digitalocean.ActionGatewayConnection
 
             /// <summary>CIDR ranges that every address the host resolves to must fall within.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.107.0/docs/resources/action_gateway_connection#allowed_ip_cidrs ActionGatewayConnection#allowed_ip_cidrs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_connection#allowed_ip_cidrs ActionGatewayConnection#allowed_ip_cidrs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "allowedIpCidrs", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
