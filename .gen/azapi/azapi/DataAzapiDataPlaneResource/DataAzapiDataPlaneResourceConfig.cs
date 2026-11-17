@@ -11,7 +11,7 @@ namespace azapi.DataAzapiDataPlaneResource
     {
         /// <summary>The ID of the azure resource in which this resource exists.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/data_plane_resource#parent_id DataAzapiDataPlaneResource#parent_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/data_plane_resource#parent_id DataAzapiDataPlaneResource#parent_id}
         /// </remarks>
         [JsiiProperty(name: "parentId", typeJson: "{\"primitive\":\"string\"}")]
         public string ParentId
@@ -24,7 +24,7 @@ namespace azapi.DataAzapiDataPlaneResource
         /// <remarks>
         /// <c>&lt;resource-type&gt;</c> is the Azure resource type, for example, <c>Microsoft.Storage/storageAccounts</c>. <c>&lt;api-version&gt;</c> is version of the API used to manage this azure resource. For a list of supported data plane resource types, see the <a href="https://registry.terraform.io/providers/Azure/azapi/latest/docs/resources/data_plane_resource#available-resources">Available Resources</a> documentation.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/data_plane_resource#type DataAzapiDataPlaneResource#type}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/data_plane_resource#type DataAzapiDataPlaneResource#type}
         /// </remarks>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
@@ -35,7 +35,7 @@ namespace azapi.DataAzapiDataPlaneResource
 
         /// <summary>Specifies the name (identifier segment) of the data plane resource.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/data_plane_resource#name DataAzapiDataPlaneResource#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/data_plane_resource#name DataAzapiDataPlaneResource#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -74,7 +74,7 @@ namespace azapi.DataAzapiDataPlaneResource
         ///
         /// To learn more about JMESPath, visit <a href="https://jmespath.org/">JMESPath</a>.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/data_plane_resource#response_export_values DataAzapiDataPlaneResource#response_export_values}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/data_plane_resource#response_export_values DataAzapiDataPlaneResource#response_export_values}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "responseExportValues", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"any\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -86,7 +86,7 @@ namespace azapi.DataAzapiDataPlaneResource
 
         /// <summary>The retry object supports the following attributes:.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/data_plane_resource#retry DataAzapiDataPlaneResource#retry}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/data_plane_resource#retry DataAzapiDataPlaneResource#retry}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "retry", typeJson: "{\"fqn\":\"azapi.dataAzapiDataPlaneResource.DataAzapiDataPlaneResourceRetry\"}", isOptional: true)]
@@ -98,7 +98,7 @@ namespace azapi.DataAzapiDataPlaneResource
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.13.0/docs/data-sources/data_plane_resource#timeouts DataAzapiDataPlaneResource#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/azure/azapi/2.14.0/docs/data-sources/data_plane_resource#timeouts DataAzapiDataPlaneResource#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azapi.dataAzapiDataPlaneResource.DataAzapiDataPlaneResourceTimeouts\"}", isOptional: true)]
