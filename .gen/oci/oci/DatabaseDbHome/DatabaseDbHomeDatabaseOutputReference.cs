@@ -225,12 +225,6 @@ namespace oci.DatabaseDbHome
             get => GetInstanceProperty<string>()!;
         }
 
-        [JsiiProperty(name: "oneOffPatches", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] OneOffPatches
-        {
-            get => GetInstanceProperty<string[]>()!;
-        }
-
         [JsiiProperty(name: "sidPrefix", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string SidPrefix
         {

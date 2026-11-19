@@ -179,6 +179,12 @@ namespace oci.DataOciDatabaseDbSystems
             get => GetInstanceProperty<oci.DataOciDatabaseDbSystems.DataOciDatabaseDbSystemsDbSystemsIormConfigCacheList>()!;
         }
 
+        [JsiiProperty(name: "isOlderVersionAcknowledged", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsOlderVersionAcknowledged
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string KmsKeyId
         {

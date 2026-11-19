@@ -41,6 +41,12 @@ namespace oci.DataOciDatabaseAutonomousDatabase
             get => GetInstanceProperty<double>()!;
         }
 
+        [JsiiProperty(name: "estimatedConcurrentSessions", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double EstimatedConcurrentSessions
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "isEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsEnabled
         {

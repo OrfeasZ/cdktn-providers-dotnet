@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.LustreFileStorageLustreFileSystem
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/lustre_file_storage_lustre_file_system oci_lustre_file_storage_lustre_file_system}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/lustre_file_storage_lustre_file_system oci_lustre_file_storage_lustre_file_system}.</summary>
     [JsiiClass(nativeType: typeof(oci.LustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystem), fullyQualifiedName: "oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystem", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemConfig\"}}]")]
     public class LustreFileStorageLustreFileSystem : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/lustre_file_storage_lustre_file_system oci_lustre_file_storage_lustre_file_system} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/lustre_file_storage_lustre_file_system oci_lustre_file_storage_lustre_file_system} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public LustreFileStorageLustreFileSystem(Constructs.Construct scope, string id, oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.LustreFileStorageLustreFileSystem
         /// <param name="importToId">The construct id used in the generated config for the LustreFileStorageLustreFileSystem to import.</param>
         /// <param name="importFromId">The id of the existing LustreFileStorageLustreFileSystem that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the LustreFileStorageLustreFileSystem to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the LustreFileStorageLustreFileSystem to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/lustre_file_storage_lustre_file_system#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing LustreFileStorageLustreFileSystem that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the LustreFileStorageLustreFileSystem to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the LustreFileStorageLustreFileSystem to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/lustre_file_storage_lustre_file_system#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing LustreFileStorageLustreFileSystem that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the LustreFileStorageLustreFileSystem to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.LustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystem), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -62,6 +62,12 @@ namespace oci.LustreFileStorageLustreFileSystem
         public virtual void PutRootSquashConfiguration(oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemRootSquashConfiguration @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemRootSquashConfiguration)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putTieringConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemTieringConfiguration\"}}]")]
+        public virtual void PutTieringConfiguration(oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemTieringConfiguration @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemTieringConfiguration)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemTimeouts\"}}]")]
@@ -138,6 +144,12 @@ namespace oci.LustreFileStorageLustreFileSystem
 
         [JsiiMethod(name: "resetSystemTags")]
         public virtual void ResetSystemTags()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTieringConfiguration")]
+        public virtual void ResetTieringConfiguration()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -219,6 +231,12 @@ namespace oci.LustreFileStorageLustreFileSystem
         public virtual string State
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "tieringConfiguration", typeJson: "{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemTieringConfigurationOutputReference\"}")]
+        public virtual oci.LustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemTieringConfigurationOutputReference TieringConfiguration
+        {
+            get => GetInstanceProperty<oci.LustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemTieringConfigurationOutputReference>()!;
         }
 
         [JsiiProperty(name: "timeBillingCycleEnd", typeJson: "{\"primitive\":\"string\"}")]
@@ -376,6 +394,13 @@ namespace oci.LustreFileStorageLustreFileSystem
         public virtual System.Collections.Generic.IDictionary<string, string>? SystemTagsInput
         {
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "tieringConfigurationInput", typeJson: "{\"fqn\":\"oci.lustreFileStorageLustreFileSystem.LustreFileStorageLustreFileSystemTieringConfiguration\"}", isOptional: true)]
+        public virtual oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemTieringConfiguration? TieringConfigurationInput
+        {
+            get => GetInstanceProperty<oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemTieringConfiguration?>();
         }
 
         /// <remarks>

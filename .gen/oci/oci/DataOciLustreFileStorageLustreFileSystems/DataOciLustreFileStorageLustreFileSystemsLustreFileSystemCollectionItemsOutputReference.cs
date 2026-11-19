@@ -185,6 +185,12 @@ namespace oci.DataOciLustreFileStorageLustreFileSystems
             get => GetInstanceProperty<Io.Cdktn.StringMap>()!;
         }
 
+        [JsiiProperty(name: "tieringConfiguration", typeJson: "{\"fqn\":\"oci.dataOciLustreFileStorageLustreFileSystems.DataOciLustreFileStorageLustreFileSystemsLustreFileSystemCollectionItemsTieringConfigurationList\"}")]
+        public virtual oci.DataOciLustreFileStorageLustreFileSystems.DataOciLustreFileStorageLustreFileSystemsLustreFileSystemCollectionItemsTieringConfigurationList TieringConfiguration
+        {
+            get => GetInstanceProperty<oci.DataOciLustreFileStorageLustreFileSystems.DataOciLustreFileStorageLustreFileSystemsLustreFileSystemCollectionItemsTieringConfigurationList>()!;
+        }
+
         [JsiiProperty(name: "timeBillingCycleEnd", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string TimeBillingCycleEnd
         {

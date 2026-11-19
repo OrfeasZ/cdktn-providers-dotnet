@@ -119,6 +119,12 @@ namespace oci.DataOciDatabaseDbHomes
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "isOlderVersionAcknowledged", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsOlderVersionAcknowledged
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "isUnifiedAuditingEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsUnifiedAuditingEnabled
         {
@@ -147,6 +153,12 @@ namespace oci.DataOciDatabaseDbHomes
         public virtual string LifecycleDetails
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "oneOffPatches", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
+        public virtual string[] OneOffPatches
+        {
+            get => GetInstanceProperty<string[]>()!;
         }
 
         [JsiiProperty(name: "source", typeJson: "{\"primitive\":\"string\"}")]

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DatabaseExadataInfrastructure
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_exadata_infrastructure oci_database_exadata_infrastructure}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/database_exadata_infrastructure oci_database_exadata_infrastructure}.</summary>
     [JsiiClass(nativeType: typeof(oci.DatabaseExadataInfrastructure.DatabaseExadataInfrastructure), fullyQualifiedName: "oci.databaseExadataInfrastructure.DatabaseExadataInfrastructure", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.databaseExadataInfrastructure.DatabaseExadataInfrastructureConfig\"}}]")]
     public class DatabaseExadataInfrastructure : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_exadata_infrastructure oci_database_exadata_infrastructure} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/database_exadata_infrastructure oci_database_exadata_infrastructure} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DatabaseExadataInfrastructure(Constructs.Construct scope, string id, oci.DatabaseExadataInfrastructure.IDatabaseExadataInfrastructureConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.DatabaseExadataInfrastructure
         /// <param name="importToId">The construct id used in the generated config for the DatabaseExadataInfrastructure to import.</param>
         /// <param name="importFromId">The id of the existing DatabaseExadataInfrastructure that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DatabaseExadataInfrastructure to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseExadataInfrastructure to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/database_exadata_infrastructure#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseExadataInfrastructure that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseExadataInfrastructure to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DatabaseExadataInfrastructure to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/database_exadata_infrastructure#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DatabaseExadataInfrastructure that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DatabaseExadataInfrastructure to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DatabaseExadataInfrastructure.DatabaseExadataInfrastructure), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -86,6 +86,12 @@ namespace oci.DatabaseExadataInfrastructure
         public virtual void PutNetworkBondingModeDetails(oci.DatabaseExadataInfrastructure.IDatabaseExadataInfrastructureNetworkBondingModeDetails @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseExadataInfrastructure.IDatabaseExadataInfrastructureNetworkBondingModeDetails)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putSslInspectionConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.databaseExadataInfrastructure.DatabaseExadataInfrastructureSslInspectionConfiguration\"}}]")]
+        public virtual void PutSslInspectionConfiguration(oci.DatabaseExadataInfrastructure.IDatabaseExadataInfrastructureSslInspectionConfiguration @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.DatabaseExadataInfrastructure.IDatabaseExadataInfrastructureSslInspectionConfiguration)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putTimeouts", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.databaseExadataInfrastructure.DatabaseExadataInfrastructureTimeouts\"}}]")]
@@ -186,6 +192,12 @@ namespace oci.DatabaseExadataInfrastructure
 
         [JsiiMethod(name: "resetNetworkBondingModeDetails")]
         public virtual void ResetNetworkBondingModeDetails()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetSslInspectionConfiguration")]
+        public virtual void ResetSslInspectionConfiguration()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -381,6 +393,12 @@ namespace oci.DatabaseExadataInfrastructure
         public virtual string RackSerialNumber
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "sslInspectionConfiguration", typeJson: "{\"fqn\":\"oci.databaseExadataInfrastructure.DatabaseExadataInfrastructureSslInspectionConfigurationOutputReference\"}")]
+        public virtual oci.DatabaseExadataInfrastructure.DatabaseExadataInfrastructureSslInspectionConfigurationOutputReference SslInspectionConfiguration
+        {
+            get => GetInstanceProperty<oci.DatabaseExadataInfrastructure.DatabaseExadataInfrastructureSslInspectionConfigurationOutputReference>()!;
         }
 
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
@@ -612,6 +630,13 @@ namespace oci.DatabaseExadataInfrastructure
         public virtual string? ShapeInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "sslInspectionConfigurationInput", typeJson: "{\"fqn\":\"oci.databaseExadataInfrastructure.DatabaseExadataInfrastructureSslInspectionConfiguration\"}", isOptional: true)]
+        public virtual oci.DatabaseExadataInfrastructure.IDatabaseExadataInfrastructureSslInspectionConfiguration? SslInspectionConfigurationInput
+        {
+            get => GetInstanceProperty<oci.DatabaseExadataInfrastructure.IDatabaseExadataInfrastructureSslInspectionConfiguration?>();
         }
 
         [JsiiOptional]

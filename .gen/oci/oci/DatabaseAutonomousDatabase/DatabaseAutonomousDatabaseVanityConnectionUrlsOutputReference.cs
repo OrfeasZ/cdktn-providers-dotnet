@@ -35,6 +35,12 @@ namespace oci.DatabaseAutonomousDatabase
         {
         }
 
+        [JsiiProperty(name: "a2AUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string A2AUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "apexUrl", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ApexUrl
         {
@@ -71,6 +77,12 @@ namespace oci.DatabaseAutonomousDatabase
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "mcpUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string McpUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "mongoDbUrl", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string MongoDbUrl
         {
@@ -79,6 +91,12 @@ namespace oci.DatabaseAutonomousDatabase
 
         [JsiiProperty(name: "ordsUrl", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string OrdsUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "spatialStudioUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SpatialStudioUrl
         {
             get => GetInstanceProperty<string>()!;
         }

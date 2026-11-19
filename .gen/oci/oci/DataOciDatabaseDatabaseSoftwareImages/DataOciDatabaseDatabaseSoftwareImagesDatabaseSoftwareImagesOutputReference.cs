@@ -101,6 +101,12 @@ namespace oci.DataOciDatabaseDatabaseSoftwareImages
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "isOlderVersionAcknowledged", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsOlderVersionAcknowledged
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiProperty(name: "isUpgradeSupported", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
         public virtual Io.Cdktn.IResolvable IsUpgradeSupported
         {

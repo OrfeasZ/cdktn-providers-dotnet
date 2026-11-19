@@ -9,7 +9,7 @@ namespace oci.CoreInstancePool
     [JsiiByValue(fqn: "oci.coreInstancePool.CoreInstancePoolOverridePolicyOverrideStatementsSelector")]
     public class CoreInstancePoolOverridePolicyOverrideStatementsSelector : oci.CoreInstancePool.ICoreInstancePoolOverridePolicyOverrideStatementsSelector
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/core_instance_pool#availability_domain CoreInstancePool#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/core_instance_pool#availability_domain CoreInstancePool#availability_domain}.</summary>
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
         public string AvailabilityDomain
         {

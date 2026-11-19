@@ -35,6 +35,12 @@ namespace oci.DataOciDatabaseAutonomousDatabasesClones
         {
         }
 
+        [JsiiProperty(name: "a2AUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string A2AUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "apexUrl", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ApexUrl
         {
@@ -67,6 +73,12 @@ namespace oci.DataOciDatabaseAutonomousDatabasesClones
 
         [JsiiProperty(name: "machineLearningUserManagementUrl", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string MachineLearningUserManagementUrl
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "mcpUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string McpUrl
         {
             get => GetInstanceProperty<string>()!;
         }

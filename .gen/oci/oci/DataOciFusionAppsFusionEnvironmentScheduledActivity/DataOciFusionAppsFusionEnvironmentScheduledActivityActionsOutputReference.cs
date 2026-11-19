@@ -41,6 +41,12 @@ namespace oci.DataOciFusionAppsFusionEnvironmentScheduledActivity
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "applicationType", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string ApplicationType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "artifact", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Artifact
         {
@@ -73,6 +79,24 @@ namespace oci.DataOciFusionAppsFusionEnvironmentScheduledActivity
 
         [JsiiProperty(name: "referenceKey", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string ReferenceKey
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "sourceEnvironmentId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SourceEnvironmentId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "sourceEnvironmentName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SourceEnvironmentName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "sourceEnvironmentUrl", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SourceEnvironmentUrl
         {
             get => GetInstanceProperty<string>()!;
         }

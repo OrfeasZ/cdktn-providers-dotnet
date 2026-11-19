@@ -33,8 +33,20 @@ namespace oci.LoadBalancerBackendSet
         {
         }
 
+        [JsiiMethod(name: "resetDefaultWeight")]
+        public virtual void ResetDefaultWeight()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetIntervalMs")]
         public virtual void ResetIntervalMs()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetIsDynamicBackendWeightEnabled")]
+        public virtual void ResetIsDynamicBackendWeightEnabled()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -82,10 +94,27 @@ namespace oci.LoadBalancerBackendSet
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "defaultWeightInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? DefaultWeightInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "intervalMsInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? IntervalMsInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "isDynamicBackendWeightEnabledInput", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public virtual object? IsDynamicBackendWeightEnabledInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>
@@ -147,11 +176,48 @@ namespace oci.LoadBalancerBackendSet
             get => GetInstanceProperty<string?>();
         }
 
+        [JsiiProperty(name: "defaultWeight", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double DefaultWeight
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "intervalMs", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double IntervalMs
         {
             get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
+        }
+
+        /// <remarks>
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiProperty(name: "isDynamicBackendWeightEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}")]
+        public virtual object IsDynamicBackendWeightEnabled
+        {
+            get => GetInstanceProperty<object>()!;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received null", nameof(value));
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                SetInstanceProperty(value);
+            }
         }
 
         /// <remarks>

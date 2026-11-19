@@ -7,7 +7,7 @@ namespace oci.CoreInstancePool
     [JsiiInterface(nativeType: typeof(ICoreInstancePoolOverridePolicyOverrideStatementsSelector), fullyQualifiedName: "oci.coreInstancePool.CoreInstancePoolOverridePolicyOverrideStatementsSelector")]
     public interface ICoreInstancePoolOverridePolicyOverrideStatementsSelector
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/core_instance_pool#availability_domain CoreInstancePool#availability_domain}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/core_instance_pool#availability_domain CoreInstancePool#availability_domain}.</summary>
         [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
         string AvailabilityDomain
         {
@@ -21,7 +21,7 @@ namespace oci.CoreInstancePool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/resources/core_instance_pool#availability_domain CoreInstancePool#availability_domain}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/core_instance_pool#availability_domain CoreInstancePool#availability_domain}.</summary>
             [JsiiProperty(name: "availabilityDomain", typeJson: "{\"primitive\":\"string\"}")]
             public string AvailabilityDomain
             {

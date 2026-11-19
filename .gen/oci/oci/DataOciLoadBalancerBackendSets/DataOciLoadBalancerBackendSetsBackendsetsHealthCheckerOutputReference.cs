@@ -35,10 +35,22 @@ namespace oci.DataOciLoadBalancerBackendSets
         {
         }
 
+        [JsiiProperty(name: "defaultWeight", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double DefaultWeight
+        {
+            get => GetInstanceProperty<double>()!;
+        }
+
         [JsiiProperty(name: "intervalMs", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double IntervalMs
         {
             get => GetInstanceProperty<double>()!;
+        }
+
+        [JsiiProperty(name: "isDynamicBackendWeightEnabled", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsDynamicBackendWeightEnabled
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
         [JsiiProperty(name: "isForcePlainText", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]

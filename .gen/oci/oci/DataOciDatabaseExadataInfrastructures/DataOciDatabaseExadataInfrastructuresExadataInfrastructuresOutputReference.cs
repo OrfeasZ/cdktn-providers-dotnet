@@ -329,6 +329,12 @@ namespace oci.DataOciDatabaseExadataInfrastructures
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "sslInspectionConfiguration", typeJson: "{\"fqn\":\"oci.dataOciDatabaseExadataInfrastructures.DataOciDatabaseExadataInfrastructuresExadataInfrastructuresSslInspectionConfigurationList\"}")]
+        public virtual oci.DataOciDatabaseExadataInfrastructures.DataOciDatabaseExadataInfrastructuresExadataInfrastructuresSslInspectionConfigurationList SslInspectionConfiguration
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseExadataInfrastructures.DataOciDatabaseExadataInfrastructuresExadataInfrastructuresSslInspectionConfigurationList>()!;
+        }
+
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string State
         {

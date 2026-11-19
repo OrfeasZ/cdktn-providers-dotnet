@@ -4,19 +4,19 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.DataOciOcvpDatastoreClusters
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/ocvp_datastore_clusters oci_ocvp_datastore_clusters}.</summary>
-    [JsiiClass(nativeType: typeof(oci.DataOciOcvpDatastoreClusters.DataOciOcvpDatastoreClusters), fullyQualifiedName: "oci.dataOciOcvpDatastoreClusters.DataOciOcvpDatastoreClusters", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.dataOciOcvpDatastoreClusters.DataOciOcvpDatastoreClustersConfig\"}}]")]
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/data-sources/ocvp_datastore_clusters oci_ocvp_datastore_clusters}.</summary>
+    [JsiiClass(nativeType: typeof(oci.DataOciOcvpDatastoreClusters.DataOciOcvpDatastoreClusters), fullyQualifiedName: "oci.dataOciOcvpDatastoreClusters.DataOciOcvpDatastoreClusters", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"oci.dataOciOcvpDatastoreClusters.DataOciOcvpDatastoreClustersConfig\"}}]")]
     public class DataOciOcvpDatastoreClusters : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/ocvp_datastore_clusters oci_ocvp_datastore_clusters} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/data-sources/ocvp_datastore_clusters oci_ocvp_datastore_clusters} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
-        public DataOciOcvpDatastoreClusters(Constructs.Construct scope, string id, oci.DataOciOcvpDatastoreClusters.IDataOciOcvpDatastoreClustersConfig config): base(_MakeDeputyProps(scope, id, config))
+        public DataOciOcvpDatastoreClusters(Constructs.Construct scope, string id, oci.DataOciOcvpDatastoreClusters.IDataOciOcvpDatastoreClustersConfig? config = null): base(_MakeDeputyProps(scope, id, config))
         {
         }
 
         [System.Runtime.CompilerServices.MethodImpl(System.Runtime.CompilerServices.MethodImplOptions.AggressiveInlining)]
-        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, oci.DataOciOcvpDatastoreClusters.IDataOciOcvpDatastoreClustersConfig config)
+        private static DeputyProps _MakeDeputyProps(Constructs.Construct scope, string id, oci.DataOciOcvpDatastoreClusters.IDataOciOcvpDatastoreClustersConfig? config = null)
         {
             return new DeputyProps(new object?[]{scope, id, config});
         }
@@ -40,7 +40,7 @@ namespace oci.DataOciOcvpDatastoreClusters
         /// <param name="importToId">The construct id used in the generated config for the DataOciOcvpDatastoreClusters to import.</param>
         /// <param name="importFromId">The id of the existing DataOciOcvpDatastoreClusters that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataOciOcvpDatastoreClusters to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciOcvpDatastoreClusters to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/9.13.0/docs/data-sources/ocvp_datastore_clusters#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciOcvpDatastoreClusters that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciOcvpDatastoreClusters to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataOciOcvpDatastoreClusters to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/data-sources/ocvp_datastore_clusters#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataOciOcvpDatastoreClusters that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataOciOcvpDatastoreClusters to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.DataOciOcvpDatastoreClusters.DataOciOcvpDatastoreClusters), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -72,6 +72,12 @@ namespace oci.DataOciOcvpDatastoreClusters
 
         [JsiiMethod(name: "resetClusterId")]
         public virtual void ResetClusterId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCompartmentId")]
+        public virtual void ResetCompartmentId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }

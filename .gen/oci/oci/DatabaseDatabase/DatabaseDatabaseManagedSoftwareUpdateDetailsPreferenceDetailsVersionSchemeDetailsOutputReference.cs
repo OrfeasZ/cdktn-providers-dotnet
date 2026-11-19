@@ -53,6 +53,12 @@ namespace oci.DatabaseDatabase
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "isOlderVersionAcknowledged", typeJson: "{\"fqn\":\"cdktn.IResolvable\"}")]
+        public virtual Io.Cdktn.IResolvable IsOlderVersionAcknowledged
+        {
+            get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "majorVersionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? MajorVersionInput

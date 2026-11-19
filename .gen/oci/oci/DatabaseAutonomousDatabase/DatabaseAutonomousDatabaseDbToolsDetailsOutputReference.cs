@@ -41,6 +41,12 @@ namespace oci.DatabaseAutonomousDatabase
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetEstimatedConcurrentSessions")]
+        public virtual void ResetEstimatedConcurrentSessions()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetIsEnabled")]
         public virtual void ResetIsEnabled()
         {
@@ -56,6 +62,13 @@ namespace oci.DatabaseAutonomousDatabase
         [JsiiOptional]
         [JsiiProperty(name: "computeCountInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? ComputeCountInput
+        {
+            get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "estimatedConcurrentSessionsInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
+        public virtual double? EstimatedConcurrentSessionsInput
         {
             get => GetInstanceProperty<double?>();
         }
@@ -86,6 +99,13 @@ namespace oci.DatabaseAutonomousDatabase
 
         [JsiiProperty(name: "computeCount", typeJson: "{\"primitive\":\"number\"}")]
         public virtual double ComputeCount
+        {
+            get => GetInstanceProperty<double>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "estimatedConcurrentSessions", typeJson: "{\"primitive\":\"number\"}")]
+        public virtual double EstimatedConcurrentSessions
         {
             get => GetInstanceProperty<double>()!;
             set => SetInstanceProperty(value);
