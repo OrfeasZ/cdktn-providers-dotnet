@@ -95,10 +95,10 @@ namespace scaleway.DomainRegistration
             get => GetInstanceProperty<scaleway.DomainRegistration.DomainRegistrationTechnicalContactExtensionFrList>()!;
         }
 
-        [JsiiProperty(name: "extensionNl", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] ExtensionNl
+        [JsiiProperty(name: "extensionNl", typeJson: "{\"fqn\":\"scaleway.domainRegistration.DomainRegistrationTechnicalContactExtensionNlList\"}")]
+        public virtual scaleway.DomainRegistration.DomainRegistrationTechnicalContactExtensionNlList ExtensionNl
         {
-            get => GetInstanceProperty<string[]>()!;
+            get => GetInstanceProperty<scaleway.DomainRegistration.DomainRegistrationTechnicalContactExtensionNlList>()!;
         }
 
         [JsiiProperty(name: "faxNumber", typeJson: "{\"primitive\":\"string\"}")]

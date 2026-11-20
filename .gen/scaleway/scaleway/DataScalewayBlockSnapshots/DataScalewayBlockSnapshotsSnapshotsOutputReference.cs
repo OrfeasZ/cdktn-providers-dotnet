@@ -41,6 +41,12 @@ namespace scaleway.DataScalewayBlockSnapshots
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string KmsKeyId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Name
         {

@@ -11,7 +11,7 @@ namespace scaleway.BlockVolume
     {
         /// <summary>The maximum IO/s expected, must match available options.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/block_volume#iops BlockVolume#iops}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/block_volume#iops BlockVolume#iops}
         /// </remarks>
         [JsiiProperty(name: "iops", typeJson: "{\"primitive\":\"number\"}")]
         public double Iops
@@ -22,7 +22,7 @@ namespace scaleway.BlockVolume
 
         /// <summary>The instance volume to create the block volume from.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/block_volume#instance_volume_id BlockVolume#instance_volume_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/block_volume#instance_volume_id BlockVolume#instance_volume_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "instanceVolumeId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -32,9 +32,23 @@ namespace scaleway.BlockVolume
             set;
         }
 
+        /// <summary>UUID of the KMS key used to protect the volume's encryption.</summary>
+        /// <remarks>
+        /// Using this field will encrypt the new volume. Only available to the Private Beta's users. The KMS key must use symmetric encryption with the "AES-256-GCM" algorithm
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/block_volume#kms_key_id BlockVolume#kms_key_id}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "kmsKeyId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public string? KmsKeyId
+        {
+            get;
+            set;
+        }
+
         /// <summary>The volume name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/block_volume#name BlockVolume#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/block_volume#name BlockVolume#name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -46,7 +60,7 @@ namespace scaleway.BlockVolume
 
         /// <summary>The project ID the volume belongs to. Defaults to the provider's project ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/block_volume#project_id BlockVolume#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/block_volume#project_id BlockVolume#project_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +72,7 @@ namespace scaleway.BlockVolume
 
         /// <summary>The volume size in GB. Defaults to 5GB, or to the snapshot's size if `snapshot_id` is specified.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/block_volume#size_in_gb BlockVolume#size_in_gb}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/block_volume#size_in_gb BlockVolume#size_in_gb}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sizeInGb", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -70,7 +84,7 @@ namespace scaleway.BlockVolume
 
         /// <summary>The snapshot to create the volume from.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/block_volume#snapshot_id BlockVolume#snapshot_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/block_volume#snapshot_id BlockVolume#snapshot_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "snapshotId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -82,7 +96,7 @@ namespace scaleway.BlockVolume
 
         /// <summary>The tags associated with the volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/block_volume#tags BlockVolume#tags}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/block_volume#tags BlockVolume#tags}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -94,7 +108,7 @@ namespace scaleway.BlockVolume
 
         /// <summary>The zone you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/block_volume#zone BlockVolume#zone}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/block_volume#zone BlockVolume#zone}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "zone", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

@@ -45,6 +45,12 @@ namespace scaleway.DomainRegistration
             InvokeInstanceVoidMethod(new System.Type[]{typeof(scaleway.DomainRegistration.IDomainRegistrationOwnerContactExtensionFr)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "putExtensionNl", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"scaleway.domainRegistration.DomainRegistrationOwnerContactExtensionNl\"}}]")]
+        public virtual void PutExtensionNl(scaleway.DomainRegistration.IDomainRegistrationOwnerContactExtensionNl @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(scaleway.DomainRegistration.IDomainRegistrationOwnerContactExtensionNl)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetAddressLine2")]
         public virtual void ResetAddressLine2()
         {
@@ -135,6 +141,12 @@ namespace scaleway.DomainRegistration
             get => GetInstanceProperty<scaleway.DomainRegistration.DomainRegistrationOwnerContactExtensionFrOutputReference>()!;
         }
 
+        [JsiiProperty(name: "extensionNl", typeJson: "{\"fqn\":\"scaleway.domainRegistration.DomainRegistrationOwnerContactExtensionNlOutputReference\"}")]
+        public virtual scaleway.DomainRegistration.DomainRegistrationOwnerContactExtensionNlOutputReference ExtensionNl
+        {
+            get => GetInstanceProperty<scaleway.DomainRegistration.DomainRegistrationOwnerContactExtensionNlOutputReference>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "addressLine1Input", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? AddressLine1Input
@@ -206,10 +218,10 @@ namespace scaleway.DomainRegistration
         }
 
         [JsiiOptional]
-        [JsiiProperty(name: "extensionNlInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
-        public virtual string[]? ExtensionNlInput
+        [JsiiProperty(name: "extensionNlInput", typeJson: "{\"fqn\":\"scaleway.domainRegistration.DomainRegistrationOwnerContactExtensionNl\"}", isOptional: true)]
+        public virtual scaleway.DomainRegistration.IDomainRegistrationOwnerContactExtensionNl? ExtensionNlInput
         {
-            get => GetInstanceProperty<string[]?>();
+            get => GetInstanceProperty<scaleway.DomainRegistration.IDomainRegistrationOwnerContactExtensionNl?>();
         }
 
         [JsiiOptional]
@@ -348,13 +360,6 @@ namespace scaleway.DomainRegistration
         public virtual string EmailAlt
         {
             get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "extensionNl", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
-        public virtual string[] ExtensionNl
-        {
-            get => GetInstanceProperty<string[]>()!;
             set => SetInstanceProperty(value);
         }
 

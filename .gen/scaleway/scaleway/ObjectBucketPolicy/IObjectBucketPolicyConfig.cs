@@ -9,7 +9,7 @@ namespace scaleway.ObjectBucketPolicy
     {
         /// <summary>The bucket's name or regional ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/object_bucket_policy#bucket ObjectBucketPolicy#bucket}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/object_bucket_policy#bucket ObjectBucketPolicy#bucket}
         /// </remarks>
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         string Bucket
@@ -19,7 +19,7 @@ namespace scaleway.ObjectBucketPolicy
 
         /// <summary>The text of the policy.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/object_bucket_policy#policy ObjectBucketPolicy#policy}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/object_bucket_policy#policy ObjectBucketPolicy#policy}
         /// </remarks>
         [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}")]
         string Policy
@@ -27,24 +27,9 @@ namespace scaleway.ObjectBucketPolicy
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/object_bucket_policy#id ObjectBucketPolicy#id}.</summary>
+        /// <summary>The project ID the bucket belongs to.</summary>
         /// <remarks>
-        /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-        /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-        /// </remarks>
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        string? Id
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>The project_id you want to attach the resource to.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/object_bucket_policy#project_id ObjectBucketPolicy#project_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/object_bucket_policy#project_id ObjectBucketPolicy#project_id}
         /// </remarks>
         [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -58,25 +43,11 @@ namespace scaleway.ObjectBucketPolicy
 
         /// <summary>The region you want to attach the resource to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/object_bucket_policy#region ObjectBucketPolicy#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/object_bucket_policy#region ObjectBucketPolicy#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Region
-        {
-            get
-            {
-                return null;
-            }
-        }
-
-        /// <summary>timeouts block.</summary>
-        /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/object_bucket_policy#timeouts ObjectBucketPolicy#timeouts}
-        /// </remarks>
-        [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.objectBucketPolicy.ObjectBucketPolicyTimeouts\"}", isOptional: true)]
-        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
-        scaleway.ObjectBucketPolicy.IObjectBucketPolicyTimeouts? Timeouts
         {
             get
             {
@@ -93,7 +64,7 @@ namespace scaleway.ObjectBucketPolicy
 
             /// <summary>The bucket's name or regional ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/object_bucket_policy#bucket ObjectBucketPolicy#bucket}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/object_bucket_policy#bucket ObjectBucketPolicy#bucket}
             /// </remarks>
             [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
             public string Bucket
@@ -103,7 +74,7 @@ namespace scaleway.ObjectBucketPolicy
 
             /// <summary>The text of the policy.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/object_bucket_policy#policy ObjectBucketPolicy#policy}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/object_bucket_policy#policy ObjectBucketPolicy#policy}
             /// </remarks>
             [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}")]
             public string Policy
@@ -111,21 +82,9 @@ namespace scaleway.ObjectBucketPolicy
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/object_bucket_policy#id ObjectBucketPolicy#id}.</summary>
+            /// <summary>The project ID the bucket belongs to.</summary>
             /// <remarks>
-            /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-            /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-            public string? Id
-            {
-                get => GetInstanceProperty<string?>();
-            }
-
-            /// <summary>The project_id you want to attach the resource to.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/object_bucket_policy#project_id ObjectBucketPolicy#project_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/object_bucket_policy#project_id ObjectBucketPolicy#project_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "projectId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -136,24 +95,13 @@ namespace scaleway.ObjectBucketPolicy
 
             /// <summary>The region you want to attach the resource to.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/object_bucket_policy#region ObjectBucketPolicy#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/object_bucket_policy#region ObjectBucketPolicy#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Region
             {
                 get => GetInstanceProperty<string?>();
-            }
-
-            /// <summary>timeouts block.</summary>
-            /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/object_bucket_policy#timeouts ObjectBucketPolicy#timeouts}
-            /// </remarks>
-            [JsiiOptional]
-            [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"scaleway.objectBucketPolicy.ObjectBucketPolicyTimeouts\"}", isOptional: true)]
-            public scaleway.ObjectBucketPolicy.IObjectBucketPolicyTimeouts? Timeouts
-            {
-                get => GetInstanceProperty<scaleway.ObjectBucketPolicy.IObjectBucketPolicyTimeouts?>();
             }
 
             /// <remarks>

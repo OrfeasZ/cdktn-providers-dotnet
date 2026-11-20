@@ -11,7 +11,7 @@ namespace scaleway.Mailbox
     {
         /// <summary>ID of the mailbox domain to which this mailbox belongs.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/mailbox#domain_id Mailbox#domain_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/mailbox#domain_id Mailbox#domain_id}
         /// </remarks>
         [JsiiProperty(name: "domainId", typeJson: "{\"primitive\":\"string\"}")]
         public string DomainId
@@ -24,7 +24,7 @@ namespace scaleway.Mailbox
         /// <remarks>
         /// <strong></strong>: ). Changing this forces a new mailbox.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/mailbox#local_part Mailbox#local_part}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/mailbox#local_part Mailbox#local_part}
         /// </remarks>
         [JsiiProperty(name: "localPart", typeJson: "{\"primitive\":\"string\"}")]
         public string LocalPart
@@ -35,7 +35,7 @@ namespace scaleway.Mailbox
 
         /// <summary>Billing subscription period: monthly or yearly. Updating this value changes the next renewal period.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/mailbox#subscription_period Mailbox#subscription_period}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/mailbox#subscription_period Mailbox#subscription_period}
         /// </remarks>
         [JsiiProperty(name: "subscriptionPeriod", typeJson: "{\"primitive\":\"string\"}")]
         public string SubscriptionPeriod
@@ -44,9 +44,81 @@ namespace scaleway.Mailbox
             set;
         }
 
+        private object? _forwardingEnabled;
+
+        /// <summary>Whether email forwarding is enabled for this mailbox.</summary>
+        /// <remarks>
+        /// When false, no forwarding rules deliver mail. Defaults to false when omitted.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/mailbox#forwarding_enabled Mailbox#forwarding_enabled}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "forwardingEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public object? ForwardingEnabled
+        {
+            get => _forwardingEnabled;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _forwardingEnabled = value;
+            }
+        }
+
+        private object? _forwardingKeepCopy;
+
+        /// <summary>Whether to keep a copy of forwarded emails in this mailbox. Defaults to false when omitted.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/mailbox#forwarding_keep_copy Mailbox#forwarding_keep_copy}
+        /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "forwardingKeepCopy", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
+        public object? ForwardingKeepCopy
+        {
+            get => _forwardingKeepCopy;
+            set
+            {
+                if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+                {
+                    switch (value)
+                    {
+                        case bool cast_cd4240:
+                            break;
+                        case Io.Cdktn.IResolvable cast_cd4240:
+                            break;
+                        case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_cd4240:
+                            // Not enough information to type-check...
+                            break;
+                        case null:
+                            break;
+                        default:
+                            throw new System.ArgumentException($"Expected {nameof(value)} to be one of: bool, {typeof(Io.Cdktn.IResolvable).FullName}; received {value.GetType().FullName}", nameof(value));
+                    }
+                }
+                _forwardingKeepCopy = value;
+            }
+        }
+
         /// <summary>Password for the mailbox. Only one of `password` or `password_wo` should be specified.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/mailbox#password Mailbox#password}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/mailbox#password Mailbox#password}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -58,7 +130,7 @@ namespace scaleway.Mailbox
 
         /// <summary>Password in [write-only](https://registry.terraform.io/providers/scaleway/scaleway/latest/docs/guides/using-write-only-arguments) mode. Only one of `password` or `password_wo` should be specified. To update `password_wo`, also update `password_wo_version`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/mailbox#password_wo Mailbox#password_wo}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/mailbox#password_wo Mailbox#password_wo}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "passwordWo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -70,7 +142,7 @@ namespace scaleway.Mailbox
 
         /// <summary>Version of the write-only password. Bump this value together with `password_wo` to rotate the password.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/resources/mailbox#password_wo_version Mailbox#password_wo_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/resources/mailbox#password_wo_version Mailbox#password_wo_version}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "passwordWoVersion", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

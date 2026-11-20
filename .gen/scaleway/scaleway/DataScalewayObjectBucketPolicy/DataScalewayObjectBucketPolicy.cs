@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace scaleway.DataScalewayObjectBucketPolicy
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/data-sources/object_bucket_policy scaleway_object_bucket_policy}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/data-sources/object_bucket_policy scaleway_object_bucket_policy}.</summary>
     [JsiiClass(nativeType: typeof(scaleway.DataScalewayObjectBucketPolicy.DataScalewayObjectBucketPolicy), fullyQualifiedName: "scaleway.dataScalewayObjectBucketPolicy.DataScalewayObjectBucketPolicy", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"scaleway.dataScalewayObjectBucketPolicy.DataScalewayObjectBucketPolicyConfig\"}}]")]
     public class DataScalewayObjectBucketPolicy : Io.Cdktn.TerraformDataSource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/data-sources/object_bucket_policy scaleway_object_bucket_policy} Data Source.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/data-sources/object_bucket_policy scaleway_object_bucket_policy} Data Source.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public DataScalewayObjectBucketPolicy(Constructs.Construct scope, string id, scaleway.DataScalewayObjectBucketPolicy.IDataScalewayObjectBucketPolicyConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,16 +40,10 @@ namespace scaleway.DataScalewayObjectBucketPolicy
         /// <param name="importToId">The construct id used in the generated config for the DataScalewayObjectBucketPolicy to import.</param>
         /// <param name="importFromId">The id of the existing DataScalewayObjectBucketPolicy that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the DataScalewayObjectBucketPolicy to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataScalewayObjectBucketPolicy to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.92.1/docs/data-sources/object_bucket_policy#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataScalewayObjectBucketPolicy that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataScalewayObjectBucketPolicy to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the DataScalewayObjectBucketPolicy to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/scaleway/scaleway/2.93.0/docs/data-sources/object_bucket_policy#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing DataScalewayObjectBucketPolicy that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the DataScalewayObjectBucketPolicy to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(scaleway.DataScalewayObjectBucketPolicy.DataScalewayObjectBucketPolicy), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
-        }
-
-        [JsiiMethod(name: "resetId")]
-        public virtual void ResetId()
-        {
-            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetProjectId")]
@@ -83,6 +77,12 @@ namespace scaleway.DataScalewayObjectBucketPolicy
         }
         = GetStaticProperty<string>(typeof(scaleway.DataScalewayObjectBucketPolicy.DataScalewayObjectBucketPolicy))!;
 
+        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Id
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Policy
         {
@@ -92,13 +92,6 @@ namespace scaleway.DataScalewayObjectBucketPolicy
         [JsiiOptional]
         [JsiiProperty(name: "bucketInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? BucketInput
-        {
-            get => GetInstanceProperty<string?>();
-        }
-
-        [JsiiOptional]
-        [JsiiProperty(name: "idInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
-        public virtual string? IdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -119,13 +112,6 @@ namespace scaleway.DataScalewayObjectBucketPolicy
 
         [JsiiProperty(name: "bucket", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Bucket
-        {
-            get => GetInstanceProperty<string>()!;
-            set => SetInstanceProperty(value);
-        }
-
-        [JsiiProperty(name: "id", typeJson: "{\"primitive\":\"string\"}")]
-        public virtual string Id
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
