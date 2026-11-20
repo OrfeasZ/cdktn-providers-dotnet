@@ -11,7 +11,7 @@ namespace digitalocean.ActionGatewayEndpoint
 
         /// <summary>Whether the endpoint's logs are sent to Insights. Your team can require this to be on.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_endpoint#logs ActionGatewayEndpoint#logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_endpoint#logs ActionGatewayEndpoint#logs}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -46,7 +46,7 @@ namespace digitalocean.ActionGatewayEndpoint
 
         /// <summary>Whether the endpoint's metrics are sent to Insights.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_endpoint#metrics ActionGatewayEndpoint#metrics}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_endpoint#metrics ActionGatewayEndpoint#metrics}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -81,7 +81,7 @@ namespace digitalocean.ActionGatewayEndpoint
 
         /// <summary>Whether the endpoint's traces are sent to Insights.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_endpoint#traces ActionGatewayEndpoint#traces}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_endpoint#traces ActionGatewayEndpoint#traces}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

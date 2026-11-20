@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanActionGatewayProviders
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanActionGatewayProviders.DataDigitaloceanActionGatewayProvidersFilter")]
     public class DataDigitaloceanActionGatewayProvidersFilter : digitalocean.DataDigitaloceanActionGatewayProviders.IDataDigitaloceanActionGatewayProvidersFilter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/data-sources/action_gateway_providers#key DataDigitaloceanActionGatewayProviders#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/data-sources/action_gateway_providers#key DataDigitaloceanActionGatewayProviders#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanActionGatewayProviders
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/data-sources/action_gateway_providers#values DataDigitaloceanActionGatewayProviders#values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/data-sources/action_gateway_providers#values DataDigitaloceanActionGatewayProviders#values}.</summary>
         [JsiiProperty(name: "values", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] Values
         {
@@ -27,7 +27,7 @@ namespace digitalocean.DataDigitaloceanActionGatewayProviders
 
         private object? _all;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/data-sources/action_gateway_providers#all DataDigitaloceanActionGatewayProviders#all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/data-sources/action_gateway_providers#all DataDigitaloceanActionGatewayProviders#all}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -59,7 +59,7 @@ namespace digitalocean.DataDigitaloceanActionGatewayProviders
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/data-sources/action_gateway_providers#match_by DataDigitaloceanActionGatewayProviders#match_by}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/data-sources/action_gateway_providers#match_by DataDigitaloceanActionGatewayProviders#match_by}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "matchBy", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MatchBy

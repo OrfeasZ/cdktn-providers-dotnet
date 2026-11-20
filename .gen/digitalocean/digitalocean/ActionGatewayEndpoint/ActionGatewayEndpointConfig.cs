@@ -11,7 +11,7 @@ namespace digitalocean.ActionGatewayEndpoint
     {
         /// <summary>Name of the endpoint, unique among your team's endpoints.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_endpoint#name ActionGatewayEndpoint#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_endpoint#name ActionGatewayEndpoint#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -22,7 +22,7 @@ namespace digitalocean.ActionGatewayEndpoint
 
         /// <summary>version block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_endpoint#version ActionGatewayEndpoint#version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_endpoint#version ActionGatewayEndpoint#version}
         /// </remarks>
         [JsiiProperty(name: "version", typeJson: "{\"fqn\":\"digitalocean.actionGatewayEndpoint.ActionGatewayEndpointVersion\"}")]
         public digitalocean.ActionGatewayEndpoint.IActionGatewayEndpointVersion Version
@@ -31,7 +31,7 @@ namespace digitalocean.ActionGatewayEndpoint
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_endpoint#id ActionGatewayEndpoint#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_endpoint#id ActionGatewayEndpoint#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,7 +46,7 @@ namespace digitalocean.ActionGatewayEndpoint
 
         /// <summary>insights block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_endpoint#insights ActionGatewayEndpoint#insights}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_endpoint#insights ActionGatewayEndpoint#insights}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "insights", typeJson: "{\"fqn\":\"digitalocean.actionGatewayEndpoint.ActionGatewayEndpointInsights\"}", isOptional: true)]

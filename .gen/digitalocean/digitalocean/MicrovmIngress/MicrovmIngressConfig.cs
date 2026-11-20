@@ -11,7 +11,7 @@ namespace digitalocean.MicrovmIngress
     {
         /// <summary>ID of the MicroVM to add the ingress URL to.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/microvm_ingress#microvm_id MicrovmIngress#microvm_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/microvm_ingress#microvm_id MicrovmIngress#microvm_id}
         /// </remarks>
         [JsiiProperty(name: "microvmId", typeJson: "{\"primitive\":\"string\"}")]
         public string MicrovmId
@@ -20,7 +20,7 @@ namespace digitalocean.MicrovmIngress
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/microvm_ingress#id MicrovmIngress#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/microvm_ingress#id MicrovmIngress#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,7 +37,7 @@ namespace digitalocean.MicrovmIngress
         /// <remarks>
         /// Must be one of the MicroVM's ports. Defaults to the MicroVM's http_port when omitted.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/microvm_ingress#port MicrovmIngress#port}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/microvm_ingress#port MicrovmIngress#port}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "port", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -49,7 +49,7 @@ namespace digitalocean.MicrovmIngress
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/microvm_ingress#timeouts MicrovmIngress#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/microvm_ingress#timeouts MicrovmIngress#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"digitalocean.microvmIngress.MicrovmIngressTimeouts\"}", isOptional: true)]

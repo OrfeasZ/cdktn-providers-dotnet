@@ -5,7 +5,7 @@ namespace digitalocean.ActionGatewayMcpServer
     /// <remarks>
     /// <h1><c>digitalocean_action_gateway_mcp_server</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server"><c>digitalocean_action_gateway_mcp_server</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server"><c>digitalocean_action_gateway_mcp_server</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

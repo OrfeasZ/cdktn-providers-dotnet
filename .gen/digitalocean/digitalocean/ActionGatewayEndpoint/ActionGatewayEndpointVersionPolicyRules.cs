@@ -11,7 +11,7 @@ namespace digitalocean.ActionGatewayEndpoint
     {
         /// <summary>allow, ask, or deny.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_endpoint#action ActionGatewayEndpoint#action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_endpoint#action ActionGatewayEndpoint#action}
         /// </remarks>
         [JsiiProperty(name: "action", typeJson: "{\"primitive\":\"string\"}")]
         public string Action
@@ -22,7 +22,7 @@ namespace digitalocean.ActionGatewayEndpoint
 
         /// <summary>Tool slug, optionally pinned as &lt;tool_slug&gt;@&lt;version&gt;, or toolbelt:&lt;name&gt;@&lt;version&gt;.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_endpoint#tool ActionGatewayEndpoint#tool}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_endpoint#tool ActionGatewayEndpoint#tool}
         /// </remarks>
         [JsiiProperty(name: "tool", typeJson: "{\"primitive\":\"string\"}")]
         public string Tool
@@ -33,7 +33,7 @@ namespace digitalocean.ActionGatewayEndpoint
 
         /// <summary>Argument values a call must match for the rule to apply, keyed by argument name.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_endpoint#match ActionGatewayEndpoint#match}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_endpoint#match ActionGatewayEndpoint#match}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "match", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]

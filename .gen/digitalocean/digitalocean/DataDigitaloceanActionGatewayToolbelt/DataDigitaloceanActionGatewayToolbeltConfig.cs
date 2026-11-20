@@ -11,7 +11,7 @@ namespace digitalocean.DataDigitaloceanActionGatewayToolbelt
     {
         /// <summary>Name of the toolbelt.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/data-sources/action_gateway_toolbelt#name DataDigitaloceanActionGatewayToolbelt#name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/data-sources/action_gateway_toolbelt#name DataDigitaloceanActionGatewayToolbelt#name}
         /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
@@ -20,7 +20,7 @@ namespace digitalocean.DataDigitaloceanActionGatewayToolbelt
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/data-sources/action_gateway_toolbelt#id DataDigitaloceanActionGatewayToolbelt#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/data-sources/action_gateway_toolbelt#id DataDigitaloceanActionGatewayToolbelt#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ namespace digitalocean.DataDigitaloceanActionGatewayToolbelt
 
         /// <summary>Version to read. Defaults to the latest version.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/data-sources/action_gateway_toolbelt#version DataDigitaloceanActionGatewayToolbelt#version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/data-sources/action_gateway_toolbelt#version DataDigitaloceanActionGatewayToolbelt#version}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "version", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

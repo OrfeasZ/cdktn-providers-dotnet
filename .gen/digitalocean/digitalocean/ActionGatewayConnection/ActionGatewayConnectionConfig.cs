@@ -11,7 +11,7 @@ namespace digitalocean.ActionGatewayConnection
     {
         /// <summary>Slug of the tool provider to connect, such as github or jira.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_connection#tool_provider ActionGatewayConnection#tool_provider}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_connection#tool_provider ActionGatewayConnection#tool_provider}
         /// </remarks>
         [JsiiProperty(name: "toolProvider", typeJson: "{\"primitive\":\"string\"}")]
         public string ToolProvider
@@ -22,7 +22,7 @@ namespace digitalocean.ActionGatewayConnection
 
         /// <summary>Actor ID the connection acts for. Sessions whose actor ID matches use this connection.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_connection#user_id ActionGatewayConnection#user_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_connection#user_id ActionGatewayConnection#user_id}
         /// </remarks>
         [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}")]
         public string UserId
@@ -33,7 +33,7 @@ namespace digitalocean.ActionGatewayConnection
 
         /// <summary>Values for the provider's connection parameters, such as site_url.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_connection#connection_parameters ActionGatewayConnection#connection_parameters}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_connection#connection_parameters ActionGatewayConnection#connection_parameters}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "connectionParameters", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
@@ -45,7 +45,7 @@ namespace digitalocean.ActionGatewayConnection
 
         /// <summary>ID of a team provider credential to connect through. When omitted, DigitalOcean's shared OAuth application is used.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_connection#credential_id ActionGatewayConnection#credential_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_connection#credential_id ActionGatewayConnection#credential_id}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "credentialId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -55,7 +55,7 @@ namespace digitalocean.ActionGatewayConnection
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_connection#id ActionGatewayConnection#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_connection#id ActionGatewayConnection#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -70,7 +70,7 @@ namespace digitalocean.ActionGatewayConnection
 
         /// <summary>OAuth scopes to request. Defaults to every scope the provider offers.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_connection#scopes ActionGatewayConnection#scopes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_connection#scopes ActionGatewayConnection#scopes}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "scopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -82,7 +82,7 @@ namespace digitalocean.ActionGatewayConnection
 
         /// <summary>vpc block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_connection#vpc ActionGatewayConnection#vpc}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_connection#vpc ActionGatewayConnection#vpc}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "vpc", typeJson: "{\"fqn\":\"digitalocean.actionGatewayConnection.ActionGatewayConnectionVpc\"}", isOptional: true)]

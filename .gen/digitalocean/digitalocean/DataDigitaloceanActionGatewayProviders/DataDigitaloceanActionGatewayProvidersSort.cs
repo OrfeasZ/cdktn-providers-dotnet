@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanActionGatewayProviders
     [JsiiByValue(fqn: "digitalocean.dataDigitaloceanActionGatewayProviders.DataDigitaloceanActionGatewayProvidersSort")]
     public class DataDigitaloceanActionGatewayProvidersSort : digitalocean.DataDigitaloceanActionGatewayProviders.IDataDigitaloceanActionGatewayProvidersSort
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/data-sources/action_gateway_providers#key DataDigitaloceanActionGatewayProviders#key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/data-sources/action_gateway_providers#key DataDigitaloceanActionGatewayProviders#key}.</summary>
         [JsiiProperty(name: "key", typeJson: "{\"primitive\":\"string\"}")]
         public string Key
         {
@@ -17,7 +17,7 @@ namespace digitalocean.DataDigitaloceanActionGatewayProviders
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/data-sources/action_gateway_providers#direction DataDigitaloceanActionGatewayProviders#direction}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/data-sources/action_gateway_providers#direction DataDigitaloceanActionGatewayProviders#direction}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "direction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Direction

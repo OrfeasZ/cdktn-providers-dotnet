@@ -9,7 +9,7 @@ namespace digitalocean.ActionGatewayMcpServer
     {
         /// <summary>HTTPS URL of the server's MCP endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#endpoint ActionGatewayMcpServer#endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#endpoint ActionGatewayMcpServer#endpoint}
         /// </remarks>
         [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}")]
         string Endpoint
@@ -19,7 +19,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
         /// <summary>Identifier for the server, unique within your team. Prefixes the slugs of the server's tools.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#server_ref ActionGatewayMcpServer#server_ref}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#server_ref ActionGatewayMcpServer#server_ref}
         /// </remarks>
         [JsiiProperty(name: "serverRef", typeJson: "{\"primitive\":\"string\"}")]
         string ServerRef
@@ -29,7 +29,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
         /// <summary>For credential_ref_source secret: the key or token sent to the server. It is write-only.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#api_key ActionGatewayMcpServer#api_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#api_key ActionGatewayMcpServer#api_key}
         /// </remarks>
         [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -43,7 +43,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
         /// <summary>For credential_ref_source secret: reference to a secret your team stores with DigitalOcean.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#credential_ref ActionGatewayMcpServer#credential_ref}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#credential_ref ActionGatewayMcpServer#credential_ref}
         /// </remarks>
         [JsiiProperty(name: "credentialRef", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,7 +57,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
         /// <summary>How requests to the server authenticate: none (the default), secret, or connection.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#credential_ref_source ActionGatewayMcpServer#credential_ref_source}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#credential_ref_source ActionGatewayMcpServer#credential_ref_source}
         /// </remarks>
         [JsiiProperty(name: "credentialRefSource", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -71,7 +71,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
         /// <summary>Description shown on the server's catalog card.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#description ActionGatewayMcpServer#description}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#description ActionGatewayMcpServer#description}
         /// </remarks>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -85,7 +85,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
         /// <summary>Slugs of the discovered tools to enable, such as &lt;server_ref&gt;_&lt;tool&gt;. Every other tool of the server is disabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#enabled_tools ActionGatewayMcpServer#enabled_tools}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#enabled_tools ActionGatewayMcpServer#enabled_tools}
         /// </remarks>
         [JsiiProperty(name: "enabledTools", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -97,7 +97,7 @@ namespace digitalocean.ActionGatewayMcpServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#id ActionGatewayMcpServer#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#id ActionGatewayMcpServer#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -114,7 +114,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
         /// <summary>How long, in seconds, a user's authorization may be reused before they must consent again. 0 means 30 days.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#oauth_authorization_ttl_seconds ActionGatewayMcpServer#oauth_authorization_ttl_seconds}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#oauth_authorization_ttl_seconds ActionGatewayMcpServer#oauth_authorization_ttl_seconds}
         /// </remarks>
         [JsiiProperty(name: "oauthAuthorizationTtlSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -128,7 +128,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
         /// <summary>For credential_ref_source connection: the OAuth authorization endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#oauth_authorize_url ActionGatewayMcpServer#oauth_authorize_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#oauth_authorize_url ActionGatewayMcpServer#oauth_authorize_url}
         /// </remarks>
         [JsiiProperty(name: "oauthAuthorizeUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -142,7 +142,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
         /// <summary>For credential_ref_source connection: client ID of your team's OAuth client for the server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#oauth_client_id ActionGatewayMcpServer#oauth_client_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#oauth_client_id ActionGatewayMcpServer#oauth_client_id}
         /// </remarks>
         [JsiiProperty(name: "oauthClientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -156,7 +156,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
         /// <summary>For credential_ref_source connection: client secret of your team's OAuth client. It is write-only.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#oauth_client_secret ActionGatewayMcpServer#oauth_client_secret}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#oauth_client_secret ActionGatewayMcpServer#oauth_client_secret}
         /// </remarks>
         [JsiiProperty(name: "oauthClientSecret", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -170,7 +170,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
         /// <summary>For credential_ref_source connection: the scopes to request from each user.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#oauth_scopes ActionGatewayMcpServer#oauth_scopes}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#oauth_scopes ActionGatewayMcpServer#oauth_scopes}
         /// </remarks>
         [JsiiProperty(name: "oauthScopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -184,7 +184,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
         /// <summary>For credential_ref_source connection: the OAuth token endpoint.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#oauth_token_url ActionGatewayMcpServer#oauth_token_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#oauth_token_url ActionGatewayMcpServer#oauth_token_url}
         /// </remarks>
         [JsiiProperty(name: "oauthTokenUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -200,7 +200,7 @@ namespace digitalocean.ActionGatewayMcpServer
         /// <remarks>
         /// Adding or changing it discovers the tools again.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#sync_user_id ActionGatewayMcpServer#sync_user_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#sync_user_id ActionGatewayMcpServer#sync_user_id}
         /// </remarks>
         [JsiiProperty(name: "syncUserId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -214,7 +214,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#timeouts ActionGatewayMcpServer#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#timeouts ActionGatewayMcpServer#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"digitalocean.actionGatewayMcpServer.ActionGatewayMcpServerTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -228,7 +228,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
         /// <summary>MCP transport. Only streamable_http is supported.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#transport ActionGatewayMcpServer#transport}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#transport ActionGatewayMcpServer#transport}
         /// </remarks>
         [JsiiProperty(name: "transport", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -249,7 +249,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
             /// <summary>HTTPS URL of the server's MCP endpoint.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#endpoint ActionGatewayMcpServer#endpoint}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#endpoint ActionGatewayMcpServer#endpoint}
             /// </remarks>
             [JsiiProperty(name: "endpoint", typeJson: "{\"primitive\":\"string\"}")]
             public string Endpoint
@@ -259,7 +259,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
             /// <summary>Identifier for the server, unique within your team. Prefixes the slugs of the server's tools.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#server_ref ActionGatewayMcpServer#server_ref}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#server_ref ActionGatewayMcpServer#server_ref}
             /// </remarks>
             [JsiiProperty(name: "serverRef", typeJson: "{\"primitive\":\"string\"}")]
             public string ServerRef
@@ -269,7 +269,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
             /// <summary>For credential_ref_source secret: the key or token sent to the server. It is write-only.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#api_key ActionGatewayMcpServer#api_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#api_key ActionGatewayMcpServer#api_key}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "apiKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -280,7 +280,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
             /// <summary>For credential_ref_source secret: reference to a secret your team stores with DigitalOcean.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#credential_ref ActionGatewayMcpServer#credential_ref}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#credential_ref ActionGatewayMcpServer#credential_ref}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "credentialRef", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -291,7 +291,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
             /// <summary>How requests to the server authenticate: none (the default), secret, or connection.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#credential_ref_source ActionGatewayMcpServer#credential_ref_source}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#credential_ref_source ActionGatewayMcpServer#credential_ref_source}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "credentialRefSource", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -302,7 +302,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
             /// <summary>Description shown on the server's catalog card.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#description ActionGatewayMcpServer#description}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#description ActionGatewayMcpServer#description}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -313,7 +313,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
             /// <summary>Slugs of the discovered tools to enable, such as &lt;server_ref&gt;_&lt;tool&gt;. Every other tool of the server is disabled.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#enabled_tools ActionGatewayMcpServer#enabled_tools}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#enabled_tools ActionGatewayMcpServer#enabled_tools}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "enabledTools", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -322,7 +322,7 @@ namespace digitalocean.ActionGatewayMcpServer
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#id ActionGatewayMcpServer#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#id ActionGatewayMcpServer#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -336,7 +336,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
             /// <summary>How long, in seconds, a user's authorization may be reused before they must consent again. 0 means 30 days.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#oauth_authorization_ttl_seconds ActionGatewayMcpServer#oauth_authorization_ttl_seconds}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#oauth_authorization_ttl_seconds ActionGatewayMcpServer#oauth_authorization_ttl_seconds}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oauthAuthorizationTtlSeconds", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -347,7 +347,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
             /// <summary>For credential_ref_source connection: the OAuth authorization endpoint.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#oauth_authorize_url ActionGatewayMcpServer#oauth_authorize_url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#oauth_authorize_url ActionGatewayMcpServer#oauth_authorize_url}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oauthAuthorizeUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -358,7 +358,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
             /// <summary>For credential_ref_source connection: client ID of your team's OAuth client for the server.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#oauth_client_id ActionGatewayMcpServer#oauth_client_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#oauth_client_id ActionGatewayMcpServer#oauth_client_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oauthClientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -369,7 +369,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
             /// <summary>For credential_ref_source connection: client secret of your team's OAuth client. It is write-only.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#oauth_client_secret ActionGatewayMcpServer#oauth_client_secret}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#oauth_client_secret ActionGatewayMcpServer#oauth_client_secret}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oauthClientSecret", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -380,7 +380,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
             /// <summary>For credential_ref_source connection: the scopes to request from each user.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#oauth_scopes ActionGatewayMcpServer#oauth_scopes}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#oauth_scopes ActionGatewayMcpServer#oauth_scopes}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oauthScopes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -391,7 +391,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
             /// <summary>For credential_ref_source connection: the OAuth token endpoint.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#oauth_token_url ActionGatewayMcpServer#oauth_token_url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#oauth_token_url ActionGatewayMcpServer#oauth_token_url}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "oauthTokenUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -404,7 +404,7 @@ namespace digitalocean.ActionGatewayMcpServer
             /// <remarks>
             /// Adding or changing it discovers the tools again.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#sync_user_id ActionGatewayMcpServer#sync_user_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#sync_user_id ActionGatewayMcpServer#sync_user_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "syncUserId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -415,7 +415,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#timeouts ActionGatewayMcpServer#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#timeouts ActionGatewayMcpServer#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"digitalocean.actionGatewayMcpServer.ActionGatewayMcpServerTimeouts\"}", isOptional: true)]
@@ -426,7 +426,7 @@ namespace digitalocean.ActionGatewayMcpServer
 
             /// <summary>MCP transport. Only streamable_http is supported.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#transport ActionGatewayMcpServer#transport}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#transport ActionGatewayMcpServer#transport}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "transport", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

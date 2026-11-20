@@ -7,7 +7,7 @@ namespace digitalocean.ActionGatewayMcpServer
     [JsiiByValue(fqn: "digitalocean.actionGatewayMcpServer.ActionGatewayMcpServerTimeouts")]
     public class ActionGatewayMcpServerTimeouts : digitalocean.ActionGatewayMcpServer.IActionGatewayMcpServerTimeouts
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#create ActionGatewayMcpServer#create}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#create ActionGatewayMcpServer#create}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "create", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Create
@@ -16,7 +16,7 @@ namespace digitalocean.ActionGatewayMcpServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_mcp_server#update ActionGatewayMcpServer#update}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_mcp_server#update ActionGatewayMcpServer#update}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "update", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Update

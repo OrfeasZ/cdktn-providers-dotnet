@@ -9,7 +9,7 @@ namespace digitalocean.ActionGatewayConnection
     {
         /// <summary>destination block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_connection#destination ActionGatewayConnection#destination}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_connection#destination ActionGatewayConnection#destination}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.ActionGatewayConnection.IActionGatewayConnectionVpcDestination" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "destination", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.actionGatewayConnection.ActionGatewayConnectionVpcDestination\"},\"kind\":\"array\"}}]}}")]
@@ -20,7 +20,7 @@ namespace digitalocean.ActionGatewayConnection
 
         /// <summary>UUID of a VPC owned by your team.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_connection#vpc_uuid ActionGatewayConnection#vpc_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_connection#vpc_uuid ActionGatewayConnection#vpc_uuid}
         /// </remarks>
         [JsiiProperty(name: "vpcUuid", typeJson: "{\"primitive\":\"string\"}")]
         string VpcUuid
@@ -37,7 +37,7 @@ namespace digitalocean.ActionGatewayConnection
 
             /// <summary>destination block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_connection#destination ActionGatewayConnection#destination}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_connection#destination ActionGatewayConnection#destination}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="digitalocean.ActionGatewayConnection.IActionGatewayConnectionVpcDestination" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "destination", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"digitalocean.actionGatewayConnection.ActionGatewayConnectionVpcDestination\"},\"kind\":\"array\"}}]}}")]
@@ -48,7 +48,7 @@ namespace digitalocean.ActionGatewayConnection
 
             /// <summary>UUID of a VPC owned by your team.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_connection#vpc_uuid ActionGatewayConnection#vpc_uuid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_connection#vpc_uuid ActionGatewayConnection#vpc_uuid}
             /// </remarks>
             [JsiiProperty(name: "vpcUuid", typeJson: "{\"primitive\":\"string\"}")]
             public string VpcUuid

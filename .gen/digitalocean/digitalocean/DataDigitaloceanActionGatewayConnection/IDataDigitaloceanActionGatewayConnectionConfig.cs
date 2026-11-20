@@ -9,7 +9,7 @@ namespace digitalocean.DataDigitaloceanActionGatewayConnection
     {
         /// <summary>ID of the connection.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/data-sources/action_gateway_connection#id DataDigitaloceanActionGatewayConnection#id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/data-sources/action_gateway_connection#id DataDigitaloceanActionGatewayConnection#id}
         ///
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -26,7 +26,7 @@ namespace digitalocean.DataDigitaloceanActionGatewayConnection
 
         /// <summary>Slug of the connection's tool provider.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/data-sources/action_gateway_connection#tool_provider DataDigitaloceanActionGatewayConnection#tool_provider}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/data-sources/action_gateway_connection#tool_provider DataDigitaloceanActionGatewayConnection#tool_provider}
         /// </remarks>
         [JsiiProperty(name: "toolProvider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -40,7 +40,7 @@ namespace digitalocean.DataDigitaloceanActionGatewayConnection
 
         /// <summary>Actor ID the connection acts for.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/data-sources/action_gateway_connection#user_id DataDigitaloceanActionGatewayConnection#user_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/data-sources/action_gateway_connection#user_id DataDigitaloceanActionGatewayConnection#user_id}
         /// </remarks>
         [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -61,7 +61,7 @@ namespace digitalocean.DataDigitaloceanActionGatewayConnection
 
             /// <summary>ID of the connection.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/data-sources/action_gateway_connection#id DataDigitaloceanActionGatewayConnection#id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/data-sources/action_gateway_connection#id DataDigitaloceanActionGatewayConnection#id}
             ///
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -75,7 +75,7 @@ namespace digitalocean.DataDigitaloceanActionGatewayConnection
 
             /// <summary>Slug of the connection's tool provider.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/data-sources/action_gateway_connection#tool_provider DataDigitaloceanActionGatewayConnection#tool_provider}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/data-sources/action_gateway_connection#tool_provider DataDigitaloceanActionGatewayConnection#tool_provider}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "toolProvider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -86,7 +86,7 @@ namespace digitalocean.DataDigitaloceanActionGatewayConnection
 
             /// <summary>Actor ID the connection acts for.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/data-sources/action_gateway_connection#user_id DataDigitaloceanActionGatewayConnection#user_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/data-sources/action_gateway_connection#user_id DataDigitaloceanActionGatewayConnection#user_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

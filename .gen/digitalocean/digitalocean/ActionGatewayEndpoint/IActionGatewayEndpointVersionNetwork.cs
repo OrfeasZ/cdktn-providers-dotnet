@@ -9,7 +9,7 @@ namespace digitalocean.ActionGatewayEndpoint
     {
         /// <summary>UUID of a VPC owned by your team.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_endpoint#vpc_uuid ActionGatewayEndpoint#vpc_uuid}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_endpoint#vpc_uuid ActionGatewayEndpoint#vpc_uuid}
         /// </remarks>
         [JsiiProperty(name: "vpcUuid", typeJson: "{\"primitive\":\"string\"}")]
         string VpcUuid
@@ -26,7 +26,7 @@ namespace digitalocean.ActionGatewayEndpoint
 
             /// <summary>UUID of a VPC owned by your team.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.108.0/docs/resources/action_gateway_endpoint#vpc_uuid ActionGatewayEndpoint#vpc_uuid}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/digitalocean/digitalocean/2.109.0/docs/resources/action_gateway_endpoint#vpc_uuid ActionGatewayEndpoint#vpc_uuid}
             /// </remarks>
             [JsiiProperty(name: "vpcUuid", typeJson: "{\"primitive\":\"string\"}")]
             public string VpcUuid
