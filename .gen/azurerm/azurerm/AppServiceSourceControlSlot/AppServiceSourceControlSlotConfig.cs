@@ -11,7 +11,7 @@ namespace azurerm.AppServiceSourceControlSlot
     {
         /// <summary>The ID of the Linux or Windows Web App Slot.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control_slot#slot_id AppServiceSourceControlSlot#slot_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control_slot#slot_id AppServiceSourceControlSlot#slot_id}
         /// </remarks>
         [JsiiProperty(name: "slotId", typeJson: "{\"primitive\":\"string\"}")]
         public string SlotId
@@ -22,7 +22,7 @@ namespace azurerm.AppServiceSourceControlSlot
 
         /// <summary>The URL for the repository.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control_slot#branch AppServiceSourceControlSlot#branch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control_slot#branch AppServiceSourceControlSlot#branch}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "branch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -34,7 +34,7 @@ namespace azurerm.AppServiceSourceControlSlot
 
         /// <summary>github_action_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control_slot#github_action_configuration AppServiceSourceControlSlot#github_action_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control_slot#github_action_configuration AppServiceSourceControlSlot#github_action_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "githubActionConfiguration", typeJson: "{\"fqn\":\"azurerm.appServiceSourceControlSlot.AppServiceSourceControlSlotGithubActionConfiguration\"}", isOptional: true)]
@@ -44,7 +44,7 @@ namespace azurerm.AppServiceSourceControlSlot
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control_slot#id AppServiceSourceControlSlot#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control_slot#id AppServiceSourceControlSlot#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,7 +59,7 @@ namespace azurerm.AppServiceSourceControlSlot
 
         /// <summary>The branch name to use for deployments.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control_slot#repo_url AppServiceSourceControlSlot#repo_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control_slot#repo_url AppServiceSourceControlSlot#repo_url}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "repoUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -71,9 +71,9 @@ namespace azurerm.AppServiceSourceControlSlot
 
         private object? _rollbackEnabled;
 
-        /// <summary>Should the Deployment Rollback be enabled? Defaults to `false`.</summary>
+        /// <summary>Should the Deployment Rollback be enabled?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control_slot#rollback_enabled AppServiceSourceControlSlot#rollback_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control_slot#rollback_enabled AppServiceSourceControlSlot#rollback_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -106,7 +106,7 @@ namespace azurerm.AppServiceSourceControlSlot
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control_slot#timeouts AppServiceSourceControlSlot#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control_slot#timeouts AppServiceSourceControlSlot#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.appServiceSourceControlSlot.AppServiceSourceControlSlotTimeouts\"}", isOptional: true)]
@@ -118,9 +118,9 @@ namespace azurerm.AppServiceSourceControlSlot
 
         private object? _useLocalGit;
 
-        /// <summary>Should the Slot use local Git configuration.</summary>
+        /// <summary>Should the Slot use local Git configuration?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control_slot#use_local_git AppServiceSourceControlSlot#use_local_git}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control_slot#use_local_git AppServiceSourceControlSlot#use_local_git}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -153,11 +153,11 @@ namespace azurerm.AppServiceSourceControlSlot
 
         private object? _useManualIntegration;
 
-        /// <summary>Should code be deployed manually.</summary>
+        /// <summary>Should code be deployed manually?</summary>
         /// <remarks>
-        /// Set to <c>true</c> to disable continuous integration, such as webhooks into online repos such as GitHub. Defaults to <c>false</c>
+        /// Set to <c>true</c> to disable continuous integration, such as webhooks into online repos such as GitHub.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control_slot#use_manual_integration AppServiceSourceControlSlot#use_manual_integration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control_slot#use_manual_integration AppServiceSourceControlSlot#use_manual_integration}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -190,9 +190,9 @@ namespace azurerm.AppServiceSourceControlSlot
 
         private object? _useMercurial;
 
-        /// <summary>The repository specified is Mercurial. Defaults to `false`.</summary>
+        /// <summary>The repository specified is Mercurial.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control_slot#use_mercurial AppServiceSourceControlSlot#use_mercurial}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control_slot#use_mercurial AppServiceSourceControlSlot#use_mercurial}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

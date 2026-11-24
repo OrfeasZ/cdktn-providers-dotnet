@@ -9,7 +9,7 @@ namespace azurerm.LinuxFunctionApp
     {
         /// <summary>login block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#login LinuxFunctionApp#login}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#login LinuxFunctionApp#login}
         /// </remarks>
         [JsiiProperty(name: "login", typeJson: "{\"fqn\":\"azurerm.linuxFunctionApp.LinuxFunctionAppAuthSettingsV2Login\"}")]
         azurerm.LinuxFunctionApp.ILinuxFunctionAppAuthSettingsV2Login Login
@@ -19,7 +19,7 @@ namespace azurerm.LinuxFunctionApp
 
         /// <summary>active_directory_v2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#active_directory_v2 LinuxFunctionApp#active_directory_v2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#active_directory_v2 LinuxFunctionApp#active_directory_v2}
         /// </remarks>
         [JsiiProperty(name: "activeDirectoryV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionApp.LinuxFunctionAppAuthSettingsV2ActiveDirectoryV2\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +33,7 @@ namespace azurerm.LinuxFunctionApp
 
         /// <summary>apple_v2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#apple_v2 LinuxFunctionApp#apple_v2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#apple_v2 LinuxFunctionApp#apple_v2}
         /// </remarks>
         [JsiiProperty(name: "appleV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionApp.LinuxFunctionAppAuthSettingsV2AppleV2\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,9 +45,9 @@ namespace azurerm.LinuxFunctionApp
             }
         }
 
-        /// <summary>Should the AuthV2 Settings be enabled. Defaults to `false`.</summary>
+        /// <summary>Should the AuthV2 Settings be enabled?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#auth_enabled LinuxFunctionApp#auth_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#auth_enabled LinuxFunctionApp#auth_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "authEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -62,7 +62,7 @@ namespace azurerm.LinuxFunctionApp
 
         /// <summary>azure_static_web_app_v2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#azure_static_web_app_v2 LinuxFunctionApp#azure_static_web_app_v2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#azure_static_web_app_v2 LinuxFunctionApp#azure_static_web_app_v2}
         /// </remarks>
         [JsiiProperty(name: "azureStaticWebAppV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionApp.LinuxFunctionAppAuthSettingsV2AzureStaticWebAppV2\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -76,7 +76,7 @@ namespace azurerm.LinuxFunctionApp
 
         /// <summary>The path to the App Auth settings. **Note:** Relative Paths are evaluated from the Site Root directory.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#config_file_path LinuxFunctionApp#config_file_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#config_file_path LinuxFunctionApp#config_file_path}
         /// </remarks>
         [JsiiProperty(name: "configFilePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -90,7 +90,7 @@ namespace azurerm.LinuxFunctionApp
 
         /// <summary>custom_oidc_v2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#custom_oidc_v2 LinuxFunctionApp#custom_oidc_v2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#custom_oidc_v2 LinuxFunctionApp#custom_oidc_v2}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.LinuxFunctionApp.ILinuxFunctionAppAuthSettingsV2CustomOidcV2" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "customOidcV2", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.linuxFunctionApp.LinuxFunctionAppAuthSettingsV2CustomOidcV2\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -107,7 +107,7 @@ namespace azurerm.LinuxFunctionApp
         /// <remarks>
         /// Possible values include: <c>apple</c>, <c>azureactivedirectory</c>, <c>facebook</c>, <c>github</c>, <c>google</c>, <c>twitter</c> and the <c>name</c> of your <c>custom_oidc_v2</c> provider.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#default_provider LinuxFunctionApp#default_provider}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#default_provider LinuxFunctionApp#default_provider}
         /// </remarks>
         [JsiiProperty(name: "defaultProvider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -121,7 +121,7 @@ namespace azurerm.LinuxFunctionApp
 
         /// <summary>The paths which should be excluded from the `unauthenticated_action` when it is set to `RedirectToLoginPage`.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#excluded_paths LinuxFunctionApp#excluded_paths}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#excluded_paths LinuxFunctionApp#excluded_paths}
         /// </remarks>
         [JsiiProperty(name: "excludedPaths", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -135,7 +135,7 @@ namespace azurerm.LinuxFunctionApp
 
         /// <summary>facebook_v2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#facebook_v2 LinuxFunctionApp#facebook_v2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#facebook_v2 LinuxFunctionApp#facebook_v2}
         /// </remarks>
         [JsiiProperty(name: "facebookV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionApp.LinuxFunctionAppAuthSettingsV2FacebookV2\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -147,11 +147,9 @@ namespace azurerm.LinuxFunctionApp
             }
         }
 
-        /// <summary>The convention used to determine the url of the request made.</summary>
+        /// <summary>The convention used to determine the URL of the request made.</summary>
         /// <remarks>
-        /// Possible values include <c>ForwardProxyConventionNoProxy</c>, <c>ForwardProxyConventionStandard</c>, <c>ForwardProxyConventionCustom</c>. Defaults to <c>ForwardProxyConventionNoProxy</c>
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#forward_proxy_convention LinuxFunctionApp#forward_proxy_convention}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#forward_proxy_convention LinuxFunctionApp#forward_proxy_convention}
         /// </remarks>
         [JsiiProperty(name: "forwardProxyConvention", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -165,7 +163,7 @@ namespace azurerm.LinuxFunctionApp
 
         /// <summary>The name of the header containing the host of the request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#forward_proxy_custom_host_header_name LinuxFunctionApp#forward_proxy_custom_host_header_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#forward_proxy_custom_host_header_name LinuxFunctionApp#forward_proxy_custom_host_header_name}
         /// </remarks>
         [JsiiProperty(name: "forwardProxyCustomHostHeaderName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -179,7 +177,7 @@ namespace azurerm.LinuxFunctionApp
 
         /// <summary>The name of the header containing the scheme of the request.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#forward_proxy_custom_scheme_header_name LinuxFunctionApp#forward_proxy_custom_scheme_header_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#forward_proxy_custom_scheme_header_name LinuxFunctionApp#forward_proxy_custom_scheme_header_name}
         /// </remarks>
         [JsiiProperty(name: "forwardProxyCustomSchemeHeaderName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -193,7 +191,7 @@ namespace azurerm.LinuxFunctionApp
 
         /// <summary>github_v2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#github_v2 LinuxFunctionApp#github_v2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#github_v2 LinuxFunctionApp#github_v2}
         /// </remarks>
         [JsiiProperty(name: "githubV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionApp.LinuxFunctionAppAuthSettingsV2GithubV2\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -207,7 +205,7 @@ namespace azurerm.LinuxFunctionApp
 
         /// <summary>google_v2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#google_v2 LinuxFunctionApp#google_v2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#google_v2 LinuxFunctionApp#google_v2}
         /// </remarks>
         [JsiiProperty(name: "googleV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionApp.LinuxFunctionAppAuthSettingsV2GoogleV2\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -219,9 +217,9 @@ namespace azurerm.LinuxFunctionApp
             }
         }
 
-        /// <summary>The prefix that should precede all the authentication and authorisation paths. Defaults to `/.auth`.</summary>
+        /// <summary>The prefix that should precede all the authentication and authorisation paths.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#http_route_api_prefix LinuxFunctionApp#http_route_api_prefix}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#http_route_api_prefix LinuxFunctionApp#http_route_api_prefix}
         /// </remarks>
         [JsiiProperty(name: "httpRouteApiPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -235,7 +233,7 @@ namespace azurerm.LinuxFunctionApp
 
         /// <summary>microsoft_v2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#microsoft_v2 LinuxFunctionApp#microsoft_v2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#microsoft_v2 LinuxFunctionApp#microsoft_v2}
         /// </remarks>
         [JsiiProperty(name: "microsoftV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionApp.LinuxFunctionAppAuthSettingsV2MicrosoftV2\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -247,9 +245,9 @@ namespace azurerm.LinuxFunctionApp
             }
         }
 
-        /// <summary>Should the authentication flow be used for all requests.</summary>
+        /// <summary>Should the authentication flow be used for all requests?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#require_authentication LinuxFunctionApp#require_authentication}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#require_authentication LinuxFunctionApp#require_authentication}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "requireAuthentication", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -262,9 +260,9 @@ namespace azurerm.LinuxFunctionApp
             }
         }
 
-        /// <summary>Should HTTPS be required on connections? Defaults to true.</summary>
+        /// <summary>Should HTTPS be required on connections?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#require_https LinuxFunctionApp#require_https}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#require_https LinuxFunctionApp#require_https}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "requireHttps", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -277,9 +275,9 @@ namespace azurerm.LinuxFunctionApp
             }
         }
 
-        /// <summary>The Runtime Version of the Authentication and Authorisation feature of this App. Defaults to `~1`.</summary>
+        /// <summary>The Runtime Version of the Authentication and Authorisation feature of this App.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#runtime_version LinuxFunctionApp#runtime_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#runtime_version LinuxFunctionApp#runtime_version}
         /// </remarks>
         [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -293,7 +291,7 @@ namespace azurerm.LinuxFunctionApp
 
         /// <summary>twitter_v2 block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#twitter_v2 LinuxFunctionApp#twitter_v2}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#twitter_v2 LinuxFunctionApp#twitter_v2}
         /// </remarks>
         [JsiiProperty(name: "twitterV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionApp.LinuxFunctionAppAuthSettingsV2TwitterV2\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -307,9 +305,7 @@ namespace azurerm.LinuxFunctionApp
 
         /// <summary>The action to take for requests made without authentication.</summary>
         /// <remarks>
-        /// Possible values include <c>RedirectToLoginPage</c>, <c>AllowAnonymous</c>, <c>Return401</c>, and <c>Return403</c>. Defaults to <c>RedirectToLoginPage</c>.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#unauthenticated_action LinuxFunctionApp#unauthenticated_action}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#unauthenticated_action LinuxFunctionApp#unauthenticated_action}
         /// </remarks>
         [JsiiProperty(name: "unauthenticatedAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -330,7 +326,7 @@ namespace azurerm.LinuxFunctionApp
 
             /// <summary>login block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#login LinuxFunctionApp#login}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#login LinuxFunctionApp#login}
             /// </remarks>
             [JsiiProperty(name: "login", typeJson: "{\"fqn\":\"azurerm.linuxFunctionApp.LinuxFunctionAppAuthSettingsV2Login\"}")]
             public azurerm.LinuxFunctionApp.ILinuxFunctionAppAuthSettingsV2Login Login
@@ -340,7 +336,7 @@ namespace azurerm.LinuxFunctionApp
 
             /// <summary>active_directory_v2 block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#active_directory_v2 LinuxFunctionApp#active_directory_v2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#active_directory_v2 LinuxFunctionApp#active_directory_v2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "activeDirectoryV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionApp.LinuxFunctionAppAuthSettingsV2ActiveDirectoryV2\"}", isOptional: true)]
@@ -351,7 +347,7 @@ namespace azurerm.LinuxFunctionApp
 
             /// <summary>apple_v2 block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#apple_v2 LinuxFunctionApp#apple_v2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#apple_v2 LinuxFunctionApp#apple_v2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "appleV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionApp.LinuxFunctionAppAuthSettingsV2AppleV2\"}", isOptional: true)]
@@ -360,9 +356,9 @@ namespace azurerm.LinuxFunctionApp
                 get => GetInstanceProperty<azurerm.LinuxFunctionApp.ILinuxFunctionAppAuthSettingsV2AppleV2?>();
             }
 
-            /// <summary>Should the AuthV2 Settings be enabled. Defaults to `false`.</summary>
+            /// <summary>Should the AuthV2 Settings be enabled?</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#auth_enabled LinuxFunctionApp#auth_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#auth_enabled LinuxFunctionApp#auth_enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -374,7 +370,7 @@ namespace azurerm.LinuxFunctionApp
 
             /// <summary>azure_static_web_app_v2 block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#azure_static_web_app_v2 LinuxFunctionApp#azure_static_web_app_v2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#azure_static_web_app_v2 LinuxFunctionApp#azure_static_web_app_v2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "azureStaticWebAppV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionApp.LinuxFunctionAppAuthSettingsV2AzureStaticWebAppV2\"}", isOptional: true)]
@@ -385,7 +381,7 @@ namespace azurerm.LinuxFunctionApp
 
             /// <summary>The path to the App Auth settings. **Note:** Relative Paths are evaluated from the Site Root directory.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#config_file_path LinuxFunctionApp#config_file_path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#config_file_path LinuxFunctionApp#config_file_path}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "configFilePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -396,7 +392,7 @@ namespace azurerm.LinuxFunctionApp
 
             /// <summary>custom_oidc_v2 block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#custom_oidc_v2 LinuxFunctionApp#custom_oidc_v2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#custom_oidc_v2 LinuxFunctionApp#custom_oidc_v2}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.LinuxFunctionApp.ILinuxFunctionAppAuthSettingsV2CustomOidcV2" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -410,7 +406,7 @@ namespace azurerm.LinuxFunctionApp
             /// <remarks>
             /// Possible values include: <c>apple</c>, <c>azureactivedirectory</c>, <c>facebook</c>, <c>github</c>, <c>google</c>, <c>twitter</c> and the <c>name</c> of your <c>custom_oidc_v2</c> provider.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#default_provider LinuxFunctionApp#default_provider}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#default_provider LinuxFunctionApp#default_provider}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "defaultProvider", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -421,7 +417,7 @@ namespace azurerm.LinuxFunctionApp
 
             /// <summary>The paths which should be excluded from the `unauthenticated_action` when it is set to `RedirectToLoginPage`.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#excluded_paths LinuxFunctionApp#excluded_paths}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#excluded_paths LinuxFunctionApp#excluded_paths}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "excludedPaths", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -432,7 +428,7 @@ namespace azurerm.LinuxFunctionApp
 
             /// <summary>facebook_v2 block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#facebook_v2 LinuxFunctionApp#facebook_v2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#facebook_v2 LinuxFunctionApp#facebook_v2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "facebookV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionApp.LinuxFunctionAppAuthSettingsV2FacebookV2\"}", isOptional: true)]
@@ -441,11 +437,9 @@ namespace azurerm.LinuxFunctionApp
                 get => GetInstanceProperty<azurerm.LinuxFunctionApp.ILinuxFunctionAppAuthSettingsV2FacebookV2?>();
             }
 
-            /// <summary>The convention used to determine the url of the request made.</summary>
+            /// <summary>The convention used to determine the URL of the request made.</summary>
             /// <remarks>
-            /// Possible values include <c>ForwardProxyConventionNoProxy</c>, <c>ForwardProxyConventionStandard</c>, <c>ForwardProxyConventionCustom</c>. Defaults to <c>ForwardProxyConventionNoProxy</c>
-            ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#forward_proxy_convention LinuxFunctionApp#forward_proxy_convention}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#forward_proxy_convention LinuxFunctionApp#forward_proxy_convention}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "forwardProxyConvention", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -456,7 +450,7 @@ namespace azurerm.LinuxFunctionApp
 
             /// <summary>The name of the header containing the host of the request.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#forward_proxy_custom_host_header_name LinuxFunctionApp#forward_proxy_custom_host_header_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#forward_proxy_custom_host_header_name LinuxFunctionApp#forward_proxy_custom_host_header_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "forwardProxyCustomHostHeaderName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -467,7 +461,7 @@ namespace azurerm.LinuxFunctionApp
 
             /// <summary>The name of the header containing the scheme of the request.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#forward_proxy_custom_scheme_header_name LinuxFunctionApp#forward_proxy_custom_scheme_header_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#forward_proxy_custom_scheme_header_name LinuxFunctionApp#forward_proxy_custom_scheme_header_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "forwardProxyCustomSchemeHeaderName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -478,7 +472,7 @@ namespace azurerm.LinuxFunctionApp
 
             /// <summary>github_v2 block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#github_v2 LinuxFunctionApp#github_v2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#github_v2 LinuxFunctionApp#github_v2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "githubV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionApp.LinuxFunctionAppAuthSettingsV2GithubV2\"}", isOptional: true)]
@@ -489,7 +483,7 @@ namespace azurerm.LinuxFunctionApp
 
             /// <summary>google_v2 block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#google_v2 LinuxFunctionApp#google_v2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#google_v2 LinuxFunctionApp#google_v2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "googleV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionApp.LinuxFunctionAppAuthSettingsV2GoogleV2\"}", isOptional: true)]
@@ -498,9 +492,9 @@ namespace azurerm.LinuxFunctionApp
                 get => GetInstanceProperty<azurerm.LinuxFunctionApp.ILinuxFunctionAppAuthSettingsV2GoogleV2?>();
             }
 
-            /// <summary>The prefix that should precede all the authentication and authorisation paths. Defaults to `/.auth`.</summary>
+            /// <summary>The prefix that should precede all the authentication and authorisation paths.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#http_route_api_prefix LinuxFunctionApp#http_route_api_prefix}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#http_route_api_prefix LinuxFunctionApp#http_route_api_prefix}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "httpRouteApiPrefix", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -511,7 +505,7 @@ namespace azurerm.LinuxFunctionApp
 
             /// <summary>microsoft_v2 block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#microsoft_v2 LinuxFunctionApp#microsoft_v2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#microsoft_v2 LinuxFunctionApp#microsoft_v2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "microsoftV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionApp.LinuxFunctionAppAuthSettingsV2MicrosoftV2\"}", isOptional: true)]
@@ -520,9 +514,9 @@ namespace azurerm.LinuxFunctionApp
                 get => GetInstanceProperty<azurerm.LinuxFunctionApp.ILinuxFunctionAppAuthSettingsV2MicrosoftV2?>();
             }
 
-            /// <summary>Should the authentication flow be used for all requests.</summary>
+            /// <summary>Should the authentication flow be used for all requests?</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#require_authentication LinuxFunctionApp#require_authentication}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#require_authentication LinuxFunctionApp#require_authentication}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -532,9 +526,9 @@ namespace azurerm.LinuxFunctionApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Should HTTPS be required on connections? Defaults to true.</summary>
+            /// <summary>Should HTTPS be required on connections?</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#require_https LinuxFunctionApp#require_https}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#require_https LinuxFunctionApp#require_https}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -544,9 +538,9 @@ namespace azurerm.LinuxFunctionApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>The Runtime Version of the Authentication and Authorisation feature of this App. Defaults to `~1`.</summary>
+            /// <summary>The Runtime Version of the Authentication and Authorisation feature of this App.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#runtime_version LinuxFunctionApp#runtime_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#runtime_version LinuxFunctionApp#runtime_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "runtimeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -557,7 +551,7 @@ namespace azurerm.LinuxFunctionApp
 
             /// <summary>twitter_v2 block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#twitter_v2 LinuxFunctionApp#twitter_v2}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#twitter_v2 LinuxFunctionApp#twitter_v2}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "twitterV2", typeJson: "{\"fqn\":\"azurerm.linuxFunctionApp.LinuxFunctionAppAuthSettingsV2TwitterV2\"}", isOptional: true)]
@@ -568,9 +562,7 @@ namespace azurerm.LinuxFunctionApp
 
             /// <summary>The action to take for requests made without authentication.</summary>
             /// <remarks>
-            /// Possible values include <c>RedirectToLoginPage</c>, <c>AllowAnonymous</c>, <c>Return401</c>, and <c>Return403</c>. Defaults to <c>RedirectToLoginPage</c>.
-            ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app#unauthenticated_action LinuxFunctionApp#unauthenticated_action}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app#unauthenticated_action LinuxFunctionApp#unauthenticated_action}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "unauthenticatedAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

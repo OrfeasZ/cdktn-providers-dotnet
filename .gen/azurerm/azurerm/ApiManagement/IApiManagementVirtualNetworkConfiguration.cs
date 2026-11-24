@@ -7,7 +7,10 @@ namespace azurerm.ApiManagement
     [JsiiInterface(nativeType: typeof(IApiManagementVirtualNetworkConfiguration), fullyQualifiedName: "azurerm.apiManagement.ApiManagementVirtualNetworkConfiguration")]
     public interface IApiManagementVirtualNetworkConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#subnet_id ApiManagement#subnet_id}.</summary>
+        /// <summary>The ID of the subnet that will be used for the API Management.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#subnet_id ApiManagement#subnet_id}
+        /// </remarks>
         [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
         string SubnetId
         {
@@ -21,7 +24,10 @@ namespace azurerm.ApiManagement
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#subnet_id ApiManagement#subnet_id}.</summary>
+            /// <summary>The ID of the subnet that will be used for the API Management.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#subnet_id ApiManagement#subnet_id}
+            /// </remarks>
             [JsiiProperty(name: "subnetId", typeJson: "{\"primitive\":\"string\"}")]
             public string SubnetId
             {

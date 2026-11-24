@@ -9,7 +9,7 @@ namespace azurerm.ApiManagementAuthorizationServer
     [JsiiByValue(fqn: "azurerm.apiManagementAuthorizationServer.ApiManagementAuthorizationServerConfig")]
     public class ApiManagementAuthorizationServerConfig : azurerm.ApiManagementAuthorizationServer.IApiManagementAuthorizationServerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#api_management_name ApiManagementAuthorizationServer#api_management_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#api_management_name ApiManagementAuthorizationServer#api_management_name}.</summary>
         [JsiiProperty(name: "apiManagementName", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiManagementName
         {
@@ -17,7 +17,10 @@ namespace azurerm.ApiManagementAuthorizationServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#authorization_endpoint ApiManagementAuthorizationServer#authorization_endpoint}.</summary>
+        /// <summary>The OAuth Authorization Endpoint.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#authorization_endpoint ApiManagementAuthorizationServer#authorization_endpoint}
+        /// </remarks>
         [JsiiProperty(name: "authorizationEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string AuthorizationEndpoint
         {
@@ -25,7 +28,10 @@ namespace azurerm.ApiManagementAuthorizationServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#authorization_methods ApiManagementAuthorizationServer#authorization_methods}.</summary>
+        /// <summary>The HTTP Verbs supported by the Authorization Endpoint.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#authorization_methods ApiManagementAuthorizationServer#authorization_methods}
+        /// </remarks>
         [JsiiProperty(name: "authorizationMethods", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] AuthorizationMethods
         {
@@ -33,7 +39,10 @@ namespace azurerm.ApiManagementAuthorizationServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#client_id ApiManagementAuthorizationServer#client_id}.</summary>
+        /// <summary>The Client/App ID registered with this Authorization Server.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#client_id ApiManagementAuthorizationServer#client_id}
+        /// </remarks>
         [JsiiProperty(name: "clientId", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientId
         {
@@ -41,7 +50,10 @@ namespace azurerm.ApiManagementAuthorizationServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#client_registration_endpoint ApiManagementAuthorizationServer#client_registration_endpoint}.</summary>
+        /// <summary>The URI of page where Client/App Registration is performed for this Authorization Server.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#client_registration_endpoint ApiManagementAuthorizationServer#client_registration_endpoint}
+        /// </remarks>
         [JsiiProperty(name: "clientRegistrationEndpoint", typeJson: "{\"primitive\":\"string\"}")]
         public string ClientRegistrationEndpoint
         {
@@ -49,7 +61,10 @@ namespace azurerm.ApiManagementAuthorizationServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#display_name ApiManagementAuthorizationServer#display_name}.</summary>
+        /// <summary>The user-friendly name of this Authorization Server.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#display_name ApiManagementAuthorizationServer#display_name}
+        /// </remarks>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}")]
         public string DisplayName
         {
@@ -57,7 +72,10 @@ namespace azurerm.ApiManagementAuthorizationServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#grant_types ApiManagementAuthorizationServer#grant_types}.</summary>
+        /// <summary>Form of Authorization Grants required when requesting an Access Token.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#grant_types ApiManagementAuthorizationServer#grant_types}
+        /// </remarks>
         [JsiiProperty(name: "grantTypes", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}")]
         public string[] GrantTypes
         {
@@ -65,7 +83,10 @@ namespace azurerm.ApiManagementAuthorizationServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#name ApiManagementAuthorizationServer#name}.</summary>
+        /// <summary>The name of this Authorization Server.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#name ApiManagementAuthorizationServer#name}
+        /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -73,7 +94,7 @@ namespace azurerm.ApiManagementAuthorizationServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#resource_group_name ApiManagementAuthorizationServer#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#resource_group_name ApiManagementAuthorizationServer#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -81,7 +102,10 @@ namespace azurerm.ApiManagementAuthorizationServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#bearer_token_sending_methods ApiManagementAuthorizationServer#bearer_token_sending_methods}.</summary>
+        /// <summary>The mechanism by which Access Tokens are passed to the API.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#bearer_token_sending_methods ApiManagementAuthorizationServer#bearer_token_sending_methods}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "bearerTokenSendingMethods", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? BearerTokenSendingMethods
@@ -90,7 +114,10 @@ namespace azurerm.ApiManagementAuthorizationServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#client_authentication_method ApiManagementAuthorizationServer#client_authentication_method}.</summary>
+        /// <summary>The Authentication Methods supported by the Token endpoint of this Authorization Server.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#client_authentication_method ApiManagementAuthorizationServer#client_authentication_method}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientAuthenticationMethod", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ClientAuthenticationMethod
@@ -99,7 +126,10 @@ namespace azurerm.ApiManagementAuthorizationServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#client_secret ApiManagementAuthorizationServer#client_secret}.</summary>
+        /// <summary>The Client/App Secret registered with this Authorization Server.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#client_secret ApiManagementAuthorizationServer#client_secret}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "clientSecret", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ClientSecret
@@ -108,7 +138,10 @@ namespace azurerm.ApiManagementAuthorizationServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#default_scope ApiManagementAuthorizationServer#default_scope}.</summary>
+        /// <summary>The Default Scope used when requesting an Access Token, specified as a string containing space-delimited values.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#default_scope ApiManagementAuthorizationServer#default_scope}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "defaultScope", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? DefaultScope
@@ -117,7 +150,10 @@ namespace azurerm.ApiManagementAuthorizationServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#description ApiManagementAuthorizationServer#description}.</summary>
+        /// <summary>A description of the Authorization Server, which may contain HTML formatting tags.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#description ApiManagementAuthorizationServer#description}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -126,7 +162,7 @@ namespace azurerm.ApiManagementAuthorizationServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#id ApiManagementAuthorizationServer#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#id ApiManagementAuthorizationServer#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -139,7 +175,10 @@ namespace azurerm.ApiManagementAuthorizationServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#resource_owner_password ApiManagementAuthorizationServer#resource_owner_password}.</summary>
+        /// <summary>The password associated with the Resource Owner.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#resource_owner_password ApiManagementAuthorizationServer#resource_owner_password}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceOwnerPassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceOwnerPassword
@@ -148,7 +187,10 @@ namespace azurerm.ApiManagementAuthorizationServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#resource_owner_username ApiManagementAuthorizationServer#resource_owner_username}.</summary>
+        /// <summary>The username associated with the Resource Owner.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#resource_owner_username ApiManagementAuthorizationServer#resource_owner_username}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceOwnerUsername", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceOwnerUsername
@@ -159,8 +201,11 @@ namespace azurerm.ApiManagementAuthorizationServer
 
         private object? _supportState;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#support_state ApiManagementAuthorizationServer#support_state}.</summary>
+        /// <summary>Does this Authorization Server support State?</summary>
         /// <remarks>
+        /// If this is set to <c>true</c> the client may use the state parameter to raise protocol security.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#support_state ApiManagementAuthorizationServer#support_state}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -193,7 +238,7 @@ namespace azurerm.ApiManagementAuthorizationServer
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#timeouts ApiManagementAuthorizationServer#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#timeouts ApiManagementAuthorizationServer#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.apiManagementAuthorizationServer.ApiManagementAuthorizationServerTimeouts\"}", isOptional: true)]
@@ -207,7 +252,7 @@ namespace azurerm.ApiManagementAuthorizationServer
 
         /// <summary>token_body_parameter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#token_body_parameter ApiManagementAuthorizationServer#token_body_parameter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#token_body_parameter ApiManagementAuthorizationServer#token_body_parameter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementAuthorizationServer.IApiManagementAuthorizationServerTokenBodyParameter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -238,7 +283,10 @@ namespace azurerm.ApiManagementAuthorizationServer
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#token_endpoint ApiManagementAuthorizationServer#token_endpoint}.</summary>
+        /// <summary>The OAuth Token Endpoint.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#token_endpoint ApiManagementAuthorizationServer#token_endpoint}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tokenEndpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TokenEndpoint

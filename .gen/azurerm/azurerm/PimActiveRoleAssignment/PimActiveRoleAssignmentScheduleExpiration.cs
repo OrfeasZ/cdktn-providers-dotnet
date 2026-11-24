@@ -7,9 +7,9 @@ namespace azurerm.PimActiveRoleAssignment
     [JsiiByValue(fqn: "azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentScheduleExpiration")]
     public class PimActiveRoleAssignmentScheduleExpiration : azurerm.PimActiveRoleAssignment.IPimActiveRoleAssignmentScheduleExpiration
     {
-        /// <summary>The duration of the role assignment in days.</summary>
+        /// <summary>The duration of the Role Assignment in days.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_active_role_assignment#duration_days PimActiveRoleAssignment#duration_days}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_active_role_assignment#duration_days PimActiveRoleAssignment#duration_days}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "durationDays", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -19,9 +19,9 @@ namespace azurerm.PimActiveRoleAssignment
             set;
         }
 
-        /// <summary>The duration of the role assignment in hours.</summary>
+        /// <summary>The duration of the Role Assignment in hours.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_active_role_assignment#duration_hours PimActiveRoleAssignment#duration_hours}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_active_role_assignment#duration_hours PimActiveRoleAssignment#duration_hours}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "durationHours", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -31,9 +31,9 @@ namespace azurerm.PimActiveRoleAssignment
             set;
         }
 
-        /// <summary>The end date/time of the role assignment.</summary>
+        /// <summary>The end date/time of the Role Assignment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_active_role_assignment#end_date_time PimActiveRoleAssignment#end_date_time}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_active_role_assignment#end_date_time PimActiveRoleAssignment#end_date_time}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "endDateTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

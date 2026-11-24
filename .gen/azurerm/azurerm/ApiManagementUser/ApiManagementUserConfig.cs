@@ -9,7 +9,7 @@ namespace azurerm.ApiManagementUser
     [JsiiByValue(fqn: "azurerm.apiManagementUser.ApiManagementUserConfig")]
     public class ApiManagementUserConfig : azurerm.ApiManagementUser.IApiManagementUserConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_user#api_management_name ApiManagementUser#api_management_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_user#api_management_name ApiManagementUser#api_management_name}.</summary>
         [JsiiProperty(name: "apiManagementName", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiManagementName
         {
@@ -17,7 +17,10 @@ namespace azurerm.ApiManagementUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_user#email ApiManagementUser#email}.</summary>
+        /// <summary>The email address associated with this user.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_user#email ApiManagementUser#email}
+        /// </remarks>
         [JsiiProperty(name: "email", typeJson: "{\"primitive\":\"string\"}")]
         public string Email
         {
@@ -25,7 +28,10 @@ namespace azurerm.ApiManagementUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_user#first_name ApiManagementUser#first_name}.</summary>
+        /// <summary>The first name for this user.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_user#first_name ApiManagementUser#first_name}
+        /// </remarks>
         [JsiiProperty(name: "firstName", typeJson: "{\"primitive\":\"string\"}")]
         public string FirstName
         {
@@ -33,7 +39,10 @@ namespace azurerm.ApiManagementUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_user#last_name ApiManagementUser#last_name}.</summary>
+        /// <summary>The last name for this user.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_user#last_name ApiManagementUser#last_name}
+        /// </remarks>
         [JsiiProperty(name: "lastName", typeJson: "{\"primitive\":\"string\"}")]
         public string LastName
         {
@@ -41,7 +50,7 @@ namespace azurerm.ApiManagementUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_user#resource_group_name ApiManagementUser#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_user#resource_group_name ApiManagementUser#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -49,7 +58,10 @@ namespace azurerm.ApiManagementUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_user#user_id ApiManagementUser#user_id}.</summary>
+        /// <summary>The Identifier for this User, which must be unique within the API Management Service.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_user#user_id ApiManagementUser#user_id}
+        /// </remarks>
         [JsiiProperty(name: "userId", typeJson: "{\"primitive\":\"string\"}")]
         public string UserId
         {
@@ -57,7 +69,10 @@ namespace azurerm.ApiManagementUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_user#confirmation ApiManagementUser#confirmation}.</summary>
+        /// <summary>The kind of confirmation email which will be sent to this user.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_user#confirmation ApiManagementUser#confirmation}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "confirmation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Confirmation
@@ -66,7 +81,7 @@ namespace azurerm.ApiManagementUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_user#id ApiManagementUser#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_user#id ApiManagementUser#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -79,7 +94,10 @@ namespace azurerm.ApiManagementUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_user#note ApiManagementUser#note}.</summary>
+        /// <summary>A note about this user.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_user#note ApiManagementUser#note}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "note", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Note
@@ -88,7 +106,10 @@ namespace azurerm.ApiManagementUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_user#password ApiManagementUser#password}.</summary>
+        /// <summary>The password associated with this user.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_user#password ApiManagementUser#password}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "password", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Password
@@ -97,7 +118,10 @@ namespace azurerm.ApiManagementUser
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_user#state ApiManagementUser#state}.</summary>
+        /// <summary>The state of this user.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_user#state ApiManagementUser#state}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? State
@@ -108,7 +132,7 @@ namespace azurerm.ApiManagementUser
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_user#timeouts ApiManagementUser#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_user#timeouts ApiManagementUser#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.apiManagementUser.ApiManagementUserTimeouts\"}", isOptional: true)]

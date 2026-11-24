@@ -9,7 +9,7 @@ namespace azurerm.ApiManagementLogger
     [JsiiByValue(fqn: "azurerm.apiManagementLogger.ApiManagementLoggerConfig")]
     public class ApiManagementLoggerConfig : azurerm.ApiManagementLogger.IApiManagementLoggerConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_logger#api_management_name ApiManagementLogger#api_management_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_logger#api_management_name ApiManagementLogger#api_management_name}.</summary>
         [JsiiProperty(name: "apiManagementName", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiManagementName
         {
@@ -17,7 +17,10 @@ namespace azurerm.ApiManagementLogger
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_logger#name ApiManagementLogger#name}.</summary>
+        /// <summary>The name of this Logger, which must be unique within the API Management Service.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_logger#name ApiManagementLogger#name}
+        /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +28,7 @@ namespace azurerm.ApiManagementLogger
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_logger#resource_group_name ApiManagementLogger#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_logger#resource_group_name ApiManagementLogger#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -35,7 +38,7 @@ namespace azurerm.ApiManagementLogger
 
         /// <summary>application_insights block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_logger#application_insights ApiManagementLogger#application_insights}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_logger#application_insights ApiManagementLogger#application_insights}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "applicationInsights", typeJson: "{\"fqn\":\"azurerm.apiManagementLogger.ApiManagementLoggerApplicationInsights\"}", isOptional: true)]
@@ -47,8 +50,9 @@ namespace azurerm.ApiManagementLogger
 
         private object? _buffered;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_logger#buffered ApiManagementLogger#buffered}.</summary>
+        /// <summary>Whether records should be buffered in the Logger prior to publishing.</summary>
         /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_logger#buffered ApiManagementLogger#buffered}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -79,7 +83,10 @@ namespace azurerm.ApiManagementLogger
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_logger#description ApiManagementLogger#description}.</summary>
+        /// <summary>A description of this Logger.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_logger#description ApiManagementLogger#description}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -90,7 +97,7 @@ namespace azurerm.ApiManagementLogger
 
         /// <summary>eventhub block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_logger#eventhub ApiManagementLogger#eventhub}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_logger#eventhub ApiManagementLogger#eventhub}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "eventhub", typeJson: "{\"fqn\":\"azurerm.apiManagementLogger.ApiManagementLoggerEventhub\"}", isOptional: true)]
@@ -100,7 +107,7 @@ namespace azurerm.ApiManagementLogger
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_logger#id ApiManagementLogger#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_logger#id ApiManagementLogger#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -113,7 +120,10 @@ namespace azurerm.ApiManagementLogger
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_logger#resource_id ApiManagementLogger#resource_id}.</summary>
+        /// <summary>The target resource ID which will be linked in the API-Management portal page.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_logger#resource_id ApiManagementLogger#resource_id}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? ResourceId
@@ -124,7 +134,7 @@ namespace azurerm.ApiManagementLogger
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_logger#timeouts ApiManagementLogger#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_logger#timeouts ApiManagementLogger#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.apiManagementLogger.ApiManagementLoggerTimeouts\"}", isOptional: true)]

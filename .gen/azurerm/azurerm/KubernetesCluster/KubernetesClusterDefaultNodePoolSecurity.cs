@@ -9,7 +9,7 @@ namespace azurerm.KubernetesCluster
     {
         private object? _secureBootEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/kubernetes_cluster#secure_boot_enabled KubernetesCluster#secure_boot_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/kubernetes_cluster#secure_boot_enabled KubernetesCluster#secure_boot_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -43,7 +43,7 @@ namespace azurerm.KubernetesCluster
 
         private object? _vtpmEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/kubernetes_cluster#vtpm_enabled KubernetesCluster#vtpm_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/kubernetes_cluster#vtpm_enabled KubernetesCluster#vtpm_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>

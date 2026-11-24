@@ -9,7 +9,10 @@ namespace azurerm.ApiManagementApiOperation
     [JsiiByValue(fqn: "azurerm.apiManagementApiOperation.ApiManagementApiOperationRequestRepresentation")]
     public class ApiManagementApiOperationRequestRepresentation : azurerm.ApiManagementApiOperation.IApiManagementApiOperationRequestRepresentation
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_operation#content_type ApiManagementApiOperation#content_type}.</summary>
+        /// <summary>The Content Type of this representation, such as `application/json`.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_operation#content_type ApiManagementApiOperation#content_type}
+        /// </remarks>
         [JsiiProperty(name: "contentType", typeJson: "{\"primitive\":\"string\"}")]
         public string ContentType
         {
@@ -21,7 +24,7 @@ namespace azurerm.ApiManagementApiOperation
 
         /// <summary>example block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_operation#example ApiManagementApiOperation#example}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_operation#example ApiManagementApiOperation#example}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementApiOperation.IApiManagementApiOperationRequestRepresentationExample" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -56,7 +59,7 @@ namespace azurerm.ApiManagementApiOperation
 
         /// <summary>form_parameter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_operation#form_parameter ApiManagementApiOperation#form_parameter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_operation#form_parameter ApiManagementApiOperation#form_parameter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagementApiOperation.IApiManagementApiOperationRequestRepresentationFormParameter" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -87,7 +90,10 @@ namespace azurerm.ApiManagementApiOperation
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_operation#schema_id ApiManagementApiOperation#schema_id}.</summary>
+        /// <summary>The ID of an API Management Schema which represents this Response.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_operation#schema_id ApiManagementApiOperation#schema_id}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "schemaId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SchemaId
@@ -96,7 +102,10 @@ namespace azurerm.ApiManagementApiOperation
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_operation#type_name ApiManagementApiOperation#type_name}.</summary>
+        /// <summary>The Type Name defined by the Schema.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_operation#type_name ApiManagementApiOperation#type_name}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "typeName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TypeName

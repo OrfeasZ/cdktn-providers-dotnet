@@ -9,7 +9,10 @@ namespace azurerm.ApiManagementApi
     [JsiiByValue(fqn: "azurerm.apiManagementApi.ApiManagementApiSubscriptionKeyParameterNames")]
     public class ApiManagementApiSubscriptionKeyParameterNames : azurerm.ApiManagementApi.IApiManagementApiSubscriptionKeyParameterNames
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api#header ApiManagementApi#header}.</summary>
+        /// <summary>The name of the HTTP Header which should be used for the Subscription Key.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api#header ApiManagementApi#header}
+        /// </remarks>
         [JsiiProperty(name: "header", typeJson: "{\"primitive\":\"string\"}")]
         public string Header
         {
@@ -17,7 +20,10 @@ namespace azurerm.ApiManagementApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api#query ApiManagementApi#query}.</summary>
+        /// <summary>The name of the QueryString parameter which should be used for the Subscription Key.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api#query ApiManagementApi#query}
+        /// </remarks>
         [JsiiProperty(name: "query", typeJson: "{\"primitive\":\"string\"}")]
         public string Query
         {

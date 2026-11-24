@@ -9,7 +9,7 @@ namespace azurerm.ApiManagementProductApi
     [JsiiByValue(fqn: "azurerm.apiManagementProductApi.ApiManagementProductApiConfig")]
     public class ApiManagementProductApiConfig : azurerm.ApiManagementProductApi.IApiManagementProductApiConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_product_api#api_management_name ApiManagementProductApi#api_management_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_product_api#api_management_name ApiManagementProductApi#api_management_name}.</summary>
         [JsiiProperty(name: "apiManagementName", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiManagementName
         {
@@ -17,7 +17,10 @@ namespace azurerm.ApiManagementProductApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_product_api#api_name ApiManagementProductApi#api_name}.</summary>
+        /// <summary>The Name of the API Management API within the API Management Service.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_product_api#api_name ApiManagementProductApi#api_name}
+        /// </remarks>
         [JsiiProperty(name: "apiName", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiName
         {
@@ -25,7 +28,10 @@ namespace azurerm.ApiManagementProductApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_product_api#product_id ApiManagementProductApi#product_id}.</summary>
+        /// <summary>The ID of the API Management Product within the API Management Service.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_product_api#product_id ApiManagementProductApi#product_id}
+        /// </remarks>
         [JsiiProperty(name: "productId", typeJson: "{\"primitive\":\"string\"}")]
         public string ProductId
         {
@@ -33,7 +39,7 @@ namespace azurerm.ApiManagementProductApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_product_api#resource_group_name ApiManagementProductApi#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_product_api#resource_group_name ApiManagementProductApi#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -41,7 +47,7 @@ namespace azurerm.ApiManagementProductApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_product_api#id ApiManagementProductApi#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_product_api#id ApiManagementProductApi#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,7 +62,7 @@ namespace azurerm.ApiManagementProductApi
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_product_api#timeouts ApiManagementProductApi#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_product_api#timeouts ApiManagementProductApi#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.apiManagementProductApi.ApiManagementProductApiTimeouts\"}", isOptional: true)]

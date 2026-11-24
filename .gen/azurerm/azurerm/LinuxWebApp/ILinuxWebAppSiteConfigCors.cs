@@ -7,9 +7,9 @@ namespace azurerm.LinuxWebApp
     [JsiiInterface(nativeType: typeof(ILinuxWebAppSiteConfigCors), fullyQualifiedName: "azurerm.linuxWebApp.LinuxWebAppSiteConfigCors")]
     public interface ILinuxWebAppSiteConfigCors
     {
-        /// <summary>Specifies a list of origins that should be allowed to make cross-origin calls.</summary>
+        /// <summary>A list of origins that should be allowed to make cross-origin calls.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_web_app#allowed_origins LinuxWebApp#allowed_origins}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_web_app#allowed_origins LinuxWebApp#allowed_origins}
         /// </remarks>
         [JsiiProperty(name: "allowedOrigins", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,9 +21,9 @@ namespace azurerm.LinuxWebApp
             }
         }
 
-        /// <summary>Are credentials allowed in CORS requests? Defaults to `false`.</summary>
+        /// <summary>Are credentials allowed in CORS requests?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_web_app#support_credentials LinuxWebApp#support_credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_web_app#support_credentials LinuxWebApp#support_credentials}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "supportCredentials", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -43,9 +43,9 @@ namespace azurerm.LinuxWebApp
             {
             }
 
-            /// <summary>Specifies a list of origins that should be allowed to make cross-origin calls.</summary>
+            /// <summary>A list of origins that should be allowed to make cross-origin calls.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_web_app#allowed_origins LinuxWebApp#allowed_origins}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_web_app#allowed_origins LinuxWebApp#allowed_origins}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "allowedOrigins", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -54,9 +54,9 @@ namespace azurerm.LinuxWebApp
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Are credentials allowed in CORS requests? Defaults to `false`.</summary>
+            /// <summary>Are credentials allowed in CORS requests?</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_web_app#support_credentials LinuxWebApp#support_credentials}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_web_app#support_credentials LinuxWebApp#support_credentials}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

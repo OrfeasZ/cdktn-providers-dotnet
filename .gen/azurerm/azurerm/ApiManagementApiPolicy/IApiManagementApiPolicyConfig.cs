@@ -7,28 +7,31 @@ namespace azurerm.ApiManagementApiPolicy
     [JsiiInterface(nativeType: typeof(IApiManagementApiPolicyConfig), fullyQualifiedName: "azurerm.apiManagementApiPolicy.ApiManagementApiPolicyConfig")]
     public interface IApiManagementApiPolicyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_policy#api_management_name ApiManagementApiPolicy#api_management_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_policy#api_management_name ApiManagementApiPolicy#api_management_name}.</summary>
         [JsiiProperty(name: "apiManagementName", typeJson: "{\"primitive\":\"string\"}")]
         string ApiManagementName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_policy#api_name ApiManagementApiPolicy#api_name}.</summary>
+        /// <summary>The ID of the API Management API within the API Management Service.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_policy#api_name ApiManagementApiPolicy#api_name}
+        /// </remarks>
         [JsiiProperty(name: "apiName", typeJson: "{\"primitive\":\"string\"}")]
         string ApiName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_policy#resource_group_name ApiManagementApiPolicy#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_policy#resource_group_name ApiManagementApiPolicy#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceGroupName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_policy#id ApiManagementApiPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_policy#id ApiManagementApiPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -45,7 +48,7 @@ namespace azurerm.ApiManagementApiPolicy
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_policy#timeouts ApiManagementApiPolicy#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_policy#timeouts ApiManagementApiPolicy#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.apiManagementApiPolicy.ApiManagementApiPolicyTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -57,7 +60,12 @@ namespace azurerm.ApiManagementApiPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_policy#xml_content ApiManagementApiPolicy#xml_content}.</summary>
+        /// <summary>The XML Content for this Policy as a string.</summary>
+        /// <remarks>
+        /// An XML file can be used here with Terraform's <a href="https://developer.hashicorp.com/terraform/language/functions/file">file function</a> that is similar to Microsoft's <c>PolicyFilePath</c> option. If you need to pass variables into your XML file, use Terraform's <a href="https://developer.hashicorp.com/terraform/language/functions/templatefile">templatefile function</a>.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_policy#xml_content ApiManagementApiPolicy#xml_content}
+        /// </remarks>
         [JsiiProperty(name: "xmlContent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? XmlContent
@@ -68,7 +76,10 @@ namespace azurerm.ApiManagementApiPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_policy#xml_link ApiManagementApiPolicy#xml_link}.</summary>
+        /// <summary>A link to a Policy XML Document, which must be publicly available.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_policy#xml_link ApiManagementApiPolicy#xml_link}
+        /// </remarks>
         [JsiiProperty(name: "xmlLink", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? XmlLink
@@ -86,28 +97,31 @@ namespace azurerm.ApiManagementApiPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_policy#api_management_name ApiManagementApiPolicy#api_management_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_policy#api_management_name ApiManagementApiPolicy#api_management_name}.</summary>
             [JsiiProperty(name: "apiManagementName", typeJson: "{\"primitive\":\"string\"}")]
             public string ApiManagementName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_policy#api_name ApiManagementApiPolicy#api_name}.</summary>
+            /// <summary>The ID of the API Management API within the API Management Service.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_policy#api_name ApiManagementApiPolicy#api_name}
+            /// </remarks>
             [JsiiProperty(name: "apiName", typeJson: "{\"primitive\":\"string\"}")]
             public string ApiName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_policy#resource_group_name ApiManagementApiPolicy#resource_group_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_policy#resource_group_name ApiManagementApiPolicy#resource_group_name}.</summary>
             [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceGroupName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_policy#id ApiManagementApiPolicy#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_policy#id ApiManagementApiPolicy#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -121,7 +135,7 @@ namespace azurerm.ApiManagementApiPolicy
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_policy#timeouts ApiManagementApiPolicy#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_policy#timeouts ApiManagementApiPolicy#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.apiManagementApiPolicy.ApiManagementApiPolicyTimeouts\"}", isOptional: true)]
@@ -130,7 +144,12 @@ namespace azurerm.ApiManagementApiPolicy
                 get => GetInstanceProperty<azurerm.ApiManagementApiPolicy.IApiManagementApiPolicyTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_policy#xml_content ApiManagementApiPolicy#xml_content}.</summary>
+            /// <summary>The XML Content for this Policy as a string.</summary>
+            /// <remarks>
+            /// An XML file can be used here with Terraform's <a href="https://developer.hashicorp.com/terraform/language/functions/file">file function</a> that is similar to Microsoft's <c>PolicyFilePath</c> option. If you need to pass variables into your XML file, use Terraform's <a href="https://developer.hashicorp.com/terraform/language/functions/templatefile">templatefile function</a>.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_policy#xml_content ApiManagementApiPolicy#xml_content}
+            /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "xmlContent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? XmlContent
@@ -138,7 +157,10 @@ namespace azurerm.ApiManagementApiPolicy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_policy#xml_link ApiManagementApiPolicy#xml_link}.</summary>
+            /// <summary>A link to a Policy XML Document, which must be publicly available.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_policy#xml_link ApiManagementApiPolicy#xml_link}
+            /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "xmlLink", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? XmlLink

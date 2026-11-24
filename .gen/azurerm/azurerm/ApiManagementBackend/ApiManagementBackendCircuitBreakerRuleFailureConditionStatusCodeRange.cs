@@ -9,7 +9,10 @@ namespace azurerm.ApiManagementBackend
     [JsiiByValue(fqn: "azurerm.apiManagementBackend.ApiManagementBackendCircuitBreakerRuleFailureConditionStatusCodeRange")]
     public class ApiManagementBackendCircuitBreakerRuleFailureConditionStatusCodeRange : azurerm.ApiManagementBackend.IApiManagementBackendCircuitBreakerRuleFailureConditionStatusCodeRange
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_backend#max ApiManagementBackend#max}.</summary>
+        /// <summary>The maximum HTTP status code to consider as a failure.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_backend#max ApiManagementBackend#max}
+        /// </remarks>
         [JsiiProperty(name: "max", typeJson: "{\"primitive\":\"number\"}")]
         public double Max
         {
@@ -17,7 +20,10 @@ namespace azurerm.ApiManagementBackend
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_backend#min ApiManagementBackend#min}.</summary>
+        /// <summary>The minimum HTTP status code to consider as a failure.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_backend#min ApiManagementBackend#min}
+        /// </remarks>
         [JsiiProperty(name: "min", typeJson: "{\"primitive\":\"number\"}")]
         public double Min
         {

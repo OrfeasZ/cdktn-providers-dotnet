@@ -9,7 +9,10 @@ namespace azurerm.ApiManagementApi
     [JsiiByValue(fqn: "azurerm.apiManagementApi.ApiManagementApiImportWsdlSelector")]
     public class ApiManagementApiImportWsdlSelector : azurerm.ApiManagementApi.IApiManagementApiImportWsdlSelector
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api#endpoint_name ApiManagementApi#endpoint_name}.</summary>
+        /// <summary>The name of endpoint (port) to import from WSDL.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api#endpoint_name ApiManagementApi#endpoint_name}
+        /// </remarks>
         [JsiiProperty(name: "endpointName", typeJson: "{\"primitive\":\"string\"}")]
         public string EndpointName
         {
@@ -17,7 +20,10 @@ namespace azurerm.ApiManagementApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api#service_name ApiManagementApi#service_name}.</summary>
+        /// <summary>The name of service to import from WSDL.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api#service_name ApiManagementApi#service_name}
+        /// </remarks>
         [JsiiProperty(name: "serviceName", typeJson: "{\"primitive\":\"string\"}")]
         public string ServiceName
         {

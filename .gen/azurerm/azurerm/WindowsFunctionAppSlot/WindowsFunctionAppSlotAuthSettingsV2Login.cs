@@ -11,7 +11,7 @@ namespace azurerm.WindowsFunctionAppSlot
         /// <remarks>
         /// This is an advanced setting typically only needed by Windows Store application backends. <strong>Note:</strong> URLs within the current domain are always implicitly allowed.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app_slot#allowed_external_redirect_urls WindowsFunctionAppSlot#allowed_external_redirect_urls}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app_slot#allowed_external_redirect_urls WindowsFunctionAppSlot#allowed_external_redirect_urls}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "allowedExternalRedirectUrls", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -21,9 +21,9 @@ namespace azurerm.WindowsFunctionAppSlot
             set;
         }
 
-        /// <summary>The method by which cookies expire. Possible values include: `FixedTime`, and `IdentityProviderDerived`. Defaults to `FixedTime`.</summary>
+        /// <summary>The method by which cookies expire.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app_slot#cookie_expiration_convention WindowsFunctionAppSlot#cookie_expiration_convention}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app_slot#cookie_expiration_convention WindowsFunctionAppSlot#cookie_expiration_convention}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cookieExpirationConvention", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -33,9 +33,9 @@ namespace azurerm.WindowsFunctionAppSlot
             set;
         }
 
-        /// <summary>The time after the request is made when the session cookie should expire. Defaults to `08:00:00`.</summary>
+        /// <summary>The time after the request is made when the session cookie should expire.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app_slot#cookie_expiration_time WindowsFunctionAppSlot#cookie_expiration_time}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app_slot#cookie_expiration_time WindowsFunctionAppSlot#cookie_expiration_time}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cookieExpirationTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -47,7 +47,7 @@ namespace azurerm.WindowsFunctionAppSlot
 
         /// <summary>The endpoint to which logout requests should be made.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app_slot#logout_endpoint WindowsFunctionAppSlot#logout_endpoint}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app_slot#logout_endpoint WindowsFunctionAppSlot#logout_endpoint}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "logoutEndpoint", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -57,9 +57,9 @@ namespace azurerm.WindowsFunctionAppSlot
             set;
         }
 
-        /// <summary>The time after the request is made when the nonce should expire. Defaults to `00:05:00`.</summary>
+        /// <summary>The time after the request is made when the nonce should expire.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app_slot#nonce_expiration_time WindowsFunctionAppSlot#nonce_expiration_time}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app_slot#nonce_expiration_time WindowsFunctionAppSlot#nonce_expiration_time}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "nonceExpirationTime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -71,9 +71,9 @@ namespace azurerm.WindowsFunctionAppSlot
 
         private object? _preserveUrlFragmentsForLogins;
 
-        /// <summary>Should the fragments from the request be preserved after the login request is made. Defaults to `false`.</summary>
+        /// <summary>Should the fragments from the request be preserved after the login request is made?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app_slot#preserve_url_fragments_for_logins WindowsFunctionAppSlot#preserve_url_fragments_for_logins}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app_slot#preserve_url_fragments_for_logins WindowsFunctionAppSlot#preserve_url_fragments_for_logins}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -106,9 +106,7 @@ namespace azurerm.WindowsFunctionAppSlot
 
         /// <summary>The number of hours after session token expiration that a session token can be used to call the token refresh API.</summary>
         /// <remarks>
-        /// Defaults to <c>72</c> hours.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app_slot#token_refresh_extension_time WindowsFunctionAppSlot#token_refresh_extension_time}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app_slot#token_refresh_extension_time WindowsFunctionAppSlot#token_refresh_extension_time}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tokenRefreshExtensionTime", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -120,9 +118,9 @@ namespace azurerm.WindowsFunctionAppSlot
 
         private object? _tokenStoreEnabled;
 
-        /// <summary>Should the Token Store configuration Enabled. Defaults to `false`.</summary>
+        /// <summary>Should the Token Store configuration Enabled?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app_slot#token_store_enabled WindowsFunctionAppSlot#token_store_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app_slot#token_store_enabled WindowsFunctionAppSlot#token_store_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -155,7 +153,7 @@ namespace azurerm.WindowsFunctionAppSlot
 
         /// <summary>The directory path in the App Filesystem in which the tokens will be stored.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app_slot#token_store_path WindowsFunctionAppSlot#token_store_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app_slot#token_store_path WindowsFunctionAppSlot#token_store_path}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tokenStorePath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -167,7 +165,7 @@ namespace azurerm.WindowsFunctionAppSlot
 
         /// <summary>The name of the app setting which contains the SAS URL of the blob storage containing the tokens.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app_slot#token_store_sas_setting_name WindowsFunctionAppSlot#token_store_sas_setting_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app_slot#token_store_sas_setting_name WindowsFunctionAppSlot#token_store_sas_setting_name}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tokenStoreSasSettingName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -179,9 +177,9 @@ namespace azurerm.WindowsFunctionAppSlot
 
         private object? _validateNonce;
 
-        /// <summary>Should the nonce be validated while completing the login flow. Defaults to `true`.</summary>
+        /// <summary>Should the nonce be validated while completing the login flow?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app_slot#validate_nonce WindowsFunctionAppSlot#validate_nonce}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app_slot#validate_nonce WindowsFunctionAppSlot#validate_nonce}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

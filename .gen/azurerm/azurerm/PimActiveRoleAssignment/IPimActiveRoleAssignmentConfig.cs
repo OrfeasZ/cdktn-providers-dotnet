@@ -7,9 +7,9 @@ namespace azurerm.PimActiveRoleAssignment
     [JsiiInterface(nativeType: typeof(IPimActiveRoleAssignmentConfig), fullyQualifiedName: "azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentConfig")]
     public interface IPimActiveRoleAssignmentConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Object ID of the principal for this role assignment.</summary>
+        /// <summary>Object ID of the principal for this Role Assignment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_active_role_assignment#principal_id PimActiveRoleAssignment#principal_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_active_role_assignment#principal_id PimActiveRoleAssignment#principal_id}
         /// </remarks>
         [JsiiProperty(name: "principalId", typeJson: "{\"primitive\":\"string\"}")]
         string PrincipalId
@@ -17,9 +17,9 @@ namespace azurerm.PimActiveRoleAssignment
             get;
         }
 
-        /// <summary>Role definition ID for this role assignment.</summary>
+        /// <summary>Role Definition ID for this Role Assignment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_active_role_assignment#role_definition_id PimActiveRoleAssignment#role_definition_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_active_role_assignment#role_definition_id PimActiveRoleAssignment#role_definition_id}
         /// </remarks>
         [JsiiProperty(name: "roleDefinitionId", typeJson: "{\"primitive\":\"string\"}")]
         string RoleDefinitionId
@@ -27,9 +27,9 @@ namespace azurerm.PimActiveRoleAssignment
             get;
         }
 
-        /// <summary>Scope for this role assignment, should be a valid resource ID.</summary>
+        /// <summary>Scope for this Role Assignment, should be a valid resource ID.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_active_role_assignment#scope PimActiveRoleAssignment#scope}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_active_role_assignment#scope PimActiveRoleAssignment#scope}
         /// </remarks>
         [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}")]
         string Scope
@@ -37,7 +37,7 @@ namespace azurerm.PimActiveRoleAssignment
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_active_role_assignment#id PimActiveRoleAssignment#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_active_role_assignment#id PimActiveRoleAssignment#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52,9 +52,9 @@ namespace azurerm.PimActiveRoleAssignment
             }
         }
 
-        /// <summary>The justification for this role assignment.</summary>
+        /// <summary>The justification for this Role Assignment.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_active_role_assignment#justification PimActiveRoleAssignment#justification}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_active_role_assignment#justification PimActiveRoleAssignment#justification}
         /// </remarks>
         [JsiiProperty(name: "justification", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -68,7 +68,7 @@ namespace azurerm.PimActiveRoleAssignment
 
         /// <summary>schedule block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_active_role_assignment#schedule PimActiveRoleAssignment#schedule}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_active_role_assignment#schedule PimActiveRoleAssignment#schedule}
         /// </remarks>
         [JsiiProperty(name: "schedule", typeJson: "{\"fqn\":\"azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentSchedule\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -82,7 +82,7 @@ namespace azurerm.PimActiveRoleAssignment
 
         /// <summary>ticket block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_active_role_assignment#ticket PimActiveRoleAssignment#ticket}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_active_role_assignment#ticket PimActiveRoleAssignment#ticket}
         /// </remarks>
         [JsiiProperty(name: "ticket", typeJson: "{\"fqn\":\"azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentTicket\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -96,7 +96,7 @@ namespace azurerm.PimActiveRoleAssignment
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_active_role_assignment#timeouts PimActiveRoleAssignment#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_active_role_assignment#timeouts PimActiveRoleAssignment#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -115,9 +115,9 @@ namespace azurerm.PimActiveRoleAssignment
             {
             }
 
-            /// <summary>Object ID of the principal for this role assignment.</summary>
+            /// <summary>Object ID of the principal for this Role Assignment.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_active_role_assignment#principal_id PimActiveRoleAssignment#principal_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_active_role_assignment#principal_id PimActiveRoleAssignment#principal_id}
             /// </remarks>
             [JsiiProperty(name: "principalId", typeJson: "{\"primitive\":\"string\"}")]
             public string PrincipalId
@@ -125,9 +125,9 @@ namespace azurerm.PimActiveRoleAssignment
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Role definition ID for this role assignment.</summary>
+            /// <summary>Role Definition ID for this Role Assignment.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_active_role_assignment#role_definition_id PimActiveRoleAssignment#role_definition_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_active_role_assignment#role_definition_id PimActiveRoleAssignment#role_definition_id}
             /// </remarks>
             [JsiiProperty(name: "roleDefinitionId", typeJson: "{\"primitive\":\"string\"}")]
             public string RoleDefinitionId
@@ -135,9 +135,9 @@ namespace azurerm.PimActiveRoleAssignment
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Scope for this role assignment, should be a valid resource ID.</summary>
+            /// <summary>Scope for this Role Assignment, should be a valid resource ID.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_active_role_assignment#scope PimActiveRoleAssignment#scope}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_active_role_assignment#scope PimActiveRoleAssignment#scope}
             /// </remarks>
             [JsiiProperty(name: "scope", typeJson: "{\"primitive\":\"string\"}")]
             public string Scope
@@ -145,7 +145,7 @@ namespace azurerm.PimActiveRoleAssignment
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_active_role_assignment#id PimActiveRoleAssignment#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_active_role_assignment#id PimActiveRoleAssignment#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -157,9 +157,9 @@ namespace azurerm.PimActiveRoleAssignment
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>The justification for this role assignment.</summary>
+            /// <summary>The justification for this Role Assignment.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_active_role_assignment#justification PimActiveRoleAssignment#justification}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_active_role_assignment#justification PimActiveRoleAssignment#justification}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "justification", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -170,7 +170,7 @@ namespace azurerm.PimActiveRoleAssignment
 
             /// <summary>schedule block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_active_role_assignment#schedule PimActiveRoleAssignment#schedule}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_active_role_assignment#schedule PimActiveRoleAssignment#schedule}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "schedule", typeJson: "{\"fqn\":\"azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentSchedule\"}", isOptional: true)]
@@ -181,7 +181,7 @@ namespace azurerm.PimActiveRoleAssignment
 
             /// <summary>ticket block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_active_role_assignment#ticket PimActiveRoleAssignment#ticket}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_active_role_assignment#ticket PimActiveRoleAssignment#ticket}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ticket", typeJson: "{\"fqn\":\"azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentTicket\"}", isOptional: true)]
@@ -192,7 +192,7 @@ namespace azurerm.PimActiveRoleAssignment
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/pim_active_role_assignment#timeouts PimActiveRoleAssignment#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/pim_active_role_assignment#timeouts PimActiveRoleAssignment#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.pimActiveRoleAssignment.PimActiveRoleAssignmentTimeouts\"}", isOptional: true)]

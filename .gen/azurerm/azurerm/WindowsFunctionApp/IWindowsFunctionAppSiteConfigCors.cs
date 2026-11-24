@@ -7,9 +7,9 @@ namespace azurerm.WindowsFunctionApp
     [JsiiInterface(nativeType: typeof(IWindowsFunctionAppSiteConfigCors), fullyQualifiedName: "azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigCors")]
     public interface IWindowsFunctionAppSiteConfigCors
     {
-        /// <summary>Specifies a list of origins that should be allowed to make cross-origin calls.</summary>
+        /// <summary>A list of origins that should be allowed to make cross-origin calls.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#allowed_origins WindowsFunctionApp#allowed_origins}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#allowed_origins WindowsFunctionApp#allowed_origins}
         /// </remarks>
         [JsiiProperty(name: "allowedOrigins", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,9 +21,9 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>Are credentials allowed in CORS requests? Defaults to `false`.</summary>
+        /// <summary>Are credentials allowed in CORS requests?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#support_credentials WindowsFunctionApp#support_credentials}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#support_credentials WindowsFunctionApp#support_credentials}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "supportCredentials", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -43,9 +43,9 @@ namespace azurerm.WindowsFunctionApp
             {
             }
 
-            /// <summary>Specifies a list of origins that should be allowed to make cross-origin calls.</summary>
+            /// <summary>A list of origins that should be allowed to make cross-origin calls.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#allowed_origins WindowsFunctionApp#allowed_origins}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#allowed_origins WindowsFunctionApp#allowed_origins}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "allowedOrigins", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -54,9 +54,9 @@ namespace azurerm.WindowsFunctionApp
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Are credentials allowed in CORS requests? Defaults to `false`.</summary>
+            /// <summary>Are credentials allowed in CORS requests?</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#support_credentials WindowsFunctionApp#support_credentials}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#support_credentials WindowsFunctionApp#support_credentials}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

@@ -9,7 +9,10 @@ namespace azurerm.AdvisorSuppression
     [JsiiByValue(fqn: "azurerm.advisorSuppression.AdvisorSuppressionConfig")]
     public class AdvisorSuppressionConfig : azurerm.AdvisorSuppression.IAdvisorSuppressionConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/advisor_suppression#name AdvisorSuppression#name}.</summary>
+        /// <summary>The Name which should be used for this Advisor suppression.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/advisor_suppression#name AdvisorSuppression#name}
+        /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +20,10 @@ namespace azurerm.AdvisorSuppression
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/advisor_suppression#recommendation_id AdvisorSuppression#recommendation_id}.</summary>
+        /// <summary>The ID of the Advisor recommendation to suppress.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/advisor_suppression#recommendation_id AdvisorSuppression#recommendation_id}
+        /// </remarks>
         [JsiiProperty(name: "recommendationId", typeJson: "{\"primitive\":\"string\"}")]
         public string RecommendationId
         {
@@ -25,7 +31,10 @@ namespace azurerm.AdvisorSuppression
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/advisor_suppression#resource_id AdvisorSuppression#resource_id}.</summary>
+        /// <summary>The ID of the Resource to suppress the Advisor recommendation for.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/advisor_suppression#resource_id AdvisorSuppression#resource_id}
+        /// </remarks>
         [JsiiProperty(name: "resourceId", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceId
         {
@@ -33,7 +42,7 @@ namespace azurerm.AdvisorSuppression
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/advisor_suppression#id AdvisorSuppression#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/advisor_suppression#id AdvisorSuppression#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -48,7 +57,7 @@ namespace azurerm.AdvisorSuppression
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/advisor_suppression#timeouts AdvisorSuppression#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/advisor_suppression#timeouts AdvisorSuppression#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.advisorSuppression.AdvisorSuppressionTimeouts\"}", isOptional: true)]
@@ -58,7 +67,10 @@ namespace azurerm.AdvisorSuppression
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/advisor_suppression#ttl AdvisorSuppression#ttl}.</summary>
+        /// <summary>An optional time to live value. If omitted, the suppression will not expire.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/advisor_suppression#ttl AdvisorSuppression#ttl}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "ttl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Ttl

@@ -9,7 +9,10 @@ namespace azurerm.ApiManagementGatewayApi
     [JsiiByValue(fqn: "azurerm.apiManagementGatewayApi.ApiManagementGatewayApiConfig")]
     public class ApiManagementGatewayApiConfig : azurerm.ApiManagementGatewayApi.IApiManagementGatewayApiConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_gateway_api#api_id ApiManagementGatewayApi#api_id}.</summary>
+        /// <summary>The Identifier of the API Management API within the API Management Service.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_gateway_api#api_id ApiManagementGatewayApi#api_id}
+        /// </remarks>
         [JsiiProperty(name: "apiId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiId
         {
@@ -17,7 +20,10 @@ namespace azurerm.ApiManagementGatewayApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_gateway_api#gateway_id ApiManagementGatewayApi#gateway_id}.</summary>
+        /// <summary>The Identifier for the API Management Gateway.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_gateway_api#gateway_id ApiManagementGatewayApi#gateway_id}
+        /// </remarks>
         [JsiiProperty(name: "gatewayId", typeJson: "{\"primitive\":\"string\"}")]
         public string GatewayId
         {
@@ -25,7 +31,7 @@ namespace azurerm.ApiManagementGatewayApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_gateway_api#id ApiManagementGatewayApi#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_gateway_api#id ApiManagementGatewayApi#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +46,7 @@ namespace azurerm.ApiManagementGatewayApi
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_gateway_api#timeouts ApiManagementGatewayApi#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_gateway_api#timeouts ApiManagementGatewayApi#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.apiManagementGatewayApi.ApiManagementGatewayApiTimeouts\"}", isOptional: true)]

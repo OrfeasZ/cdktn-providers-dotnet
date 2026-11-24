@@ -7,9 +7,11 @@ namespace azurerm.Aadb2CDirectory
     [JsiiInterface(nativeType: typeof(IAadb2CDirectoryConfig), fullyQualifiedName: "azurerm.aadb2CDirectory.Aadb2CDirectoryConfig")]
     public interface IAadb2CDirectoryConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Location in which the B2C tenant is hosted and data resides. See https://aka.ms/B2CDataResidency for more information.</summary>
+        /// <summary>Location in which the B2C tenant is hosted and data resides.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/aadb2c_directory#data_residency_location Aadb2CDirectory#data_residency_location}
+        /// The <c>data_residency_location</c> should be valid for the specified <c>country_code</c>. See <a href="https://aka.ms/B2CDataResidency">official docs</a> for more information.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/aadb2c_directory#data_residency_location Aadb2CDirectory#data_residency_location}
         /// </remarks>
         [JsiiProperty(name: "dataResidencyLocation", typeJson: "{\"primitive\":\"string\"}")]
         string DataResidencyLocation
@@ -17,9 +19,9 @@ namespace azurerm.Aadb2CDirectory
             get;
         }
 
-        /// <summary>Domain name of the B2C tenant, including onmicrosoft.com suffix.</summary>
+        /// <summary>Domain name of the B2C tenant, including the `.onmicrosoft.com` suffix.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/aadb2c_directory#domain_name Aadb2CDirectory#domain_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/aadb2c_directory#domain_name Aadb2CDirectory#domain_name}
         /// </remarks>
         [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
         string DomainName
@@ -27,16 +29,16 @@ namespace azurerm.Aadb2CDirectory
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/aadb2c_directory#resource_group_name Aadb2CDirectory#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/aadb2c_directory#resource_group_name Aadb2CDirectory#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         string ResourceGroupName
         {
             get;
         }
 
-        /// <summary>Billing SKU for the B2C tenant. See https://aka.ms/b2cBilling for more information.</summary>
+        /// <summary>Billing SKU for the B2C tenant. See [official docs](https://aka.ms/b2cBilling) for more information.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/aadb2c_directory#sku_name Aadb2CDirectory#sku_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/aadb2c_directory#sku_name Aadb2CDirectory#sku_name}
         /// </remarks>
         [JsiiProperty(name: "skuName", typeJson: "{\"primitive\":\"string\"}")]
         string SkuName
@@ -44,9 +46,11 @@ namespace azurerm.Aadb2CDirectory
             get;
         }
 
-        /// <summary>Country code of the B2C tenant. See https://aka.ms/B2CDataResidency for valid country codes.</summary>
+        /// <summary>Country code of the B2C tenant.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/aadb2c_directory#country_code Aadb2CDirectory#country_code}
+        /// The <c>country_code</c> should be valid for the specified <c>data_residency_location</c>. See <a href="https://aka.ms/B2CDataResidency">official docs</a> for valid country codes. Required when creating a new resource.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/aadb2c_directory#country_code Aadb2CDirectory#country_code}
         /// </remarks>
         [JsiiProperty(name: "countryCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -60,7 +64,7 @@ namespace azurerm.Aadb2CDirectory
 
         /// <summary>The initial display name of the B2C tenant.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/aadb2c_directory#display_name Aadb2CDirectory#display_name}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/aadb2c_directory#display_name Aadb2CDirectory#display_name}
         /// </remarks>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -72,7 +76,7 @@ namespace azurerm.Aadb2CDirectory
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/aadb2c_directory#id Aadb2CDirectory#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/aadb2c_directory#id Aadb2CDirectory#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -87,7 +91,7 @@ namespace azurerm.Aadb2CDirectory
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/aadb2c_directory#tags Aadb2CDirectory#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/aadb2c_directory#tags Aadb2CDirectory#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -100,7 +104,7 @@ namespace azurerm.Aadb2CDirectory
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/aadb2c_directory#timeouts Aadb2CDirectory#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/aadb2c_directory#timeouts Aadb2CDirectory#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.aadb2CDirectory.Aadb2CDirectoryTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -119,9 +123,11 @@ namespace azurerm.Aadb2CDirectory
             {
             }
 
-            /// <summary>Location in which the B2C tenant is hosted and data resides. See https://aka.ms/B2CDataResidency for more information.</summary>
+            /// <summary>Location in which the B2C tenant is hosted and data resides.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/aadb2c_directory#data_residency_location Aadb2CDirectory#data_residency_location}
+            /// The <c>data_residency_location</c> should be valid for the specified <c>country_code</c>. See <a href="https://aka.ms/B2CDataResidency">official docs</a> for more information.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/aadb2c_directory#data_residency_location Aadb2CDirectory#data_residency_location}
             /// </remarks>
             [JsiiProperty(name: "dataResidencyLocation", typeJson: "{\"primitive\":\"string\"}")]
             public string DataResidencyLocation
@@ -129,9 +135,9 @@ namespace azurerm.Aadb2CDirectory
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Domain name of the B2C tenant, including onmicrosoft.com suffix.</summary>
+            /// <summary>Domain name of the B2C tenant, including the `.onmicrosoft.com` suffix.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/aadb2c_directory#domain_name Aadb2CDirectory#domain_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/aadb2c_directory#domain_name Aadb2CDirectory#domain_name}
             /// </remarks>
             [JsiiProperty(name: "domainName", typeJson: "{\"primitive\":\"string\"}")]
             public string DomainName
@@ -139,16 +145,16 @@ namespace azurerm.Aadb2CDirectory
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/aadb2c_directory#resource_group_name Aadb2CDirectory#resource_group_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/aadb2c_directory#resource_group_name Aadb2CDirectory#resource_group_name}.</summary>
             [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
             public string ResourceGroupName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Billing SKU for the B2C tenant. See https://aka.ms/b2cBilling for more information.</summary>
+            /// <summary>Billing SKU for the B2C tenant. See [official docs](https://aka.ms/b2cBilling) for more information.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/aadb2c_directory#sku_name Aadb2CDirectory#sku_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/aadb2c_directory#sku_name Aadb2CDirectory#sku_name}
             /// </remarks>
             [JsiiProperty(name: "skuName", typeJson: "{\"primitive\":\"string\"}")]
             public string SkuName
@@ -156,9 +162,11 @@ namespace azurerm.Aadb2CDirectory
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Country code of the B2C tenant. See https://aka.ms/B2CDataResidency for valid country codes.</summary>
+            /// <summary>Country code of the B2C tenant.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/aadb2c_directory#country_code Aadb2CDirectory#country_code}
+            /// The <c>country_code</c> should be valid for the specified <c>data_residency_location</c>. See <a href="https://aka.ms/B2CDataResidency">official docs</a> for valid country codes. Required when creating a new resource.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/aadb2c_directory#country_code Aadb2CDirectory#country_code}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "countryCode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -169,7 +177,7 @@ namespace azurerm.Aadb2CDirectory
 
             /// <summary>The initial display name of the B2C tenant.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/aadb2c_directory#display_name Aadb2CDirectory#display_name}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/aadb2c_directory#display_name Aadb2CDirectory#display_name}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -178,7 +186,7 @@ namespace azurerm.Aadb2CDirectory
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/aadb2c_directory#id Aadb2CDirectory#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/aadb2c_directory#id Aadb2CDirectory#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -190,7 +198,7 @@ namespace azurerm.Aadb2CDirectory
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/aadb2c_directory#tags Aadb2CDirectory#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/aadb2c_directory#tags Aadb2CDirectory#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -200,7 +208,7 @@ namespace azurerm.Aadb2CDirectory
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/aadb2c_directory#timeouts Aadb2CDirectory#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/aadb2c_directory#timeouts Aadb2CDirectory#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.aadb2CDirectory.Aadb2CDirectoryTimeouts\"}", isOptional: true)]

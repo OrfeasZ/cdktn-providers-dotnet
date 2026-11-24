@@ -7,7 +7,7 @@ namespace azurerm.KubernetesClusterNodePool
     [JsiiInterface(nativeType: typeof(IKubernetesClusterNodePoolSecurity), fullyQualifiedName: "azurerm.kubernetesClusterNodePool.KubernetesClusterNodePoolSecurity")]
     public interface IKubernetesClusterNodePoolSecurity
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/kubernetes_cluster_node_pool#secure_boot_enabled KubernetesClusterNodePool#secure_boot_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/kubernetes_cluster_node_pool#secure_boot_enabled KubernetesClusterNodePool#secure_boot_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -21,7 +21,7 @@ namespace azurerm.KubernetesClusterNodePool
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/kubernetes_cluster_node_pool#vtpm_enabled KubernetesClusterNodePool#vtpm_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/kubernetes_cluster_node_pool#vtpm_enabled KubernetesClusterNodePool#vtpm_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,7 +42,7 @@ namespace azurerm.KubernetesClusterNodePool
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/kubernetes_cluster_node_pool#secure_boot_enabled KubernetesClusterNodePool#secure_boot_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/kubernetes_cluster_node_pool#secure_boot_enabled KubernetesClusterNodePool#secure_boot_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -53,7 +53,7 @@ namespace azurerm.KubernetesClusterNodePool
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/kubernetes_cluster_node_pool#vtpm_enabled KubernetesClusterNodePool#vtpm_enabled}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/kubernetes_cluster_node_pool#vtpm_enabled KubernetesClusterNodePool#vtpm_enabled}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>

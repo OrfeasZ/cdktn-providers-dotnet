@@ -9,7 +9,7 @@ namespace azurerm.ApiManagement
     [JsiiByValue(fqn: "azurerm.apiManagement.ApiManagementConfig")]
     public class ApiManagementConfig : azurerm.ApiManagement.IApiManagementConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#location ApiManagement#location}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#location ApiManagement#location}.</summary>
         [JsiiProperty(name: "location", typeJson: "{\"primitive\":\"string\"}")]
         public string Location
         {
@@ -17,7 +17,7 @@ namespace azurerm.ApiManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#name ApiManagement#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#name ApiManagement#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +25,10 @@ namespace azurerm.ApiManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#publisher_email ApiManagement#publisher_email}.</summary>
+        /// <summary>The email of publisher/company.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#publisher_email ApiManagement#publisher_email}
+        /// </remarks>
         [JsiiProperty(name: "publisherEmail", typeJson: "{\"primitive\":\"string\"}")]
         public string PublisherEmail
         {
@@ -33,7 +36,10 @@ namespace azurerm.ApiManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#publisher_name ApiManagement#publisher_name}.</summary>
+        /// <summary>The name of publisher/company.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#publisher_name ApiManagement#publisher_name}
+        /// </remarks>
         [JsiiProperty(name: "publisherName", typeJson: "{\"primitive\":\"string\"}")]
         public string PublisherName
         {
@@ -41,7 +47,7 @@ namespace azurerm.ApiManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#resource_group_name ApiManagement#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#resource_group_name ApiManagement#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -49,7 +55,12 @@ namespace azurerm.ApiManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#sku_name ApiManagement#sku_name}.</summary>
+        /// <summary>`sku_name` is a string consisting of two parts separated by an underscore(\_).</summary>
+        /// <remarks>
+        /// The first part is the <c>name</c>. The second part is the <c>capacity</c> (e.g. the number of deployed units of the <c>sku</c>), which must be a positive <c>integer</c> (e.g. <c>Developer_1</c>).
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#sku_name ApiManagement#sku_name}
+        /// </remarks>
         [JsiiProperty(name: "skuName", typeJson: "{\"primitive\":\"string\"}")]
         public string SkuName
         {
@@ -61,7 +72,7 @@ namespace azurerm.ApiManagement
 
         /// <summary>additional_location block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#additional_location ApiManagement#additional_location}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#additional_location ApiManagement#additional_location}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagement.IApiManagementAdditionalLocation" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -96,7 +107,7 @@ namespace azurerm.ApiManagement
 
         /// <summary>certificate block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#certificate ApiManagement#certificate}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#certificate ApiManagement#certificate}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.ApiManagement.IApiManagementCertificate" />)[]</para>
         /// </remarks>
         [JsiiOptional]
@@ -129,8 +140,11 @@ namespace azurerm.ApiManagement
 
         private object? _clientCertificateEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#client_certificate_enabled ApiManagement#client_certificate_enabled}.</summary>
+        /// <summary>Enforce a client certificate to be presented on each request to the gateway?</summary>
         /// <remarks>
+        /// This is only supported when SKU type is <c>Consumption</c>.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#client_certificate_enabled ApiManagement#client_certificate_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -163,7 +177,7 @@ namespace azurerm.ApiManagement
 
         /// <summary>delegation block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#delegation ApiManagement#delegation}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#delegation ApiManagement#delegation}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "delegation", typeJson: "{\"fqn\":\"azurerm.apiManagement.ApiManagementDelegation\"}", isOptional: true)]
@@ -175,8 +189,9 @@ namespace azurerm.ApiManagement
 
         private object? _gatewayDisabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#gateway_disabled ApiManagement#gateway_disabled}.</summary>
+        /// <summary>Disable the gateway in main region? This is only supported when `additional_location` is set.</summary>
         /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#gateway_disabled ApiManagement#gateway_disabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -209,7 +224,7 @@ namespace azurerm.ApiManagement
 
         /// <summary>hostname_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#hostname_configuration ApiManagement#hostname_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#hostname_configuration ApiManagement#hostname_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "hostnameConfiguration", typeJson: "{\"fqn\":\"azurerm.apiManagement.ApiManagementHostnameConfiguration\"}", isOptional: true)]
@@ -219,7 +234,7 @@ namespace azurerm.ApiManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#id ApiManagement#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#id ApiManagement#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -234,7 +249,7 @@ namespace azurerm.ApiManagement
 
         /// <summary>identity block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#identity ApiManagement#identity}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#identity ApiManagement#identity}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "identity", typeJson: "{\"fqn\":\"azurerm.apiManagement.ApiManagementIdentity\"}", isOptional: true)]
@@ -244,7 +259,10 @@ namespace azurerm.ApiManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#min_api_version ApiManagement#min_api_version}.</summary>
+        /// <summary>The version which the control plane API calls to API Management service are limited with version equal to or newer than.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#min_api_version ApiManagement#min_api_version}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "minApiVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? MinApiVersion
@@ -253,7 +271,10 @@ namespace azurerm.ApiManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#notification_sender_email ApiManagement#notification_sender_email}.</summary>
+        /// <summary>Email address from which the notification will be sent.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#notification_sender_email ApiManagement#notification_sender_email}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "notificationSenderEmail", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? NotificationSenderEmail
@@ -264,7 +285,7 @@ namespace azurerm.ApiManagement
 
         /// <summary>protocols block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#protocols ApiManagement#protocols}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#protocols ApiManagement#protocols}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "protocols", typeJson: "{\"fqn\":\"azurerm.apiManagement.ApiManagementProtocols\"}", isOptional: true)]
@@ -274,7 +295,10 @@ namespace azurerm.ApiManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#public_ip_address_id ApiManagement#public_ip_address_id}.</summary>
+        /// <summary>ID of a standard SKU IPv4 Public IP.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#public_ip_address_id ApiManagement#public_ip_address_id}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "publicIpAddressId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PublicIpAddressId
@@ -285,8 +309,9 @@ namespace azurerm.ApiManagement
 
         private object? _publicNetworkAccessEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#public_network_access_enabled ApiManagement#public_network_access_enabled}.</summary>
+        /// <summary>Is public access to the service allowed?</summary>
         /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#public_network_access_enabled ApiManagement#public_network_access_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -319,7 +344,7 @@ namespace azurerm.ApiManagement
 
         /// <summary>security block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#security ApiManagement#security}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#security ApiManagement#security}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "security", typeJson: "{\"fqn\":\"azurerm.apiManagement.ApiManagementSecurity\"}", isOptional: true)]
@@ -331,7 +356,7 @@ namespace azurerm.ApiManagement
 
         /// <summary>sign_in block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#sign_in ApiManagement#sign_in}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#sign_in ApiManagement#sign_in}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "signIn", typeJson: "{\"fqn\":\"azurerm.apiManagement.ApiManagementSignIn\"}", isOptional: true)]
@@ -343,7 +368,7 @@ namespace azurerm.ApiManagement
 
         /// <summary>sign_up block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#sign_up ApiManagement#sign_up}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#sign_up ApiManagement#sign_up}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "signUp", typeJson: "{\"fqn\":\"azurerm.apiManagement.ApiManagementSignUp\"}", isOptional: true)]
@@ -353,7 +378,7 @@ namespace azurerm.ApiManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#tags ApiManagement#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#tags ApiManagement#tags}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -364,7 +389,7 @@ namespace azurerm.ApiManagement
 
         /// <summary>tenant_access block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#tenant_access ApiManagement#tenant_access}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#tenant_access ApiManagement#tenant_access}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "tenantAccess", typeJson: "{\"fqn\":\"azurerm.apiManagement.ApiManagementTenantAccess\"}", isOptional: true)]
@@ -376,7 +401,7 @@ namespace azurerm.ApiManagement
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#timeouts ApiManagement#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#timeouts ApiManagement#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.apiManagement.ApiManagementTimeouts\"}", isOptional: true)]
@@ -388,7 +413,7 @@ namespace azurerm.ApiManagement
 
         /// <summary>virtual_network_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#virtual_network_configuration ApiManagement#virtual_network_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#virtual_network_configuration ApiManagement#virtual_network_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "virtualNetworkConfiguration", typeJson: "{\"fqn\":\"azurerm.apiManagement.ApiManagementVirtualNetworkConfiguration\"}", isOptional: true)]
@@ -398,7 +423,10 @@ namespace azurerm.ApiManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#virtual_network_type ApiManagement#virtual_network_type}.</summary>
+        /// <summary>The type of Virtual Network you want to use.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#virtual_network_type ApiManagement#virtual_network_type}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "virtualNetworkType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? VirtualNetworkType
@@ -407,7 +435,7 @@ namespace azurerm.ApiManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#zones ApiManagement#zones}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#zones ApiManagement#zones}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "zones", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? Zones

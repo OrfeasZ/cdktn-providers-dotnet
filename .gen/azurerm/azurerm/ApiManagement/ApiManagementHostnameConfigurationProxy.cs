@@ -9,7 +9,10 @@ namespace azurerm.ApiManagement
     [JsiiByValue(fqn: "azurerm.apiManagement.ApiManagementHostnameConfigurationProxy")]
     public class ApiManagementHostnameConfigurationProxy : azurerm.ApiManagement.IApiManagementHostnameConfigurationProxy
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#host_name ApiManagement#host_name}.</summary>
+        /// <summary>The host name to use.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#host_name ApiManagement#host_name}
+        /// </remarks>
         [JsiiProperty(name: "hostName", typeJson: "{\"primitive\":\"string\"}")]
         public string HostName
         {
@@ -17,7 +20,10 @@ namespace azurerm.ApiManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#certificate ApiManagement#certificate}.</summary>
+        /// <summary>The Base64-encoded certificate.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#certificate ApiManagement#certificate}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "certificate", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Certificate
@@ -26,7 +32,10 @@ namespace azurerm.ApiManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#certificate_password ApiManagement#certificate_password}.</summary>
+        /// <summary>The password associated with the certificate provided above.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#certificate_password ApiManagement#certificate_password}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "certificatePassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificatePassword
@@ -37,7 +46,7 @@ namespace azurerm.ApiManagement
 
         private object? _defaultSslBinding;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#default_ssl_binding ApiManagement#default_ssl_binding}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#default_ssl_binding ApiManagement#default_ssl_binding}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -69,7 +78,10 @@ namespace azurerm.ApiManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#key_vault_certificate_id ApiManagement#key_vault_certificate_id}.</summary>
+        /// <summary>The ID of the Key Vault Secret containing the SSL Certificate, which must be of the type `application/x-pkcs12`.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#key_vault_certificate_id ApiManagement#key_vault_certificate_id}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "keyVaultCertificateId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? KeyVaultCertificateId
@@ -80,8 +92,9 @@ namespace azurerm.ApiManagement
 
         private object? _negotiateClientCertificate;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#negotiate_client_certificate ApiManagement#negotiate_client_certificate}.</summary>
+        /// <summary>Should Client Certificate Negotiation be enabled for this Hostname?</summary>
         /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#negotiate_client_certificate ApiManagement#negotiate_client_certificate}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]
@@ -112,7 +125,10 @@ namespace azurerm.ApiManagement
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#ssl_keyvault_identity_client_id ApiManagement#ssl_keyvault_identity_client_id}.</summary>
+        /// <summary>The Managed Service Identity Client ID, which has `GET` access to the Key Vault containing the SSL certificate.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#ssl_keyvault_identity_client_id ApiManagement#ssl_keyvault_identity_client_id}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "sslKeyvaultIdentityClientId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? SslKeyvaultIdentityClientId

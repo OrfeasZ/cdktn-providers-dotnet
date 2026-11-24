@@ -9,7 +9,7 @@ namespace azurerm.AppServiceSourceControl
     {
         /// <summary>The ID of the Windows or Linux Web App.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#app_id AppServiceSourceControl#app_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#app_id AppServiceSourceControl#app_id}
         /// </remarks>
         [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
         string AppId
@@ -19,7 +19,7 @@ namespace azurerm.AppServiceSourceControl
 
         /// <summary>The branch name to use for deployments.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#branch AppServiceSourceControl#branch}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#branch AppServiceSourceControl#branch}
         /// </remarks>
         [JsiiProperty(name: "branch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -33,7 +33,7 @@ namespace azurerm.AppServiceSourceControl
 
         /// <summary>github_action_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#github_action_configuration AppServiceSourceControl#github_action_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#github_action_configuration AppServiceSourceControl#github_action_configuration}
         /// </remarks>
         [JsiiProperty(name: "githubActionConfiguration", typeJson: "{\"fqn\":\"azurerm.appServiceSourceControl.AppServiceSourceControlGithubActionConfiguration\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -45,7 +45,7 @@ namespace azurerm.AppServiceSourceControl
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#id AppServiceSourceControl#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#id AppServiceSourceControl#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -62,7 +62,7 @@ namespace azurerm.AppServiceSourceControl
 
         /// <summary>The URL for the repository.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#repo_url AppServiceSourceControl#repo_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#repo_url AppServiceSourceControl#repo_url}
         /// </remarks>
         [JsiiProperty(name: "repoUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -74,9 +74,9 @@ namespace azurerm.AppServiceSourceControl
             }
         }
 
-        /// <summary>Should the Deployment Rollback be enabled? Defaults to `false`.</summary>
+        /// <summary>Should the Deployment Rollback be enabled?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#rollback_enabled AppServiceSourceControl#rollback_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#rollback_enabled AppServiceSourceControl#rollback_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "rollbackEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -91,7 +91,7 @@ namespace azurerm.AppServiceSourceControl
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#timeouts AppServiceSourceControl#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#timeouts AppServiceSourceControl#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.appServiceSourceControl.AppServiceSourceControlTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -103,9 +103,9 @@ namespace azurerm.AppServiceSourceControl
             }
         }
 
-        /// <summary>Should the App use local Git configuration.</summary>
+        /// <summary>Should the App use local Git configuration?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#use_local_git AppServiceSourceControl#use_local_git}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#use_local_git AppServiceSourceControl#use_local_git}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "useLocalGit", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -118,11 +118,11 @@ namespace azurerm.AppServiceSourceControl
             }
         }
 
-        /// <summary>Should code be deployed manually.</summary>
+        /// <summary>Should code be deployed manually?</summary>
         /// <remarks>
-        /// Set to <c>false</c> to enable continuous integration, such as webhooks into online repos such as GitHub. Defaults to <c>false</c>.
+        /// Set to <c>false</c> to enable continuous integration, such as webhooks into online repos such as GitHub.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#use_manual_integration AppServiceSourceControl#use_manual_integration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#use_manual_integration AppServiceSourceControl#use_manual_integration}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "useManualIntegration", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -135,9 +135,9 @@ namespace azurerm.AppServiceSourceControl
             }
         }
 
-        /// <summary>The repository specified is Mercurial. Defaults to `false`.</summary>
+        /// <summary>The repository specified is Mercurial.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#use_mercurial AppServiceSourceControl#use_mercurial}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#use_mercurial AppServiceSourceControl#use_mercurial}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "useMercurial", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -159,7 +159,7 @@ namespace azurerm.AppServiceSourceControl
 
             /// <summary>The ID of the Windows or Linux Web App.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#app_id AppServiceSourceControl#app_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#app_id AppServiceSourceControl#app_id}
             /// </remarks>
             [JsiiProperty(name: "appId", typeJson: "{\"primitive\":\"string\"}")]
             public string AppId
@@ -169,7 +169,7 @@ namespace azurerm.AppServiceSourceControl
 
             /// <summary>The branch name to use for deployments.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#branch AppServiceSourceControl#branch}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#branch AppServiceSourceControl#branch}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "branch", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -180,7 +180,7 @@ namespace azurerm.AppServiceSourceControl
 
             /// <summary>github_action_configuration block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#github_action_configuration AppServiceSourceControl#github_action_configuration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#github_action_configuration AppServiceSourceControl#github_action_configuration}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "githubActionConfiguration", typeJson: "{\"fqn\":\"azurerm.appServiceSourceControl.AppServiceSourceControlGithubActionConfiguration\"}", isOptional: true)]
@@ -189,7 +189,7 @@ namespace azurerm.AppServiceSourceControl
                 get => GetInstanceProperty<azurerm.AppServiceSourceControl.IAppServiceSourceControlGithubActionConfiguration?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#id AppServiceSourceControl#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#id AppServiceSourceControl#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -203,7 +203,7 @@ namespace azurerm.AppServiceSourceControl
 
             /// <summary>The URL for the repository.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#repo_url AppServiceSourceControl#repo_url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#repo_url AppServiceSourceControl#repo_url}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "repoUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -212,9 +212,9 @@ namespace azurerm.AppServiceSourceControl
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Should the Deployment Rollback be enabled? Defaults to `false`.</summary>
+            /// <summary>Should the Deployment Rollback be enabled?</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#rollback_enabled AppServiceSourceControl#rollback_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#rollback_enabled AppServiceSourceControl#rollback_enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -226,7 +226,7 @@ namespace azurerm.AppServiceSourceControl
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#timeouts AppServiceSourceControl#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#timeouts AppServiceSourceControl#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.appServiceSourceControl.AppServiceSourceControlTimeouts\"}", isOptional: true)]
@@ -235,9 +235,9 @@ namespace azurerm.AppServiceSourceControl
                 get => GetInstanceProperty<azurerm.AppServiceSourceControl.IAppServiceSourceControlTimeouts?>();
             }
 
-            /// <summary>Should the App use local Git configuration.</summary>
+            /// <summary>Should the App use local Git configuration?</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#use_local_git AppServiceSourceControl#use_local_git}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#use_local_git AppServiceSourceControl#use_local_git}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -247,11 +247,11 @@ namespace azurerm.AppServiceSourceControl
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Should code be deployed manually.</summary>
+            /// <summary>Should code be deployed manually?</summary>
             /// <remarks>
-            /// Set to <c>false</c> to enable continuous integration, such as webhooks into online repos such as GitHub. Defaults to <c>false</c>.
+            /// Set to <c>false</c> to enable continuous integration, such as webhooks into online repos such as GitHub.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#use_manual_integration AppServiceSourceControl#use_manual_integration}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#use_manual_integration AppServiceSourceControl#use_manual_integration}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -261,9 +261,9 @@ namespace azurerm.AppServiceSourceControl
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>The repository specified is Mercurial. Defaults to `false`.</summary>
+            /// <summary>The repository specified is Mercurial.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#use_mercurial AppServiceSourceControl#use_mercurial}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#use_mercurial AppServiceSourceControl#use_mercurial}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

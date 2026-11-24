@@ -7,9 +7,9 @@ namespace azurerm.WindowsFunctionApp
     [JsiiInterface(nativeType: typeof(IWindowsFunctionAppSiteConfig), fullyQualifiedName: "azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfig")]
     public interface IWindowsFunctionAppSiteConfig
     {
-        /// <summary>If this Windows Web App is Always On enabled. Defaults to `false`.</summary>
+        /// <summary>If this Windows Web App is Always On enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#always_on WindowsFunctionApp#always_on}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#always_on WindowsFunctionApp#always_on}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "alwaysOn", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -24,7 +24,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>The URL of the API definition that describes this Windows Function App.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#api_definition_url WindowsFunctionApp#api_definition_url}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#api_definition_url WindowsFunctionApp#api_definition_url}
         /// </remarks>
         [JsiiProperty(name: "apiDefinitionUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -38,7 +38,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>The ID of the API Management API for this Windows Function App.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#api_management_api_id WindowsFunctionApp#api_management_api_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#api_management_api_id WindowsFunctionApp#api_management_api_id}
         /// </remarks>
         [JsiiProperty(name: "apiManagementApiId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -52,7 +52,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>The program and any arguments used to launch this app via the command line. (Example `node myapp.js`).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#app_command_line WindowsFunctionApp#app_command_line}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#app_command_line WindowsFunctionApp#app_command_line}
         /// </remarks>
         [JsiiProperty(name: "appCommandLine", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -66,7 +66,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>The Connection String for linking the Windows Function App to Application Insights.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#application_insights_connection_string WindowsFunctionApp#application_insights_connection_string}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#application_insights_connection_string WindowsFunctionApp#application_insights_connection_string}
         /// </remarks>
         [JsiiProperty(name: "applicationInsightsConnectionString", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -80,7 +80,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>The Instrumentation Key for connecting the Windows Function App to Application Insights.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#application_insights_key WindowsFunctionApp#application_insights_key}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#application_insights_key WindowsFunctionApp#application_insights_key}
         /// </remarks>
         [JsiiProperty(name: "applicationInsightsKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -94,7 +94,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>application_stack block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#application_stack WindowsFunctionApp#application_stack}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#application_stack WindowsFunctionApp#application_stack}
         /// </remarks>
         [JsiiProperty(name: "applicationStack", typeJson: "{\"fqn\":\"azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigApplicationStack\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -106,11 +106,11 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>The number of workers this function app can scale out to.</summary>
+        /// <summary>The number of workers this Function App can scale out to.</summary>
         /// <remarks>
         /// Only applicable to apps on the Consumption and Premium plan.
         ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#app_scale_limit WindowsFunctionApp#app_scale_limit}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#app_scale_limit WindowsFunctionApp#app_scale_limit}
         /// </remarks>
         [JsiiProperty(name: "appScaleLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -124,7 +124,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>app_service_logs block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#app_service_logs WindowsFunctionApp#app_service_logs}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#app_service_logs WindowsFunctionApp#app_service_logs}
         /// </remarks>
         [JsiiProperty(name: "appServiceLogs", typeJson: "{\"fqn\":\"azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigAppServiceLogs\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -138,7 +138,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>cors block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#cors WindowsFunctionApp#cors}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#cors WindowsFunctionApp#cors}
         /// </remarks>
         [JsiiProperty(name: "cors", typeJson: "{\"fqn\":\"azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigCors\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -150,9 +150,9 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>Specifies a list of Default Documents for the Windows Web App.</summary>
+        /// <summary>A list of Default Documents for the Windows Web App.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#default_documents WindowsFunctionApp#default_documents}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#default_documents WindowsFunctionApp#default_documents}
         /// </remarks>
         [JsiiProperty(name: "defaultDocuments", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -166,7 +166,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>The number of minimum instances for this Windows Function App. Only affects apps on Elastic Premium plans.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#elastic_instance_minimum WindowsFunctionApp#elastic_instance_minimum}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#elastic_instance_minimum WindowsFunctionApp#elastic_instance_minimum}
         /// </remarks>
         [JsiiProperty(name: "elasticInstanceMinimum", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -178,11 +178,9 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>State of FTP / FTPS service for this function app.</summary>
+        /// <summary>State of FTP / FTPS service for this Function App.</summary>
         /// <remarks>
-        /// Possible values include: <c>AllAllowed</c>, <c>FtpsOnly</c> and <c>Disabled</c>. Defaults to <c>Disabled</c>.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#ftps_state WindowsFunctionApp#ftps_state}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#ftps_state WindowsFunctionApp#ftps_state}
         /// </remarks>
         [JsiiProperty(name: "ftpsState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -196,9 +194,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>The amount of time in minutes that a node is unhealthy before being removed from the load balancer.</summary>
         /// <remarks>
-        /// Possible values are between <c>2</c> and <c>10</c>. Only valid in conjunction with <c>health_check_path</c>
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#health_check_eviction_time_in_min WindowsFunctionApp#health_check_eviction_time_in_min}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#health_check_eviction_time_in_min WindowsFunctionApp#health_check_eviction_time_in_min}
         /// </remarks>
         [JsiiProperty(name: "healthCheckEvictionTimeInMin", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -210,9 +206,9 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>The path to be checked for this function app health.</summary>
+        /// <summary>The path to be checked for this Function App health.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#health_check_path WindowsFunctionApp#health_check_path}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#health_check_path WindowsFunctionApp#health_check_path}
         /// </remarks>
         [JsiiProperty(name: "healthCheckPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -224,9 +220,9 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>Specifies if the http2 protocol should be enabled. Defaults to `false`.</summary>
+        /// <summary>Whether the http2 protocol should be enabled.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#http2_enabled WindowsFunctionApp#http2_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#http2_enabled WindowsFunctionApp#http2_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "http2Enabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -241,7 +237,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>ip_restriction block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#ip_restriction WindowsFunctionApp#ip_restriction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#ip_restriction WindowsFunctionApp#ip_restriction}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.WindowsFunctionApp.IWindowsFunctionAppSiteConfigIpRestriction" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "ipRestriction", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigIpRestriction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -254,7 +250,7 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#ip_restriction_default_action WindowsFunctionApp#ip_restriction_default_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#ip_restriction_default_action WindowsFunctionApp#ip_restriction_default_action}.</summary>
         [JsiiProperty(name: "ipRestrictionDefaultAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? IpRestrictionDefaultAction
@@ -265,9 +261,9 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>The Site load balancing mode. Possible values include: `WeightedRoundRobin`, `LeastRequests`, `LeastResponseTime`, `WeightedTotalTraffic`, `RequestHash`, `PerSiteRoundRobin`. Defaults to `LeastRequests` if omitted.</summary>
+        /// <summary>The Site load balancing mode.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#load_balancing_mode WindowsFunctionApp#load_balancing_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#load_balancing_mode WindowsFunctionApp#load_balancing_mode}
         /// </remarks>
         [JsiiProperty(name: "loadBalancingMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -279,9 +275,9 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>The Managed Pipeline mode. Possible values include: `Integrated`, `Classic`. Defaults to `Integrated`.</summary>
+        /// <summary>The Managed Pipeline mode.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#managed_pipeline_mode WindowsFunctionApp#managed_pipeline_mode}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#managed_pipeline_mode WindowsFunctionApp#managed_pipeline_mode}
         /// </remarks>
         [JsiiProperty(name: "managedPipelineMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -295,7 +291,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>Configures the minimum TLS cipher suite for the incoming requests to the Site.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#minimum_tls_cipher_suite WindowsFunctionApp#minimum_tls_cipher_suite}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#minimum_tls_cipher_suite WindowsFunctionApp#minimum_tls_cipher_suite}
         /// </remarks>
         [JsiiProperty(name: "minimumTlsCipherSuite", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -309,9 +305,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>The configures the minimum version of TLS required for SSL requests.</summary>
         /// <remarks>
-        /// Possible values include: <c>1.0</c>, <c>1.1</c>, and  <c>1.2</c>. Defaults to <c>1.2</c>.
-        ///
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#minimum_tls_version WindowsFunctionApp#minimum_tls_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#minimum_tls_version WindowsFunctionApp#minimum_tls_version}
         /// </remarks>
         [JsiiProperty(name: "minimumTlsVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -323,9 +317,9 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>The number of pre-warmed instances for this function app. Only affects apps on an Elastic Premium plan.</summary>
+        /// <summary>The number of pre-warmed instances for this Function App. Only affects apps on an Elastic Premium plan.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#pre_warmed_instance_count WindowsFunctionApp#pre_warmed_instance_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#pre_warmed_instance_count WindowsFunctionApp#pre_warmed_instance_count}
         /// </remarks>
         [JsiiProperty(name: "preWarmedInstanceCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -337,9 +331,9 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>Should Remote Debugging be enabled. Defaults to `false`.</summary>
+        /// <summary>Should Remote Debugging be enabled?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#remote_debugging_enabled WindowsFunctionApp#remote_debugging_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#remote_debugging_enabled WindowsFunctionApp#remote_debugging_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "remoteDebuggingEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -352,9 +346,9 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>The Remote Debugging Version. Currently only `VS2022` is supported.</summary>
+        /// <summary>The Remote Debugging Version.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#remote_debugging_version WindowsFunctionApp#remote_debugging_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#remote_debugging_version WindowsFunctionApp#remote_debugging_version}
         /// </remarks>
         [JsiiProperty(name: "remoteDebuggingVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -366,9 +360,9 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>Should Functions Runtime Scale Monitoring be enabled.</summary>
+        /// <summary>Should Functions Runtime Scale Monitoring be enabled?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#runtime_scale_monitoring_enabled WindowsFunctionApp#runtime_scale_monitoring_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#runtime_scale_monitoring_enabled WindowsFunctionApp#runtime_scale_monitoring_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "runtimeScaleMonitoringEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -383,7 +377,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>scm_ip_restriction block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#scm_ip_restriction WindowsFunctionApp#scm_ip_restriction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#scm_ip_restriction WindowsFunctionApp#scm_ip_restriction}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.WindowsFunctionApp.IWindowsFunctionAppSiteConfigScmIpRestriction" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "scmIpRestriction", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigScmIpRestriction\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -396,7 +390,7 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#scm_ip_restriction_default_action WindowsFunctionApp#scm_ip_restriction_default_action}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#scm_ip_restriction_default_action WindowsFunctionApp#scm_ip_restriction_default_action}.</summary>
         [JsiiProperty(name: "scmIpRestrictionDefaultAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ScmIpRestrictionDefaultAction
@@ -407,9 +401,9 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>Configures the minimum version of TLS required for SSL requests to the SCM site Possible values include: `1.0`, `1.1`, `1.2` and  `1.3`. Defaults to `1.2`.</summary>
+        /// <summary>Configures the minimum version of TLS required for SSL requests to the SCM site.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#scm_minimum_tls_version WindowsFunctionApp#scm_minimum_tls_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#scm_minimum_tls_version WindowsFunctionApp#scm_minimum_tls_version}
         /// </remarks>
         [JsiiProperty(name: "scmMinimumTlsVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -421,9 +415,9 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>Should the Windows Function App `ip_restriction` configuration be used for the SCM also.</summary>
+        /// <summary>Should the Windows Function App `ip_restriction` configuration be used for the SCM also?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#scm_use_main_ip_restriction WindowsFunctionApp#scm_use_main_ip_restriction}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#scm_use_main_ip_restriction WindowsFunctionApp#scm_use_main_ip_restriction}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "scmUseMainIpRestriction", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -436,9 +430,9 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>Should the Windows Web App use a 32-bit worker.</summary>
+        /// <summary>Should the Windows Web App use a 32-bit worker?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#use_32_bit_worker WindowsFunctionApp#use_32_bit_worker}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#use_32_bit_worker WindowsFunctionApp#use_32_bit_worker}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "use32BitWorker", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -451,9 +445,9 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>Should all outbound traffic to have Virtual Network Security Groups and User Defined Routes applied? Defaults to `false`.</summary>
+        /// <summary>Should all outbound traffic to have Virtual Network Security Groups and User Defined Routes applied?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#vnet_route_all_enabled WindowsFunctionApp#vnet_route_all_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#vnet_route_all_enabled WindowsFunctionApp#vnet_route_all_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "vnetRouteAllEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -466,9 +460,9 @@ namespace azurerm.WindowsFunctionApp
             }
         }
 
-        /// <summary>Should Web Sockets be enabled. Defaults to `false`.</summary>
+        /// <summary>Should Web Sockets be enabled?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#websockets_enabled WindowsFunctionApp#websockets_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#websockets_enabled WindowsFunctionApp#websockets_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "websocketsEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -483,7 +477,7 @@ namespace azurerm.WindowsFunctionApp
 
         /// <summary>The number of Workers for this Windows Function App.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#worker_count WindowsFunctionApp#worker_count}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#worker_count WindowsFunctionApp#worker_count}
         /// </remarks>
         [JsiiProperty(name: "workerCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -502,9 +496,9 @@ namespace azurerm.WindowsFunctionApp
             {
             }
 
-            /// <summary>If this Windows Web App is Always On enabled. Defaults to `false`.</summary>
+            /// <summary>If this Windows Web App is Always On enabled.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#always_on WindowsFunctionApp#always_on}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#always_on WindowsFunctionApp#always_on}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -516,7 +510,7 @@ namespace azurerm.WindowsFunctionApp
 
             /// <summary>The URL of the API definition that describes this Windows Function App.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#api_definition_url WindowsFunctionApp#api_definition_url}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#api_definition_url WindowsFunctionApp#api_definition_url}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "apiDefinitionUrl", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -527,7 +521,7 @@ namespace azurerm.WindowsFunctionApp
 
             /// <summary>The ID of the API Management API for this Windows Function App.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#api_management_api_id WindowsFunctionApp#api_management_api_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#api_management_api_id WindowsFunctionApp#api_management_api_id}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "apiManagementApiId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -538,7 +532,7 @@ namespace azurerm.WindowsFunctionApp
 
             /// <summary>The program and any arguments used to launch this app via the command line. (Example `node myapp.js`).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#app_command_line WindowsFunctionApp#app_command_line}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#app_command_line WindowsFunctionApp#app_command_line}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "appCommandLine", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -549,7 +543,7 @@ namespace azurerm.WindowsFunctionApp
 
             /// <summary>The Connection String for linking the Windows Function App to Application Insights.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#application_insights_connection_string WindowsFunctionApp#application_insights_connection_string}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#application_insights_connection_string WindowsFunctionApp#application_insights_connection_string}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "applicationInsightsConnectionString", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -560,7 +554,7 @@ namespace azurerm.WindowsFunctionApp
 
             /// <summary>The Instrumentation Key for connecting the Windows Function App to Application Insights.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#application_insights_key WindowsFunctionApp#application_insights_key}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#application_insights_key WindowsFunctionApp#application_insights_key}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "applicationInsightsKey", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -571,7 +565,7 @@ namespace azurerm.WindowsFunctionApp
 
             /// <summary>application_stack block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#application_stack WindowsFunctionApp#application_stack}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#application_stack WindowsFunctionApp#application_stack}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "applicationStack", typeJson: "{\"fqn\":\"azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigApplicationStack\"}", isOptional: true)]
@@ -580,11 +574,11 @@ namespace azurerm.WindowsFunctionApp
                 get => GetInstanceProperty<azurerm.WindowsFunctionApp.IWindowsFunctionAppSiteConfigApplicationStack?>();
             }
 
-            /// <summary>The number of workers this function app can scale out to.</summary>
+            /// <summary>The number of workers this Function App can scale out to.</summary>
             /// <remarks>
             /// Only applicable to apps on the Consumption and Premium plan.
             ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#app_scale_limit WindowsFunctionApp#app_scale_limit}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#app_scale_limit WindowsFunctionApp#app_scale_limit}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "appScaleLimit", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -595,7 +589,7 @@ namespace azurerm.WindowsFunctionApp
 
             /// <summary>app_service_logs block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#app_service_logs WindowsFunctionApp#app_service_logs}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#app_service_logs WindowsFunctionApp#app_service_logs}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "appServiceLogs", typeJson: "{\"fqn\":\"azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigAppServiceLogs\"}", isOptional: true)]
@@ -606,7 +600,7 @@ namespace azurerm.WindowsFunctionApp
 
             /// <summary>cors block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#cors WindowsFunctionApp#cors}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#cors WindowsFunctionApp#cors}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "cors", typeJson: "{\"fqn\":\"azurerm.windowsFunctionApp.WindowsFunctionAppSiteConfigCors\"}", isOptional: true)]
@@ -615,9 +609,9 @@ namespace azurerm.WindowsFunctionApp
                 get => GetInstanceProperty<azurerm.WindowsFunctionApp.IWindowsFunctionAppSiteConfigCors?>();
             }
 
-            /// <summary>Specifies a list of Default Documents for the Windows Web App.</summary>
+            /// <summary>A list of Default Documents for the Windows Web App.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#default_documents WindowsFunctionApp#default_documents}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#default_documents WindowsFunctionApp#default_documents}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "defaultDocuments", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
@@ -628,7 +622,7 @@ namespace azurerm.WindowsFunctionApp
 
             /// <summary>The number of minimum instances for this Windows Function App. Only affects apps on Elastic Premium plans.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#elastic_instance_minimum WindowsFunctionApp#elastic_instance_minimum}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#elastic_instance_minimum WindowsFunctionApp#elastic_instance_minimum}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "elasticInstanceMinimum", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -637,11 +631,9 @@ namespace azurerm.WindowsFunctionApp
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>State of FTP / FTPS service for this function app.</summary>
+            /// <summary>State of FTP / FTPS service for this Function App.</summary>
             /// <remarks>
-            /// Possible values include: <c>AllAllowed</c>, <c>FtpsOnly</c> and <c>Disabled</c>. Defaults to <c>Disabled</c>.
-            ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#ftps_state WindowsFunctionApp#ftps_state}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#ftps_state WindowsFunctionApp#ftps_state}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ftpsState", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -652,9 +644,7 @@ namespace azurerm.WindowsFunctionApp
 
             /// <summary>The amount of time in minutes that a node is unhealthy before being removed from the load balancer.</summary>
             /// <remarks>
-            /// Possible values are between <c>2</c> and <c>10</c>. Only valid in conjunction with <c>health_check_path</c>
-            ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#health_check_eviction_time_in_min WindowsFunctionApp#health_check_eviction_time_in_min}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#health_check_eviction_time_in_min WindowsFunctionApp#health_check_eviction_time_in_min}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "healthCheckEvictionTimeInMin", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -663,9 +653,9 @@ namespace azurerm.WindowsFunctionApp
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>The path to be checked for this function app health.</summary>
+            /// <summary>The path to be checked for this Function App health.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#health_check_path WindowsFunctionApp#health_check_path}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#health_check_path WindowsFunctionApp#health_check_path}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "healthCheckPath", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -674,9 +664,9 @@ namespace azurerm.WindowsFunctionApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Specifies if the http2 protocol should be enabled. Defaults to `false`.</summary>
+            /// <summary>Whether the http2 protocol should be enabled.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#http2_enabled WindowsFunctionApp#http2_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#http2_enabled WindowsFunctionApp#http2_enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -688,7 +678,7 @@ namespace azurerm.WindowsFunctionApp
 
             /// <summary>ip_restriction block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#ip_restriction WindowsFunctionApp#ip_restriction}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#ip_restriction WindowsFunctionApp#ip_restriction}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.WindowsFunctionApp.IWindowsFunctionAppSiteConfigIpRestriction" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -698,7 +688,7 @@ namespace azurerm.WindowsFunctionApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#ip_restriction_default_action WindowsFunctionApp#ip_restriction_default_action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#ip_restriction_default_action WindowsFunctionApp#ip_restriction_default_action}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "ipRestrictionDefaultAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? IpRestrictionDefaultAction
@@ -706,9 +696,9 @@ namespace azurerm.WindowsFunctionApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>The Site load balancing mode. Possible values include: `WeightedRoundRobin`, `LeastRequests`, `LeastResponseTime`, `WeightedTotalTraffic`, `RequestHash`, `PerSiteRoundRobin`. Defaults to `LeastRequests` if omitted.</summary>
+            /// <summary>The Site load balancing mode.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#load_balancing_mode WindowsFunctionApp#load_balancing_mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#load_balancing_mode WindowsFunctionApp#load_balancing_mode}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "loadBalancingMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -717,9 +707,9 @@ namespace azurerm.WindowsFunctionApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>The Managed Pipeline mode. Possible values include: `Integrated`, `Classic`. Defaults to `Integrated`.</summary>
+            /// <summary>The Managed Pipeline mode.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#managed_pipeline_mode WindowsFunctionApp#managed_pipeline_mode}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#managed_pipeline_mode WindowsFunctionApp#managed_pipeline_mode}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "managedPipelineMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -730,7 +720,7 @@ namespace azurerm.WindowsFunctionApp
 
             /// <summary>Configures the minimum TLS cipher suite for the incoming requests to the Site.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#minimum_tls_cipher_suite WindowsFunctionApp#minimum_tls_cipher_suite}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#minimum_tls_cipher_suite WindowsFunctionApp#minimum_tls_cipher_suite}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "minimumTlsCipherSuite", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -741,9 +731,7 @@ namespace azurerm.WindowsFunctionApp
 
             /// <summary>The configures the minimum version of TLS required for SSL requests.</summary>
             /// <remarks>
-            /// Possible values include: <c>1.0</c>, <c>1.1</c>, and  <c>1.2</c>. Defaults to <c>1.2</c>.
-            ///
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#minimum_tls_version WindowsFunctionApp#minimum_tls_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#minimum_tls_version WindowsFunctionApp#minimum_tls_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "minimumTlsVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -752,9 +740,9 @@ namespace azurerm.WindowsFunctionApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>The number of pre-warmed instances for this function app. Only affects apps on an Elastic Premium plan.</summary>
+            /// <summary>The number of pre-warmed instances for this Function App. Only affects apps on an Elastic Premium plan.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#pre_warmed_instance_count WindowsFunctionApp#pre_warmed_instance_count}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#pre_warmed_instance_count WindowsFunctionApp#pre_warmed_instance_count}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "preWarmedInstanceCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
@@ -763,9 +751,9 @@ namespace azurerm.WindowsFunctionApp
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Should Remote Debugging be enabled. Defaults to `false`.</summary>
+            /// <summary>Should Remote Debugging be enabled?</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#remote_debugging_enabled WindowsFunctionApp#remote_debugging_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#remote_debugging_enabled WindowsFunctionApp#remote_debugging_enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -775,9 +763,9 @@ namespace azurerm.WindowsFunctionApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>The Remote Debugging Version. Currently only `VS2022` is supported.</summary>
+            /// <summary>The Remote Debugging Version.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#remote_debugging_version WindowsFunctionApp#remote_debugging_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#remote_debugging_version WindowsFunctionApp#remote_debugging_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "remoteDebuggingVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -786,9 +774,9 @@ namespace azurerm.WindowsFunctionApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Should Functions Runtime Scale Monitoring be enabled.</summary>
+            /// <summary>Should Functions Runtime Scale Monitoring be enabled?</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#runtime_scale_monitoring_enabled WindowsFunctionApp#runtime_scale_monitoring_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#runtime_scale_monitoring_enabled WindowsFunctionApp#runtime_scale_monitoring_enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -800,7 +788,7 @@ namespace azurerm.WindowsFunctionApp
 
             /// <summary>scm_ip_restriction block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#scm_ip_restriction WindowsFunctionApp#scm_ip_restriction}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#scm_ip_restriction WindowsFunctionApp#scm_ip_restriction}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.WindowsFunctionApp.IWindowsFunctionAppSiteConfigScmIpRestriction" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -810,7 +798,7 @@ namespace azurerm.WindowsFunctionApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#scm_ip_restriction_default_action WindowsFunctionApp#scm_ip_restriction_default_action}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#scm_ip_restriction_default_action WindowsFunctionApp#scm_ip_restriction_default_action}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "scmIpRestrictionDefaultAction", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ScmIpRestrictionDefaultAction
@@ -818,9 +806,9 @@ namespace azurerm.WindowsFunctionApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Configures the minimum version of TLS required for SSL requests to the SCM site Possible values include: `1.0`, `1.1`, `1.2` and  `1.3`. Defaults to `1.2`.</summary>
+            /// <summary>Configures the minimum version of TLS required for SSL requests to the SCM site.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#scm_minimum_tls_version WindowsFunctionApp#scm_minimum_tls_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#scm_minimum_tls_version WindowsFunctionApp#scm_minimum_tls_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "scmMinimumTlsVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -829,9 +817,9 @@ namespace azurerm.WindowsFunctionApp
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Should the Windows Function App `ip_restriction` configuration be used for the SCM also.</summary>
+            /// <summary>Should the Windows Function App `ip_restriction` configuration be used for the SCM also?</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#scm_use_main_ip_restriction WindowsFunctionApp#scm_use_main_ip_restriction}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#scm_use_main_ip_restriction WindowsFunctionApp#scm_use_main_ip_restriction}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -841,9 +829,9 @@ namespace azurerm.WindowsFunctionApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Should the Windows Web App use a 32-bit worker.</summary>
+            /// <summary>Should the Windows Web App use a 32-bit worker?</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#use_32_bit_worker WindowsFunctionApp#use_32_bit_worker}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#use_32_bit_worker WindowsFunctionApp#use_32_bit_worker}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -853,9 +841,9 @@ namespace azurerm.WindowsFunctionApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Should all outbound traffic to have Virtual Network Security Groups and User Defined Routes applied? Defaults to `false`.</summary>
+            /// <summary>Should all outbound traffic to have Virtual Network Security Groups and User Defined Routes applied?</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#vnet_route_all_enabled WindowsFunctionApp#vnet_route_all_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#vnet_route_all_enabled WindowsFunctionApp#vnet_route_all_enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -865,9 +853,9 @@ namespace azurerm.WindowsFunctionApp
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Should Web Sockets be enabled. Defaults to `false`.</summary>
+            /// <summary>Should Web Sockets be enabled?</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#websockets_enabled WindowsFunctionApp#websockets_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#websockets_enabled WindowsFunctionApp#websockets_enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]
@@ -879,7 +867,7 @@ namespace azurerm.WindowsFunctionApp
 
             /// <summary>The number of Workers for this Windows Function App.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/windows_function_app#worker_count WindowsFunctionApp#worker_count}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/windows_function_app#worker_count WindowsFunctionApp#worker_count}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "workerCount", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]

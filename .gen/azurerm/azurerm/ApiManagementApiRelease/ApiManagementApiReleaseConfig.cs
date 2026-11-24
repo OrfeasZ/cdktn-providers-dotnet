@@ -9,7 +9,10 @@ namespace azurerm.ApiManagementApiRelease
     [JsiiByValue(fqn: "azurerm.apiManagementApiRelease.ApiManagementApiReleaseConfig")]
     public class ApiManagementApiReleaseConfig : azurerm.ApiManagementApiRelease.IApiManagementApiReleaseConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_release#api_id ApiManagementApiRelease#api_id}.</summary>
+        /// <summary>The ID of the API Management API.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_release#api_id ApiManagementApiRelease#api_id}
+        /// </remarks>
         [JsiiProperty(name: "apiId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiId
         {
@@ -17,7 +20,10 @@ namespace azurerm.ApiManagementApiRelease
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_release#name ApiManagementApiRelease#name}.</summary>
+        /// <summary>The name which should be used for this API Management API Release.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_release#name ApiManagementApiRelease#name}
+        /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +31,7 @@ namespace azurerm.ApiManagementApiRelease
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_release#id ApiManagementApiRelease#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_release#id ApiManagementApiRelease#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -38,7 +44,10 @@ namespace azurerm.ApiManagementApiRelease
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_release#notes ApiManagementApiRelease#notes}.</summary>
+        /// <summary>The Release Notes.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_release#notes ApiManagementApiRelease#notes}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "notes", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Notes
@@ -49,7 +58,7 @@ namespace azurerm.ApiManagementApiRelease
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_api_release#timeouts ApiManagementApiRelease#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_api_release#timeouts ApiManagementApiRelease#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.apiManagementApiRelease.ApiManagementApiReleaseTimeouts\"}", isOptional: true)]

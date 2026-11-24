@@ -7,14 +7,17 @@ namespace azurerm.ApiManagementPolicy
     [JsiiInterface(nativeType: typeof(IApiManagementPolicyConfig), fullyQualifiedName: "azurerm.apiManagementPolicy.ApiManagementPolicyConfig")]
     public interface IApiManagementPolicyConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_policy#api_management_id ApiManagementPolicy#api_management_id}.</summary>
+        /// <summary>The ID of the API Management service.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_policy#api_management_id ApiManagementPolicy#api_management_id}
+        /// </remarks>
         [JsiiProperty(name: "apiManagementId", typeJson: "{\"primitive\":\"string\"}")]
         string ApiManagementId
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_policy#id ApiManagementPolicy#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_policy#id ApiManagementPolicy#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,7 +34,7 @@ namespace azurerm.ApiManagementPolicy
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_policy#timeouts ApiManagementPolicy#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_policy#timeouts ApiManagementPolicy#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.apiManagementPolicy.ApiManagementPolicyTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -43,7 +46,12 @@ namespace azurerm.ApiManagementPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_policy#xml_content ApiManagementPolicy#xml_content}.</summary>
+        /// <summary>The XML Content for this Policy as a string.</summary>
+        /// <remarks>
+        /// An XML file can be used here with Terraform's <a href="https://developer.hashicorp.com/terraform/language/functions/file">file function</a> that is similar to Microsoft's <c>PolicyFilePath</c> option. To integrate frontend and backend services in Azure API Management, utilize the <a href="https://learn.microsoft.com/azure/api-management/set-backend-service-policy"><c>set-backend-service</c></a> policy, specifying the <c>base-url</c> value. Typically, this value corresponds to the <c>url</c> property defined in the <a href="https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/api_management_backend"><c>azurerm_api_management_backend</c></a> configuration.
+        ///
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_policy#xml_content ApiManagementPolicy#xml_content}
+        /// </remarks>
         [JsiiProperty(name: "xmlContent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? XmlContent
@@ -54,7 +62,10 @@ namespace azurerm.ApiManagementPolicy
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_policy#xml_link ApiManagementPolicy#xml_link}.</summary>
+        /// <summary>A link to a Policy XML Document, which must be publicly available.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_policy#xml_link ApiManagementPolicy#xml_link}
+        /// </remarks>
         [JsiiProperty(name: "xmlLink", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? XmlLink
@@ -72,14 +83,17 @@ namespace azurerm.ApiManagementPolicy
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_policy#api_management_id ApiManagementPolicy#api_management_id}.</summary>
+            /// <summary>The ID of the API Management service.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_policy#api_management_id ApiManagementPolicy#api_management_id}
+            /// </remarks>
             [JsiiProperty(name: "apiManagementId", typeJson: "{\"primitive\":\"string\"}")]
             public string ApiManagementId
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_policy#id ApiManagementPolicy#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_policy#id ApiManagementPolicy#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -93,7 +107,7 @@ namespace azurerm.ApiManagementPolicy
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_policy#timeouts ApiManagementPolicy#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_policy#timeouts ApiManagementPolicy#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.apiManagementPolicy.ApiManagementPolicyTimeouts\"}", isOptional: true)]
@@ -102,7 +116,12 @@ namespace azurerm.ApiManagementPolicy
                 get => GetInstanceProperty<azurerm.ApiManagementPolicy.IApiManagementPolicyTimeouts?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_policy#xml_content ApiManagementPolicy#xml_content}.</summary>
+            /// <summary>The XML Content for this Policy as a string.</summary>
+            /// <remarks>
+            /// An XML file can be used here with Terraform's <a href="https://developer.hashicorp.com/terraform/language/functions/file">file function</a> that is similar to Microsoft's <c>PolicyFilePath</c> option. To integrate frontend and backend services in Azure API Management, utilize the <a href="https://learn.microsoft.com/azure/api-management/set-backend-service-policy"><c>set-backend-service</c></a> policy, specifying the <c>base-url</c> value. Typically, this value corresponds to the <c>url</c> property defined in the <a href="https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/api_management_backend"><c>azurerm_api_management_backend</c></a> configuration.
+            ///
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_policy#xml_content ApiManagementPolicy#xml_content}
+            /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "xmlContent", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? XmlContent
@@ -110,7 +129,10 @@ namespace azurerm.ApiManagementPolicy
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_policy#xml_link ApiManagementPolicy#xml_link}.</summary>
+            /// <summary>A link to a Policy XML Document, which must be publicly available.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_policy#xml_link ApiManagementPolicy#xml_link}
+            /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "xmlLink", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? XmlLink

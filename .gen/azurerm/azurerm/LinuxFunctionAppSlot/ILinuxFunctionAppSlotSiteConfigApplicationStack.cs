@@ -9,7 +9,7 @@ namespace azurerm.LinuxFunctionAppSlot
     {
         /// <summary>docker block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app_slot#docker LinuxFunctionAppSlot#docker}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app_slot#docker LinuxFunctionAppSlot#docker}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.LinuxFunctionAppSlot.ILinuxFunctionAppSlotSiteConfigApplicationStackDocker" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "docker", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"azurerm.linuxFunctionAppSlot.LinuxFunctionAppSlotSiteConfigApplicationStackDocker\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -22,9 +22,9 @@ namespace azurerm.LinuxFunctionAppSlot
             }
         }
 
-        /// <summary>The version of .Net. Possible values are `3.1`, `6.0`, `7.0`, `8.0` and `9.0`.</summary>
+        /// <summary>The version of .Net.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app_slot#dotnet_version LinuxFunctionAppSlot#dotnet_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app_slot#dotnet_version LinuxFunctionAppSlot#dotnet_version}
         /// </remarks>
         [JsiiProperty(name: "dotnetVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -36,9 +36,9 @@ namespace azurerm.LinuxFunctionAppSlot
             }
         }
 
-        /// <summary>The version of Java to use. Possible values are `8`, `11`, `17`, `21` and `25`.</summary>
+        /// <summary>The version of Java to use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app_slot#java_version LinuxFunctionAppSlot#java_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app_slot#java_version LinuxFunctionAppSlot#java_version}
         /// </remarks>
         [JsiiProperty(name: "javaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -50,9 +50,9 @@ namespace azurerm.LinuxFunctionAppSlot
             }
         }
 
-        /// <summary>The version of Node to use. Possible values include `12`, `14`, `16`, `18`, `20`, `22` and `24`.</summary>
+        /// <summary>The version of Node to use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app_slot#node_version LinuxFunctionAppSlot#node_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app_slot#node_version LinuxFunctionAppSlot#node_version}
         /// </remarks>
         [JsiiProperty(name: "nodeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -64,9 +64,9 @@ namespace azurerm.LinuxFunctionAppSlot
             }
         }
 
-        /// <summary>The version of PowerShell Core to use. Possibles values are `7`, `7.2`, and `7.4`.</summary>
+        /// <summary>The version of PowerShell Core to use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app_slot#powershell_core_version LinuxFunctionAppSlot#powershell_core_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app_slot#powershell_core_version LinuxFunctionAppSlot#powershell_core_version}
         /// </remarks>
         [JsiiProperty(name: "powershellCoreVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -78,9 +78,9 @@ namespace azurerm.LinuxFunctionAppSlot
             }
         }
 
-        /// <summary>The version of Python to use. Possible values include `3.14`, `3.13`, `3.12`, `3.11`, `3.10`, `3.9`, `3.8`, and `3.7`.</summary>
+        /// <summary>The version of Python to use.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app_slot#python_version LinuxFunctionAppSlot#python_version}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app_slot#python_version LinuxFunctionAppSlot#python_version}
         /// </remarks>
         [JsiiProperty(name: "pythonVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -92,7 +92,7 @@ namespace azurerm.LinuxFunctionAppSlot
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app_slot#use_custom_runtime LinuxFunctionAppSlot#use_custom_runtime}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app_slot#use_custom_runtime LinuxFunctionAppSlot#use_custom_runtime}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -106,9 +106,9 @@ namespace azurerm.LinuxFunctionAppSlot
             }
         }
 
-        /// <summary>Should the DotNet process use an isolated runtime. Defaults to `false`.</summary>
+        /// <summary>Should the DotNet process use an isolated runtime?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app_slot#use_dotnet_isolated_runtime LinuxFunctionAppSlot#use_dotnet_isolated_runtime}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app_slot#use_dotnet_isolated_runtime LinuxFunctionAppSlot#use_dotnet_isolated_runtime}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "useDotnetIsolatedRuntime", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -130,7 +130,7 @@ namespace azurerm.LinuxFunctionAppSlot
 
             /// <summary>docker block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app_slot#docker LinuxFunctionAppSlot#docker}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app_slot#docker LinuxFunctionAppSlot#docker}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="azurerm.LinuxFunctionAppSlot.ILinuxFunctionAppSlotSiteConfigApplicationStackDocker" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -140,9 +140,9 @@ namespace azurerm.LinuxFunctionAppSlot
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>The version of .Net. Possible values are `3.1`, `6.0`, `7.0`, `8.0` and `9.0`.</summary>
+            /// <summary>The version of .Net.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app_slot#dotnet_version LinuxFunctionAppSlot#dotnet_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app_slot#dotnet_version LinuxFunctionAppSlot#dotnet_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "dotnetVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -151,9 +151,9 @@ namespace azurerm.LinuxFunctionAppSlot
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>The version of Java to use. Possible values are `8`, `11`, `17`, `21` and `25`.</summary>
+            /// <summary>The version of Java to use.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app_slot#java_version LinuxFunctionAppSlot#java_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app_slot#java_version LinuxFunctionAppSlot#java_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "javaVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -162,9 +162,9 @@ namespace azurerm.LinuxFunctionAppSlot
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>The version of Node to use. Possible values include `12`, `14`, `16`, `18`, `20`, `22` and `24`.</summary>
+            /// <summary>The version of Node to use.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app_slot#node_version LinuxFunctionAppSlot#node_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app_slot#node_version LinuxFunctionAppSlot#node_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "nodeVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -173,9 +173,9 @@ namespace azurerm.LinuxFunctionAppSlot
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>The version of PowerShell Core to use. Possibles values are `7`, `7.2`, and `7.4`.</summary>
+            /// <summary>The version of PowerShell Core to use.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app_slot#powershell_core_version LinuxFunctionAppSlot#powershell_core_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app_slot#powershell_core_version LinuxFunctionAppSlot#powershell_core_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "powershellCoreVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -184,9 +184,9 @@ namespace azurerm.LinuxFunctionAppSlot
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>The version of Python to use. Possible values include `3.14`, `3.13`, `3.12`, `3.11`, `3.10`, `3.9`, `3.8`, and `3.7`.</summary>
+            /// <summary>The version of Python to use.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app_slot#python_version LinuxFunctionAppSlot#python_version}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app_slot#python_version LinuxFunctionAppSlot#python_version}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "pythonVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -195,7 +195,7 @@ namespace azurerm.LinuxFunctionAppSlot
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app_slot#use_custom_runtime LinuxFunctionAppSlot#use_custom_runtime}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app_slot#use_custom_runtime LinuxFunctionAppSlot#use_custom_runtime}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -206,9 +206,9 @@ namespace azurerm.LinuxFunctionAppSlot
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Should the DotNet process use an isolated runtime. Defaults to `false`.</summary>
+            /// <summary>Should the DotNet process use an isolated runtime?</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/linux_function_app_slot#use_dotnet_isolated_runtime LinuxFunctionAppSlot#use_dotnet_isolated_runtime}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/linux_function_app_slot#use_dotnet_isolated_runtime LinuxFunctionAppSlot#use_dotnet_isolated_runtime}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

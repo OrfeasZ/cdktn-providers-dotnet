@@ -9,7 +9,10 @@ namespace azurerm.ApiManagementRedisCache
     [JsiiByValue(fqn: "azurerm.apiManagementRedisCache.ApiManagementRedisCacheConfig")]
     public class ApiManagementRedisCacheConfig : azurerm.ApiManagementRedisCache.IApiManagementRedisCacheConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_redis_cache#api_management_id ApiManagementRedisCache#api_management_id}.</summary>
+        /// <summary>The resource ID of the API Management Service from which to create this external cache.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_redis_cache#api_management_id ApiManagementRedisCache#api_management_id}
+        /// </remarks>
         [JsiiProperty(name: "apiManagementId", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiManagementId
         {
@@ -17,7 +20,10 @@ namespace azurerm.ApiManagementRedisCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_redis_cache#connection_string ApiManagementRedisCache#connection_string}.</summary>
+        /// <summary>The connection string to the Cache for Redis.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_redis_cache#connection_string ApiManagementRedisCache#connection_string}
+        /// </remarks>
         [JsiiProperty(name: "connectionString", typeJson: "{\"primitive\":\"string\"}")]
         public string ConnectionString
         {
@@ -25,7 +31,10 @@ namespace azurerm.ApiManagementRedisCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_redis_cache#name ApiManagementRedisCache#name}.</summary>
+        /// <summary>The name which should be used for this API Management Redis Cache.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_redis_cache#name ApiManagementRedisCache#name}
+        /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -33,7 +42,10 @@ namespace azurerm.ApiManagementRedisCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_redis_cache#cache_location ApiManagementRedisCache#cache_location}.</summary>
+        /// <summary>The location where to use cache from.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_redis_cache#cache_location ApiManagementRedisCache#cache_location}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "cacheLocation", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CacheLocation
@@ -42,7 +54,10 @@ namespace azurerm.ApiManagementRedisCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_redis_cache#description ApiManagementRedisCache#description}.</summary>
+        /// <summary>The description of the API Management Redis Cache.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_redis_cache#description ApiManagementRedisCache#description}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? Description
@@ -51,7 +66,7 @@ namespace azurerm.ApiManagementRedisCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_redis_cache#id ApiManagementRedisCache#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_redis_cache#id ApiManagementRedisCache#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -64,7 +79,10 @@ namespace azurerm.ApiManagementRedisCache
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_redis_cache#redis_cache_id ApiManagementRedisCache#redis_cache_id}.</summary>
+        /// <summary>The resource ID of the Cache for Redis.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_redis_cache#redis_cache_id ApiManagementRedisCache#redis_cache_id}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "redisCacheId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RedisCacheId
@@ -75,7 +93,7 @@ namespace azurerm.ApiManagementRedisCache
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_redis_cache#timeouts ApiManagementRedisCache#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_redis_cache#timeouts ApiManagementRedisCache#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.apiManagementRedisCache.ApiManagementRedisCacheTimeouts\"}", isOptional: true)]

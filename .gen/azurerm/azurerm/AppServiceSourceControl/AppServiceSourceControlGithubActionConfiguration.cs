@@ -9,7 +9,7 @@ namespace azurerm.AppServiceSourceControl
     {
         /// <summary>code_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#code_configuration AppServiceSourceControl#code_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#code_configuration AppServiceSourceControl#code_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "codeConfiguration", typeJson: "{\"fqn\":\"azurerm.appServiceSourceControl.AppServiceSourceControlGithubActionConfigurationCodeConfiguration\"}", isOptional: true)]
@@ -21,7 +21,7 @@ namespace azurerm.AppServiceSourceControl
 
         /// <summary>container_configuration block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#container_configuration AppServiceSourceControl#container_configuration}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#container_configuration AppServiceSourceControl#container_configuration}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "containerConfiguration", typeJson: "{\"fqn\":\"azurerm.appServiceSourceControl.AppServiceSourceControlGithubActionConfigurationContainerConfiguration\"}", isOptional: true)]
@@ -33,9 +33,9 @@ namespace azurerm.AppServiceSourceControl
 
         private object? _generateWorkflowFile;
 
-        /// <summary>Should the service generate the GitHub Action Workflow file. Defaults to `true`.</summary>
+        /// <summary>Should the service generate the GitHub Action Workflow file?</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/app_service_source_control#generate_workflow_file AppServiceSourceControl#generate_workflow_file}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/app_service_source_control#generate_workflow_file AppServiceSourceControl#generate_workflow_file}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiOptional]

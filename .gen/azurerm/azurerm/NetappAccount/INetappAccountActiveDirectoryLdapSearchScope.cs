@@ -7,9 +7,9 @@ namespace azurerm.NetappAccount
     [JsiiInterface(nativeType: typeof(INetappAccountActiveDirectoryLdapSearchScope), fullyQualifiedName: "azurerm.netappAccount.NetappAccountActiveDirectoryLdapSearchScope")]
     public interface INetappAccountActiveDirectoryLdapSearchScope
     {
-        /// <summary>Specifies the group DN, which overrides the base DN for group lookups.</summary>
+        /// <summary>The group DN, which overrides the base DN for group lookups.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/netapp_account#group_dn NetappAccount#group_dn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/netapp_account#group_dn NetappAccount#group_dn}
         /// </remarks>
         [JsiiProperty(name: "groupDn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -21,9 +21,9 @@ namespace azurerm.NetappAccount
             }
         }
 
-        /// <summary>Specifies the custom LDAP search filter to be used when looking up group membership from LDAP server.</summary>
+        /// <summary>The custom LDAP search filter to be used when looking up group membership from LDAP server.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/netapp_account#group_membership_filter NetappAccount#group_membership_filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/netapp_account#group_membership_filter NetappAccount#group_membership_filter}
         /// </remarks>
         [JsiiProperty(name: "groupMembershipFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -35,9 +35,9 @@ namespace azurerm.NetappAccount
             }
         }
 
-        /// <summary>Specifies the user DN, which overrides the base DN for user lookups.</summary>
+        /// <summary>The user DN, which overrides the base DN for user lookups.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/netapp_account#user_dn NetappAccount#user_dn}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/netapp_account#user_dn NetappAccount#user_dn}
         /// </remarks>
         [JsiiProperty(name: "userDn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -56,9 +56,9 @@ namespace azurerm.NetappAccount
             {
             }
 
-            /// <summary>Specifies the group DN, which overrides the base DN for group lookups.</summary>
+            /// <summary>The group DN, which overrides the base DN for group lookups.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/netapp_account#group_dn NetappAccount#group_dn}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/netapp_account#group_dn NetappAccount#group_dn}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "groupDn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -67,9 +67,9 @@ namespace azurerm.NetappAccount
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Specifies the custom LDAP search filter to be used when looking up group membership from LDAP server.</summary>
+            /// <summary>The custom LDAP search filter to be used when looking up group membership from LDAP server.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/netapp_account#group_membership_filter NetappAccount#group_membership_filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/netapp_account#group_membership_filter NetappAccount#group_membership_filter}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "groupMembershipFilter", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -78,9 +78,9 @@ namespace azurerm.NetappAccount
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Specifies the user DN, which overrides the base DN for user lookups.</summary>
+            /// <summary>The user DN, which overrides the base DN for user lookups.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/netapp_account#user_dn NetappAccount#user_dn}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/netapp_account#user_dn NetappAccount#user_dn}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "userDn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

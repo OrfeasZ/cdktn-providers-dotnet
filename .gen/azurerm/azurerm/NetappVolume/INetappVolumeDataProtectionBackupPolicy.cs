@@ -9,7 +9,7 @@ namespace azurerm.NetappVolume
     {
         /// <summary>The ID of the backup policy to associate with this volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/netapp_volume#backup_policy_id NetappVolume#backup_policy_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/netapp_volume#backup_policy_id NetappVolume#backup_policy_id}
         /// </remarks>
         [JsiiProperty(name: "backupPolicyId", typeJson: "{\"primitive\":\"string\"}")]
         string BackupPolicyId
@@ -17,9 +17,9 @@ namespace azurerm.NetappVolume
             get;
         }
 
-        /// <summary>The ID of the backup vault to associate with this volume.</summary>
+        /// <summary>The ID of the Backup Vault to associate with this volume.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/netapp_volume#backup_vault_id NetappVolume#backup_vault_id}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/netapp_volume#backup_vault_id NetappVolume#backup_vault_id}
         /// </remarks>
         [JsiiProperty(name: "backupVaultId", typeJson: "{\"primitive\":\"string\"}")]
         string BackupVaultId
@@ -29,7 +29,7 @@ namespace azurerm.NetappVolume
 
         /// <summary>If set to false, the backup policy will not be enabled on this volume, thus disabling scheduled backups.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/netapp_volume#policy_enabled NetappVolume#policy_enabled}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/netapp_volume#policy_enabled NetappVolume#policy_enabled}
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
         [JsiiProperty(name: "policyEnabled", typeJson: "{\"union\":{\"types\":[{\"primitive\":\"boolean\"},{\"fqn\":\"cdktn.IResolvable\"}]}}", isOptional: true)]
@@ -51,7 +51,7 @@ namespace azurerm.NetappVolume
 
             /// <summary>The ID of the backup policy to associate with this volume.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/netapp_volume#backup_policy_id NetappVolume#backup_policy_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/netapp_volume#backup_policy_id NetappVolume#backup_policy_id}
             /// </remarks>
             [JsiiProperty(name: "backupPolicyId", typeJson: "{\"primitive\":\"string\"}")]
             public string BackupPolicyId
@@ -59,9 +59,9 @@ namespace azurerm.NetappVolume
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>The ID of the backup vault to associate with this volume.</summary>
+            /// <summary>The ID of the Backup Vault to associate with this volume.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/netapp_volume#backup_vault_id NetappVolume#backup_vault_id}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/netapp_volume#backup_vault_id NetappVolume#backup_vault_id}
             /// </remarks>
             [JsiiProperty(name: "backupVaultId", typeJson: "{\"primitive\":\"string\"}")]
             public string BackupVaultId
@@ -71,7 +71,7 @@ namespace azurerm.NetappVolume
 
             /// <summary>If set to false, the backup policy will not be enabled on this volume, thus disabling scheduled backups.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/netapp_volume#policy_enabled NetappVolume#policy_enabled}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/netapp_volume#policy_enabled NetappVolume#policy_enabled}
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
             [JsiiOptional]

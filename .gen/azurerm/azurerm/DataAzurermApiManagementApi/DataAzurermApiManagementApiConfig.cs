@@ -9,7 +9,7 @@ namespace azurerm.DataAzurermApiManagementApi
     [JsiiByValue(fqn: "azurerm.dataAzurermApiManagementApi.DataAzurermApiManagementApiConfig")]
     public class DataAzurermApiManagementApiConfig : azurerm.DataAzurermApiManagementApi.IDataAzurermApiManagementApiConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/data-sources/api_management_api#api_management_name DataAzurermApiManagementApi#api_management_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/data-sources/api_management_api#api_management_name DataAzurermApiManagementApi#api_management_name}.</summary>
         [JsiiProperty(name: "apiManagementName", typeJson: "{\"primitive\":\"string\"}")]
         public string ApiManagementName
         {
@@ -17,7 +17,10 @@ namespace azurerm.DataAzurermApiManagementApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/data-sources/api_management_api#name DataAzurermApiManagementApi#name}.</summary>
+        /// <summary>The name of the API Management API.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/data-sources/api_management_api#name DataAzurermApiManagementApi#name}
+        /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -25,7 +28,7 @@ namespace azurerm.DataAzurermApiManagementApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/data-sources/api_management_api#resource_group_name DataAzurermApiManagementApi#resource_group_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/data-sources/api_management_api#resource_group_name DataAzurermApiManagementApi#resource_group_name}.</summary>
         [JsiiProperty(name: "resourceGroupName", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceGroupName
         {
@@ -33,7 +36,10 @@ namespace azurerm.DataAzurermApiManagementApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/data-sources/api_management_api#revision DataAzurermApiManagementApi#revision}.</summary>
+        /// <summary>The Revision of the API Management API.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/data-sources/api_management_api#revision DataAzurermApiManagementApi#revision}
+        /// </remarks>
         [JsiiProperty(name: "revision", typeJson: "{\"primitive\":\"string\"}")]
         public string Revision
         {
@@ -41,7 +47,7 @@ namespace azurerm.DataAzurermApiManagementApi
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/data-sources/api_management_api#id DataAzurermApiManagementApi#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/data-sources/api_management_api#id DataAzurermApiManagementApi#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -56,7 +62,7 @@ namespace azurerm.DataAzurermApiManagementApi
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/data-sources/api_management_api#timeouts DataAzurermApiManagementApi#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/data-sources/api_management_api#timeouts DataAzurermApiManagementApi#timeouts}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"azurerm.dataAzurermApiManagementApi.DataAzurermApiManagementApiTimeouts\"}", isOptional: true)]

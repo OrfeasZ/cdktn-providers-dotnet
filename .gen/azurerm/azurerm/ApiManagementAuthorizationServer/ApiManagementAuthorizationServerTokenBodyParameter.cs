@@ -9,7 +9,10 @@ namespace azurerm.ApiManagementAuthorizationServer
     [JsiiByValue(fqn: "azurerm.apiManagementAuthorizationServer.ApiManagementAuthorizationServerTokenBodyParameter")]
     public class ApiManagementAuthorizationServerTokenBodyParameter : azurerm.ApiManagementAuthorizationServer.IApiManagementAuthorizationServerTokenBodyParameter
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#name ApiManagementAuthorizationServer#name}.</summary>
+        /// <summary>The Name of the Parameter.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#name ApiManagementAuthorizationServer#name}
+        /// </remarks>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -17,7 +20,10 @@ namespace azurerm.ApiManagementAuthorizationServer
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management_authorization_server#value ApiManagementAuthorizationServer#value}.</summary>
+        /// <summary>The Value of the Parameter.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management_authorization_server#value ApiManagementAuthorizationServer#value}
+        /// </remarks>
         [JsiiProperty(name: "value", typeJson: "{\"primitive\":\"string\"}")]
         public string Value
         {

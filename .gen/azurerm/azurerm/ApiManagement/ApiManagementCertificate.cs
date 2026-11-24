@@ -9,7 +9,10 @@ namespace azurerm.ApiManagement
     [JsiiByValue(fqn: "azurerm.apiManagement.ApiManagementCertificate")]
     public class ApiManagementCertificate : azurerm.ApiManagement.IApiManagementCertificate
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#encoded_certificate ApiManagement#encoded_certificate}.</summary>
+        /// <summary>The Base64 Encoded PFX or Base64 Encoded X.509 Certificate.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#encoded_certificate ApiManagement#encoded_certificate}
+        /// </remarks>
         [JsiiProperty(name: "encodedCertificate", typeJson: "{\"primitive\":\"string\"}")]
         public string EncodedCertificate
         {
@@ -17,7 +20,10 @@ namespace azurerm.ApiManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#store_name ApiManagement#store_name}.</summary>
+        /// <summary>The name of the Certificate Store where this certificate should be stored.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#store_name ApiManagement#store_name}
+        /// </remarks>
         [JsiiProperty(name: "storeName", typeJson: "{\"primitive\":\"string\"}")]
         public string StoreName
         {
@@ -25,7 +31,10 @@ namespace azurerm.ApiManagement
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.14.0/docs/resources/api_management#certificate_password ApiManagement#certificate_password}.</summary>
+        /// <summary>The password for the certificate.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/azurerm/5.15.0/docs/resources/api_management#certificate_password ApiManagement#certificate_password}
+        /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "certificatePassword", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificatePassword
