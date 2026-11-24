@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.Pinpointsmsvoicev2ProtectConfiguration
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/pinpointsmsvoicev2_protect_configuration aws_pinpointsmsvoicev2_protect_configuration}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/pinpointsmsvoicev2_protect_configuration aws_pinpointsmsvoicev2_protect_configuration}.</summary>
     [JsiiClass(nativeType: typeof(aws.Pinpointsmsvoicev2ProtectConfiguration.Pinpointsmsvoicev2ProtectConfiguration), fullyQualifiedName: "aws.pinpointsmsvoicev2ProtectConfiguration.Pinpointsmsvoicev2ProtectConfiguration", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"optional\":true,\"type\":{\"fqn\":\"aws.pinpointsmsvoicev2ProtectConfiguration.Pinpointsmsvoicev2ProtectConfigurationConfig\"}}]")]
     public class Pinpointsmsvoicev2ProtectConfiguration : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/pinpointsmsvoicev2_protect_configuration aws_pinpointsmsvoicev2_protect_configuration} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/pinpointsmsvoicev2_protect_configuration aws_pinpointsmsvoicev2_protect_configuration} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public Pinpointsmsvoicev2ProtectConfiguration(Constructs.Construct scope, string id, aws.Pinpointsmsvoicev2ProtectConfiguration.IPinpointsmsvoicev2ProtectConfigurationConfig? config = null): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace aws.Pinpointsmsvoicev2ProtectConfiguration
         /// <param name="importToId">The construct id used in the generated config for the Pinpointsmsvoicev2ProtectConfiguration to import.</param>
         /// <param name="importFromId">The id of the existing Pinpointsmsvoicev2ProtectConfiguration that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the Pinpointsmsvoicev2ProtectConfiguration to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Pinpointsmsvoicev2ProtectConfiguration to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/pinpointsmsvoicev2_protect_configuration#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Pinpointsmsvoicev2ProtectConfiguration that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Pinpointsmsvoicev2ProtectConfiguration to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the Pinpointsmsvoicev2ProtectConfiguration to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/pinpointsmsvoicev2_protect_configuration#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing Pinpointsmsvoicev2ProtectConfiguration that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the Pinpointsmsvoicev2ProtectConfiguration to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.Pinpointsmsvoicev2ProtectConfiguration.Pinpointsmsvoicev2ProtectConfiguration), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -58,8 +58,20 @@ namespace aws.Pinpointsmsvoicev2ProtectConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetMmsDefaultStatus")]
+        public virtual void ResetMmsDefaultStatus()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetRcsCountryRules")]
         public virtual void ResetRcsCountryRules()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetRcsDefaultStatus")]
+        public virtual void ResetRcsDefaultStatus()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -76,6 +88,12 @@ namespace aws.Pinpointsmsvoicev2ProtectConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetSmsDefaultStatus")]
+        public virtual void ResetSmsDefaultStatus()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetTags")]
         public virtual void ResetTags()
         {
@@ -84,6 +102,12 @@ namespace aws.Pinpointsmsvoicev2ProtectConfiguration
 
         [JsiiMethod(name: "resetVoiceCountryRules")]
         public virtual void ResetVoiceCountryRules()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetVoiceDefaultStatus")]
+        public virtual void ResetVoiceDefaultStatus()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -155,10 +179,24 @@ namespace aws.Pinpointsmsvoicev2ProtectConfiguration
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "mmsDefaultStatusInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? MmsDefaultStatusInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "rcsCountryRulesInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public virtual System.Collections.Generic.IDictionary<string, string>? RcsCountryRulesInput
         {
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "rcsDefaultStatusInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? RcsDefaultStatusInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         [JsiiOptional]
@@ -176,6 +214,13 @@ namespace aws.Pinpointsmsvoicev2ProtectConfiguration
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "smsDefaultStatusInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? SmsDefaultStatusInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "tagsInput", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         public virtual System.Collections.Generic.IDictionary<string, string>? TagsInput
         {
@@ -187,6 +232,13 @@ namespace aws.Pinpointsmsvoicev2ProtectConfiguration
         public virtual System.Collections.Generic.IDictionary<string, string>? VoiceCountryRulesInput
         {
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "voiceDefaultStatusInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? VoiceDefaultStatusInput
+        {
+            get => GetInstanceProperty<string?>();
         }
 
         /// <remarks>
@@ -226,10 +278,24 @@ namespace aws.Pinpointsmsvoicev2ProtectConfiguration
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "mmsDefaultStatus", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string MmsDefaultStatus
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "rcsCountryRules", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public virtual System.Collections.Generic.IDictionary<string, string> RcsCountryRules
         {
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "rcsDefaultStatus", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string RcsDefaultStatus
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
 
@@ -247,6 +313,13 @@ namespace aws.Pinpointsmsvoicev2ProtectConfiguration
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "smsDefaultStatus", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string SmsDefaultStatus
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}")]
         public virtual System.Collections.Generic.IDictionary<string, string> Tags
         {
@@ -258,6 +331,13 @@ namespace aws.Pinpointsmsvoicev2ProtectConfiguration
         public virtual System.Collections.Generic.IDictionary<string, string> VoiceCountryRules
         {
             get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "voiceDefaultStatus", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string VoiceDefaultStatus
+        {
+            get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);
         }
     }

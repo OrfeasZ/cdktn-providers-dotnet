@@ -9,7 +9,7 @@ namespace aws.BedrockGuardrailResourcePolicy
     [JsiiByValue(fqn: "aws.bedrockGuardrailResourcePolicy.BedrockGuardrailResourcePolicyConfig")]
     public class BedrockGuardrailResourcePolicyConfig : aws.BedrockGuardrailResourcePolicy.IBedrockGuardrailResourcePolicyConfig
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrock_guardrail_resource_policy#policy BedrockGuardrailResourcePolicy#policy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/bedrock_guardrail_resource_policy#policy BedrockGuardrailResourcePolicy#policy}.</summary>
         [JsiiProperty(name: "policy", typeJson: "{\"primitive\":\"string\"}")]
         public string Policy
         {
@@ -17,7 +17,7 @@ namespace aws.BedrockGuardrailResourcePolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrock_guardrail_resource_policy#resource_arn BedrockGuardrailResourcePolicy#resource_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/bedrock_guardrail_resource_policy#resource_arn BedrockGuardrailResourcePolicy#resource_arn}.</summary>
         [JsiiProperty(name: "resourceArn", typeJson: "{\"primitive\":\"string\"}")]
         public string ResourceArn
         {
@@ -27,7 +27,7 @@ namespace aws.BedrockGuardrailResourcePolicy
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/bedrock_guardrail_resource_policy#region BedrockGuardrailResourcePolicy#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/bedrock_guardrail_resource_policy#region BedrockGuardrailResourcePolicy#region}
         /// </remarks>
         [JsiiOptional]
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]

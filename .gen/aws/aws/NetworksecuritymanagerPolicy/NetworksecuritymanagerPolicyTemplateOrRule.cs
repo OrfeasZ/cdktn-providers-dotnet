@@ -7,7 +7,7 @@ namespace aws.NetworksecuritymanagerPolicy
     [JsiiByValue(fqn: "aws.networksecuritymanagerPolicy.NetworksecuritymanagerPolicyTemplateOrRule")]
     public class NetworksecuritymanagerPolicyTemplateOrRule : aws.NetworksecuritymanagerPolicy.INetworksecuritymanagerPolicyTemplateOrRule
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/networksecuritymanager_policy#rule_identifier NetworksecuritymanagerPolicy#rule_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/networksecuritymanager_policy#rule_identifier NetworksecuritymanagerPolicy#rule_identifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "ruleIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? RuleIdentifier
@@ -16,7 +16,7 @@ namespace aws.NetworksecuritymanagerPolicy
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/networksecuritymanager_policy#template_identifier NetworksecuritymanagerPolicy#template_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/networksecuritymanager_policy#template_identifier NetworksecuritymanagerPolicy#template_identifier}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "templateIdentifier", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? TemplateIdentifier

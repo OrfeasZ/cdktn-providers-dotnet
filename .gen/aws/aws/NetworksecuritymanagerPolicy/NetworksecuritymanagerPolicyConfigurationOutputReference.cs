@@ -35,6 +35,30 @@ namespace aws.NetworksecuritymanagerPolicy
         {
         }
 
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworksecuritymanagerPolicy.INetworksecuritymanagerPolicyConfigurationIgwFirewallConfig" />)[]</param>
+        [JsiiMethod(name: "putIgwFirewallConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networksecuritymanagerPolicy.NetworksecuritymanagerPolicyConfigurationIgwFirewallConfig\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutIgwFirewallConfig(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.NetworksecuritymanagerPolicy.INetworksecuritymanagerPolicyConfigurationIgwFirewallConfig[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.NetworksecuritymanagerPolicy.INetworksecuritymanagerPolicyConfigurationIgwFirewallConfig).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.NetworksecuritymanagerPolicy.INetworksecuritymanagerPolicyConfigurationIgwFirewallConfig).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
+        }
+
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworksecuritymanagerPolicy.INetworksecuritymanagerPolicyConfigurationWafConfig" />)[]</param>
         [JsiiMethod(name: "putWafConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networksecuritymanagerPolicy.NetworksecuritymanagerPolicyConfigurationWafConfig\"},\"kind\":\"array\"}}]}}}]")]
         public virtual void PutWafConfig(object @value)
@@ -59,16 +83,38 @@ namespace aws.NetworksecuritymanagerPolicy
             InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetIgwFirewallConfig")]
+        public virtual void ResetIgwFirewallConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetWafConfig")]
         public virtual void ResetWafConfig()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "igwFirewallConfig", typeJson: "{\"fqn\":\"aws.networksecuritymanagerPolicy.NetworksecuritymanagerPolicyConfigurationIgwFirewallConfigList\"}")]
+        public virtual aws.NetworksecuritymanagerPolicy.NetworksecuritymanagerPolicyConfigurationIgwFirewallConfigList IgwFirewallConfig
+        {
+            get => GetInstanceProperty<aws.NetworksecuritymanagerPolicy.NetworksecuritymanagerPolicyConfigurationIgwFirewallConfigList>()!;
+        }
+
         [JsiiProperty(name: "wafConfig", typeJson: "{\"fqn\":\"aws.networksecuritymanagerPolicy.NetworksecuritymanagerPolicyConfigurationWafConfigList\"}")]
         public virtual aws.NetworksecuritymanagerPolicy.NetworksecuritymanagerPolicyConfigurationWafConfigList WafConfig
         {
             get => GetInstanceProperty<aws.NetworksecuritymanagerPolicy.NetworksecuritymanagerPolicyConfigurationWafConfigList>()!;
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.NetworksecuritymanagerPolicy.INetworksecuritymanagerPolicyConfigurationIgwFirewallConfig" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "igwFirewallConfigInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.networksecuritymanagerPolicy.NetworksecuritymanagerPolicyConfigurationIgwFirewallConfig\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? IgwFirewallConfigInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>

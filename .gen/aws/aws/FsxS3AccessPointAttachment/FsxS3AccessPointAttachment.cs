@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.FsxS3AccessPointAttachment
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/fsx_s3_access_point_attachment aws_fsx_s3_access_point_attachment}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/fsx_s3_access_point_attachment aws_fsx_s3_access_point_attachment}.</summary>
     [JsiiClass(nativeType: typeof(aws.FsxS3AccessPointAttachment.FsxS3AccessPointAttachment), fullyQualifiedName: "aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachment", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentConfig\"}}]")]
     public class FsxS3AccessPointAttachment : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/fsx_s3_access_point_attachment aws_fsx_s3_access_point_attachment} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/fsx_s3_access_point_attachment aws_fsx_s3_access_point_attachment} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public FsxS3AccessPointAttachment(Constructs.Construct scope, string id, aws.FsxS3AccessPointAttachment.IFsxS3AccessPointAttachmentConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,34 @@ namespace aws.FsxS3AccessPointAttachment
         /// <param name="importToId">The construct id used in the generated config for the FsxS3AccessPointAttachment to import.</param>
         /// <param name="importFromId">The id of the existing FsxS3AccessPointAttachment that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the FsxS3AccessPointAttachment to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the FsxS3AccessPointAttachment to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/fsx_s3_access_point_attachment#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing FsxS3AccessPointAttachment that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the FsxS3AccessPointAttachment to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the FsxS3AccessPointAttachment to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/fsx_s3_access_point_attachment#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing FsxS3AccessPointAttachment that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the FsxS3AccessPointAttachment to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.FsxS3AccessPointAttachment.FsxS3AccessPointAttachment), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxS3AccessPointAttachment.IFsxS3AccessPointAttachmentOntapConfiguration" />)[]</param>
+        [JsiiMethod(name: "putOntapConfiguration", parametersJson: "[{\"name\":\"value\",\"type\":{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOntapConfiguration\"},\"kind\":\"array\"}}]}}}]")]
+        public virtual void PutOntapConfiguration(object @value)
+        {
+            if (Amazon.JSII.Runtime.Configuration.RuntimeTypeChecking)
+            {
+                switch (@value)
+                {
+                    case Io.Cdktn.IResolvable cast_2ed7d7:
+                        break;
+                    case aws.FsxS3AccessPointAttachment.IFsxS3AccessPointAttachmentOntapConfiguration[] cast_2ed7d7:
+                        break;
+                    case Amazon.JSII.Runtime.Deputy.AnonymousObject cast_2ed7d7:
+                        // Not enough information to type-check...
+                        break;
+                    case null:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.FsxS3AccessPointAttachment.IFsxS3AccessPointAttachmentOntapConfiguration).FullName}[]; received null", nameof(@value));
+                    default:
+                        throw new System.ArgumentException($"Expected argument {nameof(@value)} to be one of: {typeof(Io.Cdktn.IResolvable).FullName}, {typeof(aws.FsxS3AccessPointAttachment.IFsxS3AccessPointAttachmentOntapConfiguration).FullName}[]; received {@value.GetType().FullName}", nameof(@value));
+                }
+            }
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(object)}, new object[]{@value});
         }
 
         /// <param name="value">Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxS3AccessPointAttachment.IFsxS3AccessPointAttachmentOpenzfsConfiguration" />)[]</param>
@@ -100,6 +124,12 @@ namespace aws.FsxS3AccessPointAttachment
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.FsxS3AccessPointAttachment.IFsxS3AccessPointAttachmentTimeouts)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetOntapConfiguration")]
+        public virtual void ResetOntapConfiguration()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetOpenzfsConfiguration")]
         public virtual void ResetOpenzfsConfiguration()
         {
@@ -143,6 +173,12 @@ namespace aws.FsxS3AccessPointAttachment
         }
         = GetStaticProperty<string>(typeof(aws.FsxS3AccessPointAttachment.FsxS3AccessPointAttachment))!;
 
+        [JsiiProperty(name: "ontapConfiguration", typeJson: "{\"fqn\":\"aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOntapConfigurationList\"}")]
+        public virtual aws.FsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOntapConfigurationList OntapConfiguration
+        {
+            get => GetInstanceProperty<aws.FsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOntapConfigurationList>()!;
+        }
+
         [JsiiProperty(name: "openzfsConfiguration", typeJson: "{\"fqn\":\"aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenzfsConfigurationList\"}")]
         public virtual aws.FsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOpenzfsConfigurationList OpenzfsConfiguration
         {
@@ -178,6 +214,16 @@ namespace aws.FsxS3AccessPointAttachment
         public virtual string? NameInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        /// <remarks>
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.FsxS3AccessPointAttachment.IFsxS3AccessPointAttachmentOntapConfiguration" />)[]</para>
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "ontapConfigurationInput", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.fsxS3AccessPointAttachment.FsxS3AccessPointAttachmentOntapConfiguration\"},\"kind\":\"array\"}}]}}", isOptional: true)]
+        public virtual object? OntapConfigurationInput
+        {
+            get => GetInstanceProperty<object?>();
         }
 
         /// <remarks>

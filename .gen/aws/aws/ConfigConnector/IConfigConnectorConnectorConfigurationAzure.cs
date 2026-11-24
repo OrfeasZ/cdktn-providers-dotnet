@@ -7,14 +7,14 @@ namespace aws.ConfigConnector
     [JsiiInterface(nativeType: typeof(IConfigConnectorConnectorConfigurationAzure), fullyQualifiedName: "aws.configConnector.ConfigConnectorConnectorConfigurationAzure")]
     public interface IConfigConnectorConnectorConfigurationAzure
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/config_connector#client_identifier ConfigConnector#client_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/config_connector#client_identifier ConfigConnector#client_identifier}.</summary>
         [JsiiProperty(name: "clientIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         string ClientIdentifier
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/config_connector#tenant_identifier ConfigConnector#tenant_identifier}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/config_connector#tenant_identifier ConfigConnector#tenant_identifier}.</summary>
         [JsiiProperty(name: "tenantIdentifier", typeJson: "{\"primitive\":\"string\"}")]
         string TenantIdentifier
         {
@@ -28,14 +28,14 @@ namespace aws.ConfigConnector
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/config_connector#client_identifier ConfigConnector#client_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/config_connector#client_identifier ConfigConnector#client_identifier}.</summary>
             [JsiiProperty(name: "clientIdentifier", typeJson: "{\"primitive\":\"string\"}")]
             public string ClientIdentifier
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/config_connector#tenant_identifier ConfigConnector#tenant_identifier}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/config_connector#tenant_identifier ConfigConnector#tenant_identifier}.</summary>
             [JsiiProperty(name: "tenantIdentifier", typeJson: "{\"primitive\":\"string\"}")]
             public string TenantIdentifier
             {

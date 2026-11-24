@@ -33,8 +33,20 @@ namespace aws.S3BucketObjectLockConfiguration
         {
         }
 
+        [JsiiMethod(name: "putDefaultEventHold", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.s3BucketObjectLockConfiguration.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold\"}}]")]
+        public virtual void PutDefaultEventHold(aws.S3BucketObjectLockConfiguration.IS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.S3BucketObjectLockConfiguration.IS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetDays")]
         public virtual void ResetDays()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetDefaultEventHold")]
+        public virtual void ResetDefaultEventHold()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -51,11 +63,24 @@ namespace aws.S3BucketObjectLockConfiguration
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "defaultEventHold", typeJson: "{\"fqn\":\"aws.s3BucketObjectLockConfiguration.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference\"}")]
+        public virtual aws.S3BucketObjectLockConfiguration.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference DefaultEventHold
+        {
+            get => GetInstanceProperty<aws.S3BucketObjectLockConfiguration.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "daysInput", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         public virtual double? DaysInput
         {
             get => GetInstanceProperty<double?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "defaultEventHoldInput", typeJson: "{\"fqn\":\"aws.s3BucketObjectLockConfiguration.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold\"}", isOptional: true)]
+        public virtual aws.S3BucketObjectLockConfiguration.IS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold? DefaultEventHoldInput
+        {
+            get => GetInstanceProperty<aws.S3BucketObjectLockConfiguration.IS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold?>();
         }
 
         [JsiiOptional]

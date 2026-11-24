@@ -9,7 +9,7 @@ namespace aws.ConfigConnector
     {
         /// <summary>azure block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/config_connector#azure ConfigConnector#azure}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/config_connector#azure ConfigConnector#azure}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConfigConnector.IConfigConnectorConnectorConfigurationAzure" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "azure", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.configConnector.ConfigConnectorConnectorConfigurationAzure\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.ConfigConnector
 
             /// <summary>azure block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/config_connector#azure ConfigConnector#azure}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/config_connector#azure ConfigConnector#azure}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.ConfigConnector.IConfigConnectorConnectorConfigurationAzure" />)[]</para>
             /// </remarks>
             [JsiiOptional]

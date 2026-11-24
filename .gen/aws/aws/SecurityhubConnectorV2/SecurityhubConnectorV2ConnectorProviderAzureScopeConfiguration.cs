@@ -9,7 +9,7 @@ namespace aws.SecurityhubConnectorV2
     [JsiiByValue(fqn: "aws.securityhubConnectorV2.SecurityhubConnectorV2ConnectorProviderAzureScopeConfiguration")]
     public class SecurityhubConnectorV2ConnectorProviderAzureScopeConfiguration : aws.SecurityhubConnectorV2.ISecurityhubConnectorV2ConnectorProviderAzureScopeConfiguration
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/securityhub_connector_v2#scope_type SecurityhubConnectorV2#scope_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/securityhub_connector_v2#scope_type SecurityhubConnectorV2#scope_type}.</summary>
         [JsiiProperty(name: "scopeType", typeJson: "{\"primitive\":\"string\"}")]
         public string ScopeType
         {
@@ -17,7 +17,7 @@ namespace aws.SecurityhubConnectorV2
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/securityhub_connector_v2#scope_values SecurityhubConnectorV2#scope_values}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/securityhub_connector_v2#scope_values SecurityhubConnectorV2#scope_values}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "scopeValues", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         public string[]? ScopeValues

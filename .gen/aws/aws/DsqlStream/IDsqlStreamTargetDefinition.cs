@@ -9,7 +9,7 @@ namespace aws.DsqlStream
     {
         /// <summary>kinesis block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/dsql_stream#kinesis DsqlStream#kinesis}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/dsql_stream#kinesis DsqlStream#kinesis}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DsqlStream.IDsqlStreamTargetDefinitionKinesis" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "kinesis", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"aws.dsqlStream.DsqlStreamTargetDefinitionKinesis\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -31,7 +31,7 @@ namespace aws.DsqlStream
 
             /// <summary>kinesis block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/dsql_stream#kinesis DsqlStream#kinesis}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/dsql_stream#kinesis DsqlStream#kinesis}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="aws.DsqlStream.IDsqlStreamTargetDefinitionKinesis" />)[]</para>
             /// </remarks>
             [JsiiOptional]

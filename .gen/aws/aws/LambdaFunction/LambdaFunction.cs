@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace aws.LambdaFunction
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function aws_lambda_function}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function aws_lambda_function}.</summary>
     [JsiiClass(nativeType: typeof(aws.LambdaFunction.LambdaFunction), fullyQualifiedName: "aws.lambdaFunction.LambdaFunction", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"aws.lambdaFunction.LambdaFunctionConfig\"}}]")]
     public class LambdaFunction : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function aws_lambda_function} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function aws_lambda_function} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public LambdaFunction(Constructs.Construct scope, string id, aws.LambdaFunction.ILambdaFunctionConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,10 +40,16 @@ namespace aws.LambdaFunction
         /// <param name="importToId">The construct id used in the generated config for the LambdaFunction to import.</param>
         /// <param name="importFromId">The id of the existing LambdaFunction that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the LambdaFunction to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the LambdaFunction to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing LambdaFunction that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the LambdaFunction to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the LambdaFunction to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing LambdaFunction that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the LambdaFunction to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(aws.LambdaFunction.LambdaFunction), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
+        }
+
+        [JsiiMethod(name: "putAcceleratorConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.lambdaFunction.LambdaFunctionAcceleratorConfig\"}}]")]
+        public virtual void PutAcceleratorConfig(aws.LambdaFunction.ILambdaFunctionAcceleratorConfig @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.LambdaFunction.ILambdaFunctionAcceleratorConfig)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "putCapacityProviderConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"aws.lambdaFunction.LambdaFunctionCapacityProviderConfig\"}}]")]
@@ -122,6 +128,12 @@ namespace aws.LambdaFunction
         public virtual void PutVpcConfig(aws.LambdaFunction.ILambdaFunctionVpcConfig @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(aws.LambdaFunction.ILambdaFunctionVpcConfig)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "resetAcceleratorConfig")]
+        public virtual void ResetAcceleratorConfig()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
         [JsiiMethod(name: "resetArchitectures")]
@@ -395,6 +407,12 @@ namespace aws.LambdaFunction
         }
         = GetStaticProperty<string>(typeof(aws.LambdaFunction.LambdaFunction))!;
 
+        [JsiiProperty(name: "acceleratorConfig", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionAcceleratorConfigOutputReference\"}")]
+        public virtual aws.LambdaFunction.LambdaFunctionAcceleratorConfigOutputReference AcceleratorConfig
+        {
+            get => GetInstanceProperty<aws.LambdaFunction.LambdaFunctionAcceleratorConfigOutputReference>()!;
+        }
+
         [JsiiProperty(name: "arn", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Arn
         {
@@ -531,6 +549,13 @@ namespace aws.LambdaFunction
         public virtual aws.LambdaFunction.LambdaFunctionVpcConfigOutputReference VpcConfig
         {
             get => GetInstanceProperty<aws.LambdaFunction.LambdaFunctionVpcConfigOutputReference>()!;
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "acceleratorConfigInput", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionAcceleratorConfig\"}", isOptional: true)]
+        public virtual aws.LambdaFunction.ILambdaFunctionAcceleratorConfig? AcceleratorConfigInput
+        {
+            get => GetInstanceProperty<aws.LambdaFunction.ILambdaFunctionAcceleratorConfig?>();
         }
 
         [JsiiOptional]

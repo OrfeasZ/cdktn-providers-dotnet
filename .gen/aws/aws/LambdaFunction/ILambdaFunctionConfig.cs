@@ -7,21 +7,35 @@ namespace aws.LambdaFunction
     [JsiiInterface(nativeType: typeof(ILambdaFunctionConfig), fullyQualifiedName: "aws.lambdaFunction.LambdaFunctionConfig")]
     public interface ILambdaFunctionConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#function_name LambdaFunction#function_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#function_name LambdaFunction#function_name}.</summary>
         [JsiiProperty(name: "functionName", typeJson: "{\"primitive\":\"string\"}")]
         string FunctionName
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#role LambdaFunction#role}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#role LambdaFunction#role}.</summary>
         [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}")]
         string Role
         {
             get;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#architectures LambdaFunction#architectures}.</summary>
+        /// <summary>accelerator_config block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#accelerator_config LambdaFunction#accelerator_config}
+        /// </remarks>
+        [JsiiProperty(name: "acceleratorConfig", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionAcceleratorConfig\"}", isOptional: true)]
+        [Amazon.JSII.Runtime.Deputy.JsiiOptional]
+        aws.LambdaFunction.ILambdaFunctionAcceleratorConfig? AcceleratorConfig
+        {
+            get
+            {
+                return null;
+            }
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#architectures LambdaFunction#architectures}.</summary>
         [JsiiProperty(name: "architectures", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Architectures
@@ -34,7 +48,7 @@ namespace aws.LambdaFunction
 
         /// <summary>capacity_provider_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#capacity_provider_config LambdaFunction#capacity_provider_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#capacity_provider_config LambdaFunction#capacity_provider_config}
         /// </remarks>
         [JsiiProperty(name: "capacityProviderConfig", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionCapacityProviderConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -46,7 +60,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#code_sha256 LambdaFunction#code_sha256}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#code_sha256 LambdaFunction#code_sha256}.</summary>
         [JsiiProperty(name: "codeSha256", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CodeSha256
@@ -57,7 +71,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#code_signing_config_arn LambdaFunction#code_signing_config_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#code_signing_config_arn LambdaFunction#code_signing_config_arn}.</summary>
         [JsiiProperty(name: "codeSigningConfigArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CodeSigningConfigArn
@@ -70,7 +84,7 @@ namespace aws.LambdaFunction
 
         /// <summary>dead_letter_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#dead_letter_config LambdaFunction#dead_letter_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#dead_letter_config LambdaFunction#dead_letter_config}
         /// </remarks>
         [JsiiProperty(name: "deadLetterConfig", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionDeadLetterConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -82,7 +96,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#description LambdaFunction#description}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#description LambdaFunction#description}.</summary>
         [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Description
@@ -95,7 +109,7 @@ namespace aws.LambdaFunction
 
         /// <summary>durable_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#durable_config LambdaFunction#durable_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#durable_config LambdaFunction#durable_config}
         /// </remarks>
         [JsiiProperty(name: "durableConfig", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionDurableConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -109,7 +123,7 @@ namespace aws.LambdaFunction
 
         /// <summary>environment block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#environment LambdaFunction#environment}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#environment LambdaFunction#environment}
         /// </remarks>
         [JsiiProperty(name: "environment", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionEnvironment\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -123,7 +137,7 @@ namespace aws.LambdaFunction
 
         /// <summary>ephemeral_storage block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#ephemeral_storage LambdaFunction#ephemeral_storage}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#ephemeral_storage LambdaFunction#ephemeral_storage}
         /// </remarks>
         [JsiiProperty(name: "ephemeralStorage", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionEphemeralStorage\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -135,7 +149,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#filename LambdaFunction#filename}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#filename LambdaFunction#filename}.</summary>
         [JsiiProperty(name: "filename", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Filename
@@ -148,7 +162,7 @@ namespace aws.LambdaFunction
 
         /// <summary>file_system_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#file_system_config LambdaFunction#file_system_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#file_system_config LambdaFunction#file_system_config}
         /// </remarks>
         [JsiiProperty(name: "fileSystemConfig", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionFileSystemConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -160,7 +174,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#handler LambdaFunction#handler}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#handler LambdaFunction#handler}.</summary>
         [JsiiProperty(name: "handler", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Handler
@@ -171,7 +185,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#id LambdaFunction#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#id LambdaFunction#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -188,7 +202,7 @@ namespace aws.LambdaFunction
 
         /// <summary>image_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#image_config LambdaFunction#image_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#image_config LambdaFunction#image_config}
         /// </remarks>
         [JsiiProperty(name: "imageConfig", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionImageConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -200,7 +214,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#image_uri LambdaFunction#image_uri}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#image_uri LambdaFunction#image_uri}.</summary>
         [JsiiProperty(name: "imageUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ImageUri
@@ -211,7 +225,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#kms_key_arn LambdaFunction#kms_key_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#kms_key_arn LambdaFunction#kms_key_arn}.</summary>
         [JsiiProperty(name: "kmsKeyArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? KmsKeyArn
@@ -222,7 +236,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#layers LambdaFunction#layers}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#layers LambdaFunction#layers}.</summary>
         [JsiiProperty(name: "layers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? Layers
@@ -235,7 +249,7 @@ namespace aws.LambdaFunction
 
         /// <summary>logging_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#logging_config LambdaFunction#logging_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#logging_config LambdaFunction#logging_config}
         /// </remarks>
         [JsiiProperty(name: "loggingConfig", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionLoggingConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -247,7 +261,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#memory_size LambdaFunction#memory_size}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#memory_size LambdaFunction#memory_size}.</summary>
         [JsiiProperty(name: "memorySize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? MemorySize
@@ -258,7 +272,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#package_type LambdaFunction#package_type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#package_type LambdaFunction#package_type}.</summary>
         [JsiiProperty(name: "packageType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PackageType
@@ -269,7 +283,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#publish LambdaFunction#publish}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#publish LambdaFunction#publish}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -283,7 +297,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#publish_to LambdaFunction#publish_to}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#publish_to LambdaFunction#publish_to}.</summary>
         [JsiiProperty(name: "publishTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? PublishTo
@@ -296,7 +310,7 @@ namespace aws.LambdaFunction
 
         /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#region LambdaFunction#region}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#region LambdaFunction#region}
         /// </remarks>
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -308,7 +322,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#replacement_security_group_ids LambdaFunction#replacement_security_group_ids}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#replacement_security_group_ids LambdaFunction#replacement_security_group_ids}.</summary>
         [JsiiProperty(name: "replacementSecurityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string[]? ReplacementSecurityGroupIds
@@ -319,7 +333,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#replace_security_groups_on_destroy LambdaFunction#replace_security_groups_on_destroy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#replace_security_groups_on_destroy LambdaFunction#replace_security_groups_on_destroy}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -333,7 +347,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#reserved_concurrent_executions LambdaFunction#reserved_concurrent_executions}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#reserved_concurrent_executions LambdaFunction#reserved_concurrent_executions}.</summary>
         [JsiiProperty(name: "reservedConcurrentExecutions", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? ReservedConcurrentExecutions
@@ -344,7 +358,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#runtime LambdaFunction#runtime}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#runtime LambdaFunction#runtime}.</summary>
         [JsiiProperty(name: "runtime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? Runtime
@@ -355,7 +369,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#s3_bucket LambdaFunction#s3_bucket}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#s3_bucket LambdaFunction#s3_bucket}.</summary>
         [JsiiProperty(name: "s3Bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? S3Bucket
@@ -366,7 +380,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#s3_key LambdaFunction#s3_key}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#s3_key LambdaFunction#s3_key}.</summary>
         [JsiiProperty(name: "s3Key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? S3Key
@@ -377,7 +391,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#s3_object_version LambdaFunction#s3_object_version}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#s3_object_version LambdaFunction#s3_object_version}.</summary>
         [JsiiProperty(name: "s3ObjectVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? S3ObjectVersion
@@ -388,7 +402,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#skip_destroy LambdaFunction#skip_destroy}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#skip_destroy LambdaFunction#skip_destroy}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -404,7 +418,7 @@ namespace aws.LambdaFunction
 
         /// <summary>snap_start block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#snap_start LambdaFunction#snap_start}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#snap_start LambdaFunction#snap_start}
         /// </remarks>
         [JsiiProperty(name: "snapStart", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionSnapStart\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -416,7 +430,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#source_code_hash LambdaFunction#source_code_hash}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#source_code_hash LambdaFunction#source_code_hash}.</summary>
         [JsiiProperty(name: "sourceCodeHash", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceCodeHash
@@ -427,7 +441,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#source_kms_key_arn LambdaFunction#source_kms_key_arn}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#source_kms_key_arn LambdaFunction#source_kms_key_arn}.</summary>
         [JsiiProperty(name: "sourceKmsKeyArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? SourceKmsKeyArn
@@ -438,7 +452,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#tags LambdaFunction#tags}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#tags LambdaFunction#tags}.</summary>
         [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? Tags
@@ -449,7 +463,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#tags_all LambdaFunction#tags_all}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#tags_all LambdaFunction#tags_all}.</summary>
         [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -462,7 +476,7 @@ namespace aws.LambdaFunction
 
         /// <summary>tenancy_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#tenancy_config LambdaFunction#tenancy_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#tenancy_config LambdaFunction#tenancy_config}
         /// </remarks>
         [JsiiProperty(name: "tenancyConfig", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionTenancyConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -474,7 +488,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#timeout LambdaFunction#timeout}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#timeout LambdaFunction#timeout}.</summary>
         [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         double? Timeout
@@ -487,7 +501,7 @@ namespace aws.LambdaFunction
 
         /// <summary>timeouts block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#timeouts LambdaFunction#timeouts}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#timeouts LambdaFunction#timeouts}
         /// </remarks>
         [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionTimeouts\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -501,7 +515,7 @@ namespace aws.LambdaFunction
 
         /// <summary>tracing_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#tracing_config LambdaFunction#tracing_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#tracing_config LambdaFunction#tracing_config}
         /// </remarks>
         [JsiiProperty(name: "tracingConfig", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionTracingConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -513,7 +527,7 @@ namespace aws.LambdaFunction
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#use_resource_timeout_for_propagation LambdaFunction#use_resource_timeout_for_propagation}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#use_resource_timeout_for_propagation LambdaFunction#use_resource_timeout_for_propagation}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -529,7 +543,7 @@ namespace aws.LambdaFunction
 
         /// <summary>vpc_config block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#vpc_config LambdaFunction#vpc_config}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#vpc_config LambdaFunction#vpc_config}
         /// </remarks>
         [JsiiProperty(name: "vpcConfig", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionVpcConfig\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
@@ -548,21 +562,32 @@ namespace aws.LambdaFunction
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#function_name LambdaFunction#function_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#function_name LambdaFunction#function_name}.</summary>
             [JsiiProperty(name: "functionName", typeJson: "{\"primitive\":\"string\"}")]
             public string FunctionName
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#role LambdaFunction#role}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#role LambdaFunction#role}.</summary>
             [JsiiProperty(name: "role", typeJson: "{\"primitive\":\"string\"}")]
             public string Role
             {
                 get => GetInstanceProperty<string>()!;
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#architectures LambdaFunction#architectures}.</summary>
+            /// <summary>accelerator_config block.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#accelerator_config LambdaFunction#accelerator_config}
+            /// </remarks>
+            [JsiiOptional]
+            [JsiiProperty(name: "acceleratorConfig", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionAcceleratorConfig\"}", isOptional: true)]
+            public aws.LambdaFunction.ILambdaFunctionAcceleratorConfig? AcceleratorConfig
+            {
+                get => GetInstanceProperty<aws.LambdaFunction.ILambdaFunctionAcceleratorConfig?>();
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#architectures LambdaFunction#architectures}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "architectures", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Architectures
@@ -572,7 +597,7 @@ namespace aws.LambdaFunction
 
             /// <summary>capacity_provider_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#capacity_provider_config LambdaFunction#capacity_provider_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#capacity_provider_config LambdaFunction#capacity_provider_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "capacityProviderConfig", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionCapacityProviderConfig\"}", isOptional: true)]
@@ -581,7 +606,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<aws.LambdaFunction.ILambdaFunctionCapacityProviderConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#code_sha256 LambdaFunction#code_sha256}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#code_sha256 LambdaFunction#code_sha256}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "codeSha256", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CodeSha256
@@ -589,7 +614,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#code_signing_config_arn LambdaFunction#code_signing_config_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#code_signing_config_arn LambdaFunction#code_signing_config_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "codeSigningConfigArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CodeSigningConfigArn
@@ -599,7 +624,7 @@ namespace aws.LambdaFunction
 
             /// <summary>dead_letter_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#dead_letter_config LambdaFunction#dead_letter_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#dead_letter_config LambdaFunction#dead_letter_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "deadLetterConfig", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionDeadLetterConfig\"}", isOptional: true)]
@@ -608,7 +633,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<aws.LambdaFunction.ILambdaFunctionDeadLetterConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#description LambdaFunction#description}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#description LambdaFunction#description}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "description", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Description
@@ -618,7 +643,7 @@ namespace aws.LambdaFunction
 
             /// <summary>durable_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#durable_config LambdaFunction#durable_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#durable_config LambdaFunction#durable_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "durableConfig", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionDurableConfig\"}", isOptional: true)]
@@ -629,7 +654,7 @@ namespace aws.LambdaFunction
 
             /// <summary>environment block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#environment LambdaFunction#environment}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#environment LambdaFunction#environment}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "environment", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionEnvironment\"}", isOptional: true)]
@@ -640,7 +665,7 @@ namespace aws.LambdaFunction
 
             /// <summary>ephemeral_storage block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#ephemeral_storage LambdaFunction#ephemeral_storage}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#ephemeral_storage LambdaFunction#ephemeral_storage}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "ephemeralStorage", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionEphemeralStorage\"}", isOptional: true)]
@@ -649,7 +674,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<aws.LambdaFunction.ILambdaFunctionEphemeralStorage?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#filename LambdaFunction#filename}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#filename LambdaFunction#filename}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "filename", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Filename
@@ -659,7 +684,7 @@ namespace aws.LambdaFunction
 
             /// <summary>file_system_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#file_system_config LambdaFunction#file_system_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#file_system_config LambdaFunction#file_system_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "fileSystemConfig", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionFileSystemConfig\"}", isOptional: true)]
@@ -668,7 +693,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<aws.LambdaFunction.ILambdaFunctionFileSystemConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#handler LambdaFunction#handler}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#handler LambdaFunction#handler}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "handler", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Handler
@@ -676,7 +701,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#id LambdaFunction#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#id LambdaFunction#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -690,7 +715,7 @@ namespace aws.LambdaFunction
 
             /// <summary>image_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#image_config LambdaFunction#image_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#image_config LambdaFunction#image_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "imageConfig", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionImageConfig\"}", isOptional: true)]
@@ -699,7 +724,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<aws.LambdaFunction.ILambdaFunctionImageConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#image_uri LambdaFunction#image_uri}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#image_uri LambdaFunction#image_uri}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "imageUri", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ImageUri
@@ -707,7 +732,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#kms_key_arn LambdaFunction#kms_key_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#kms_key_arn LambdaFunction#kms_key_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "kmsKeyArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? KmsKeyArn
@@ -715,7 +740,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#layers LambdaFunction#layers}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#layers LambdaFunction#layers}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "layers", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? Layers
@@ -725,7 +750,7 @@ namespace aws.LambdaFunction
 
             /// <summary>logging_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#logging_config LambdaFunction#logging_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#logging_config LambdaFunction#logging_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "loggingConfig", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionLoggingConfig\"}", isOptional: true)]
@@ -734,7 +759,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<aws.LambdaFunction.ILambdaFunctionLoggingConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#memory_size LambdaFunction#memory_size}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#memory_size LambdaFunction#memory_size}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "memorySize", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? MemorySize
@@ -742,7 +767,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#package_type LambdaFunction#package_type}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#package_type LambdaFunction#package_type}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "packageType", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PackageType
@@ -750,7 +775,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#publish LambdaFunction#publish}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#publish LambdaFunction#publish}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -761,7 +786,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#publish_to LambdaFunction#publish_to}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#publish_to LambdaFunction#publish_to}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "publishTo", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? PublishTo
@@ -771,7 +796,7 @@ namespace aws.LambdaFunction
 
             /// <summary>Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#region LambdaFunction#region}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#region LambdaFunction#region}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
@@ -780,7 +805,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#replacement_security_group_ids LambdaFunction#replacement_security_group_ids}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#replacement_security_group_ids LambdaFunction#replacement_security_group_ids}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "replacementSecurityGroupIds", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"array\"}}", isOptional: true)]
             public string[]? ReplacementSecurityGroupIds
@@ -788,7 +813,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<string[]?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#replace_security_groups_on_destroy LambdaFunction#replace_security_groups_on_destroy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#replace_security_groups_on_destroy LambdaFunction#replace_security_groups_on_destroy}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -799,7 +824,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#reserved_concurrent_executions LambdaFunction#reserved_concurrent_executions}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#reserved_concurrent_executions LambdaFunction#reserved_concurrent_executions}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "reservedConcurrentExecutions", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? ReservedConcurrentExecutions
@@ -807,7 +832,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<double?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#runtime LambdaFunction#runtime}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#runtime LambdaFunction#runtime}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "runtime", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? Runtime
@@ -815,7 +840,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#s3_bucket LambdaFunction#s3_bucket}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#s3_bucket LambdaFunction#s3_bucket}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "s3Bucket", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? S3Bucket
@@ -823,7 +848,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#s3_key LambdaFunction#s3_key}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#s3_key LambdaFunction#s3_key}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "s3Key", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? S3Key
@@ -831,7 +856,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#s3_object_version LambdaFunction#s3_object_version}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#s3_object_version LambdaFunction#s3_object_version}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "s3ObjectVersion", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? S3ObjectVersion
@@ -839,7 +864,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#skip_destroy LambdaFunction#skip_destroy}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#skip_destroy LambdaFunction#skip_destroy}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -852,7 +877,7 @@ namespace aws.LambdaFunction
 
             /// <summary>snap_start block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#snap_start LambdaFunction#snap_start}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#snap_start LambdaFunction#snap_start}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "snapStart", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionSnapStart\"}", isOptional: true)]
@@ -861,7 +886,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<aws.LambdaFunction.ILambdaFunctionSnapStart?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#source_code_hash LambdaFunction#source_code_hash}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#source_code_hash LambdaFunction#source_code_hash}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceCodeHash", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceCodeHash
@@ -869,7 +894,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#source_kms_key_arn LambdaFunction#source_kms_key_arn}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#source_kms_key_arn LambdaFunction#source_kms_key_arn}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "sourceKmsKeyArn", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? SourceKmsKeyArn
@@ -877,7 +902,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#tags LambdaFunction#tags}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#tags LambdaFunction#tags}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tags", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? Tags
@@ -885,7 +910,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<System.Collections.Generic.IDictionary<string, string>?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#tags_all LambdaFunction#tags_all}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#tags_all LambdaFunction#tags_all}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "tagsAll", typeJson: "{\"collection\":{\"elementtype\":{\"primitive\":\"string\"},\"kind\":\"map\"}}", isOptional: true)]
             public System.Collections.Generic.IDictionary<string, string>? TagsAll
@@ -895,7 +920,7 @@ namespace aws.LambdaFunction
 
             /// <summary>tenancy_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#tenancy_config LambdaFunction#tenancy_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#tenancy_config LambdaFunction#tenancy_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tenancyConfig", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionTenancyConfig\"}", isOptional: true)]
@@ -904,7 +929,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<aws.LambdaFunction.ILambdaFunctionTenancyConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#timeout LambdaFunction#timeout}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#timeout LambdaFunction#timeout}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "timeout", typeJson: "{\"primitive\":\"number\"}", isOptional: true)]
             public double? Timeout
@@ -914,7 +939,7 @@ namespace aws.LambdaFunction
 
             /// <summary>timeouts block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#timeouts LambdaFunction#timeouts}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#timeouts LambdaFunction#timeouts}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "timeouts", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionTimeouts\"}", isOptional: true)]
@@ -925,7 +950,7 @@ namespace aws.LambdaFunction
 
             /// <summary>tracing_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#tracing_config LambdaFunction#tracing_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#tracing_config LambdaFunction#tracing_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "tracingConfig", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionTracingConfig\"}", isOptional: true)]
@@ -934,7 +959,7 @@ namespace aws.LambdaFunction
                 get => GetInstanceProperty<aws.LambdaFunction.ILambdaFunctionTracingConfig?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#use_resource_timeout_for_propagation LambdaFunction#use_resource_timeout_for_propagation}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#use_resource_timeout_for_propagation LambdaFunction#use_resource_timeout_for_propagation}.</summary>
             /// <remarks>
             /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
             /// </remarks>
@@ -947,7 +972,7 @@ namespace aws.LambdaFunction
 
             /// <summary>vpc_config block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.73.0/docs/resources/lambda_function#vpc_config LambdaFunction#vpc_config}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.74.0/docs/resources/lambda_function#vpc_config LambdaFunction#vpc_config}
             /// </remarks>
             [JsiiOptional]
             [JsiiProperty(name: "vpcConfig", typeJson: "{\"fqn\":\"aws.lambdaFunction.LambdaFunctionVpcConfig\"}", isOptional: true)]
