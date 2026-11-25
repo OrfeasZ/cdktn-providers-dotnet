@@ -9,7 +9,7 @@ namespace oci.BatchBatchContext
     [JsiiByValue(fqn: "oci.batchBatchContext.BatchBatchContextFleets")]
     public class BatchBatchContextFleets : oci.BatchBatchContext.IBatchBatchContextFleets
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/batch_batch_context#max_concurrent_tasks BatchBatchContext#max_concurrent_tasks}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/batch_batch_context#max_concurrent_tasks BatchBatchContext#max_concurrent_tasks}.</summary>
         [JsiiProperty(name: "maxConcurrentTasks", typeJson: "{\"primitive\":\"number\"}")]
         public double MaxConcurrentTasks
         {
@@ -17,7 +17,7 @@ namespace oci.BatchBatchContext
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/batch_batch_context#name BatchBatchContext#name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/batch_batch_context#name BatchBatchContext#name}.</summary>
         [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
         public string Name
         {
@@ -27,7 +27,7 @@ namespace oci.BatchBatchContext
 
         /// <summary>shape block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/batch_batch_context#shape BatchBatchContext#shape}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/batch_batch_context#shape BatchBatchContext#shape}
         /// </remarks>
         [JsiiProperty(name: "shape", typeJson: "{\"fqn\":\"oci.batchBatchContext.BatchBatchContextFleetsShape\"}")]
         public oci.BatchBatchContext.IBatchBatchContextFleetsShape Shape
@@ -36,9 +36,21 @@ namespace oci.BatchBatchContext
             set;
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/batch_batch_context#type BatchBatchContext#type}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/batch_batch_context#type BatchBatchContext#type}.</summary>
         [JsiiProperty(name: "type", typeJson: "{\"primitive\":\"string\"}")]
         public string Type
+        {
+            get;
+            set;
+        }
+
+        /// <summary>reservation block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/batch_batch_context#reservation BatchBatchContext#reservation}
+        /// </remarks>
+        [JsiiOptional]
+        [JsiiProperty(name: "reservation", typeJson: "{\"fqn\":\"oci.batchBatchContext.BatchBatchContextFleetsReservation\"}", isOptional: true)]
+        public oci.BatchBatchContext.IBatchBatchContextFleetsReservation? Reservation
         {
             get;
             set;

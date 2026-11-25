@@ -7,7 +7,7 @@ namespace oci.DataOciOcvpDatastores
     [JsiiInterface(nativeType: typeof(IDataOciOcvpDatastoresConfig), fullyQualifiedName: "oci.dataOciOcvpDatastores.DataOciOcvpDatastoresConfig")]
     public interface IDataOciOcvpDatastoresConfig : Io.Cdktn.ITerraformMetaArguments
     {
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/data-sources/ocvp_datastores#cluster_id DataOciOcvpDatastores#cluster_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/data-sources/ocvp_datastores#cluster_id DataOciOcvpDatastores#cluster_id}.</summary>
         [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? ClusterId
@@ -18,7 +18,7 @@ namespace oci.DataOciOcvpDatastores
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/data-sources/ocvp_datastores#compartment_id DataOciOcvpDatastores#compartment_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/data-sources/ocvp_datastores#compartment_id DataOciOcvpDatastores#compartment_id}.</summary>
         [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? CompartmentId
@@ -29,7 +29,7 @@ namespace oci.DataOciOcvpDatastores
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/data-sources/ocvp_datastores#datastore_id DataOciOcvpDatastores#datastore_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/data-sources/ocvp_datastores#datastore_id DataOciOcvpDatastores#datastore_id}.</summary>
         [JsiiProperty(name: "datastoreId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DatastoreId
@@ -40,7 +40,7 @@ namespace oci.DataOciOcvpDatastores
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/data-sources/ocvp_datastores#display_name DataOciOcvpDatastores#display_name}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/data-sources/ocvp_datastores#display_name DataOciOcvpDatastores#display_name}.</summary>
         [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? DisplayName
@@ -53,7 +53,7 @@ namespace oci.DataOciOcvpDatastores
 
         /// <summary>filter block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/data-sources/ocvp_datastores#filter DataOciOcvpDatastores#filter}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/data-sources/ocvp_datastores#filter DataOciOcvpDatastores#filter}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOcvpDatastores.IDataOciOcvpDatastoresFilter" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "filter", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.dataOciOcvpDatastores.DataOciOcvpDatastoresFilter\"},\"kind\":\"array\"}}]}}", isOptional: true)]
@@ -66,7 +66,7 @@ namespace oci.DataOciOcvpDatastores
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/data-sources/ocvp_datastores#id DataOciOcvpDatastores#id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/data-sources/ocvp_datastores#id DataOciOcvpDatastores#id}.</summary>
         /// <remarks>
         /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
         /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -81,7 +81,7 @@ namespace oci.DataOciOcvpDatastores
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/data-sources/ocvp_datastores#state DataOciOcvpDatastores#state}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/data-sources/ocvp_datastores#state DataOciOcvpDatastores#state}.</summary>
         [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         [Amazon.JSII.Runtime.Deputy.JsiiOptional]
         string? State
@@ -99,7 +99,7 @@ namespace oci.DataOciOcvpDatastores
             {
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/data-sources/ocvp_datastores#cluster_id DataOciOcvpDatastores#cluster_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/data-sources/ocvp_datastores#cluster_id DataOciOcvpDatastores#cluster_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "clusterId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? ClusterId
@@ -107,7 +107,7 @@ namespace oci.DataOciOcvpDatastores
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/data-sources/ocvp_datastores#compartment_id DataOciOcvpDatastores#compartment_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/data-sources/ocvp_datastores#compartment_id DataOciOcvpDatastores#compartment_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "compartmentId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? CompartmentId
@@ -115,7 +115,7 @@ namespace oci.DataOciOcvpDatastores
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/data-sources/ocvp_datastores#datastore_id DataOciOcvpDatastores#datastore_id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/data-sources/ocvp_datastores#datastore_id DataOciOcvpDatastores#datastore_id}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "datastoreId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DatastoreId
@@ -123,7 +123,7 @@ namespace oci.DataOciOcvpDatastores
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/data-sources/ocvp_datastores#display_name DataOciOcvpDatastores#display_name}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/data-sources/ocvp_datastores#display_name DataOciOcvpDatastores#display_name}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "displayName", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? DisplayName
@@ -133,7 +133,7 @@ namespace oci.DataOciOcvpDatastores
 
             /// <summary>filter block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/data-sources/ocvp_datastores#filter DataOciOcvpDatastores#filter}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/data-sources/ocvp_datastores#filter DataOciOcvpDatastores#filter}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DataOciOcvpDatastores.IDataOciOcvpDatastoresFilter" />)[]</para>
             /// </remarks>
             [JsiiOptional]
@@ -143,7 +143,7 @@ namespace oci.DataOciOcvpDatastores
                 get => GetInstanceProperty<object?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/data-sources/ocvp_datastores#id DataOciOcvpDatastores#id}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/data-sources/ocvp_datastores#id DataOciOcvpDatastores#id}.</summary>
             /// <remarks>
             /// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
             /// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -155,7 +155,7 @@ namespace oci.DataOciOcvpDatastores
                 get => GetInstanceProperty<string?>();
             }
 
-            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/data-sources/ocvp_datastores#state DataOciOcvpDatastores#state}.</summary>
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/data-sources/ocvp_datastores#state DataOciOcvpDatastores#state}.</summary>
             [JsiiOptional]
             [JsiiProperty(name: "state", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
             public string? State

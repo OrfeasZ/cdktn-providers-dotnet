@@ -83,6 +83,18 @@ namespace oci.DataOciGoldenGateConnection
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "properties", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Properties
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "propertiesSecretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PropertiesSecretId
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Region
         {
@@ -121,6 +133,18 @@ namespace oci.DataOciGoldenGateConnection
 
         [JsiiProperty(name: "storageType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string StorageType
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "trustStore", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TrustStore
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "trustStoreSecretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TrustStoreSecretId
         {
             get => GetInstanceProperty<string>()!;
         }

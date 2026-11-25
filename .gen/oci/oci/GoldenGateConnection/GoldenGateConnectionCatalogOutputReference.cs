@@ -33,8 +33,20 @@ namespace oci.GoldenGateConnection
         {
         }
 
+        [JsiiMethod(name: "putCatalogConfig", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.goldenGateConnection.GoldenGateConnectionCatalogCatalogConfig\"}}]")]
+        public virtual void PutCatalogConfig(oci.GoldenGateConnection.IGoldenGateConnectionCatalogCatalogConfig @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.GoldenGateConnection.IGoldenGateConnectionCatalogCatalogConfig)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "resetBranch")]
         public virtual void ResetBranch()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetCatalogConfig")]
+        public virtual void ResetCatalogConfig()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -93,11 +105,24 @@ namespace oci.GoldenGateConnection
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiProperty(name: "catalogConfig", typeJson: "{\"fqn\":\"oci.goldenGateConnection.GoldenGateConnectionCatalogCatalogConfigOutputReference\"}")]
+        public virtual oci.GoldenGateConnection.GoldenGateConnectionCatalogCatalogConfigOutputReference CatalogConfig
+        {
+            get => GetInstanceProperty<oci.GoldenGateConnection.GoldenGateConnectionCatalogCatalogConfigOutputReference>()!;
+        }
+
         [JsiiOptional]
         [JsiiProperty(name: "branchInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? BranchInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "catalogConfigInput", typeJson: "{\"fqn\":\"oci.goldenGateConnection.GoldenGateConnectionCatalogCatalogConfig\"}", isOptional: true)]
+        public virtual oci.GoldenGateConnection.IGoldenGateConnectionCatalogCatalogConfig? CatalogConfigInput
+        {
+            get => GetInstanceProperty<oci.GoldenGateConnection.IGoldenGateConnectionCatalogCatalogConfig?>();
         }
 
         [JsiiOptional]

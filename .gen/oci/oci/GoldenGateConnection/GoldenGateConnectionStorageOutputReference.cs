@@ -81,6 +81,18 @@ namespace oci.GoldenGateConnection
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetProperties")]
+        public virtual void ResetProperties()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetPropertiesSecretId")]
+        public virtual void ResetPropertiesSecretId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetRegion")]
         public virtual void ResetRegion()
         {
@@ -113,6 +125,18 @@ namespace oci.GoldenGateConnection
 
         [JsiiMethod(name: "resetServiceAccountKeyFileSecretId")]
         public virtual void ResetServiceAccountKeyFileSecretId()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTrustStore")]
+        public virtual void ResetTrustStore()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetTrustStoreSecretId")]
+        public virtual void ResetTrustStoreSecretId()
         {
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
@@ -174,6 +198,20 @@ namespace oci.GoldenGateConnection
         }
 
         [JsiiOptional]
+        [JsiiProperty(name: "propertiesInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PropertiesInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "propertiesSecretIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? PropertiesSecretIdInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
         [JsiiProperty(name: "regionInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? RegionInput
         {
@@ -218,6 +256,20 @@ namespace oci.GoldenGateConnection
         [JsiiOptional]
         [JsiiProperty(name: "storageTypeInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public virtual string? StorageTypeInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "trustStoreInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TrustStoreInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "trustStoreSecretIdInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? TrustStoreSecretIdInput
         {
             get => GetInstanceProperty<string?>();
         }
@@ -278,6 +330,20 @@ namespace oci.GoldenGateConnection
             set => SetInstanceProperty(value);
         }
 
+        [JsiiProperty(name: "properties", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string Properties
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "propertiesSecretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string PropertiesSecretId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
         [JsiiProperty(name: "region", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Region
         {
@@ -322,6 +388,20 @@ namespace oci.GoldenGateConnection
 
         [JsiiProperty(name: "storageType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string StorageType
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "trustStore", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TrustStore
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "trustStoreSecretId", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string TrustStoreSecretId
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

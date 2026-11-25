@@ -1,0 +1,96 @@
+using Amazon.JSII.Runtime.Deputy;
+
+#pragma warning disable CS0672,CS0809,CS1591
+
+namespace oci.DistributedDatabaseDistributedAutonomousDatabase
+{
+    [JsiiInterface(nativeType: typeof(IDistributedDatabaseDistributedAutonomousDatabaseSystemRaftClusters), fullyQualifiedName: "oci.distributedDatabaseDistributedAutonomousDatabase.DistributedDatabaseDistributedAutonomousDatabaseSystemRaftClusters")]
+    public interface IDistributedDatabaseDistributedAutonomousDatabaseSystemRaftClusters
+    {
+        /// <summary>databases block.</summary>
+        /// <remarks>
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/distributed_database_distributed_autonomous_database#databases DistributedDatabaseDistributedAutonomousDatabase#databases}
+        /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DistributedDatabaseDistributedAutonomousDatabase.IDistributedDatabaseDistributedAutonomousDatabaseSystemRaftClustersDatabases" />)[]</para>
+        /// </remarks>
+        [JsiiProperty(name: "databases", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.distributedDatabaseDistributedAutonomousDatabase.DistributedDatabaseDistributedAutonomousDatabaseSystemRaftClustersDatabases\"},\"kind\":\"array\"}}]}}")]
+        object Databases
+        {
+            get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/distributed_database_distributed_autonomous_database#name DistributedDatabaseDistributedAutonomousDatabase#name}.</summary>
+        [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+        string Name
+        {
+            get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/distributed_database_distributed_autonomous_database#replication_factor DistributedDatabaseDistributedAutonomousDatabase#replication_factor}.</summary>
+        [JsiiProperty(name: "replicationFactor", typeJson: "{\"primitive\":\"number\"}")]
+        double ReplicationFactor
+        {
+            get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/distributed_database_distributed_autonomous_database#ru_mode DistributedDatabaseDistributedAutonomousDatabase#ru_mode}.</summary>
+        [JsiiProperty(name: "ruMode", typeJson: "{\"primitive\":\"string\"}")]
+        string RuMode
+        {
+            get;
+        }
+
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/distributed_database_distributed_autonomous_database#witness_count DistributedDatabaseDistributedAutonomousDatabase#witness_count}.</summary>
+        [JsiiProperty(name: "witnessCount", typeJson: "{\"primitive\":\"number\"}")]
+        double WitnessCount
+        {
+            get;
+        }
+
+        [JsiiTypeProxy(nativeType: typeof(IDistributedDatabaseDistributedAutonomousDatabaseSystemRaftClusters), fullyQualifiedName: "oci.distributedDatabaseDistributedAutonomousDatabase.DistributedDatabaseDistributedAutonomousDatabaseSystemRaftClusters")]
+        internal sealed class _Proxy : DeputyBase, oci.DistributedDatabaseDistributedAutonomousDatabase.IDistributedDatabaseDistributedAutonomousDatabaseSystemRaftClusters
+        {
+            private _Proxy(ByRefValue reference): base(reference)
+            {
+            }
+
+            /// <summary>databases block.</summary>
+            /// <remarks>
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/distributed_database_distributed_autonomous_database#databases DistributedDatabaseDistributedAutonomousDatabase#databases}
+            /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.DistributedDatabaseDistributedAutonomousDatabase.IDistributedDatabaseDistributedAutonomousDatabaseSystemRaftClustersDatabases" />)[]</para>
+            /// </remarks>
+            [JsiiProperty(name: "databases", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.distributedDatabaseDistributedAutonomousDatabase.DistributedDatabaseDistributedAutonomousDatabaseSystemRaftClustersDatabases\"},\"kind\":\"array\"}}]}}")]
+            public object Databases
+            {
+                get => GetInstanceProperty<object>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/distributed_database_distributed_autonomous_database#name DistributedDatabaseDistributedAutonomousDatabase#name}.</summary>
+            [JsiiProperty(name: "name", typeJson: "{\"primitive\":\"string\"}")]
+            public string Name
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/distributed_database_distributed_autonomous_database#replication_factor DistributedDatabaseDistributedAutonomousDatabase#replication_factor}.</summary>
+            [JsiiProperty(name: "replicationFactor", typeJson: "{\"primitive\":\"number\"}")]
+            public double ReplicationFactor
+            {
+                get => GetInstanceProperty<double>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/distributed_database_distributed_autonomous_database#ru_mode DistributedDatabaseDistributedAutonomousDatabase#ru_mode}.</summary>
+            [JsiiProperty(name: "ruMode", typeJson: "{\"primitive\":\"string\"}")]
+            public string RuMode
+            {
+                get => GetInstanceProperty<string>()!;
+            }
+
+            /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/distributed_database_distributed_autonomous_database#witness_count DistributedDatabaseDistributedAutonomousDatabase#witness_count}.</summary>
+            [JsiiProperty(name: "witnessCount", typeJson: "{\"primitive\":\"number\"}")]
+            public double WitnessCount
+            {
+                get => GetInstanceProperty<double>()!;
+            }
+        }
+    }
+}

@@ -4,11 +4,11 @@ using Amazon.JSII.Runtime.Deputy;
 
 namespace oci.GoldenGateConnection
 {
-    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/golden_gate_connection oci_golden_gate_connection}.</summary>
+    /// <summary>Represents a {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/golden_gate_connection oci_golden_gate_connection}.</summary>
     [JsiiClass(nativeType: typeof(oci.GoldenGateConnection.GoldenGateConnection), fullyQualifiedName: "oci.goldenGateConnection.GoldenGateConnection", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"remarks\":\"Must be unique amongst siblings in the same scope\",\"summary\":\"The scoped construct ID.\"},\"name\":\"id\",\"type\":{\"primitive\":\"string\"}},{\"name\":\"config\",\"type\":{\"fqn\":\"oci.goldenGateConnection.GoldenGateConnectionConfig\"}}]")]
     public class GoldenGateConnection : Io.Cdktn.TerraformResource
     {
-        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/golden_gate_connection oci_golden_gate_connection} Resource.</summary>
+        /// <summary>Create a new {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/golden_gate_connection oci_golden_gate_connection} Resource.</summary>
         /// <param name="scope">The scope in which to define this construct.</param>
         /// <param name="id">The scoped construct ID.</param>
         public GoldenGateConnection(Constructs.Construct scope, string id, oci.GoldenGateConnection.IGoldenGateConnectionConfig config): base(_MakeDeputyProps(scope, id, config))
@@ -40,7 +40,7 @@ namespace oci.GoldenGateConnection
         /// <param name="importToId">The construct id used in the generated config for the GoldenGateConnection to import.</param>
         /// <param name="importFromId">The id of the existing GoldenGateConnection that should be imported.</param>
         /// <param name="provider">? Optional instance of the provider where the GoldenGateConnection to import is found.</param>
-        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the GoldenGateConnection to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/golden_gate_connection#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing GoldenGateConnection that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the GoldenGateConnection to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
+        [JsiiMethod(name: "generateConfigForImport", returnsJson: "{\"type\":{\"fqn\":\"cdktn.ImportableResource\"}}", parametersJson: "[{\"docs\":{\"summary\":\"The scope in which to define this construct.\"},\"name\":\"scope\",\"type\":{\"fqn\":\"constructs.Construct\"}},{\"docs\":{\"summary\":\"The construct id used in the generated config for the GoldenGateConnection to import.\"},\"name\":\"importToId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"remarks\":\"Refer to the {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/golden_gate_connection#import import section} in the documentation of this resource for the id to use\",\"summary\":\"The id of the existing GoldenGateConnection that should be imported.\"},\"name\":\"importFromId\",\"type\":{\"primitive\":\"string\"}},{\"docs\":{\"summary\":\"? Optional instance of the provider where the GoldenGateConnection to import is found.\"},\"name\":\"provider\",\"optional\":true,\"type\":{\"fqn\":\"cdktn.TerraformProvider\"}}]")]
         public static Io.Cdktn.ImportableResource GenerateConfigForImport(Constructs.Construct scope, string importToId, string importFromId, Io.Cdktn.TerraformProvider? provider = null)
         {
             return InvokeStaticMethod<Io.Cdktn.ImportableResource>(typeof(oci.GoldenGateConnection.GoldenGateConnection), new System.Type[]{typeof(Constructs.Construct), typeof(string), typeof(string), typeof(Io.Cdktn.TerraformProvider)}, new object?[]{scope, importToId, importFromId, provider})!;
@@ -146,6 +146,12 @@ namespace oci.GoldenGateConnection
         public virtual void PutTimeouts(oci.GoldenGateConnection.IGoldenGateConnectionTimeouts @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.GoldenGateConnection.IGoldenGateConnectionTimeouts)}, new object[]{@value});
+        }
+
+        [JsiiMethod(name: "putWarehouseStorage", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.goldenGateConnection.GoldenGateConnectionWarehouseStorage\"}}]")]
+        public virtual void PutWarehouseStorage(oci.GoldenGateConnection.IGoldenGateConnectionWarehouseStorage @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.GoldenGateConnection.IGoldenGateConnectionWarehouseStorage)}, new object[]{@value});
         }
 
         [JsiiMethod(name: "resetAccessKeyId")]
@@ -916,6 +922,18 @@ namespace oci.GoldenGateConnection
             InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
         }
 
+        [JsiiMethod(name: "resetWarehouseName")]
+        public virtual void ResetWarehouseName()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
+        [JsiiMethod(name: "resetWarehouseStorage")]
+        public virtual void ResetWarehouseStorage()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiMethod(name: "resetWorkspaceUrl")]
         public virtual void ResetWorkspaceUrl()
         {
@@ -1029,6 +1047,12 @@ namespace oci.GoldenGateConnection
         public virtual string TimeUpdated
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "warehouseStorage", typeJson: "{\"fqn\":\"oci.goldenGateConnection.GoldenGateConnectionWarehouseStorageOutputReference\"}")]
+        public virtual oci.GoldenGateConnection.GoldenGateConnectionWarehouseStorageOutputReference WarehouseStorage
+        {
+            get => GetInstanceProperty<oci.GoldenGateConnection.GoldenGateConnectionWarehouseStorageOutputReference>()!;
         }
 
         [JsiiOptional]
@@ -1983,6 +2007,20 @@ namespace oci.GoldenGateConnection
         public virtual string? WalletSecretIdInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "warehouseNameInput", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
+        public virtual string? WarehouseNameInput
+        {
+            get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "warehouseStorageInput", typeJson: "{\"fqn\":\"oci.goldenGateConnection.GoldenGateConnectionWarehouseStorage\"}", isOptional: true)]
+        public virtual oci.GoldenGateConnection.IGoldenGateConnectionWarehouseStorage? WarehouseStorageInput
+        {
+            get => GetInstanceProperty<oci.GoldenGateConnection.IGoldenGateConnectionWarehouseStorage?>();
         }
 
         [JsiiOptional]
@@ -2993,6 +3031,13 @@ namespace oci.GoldenGateConnection
 
         [JsiiProperty(name: "walletSecretId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string WalletSecretId
+        {
+            get => GetInstanceProperty<string>()!;
+            set => SetInstanceProperty(value);
+        }
+
+        [JsiiProperty(name: "warehouseName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string WarehouseName
         {
             get => GetInstanceProperty<string>()!;
             set => SetInstanceProperty(value);

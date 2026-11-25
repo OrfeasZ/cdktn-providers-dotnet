@@ -11,7 +11,7 @@ namespace oci.DatabaseExadataInfrastructure
     {
         private object _isEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/database_exadata_infrastructure#is_enabled DatabaseExadataInfrastructure#is_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/database_exadata_infrastructure#is_enabled DatabaseExadataInfrastructure#is_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -42,7 +42,7 @@ namespace oci.DatabaseExadataInfrastructure
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/database_exadata_infrastructure#certificate_authority_id DatabaseExadataInfrastructure#certificate_authority_id}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/database_exadata_infrastructure#certificate_authority_id DatabaseExadataInfrastructure#certificate_authority_id}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "certificateAuthorityId", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? CertificateAuthorityId

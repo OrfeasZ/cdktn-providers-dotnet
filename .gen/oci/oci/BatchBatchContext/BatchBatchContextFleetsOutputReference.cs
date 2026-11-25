@@ -35,16 +35,34 @@ namespace oci.BatchBatchContext
         {
         }
 
+        [JsiiMethod(name: "putReservation", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.batchBatchContext.BatchBatchContextFleetsReservation\"}}]")]
+        public virtual void PutReservation(oci.BatchBatchContext.IBatchBatchContextFleetsReservation @value)
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.BatchBatchContext.IBatchBatchContextFleetsReservation)}, new object[]{@value});
+        }
+
         [JsiiMethod(name: "putShape", parametersJson: "[{\"name\":\"value\",\"type\":{\"fqn\":\"oci.batchBatchContext.BatchBatchContextFleetsShape\"}}]")]
         public virtual void PutShape(oci.BatchBatchContext.IBatchBatchContextFleetsShape @value)
         {
             InvokeInstanceVoidMethod(new System.Type[]{typeof(oci.BatchBatchContext.IBatchBatchContextFleetsShape)}, new object[]{@value});
         }
 
+        [JsiiMethod(name: "resetReservation")]
+        public virtual void ResetReservation()
+        {
+            InvokeInstanceVoidMethod(new System.Type[]{}, new object[]{});
+        }
+
         [JsiiProperty(name: "details", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string Details
         {
             get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "reservation", typeJson: "{\"fqn\":\"oci.batchBatchContext.BatchBatchContextFleetsReservationOutputReference\"}")]
+        public virtual oci.BatchBatchContext.BatchBatchContextFleetsReservationOutputReference Reservation
+        {
+            get => GetInstanceProperty<oci.BatchBatchContext.BatchBatchContextFleetsReservationOutputReference>()!;
         }
 
         [JsiiProperty(name: "shape", typeJson: "{\"fqn\":\"oci.batchBatchContext.BatchBatchContextFleetsShapeOutputReference\"}")]
@@ -71,6 +89,13 @@ namespace oci.BatchBatchContext
         public virtual string? NameInput
         {
             get => GetInstanceProperty<string?>();
+        }
+
+        [JsiiOptional]
+        [JsiiProperty(name: "reservationInput", typeJson: "{\"fqn\":\"oci.batchBatchContext.BatchBatchContextFleetsReservation\"}", isOptional: true)]
+        public virtual oci.BatchBatchContext.IBatchBatchContextFleetsReservation? ReservationInput
+        {
+            get => GetInstanceProperty<oci.BatchBatchContext.IBatchBatchContextFleetsReservation?>();
         }
 
         [JsiiOptional]

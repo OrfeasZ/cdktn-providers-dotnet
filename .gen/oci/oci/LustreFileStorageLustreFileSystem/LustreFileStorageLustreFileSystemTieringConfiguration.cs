@@ -9,7 +9,7 @@ namespace oci.LustreFileStorageLustreFileSystem
     {
         private object? _isEnabled;
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/lustre_file_storage_lustre_file_system#is_enabled LustreFileStorageLustreFileSystem#is_enabled}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/lustre_file_storage_lustre_file_system#is_enabled LustreFileStorageLustreFileSystem#is_enabled}.</summary>
         /// <remarks>
         /// <para>Type union: either bool or <see cref="Io.Cdktn.IResolvable" /></para>
         /// </remarks>
@@ -41,7 +41,7 @@ namespace oci.LustreFileStorageLustreFileSystem
             }
         }
 
-        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/lustre_file_storage_lustre_file_system#policy_mode LustreFileStorageLustreFileSystem#policy_mode}.</summary>
+        /// <summary>Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/lustre_file_storage_lustre_file_system#policy_mode LustreFileStorageLustreFileSystem#policy_mode}.</summary>
         [JsiiOptional]
         [JsiiProperty(name: "policyMode", typeJson: "{\"primitive\":\"string\"}", isOptional: true)]
         public string? PolicyMode
@@ -54,7 +54,7 @@ namespace oci.LustreFileStorageLustreFileSystem
 
         /// <summary>rules block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/lustre_file_storage_lustre_file_system#rules LustreFileStorageLustreFileSystem#rules}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/lustre_file_storage_lustre_file_system#rules LustreFileStorageLustreFileSystem#rules}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.LustreFileStorageLustreFileSystem.ILustreFileStorageLustreFileSystemTieringConfigurationRules" />)[]</para>
         /// </remarks>
         [JsiiOptional]

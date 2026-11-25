@@ -95,6 +95,12 @@ namespace oci.DataOciCoreInstancePools
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "instanceMaintenancePolicy", typeJson: "{\"fqn\":\"oci.dataOciCoreInstancePools.DataOciCoreInstancePoolsInstancePoolsInstanceMaintenancePolicyList\"}")]
+        public virtual oci.DataOciCoreInstancePools.DataOciCoreInstancePoolsInstancePoolsInstanceMaintenancePolicyList InstanceMaintenancePolicy
+        {
+            get => GetInstanceProperty<oci.DataOciCoreInstancePools.DataOciCoreInstancePoolsInstancePoolsInstanceMaintenancePolicyList>()!;
+        }
+
         [JsiiProperty(name: "lifecycleManagement", typeJson: "{\"fqn\":\"oci.dataOciCoreInstancePools.DataOciCoreInstancePoolsInstancePoolsLifecycleManagementList\"}")]
         public virtual oci.DataOciCoreInstancePools.DataOciCoreInstancePoolsInstancePoolsLifecycleManagementList LifecycleManagement
         {

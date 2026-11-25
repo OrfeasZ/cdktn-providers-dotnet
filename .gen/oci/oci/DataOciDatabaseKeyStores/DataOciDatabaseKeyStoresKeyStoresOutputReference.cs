@@ -35,6 +35,18 @@ namespace oci.DataOciDatabaseKeyStores
         {
         }
 
+        [JsiiProperty(name: "associatedAutonomousVmClusters", typeJson: "{\"fqn\":\"oci.dataOciDatabaseKeyStores.DataOciDatabaseKeyStoresKeyStoresAssociatedAutonomousVmClustersList\"}")]
+        public virtual oci.DataOciDatabaseKeyStores.DataOciDatabaseKeyStoresKeyStoresAssociatedAutonomousVmClustersList AssociatedAutonomousVmClusters
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseKeyStores.DataOciDatabaseKeyStoresKeyStoresAssociatedAutonomousVmClustersList>()!;
+        }
+
+        [JsiiProperty(name: "associatedCloudAutonomousVmClusters", typeJson: "{\"fqn\":\"oci.dataOciDatabaseKeyStores.DataOciDatabaseKeyStoresKeyStoresAssociatedCloudAutonomousVmClustersList\"}")]
+        public virtual oci.DataOciDatabaseKeyStores.DataOciDatabaseKeyStoresKeyStoresAssociatedCloudAutonomousVmClustersList AssociatedCloudAutonomousVmClusters
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseKeyStores.DataOciDatabaseKeyStoresKeyStoresAssociatedCloudAutonomousVmClustersList>()!;
+        }
+
         [JsiiProperty(name: "associatedDatabases", typeJson: "{\"fqn\":\"oci.dataOciDatabaseKeyStores.DataOciDatabaseKeyStoresKeyStoresAssociatedDatabasesList\"}")]
         public virtual oci.DataOciDatabaseKeyStores.DataOciDatabaseKeyStoresKeyStoresAssociatedDatabasesList AssociatedDatabases
         {

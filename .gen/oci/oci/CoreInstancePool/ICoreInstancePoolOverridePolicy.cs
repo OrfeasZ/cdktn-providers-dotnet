@@ -9,7 +9,7 @@ namespace oci.CoreInstancePool
     {
         /// <summary>override_statements block.</summary>
         /// <remarks>
-        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/core_instance_pool#override_statements CoreInstancePool#override_statements}
+        /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/core_instance_pool#override_statements CoreInstancePool#override_statements}
         /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstancePool.ICoreInstancePoolOverridePolicyOverrideStatements" />)[]</para>
         /// </remarks>
         [JsiiProperty(name: "overrideStatements", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolOverridePolicyOverrideStatements\"},\"kind\":\"array\"}}]}}")]
@@ -27,7 +27,7 @@ namespace oci.CoreInstancePool
 
             /// <summary>override_statements block.</summary>
             /// <remarks>
-            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/core_instance_pool#override_statements CoreInstancePool#override_statements}
+            /// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/core_instance_pool#override_statements CoreInstancePool#override_statements}
             /// <para>Type union: either <see cref="Io.Cdktn.IResolvable" /> or (<see cref="oci.CoreInstancePool.ICoreInstancePoolOverridePolicyOverrideStatements" />)[]</para>
             /// </remarks>
             [JsiiProperty(name: "overrideStatements", typeJson: "{\"union\":{\"types\":[{\"fqn\":\"cdktn.IResolvable\"},{\"collection\":{\"elementtype\":{\"fqn\":\"oci.coreInstancePool.CoreInstancePoolOverridePolicyOverrideStatements\"},\"kind\":\"array\"}}]}}")]

@@ -41,6 +41,12 @@ namespace oci.DataOciGoldenGateConnection
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "catalogConfig", typeJson: "{\"fqn\":\"oci.dataOciGoldenGateConnection.DataOciGoldenGateConnectionCatalogCatalogConfigList\"}")]
+        public virtual oci.DataOciGoldenGateConnection.DataOciGoldenGateConnectionCatalogCatalogConfigList CatalogConfig
+        {
+            get => GetInstanceProperty<oci.DataOciGoldenGateConnection.DataOciGoldenGateConnectionCatalogCatalogConfigList>()!;
+        }
+
         [JsiiProperty(name: "catalogType", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string CatalogType
         {

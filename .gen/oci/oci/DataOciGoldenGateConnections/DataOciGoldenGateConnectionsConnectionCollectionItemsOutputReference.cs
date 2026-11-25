@@ -863,6 +863,18 @@ namespace oci.DataOciGoldenGateConnections
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "warehouseName", typeJson: "{\"primitive\":\"string\"}")]
+        public virtual string WarehouseName
+        {
+            get => GetInstanceProperty<string>()!;
+        }
+
+        [JsiiProperty(name: "warehouseStorage", typeJson: "{\"fqn\":\"oci.dataOciGoldenGateConnections.DataOciGoldenGateConnectionsConnectionCollectionItemsWarehouseStorageList\"}")]
+        public virtual oci.DataOciGoldenGateConnections.DataOciGoldenGateConnectionsConnectionCollectionItemsWarehouseStorageList WarehouseStorage
+        {
+            get => GetInstanceProperty<oci.DataOciGoldenGateConnections.DataOciGoldenGateConnectionsConnectionCollectionItemsWarehouseStorageList>()!;
+        }
+
         [JsiiProperty(name: "workspaceUrl", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string WorkspaceUrl
         {

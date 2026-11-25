@@ -5,7 +5,7 @@ namespace oci.PssInstance
     /// <remarks>
     /// <h1><c>oci_pss_instance</c></h1>
     ///
-    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.14.0/docs/resources/pss_instance"><c>oci_pss_instance</c></a>.
+    /// Refer to the Terraform Registry for docs: <a href="https://registry.terraform.io/providers/oracle/oci/9.15.0/docs/resources/pss_instance"><c>oci_pss_instance</c></a>.
     /// </remarks>
     [System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]
     public class NamespaceDoc

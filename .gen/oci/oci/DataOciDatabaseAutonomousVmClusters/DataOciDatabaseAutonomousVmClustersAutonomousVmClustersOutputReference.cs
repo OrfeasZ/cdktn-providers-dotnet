@@ -185,6 +185,12 @@ namespace oci.DataOciDatabaseAutonomousVmClusters
             get => GetInstanceProperty<Io.Cdktn.IResolvable>()!;
         }
 
+        [JsiiProperty(name: "keyManagementSystemDetails", typeJson: "{\"fqn\":\"oci.dataOciDatabaseAutonomousVmClusters.DataOciDatabaseAutonomousVmClustersAutonomousVmClustersKeyManagementSystemDetailsList\"}")]
+        public virtual oci.DataOciDatabaseAutonomousVmClusters.DataOciDatabaseAutonomousVmClustersAutonomousVmClustersKeyManagementSystemDetailsList KeyManagementSystemDetails
+        {
+            get => GetInstanceProperty<oci.DataOciDatabaseAutonomousVmClusters.DataOciDatabaseAutonomousVmClustersAutonomousVmClustersKeyManagementSystemDetailsList>()!;
+        }
+
         [JsiiProperty(name: "lastMaintenanceRunId", typeJson: "{\"primitive\":\"string\"}")]
         public virtual string LastMaintenanceRunId
         {

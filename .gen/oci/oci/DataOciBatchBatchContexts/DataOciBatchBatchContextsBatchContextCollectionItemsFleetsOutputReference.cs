@@ -53,6 +53,12 @@ namespace oci.DataOciBatchBatchContexts
             get => GetInstanceProperty<string>()!;
         }
 
+        [JsiiProperty(name: "reservation", typeJson: "{\"fqn\":\"oci.dataOciBatchBatchContexts.DataOciBatchBatchContextsBatchContextCollectionItemsFleetsReservationList\"}")]
+        public virtual oci.DataOciBatchBatchContexts.DataOciBatchBatchContextsBatchContextCollectionItemsFleetsReservationList Reservation
+        {
+            get => GetInstanceProperty<oci.DataOciBatchBatchContexts.DataOciBatchBatchContextsBatchContextCollectionItemsFleetsReservationList>()!;
+        }
+
         [JsiiProperty(name: "shape", typeJson: "{\"fqn\":\"oci.dataOciBatchBatchContexts.DataOciBatchBatchContextsBatchContextCollectionItemsFleetsShapeList\"}")]
         public virtual oci.DataOciBatchBatchContexts.DataOciBatchBatchContextsBatchContextCollectionItemsFleetsShapeList Shape
         {
